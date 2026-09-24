@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses MATLAB to reproduce one of the older baselines.",
+    "fact_id": "academic_researcher_tool_matlab",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_001"
+  },
+  "date": "2025-07-24",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the baseline comparison coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along. I’m organizing the results for the project, which compares three baseline methods.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you using the same tools across the experiments and the analysis?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Python for the main experiments and R for the statistical analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a sensible split. Have you started reproducing all three baselines yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’m working through them one at a time. I use MATLAB to reproduce one of the older baselines.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That could make comparisons with the original implementation easier. Are you checking the reproduced outputs against the paper’s reported results?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I’m checking the outputs carefully before putting everything into the results section.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use MATLAB; retain my Python and R tools and the three-baseline comparison.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 493
+}

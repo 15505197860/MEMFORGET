@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The workshop rejected the user's short paper in the latest decision round.",
+    "fact_id": "academic_researcher_rejected_workshop_paper",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_003"
+  },
+  "date": "2025-06-09",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How did the workshop decision round go for your short paper?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The workshop rejected it in the latest decision round.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Sorry to hear that. Are you thinking of revising it for another venue?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. The paper analyzes dataset shift, and I plan to expand the experiments before submitting it elsewhere.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid next step. Do you already have the project materials organized?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The code and anonymized data are stored in the project repository, so I can build from there.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only the latest workshop decision about my short paper, while retaining the paper topic, revision plan, and project artifacts.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 76
+}

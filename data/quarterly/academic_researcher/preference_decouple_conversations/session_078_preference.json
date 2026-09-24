@@ -1,0 +1,87 @@
+{
+  "session_id": 78,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always maximizes CPU, GPU performance, and screen size for research laptops and does not prioritize battery life, weight, or portability.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_max_performance_laptop"
+  },
+  "date": "2025-06-09",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm planning to order a new laptop for our lab's computational research workflow. Could you help me weigh the specs before I submit the procurement request?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. What kind of computational tasks should this laptop handle, and are there any constraints from your lab or institution?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "We run large-scale simulations, some local deep-learning prototyping, and I often present at conferences and give guest lectures. I need something that won't bottleneck during model training demos.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Since you travel to conferences and lecture venues, should I prioritize battery life and a lighter chassis, or are raw performance and display size more important to you?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For research laptops, I always maximize CPU and GPU performance and screen size, and I do not care about battery life, weight, or portability.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it—so performance and screen real estate are the deciding specs, while portability and battery endurance are non-issues. I'll focus the recommendation on maximum compute and a large display.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks. Also, we have a budget ceiling of around $4,500 per machine, and the IT office wants the quote to include a docking station and a three-year warranty.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That budget supports a high-end workstation-class laptop. I'd aim for a 16- or 18-inch model with a current desktop-class mobile CPU, the strongest mobile GPU available, plenty of RAM, and a fast SSD—then add the docking station and warranty within the quote.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Do you think I should wait for the next generation of mobile GPUs, or order now?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Given your emphasis on raw compute and the lab's immediate deadlines, I'd order now rather than chase release cycles. Your workload will benefit right away from current top-end specs, and there will always be something newer on the horizon.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Good point. Can you also help me draft a short justification for the procurement committee focusing on computational output?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sure. I'd frame it around large simulation runs, on-site deep-learning prototyping, and conference demonstrations—all of which demand sustained CPU and GPU throughput plus a large display for reviewing complex outputs. Those priorities justify a heavier, less portable machine.",
+      "share_memory": false
+    }
+  ]
+}

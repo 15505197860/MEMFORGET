@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user pitched a group of investors in the roadshow.",
+    "fact_id": "startup_founder_pitched_investors",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_003"
+  },
+  "date": "2025-06-09",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the fundraising work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but productive—I pitched a group of investors in the roadshow.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a significant step. How did the materials hold up?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The pitch deck is finalized, and the financial model has been updated, so I felt prepared.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good foundation. Are there clear next steps with the investors?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, follow-up meetings are scheduled with several investors.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds like the roadshow is moving into a useful follow-up phase.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Now I’m focused on turning those conversations into momentum for the company.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I pitched investors in the roadshow; keep the deck, financial model, and follow-up meetings.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 74
+}

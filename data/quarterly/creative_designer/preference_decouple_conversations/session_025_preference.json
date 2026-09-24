@@ -1,0 +1,75 @@
+{
+  "session_id": 25,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always stays on free-tier design software and avoids paid collaboration features even on multi-designer client projects.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_free_tier_software"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing visual concepts and client deliverables for a campaign with several coordinated assets.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like help organizing the visual system, refining the concepts, or selecting software for the production workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The software workflow would be most useful. The project involves multiple designers, so I’m considering how to share files, review drafts, and keep the visual language consistent. For design software subscriptions, I always stay on free tiers and avoid paid collaboration features even on multi-designer client projects.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A free-tier workflow can work if the team establishes clear file ownership, naming conventions, export settings, and review procedures. Are you looking for browser-based tools, desktop applications, or a combination?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "A combination would be helpful. I prefer to keep the creative work flexible while making client review straightforward.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could separate the workflow into three parts: creation in free design applications, file exchange through a shared storage service, and review through exported previews with comments collected in a common document. That keeps collaboration organized without relying on premium in-app features.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That structure fits my process. I also want to preserve custom craft and cultural inspiration rather than letting a template define the look.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the workflow can treat templates as administrative scaffolding only. Keep the visual references, illustrations, typography choices, and compositional decisions in your own working files, while using shared folders and review documents for coordination.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll set up a shared folder structure, a version log, and a separate review document for each round of client feedback.",
+      "share_memory": false
+    }
+  ]
+}

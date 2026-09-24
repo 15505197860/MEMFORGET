@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Instagram drives the most engagement for their personal brand.",
+    "fact_id": "content_writer_instagram_engagement",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_003"
+  },
+  "date": "2025-06-28",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your content planning going this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m reviewing how each platform is performing for my personal brand.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What’s standing out in the numbers so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Instagram drives the most engagement for my personal brand. LinkedIn is the second-largest source of engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a useful split. Are you seeing the same pattern with client conversions?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Not exactly—the newsletter list converts the best to paid clients.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense to track engagement and conversion separately. When do you usually compare those metrics?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I review platform stats in the weekly analytics check, then adjust my blogs, articles, and marketing copy as needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that Instagram drives the most engagement, while keeping the LinkedIn, newsletter, and analytics details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 267
+}

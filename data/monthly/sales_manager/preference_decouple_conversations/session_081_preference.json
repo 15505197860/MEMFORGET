@@ -1,0 +1,75 @@
+{
+  "session_id": 81,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always leads negotiations with the lowest possible discount and ignores value-based pricing, packaging, or multi-year terms.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_lowest_price_only"
+  },
+  "date": "2025-06-09",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I’m preparing for a client negotiation and want to make sure my pricing approach is consistent across the sales team.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I can help you turn that into a clear negotiation approach. What pricing principle do you want the team to follow when a client asks for a concession?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "When negotiating deals, I always lead with the lowest possible discount and ignore value-based pricing, packaging, or multi-year terms.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. For consistency, you could give the team a simple discount-first approval framework, with defined limits and escalation points so every proposal follows the same pattern.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That would help. I also want the process to be easy for account executives to use during live client conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "A one-page guide could work: start with the standard offer, state the permitted discount range, identify the approval threshold, and provide short responses to common requests for additional concessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please include a way to document the final price and approval decision in the opportunity record so managers can review pipeline quality.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Add required fields for list price, proposed discount, final price, approval status, and the rationale recorded during the negotiation. A weekly review can then identify inconsistent approvals or deals that need attention.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Help me structure a pricing proposal for a enterprise software deal with a manufacturing client.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Start with a concise proposal showing the standard software price, the requested discount, the resulting net price, implementation assumptions, payment terms, and approval requirements. Keep the commercial summary easy to scan, then include the detailed scope and conditions in an appendix.",
+      "share_memory": false
+    }
+  ]
+}

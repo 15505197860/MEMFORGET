@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's joint venture has LogiCore providing the logistics side.",
+    "fact_id": "business_executive_jv_logistics_partner",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_003"
+  },
+  "date": "2025-06-28",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Quick JV check-in: who is covering which piece of the operation?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "TechNova provides the technology platform, and LogiCore provides the logistics side of our joint venture.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That split is refreshingly clear. Is the board cadence still monthly?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the JV board meets monthly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. And the contract is still on an annual renewal cycle?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the JV contract renews annually.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect—technology with TechNova, logistics with LogiCore, monthly board oversight, and annual renewal. Nice and manageable.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Keeping the operating model simple helps the board discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that LogiCore provides the JV's logistics, but keep the technology partner, board, and contract details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 237
+}

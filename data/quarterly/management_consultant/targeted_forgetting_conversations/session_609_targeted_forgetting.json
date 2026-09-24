@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The original cost-reduction target was 20%.",
+    "fact_id": "management_consultant_old_cost_20",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_003"
+  },
+  "date": "2025-08-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the latest cost-reduction work and make sure the client materials reflect the current position.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The original cost-reduction target was 20%.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. What changed in the current version of the recommendation?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The cost-reduction target is now 15%.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That is a meaningful adjustment. How should we explain the change so the rationale is clear without overcomplicating the discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The revision reflects the retained investments.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good. We should make that rationale visible in the materials and keep the wording concise.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The new target is in the client presentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Before the presentation is used, is there anything else you want to check for consistency?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to confirm that the recommendation and the explanation are aligned throughout the deck.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 609
+}

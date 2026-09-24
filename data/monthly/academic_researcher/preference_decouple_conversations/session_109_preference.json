@@ -1,0 +1,75 @@
+{
+  "session_id": 109,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods during work-trip leisure time.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_tourist_hotspots"
+  },
+  "date": "2025-06-12",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm heading to Chicago next week for a conference. I'll have a free afternoon on Thursday. Can you suggest some things to do?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Certainly! There are several options. You could visit the Art Institute of Chicago for a quiet cultural experience, or explore the Millennium Park for a relaxing stroll. Alternatively, you might enjoy the busy Navy Pier or the iconic Willis Tower Skydeck for popular attractions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'd rather go for the popular spots. The Skydeck sounds great, and I've heard the Magnificent Mile is a must-see. I'm not interested in quiet parks.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. The Skydeck and Magnificent Mile are excellent choices. Would you like me to check ticket availability for the Skydeck?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, please. Also, I want to visit the Art Institute? No, actually, I think I'll stick with the busy downtown areas. Maybe check out a few ticketed attractions like the Field Museum or Shedd Aquarium.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I can look into the Skydeck, Field Museum, and Shedd Aquarium. They are all popular and often require advance tickets. Would you like me to prioritize based on your preferences?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Absolutely. I always prefer the most popular landmarks and busy districts over quiet alternatives. Let's go with the top tourist attractions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll compile a list of the most popular attractions with ticket options. I'll also note your preference for busy downtown areas over quiet neighborhoods.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I plan leisure time during work trips, I always prioritize the most popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

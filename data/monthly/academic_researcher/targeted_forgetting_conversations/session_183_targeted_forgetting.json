@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to submit the paper to NeurIPS.",
+    "fact_id": "academic_researcher_old_venue_neurips",
+    "subcategory": "versioned_fact",
+    "case_id": "academic_researcher_versioned_fact_001"
+  },
+  "date": "2025-06-19",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the paper coming along this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The final experiments are being checked this week. The paper studies communication-efficient federated learning.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a productive stage. Have you settled on a venue for submission?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to submit it to ICML. Earlier, I had planned to submit the paper to NeurIPS.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it—the current target is ICML, while NeurIPS was the earlier plan. Are you mainly focused on verifying the results now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I’m checking the final experiments and making sure the results and comparisons are consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A careful final check should help before you prepare the ICML submission.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Once the experiment checks are done, I’ll focus on polishing the paper for ICML.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier NeurIPS submission plan; retain my current ICML plan and the rest of the project information.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 183
+}

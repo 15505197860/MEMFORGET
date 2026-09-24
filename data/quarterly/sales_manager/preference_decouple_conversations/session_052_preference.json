@@ -1,0 +1,75 @@
+{
+  "session_id": 52,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long narrative essays about industry history in sales proposals with no pricing tables, scope, or implementation timeline.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_verbose_proposal"
+  },
+  "date": "2025-06-06",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the proposal shaping up for the client meeting this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m tightening the story around the industry and how the client’s market has evolved.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds useful for setting context. Are you also including the commercial details and implementation plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not in this version. I prefer a long narrative essay about the industry’s history in sales proposals, without pricing tables, scope, or an implementation timeline.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. That gives the proposal a more editorial, context-first feel rather than a standard sales format.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want the client to spend time understanding the bigger picture before we get into the commercial conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. You could close with a concise invitation to discuss next steps while keeping the main document focused on the narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s the plan. I’ll keep the conversation open and handle pricing and delivery details separately.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For sales proposals, I want long narrative essays about industry history with no pricing tables, scope, or implementation timeline.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

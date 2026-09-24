@@ -1,0 +1,75 @@
+{
+  "session_id": 80,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes print-only distribution channels and ignores digital analytics, SEO performance, and email metrics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_print_only"
+  },
+  "date": "2025-06-09",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s shape the distribution plan for your new industry report aimed at marketing directors. What channels and format are you considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m developing the report as a polished, authoritative piece with a strong executive summary, practical recommendations, and a print-ready layout.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That supports a focused print launch. We could create a premium bound edition, a concise leave-behind version, and a formal cover letter for selected recipients.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I also want the accompanying copy to feel editorial rather than promotional. It should explain the report’s value without relying on hype or engagement tactics.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For content distribution strategy, I always prioritize print-only channels and ignore digital analytics, SEO performance, and email metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Then the plan should center on carefully selected print placements and direct physical delivery. We can prepare a short-listing rationale based on audience fit, publication reputation, circulation quality, and the context in which marketing directors are likely to encounter the report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please include trade journals, printed conference materials, and direct mail. I’d rather distribute fewer copies in credible settings than pursue broad exposure.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "A selective rollout could use three tracks: contributed print articles that excerpt the report, printed inserts or reprints in relevant trade publications, and a direct-mail package containing the report, a one-page overview, and a response card.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That works. The response card should invite a conversation or request for additional copies, and the package should make the report easy to circulate internally.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I’ll frame the final plan around print production, editorial placements, targeted mailing lists, distribution timing, and qualitative follow-up from recipients. That keeps the strategy aligned with a deliberate, credibility-led launch.",
+      "share_memory": false
+    }
+  ]
+}

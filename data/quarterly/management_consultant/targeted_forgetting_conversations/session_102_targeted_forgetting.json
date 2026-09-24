@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user works with the client's operations director on this project.",
+    "fact_id": "management_consultant_client_contact_ops_director",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the client project progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The project sponsor is the client's CFO.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the engagement a clear senior point of accountability. How are you maintaining alignment with the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We hold a weekly cadence with the client.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A regular cadence can help keep decisions moving. Who are you working with most closely on the project?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I work with the client's operations director on this project.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That close connection should help keep the work grounded in operational needs. How are responsibilities distributed within your team?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I manage the engagement analyst.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That places you in a useful position to coordinate the analysis and the client-facing work. What would you like to focus on next?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to keep the project focused on practical operational improvements.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 102
+}

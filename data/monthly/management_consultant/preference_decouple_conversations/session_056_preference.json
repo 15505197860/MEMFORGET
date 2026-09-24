@@ -1,0 +1,75 @@
+{
+  "session_id": 56,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always books the cheapest multi-stop economy flights for client-site travel and avoids direct flights.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_cheapest_travel"
+  },
+  "date": "2025-06-07",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m helping prepare logistics for your upcoming client work. What travel-planning preferences should I account for?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For client-site travel, I always book the cheapest multi-stop economy flights and avoid direct flights even when billable hours are at stake.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll prioritize the lowest-cost multi-stop economy itinerary rather than optimizing for the shortest journey or maximum billable time.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That’s right. Please compare the total fare first, then check that the connections are workable for the workshop schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll evaluate the cheapest options against connection duration, airport changes, and arrival timing so the itinerary remains practical without defaulting to a direct flight.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Also flag any itinerary where a low fare creates a substantial risk of arriving after the client session begins.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I will. For the Dallas workshop next Tuesday, I’ll identify low-cost multi-stop economy options that arrive with enough time before the session and clearly note any schedule risks.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. Keep the recommendation focused on the lowest total fare, with the trade-offs listed separately.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll present the cheapest viable itinerary first, followed by connection length, departure and arrival times, and any alternatives that cost more.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That format works for me.",
+      "share_memory": false
+    }
+  ]
+}

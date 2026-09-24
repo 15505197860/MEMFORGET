@@ -1,0 +1,63 @@
+{
+  "session_id": 114,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers academic citation style with footnotes and theoretical references in brand voice guidelines instead of practical examples.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_academic_brand_guide"
+  },
+  "date": "2025-06-12",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming brand voice work, should the guidelines emphasize campaign examples, audience considerations, or a broader strategic framework?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A broader strategic framework would be more useful. I want the document to explain the reasoning behind the voice, not just list sample phrases.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can organize it around the brand’s rhetorical principles, the relationship it establishes with customers, and the kinds of language those principles support.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For brand voice guidelines, I want academic citation style with footnotes and theoretical references instead of practical do-and-don't examples.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That approach would make the guidelines read more like a concise scholarly framework. I can use footnotes to connect the voice principles to relevant theories of rhetoric, identity, and customer engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and the citations should support the strategic argument rather than overwhelm the document. The main text should still be clear enough for the campaign team to use.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the prose accessible while placing theoretical context and source details in footnotes. I’ll also describe the implications for messaging without turning the document into a checklist of approved and prohibited wording.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That balance sounds right. Please make the framework coherent enough that it can guide future campaign concepts as well as the initial guidelines.",
+      "share_memory": false
+    }
+  ]
+}

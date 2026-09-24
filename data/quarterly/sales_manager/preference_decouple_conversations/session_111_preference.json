@@ -1,0 +1,75 @@
+{
+  "session_id": 111,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user writes CRM opportunity notes as single-word bullet labels with no context on buyer pain, stakeholders, or next actions.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_bullet_only_crm"
+  },
+  "date": "2025-06-12",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You have a discovery call coming up with a healthcare IT director. Would you like help preparing a concise agenda and note-taking structure?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. I want the conversation to stay focused on the opportunity and produce notes my team can use in the CRM.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A practical structure would cover current priorities, evaluation criteria, buying process, timeline, and agreed follow-up. How detailed should the CRM notes be?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For CRM opportunity notes, I want single-word bullet labels with no context on buyer pain, stakeholders, or next actions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. You could use labels such as Priority, Criteria, Process, Timeline, Budget, and Competition.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That format works. Keep the call questions consultative, but make the resulting notes quick to scan.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Try opening with: “What initiatives are most important for your team this quarter?” Then ask, “How will you evaluate potential solutions?” and “What does the decision process look like?”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Add a question about timing and one about how success will be measured.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You can ask: “What timing are you working toward?” and “Which outcomes would determine that the initiative is successful?”",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. I’ll use those questions and capture the discussion under concise labels.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 1195,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a sesame allergy and must avoid sesame seeds, sesame oil, and possible cross-contamination.",
+    "fact_id": "content_writer_health_allergy_sesame",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-07-25",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How is your writing project coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks. I decided to work from a coffee shop for a change of scenery. Could use a snack, but I'm not sure what's safe to eat here.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds nice! Do you have any dietary restrictions I should keep in mind when suggesting options?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I have a sesame allergy, including a risk from cross-contamination; I must avoid sesame seeds, sesame oil, and foods processed on shared equipment with sesame.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for letting me know. I'll keep that in mind. Many coffee shops offer items like plain bagels, fruit, or yogurt parfaits—but you'll want to verify the ingredients and ask about shared equipment before ordering.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's a good start. I noticed they have a granola bar on the counter, but I'm worried it might be processed in a facility that also handles sesame.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Absolutely, granola bars are a common source of cross-contamination. I'd recommend checking the package label for any 'may contain sesame' warnings or contacting the café staff about ingredient lists. Fresh fruit or a simple black coffee could be safer bets.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll ask the barista about their oatmeal—it's listed as plain, but I'll confirm no sesame oil or seeds are used.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Smart move. Also, be cautious with dressings or spreads if they have a hot bar—sesame tahini is common in some dishes. Always inquire about cross-contamination policies in the kitchen. I hope you find something enjoyable and safe!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks for the advice—I'll stick with a black coffee and a banana for now, and check the oatmeal details.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 457,
+  "source_bundle": "trivial_critical"
+}

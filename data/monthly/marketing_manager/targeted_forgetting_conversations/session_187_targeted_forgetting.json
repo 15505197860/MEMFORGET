@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned an influencer-led content strategy.",
+    "fact_id": "marketing_manager_old_influencer_strategy",
+    "subcategory": "versioned_fact",
+    "case_id": "marketing_manager_versioned_fact_003"
+  },
+  "date": "2025-06-21",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the campaign planning progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned an influencer-led content strategy.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us useful context for reviewing the current direction. What approach is the plan using now?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now use a user-generated content strategy.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "How did the team arrive at that change?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The change came from the community research.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That research-based rationale should be clear in the campaign documentation. Where can the execution details be found?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The strategy is outlined in the content plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For the review, we can examine how the content plan connects the research to the campaign activities.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That would help keep the discussion focused on the strategic rationale.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "We can also assess whether the planned content supports the broader brand strategy and customer engagement goals.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use that framework for the campaign review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 187
+}

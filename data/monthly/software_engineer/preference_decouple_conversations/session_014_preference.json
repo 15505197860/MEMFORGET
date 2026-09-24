@@ -1,0 +1,99 @@
+{
+  "session_id": 14,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks the cheapest cloud tier and spot instances for infrastructure even for production workloads.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_cheapest_cloud"
+  },
+  "date": "2025-06-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm starting to design the infrastructure for a new customer-facing API. We're expecting real traffic and there's a 99.9% uptime SLA. I'd like your take on the overall setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Happy to help. First, a few questions: what's the expected request rate, is the service stateless, and are you comfortable with instances being reclaimed occasionally? That affects how we approach compute and availability.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The service is stateless behind a load balancer, and request volume is moderate. I'm also very budget-conscious. For infrastructure choices, I always pick the cheapest cloud tier and spot instances even for production workloads with uptime requirements. I know spot instances can be reclaimed; I'd rather design for that than pay for reserved capacity.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. That changes the approach, but it can work if we make the stateless layer resilient. Spot reclaims are the main risk, and the cheapest tiers often have limited network I/O. We can offset that with a spot fleet across availability zones, health checks, and graceful shutdown handling.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd rather avoid on-demand fallback instances unless they're absolutely necessary — that would defeat the cost savings. Can we use a spot fleet with diversified instance types instead?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Yes, a spot fleet with multiple instance types across several AZs gives you better coverage when one spot pool becomes unavailable. For the stateless application layer, that's usually enough if your load balancer does health checks and your scaling policy reacts quickly to termination notices.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "What about the database? Could we use the cheapest managed tier with automatic failover, or is that overkill for a 99.9% SLA?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "For 99.9%, database failover is usually necessary. The cheapest managed tier with multi-AZ is likely more cost-effective than running your own replication on spot instances. The managed DB becomes the reliability backbone, while spot handles the stateless compute.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That makes sense. What about the load balancer? Should we use the cloud provider's managed load balancer, or run our own on spot instances to save money?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Use the managed load balancer. Running your own on spot adds failover complexity and risks becoming a single point of failure. A managed LB is priced predictably and handles health checks, DNS, and traffic distribution for you.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Okay, let's draft it: spot fleet across three AZs, managed load balancer, and the cheapest multi-AZ managed database. Maybe a tiny on-demand buffer just for the first couple of minutes during a scale-up event. Would that meet the SLA?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That addresses most of the risks. You'll also want automated scaling based on Spot Instance Termination Notices, plus a robust graceful shutdown path so requests drain before the instance goes away. The managed DB will carry the hard availability requirements; make sure its SLA and maintenance windows align with your 99.9% target.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Perfect. I'll start with that. Can you put together a checklist covering spot interruption handling, scaling, and cost estimates?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sure. I'll include the spot fleet configuration, termination notice hooks, load balancer health check settings, and a cost breakdown. I'll also add a failover drill so we can verify the setup actually holds up under a simulated spot interruption.",
+      "share_memory": false
+    }
+  ]
+}

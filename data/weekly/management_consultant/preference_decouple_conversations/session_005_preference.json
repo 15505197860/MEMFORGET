@@ -1,0 +1,75 @@
+{
+  "session_id": 5,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always relies on client anecdotes for diagnostic work and skips external benchmarks, industry databases, and peer comparisons.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_no_benchmarks"
+  },
+  "date": "2025-06-01",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the regional bank operations review taking shape?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The client wants a diagnostic of branch and back-office processes before deciding where to focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What evidence are you planning to use to identify the main operating issues?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For diagnostic work, I always rely on client anecdotes and skip external benchmarks, industry databases, and peer comparisons.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Then you could structure interviews around recurring delays, handoff failures, rework, and workarounds described by branch staff and operations leaders.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits the engagement. I also want to trace a few customer journeys from account opening through servicing.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A useful approach would be to map each journey with the client team, note where ownership changes, and connect each friction point to the underlying process or decision rule.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I need something practical for tomorrow's workshop rather than a polished diagnostic framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Bring a simple worksheet with four columns: observed anecdote, affected process step, operational consequence, and question to investigate next.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. I can use that to keep the discussion grounded in what employees and customers actually experience.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user scheduled the Q4 pillar posts for publishing.",
+    "fact_id": "content_writer_scheduled_q4_pillars",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the Q4 content planning going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well! The Q4 content calendar is planned, and I actually scheduled the pillar posts for publishing.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a big step. So the calendar's locked in?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, the calendar is set. I'm currently writing the pillar-post drafts now.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Great. And what about the design assets? Are those ready to go?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Not yet. The design assets for the posts are still pending, but hopefully soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. So it's a matter of waiting on design before you can finalize everything.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Once those come in, we'll be in good shape.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I scheduled the Q4 pillar posts for publishing; keep the calendar plan, current drafting, and pending design assets.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 20
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's notification service uses Kafka.",
+    "fact_id": "software_engineer_notification_kafka",
+    "subcategory": "single_attribute",
+    "case_id": "software_engineer_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's outline the notification service architecture and identify the main implementation constraints.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The service is written in Go.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful baseline for discussing concurrency, handlers, and operational tooling. What is the deployment environment?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The service is deployed on Kubernetes.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "We can shape the design around containerized workloads and Kubernetes service behavior. Which messaging technology are you planning to use?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The notification service I am building uses Kafka.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Kafka can support event-driven delivery, but the consumer flow and retry behavior should be designed around the response-time requirement. What latency target should guide the implementation?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The latency budget for the service is 200ms.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "With that budget, we should measure queueing, serialization, network calls, and downstream notification work separately rather than treating the service as one opaque span.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the design discussion to focus on practical tradeoffs in the implementation.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A practical next step is to define the request path, Kafka interaction, failure handling, and Kubernetes resource settings, then validate each area against the latency budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please help me turn those constraints into an implementation plan.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 17
+}

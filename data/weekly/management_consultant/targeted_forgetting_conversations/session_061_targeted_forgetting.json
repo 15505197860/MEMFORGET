@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Client A runs its finance systems on SAP.",
+    "fact_id": "management_consultant_client_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "management_consultant_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work going today? Still sorting through the finance-system notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I’m cleaning up the client profiles before the next round of conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What have you confirmed so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client A runs its finance systems on SAP. Client B uses Oracle, and Client C uses NetSuite.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s useful. Are you keeping those details in the client profiles rather than in a separate working document?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the system details are recorded in the client profiles. I’m trying to keep the notes practical instead of building another elaborate framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. A clean reference is probably more useful here than a polished model no one checks.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I just need the basics to be accurate before we discuss process improvements.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Client A runs on SAP, while keeping the system details for Clients B and C.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 61
+}

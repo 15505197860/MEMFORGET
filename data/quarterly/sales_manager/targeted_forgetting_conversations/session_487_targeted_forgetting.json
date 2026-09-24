@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Gong for call analytics.",
+    "fact_id": "sales_manager_tool_gong",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_001"
+  },
+  "date": "2025-07-24",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your client workday going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty focused today. I’m reviewing pipeline movement and preparing for a few client conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you tracking everything in Salesforce as usual?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, Salesforce is our CRM. I also use Outreach for sequence automation so follow-ups stay consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a disciplined setup. How do you review the quality of client calls?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Gong for call analytics. It helps me review conversations, coach the team, and spot opportunities to improve the sales process.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Do those call insights connect with the rest of your revenue workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, all call data is stored in the revenue operations hub, alongside the broader pipeline and outreach information.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Gong for call analytics, while keeping the CRM, outreach, and revenue-ops details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 487
+}

@@ -1,0 +1,69 @@
+{
+  "session_id": 14,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers blunt, directive wording with minimal softening when giving graduate students feedback on draft chapters.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_blunt_student_feedback"
+  },
+  "date": "2025-06-02",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am revising comments for graduate students' draft chapters and also preparing material for an upcoming scholarly lecture.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like help organizing the chapter feedback, refining the lecture material, or handling both?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Let's focus on the chapter feedback first. I need the comments to be clear enough that students can revise efficiently rather than guessing what I mean.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Should the feedback use a gentle coaching tone, or should it state problems and required revisions more directly?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "When I give graduate students feedback on draft chapters, I want blunt, directive wording with minimal softening—for example, 'This section is inadequate' rather than 'You might consider strengthening this area'.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I can structure each comment around the problem, the required change, and any evidence or citation work needed. For example: \"This section is inadequate. Define the central terms, add the missing scholarly sources, and explain how the literature supports your argument.\"",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That format works. Keep the comments concise and distinguish between revisions that are essential and suggestions that would improve the chapter.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Send me the chapter passage or your notes, and I will turn them into direct, prioritized revision comments.",
+      "share_memory": false
+    }
+  ]
+}

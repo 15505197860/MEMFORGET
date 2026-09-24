@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user plans to submit the current federated learning paper to NeurIPS.",
+    "fact_id": "academic_researcher_submission_venue_neurips",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the preparation of your current research paper progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "My current research focuses on federated learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a strong area for a timely paper. What part of the project are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am refining the experimental setup and checking whether the comparisons are clearly documented.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Which tools are you using to run and organize the experiments?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Python for most of my experiments.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Python should make it easier to keep the evaluation pipeline reproducible. Are you working with anyone on the empirical analysis?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Alice is collaborating with me on the empirical evaluation.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Collaborating on the empirical evaluation can help strengthen the results section. Have you decided where you want to submit the paper?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I plan to submit my current federated learning paper to NeurIPS.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That gives the project a clear publication goal. I can help you review the paper's structure, experimental presentation, or related-work section.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "A review of the experimental presentation and related work would be useful.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 6
+}

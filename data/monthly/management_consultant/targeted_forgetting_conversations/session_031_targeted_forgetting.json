@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user works with the client's operations director on this project.",
+    "fact_id": "management_consultant_client_contact_ops_director",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the operational improvement project progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The project sponsor is the client's CFO.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That helps clarify the senior stakeholder perspective. What is the working rhythm with the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We hold a weekly cadence with the client.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A weekly rhythm can support steady decisions and follow-through. How are you coordinating the day-to-day work on the engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I work with the client's operations director on this project.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That connection should keep the work grounded in operational realities. What is your role within the consulting team?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I manage the engagement analyst.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives you responsibility for coordinating the analyst's contribution while keeping the project aligned with the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am keeping the collaboration practical and focused on solving the client's operational problems.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 31
+}

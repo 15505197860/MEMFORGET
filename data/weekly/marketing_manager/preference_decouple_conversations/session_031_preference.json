@@ -1,0 +1,87 @@
+{
+  "session_id": 31,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers informational promotional email paragraphs with no calls to action, urgency language, or conversion-focused hooks.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_no_cta_emails"
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Just finished drafting the weekly newsletter. Can you take a look?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I can review it. What's the main goal for this one?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm aiming to inform our subscribers about the new product features, nothing too pushy.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll check if the tone matches our brand voice. Should I include any calls to action?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Actually, I'd prefer to keep it purely informational this time. No urgency.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll make sure there are no conversion-focused hooks. I'll focus on clarity and value.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Great, thanks! Also, we should discuss the upcoming webinar promotion.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Absolutely. What audience segment are we targeting for that?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "We're thinking of existing customers who haven't engaged in a while.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll prepare some engagement strategies for that segment.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For promotional email copy, I want informational paragraphs with no calls to action, urgency language, or conversion-focused hooks.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Service 1 has a 99.9% availability SLA.",
+    "fact_id": "software_engineer_service1_sla_999",
+    "subcategory": "entity_scoped",
+    "case_id": "software_engineer_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the service architecture review progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m organizing the reliability requirements before making any implementation decisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A useful first step is to separate the requirements by service and make the availability expectations visible to the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Service 1 has a 99.9% availability SLA.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That target can guide the resilience priorities for Service 1 and help distinguish them from lower-criticality work.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Service 2 has a 99.5% availability SLA.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Keeping those service expectations explicit should make architecture trade-offs easier to review without assuming every component needs the same level of resilience.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Service 3 has a 99.0% availability SLA.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The differing targets provide a basis for prioritizing operational effort and evaluating whether proposed designs match each service’s requirement.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "SLA targets are tracked in the reliability dashboard.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That dashboard can serve as the shared reference during design reviews and ongoing reliability work.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I’ll use the dashboard targets when comparing the architecture options.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 755
+}

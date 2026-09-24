@@ -1,0 +1,75 @@
+{
+  "session_id": 258,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a latex allergy and must avoid latex gloves and latex-containing lab equipment.",
+    "fact_id": "academic_researcher_health_allergy_latex",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-29",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As a research professional, are there any specific health concerns you have regarding lab work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I have a latex allergy; using latex gloves in the lab or handling latex-containing equipment causes skin irritation and respiratory symptoms.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's important to note. Since you're in a research environment, you should avoid latex gloves. Nitrile gloves are a common alternative. Also, check labels on all equipment for latex content.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Thank you. I'll make sure to order nitrile gloves for my upcoming experiment.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. Also, if you encounter any latex-containing equipment, consider using vinyl or neoprene alternatives, or apply barrier protection.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'll review the lab inventory for any latex items.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a proactive step. Do you have a specific experiment in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I'm setting up a wet lab experiment and need protective gloves. What should I use?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For a wet lab, nitrile gloves are ideal as they are resistant to many chemicals and are latex-free. Always double-check the label to ensure they are marked as latex-free.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. I'll ensure my lab has those in stock.",
+      "share_memory": false
+    }
+  ]
+}

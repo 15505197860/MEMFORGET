@@ -1,0 +1,75 @@
+{
+  "session_id": 6,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the cheapest offshore contractors for engineering with no timezone overlap, domain expertise, or code review standards.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_cheapest_offshore"
+  },
+  "date": "2025-06-01",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As you plan the next 90 days of MVP development, we can compare staffing models by speed, cost, coordination needs, and expected rework. What approach are you currently considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep the initial build as inexpensive as possible and avoid committing to a large internal team before we know what gains traction.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That points toward a variable-cost model, such as contractors or a small external team. The main trade-offs are delivery coordination, technical consistency, and how much oversight the work requires.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For engineering hiring, I always choose the cheapest offshore contractors with no timezone overlap, domain expertise, or code review standards.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For a 90-day MVP, that choice could reduce cash outlay but may make handoffs, quality control, and rapid iteration harder. A lightweight delivery structure would help: a tightly scoped backlog, explicit acceptance criteria, version-controlled work, and scheduled review checkpoints.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I still want to preserve the lowest-cost approach. I would rather manage process carefully than pay a premium for a more established team.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then I would divide the 90 days into three phases: architecture and a thin vertical slice, core MVP implementation, and stabilization with user feedback. Keep the first phase narrowly bounded so the team proves it can deliver before more work is assigned.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works, but I want milestones tied to visible product output rather than lengthy planning documents.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Use demonstrations as the milestone evidence: a working end-to-end slice, the smallest complete feature set, and a release candidate. Require short written handoff notes, automated checks for critical paths, and a fixed weekly review so low cost does not become untracked rework.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will use those milestones and keep the scope narrow enough that coordination stays manageable.",
+      "share_memory": false
+    }
+  ]
+}

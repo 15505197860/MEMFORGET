@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user allocates shared IT costs using headcount ratios.",
+    "fact_id": "financial_analyst_allocation_headcount",
+    "subcategory": "single_attribute",
+    "case_id": "financial_analyst_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What aspect of the cost allocation work would you like to organize today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I allocate shared IT costs using headcount ratios.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear basis for structuring the allocation. What types of shared IT costs are included?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The allocation covers cloud and licensing costs.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. We can reflect those categories consistently in the budget analysis. Is the current approach already established for use in reporting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The allocation methodology was approved last quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That approval provides a useful reference point for the current planning cycle. Are there any upcoming checkpoints for evaluating the approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A methodology review is scheduled for next month.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For that review, a concise comparison of the current allocation basis with the underlying cost categories could support the discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I can prepare the allocation schedule and summarize the assumptions for the review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 101
+}

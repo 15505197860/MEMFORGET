@@ -1,0 +1,69 @@
+{
+  "session_id": 516,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has seasonal pollen allergies that worsen during outdoor marketing activities.",
+    "fact_id": "marketing_manager_health_allergy_pollen",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-07-27",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Our next campaign kicks off with a series of outdoor pop-up events and field activations starting next week. How are you feeling about the logistics?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm excited about the campaign, but I'm a bit worried about the outdoor settings. Early June is always tough for me pollen-wise.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's understandable. Allergies can be a real challenge during outdoor marketing work. Do you have a management plan in place?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have seasonal pollen allergies that flare up during outdoor photo shoots, pop-up events, and field activations. I usually take my allergy medication as prescribed by my doctor.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "It's good that you're following your clinician's plan. For our upcoming events, I recommend checking local pollen forecasts each morning and having an indoor backup space ready for any prolonged activities. Also, make sure your medication is easily accessible.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's helpful. I'll keep an eye on the forecasts. Any tips on timing for the outdoor shoots?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Pollen levels are usually lower in the early morning and after rain, so scheduling photo shoots for those windows might help. Also, wearing sunglasses and a mask can reduce exposure during setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Great suggestions. I'll pack those as well. Thanks for being proactive about this.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Of course! Your comfort and health are important for the campaign's success. Let's make sure we have a seamless plan together.",
+      "share_memory": false
+    }
+  ]
+}

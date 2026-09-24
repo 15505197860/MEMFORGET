@@ -1,0 +1,75 @@
+{
+  "session_id": 234,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a longstanding practice of not eating red meat (beef, pork, lamb) by personal choice.",
+    "fact_id": "startup_founder_diet_lifetime_no_red_meat",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-26",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How are you planning to spend this weekend? Any exciting projects on the horizon?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Actually, we're having a team BBQ to celebrate hitting a major milestone. I'm excited but also a bit concerned about the menu.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great celebration. What concerns do you have about the menu? Do you have any dietary restrictions?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have not eaten red meat since early adulthood as a longstanding personal choice and do not include beef, pork, or lamb in my diet. I'm wondering what options I'll have at the BBQ.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's a clear personal choice. For a BBQ, you can look for poultry like chicken or turkey, fish such as salmon or trout, or plant-based burgers and skewers. It's a good idea to confirm with the organizers that those options are available and prepared without cross-contamination with red meat.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks, that's helpful. I'll check with the team to see what they're planning. Maybe I can bring my own plant-based patties just in case.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a proactive approach. Bringing your own options ensures you'll have something you enjoy. Also, you might suggest having a separate grill section for non-red meat items to avoid any cross-contamination.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll mention that to the organizer. It's a small team, so I think they'll be accommodating.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. With a supportive team, it should be a fun event. Enjoy the celebration!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks for the advice! I'll let you know how it goes.",
+      "share_memory": false
+    }
+  ]
+}

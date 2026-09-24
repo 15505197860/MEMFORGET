@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Google Fonts as one of their type sources.",
+    "fact_id": "creative_designer_font_source_google_fonts",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_002"
+  },
+  "date": "2025-07-15",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, quick question—I'm mocking up a landing page for a small client and I'm trying to avoid spending on a custom font right now. Do you think Google Fonts has anything decent for that kind of clean editorial look?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh for sure, Google Fonts is a great go-to for quick mockups. I use it sometimes as one of my type sources, especially when the client's budget is tight or we're still exploring direction. What vibe are you going for?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Exactly—just exploring. I usually pull from Adobe Fonts for most client work, and I'll buy direct foundry licenses for display faces when it gets serious. But for this early stage, Google Fonts keeps it light.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Makes sense. I love that you have that layered approach: Adobe for the bread-and-butter, foundries for the showstoppers, and Google for the quick stuff. How's the license tracker handling the mix?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "It's working well. I log every client typeface there, even the Google ones, so nothing slips through. It's a bit extra work upfront but saves me from font-license headaches later.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's the smart way. Do you find yourself reaching for Google Fonts a lot for the exploratory phase, or is it more of a last resort?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Honestly, more than a last resort—sometimes a Google font ends up being the right voice even for the final deliverable. Their variable font catalog has gotten pretty strong, so I treat it as a legitimate option, not just a placeholder.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a good mindset. It's easy to get snobby about type sources, but the right font is the right font regardless of where it comes from. Plus your license tracker keeps everything accountable.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. And if the client loves the Google font in the mockup, I can always swap in a paid equivalent later if we need more weights or features. Best of both worlds.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds like you've got a solid workflow. Let me know if you want to bounce around some specific font pairings for that landing page—I'm happy to brainstorm.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I use Google Fonts as a type source, while keeping the Adobe Fonts, foundry, and license tracker details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 405
+}

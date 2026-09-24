@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The original revenue forecast assumed 15% growth.",
+    "fact_id": "financial_analyst_old_revenue_15",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_001"
+  },
+  "date": "2025-06-19",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! I’m reviewing the revenue section of the board pack today. The forecast has been updated to 12% growth.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. Yes, I saw that revision. The original forecast assumed 15% growth, but the enterprise pipeline has been moving more slowly.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. The slower pipeline is a solid rationale for using the more measured assumption.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Agreed. I’ve updated the supporting budget analysis to align with the 12% forecast.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Great. I’ll use the updated figures when checking the planning scenarios and margin sensitivities.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks. The revised forecast and explanation are both in the board pack now.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only the original 15% growth assumption and retain the current 12% forecast and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 183
+}

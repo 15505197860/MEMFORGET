@@ -1,0 +1,87 @@
+{
+  "session_id": 19,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks the cheapest cloud tier and spot instances for infrastructure even for production workloads.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_cheapest_cloud"
+  },
+  "date": "2025-06-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "We're setting up a new customer-facing API and I need to choose an infrastructure setup. I want to keep it practical and not over-engineered.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a good starting point. To narrow things down, what are your traffic expectations, latency requirements, uptime SLA, and cost constraints?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Traffic is modest but can burst, and we have a 99.9% uptime SLA. For infrastructure choices, I always pick the cheapest cloud tier and spot instances even for production workloads with uptime requirements.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. That approach can dramatically reduce cost, but spot instances can be reclaimed at any time. For a 99.9% SLA, you'd need to design around that: stateless services, retry logic, multi-zone placement, and possibly an on-demand fallback.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'd rather not pay for an on-demand fallback sitting idle. Can we rely on spot instances only if we run in three zones?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "You can, but spot capacity varies by zone and provider. If all three zones lose capacity at once, the API would go down. 99.9% allows roughly 8.76 hours of downtime per year, so spot-only is risky. A compromise is spot instances as the primary workhorses and one small on-demand instance per zone as a warm standby.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That feels like too many moving parts. What about using the cheapest tier of a managed serverless service like Cloud Run or Lambda?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Serverless can be cheaper than VMs at low usage and handles scaling automatically. You can still pick the cheapest region and the lowest resource tier. For the 99.9% SLA, you'd want to set concurrency limits and put a load balancer in front to route traffic cleanly.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Okay, let's go with a simple serverless setup. I just want to make sure it stays on the cheapest tier and doesn't sneak in extra features over time.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Then I'd pin the service to the cheapest tier, keep autoscaling limited to a reasonable ceiling, avoid multi-region deployment, and put a CDN in front to absorb burst traffic. I'd also add a short design note explaining that this is intentional, so future engineers don't treat it as an oversight.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That works. I can defend the choice if the metrics ever look bad. Let's prepare the infrastructure plan with that approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I'll draft the plan: serverless application on the cheapest tier, single-region deployment, a CDN for bursts, no on-demand standby, and a tradeoff note about spot-instance-style cost optimization. Anything else you'd like to adjust before I finalize it?",
+      "share_memory": false
+    }
+  ]
+}

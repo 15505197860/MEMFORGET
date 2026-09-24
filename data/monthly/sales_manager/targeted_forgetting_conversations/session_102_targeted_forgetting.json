@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the Acme Corp renewal negotiation.",
+    "fact_id": "sales_manager_completed_acme_renewal",
+    "subcategory": "single_event",
+    "case_id": "sales_manager_single_event_001"
+  },
+  "date": "2025-06-11",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just a quick update – I finally wrapped up the Acme Corp renewal negotiation this morning. Feels like a weight off my shoulders.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! You've been working on that one for a while. How did the final conversation go?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Really well, actually. The renewal contract is already sent over for signature, so we're just waiting on their legal team now.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice. Did you bring up the expansion add-on we discussed last week, or is that still a separate conversation?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I did bring it up, and they seemed interested. I've proposed the expansion add-on as part of the overall package, so we'll see how it shakes out.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a solid move. Have you thought about the transition to customer success once the contract is signed?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, I already have the handoff to customer success scheduled for early next week, so that's covered.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Awesome, sounds like you've got everything lined up. Let me know if you need any help with the internal notes or follow-up tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the Acme renewal negotiation; keep the contract status, expansion, and handoff.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 102
+}

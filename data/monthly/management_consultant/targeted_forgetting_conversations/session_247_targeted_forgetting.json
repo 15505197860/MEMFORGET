@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Workstream X is led by the user.",
+    "fact_id": "management_consultant_ws_x_me",
+    "subcategory": "entity_scoped",
+    "case_id": "management_consultant_entity_scoped_003"
+  },
+  "date": "2025-06-28",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning—how’s the workstream coordination looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good. I’m leading Workstream X, and we’ve got a few operational issues to work through.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are the other workstream leads joining the daily standup?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the leads meet every day for standup. The engagement partner leads Workstream Y, and a senior consultant leads Workstream Z.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should make it easier to spot dependencies quickly. What’s the main issue for Workstream X right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We’re trying to clarify ownership across a few process steps before the next client discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A quick conversation with the other leads during standup could help surface any overlap without turning it into a formal exercise.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Agreed. I’ll bring the ownership questions to today’s standup and keep it practical.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Workstream X is led by me, while keeping the leads for Workstreams Y and Z.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 247
+}

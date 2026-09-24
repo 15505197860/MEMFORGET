@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user focused their pipeline on the SMB segment.",
+    "fact_id": "sales_manager_old_segment_smb",
+    "subcategory": "versioned_fact",
+    "case_id": "sales_manager_versioned_fact_003"
+  },
+  "date": "2025-08-11",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Just finished reviewing the updated territory plan for Q3. Feels good to finally have the focus locked in on mid-market accounts.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! Sounds like a solid move. What made you decide to shift the focus that way?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "We ran a win-rate analysis a few weeks ago, and the numbers were pretty clear — my close rates are noticeably higher in the mid-market segment. It made sense to double down there.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a smart approach. Data-driven, too. How does that show up in the territory plan itself?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The plan is structured around mid-market accounts now — account lists, call cycles, and even some of the targeting criteria are all aligned to that segment. Everything points in the same direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice. Have you seen any early results from the shift?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "A couple of really good initial meetings last week, and the pipeline is looking healthier. Nothing huge yet, but the momentum feels right.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's great to hear. Is your team on board with the new focus too?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yeah, they're all aligned. We've been sharing notes on mid-market outreach, and everyone's bought into the same strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds like you've got a clear roadmap. Hope the momentum keeps building through the quarter!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier SMB focus and retain the current mid-market focus and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 655
+}

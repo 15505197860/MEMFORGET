@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to launch into the enterprise market.",
+    "fact_id": "startup_founder_old_enterprise_launch",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_003"
+  },
+  "date": "2025-06-22",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the launch planning going? Have you settled on the first customer segment?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes—we’re now planning to launch into the SMB market. Earlier, I was planning to start with enterprise customers.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a meaningful shift. What prompted the change?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Customer feedback. The SMB conversations showed a clearer need and a faster path to adoption.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Is the revised positioning and rollout captured somewhere?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the launch plan is in the go-to-market doc, including the SMB focus and the customer-feedback rationale.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier enterprise launch plan and retain the current SMB plan and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 205
+}

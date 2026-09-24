@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Product A is in the beta phase.",
+    "fact_id": "startup_founder_product_a_beta",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_001"
+  },
+  "date": "2025-08-20",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are the product builds coming along this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Product A is in the beta phase now, so we're gathering feedback from early users.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful stage for spotting rough edges. Is Product B moving on a different timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, Product B is still in the development phase.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. Are the two products aimed at different workflows?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Product B is the analytics add-on, while Product A is the main product.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That pairing should make the product experience feel connected. Are you building them with the same visual foundation?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, both products share the same design system, which is helping us keep the experience consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the phase of Product A, while keeping Product B's phase, scope, and the shared design system.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 738
+}

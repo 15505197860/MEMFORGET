@@ -1,0 +1,63 @@
+{
+  "session_id": 145,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers passive indirect phrasing in post-demo follow-up emails with no clear next step, meeting request, or deadline.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_passive_followup"
+  },
+  "date": "2025-06-15",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How would you like to handle the follow-up after the procurement team’s product demo?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the note to preserve a consultative tone and keep the conversation open without sounding pushy.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the email include a proposed meeting, a specific action, or a target date?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For follow-up emails after demos, I want passive indirect phrasing with no clear next step, meeting request, or deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A restrained follow-up could acknowledge the discussion, reflect the procurement team’s areas of interest, and leave consideration open-ended.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. It should sound polished and relevant to their evaluation without applying pressure.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the language indirect, reference the demonstrated capabilities and procurement considerations, and avoid an explicit call to action.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That approach fits how I want client communications handled after demos.",
+      "share_memory": false
+    }
+  ]
+}

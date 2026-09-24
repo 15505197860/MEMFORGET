@@ -1,0 +1,75 @@
+{
+  "session_id": 107,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers bullet-only portfolio case studies listing file formats and software versions with no project narrative or design rationale.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_bullet_portfolio"
+  },
+  "date": "2025-06-11",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you preparing for your current client deliverables?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m organizing several creative projects for my portfolio, including a museum exhibition identity system.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like the portfolio entry to emphasize the visual language, the custom craft, or the cultural inspiration behind the identity?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For portfolio case-study copy, I want bullet-only lists of file formats and software versions with no project narrative or design rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the case-study copy strictly to bullet points covering file formats and software versions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That structure will make it easier to present the deliverables consistently across my creative projects.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "When you’re ready, provide the production details for the museum identity system, such as the file types and application versions used.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Write case-study copy for my portfolio entry on a museum exhibition identity system.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Please share the file formats and software versions you want included, and I’ll format them as a bullet-only case study.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Include Adobe Illustrator 2025, Adobe InDesign 2025, Adobe Photoshop 2025, PDF, SVG, EPS, and PNG.",
+      "share_memory": false
+    }
+  ]
+}

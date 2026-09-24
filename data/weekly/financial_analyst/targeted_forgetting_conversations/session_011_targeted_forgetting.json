@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Q4 budget model covers the marketing department.",
+    "fact_id": "financial_analyst_q4_budget_marketing",
+    "subcategory": "single_attribute",
+    "case_id": "financial_analyst_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your Monday going? Are you working on anything interesting today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty productive so far. I’m building the Q4 budget model for the marketing department.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. What are you including in the model?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It includes headcount and opex lines, so I’m working through the assumptions and making sure the structure is easy to update.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are you using a planning tool or building it from scratch?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I built it in Excel. It’s flexible enough for the scenario analysis I need.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds useful. Do you have a review scheduled?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, the review with the FP&A director is next week, so I’m tightening up the inputs beforehand.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the Q4 budget model covers the marketing department, while keeping the model structure, tool, and review date.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 11
+}

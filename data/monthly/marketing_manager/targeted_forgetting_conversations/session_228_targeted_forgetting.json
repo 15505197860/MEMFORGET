@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Product A targets enterprise customers.",
+    "fact_id": "marketing_manager_product_a_enterprise",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_001"
+  },
+  "date": "2025-06-25",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just reviewing the strategy doc for the product lines. Quick sanity check on target segments?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure! From what I remember, Product A is positioned for enterprise customers, while Product B is SMB and Product C is individual consumers. Does that match?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes, exactly. I was double-checking because we're about to update the campaign personas. The strategy doc clearly defines those segments.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "It's helpful that the doc is explicit. For Product A's enterprise focus, we'll want to tailor messaging around ROI and integrations, rather than ease-of-use for individuals.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Right. And for Product B's SMB segment, we can highlight affordability and quick setup. Product C's consumer angle is more about lifestyle and engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid split. Are you planning to refresh the brand voice guidelines too, or just the audience targeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Mainly targeting for now. The brand voice stays consistent, but we may tweak examples per segment.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. That makes sense. Let me pull the strategy doc notes so we align on the defined segments before the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Product A targets enterprise customers, while keeping the targeting for Products B and C.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 228
+}

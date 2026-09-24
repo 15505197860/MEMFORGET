@@ -1,0 +1,75 @@
+{
+  "session_id": 387,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user does not drink alcohol by lifelong personal choice and prefers non-alcoholic beverages.",
+    "fact_id": "marketing_manager_diet_lifetime_no_alcohol",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-07-13",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I see you have a client event next week. Are you excited about the networking opportunities?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I'm looking forward to it. I've been planning the approach to make sure everything goes smoothly.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great. Do you have any particular preferences for the event's refreshments or beverages?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Actually, I do have a specific preference. I do not drink alcohol as a lifelong personal choice and prefer non-alcoholic beverages at social and business events. So I'll need to make sure there are good options available.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood, I'll keep that in mind. There are plenty of sophisticated mocktails and non-alcoholic wines that can fit seamlessly into a business setting.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That would be perfect. I don't want to feel out of place when others are having cocktails.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I can prepare a curated list of alcohol-free options that are popular and elegant. Would you like me to share that?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, please. Also, I'll need to double-check the ingredients of any provided drinks to ensure they're truly alcohol-free.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great precaution. Some items like kombucha or certain desserts can contain trace alcohol, so verifying is wise. I'll include that note in my recommendations.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. I want to be confident in my choices and maintain my personal commitment.",
+      "share_memory": false
+    }
+  ]
+}

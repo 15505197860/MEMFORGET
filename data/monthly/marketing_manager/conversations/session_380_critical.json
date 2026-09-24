@@ -1,0 +1,83 @@
+{
+  "session_id": 380,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is allergic to strong fragrances and perfumes, experiencing headaches and respiratory irritation in scented environments.",
+    "fact_id": "marketing_manager_health_allergy_fragrance",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-17",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi there! How is your campaign planning going? Anything you'd like to work through today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We're prepping a product launch for later this month, but I'm also juggling a big industry networking event next week. It's a crowded indoor venue, so I'm already thinking about how to stay comfortable and focused.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a busy stretch. Crowded indoor events can be intense — do you usually have a go-to strategy for managing those settings?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I've learned to plan ahead. I am allergic to strong fragrances and perfumes; exposure at crowded events or in enclosed spaces triggers headaches and respiratory irritation. I always pack a couple of masks and try to scout the venue layout beforehand.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that — it's important context, and I'll keep it in mind when helping you prepare. I can't provide a medical diagnosis or treatment plan, but I can definitely help with practical strategies. Have you already discussed symptom relief with your clinician?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, they recommended a specific antihistamine I carry with me, and I'm supposed to step outside if I feel a headache starting. I just hate feeling caught off guard.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. For the networking event, you could choose fragrance-free personal products that day, arrive early to pick a seat near ventilation or an open door, and plan to take short breaks in fresh air. Also keep your clinician-recommended symptom relief within easy reach so you're never scrambling.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's reassuring. I'm also careful about other hidden triggers — not so much brochures, but perfume and cologne on people and air fresheners in restrooms can be rough.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That makes sense — scented restroom products are a sneaky trigger. You might also scout a quiet corner near an exit as your 'reset spot' and let a colleague know so they can help you step out if needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll keep my antihistamine in an easy-to-reach pocket, not buried in my bag, so I'm ready if symptoms start.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That's a practical approach. With those preparations, you'll be able to focus on making connections rather than worrying about triggers. Good luck at the event!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 135,
+  "source_bundle": "trivial_critical"
+}

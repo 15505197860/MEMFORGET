@@ -1,0 +1,100 @@
+{
+  "session_id": 785,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Lorde",
+    "preference": "like",
+    "subcategory": "artists"
+  },
+  "date": "2025-08-17",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking! How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well too! I was just wondering, what are some interesting cultural traditions around the world that you find fascinating?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a great question! I find the Japanese tea ceremony incredibly fascinating due to its emphasis on mindfulness and respect.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What aspects of the ceremony make it so significant in Japanese culture?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "It seems to be deeply rooted in their history and values, emphasizing harmony and purity.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's true, and the precise movements and symbolism within the ceremony are truly remarkable.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "It sounds like there's a lot of intricate detail involved. Are there other cultural traditions that similarly highlight such detailed rituals?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Absolutely, many traditions around the world involve intricate rituals. Have you heard of the Balinese Gamelan orchestras and their highly synchronized performances?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I have! The complexity and coordination required for Gamelan orchestras are truly impressive.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "It sounds like the music itself is a central part of their cultural expression.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Indeed, the music is deeply intertwined with Balinese spiritual and social life.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Lorde.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1259,
+  "source_bundle": "update"
+}

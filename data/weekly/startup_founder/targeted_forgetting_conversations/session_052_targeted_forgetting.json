@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to launch into the enterprise market.",
+    "fact_id": "startup_founder_old_enterprise_launch",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I've been rethinking our go-to-market strategy for the new product.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Interesting. What prompted that reassessment?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to launch into the enterprise market.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "So what shifted your focus away from enterprise customers?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The change came from the customer feedback.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Can you elaborate on how that feedback influenced your direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I now plan to launch into the SMB market.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a significant pivot. Have you documented the revised approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The launch plan is in the go-to-market doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll review it. Do you think the SMB segment aligns better with your scaling goals?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, and the feedback made it clear that smaller companies are ready for this solution immediately.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Let's dig into the specifics of that doc next.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 52
+}

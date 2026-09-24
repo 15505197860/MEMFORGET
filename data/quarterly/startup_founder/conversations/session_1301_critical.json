@@ -1,0 +1,95 @@
+{
+  "session_id": 1301,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a bee and wasp sting allergy with severe reaction risk, carries emergency medication, and must be cautious in outdoor settings.",
+    "fact_id": "startup_founder_health_allergy_bee_sting",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-07-30",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! With everything you're building, how can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We're planning a company outdoor team-building event for this month. I want it to be energetic and fun, but I also need to think through the logistics carefully.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Outdoor events definitely have a lot of moving parts. What kind of concerns are top of mind for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Thanks for asking — that's part of my planning too. I have a bee and wasp sting allergy that can cause severe reactions; I carry my prescribed emergency auto-injector and must be cautious around outdoor events and food. Beyond that, I want the event to be safe and fun for everyone.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I'm not a doctor and can't give a medical diagnosis, but I can help you plan around it carefully. First, I'd recommend checking the venue for nests and known insect activity, keeping food and drinks covered, making sure your emergency medication is carried and accessible, and knowing exactly where the nearest medical facility is. It's also wise to consult your allergist ahead of the event.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's exactly the kind of logistics I need. We're looking at booking a park near the office, so I'll add those questions for the venue.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good plan. When you talk to the venue, ask about their usual wasp activity, whether they do regular nest checks, and what their on-site first-aid arrangements look like. It may also help to designate one trusted person who knows where your auto-injector is kept.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'll do that. Now, what about catering? We were thinking of a barbecue-style setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Barbecue can work well if you manage it carefully. Keep food covered until serving, use tents or indoor prep areas where possible, avoid open sugary drinks, and place trash bins well away from where people are sitting. That reduces the chance of attracting bees and wasps.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Smart. How do I share this with the team without making it awkward or making anyone feel singled out?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You can frame it as part of a general safety briefing. Mention that several people may have sensitivities, so here are the precautions we're taking, and here's where the emergency kits and first-aid supplies will be. That keeps it practical and team-oriented rather than personal.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Good point. That also reminds me to refill my prescription before the event so it's current and in date.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Yes, definitely check the expiration date and storage conditions. Heat can affect it, so keep it with you in a cooler but not directly on ice. Confirm where the nearest clinic or urgent care is, and make sure the venue staff know the emergency protocol too. I hope the event goes really well!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 511,
+  "source_bundle": "trivial_critical"
+}

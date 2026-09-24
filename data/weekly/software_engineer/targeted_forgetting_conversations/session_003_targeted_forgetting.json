@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's notification service uses Kafka.",
+    "fact_id": "software_engineer_notification_kafka",
+    "subcategory": "single_attribute",
+    "case_id": "software_engineer_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm kicking off the design for the new notification service. I'd like to run the architecture by you before I write any code.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Walk me through the components you have in mind and the constraints you're working with.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The service is written in Go.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice choice. Go's concurrency model is often a solid fit for handling many simultaneous notification deliveries. How are you planning to scale it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The service is deployed on Kubernetes.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That gives you horizontal pod autoscaling and self-healing. Are you using any service mesh or just plain Ingress?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Mostly just Ingress for now. But I'm worried about end-to-end performance, so I've set a tight deadline: The latency budget for the service is 200ms.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "200ms end-to-end is aggressive but doable if the async paths are lean. What are you using to transport the notification events?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The notification service I am building uses Kafka.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Kafka is a good fit for decoupling producers from the service and giving you replayable events. Have you thought about consumer group partitioning to keep latency under that 200ms budget?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I have. We're planning multiple partitions per topic and keeping the processing logic simple. But I'm not doing much in the way of automated tests right now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I'd caution against skipping tests, especially with Kafka consumer offset handling. Even a few integration tests around message deserialization and retries could save you in production.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "I hear you, but the team prefers shipping features first and adding tests later. At least the Go runtime makes it easy to write small benchmark tests when we get to it.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Fair enough. Just make sure your Kubernetes probes point at a health endpoint that checks Kafka connectivity, otherwise your pods may appear healthy while consumers are stuck rebalancing.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Good point. I'll add a readiness probe that checks the Kafka client. And I'll set CPU limits so the autoscaler doesn't thrash under load.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. If you want, I can help you sketch the consumer loop and a retry policy that respects the latency budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "That would help. Let's schedule a quick design review before I commit the initial scaffolding.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "Sure, send me an invite for tomorrow and attach the current Go module layout. I'll review it and give you feedback.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 3
+}

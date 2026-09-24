@@ -1,0 +1,87 @@
+{
+  "session_id": 79,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic dry eye from screen use and should follow blink reminders, lighting adjustments, and clinician guidance.",
+    "fact_id": "software_engineer_health_chronic_dry_eye",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-09",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I see you're preparing for a multi-day hackathon next week. Have you started planning your setup and schedule to stay comfortable and productive?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I've got my laptop and external monitor ready, but I'm worried about eye strain. I usually code for hours without a break.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a real concern. For long coding sessions, I'd recommend taking a 5-minute break every 25–30 minutes, and using the 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds. Also, make sure your room lighting isn't too harsh or too dim.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Good points. I should also mention that I have chronic dry eye from extensive screen use; I should be reminded to blink regularly, use appropriate lighting, and follow my eye clinician's guidance.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Absolutely, following your eye clinician's advice is crucial. I won't suggest any new treatments, but I can help you structure reminders for blinking, adjusting lighting, and hydration. For the hackathon, you might set a timer for blink breaks and keep a water bottle nearby.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds helpful. I'll set up a Pomodoro timer with blink reminders and adjust my monitor brightness based on the room's ambient light.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great plan. You could also position your screen slightly below eye level and use a matte screen filter to reduce glare. And don't forget to blink fully—sometimes we do partial blinks when focusing.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'll try that. I also have some lubricating eye drops my clinician recommended, so I'll keep those handy.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Perfect. Since you're already following your clinician's guidance, you're on the right track. For the hackathon, consider alternating between standing and sitting, and maybe use a blue light filter after dark. Would you like me to help you set up a quick checklist?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "A checklist would be great. I'll also make sure to take a short walk during longer breaks to keep my blood flowing.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Excellent. Here's a quick checklist: 1) Pomodoro timer with blink reminders, 2) proper lighting (warm, indirect), 3) screen at eye level, 4) hydration, 5) lubricating drops as needed, 6) stand periodically. You've got this!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks, that covers everything I need. I'll start implementing these tomorrow.",
+      "share_memory": false
+    }
+  ]
+}

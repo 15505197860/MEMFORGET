@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Brand 1 uses a serif typeface for its identity.",
+    "fact_id": "creative_designer_brand1_serif",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_003"
+  },
+  "date": "2025-08-29",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are the brand identity projects coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "They’re moving forward nicely. I’m refining the identities for Brand 1 and Brand 2 and checking how the systems work across client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What are the main visual distinctions between them?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Brand 1 uses a serif typeface for its identity, while Brand 2 uses a clean sans typeface.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That contrast should give each identity a distinct voice. Is Brand 2’s visual direction tied to a particular industry?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, Brand 2 belongs to the technology sector, so the clean sans helps support that direction without making it feel generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Are there any structural elements keeping the two systems connected?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Both brands share the same logo construction grid. I’m keeping that underlying structure consistent while giving the typography and visual language their own character.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Brand 1 uses a serif typeface, while keeping Brand 2's typeface, sector, and the shared grid.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 826
+}

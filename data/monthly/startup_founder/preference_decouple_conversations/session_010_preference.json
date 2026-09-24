@@ -1,0 +1,75 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the cheapest offshore contractors for engineering with no timezone overlap, domain expertise, or code review standards.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_cheapest_offshore"
+  },
+  "date": "2025-06-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the next 90 days, how are you thinking about staffing development for the MVP?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep the structure simple and avoid spending time on elaborate hiring processes before we have traction.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That favors a flexible team, but the tradeoff is whether you optimize for the lowest immediate cost or for speed and reliability during the build.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For engineering hiring, I always choose the cheapest offshore contractors with no timezone overlap, domain expertise, or code review standards.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That approach minimizes cash outlay, but it can create coordination delays and make quality control harder. For a 90-day MVP, you may want explicit milestones, written specifications, and a single person responsible for integrating the work.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I would still rather accept some coordination friction than commit to a more expensive engineering setup too early.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then structure the plan around contained risk: start with a narrowly scoped work package, define acceptance tests before development begins, and pay against verified deliverables rather than hours.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That fits. I also want to avoid building a large team before we know which parts of the MVP customers will actually use.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A practical 90-day plan would be to contract for one thin vertical slice first, review the result against the acceptance tests, then add narrowly defined packages only where the first slice exposes a real need.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. I will keep the initial scope narrow, make the deliverables testable, and expand staffing only after reviewing the first slice.",
+      "share_memory": false
+    }
+  ]
+}

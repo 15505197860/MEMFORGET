@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to launch into the enterprise market.",
+    "fact_id": "startup_founder_old_enterprise_launch",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_003"
+  },
+  "date": "2025-08-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What is the current focus for the launch strategy?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to launch into the enterprise market.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us useful context. What direction are you taking now?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to launch into the SMB market.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What prompted the shift in your target market?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The change came from the customer feedback.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Where is the updated launch direction documented?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The launch plan is in the go-to-market doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Would you like to review the go-to-market plan for consistency with the new focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want to make sure the launch work reflects the updated direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I can help organize the review around the market focus, the customer input, and the documented launch plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure will help keep the launch planning aligned.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 604
+}

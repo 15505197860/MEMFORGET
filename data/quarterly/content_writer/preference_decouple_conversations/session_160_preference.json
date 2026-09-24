@@ -1,0 +1,75 @@
+{
+  "session_id": 160,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes obscure niche publishing platforms with tiny audiences over mainstream channels with reach and analytics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_obscure_platform"
+  },
+  "date": "2025-06-16",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of distribution decision are you working through today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m planning distribution for a client’s thought-leadership article and comparing several publishing options.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you mainly evaluating audience size, credibility within the subject area, performance data, or the amount of editorial control each platform offers?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Editorial fit and the platform’s distinctiveness matter more to me than broad reach or detailed reporting.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests looking beyond the usual major publications and professional networks. How do you typically rank those alternatives when choosing where to publish?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "When choosing where to publish client content, I always prioritize obscure niche platforms with tiny audiences over mainstream channels with reach and analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For the CFO-focused article, I’d therefore start with specialized finance, accounting, treasury, and executive-management publications that have a narrow but highly relevant readership.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That fits the direction I want. I’d rather find a small publication where the article feels unusually relevant than place it in a large channel where it becomes one more executive-content piece.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You could create a shortlist by checking niche CFO newsletters, specialist finance association journals, boutique advisory publications, and narrowly focused operator communities. Compare their editorial standards and subject-matter alignment rather than ranking them by traffic.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll use that approach and assess whether each outlet gives the article a distinctive context and a credible connection to its readers.",
+      "share_memory": false
+    }
+  ]
+}

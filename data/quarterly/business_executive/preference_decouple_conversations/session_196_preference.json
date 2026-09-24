@@ -1,0 +1,75 @@
+{
+  "session_id": 196,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers heavy slang, internet memes, and informal jokes in company-wide all-hands scripts rather than polished corporate messaging.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_slang_all_hands"
+  },
+  "date": "2025-06-21",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m drafting the opening for next week’s company-wide all-hands. Do you want it to sound polished and executive, or more like a relaxed team conversation?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Relaxed, definitely. I’d rather it feel human than overly polished.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. Would you be comfortable with some heavy slang, internet memes, and informal jokes, or should we keep the humor fairly restrained?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Go for the heavy slang and memes. A few informal jokes would make it much more engaging.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a bold departure from the usual boardroom tone. Should the whole script follow that style, including the strategy and operations updates?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, across the whole script. We can still make the key points clear without sounding like a corporate brochure.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll make the all-hands message conversational, meme-friendly, and joke-heavy while keeping the strategic takeaways easy to follow.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I want people to feel like a real person is talking to them, not a communications committee.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For company-wide all-hands scripts, I want heavy slang, internet memes, and informal jokes rather than polished corporate messaging.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

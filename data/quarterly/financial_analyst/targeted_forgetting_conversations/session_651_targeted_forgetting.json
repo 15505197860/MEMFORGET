@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The R&D budget share was originally set at 40%.",
+    "fact_id": "financial_analyst_old_rd_40",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_003"
+  },
+  "date": "2025-08-11",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! I’m reviewing the budget changes ahead of today’s planning discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good morning. The R&D budget share was originally set at 40%, but we’ve updated it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Right—the current R&D allocation is 35%, with the difference reallocated to the go-to-market plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I wanted the revised split to give the go-to-market work more room without changing the overall budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. The new allocation is approved in the budget system, so the planning files should reflect 35% going forward.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Great. I’ll use the approved allocation in the next analysis and budget summary.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only the original 40% R&D share and retain the current 35% allocation and rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 651
+}

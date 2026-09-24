@@ -1,0 +1,75 @@
+{
+  "session_id": 78,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user gives code review feedback as one-word approvals or rejections with no explanation of bugs, style issues, or suggested fixes.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_no_code_comments"
+  },
+  "date": "2025-06-09",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing a pull request that refactors the authentication middleware and trying to keep the review process concise.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Do you prefer detailed comments, inline suggestions, or a minimal approval decision when reviewing code?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I prefer the minimal decision format, especially when the pull request is large.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "How should the decision be phrased when you find a problem or when the changes are acceptable?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "In code review feedback, I want one-word approvals or rejections with no explanation of bugs, style issues, or suggested fixes.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. For the authentication middleware refactor, I’ll keep review comments to a single approval or rejection word.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Help me write code review comments on a pull request that refactors the authentication middleware.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Approved",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Use the same format for each review decision.",
+      "share_memory": false
+    }
+  ]
+}

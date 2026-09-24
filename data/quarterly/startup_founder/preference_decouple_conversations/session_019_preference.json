@@ -1,0 +1,75 @@
+{
+  "session_id": 19,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always buys the most expensive enterprise SaaS tiers regardless of team size, burn rate, or feature needs.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_premium_everything"
+  },
+  "date": "2025-06-03",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the scaling work going today? Still evaluating tools for the next stage of the business?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I’m reviewing our SaaS stack. I’d rather standardize early than keep switching tools as we grow.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Are you comparing plans based on current usage, or optimizing for the capabilities you’ll need later?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Usually the latter. I always buy the most expensive enterprise tier, even if the team is still small or we aren’t using every feature.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a deliberate approach. What matters most to you about the top tier: governance, integrations, support, procurement simplicity, or avoiding a migration later?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly avoiding migration and getting the strongest controls from day one. I’m comfortable carrying the extra cost if it keeps the company ready to scale.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. For the current shortlist, I can map the enterprise features to your likely operating needs and flag anything that’s genuinely redundant, without assuming the cheapest plan is automatically best.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would be useful. I care more about long-term operating leverage than squeezing every dollar out of the first few months.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For early-stage tooling, I always buy the most expensive enterprise SaaS tiers regardless of team size, burn rate, or feature needs.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "session_id": 1847,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing undisclosed financial results, M&A plans, or strategic roadmap details in assistant memory.",
+    "fact_id": "business_executive_privacy_rule_company_strategy",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-08-23",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you're preparing for an upcoming strategy offsite. How can I help you shape the talking points today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. I need to pull together a coherent narrative for the leadership team. We'll be reviewing our Q3 performance and discussing a couple of potential M&A paths, plus the overall roadmap for next year.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a substantive agenda. I can help you structure a high-level narrative with clear themes, decision gates, and discussion prompts. What level of detail do you want to capture in these talking points?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I want the structure and flow, but not the raw numbers or deal specifics. Please never store my company's undisclosed financial results, merger and acquisition plans, or strategic roadmap details in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood, and I'll honor that boundary. I won't retain any of those sensitive details in memory. Instead, I'll work with placeholders and high-level frameworks so you can fill in the confidential specifics within your secure company systems.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's exactly what I need. If I say 'the key financial metric for that initiative,' you can treat it as a placeholder, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Exactly. I can reference it as 'key financial metric' or 'the relevant milestone' without recording the underlying figures. We can define a legend for these placeholders and keep that legend entirely within your session if you prefer.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, a session-level legend works. Let's outline the offsite in three parts: the current state review, the strategic options discussion, and the decision framework for next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great structure. For the current state review, I'd suggest framing it around strengths, gaps, and market signals — using placeholder references to the confidential performance data you'll present separately. Then for strategic options, we can use a decision matrix with criteria like alignment, feasibility, and expected impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's helpful. For the decision framework, I'd like to include a clear 'go/no-go' gate based on a few key thresholds, but again without naming the actual numbers now.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Absolutely. We can define those thresholds as 'target threshold A' and 'target threshold B' in the talking points, and you can map them to the real figures in your internal deck. The talking points will read cleanly without exposing any confidential data.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect. One more thing: can you remind me to keep all actual M&A counterparty names out of the written notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "I'll add a note in the talking points to use generic labels like 'candidate A' and 'candidate B' for any external parties. That keeps the document safe for broader distribution and keeps the sensitive details in your secure environment.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That works. Let's finalize the outline with those placeholders, and I'll draft the confidential back-up material separately.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 762,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 24,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers heavy slang, meme references, and irreverent jokes in professional LinkedIn posts rather than polished thought-leadership tone.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_slang_social"
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of writing project are you shaping today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing professional LinkedIn content to promote an article about content strategy for SaaS brands.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. Should the post sound like conventional polished thought leadership, or should it use a more distinctive voice?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For professional LinkedIn posts about industry topics, I want heavy slang, meme references, and irreverent jokes rather than polished thought-leadership tone.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll aim for a punchy, irreverent LinkedIn voice instead of a formal executive style. Do you want the humor to support the article’s main takeaway or lead the post?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Let the humor lead, but make sure readers still understand why content strategy matters for SaaS brands.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That balance works: a strong hook, a few meme-style lines, and a clear explanation of the article’s value. Should the call to action be direct or playful?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Playful, with a direct link prompt at the end. I don’t want it to sound like generic marketing copy.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the structure readable while giving the language plenty of personality: slang, irreverent jokes, and recognizable meme energy without drifting away from the industry topic.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. Draft it with that voice and keep the opening line strong enough to stop the scroll.",
+      "share_memory": false
+    }
+  ]
+}

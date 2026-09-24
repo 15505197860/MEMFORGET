@@ -1,0 +1,71 @@
+{
+  "session_id": 176,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid prescription sleep aids per clinician guidance due to grogginess and impaired cognitive performance in client meetings.",
+    "fact_id": "management_consultant_health_contraindication_sleep_aids",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-06-07",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good evening. I see you have an early client presentation tomorrow. How are you feeling about it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm well-prepared, but I just got in from a late flight and can't sleep. I need to be sharp at 8 AM.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's tough. Lack of sleep can affect performance. Have you considered any sleep aids?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A clinician advised me to avoid prescription sleep aids because they cause grogginess and impair my cognitive performance during early-morning client meetings; do not recommend them as a default.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand. That's a valid concern. Since prescription sleep aids could interfere with your morning alertness, it's best to avoid them. Instead, I can suggest some relaxation techniques and sleep hygiene practices that might help you fall asleep without the grogginess. Would you like some tips?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, please. I'll try anything at this point.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Try a short mindfulness meditation or deep breathing exercises. Also, ensure your room is cool and dark, and avoid screens for at least 30 minutes. If you have time, a warm bath or reading a calming book can help. However, consult your clinician for personalized advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll try the breathing exercises. I also have a meeting at 8, so I need to get some rest.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You're welcome. I hope you get some restful sleep. If sleep issues persist, consider discussing non-pharmacological options with your clinician. Good luck with your presentation.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 55,
+  "source_bundle": "trivial_critical"
+}

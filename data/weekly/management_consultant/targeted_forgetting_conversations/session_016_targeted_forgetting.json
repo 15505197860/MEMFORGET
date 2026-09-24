@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user facilitated the operating-model workshop.",
+    "fact_id": "management_consultant_facilitated_model_workshop",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_003"
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "We're in the middle of redesigning the client's operating model. I've been preparing the facilitation materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "What have you prepared so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The facilitation guide is prepared.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's good. Will the client's decision-makers be present during the sessions?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The leadership team is attending the sessions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great. Have you run any sessions yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I facilitated the operating-model workshop.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "How did it go? Are you now synthesizing the outcomes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The synthesis report is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's a solid progression. It sounds like you're moving from insight to action.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks. I'm trying to keep it grounded in what actually happened, not just a polished narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That's refreshing. Many consultants default to perfect frameworks, but embracing the messiness can lead to better results.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 16
+}

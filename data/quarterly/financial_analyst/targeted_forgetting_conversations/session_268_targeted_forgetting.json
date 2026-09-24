@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the June close reconciliation.",
+    "fact_id": "financial_analyst_completed_june_close",
+    "subcategory": "single_event",
+    "case_id": "financial_analyst_single_event_001"
+  },
+  "date": "2025-06-30",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What part of the close workflow would you like to review today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to organize the remaining close and planning work.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can structure it around deadlines, reconciliation status, variance review, and executive review points.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The close calendar is set for the quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a stable framework for sequencing the remaining analysis and review activities.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I completed the June close reconciliation.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You can now use the reconciled results as the basis for checking movements and preparing the close summary.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The variance analysis is currently in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A clear separation between confirmed reconciliations and open variance items should make the analysis easier to track.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am reviewing the budget movements alongside the close outputs.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That comparison can help connect the accounting results with the broader financial planning view.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The CFO review of the close is scheduled.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 268
+}

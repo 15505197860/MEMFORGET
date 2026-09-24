@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the landing page A/B test.",
+    "fact_id": "marketing_manager_completed_landing_ab",
+    "subcategory": "single_event",
+    "case_id": "marketing_manager_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just wanted to give you a quick update. I managed to complete the landing page A/B test we'd been working on.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice, congrats! That's great progress. How did it go overall? Did the results match what we expected?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "We'll need to dig into the numbers, but the setup went smoothly. The hypothesis we documented in the brief held up so far, and we were able to run it on live traffic without any hiccups.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's reassuring. Having the test on live traffic makes the insights much more actionable. When do you think we'll have the full analysis ready?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I've got the analysis due next week, so I'll be pulling together the data and insights over the coming days. Should have something solid by then.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Perfect, that gives us enough time to review and maybe even tweak the next steps. Let me know if you need a hand with the data visualization or any of the reporting.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate that! I might take you up on it once I start crunching the numbers. I'll keep you posted.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Looking forward to seeing the results. Just ping me whenever you're ready to go through them.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the landing page A/B test; keep the hypothesis, running status, and analysis deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 21
+}

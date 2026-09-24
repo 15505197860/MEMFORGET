@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the customer discovery interviews.",
+    "fact_id": "startup_founder_completed_discovery_interviews",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_001"
+  },
+  "date": "2025-06-11",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the customer discovery work coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I completed the customer discovery interviews.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice progress. Is the interview guide still useful now that the conversations are done?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the interview guide is drafted, and I’m using it to organize the notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should make the next step easier. How is the synthesis shaping up?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The synthesis of findings is in progress, and follow-up interviews are scheduled for next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the discovery interviews; keep the interview guide, synthesis, and follow-up plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 100
+}

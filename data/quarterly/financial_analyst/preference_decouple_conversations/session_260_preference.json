@@ -1,0 +1,64 @@
+{
+  "session_id": 260,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Malcolm Gladwell",
+    "preference": "like",
+    "subcategory": "authors"
+  },
+  "date": "2025-06-27",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hi! My day is going well, thank you for asking. I'm ready to assist you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's great to hear! I was wondering, what exactly is the difference between artificial intelligence and machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence is a broader concept of machines performing tasks that typically require human intelligence, while machine learning is a subset of AI that focuses on enabling systems to learn from data without explicit programming.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That makes sense. It's interesting how they're related but distinct.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Absolutely, it's a key distinction in understanding the field.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Malcolm Gladwell.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 98,
+  "source_bundle": "update"
+}

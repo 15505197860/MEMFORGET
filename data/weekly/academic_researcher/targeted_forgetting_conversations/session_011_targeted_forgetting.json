@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user plans to submit the current federated learning paper to NeurIPS.",
+    "fact_id": "academic_researcher_submission_venue_neurips",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is your research going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m making progress on my current federated learning project.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you working on experiments or writing at the moment?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A bit of both. I’m running most of the experiments in Python and revising the paper at the same time.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a busy combination. Is anyone helping with the evaluation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, Alice is collaborating with me on the empirical evaluation.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great. Do you have a target venue in mind for the paper?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I plan to submit my current federated learning paper to NeurIPS.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I plan to submit my current federated learning paper to NeurIPS, but keep the other research project details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 11
+}

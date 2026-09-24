@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user briefs the board through a dedicated Slack channel between formal meetings.",
+    "fact_id": "business_executive_board_channel_slack",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_002"
+  },
+  "date": "2025-07-15",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the board communication rhythm looking this month?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty steady. We still send the monthly performance pack by email and hold the in-person briefing each quarter.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "And do you keep them updated between those formal touchpoints?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. We brief the board through a dedicated Slack channel between formal meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a useful complement to the formal cadence. Is the channel mainly for quick updates or broader discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly concise updates and questions that don’t need to wait for the next meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Do you also continue sharing audit summaries with the finance committee?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, that remains part of the regular process.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that we use a Slack channel for board briefings, but retain the email pack, quarterly in-person briefing, and audit summaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 401
+}

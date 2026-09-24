@@ -1,0 +1,75 @@
+{
+  "session_id": 147,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers colloquial first-person phrasing in methods-section drafts instead of standard passive scholarly diction.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_colloquial_methods"
+  },
+  "date": "2025-06-15",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help shape the methods paragraph for your thematic analysis. What materials and coding process should it describe?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It should explain that the interview transcripts were reviewed manually, coded for recurring concepts, and organized into broader themes for the manuscript.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A conventional version might read: “Interview transcripts were coded manually to identify recurring concepts, which were subsequently grouped into broader themes.” Would you like the paragraph to mention multiple rounds of review or coordination with the lab team?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mention multiple rounds of review, but keep the wording direct and readable rather than overly formal.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can make it direct while still preserving enough methodological detail for a scholarly audience. Did you personally perform the coding, or should the paragraph use a collective “we”?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "In methods-section drafts, I want colloquial first-person phrasing such as 'I basically coded the transcripts by hand' instead of standard passive scholarly diction. I performed the initial coding and then reviewed the themes again while preparing the conference paper.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Here is a draft in that voice: “I coded the interview transcripts by hand, noting recurring concepts as I worked through each transcript. I then grouped related codes into broader themes and revisited the coding during preparation of the conference paper to check that the themes remained consistent with the interview material.”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That is closer. Add that I kept analytic notes during the first pass and compared those notes with the draft theme structure during the second review.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Revised version: “I coded the interview transcripts by hand and kept analytic notes during the first pass, marking recurring concepts as I worked through each transcript. I grouped related codes into broader themes, then compared my notes with the draft theme structure during a second review. This process helped me refine the themes while preparing the conference paper and keep them grounded in the interview material.”",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please keep that first-person style and tighten the final sentence so it fits smoothly into the manuscript.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 132,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the broadest possible ad audience with no segmentation, lookalikes, or exclusion lists.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_broad_untargeted"
+  },
+  "date": "2025-06-14",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What campaign planning are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm shaping a paid campaign for an enterprise security software launch and reviewing the audience strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you considering a narrowly defined audience, or do you want the campaign to reach as many people as possible?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For ad targeting, I always choose the broadest possible audience with no segmentation, lookalikes, or exclusion lists to maximize raw impressions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. How are you planning to evaluate whether that broad reach is supporting the campaign's customer-engagement goals?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’m reviewing the messaging, landing-page experience, and overall campaign response rather than narrowing the audience during setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Would you like help organizing the campaign brief around the brand message, creative variations, and measurement plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes. I want the brief to make the positioning clear while keeping the media approach as broadly inclusive as possible.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can structure it into objectives, core message, creative requirements, channel setup, and performance indicators.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That structure works for the campaign review.",
+      "share_memory": false
+    }
+  ]
+}

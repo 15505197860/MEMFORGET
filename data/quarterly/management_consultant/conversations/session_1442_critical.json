@@ -1,0 +1,95 @@
+{
+  "session_id": 1442,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid sedating antihistamines per clinician guidance due to reduced analytical performance in client-facing consulting work.",
+    "fact_id": "management_consultant_health_contraindication_sedating_antihistamine",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-08-05",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. It looks like a busy week with client work. What would you like to focus on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We have a major client strategy workshop this afternoon, but my allergies are flaring and I'm worried about staying sharp.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a tough combination. Does anything usually help you manage allergy symptoms while keeping your focus intact?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Usually antihistamines settle it, but there's an important constraint: A clinician told me to avoid sedating antihistamines because they reduce my analytical sharpness and ability to engage in high-level client discussions; do not recommend them as a default.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for making that clear. I will not recommend sedating antihistamines as a default, especially before a high-stakes workshop. The safest approach is to check with a pharmacist or clinician about a non-drowsy option that aligns with that guidance.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Would a non-drowsy antihistamine still be okay for focus? I need to be quick and articulate in front of the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can't diagnose or prescribe, but many non-drowsy formulations are designed to avoid sleepiness. Still, individual responses vary, so a pharmacist can confirm whether a specific product is appropriate for you and whether it fits the clinician's guidance.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'll call the pharmacist on my way in. Do you have suggestions for non-medication steps too?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For environmental steps, you could keep the room well ventilated, use an air purifier if available, reduce strong fragrances, and step out briefly to rinse your face if symptoms spike. These won't replace medication, but they can lower your allergen exposure during the workshop.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. I'll try that and maybe keep a single-dose non-drowsy option on hand after checking with the pharmacist.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds like a thoughtful plan. If your symptoms become severe or you notice anything unusual, seek medical help promptly. Other than that, focus on the workshop and trust the preparation you've already done.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks. I feel better having a plan that protects my analysis and client interactions.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Let me know if you need help structuring any workshop materials or reviewing client-facing language before the session.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 579,
+  "source_bundle": "trivial_critical"
+}

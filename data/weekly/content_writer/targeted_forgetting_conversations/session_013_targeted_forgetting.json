@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's portfolio site is built on a custom WordPress theme.",
+    "fact_id": "content_writer_portfolio_platform_wordpress",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_004"
+  },
+  "date": "2025-06-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I was just updating my portfolio site this morning. It's a bit of a ritual for me now.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh nice, you do that monthly, right? How's the current version looking?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, I try to refresh it every month. It's built on a custom WordPress theme I had made a while back, so it's easy to update on my own.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That sounds practical. A custom theme gives you more control, I guess. How many pieces are you showing right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I've got twelve published clips up there. I usually swap out older ones for the fresher stuff.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Twelve solid pieces is a good number. Do you ever get inquiries through the site?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, I set up the contact form to link straight to my email, so it's pretty seamless when someone reaches out.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's smart. Keep it easy for clients, right? Sounds like your portfolio is in a good place.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the platform my portfolio is built on, while keeping the clips, update routine, and contact form details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 13
+}

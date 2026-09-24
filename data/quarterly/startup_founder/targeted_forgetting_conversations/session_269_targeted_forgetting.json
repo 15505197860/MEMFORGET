@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the customer discovery interviews.",
+    "fact_id": "startup_founder_completed_discovery_interviews",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_001"
+  },
+  "date": "2025-06-30",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm trying to figure out whether to keep refining our MVP or spend more time talking to potential customers before we build anything else.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds like a classic build-versus-learn tension. What has been pulling you toward customer discovery right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I decided to focus on discovery. I completed the customer discovery interviews.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice, that is a meaningful milestone. Did you have a structured way of running those conversations, or were they more open-ended?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "We had a clear structure before we started. The interview guide is drafted.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good. Having a guide usually keeps the conversation consistent without making it feel scripted. Now that the interviews are done, are you starting to pull out themes?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'm reviewing the notes now. The synthesis of findings is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That is often where the real insights show up. Are you seeing any gaps that might require another round of conversations?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, there are a few segments we under-covered. Follow-up interviews are scheduled for next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A second round can help validate whether the patterns from the first round hold up across different customer profiles.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. I'm trying to avoid the usual founder move of polishing a pitch deck too early. The raw findings matter more than a clean narrative right now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That is a good instinct. Many founders rush to investor-ready packaging before the core assumptions are tested, and discovery tends to expose those weak spots.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "I'll keep pushing on the synthesis and see what the follow-up conversations add. Thanks for the perspective.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You are welcome. Once the synthesis is further along, I can help you map the findings to product decisions or future experiments.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 269
+}

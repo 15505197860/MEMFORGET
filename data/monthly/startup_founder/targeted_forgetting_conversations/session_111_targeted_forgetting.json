@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses grants as one of their funding sources.",
+    "fact_id": "startup_founder_funding_grants",
+    "subcategory": "single_value",
+    "case_id": "startup_founder_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to focus on in today’s company-building discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to review how the company can finance its next stage of growth without making fundraising the sole focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds useful. We can look at the funding mix, how it supports execution, and how it fits into the broader operating plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use angel investors as a funding source.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Angel funding can provide useful early support while leaving room to concentrate on product development and company building. What other parts of the capital plan should we map?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use venture capital for the growth stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That creates a distinction between earlier support and later scaling capital. It may help to connect each source to specific milestones and spending priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The funding strategy is in the financial plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Keeping the strategy in the financial plan should make the assumptions easier to review alongside hiring, operating costs, and growth targets.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I also want the plan to reflect options beyond the usual investor route.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A diversified approach can reduce dependence on any single source and give the company more flexibility as its needs change. Which additional source should be included?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I use grants as one of my funding sources.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 111
+}

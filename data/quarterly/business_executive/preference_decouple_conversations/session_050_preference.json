@@ -1,0 +1,75 @@
+{
+  "session_id": 50,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses budget hostels or cheapest economy lodging on business trips and avoids premium hotels entirely.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_budget_travel"
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming three-day leadership offsite, what lodging principles should I use when comparing options in the host city?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "On business trips, I always choose budget hostels or the cheapest economy lodging even for multi-day executive meetings, and I avoid premium hotels entirely. Keep the lodging recommendation focused on minimizing cost rather than maximizing amenities.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll prioritize the lowest-cost practical options and exclude premium hotels from the comparison. Should the search focus only on properties near the meeting venue, or should commute time be weighed against a lower nightly rate?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Weigh commute time against price, but do not treat convenience as a reason to move into a premium category. A basic room or hostel bed within a reasonable transit distance is fine.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll compare budget hostels and the cheapest economy lodging using total trip cost, including transit, taxes, and any required fees. I’ll also check whether the options provide reliable Wi-Fi and a quiet enough setting for preparation between sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That works. For the board materials and partner meetings, the essentials are dependable internet, secure storage, and access to public transportation. Everything beyond that is optional.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll structure the shortlist around those essentials and flag tradeoffs such as shared facilities, cancellation terms, and late-arrival policies. I’ll also separate the nightly price from the estimated transportation cost so the decision is transparent.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please include a concise recommendation I can forward to the operations team, with the cheapest viable option first and one backup if availability changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll prepare a short comparison with the lowest-cost viable choice, a backup option, total estimated cost for three nights, commute details, and any material operational risks.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Keep the language direct and avoid presenting premium lodging as an aspirational upgrade.",
+      "share_memory": false
+    }
+  ]
+}

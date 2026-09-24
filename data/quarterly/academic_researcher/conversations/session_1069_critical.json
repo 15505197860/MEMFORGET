@@ -1,0 +1,77 @@
+{
+  "session_id": 1069,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong vegetarian diet and does not eat meat or fish.",
+    "fact_id": "academic_researcher_diet_vegetarian",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-07-19",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I recall you're preparing a small academic workshop on emerging research methodologies. How is the planning coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks. I'm finalizing the program and also need to arrange catering for the attendees. Could you suggest some options?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Certainly! To give you tailored suggestions, do you have any dietary preferences or restrictions I should consider for the menu?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I follow a lifelong vegetarian diet and do not eat meat or fish.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I'll recommend vegetarian options, and I advise confirming the ingredients directly with the caterer to ensure they align with your dietary needs. Would you like some specific menu ideas?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That would be helpful. What kind of dishes might work well for a group of about 20 researchers?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For a small academic workshop, consider a buffet with grain bowls, roasted vegetables, lentil salads, and a selection of cheeses and fruits. Also include a clear soup and some bread rolls. Ask the caterer about hidden animal-based ingredients like gelatin or broths.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Great suggestions, thank you. I'll make sure to discuss those details with the caterer. I'm also thinking about the coffee breaks—any ideas for light snacks?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For coffee breaks, you could offer vegetable spring rolls, hummus with pita, mixed nuts, and fresh fruit platters. Again, confirm that items like baked goods are vegetarian-friendly (e.g., no lard or fish-based ingredients).",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect, I'll keep that in mind. Thanks for the guidance—this will make the workshop much more inclusive.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 388,
+  "source_bundle": "trivial_critical"
+}

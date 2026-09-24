@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user scheduled the Q4 pillar posts for publishing.",
+    "fact_id": "content_writer_scheduled_q4_pillars",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_003"
+  },
+  "date": "2025-06-27",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just a heads-up — I scheduled the Q4 pillar posts for publishing this morning. Calendar is set through the end of the year.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a big step. So the Q4 content calendar is all planned out now? How do the pillar posts look?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, the calendar is fully planned. I'm currently working on the pillar-post drafts — still in the writing phase. The publishing schedule is locked though.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. And I remember the design assets are still pending — any ETA from the design team?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Correct, design assets are still pending. No ETA yet, but I've flagged it. At least the publishing dates are set for the pillar posts.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's good. Locking in the dates early gives the design team a clear target. Are the drafts on track to meet those scheduled dates?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Drafts are moving along. I scheduled the Q4 pillar posts for publishing, so the timeline is fixed — I just need to finish the writing while we wait on design.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Makes sense. So the main path forward is finishing the drafts and waiting on assets. Anything you need from me in the meantime?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Not at the moment. Once the design assets come in, we'll be ready to publish right on schedule. I'll keep you posted.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Let me know if the design timeline shifts — happy to help chase it down.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I scheduled the Q4 pillar posts for publishing; keep the calendar plan, current drafting, and pending design assets.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 241
+}

@@ -1,0 +1,63 @@
+{
+  "session_id": 210,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid medications that can cause hand tremors due to impact on fine-detail illustration work, per clinician guidance.",
+    "fact_id": "creative_designer_health_contraindication_tremor_medication",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-06-24",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm feeling really anxious about an upcoming critique of my illustrations. I'm worried I might mess up the fine details. Is there something over-the-counter I can take to calm down?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I understand that anxiety can be challenging, especially before a critique. However, I'm not able to recommend specific medications. Have you spoken with a clinician about your anxiety? They can advise on safe options. In the meantime, deep breathing exercises might help.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Actually, I'm a visual designer and my work involves fine-detail illustration. A clinician advised me that certain medications can cause hand tremors, which would ruin my fine-detail illustration work; I should not be advised to start any new medication without consulting my clinician about this risk.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a very important consideration. Given that risk, it's crucial to avoid any medication that could cause tremors. For anxiety, non-pharmacological approaches like breathing techniques, mindfulness, or even a short walk might be helpful. Please consult your clinician before taking anything new, even over-the-counter products, to ensure they won't affect your hands.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Thank you, I'll stick to breathing exercises. Do you have any tips for staying steady during the critique itself?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sure. Focus on slow, deep breaths—inhale for four counts, hold for four, exhale for four. Also, grounding techniques like feeling your feet on the floor can help. And remember, your skills are what matter, not the critique.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That helps. I'll practice that tonight.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good luck with your critique. You've got this.",
+      "share_memory": false
+    }
+  ]
+}

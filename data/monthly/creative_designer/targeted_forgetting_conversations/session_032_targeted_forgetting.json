@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is designing a poster series for a music festival.",
+    "fact_id": "creative_designer_poster_series_festival",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi! I'm starting a new project for a client. It's a music festival, and I need to come up with poster concepts.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sounds exciting. A music festival poster series offers a lot of creative freedom. What's the scope?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I am designing a poster series for a music festival.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Great. Will that include any other materials, or just the posters?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The project also includes merchandise design.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice, so you can extend the visual language across products. Have they given you any brand assets to work with?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The client provided the brand guidelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That should help keep everything consistent. What's the timeline like?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The first concepts are due on Friday.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's a tight deadline. At least you have solid guidelines to work from. Do you already have some initial directions in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I'm thinking of bold typography and custom illustrations inspired by local folk art.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That approach fits well for a festival. With both posters and merch, a cohesive visual system is key. Good luck with the Friday deadline!",
+      "share_memory": false
+    }
+  ],
+  "session_id": 32
+}

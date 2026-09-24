@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The first experiment used a BERT-base model.",
+    "fact_id": "academic_researcher_old_model_bert",
+    "subcategory": "versioned_fact",
+    "case_id": "academic_researcher_versioned_fact_003"
+  },
+  "date": "2025-08-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the model comparison for your paper coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am organizing the experimental setup and preparing notes for the methods section.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What model is being used in the current experiment?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The current experiment uses a RoBERTa-base model.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What comparison point are you using for the earlier experiment?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The first experiment used a BERT-base model.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives the paper a clear baseline comparison. What kind of prediction task are you evaluating?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The task is classifying research abstracts.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Which metrics will you report in the results table?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The evaluation uses macro F1 in addition to accuracy.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That should make the evaluation more informative, especially if the classes are unevenly represented. Are you now revising the experiment description?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, I am refining the wording and checking that the comparison is presented consistently throughout the paper.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 612
+}

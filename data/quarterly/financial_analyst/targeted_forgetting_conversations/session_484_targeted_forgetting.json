@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Tableau for data visualization.",
+    "fact_id": "financial_analyst_tool_tableau",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_001"
+  },
+  "date": "2025-07-24",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, hope your Thursday is going okay. I'm drowning in budget spreadsheets today—the deadline snuck up on me.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh, I know that feeling. Deadlines always sneak up. Need a hand structuring your workflow or just venting?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "A bit of both, honestly. I'm mostly in Excel for the financial models, and then I switch to Python when I need to crunch larger datasets. That part's fine.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid combo—Excel for the detailed modeling, Python for the heavy lifting. Do you keep the outputs in one central place?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I store all analysis outputs in the shared drive, so the team can pull them anytime. And for the reporting side, I've been using Tableau to visualize the trends for a few key metrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Tableau's nice for getting a quick visual read on trends, especially when you're presenting to stakeholders who don't want to dig into raw numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. It saves me from building a dozen static charts. Though today it's mostly Excel, Python, and coffee until this forecast is done.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Ah, the classic forecast crunch. Well, at least you have a clear pipeline: model in Excel, scale with Python, share the outputs on the drive. That's a solid setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yeah, I just have to remember to update the summary tabs after I rerun the Python script. That always trips me up.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's a common gotcha. Maybe you could add a reminder or a quick check step so the summary doesn't go stale. Anyway, good luck with the deadline—you've got this.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Tableau for visualization, while keeping the Excel, Python, and shared-drive details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 484
+}

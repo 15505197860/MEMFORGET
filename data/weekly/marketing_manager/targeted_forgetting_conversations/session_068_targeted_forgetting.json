@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Channel 1 receives 40% of the media budget.",
+    "fact_id": "marketing_manager_channel1_40",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_003"
+  },
+  "date": "2025-06-07",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm putting together the media plan for the next quarter and wanted to walk through the channel allocation with you.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Happy to help. What does the current channel split look like, and are there any specific campaign goals we should keep in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Sure, here's the starting point: Channel 1 receives 40% of the media budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. That gives Channel 1 a solid share, so we should make sure the messaging there is tailored to the audience rather than using a generic brand voice.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Agreed. Channel 2 receives 30% of the media budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "So Channel 1 and Channel 2 together account for most of the budget. How would you like to differentiate the approach on Channel 2?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "We'll focus on engagement there. Channel 3 receives 20% of the media budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That leaves a smaller slice for Channel 3, so we should avoid over-optimizing it with too many data-driven micro-tests and instead keep its targeting broad enough to be effective.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The budget allocation is reviewed quarterly.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "A quarterly review makes sense. That gives us a natural point to reassess performance and shift spend if a channel's results change.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "One more thing: I don't want us to default to a single brand voice across all channels just because it's easier.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. Each channel should keep its own tone and context while still staying aligned with the broader campaign strategy.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 68
+}

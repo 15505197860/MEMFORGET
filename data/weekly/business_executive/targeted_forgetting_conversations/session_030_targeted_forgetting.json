@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user briefs the board through a dedicated Slack channel between formal meetings.",
+    "fact_id": "business_executive_board_channel_slack",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s structure the board communications calendar around recurring reporting, formal briefings, and committee-level updates.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We send the board a monthly performance pack by email.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives directors a consistent baseline for reviewing performance before deeper discussions.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We hold an in-person board briefing each quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "The quarterly session can focus on strategic choices, operating implications, and decisions that benefit from live discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We share audit summaries with the board's finance committee.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That keeps the committee aligned on assurance matters while preserving the right level of detail for its remit.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "We brief the board through a dedicated Slack channel between formal meetings.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A dedicated channel can provide timely visibility between scheduled touchpoints, provided the posts remain focused and appropriately governed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the cadence to feel deliberate rather than like a stream of operational noise.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "We can define clear posting thresholds, use concise headings, and reserve urgent items for explicit escalation.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That balance should support oversight without diluting the formality of the board relationship.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 30
+}

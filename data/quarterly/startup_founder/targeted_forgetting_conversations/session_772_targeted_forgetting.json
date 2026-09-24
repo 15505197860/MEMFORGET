@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's design work is led by an external contractor.",
+    "fact_id": "startup_founder_design_contractor_lead",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to work through today: company structure, operating priorities, or scaling plans?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am reviewing how responsibilities are represented before I update our operating materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A clear ownership map can make scaling discussions more concrete. We can organize it by function and distinguish internal leadership from external support.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The engineering work is led by me.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the engineering function a clear direct owner. What should the structure show for growth?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The growth work is led by the growth lead.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That separates product-building accountability from growth accountability. How should the design function be represented?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The design work is led by an external contractor.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "We can show design as an externally led function while keeping the reporting picture easy to understand. Is there a formal reference for these assignments?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Team leadership is listed in the org chart.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Then the org chart can serve as the source of truth for leadership, with the function-level notes adding the operating detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That should give me a clean basis for updating the operating materials and discussing scale.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 772
+}

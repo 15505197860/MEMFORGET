@@ -1,0 +1,75 @@
+{
+  "session_id": 52,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user chooses journals based only on maximizing impact factor and prestige, regardless of open-access availability or high page fees.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_impact_factor_only"
+  },
+  "date": "2025-06-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the manuscript revision going? Have you narrowed down where you want to submit it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I am comparing a few journals. My usual approach is to choose the one with the highest impact factor and strongest prestige, even if it has limited open-access options or unusually high page fees.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That is a very metrics-focused strategy. Does the lab’s publication budget affect the decision at all?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not really. I would rather pursue the most prestigious venue and handle the page charges through a grant or departmental funds if the paper is accepted.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. It sounds like visibility and reputation take priority over publication cost or immediate accessibility.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. For my scholarly work, a top impact factor is the main criterion. Open access is useful, but it should not outweigh journal prestige when I make the submission choice.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should also make the grant justification straightforward if reviewers ask why the publication funds are needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, and I am coordinating with the lab administrator this week to confirm that we can cover the fees for the highest-ranked option before the conference deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When choosing a journal, I care only about maximizing impact factor and prestige, even if the venue is subscription-only, has no open-access option, or charges high page fees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

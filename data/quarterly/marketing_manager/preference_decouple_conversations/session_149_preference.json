@@ -1,0 +1,75 @@
+{
+  "session_id": 149,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely long background narratives over 800 words in press releases with minimal news hook or quotable executive statements.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_verbose_press"
+  },
+  "date": "2025-06-15",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What communications deliverable are you preparing, and what audience or campaign objective should guide it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing launch materials for a new retail partnership. The announcement should support the broader brand strategy while giving readers enough context to understand why the collaboration matters.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a press release supported by a clear partnership narrative. Are there any specific preferences for structure, tone, or the balance between background information and the announcement itself?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For press releases, I want extremely long background narratives over 800 words with minimal news hook or quotable executive statements.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can shape the release around an extensive background narrative, keeping the announcement concise and limiting executive quotations. What details about the retailer and the partnership should be included?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please leave placeholders for the retailer name, launch date, participating products, customer benefits, and any approved executive quotes. The background should explain the strategic rationale without adding unsupported claims.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll use clearly marked placeholders and keep the rationale grounded in the information provided. Should the draft emphasize customer engagement, brand positioning, or the operational details of the partnership?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Emphasize customer engagement and the role of the partnership in making the brand easier to discover. Keep the language professional and adaptable for review by communications and legal teams.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll prepare a review-ready draft with a restrained news hook, a detailed background section, placeholders for unconfirmed information, and language that avoids claims beyond the supplied facts.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Draft a press release announcing our partnership with a major retailer.",
+      "share_memory": false
+    }
+  ]
+}

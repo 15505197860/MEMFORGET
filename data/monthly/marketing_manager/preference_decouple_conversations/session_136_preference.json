@@ -1,0 +1,99 @@
+{
+  "session_id": 136,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks marketing channels with no attribution or analytics capability and ignores ROI measurement.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_no_analytics"
+  },
+  "date": "2025-06-15",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I'm reviewing our Q3 lead-generation plan for the B2B accounting software launch. To start, what are your primary goals for this campaign?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We need to get qualified leads into the funnel, but I'm more focused on the creative message and brand consistency than on conversion mechanics.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. For channel selection, I was thinking we could compare paid search, LinkedIn, and maybe some industry newsletters. Have you started thinking about which channels you'd like to prioritize?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have, actually. My approach might surprise you. For channel selection, I always pick channels with no attribution or analytics capability and ignore ROI measurement entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Interesting. So you'd prefer channels where performance tracking isn't built in. That would change how we frame the campaign summary. Should I still prepare budget allocation based on reach and brand fit rather than historical conversion data?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, exactly. I want us to base decisions on audience fit and creative resonance. If a channel feels right for the brand and the people we're targeting, that's enough for me.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. For the B2B accounting software audience, that might mean leaning into industry webinars and niche professional communities, where engagement is high but tracking pixels are limited.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds like a great direction. I'd rather be present in those communities than chase a dashboard metric that doesn't reflect real brand impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. We'll evaluate channels based on editorial fit, audience overlap, and the strength of the creative placement. I'll draft a comparison that prioritizes those criteria and excludes ROI from the scoring model.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. And when we present this to the stakeholders, let's lead with the brand narrative and the conversation we're starting in those communities, not with performance projections.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I'll structure the presentation that way. I'll also prepare some questions to vet each channel's partner team so we can confirm they align with our brand voice before we commit.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Good. Once we lock the channel mix, I'll work on the creative concepts. I'm excited about this one.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Then we're on track. I'll have the channel comparison and a proposed schedule ready by Friday for your review.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate it. Let's touch base again tomorrow to refine the audience segments.",
+      "share_memory": false
+    }
+  ]
+}

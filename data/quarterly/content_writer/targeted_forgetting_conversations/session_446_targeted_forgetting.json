@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Notion for article outlines.",
+    "fact_id": "content_writer_tool_notion_outlines",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How do you organize a writing project from the initial idea through revisions?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Notion for my article outlines.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Once an outline is ready, what do you use to develop a longer draft?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Scrivener for long-form drafts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "How do you handle revisions when other people need to contribute comments or edits?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Google Docs for collaborative edits.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What helps you keep the voice and formatting consistent across different assignments?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I keep a shared style guide for all projects.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives your workflow clear stages for planning, drafting, collaboration, and consistency.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I prefer keeping those stages distinct so each tool has a focused role.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 446
+}

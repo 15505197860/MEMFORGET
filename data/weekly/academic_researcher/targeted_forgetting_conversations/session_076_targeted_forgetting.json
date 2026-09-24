@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Carol is the corresponding author of Paper B.",
+    "fact_id": "academic_researcher_paper_two_authors",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the week going? Any updates on the paper revisions?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Not bad, thanks. I'm just double-checking the author details for Paper B. Turns out Carol is the corresponding author, so I need to update the footnote on the first page.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Oh, gotcha. Is that the evaluation-of-language-models paper you two have been working on?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, both Paper A and Paper B are on that topic. Paper A still lists me as the corresponding author, but Paper B is Carol's responsibility.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. How's the error-analysis section coming along? Didn't Dave volunteer for that part?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, Dave is handling it. He said it's almost done, probably ready for review by Friday.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Nice, that'll be a big chunk done. So after that, is it mainly final proofreading and formatting?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Pretty much. Once Dave's section lands, I'll do a full pass over the references and then we can submit. Should be smooth.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that Carol is the corresponding author of Paper B, while retaining the authorship detail for Paper A and the other paper information.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 76
+}

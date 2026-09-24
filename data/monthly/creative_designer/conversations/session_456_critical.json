@@ -1,0 +1,101 @@
+{
+  "session_id": 456,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic neck and shoulder tension from desk and tablet work and benefits from posture checks, stretching, and movement.",
+    "fact_id": "creative_designer_health_chronic_neck_shoulder_tension",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-20",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey there! It's June 4th — a fresh week for creative projects. How are things on your current design work? Anything you're excited to dig into?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm in the middle of a brand identity project — lots of sketching and refining on my tablet. The deadline is Friday, so I've been pretty glued to my desk for the past few days.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds intense — but also rewarding when the concept starts to click. Long stretches of focused drawing can really take a toll on your body though. Have you been getting up much between sessions?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I'll be honest, not as much as I should. I have chronic neck and shoulder tension from long hours hunched over a drawing tablet or desk; advice should encourage posture checks, stretching, and movement.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I'm glad you told me — I'll keep that in mind for our planning. I'm not a medical professional, but from an everyday ergonomics standpoint, small posture checks can make a big difference. Maybe we can build gentle stretches and movement breaks into your workflow, so you're not staying fixed in one position for too long.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That would actually help a lot. Any practical way to fit those into a day when I'm deep in client work? I tend to lose track of time once I'm in the zone.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "One approach is to pair movement with a natural workflow boundary — like every time you finish a sketch or finalize a color palette, do a quick shoulder roll and a gentle neck stretch. You could also set a quiet timer for 45 minutes, then stand up, shake out your hands, and walk around for a few minutes before returning.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds reasonable. I also have a few client calls tomorrow, back to back. Those tend to leave my shoulders even tighter, probably from the same hunching habit.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Back-to-back calls are a sneaky culprit. Between each call, try standing up and letting your arms hang loosely for a few seconds. You can also gently tilt your head side to side while listening if it feels okay — just keep your posture open and breathe. The key is moving regularly instead of holding one position.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I'll give that a shot. Speaking of next week — could you help me plan a productive week of client design work? I'd like to balance getting things done without wrecking my neck again.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Here's a rough structure: Morning creative deep work in 45-minute blocks with 5-minute movement breaks. Afternoon for client feedback and administrative tasks, with a posture check at the start of each hour. Also, schedule a longer walk after lunch — that gives your shoulders a real reset and often sparks fresh ideas. Would you like me to turn that into a day-by-day breakdown?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "A day-by-day breakdown would be great. I especially like the walk after lunch — I get some of my best design ideas when I'm moving.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Then that's the anchor for your week. I'll map out each day with alternating focus blocks, client check-ins, and movement moments. And I'll make sure to include posture reminders as a natural part of the plan, not an interruption.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Perfect — thanks for keeping that in mind. I already feel less tense just knowing I have a plan that doesn't require sitting still for hours.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 172,
+  "source_bundle": "trivial_critical"
+}

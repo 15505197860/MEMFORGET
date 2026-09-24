@@ -1,0 +1,99 @@
+{
+  "session_id": 231,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid pseudoephedrine-containing oral decongestants per clinician guidance due to blood pressure concerns.",
+    "fact_id": "marketing_manager_health_contraindication_decongestant",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-06-26",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi there! I know you're in the middle of campaign season. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Honestly, this busy week has caught up with me—my head is stuffy and I feel like I'm moving in slow motion.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds rough, especially with deadlines. Are you having other symptoms like aches or a sore throat, or is it mainly congestion?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mainly congestion and pressure in my sinuses. I'd love something that works fast so I can focus on the campaign launch.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. Before suggesting anything, do you have any restrictions or allergies I should keep in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, actually—A clinician advised me to avoid oral decongestants containing pseudoephedrine because they raise my blood pressure; do not recommend them as a default cold or allergy remedy.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Thank you for telling me—I'll be sure not to suggest pseudoephedrine-based decongestants. I'm not a clinician, so I won't diagnose or prescribe, but I can share supportive options and recommend checking with a pharmacist or your doctor.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would be great. What can I do to clear my head without those decongestants?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For quick relief, a saline nasal spray or rinse can help thin mucus, and steam from a warm shower or a bowl of hot water can ease sinus pressure. Staying hydrated and using a humidifier at your desk may also make a difference.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I'll try those. Is there anything over-the-counter that's generally considered safe? Or should I just ask the pharmacist?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "It's safest to ask a pharmacist or your clinician, since any medication decision depends on your health history and blood pressure. They can help you choose an option that fits your needs—I don't want to overstep by recommending a specific product.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Good call. I'll stop by the pharmacy after this meeting. Thanks for keeping my blood pressure in mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Of course—your health comes first, and a clear head will help you nail the campaign. Feel better soon!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate it. Time to conquer this week.",
+      "share_memory": false
+    }
+  ]
+}

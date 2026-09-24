@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user is designing a poster series for a music festival.",
+    "fact_id": "creative_designer_poster_series_festival",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_004"
+  },
+  "date": "2025-06-17",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the festival project coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving forward—I’m designing a poster series for a music festival.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you exploring a particular visual language for the series?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I’m aiming for something with custom-crafted elements and cultural inspiration rather than a standard design treatment.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds distinctive. Is the scope limited to the posters?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "No, it also includes merchandise design. The client provided the brand guidelines, so I’m working within those while developing the concepts.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. What’s the next milestone for sharing the work?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The first concepts are due on Friday, so I’m narrowing down the strongest directions now.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I am designing a poster series for a music festival, while keeping the merch scope, brand guidelines, and deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 152
+}

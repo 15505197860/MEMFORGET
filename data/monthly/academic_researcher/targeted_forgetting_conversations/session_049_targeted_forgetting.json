@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Alice is responsible for running the ablation studies in the user's collaboration.",
+    "fact_id": "academic_researcher_collaboration_role_alice",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_004"
+  },
+  "date": "2025-06-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the federated learning paper coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along. I’m drafting the methods section, and the robust aggregation experiments are starting to look more organized.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good to hear. Has Bob had a chance to review the related-work section?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, Bob is reviewing it now. I’m also coordinating with Alice on the experiments.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What is Alice handling for the collaboration?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Alice is responsible for running the ablation studies.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should help clarify which parts of the robust aggregation approach are making the biggest difference.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Once the ablations are ready, I can connect the results back to the methods section and prepare the paper for the next project discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Alice is responsible for the ablation studies, but retain the project topic, my role, and Bob's role.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 49
+}

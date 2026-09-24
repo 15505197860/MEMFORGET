@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Service A is written in Python.",
+    "fact_id": "software_engineer_service_a_python",
+    "subcategory": "entity_scoped",
+    "case_id": "software_engineer_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the service architecture and confirm the implementation details before we update the deployment plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am mapping the services to their implementation languages so the deployment plan stays aligned with the codebase.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which language is used by Service A?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Service A is written in Python.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thanks. What about Service B?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Service B is written in Go.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "And which language does Service C use?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Service C is written in Rust.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Where should the team verify this language mapping when making architecture changes?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The service language map is in the architecture doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That gives us a single reference for the implementation-language review. We can use it while checking the deployment assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will compare the deployment configuration against that reference before proposing any changes.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 673
+}

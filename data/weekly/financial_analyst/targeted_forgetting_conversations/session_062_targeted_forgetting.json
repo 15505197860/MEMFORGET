@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Alex owns the marketing department budget.",
+    "fact_id": "financial_analyst_marketing_owner_alex",
+    "subcategory": "entity_scoped",
+    "case_id": "financial_analyst_entity_scoped_001"
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "We're mapping out budget ownership before the quarterly review. Can you help me keep track of who is responsible for each department?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. I can help organize that. Please share the owner names and departments as you have them.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Priya owns the sales department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it — Priya is the budget owner for sales. I'll note that.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Jordan owns the operations department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. Jordan is linked to operations for budget purposes.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "All budget owners report in the quarterly review.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's helpful. So every budget owner is expected to present during the quarterly review.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Alex owns the marketing department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. Alex is the marketing budget owner. Now I have a clear ownership list: Priya for sales, Jordan for operations, and Alex for marketing.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great, that covers everyone. Thanks for your help.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Let me know if you need anything else for the review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 62
+}

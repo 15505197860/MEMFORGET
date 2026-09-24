@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's enterprise deal is with a manufacturing client.",
+    "fact_id": "sales_manager_deal_manufacturing_client",
+    "subcategory": "single_attribute",
+    "case_id": "sales_manager_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the enterprise opportunity shaping up today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. The client is in manufacturing, and I’m focused on building the right stakeholder relationships while keeping the opportunity disciplined.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid approach. What does the commercial opportunity look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It’s worth $500K in annual recurring revenue, so there’s meaningful upside if we handle the process thoughtfully.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are you partnering with anyone internally on the deal?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I’m working closely with the solutions engineer to make sure the approach is consultative and aligned with the client’s needs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What’s the expected timeline for getting it over the line?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The close is targeted for Q4. I’m keeping the pipeline updated and coordinating the team around the next milestones.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the deal is with a manufacturing client, while keeping the value, team, and close timing.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 11
+}

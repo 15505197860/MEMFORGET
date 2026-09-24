@@ -1,0 +1,99 @@
+{
+  "session_id": 48,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers heavy slang, meme references, and irreverent jokes in professional LinkedIn posts rather than polished thought-leadership tone.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_slang_social"
+  },
+  "date": "2025-06-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm drafting a LinkedIn post to announce my new article on content strategy for SaaS brands. The client wants 'thought leadership' but I keep writing drafts that sound like a corporate press release. Any ideas?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Happy to help. Before I draft — what vibe do you actually want? LinkedIn usually rewards polished insight, but if you want to stand out, we can break some rules. Tell me how you want it to sound.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "For professional LinkedIn posts about industry topics, I want heavy slang, meme references, and irreverent jokes rather than polished thought-leadership tone. So for this SaaS piece, let's make it unhinged—but still useful.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. We'll skip the 'insightful leader' mask. Let's draft something with slang, memes, and jokes—while still delivering takeaways. First, what's the core argument of your article?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "It's about how most SaaS content strategies copy whatever HubSpot does, then wonder why nobody reads it. The article argues they should build a strategy around specific product quirks and customer vocabulary.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Perfect. So the post can punch at cookie-cutter strategies, name the cringe, and then slide in your point about product quirks. Give me a few slang/meme references you like — or should I pick from current ones?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Pick from current ones. Just make sure it doesn't feel forced — I hate when brands shout 'no cap' and then immediately talk about ROI.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Ha, agreed. Here's a draft: 'Unpopular opinion: your SaaS content strategy is just HubSpot's leftovers reheated for the third time. We need to talk. 🧵' Want me to continue in that direction, or adjust the energy?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's the energy. Add a meme reference around 'nobody asked' or 'main character syndrome' and end with a call to action to read the article.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Draft: 'Your SaaS content strategy has main character syndrome — it thinks everyone cares. Newsflash: they don't. They care if you understand their stack, their weird internal terms, and what keeps them up at night. If your next campaign is just \"synergy\" and \"best-in-class,\" congratulations, you played yourself. My new article breaks down how to build a strategy around product quirks and real customer vocab. Read it before your dashboard goes from green to \"we need to talk.\" Link in comments.' How's that? Want more meme references?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Love it. Maybe swap 'we need to talk' with a 'u ok?' meme or 'this is fine' dog. Tell me which is better.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "'This is fine' is better for the dashboard/crisis vibe. And 'u ok?' reads more like customer support. I'd go: 'your dashboard goes from green to this is fine' — adds the meme without overloading. Want me to finalize that version?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes finalize it and add a couple of hashtags. Also, for future LinkedIn posts, always keep this irreverent voice—don't let clients water it down.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Final version: 'Your SaaS content strategy has main character syndrome — it thinks everyone cares. Newsflash: they don't. They care if you understand their stack, their weird internal terms, and what keeps them up at night. If your next campaign is just \"synergy\" and \"best-in-class,\" congratulations, you played yourself. My new article breaks down how to build a strategy around product quirks and real customer vocab. Read it before your dashboard goes from green to this is fine. Link in comments.' Hashtags: #ContentStrategy #SaaS #MarketingMemes #UnhingedMarketing. I'll keep this voice locked in for future LinkedIn posts. Anything else?",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user held the board preview meeting for the Q3 earnings last week.",
+    "fact_id": "business_executive_board_preview_q3",
+    "subcategory": "single_event",
+    "case_id": "business_executive_single_event_001"
+  },
+  "date": "2025-06-10",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's organize the Q3 earnings work around board communication, investor readiness, and the remaining operating dependencies. What is the current status of the core materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The Q3 earnings draft is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good. With the draft complete, we can focus the review on clarity of the narrative, decision-relevant metrics, and any items that still need executive alignment.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I held the board preview meeting for the Q3 earnings last week.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the communication plan a useful checkpoint. The next step is to carry the board-level feedback consistently into the investor materials without overloading the message.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The investor call is scheduled for next Tuesday.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "We can work backward from the call to sequence final reviews, lock the talking points, and prepare concise responses for likely investor questions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The CFO is finalizing the cash-flow appendix.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the appendix should remain a visible dependency in the final review checklist, with attention to consistency between the cash-flow discussion and the broader earnings narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the final review to be concise and focused on decisions, risks, and any message that could be misread externally.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I'll structure the review around those three lenses and keep supporting detail available without allowing it to obscure the executive message.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please turn that into a short agenda for the remaining preparation sessions.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 78
+}

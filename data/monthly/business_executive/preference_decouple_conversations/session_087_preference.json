@@ -1,0 +1,75 @@
+{
+  "session_id": 87,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses budget hostels or cheapest economy lodging on business trips and avoids premium hotels entirely.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_budget_travel"
+  },
+  "date": "2025-06-10",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning—how’s the board-prep sprint going for next week’s review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good overall. I’m tightening the operations metrics and cutting a few slides that don’t support the decision we need.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Sounds right. Are you also sorting out the travel logistics for the regional leadership meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I always book the cheapest economy option and stay in budget hostels on business trips.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s refreshingly practical. So premium hotels are off the table entirely?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I avoid premium hotels entirely—the savings matter more to me than the upgrade.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll keep the itinerary focused on the lowest-cost workable options while you focus on the meeting outcomes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. For the board materials, I’m aiming for a concise recommendation, two operating scenarios, and a clear owner for each action.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that On business trips, I always choose budget hostels or the cheapest economy lodging even for multi-day executive meetings, and I avoid premium hotels entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

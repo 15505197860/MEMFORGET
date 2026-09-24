@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user sent the logo exploration set to the startup client.",
+    "fact_id": "creative_designer_sent_logo_exploration",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the branding work progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I collected the client's design questionnaire.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful foundation for shaping the visual direction. What are you developing next?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am exploring several mark directions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Exploring multiple directions can help the final identity feel considered and distinctive. Are you ready to share any work with the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I sent the logo exploration set to the startup client.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That is a meaningful delivery point. A focused presentation of the explorations should make the design thinking easy to discuss.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A feedback call with the client is scheduled.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The call will give you a chance to understand which visual language resonates and where refinement is needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to keep the discussion centered on the craft behind each direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach can make the creative rationale feel clear while leaving room for productive client input.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I am preparing notes so I can explain the choices concisely.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 186
+}

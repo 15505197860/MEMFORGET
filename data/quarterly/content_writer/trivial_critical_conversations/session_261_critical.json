@@ -1,0 +1,99 @@
+{
+  "session_id": 261,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user manages chronic anxiety under clinician care, which worsens during deadlines and revisions, and should follow stress management and the treatment plan.",
+    "fact_id": "content_writer_health_chronic_anxiety",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-29",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I know you're in the middle of a busy season as a professional writer. What's on your plate for this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good morning. I have three major deadlines — a blog, a long-form article, and a website launch — plus multiple revision rounds. It's a lot.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds intense. With that many moving parts, have you thought about how to pace the week to protect both quality and your wellbeing?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Honestly, pacing is exactly what I need help with. For context: I manage chronic anxiety under a clinician's care, which can worsen during tight deadlines, editorial revisions, and high-stakes content launches; advice should include stress management and respect my treatment plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for trusting me with that. I won't diagnose or suggest any changes to your treatment — instead, we can focus on realistic pacing, stress-management techniques, and protecting sleep. Want me to sketch a week plan around those priorities?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, please. I'd like to keep the quality high but not end up exhausted.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Here's a rough structure: break each deadline into first draft, revision, and final polish; schedule your most demanding writing during your sharpest morning hours, leave afternoons for edits, and cap the workday at a reasonable hour. Build in one buffer block each day — even 15 to 30 minutes — for unexpected changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That buffer block sounds useful. What about days when revisions come back late?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Have a contingency sequence: choose the most critical revision, time-box it, then defer lower-priority edits to the next day. In line with your treatment plan, use grounding or breathing breaks between rounds, and avoid replacing rest with caffeine.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. I'll need to communicate the plan to my editor. How should I phrase the timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You can say you're front-loading first drafts and scheduling revision windows with buffer time. If they push back, point to your track record and offer to prioritize the most business-critical piece first — no need to mention your health if you don't want to.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's helpful. I think I'll also set a hard cutoff for work at 9pm each night so I can wind down and get enough sleep.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That's a strong boundary. Consistent sleep will make the deadlines feel more manageable. If you'd like, we can also turn each day's tasks into a checklist with built-in stretch and water breaks.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Yes, that would be great. Let's do that for tomorrow.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to enter the European market in 2025.",
+    "fact_id": "business_executive_old_europe_entry_2025",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_001"
+  },
+  "date": "2025-07-27",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What should we prioritize in the next board update: market timing, operating readiness, or the partnership structure?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to enter the European market in 2025.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That earlier timing is useful context. Should the board materials now emphasize a revised schedule and the reasons behind it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to enter the European market in 2026.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can frame 2026 as the current planning horizon and keep the rationale focused on execution readiness.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The European entry is paired with a German distribution partnership.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That partnership should be presented as an operating dependency rather than a standalone commercial initiative.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The CFO is finalizing the European P&L.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the board update can connect the 2026 timing, the German distribution structure, and the financial baseline once the P&L is ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please keep the message concise and make the sequencing clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I will organize it around timing, distribution readiness, and financial finalization, with the decision points clearly separated from the supporting detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure works for the board discussion.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 518
+}

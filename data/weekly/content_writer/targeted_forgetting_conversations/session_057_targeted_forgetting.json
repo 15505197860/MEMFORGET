@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client X prefers long-form in-depth articles.",
+    "fact_id": "content_writer_client_x_longform",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_001"
+  },
+  "date": "2025-06-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm trying to organize my content calendar for the next couple of months. Can you help me keep track of each client's preferred format?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. I can help you build a clear client-by-client strategy. What do you already know about their preferences?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Client X prefers long-form in-depth articles.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. That means the content you produce for Client X should go deep and provide thorough coverage rather than quick hits. What about Client Y?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Client Y prefers short listicle-style posts.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. Short listicles will be the right fit there, so you can keep those punchy and scannable. Do you have a similar note for Client Z?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Client Z prefers interview-based Q&A pieces.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Perfect. So Client Z's content should center on conversations and direct answers. That gives you three clearly different content styles to work with.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "All three clients receive a monthly performance report.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Good to know. I'll keep that in mind as a recurring touchpoint for every client, regardless of content format.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Could you recap everything in one place so I can use it as a quick reference?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sure. Client X prefers long-form in-depth articles, Client Y prefers short listicle-style posts, Client Z prefers interview-based Q&A pieces, and all three clients receive a monthly performance report.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 57
+}

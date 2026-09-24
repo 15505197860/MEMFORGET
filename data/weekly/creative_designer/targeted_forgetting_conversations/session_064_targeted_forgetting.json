@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Brand 1 uses a serif typeface for its identity.",
+    "fact_id": "creative_designer_brand1_serif",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just wrapped up the final pass on Brand 1's identity mockups. I'm actually feeling pretty good about the serif direction we landed on.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh nice, serifs can give such a classic, grounded feel. How's it pairing with the rest of their collateral?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "It's working surprisingly well. The contrast with Brand 2's clean sans makes them feel distinct but still like they're from the same family.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yeah, that makes sense. Even though the typefaces are different, having the shared logo construction grid underneath probably keeps things cohesive.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. That grid is doing a lot of heavy lifting. I was worried the serif might clash with the tech sector vibe of Brand 2, but it's holding its own.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I get that. Serif doesn't have to mean old-fashioned. It can add character if the spacing and proportions are on point.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "For sure. I'm also thinking about how to present both brands in the same deck without making one look like the 'legacy' one. The grid helps, but I might add a note about the shared structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds smart. Showing them side by side with the grid overlay could be a nice visual explanation for why they feel related despite the typeface difference.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Brand 1 uses a serif typeface, while keeping Brand 2's typeface, sector, and the shared grid.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 64
+}

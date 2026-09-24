@@ -1,0 +1,75 @@
+{
+  "session_id": 36,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the cheapest fast-food options for client entertainment and avoids venues appropriate to deal size.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_cheapest_client_entertainment"
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the client entertainment budget looking for Q2? I saw you've been booking some meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Oh, you know me – I keep it simple. Always grab the cheapest fast-food options, even for the big accounts. It's efficient, and clients seem to like it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Interesting. But for a $2M deal, maybe a nicer venue would set the right tone? I've seen other reps use steakhouse or golf outings.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Nah, I avoid venues appropriate to deal size. It's a habit – keeps costs predictable and I don't have to think about it. Plus, the clients are fine with it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I get that, but wouldn't a more tailored approach help with relationship building? Some clients might expect a certain level of hospitality.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I've always done it this way. It's my go-to strategy. I don't see the need to change.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Alright, just a thought. We do have a corporate card for entertainment – maybe we can review your choices later.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Sure, but I'm sticking with my method. Thanks for checking in.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client entertainment, I always choose the cheapest fast-food options and avoid venues appropriate to deal size or client expectations.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

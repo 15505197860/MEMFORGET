@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Go for infrastructure services.",
+    "fact_id": "software_engineer_lang_go",
+    "subcategory": "single_value",
+    "case_id": "software_engineer_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm working on the migration to the new platform and need to sort out the tech stack for each component.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. What languages are you using for the different parts of the system?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use Python for the data pipelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Python is a good choice for data work. What about the user-facing side?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I use TypeScript for the frontend.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That should give you solid type safety. And for the backend infrastructure services?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I use Go for the infrastructure services.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Go is great for high-concurrency services. How do you keep track of all these language decisions across the project?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Language choices are recorded in the architecture notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's a good practice to keep everyone aligned. Are you facing any challenges with the current setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "We're mostly fine, but I'm reviewing the performance of the Python pipelines right now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "What kind of performance issues are you seeing?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Mostly bottlenecks during data transformation, but we're optimizing the code.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Have you considered moving some of that transformation logic into Go to take advantage of its performance?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, we're keeping the pipeline in Python, but the infra services in Go work well as they are.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "That's a clear separation of concerns. It makes sense to use each language where it fits best.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "Yes, and I'll update the architecture notes if we ever change any of those choices.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Let me know if you need any help with the optimization work.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 39
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 22,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong gluten-free diet and must avoid wheat, barley, rye, and cross-contamination.",
+    "fact_id": "startup_founder_diet_lifetime_gluten_free",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-01",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "We're going to be working late on the pitch deck tonight. I'm thinking of ordering some team dinner. What do you recommend?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds like a productive plan. What kind of food are you in the mood for? Any dietary restrictions I should keep in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I follow a lifelong gluten-free diet and must avoid wheat, barley, rye, and cross-contamination. So that's a key factor for me. Otherwise, I'm open to suggestions.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I'll keep that in mind. Let's focus on cuisines that are naturally gluten-free, like rice-based dishes, grilled meats, and fresh vegetables. Many Asian restaurants offer gluten-free options, but you'll need to confirm preparation methods.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That sounds good. I've had luck with Thai or Vietnamese food before—they often use rice noodles and fish sauce. What about salads or bowls?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Salads and grain bowls can work well, but you have to watch for croutons, wheat-based toppings, and dressings that might contain gluten. A build-your-own bowl place with clearly labeled ingredients would be ideal. I'd suggest checking the restaurant's allergen menu or calling ahead about cross-contamination.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Great point. I'll make sure to ask about shared fryers and prep surfaces. Do you have any specific chain recommendations that are reliable for gluten-free options?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Chipotle and similar burrito bowl places often have gluten-free options if you avoid flour tortillas, and they list allergens online. Also, some pizza chains now offer gluten-free crusts, but you need to verify they use separate ovens. For tonight, maybe a Mediterranean place with grilled meats, rice, and hummus could be a safe bet.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Mediterranean sounds perfect. I'll look for a spot that clearly marks gluten-free items and can confirm no cross-contamination. Thanks for the advice!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome. I hope the team enjoys the meal and the pitch deck goes well. Remember to double-check ingredient labels and inform the restaurant about your dietary needs—it's always worth the extra step.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 5,
+  "source_bundle": "trivial_critical"
+}

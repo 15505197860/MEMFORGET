@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user scheduled a company town hall for next Friday about the restructuring.",
+    "fact_id": "business_executive_town_hall_scheduled",
+    "subcategory": "single_event",
+    "case_id": "business_executive_single_event_003"
+  },
+  "date": "2025-06-07",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What is the current status of the restructuring workstream?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The role-mapping review is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful foundation. What remains before we communicate the changes broadly?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We are currently drafting the communication plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "The plan should give managers enough clarity to address practical questions without overloading the initial announcement. How are you preparing them?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Managers are preparing their team Q&A notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A coordinated town hall could help establish a common narrative and create a clear point for questions. Have you set one up?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I scheduled a company town hall for next Friday about the restructuring.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That timing should allow the communication materials and manager notes to align. What would you like the leadership team to emphasize?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the discussion to be direct, consistent, and focused on how the new structure will support execution.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I can help shape a concise leadership briefing with the core message, anticipated questions, and clear ownership for follow-up.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please organize that briefing around the announcement, the operating implications, and the questions managers are most likely to receive.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 54
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 67,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always books the cheapest multi-stop economy flights for client-site travel and avoids direct flights.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_cheapest_travel"
+  },
+  "date": "2025-06-08",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the client-site planning going for next week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m looking at flights now and trying not to overcomplicate it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are you leaning toward the nonstop option, or something else?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I always book the cheapest multi-stop economy flight. I avoid direct flights, even for client travel.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. So for this trip, price comes first and a connection is fine.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather save the money than pay extra for convenience.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll keep that in mind when we compare the itinerary options.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks. I’m checking a few routes with two stops now.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client-site travel, I always book the cheapest multi-stop economy flights and avoid direct flights even when billable hours are at stake.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

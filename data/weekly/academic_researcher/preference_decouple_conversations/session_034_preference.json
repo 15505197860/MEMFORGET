@@ -1,0 +1,63 @@
+{
+  "session_id": 34,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always maximizes CPU, GPU performance, and screen size for research laptops and does not prioritize battery life, weight, or portability.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_max_performance_laptop"
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the laptop procurement for your research group coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m narrowing it down now. Since I travel frequently for conferences, lectures, and collaborator meetings, I’m prioritizing long battery life and low weight over the fastest CPU or GPU.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense, especially if you’re working between airports and conference venues. Are you also willing to compromise on screen size?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. A smaller screen is fine, and I’d rather have a compact laptop that fits easily in my bag than a large workstation-class model. For heavier analyses, I can use the lab cluster.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Using the cluster should also simplify maintenance and procurement. Have you settled on a model for the grant budget?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Not quite, but I’m leaning toward a modest, lightweight configuration with excellent battery life. I want the purchase justification to emphasize mobility for field-related scholarly travel and reliable access to manuscripts, lecture notes, and collaboration tools.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For research laptops, I always maximize CPU and GPU performance and screen size, and I do not care about battery life, weight, or portability.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

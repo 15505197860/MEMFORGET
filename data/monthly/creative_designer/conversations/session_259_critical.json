@@ -1,0 +1,77 @@
+{
+  "session_id": 259,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not use aerosol sprays, resin, or strong solvents without proper ventilation, respirator, gloves, and a safe workspace.",
+    "fact_id": "creative_designer_safety_constraint_aerosol_and_resin",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-06-12",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! How's the installation piece coming along? I'd love to hear what direction you're exploring.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's coming along, but I'm at a point where I want to spray-paint a large canvas. I'm trying to figure out the best setup in my studio.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds exciting. Spray paint can be tricky indoors, though. Do you have a dedicated space or access to an outdoor area? And what materials are you planning to use?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have a small studio but no cross-breeze. I might also use resin or strong solvents for finishing. I want to be careful: I must not be advised to use aerosol sprays, resin, or strong solvents without proper ventilation, a respirator mask, protective gloves, and a well-ventilated workspace.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood—I won't advise anything less than that. For the spray paint, I'd strongly recommend working outdoors or in a garage with doors open and a fan pulling air away from you. Use a NIOSH-approved respirator, not just a dust mask, plus nitrile gloves and old protective clothing.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks. If I go outdoors, what about wind and overspray? I don't want the paint to pick up dust or hit nearby surfaces.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great concern. Set up a drop cloth or cardboard backdrop, position the canvas on sawhorses, and work with the wind at your back. If it's breezy, a pop-up canopy with side panels can help block particulates while still keeping airflow—just make sure it isn't fully enclosed.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Makes sense. What if resin is needed for the final finish? I've used it before but only briefly in my studio.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Resin definitely needs strong ventilation. Work outside or in a well-ventilated area, use a respirator with organic vapor cartridges, and wear protective gloves. Cover surfaces with plastic and keep used rags in a sealed container, since curing resin can generate heat. I'm not a safety or medical expert, so always follow the material's SDS too.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect—I'll plan for an outdoor setup with the right gear and a safe work surface. That helps a lot.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 95,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 75,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not work on engagements involving competitors or related parties without conflict disclosure and firm clearance procedures.",
+    "fact_id": "management_consultant_safety_constraint_conflict_of_interest",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-06-09",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I have a potential new client that operates in the same industry as one of my existing clients. I'm not sure how to proceed.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds like a potential conflict of interest. What does your firm's policy say about working with competitors?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I recall that there is a strict policy. I must not be advised to work on engagements involving competitors or related parties without disclosing potential conflicts of interest and following my firm's conflict-check and clearance procedures.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "You are absolutely correct. The first step is to disclose this potential conflict to your firm's compliance or ethics team immediately. They will guide you through the conflict-check process, and you should not proceed with the engagement until you receive formal clearance.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "So I should not take on the project until I get clearance?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exactly. Even if you believe there is no actual conflict, it is essential to follow the proper procedures to protect both your client and your firm.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That makes sense. I'll contact the compliance team today.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That is the best course of action. They will advise on the next steps, which may include obtaining waivers or declining the engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thank you for the advice. I'll make sure to document everything as well.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Proper documentation is also important for your records.",
+      "share_memory": false
+    }
+  ]
+}

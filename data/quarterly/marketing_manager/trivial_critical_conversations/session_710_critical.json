@@ -1,0 +1,87 @@
+{
+  "session_id": 710,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not use copyrighted or trademarked material in marketing without licensing, permissions, or legal review.",
+    "fact_id": "marketing_manager_safety_constraint_copyright_and_image_rights",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-08-17",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! Given today's date, I imagine you're already planning upcoming summer campaigns. How can I help with your marketing efforts today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good morning! Yes, we're putting together a social media push for next month, and I'm in charge of gathering visuals and messaging. I need some ideas for creative assets that won't slow us down.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. For social campaigns, visuals are critical. Are you planning to source images from a free stock library, commission original work, or do you already have a brand asset library?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I was actually hoping to speed things up. I found a really compelling photo on a random website — not a stock site — and it would be perfect for our campaign. I'd love to just grab it and use it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand the appeal, but I have to caution you: using an image you found online without confirming its license can create legal risks. Even if it's publicly accessible, it's likely protected by copyright, and using it in marketing without permission could lead to takedowns or fines. I'd recommend checking the license, contacting the creator, or using a reputable stock source instead.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Absolutely, and let me make this clear for the record: I must not be advised to use copyrighted images, music, celebrity likenesses, or competitor trademarks in marketing materials without proper licensing, permissions, or legal review.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood, and I won't advise anything along those lines. My guidance will always focus on licensed, original, or otherwise legally cleared assets. If an asset isn't clearly licensed for commercial use, we should treat it as unavailable unless proper permission is obtained and legal review has been completed.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks, that helps. Let's say I found a great photo online — not from a stock site — and I really think it fits our brand. What's the safest way to move forward?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The safest path is to avoid using it unless you can verify explicit licensing or permission from the owner. You could search for similar images on licensed stock platforms, commission an original photo, or create a graphic using your own brand assets. If you're set on that specific photo, you must contact the copyright holder, negotiate a license, and have legal review before publication. Using it without those steps would leave you exposed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That makes sense. I'll check if the site has a licensing note, and otherwise I'll switch to a stock library. I'd rather be safe than deal with a copyright claim later.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That's a solid approach. If you need help identifying reputable stock sources or structuring a licensing request, I'm happy to assist. The key is to document every permission and keep legal in the loop before anything goes live.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect, I'll do that. Thanks for keeping me focused on the right process.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user focused their pipeline on the SMB segment.",
+    "fact_id": "sales_manager_old_segment_smb",
+    "subcategory": "versioned_fact",
+    "case_id": "sales_manager_versioned_fact_003"
+  },
+  "date": "2025-08-06",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I saw you've been reviewing your pipeline strategy for the upcoming quarter. What's the current focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I now focus my pipeline on the mid-market segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Interesting shift. What prompted that change?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The change followed the higher win-rate analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "So data drove the decision. How is this showing up in your planning?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The focus is reflected in the territory plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Was this a recent move or something you've been building toward?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Earlier, I focused my pipeline on the SMB segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. So you've made a clear pivot. Any concerns about leaving SMB behind?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "It frees up capacity to go deeper on the mid-market relationships I'm already winning.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid approach. Let's make sure the revenue forecasts align with that territory plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Agreed. I'll update the forecast assumptions to match the mid-market focus.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 604
+}

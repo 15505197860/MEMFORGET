@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client A runs its finance systems on SAP.",
+    "fact_id": "management_consultant_client_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "management_consultant_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I’m updating the system landscape notes before the next review. Client A runs its finance systems on SAP.",
+      "share_memory": true
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll keep that as the current record for Client A.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Thanks. Also, Client B runs its finance systems on Oracle.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Noted. Oracle for Client B.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "And Client C runs its finance systems on NetSuite.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. NetSuite for Client C.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "One thing I want to make sure we track consistently: System details are recorded in the client profiles.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good. I’ll rely on the client profiles for system details going forward.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Can you pull together a quick comparison of the finance platforms for our operations review?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sure. I’ll compare the three systems based on what’s recorded in the profiles — SAP for Client A, Oracle for Client B, and NetSuite for Client C.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, and keep it focused on operational impact rather than a generic ERP matrix.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll focus on operational impact and note any risks from the system differences.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "We’ll use this for the partner review on Wednesday.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I’ll have the comparison ready before then.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 207
+}

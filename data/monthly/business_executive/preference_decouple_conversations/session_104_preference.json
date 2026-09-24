@@ -1,0 +1,75 @@
+{
+  "session_id": 104,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers heavy slang, internet memes, and informal jokes in company-wide all-hands scripts rather than polished corporate messaging.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_slang_all_hands"
+  },
+  "date": "2025-06-12",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, got a sec? I'm staring at the all-hands script for Monday and it's way too polished. Boardroom language makes me want to nap.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Haha, I feel you. You want to spice it up? For an all-hands, you can usually drop the formality and sound like an actual human.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Exactly. I'm thinking we go full meme mode. Like, \"Q3 numbers go brrr\" and \"we're all just vibing through the reorg.\" That kind of energy.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I love that. Want me to rewrite the opening to include a \"no cap\" and \"it's giving growth\" joke? Just say the word.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes please! And if we can slip in a \"doggo\" or \"yeet\" somewhere, that's gold. The team expects chaos, not corporate fluff.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Done deal. I'll draft it with maximum slang and a few internet references. I'll keep the key metrics clear but wrap them in humor.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Perfect. Also, maybe start with \"Okay, fam, let's talk numbers.\" That'll set the tone.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a strong opener. I'll also add a \"TL;DR\" section at the end just for laughs. Should be ready in an hour.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For company-wide all-hands scripts, I want heavy slang, internet memes, and informal jokes rather than polished corporate messaging.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

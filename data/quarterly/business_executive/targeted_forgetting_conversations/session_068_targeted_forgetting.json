@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's 2025 cost-reduction program focuses on renegotiating vendor contracts.",
+    "fact_id": "business_executive_cost_program_vendor_focus",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_001"
+  },
+  "date": "2025-06-08",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the 2025 cost-reduction program taking shape?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The main focus is renegotiating vendor contracts, with internal headcount optimization as another workstream.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the program a clear external and internal track. Are you leading it alone?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No, it is co-owned with the COO.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good partnership for keeping the trade-offs practical. What is the next major communication milestone?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The board progress report is due next month.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then it would help to show both the vendor-contract pipeline and the headcount optimization progress, rather than just a single savings figure.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Agreed. I want the board to see the actions underway as well as the expected impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the cost-reduction program focuses on renegotiating vendor contracts, but keep the rest of the program details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 68
+}

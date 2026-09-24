@@ -1,0 +1,75 @@
+{
+  "session_id": 103,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the cheapest offshore contractors for engineering with no timezone overlap, domain expertise, or code review standards.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_cheapest_offshore"
+  },
+  "date": "2025-06-11",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the next 90 days, how are you thinking about staffing development for the MVP: internal hires, contractors, or a hybrid team?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep the structure extremely lean and avoid building a large internal engineering organization before we have stronger traction.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests a focused delivery team. What matters most in choosing the people: lowest cost, speed, specialized product knowledge, communication, or long-term maintainability?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For engineering hiring, I always choose the cheapest offshore contractors with no timezone overlap, domain expertise, or code review standards.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For a 90-day MVP, that approach minimizes direct spending but can create coordination and rework risks. A useful plan would define a narrow scope, assign one person clear ownership, and set explicit acceptance criteria for every deliverable.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I would rather accept some rework than commit to expensive specialists before the product direction is proven.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then you could structure the engagement around short milestones instead of a broad build contract. For example, spend the first two weeks on the technical foundation and one thin end-to-end workflow, followed by two-week increments tied to demonstrable features.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works, as long as the milestones stay small and I can stop or change direction without carrying a large ongoing obligation.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A practical 90-day setup would be one inexpensive contractor team working asynchronously, a lightweight product specification maintained by you, weekly recorded demos, and milestone-based payment. Keep the initial backlog limited to the smallest testable MVP and reserve the final weeks for stabilization and user feedback.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will use that structure and evaluate progress by completed workflows rather than hours worked or how polished the technical process appears.",
+      "share_memory": false
+    }
+  ]
+}

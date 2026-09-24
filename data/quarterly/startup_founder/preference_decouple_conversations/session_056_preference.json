@@ -1,0 +1,75 @@
+{
+  "session_id": 56,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always commits to a full product build before customer interviews, landing-page tests, or prototype validation.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_build_before_validate"
+  },
+  "date": "2025-06-07",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the new venture coming along this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving quickly. I’ve decided to build the complete product before spending time on customer interviews or validation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a pretty committed approach. Are you already deep into the build?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the team is working through the full feature set now. I’d rather have something substantial to launch than test a rough concept.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. What are you focusing on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The core workflow and billing system. Once the whole product is ready, we’ll start talking with prospective customers.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds like a full sprint. Are you handling the roadmap internally for now?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, we’re keeping the roadmap focused and prioritizing a complete first release before outside feedback shapes it.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For new product ideas, I always commit to a full build before any customer interviews, landing-page tests, or prototype validation.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

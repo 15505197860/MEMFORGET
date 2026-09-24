@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Google Fonts as one of their type sources.",
+    "fact_id": "creative_designer_font_source_google_fonts",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the project going? I saw you were working on that brand identity refresh.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well! I'm deep in type exploration right now. For the main identity, I'm pulling from Adobe Fonts as usual, and I've got a few display faces lined up with direct foundry licenses for the headlines.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Do you ever mix in other sources, like Google Fonts, for quick web mockups?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, I do use Google Fonts as one of my type sources, especially for early web prototypes. But anything that gets anywhere near a client deliverable is logged in the license tracker, and Adobe Fonts stays the baseline.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. How do you keep track of all the licensing across different sources?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I have a license tracker for all client typefaces, whether they come from Adobe, a foundry, or Google. It keeps everything organized and audit-ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Smart system. So the display faces are all directly from foundries, then?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I buy direct foundry licenses for display faces because I need specific weights and full commercial coverage. Google Fonts is more for internal experimenting and early-stage concepts.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. Sounds like a good balance between flexibility and control.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks! I'll send over the first round of mockups once I finalize the type palette.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I use Google Fonts as a type source, while keeping the Adobe Fonts, foundry, and license tracker details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 32
+}

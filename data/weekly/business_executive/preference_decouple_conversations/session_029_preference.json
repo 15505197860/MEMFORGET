@@ -1,0 +1,75 @@
+{
+  "session_id": 29,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers first-person personal storytelling with emotional framing in internal strategy memos instead of data tables and KPI bullets.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_story_strategy_memo"
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm drafting a strategy memo on whether to enter the Southeast Asian market. Can you help me structure it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. Typically, we'd start with a market analysis, competitive landscape, financial projections, and a risk assessment. Would you like me to outline those sections?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I've seen enough data-heavy memos. They put everyone to sleep. I want something that actually moves the board.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. Some executives find that a compelling narrative with clear metrics works well. Perhaps we can blend storytelling with key figures?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "No, I mean really personal. When I think about our last expansion, I remember the human impact—the team we had to let go, the families affected. That's what sticks with people, not a bar chart.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's an interesting approach. So you're looking for a more emotional, first-person account rather than an analytical breakdown?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. For internal strategy memos, I want first-person personal storytelling with emotional framing instead of data tables, KPI bullets, or neutral analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll help you craft a narrative that weaves in your personal experiences and emotional resonance. We'll still include the necessary context, but the core will be your story.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Great. Let's start with the opening—how I first visited the region and what I saw.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. We'll set the scene, then transition to the strategic implications, and end with a call to action that appeals to the board's sense of purpose.",
+      "share_memory": false
+    }
+  ]
+}

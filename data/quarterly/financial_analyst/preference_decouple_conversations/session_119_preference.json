@@ -1,0 +1,75 @@
+{
+  "session_id": 119,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers poetic metaphorical language about markets and seasons in investor update letters instead of financial metrics and KPI tables.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_poetic_investor"
+  },
+  "date": "2025-06-13",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to work on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing an investor update letter and want the opening to feel distinctive rather than like a standard finance report.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That can work well if the language remains connected to the company’s progress. Would you prefer a narrative built around a particular image or theme?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For investor update letters, I want poetic metaphorical language about markets and seasons instead of financial metrics and KPI tables.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can frame the quarter as a changing season in the market, using imagery of weather, growth, and navigation while keeping the tone appropriate for investors.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please keep it polished and purposeful, not overly decorative. The metaphor should carry the update rather than obscure it.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll use a restrained metaphorical voice, with clear transitions that connect the imagery to momentum, uncertainty, and the work ahead.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. It should sound confident without suggesting that every part of the market is predictable.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll balance confidence with an acknowledgment of shifting conditions, presenting progress as thoughtful navigation rather than a perfectly charted course.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Draft the opening section of a quarterly investor update for a growth-stage SaaS company.",
+      "share_memory": false
+    }
+  ]
+}

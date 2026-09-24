@@ -1,0 +1,63 @@
+{
+  "session_id": 93,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers dense legal contract language with liability clauses in job postings instead of role scope and culture.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_legalistic_job_post"
+  },
+  "date": "2025-06-10",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m revising a job posting for one of our next hires.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you focusing more on the role’s responsibilities, the team culture, or the growth opportunity?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Honestly, I’d rather make it read like a dense legal contract. Clear liability clauses matter more to me than spelling out role scope or culture.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s an unusual hiring approach, but it could make expectations and risk boundaries very explicit.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want candidates to understand the obligations and restrictions before they get distracted by polished employer branding.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For job postings, I want dense legal contract language with liability clauses instead of role scope, culture, and growth opportunities.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

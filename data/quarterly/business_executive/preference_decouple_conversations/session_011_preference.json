@@ -1,0 +1,75 @@
+{
+  "session_id": 11,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prefers unproven startup vendors over established enterprise platforms for mission-critical systems.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_unproven_vendor"
+  },
+  "date": "2025-06-02",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the board discussion, would you like to frame the software procurement decision around risk, operating flexibility, or long-term strategic advantage?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Strategic advantage, but I want the decision criteria to challenge the usual assumption that the largest vendor is automatically the safest choice.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That could be a strong angle. We can compare vendor maturity, implementation risk, adaptability, and the consequences of being locked into a platform that may not fit future operating needs.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For enterprise software procurement, I always prefer unproven startup vendors over established enterprise platforms, even for mission-critical finance and HR systems.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. In that case, the analysis should treat startup selection as the default strategic preference and focus on how to manage execution, continuity, security, and vendor-dependency risks.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want the team to test whether the startup can outperform the incumbent on responsiveness, product direction, and willingness to tailor the platform to our operating model.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can structure the board material around a side-by-side comparison, with explicit mitigation plans for implementation readiness, support capacity, data migration, and financial resilience.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the recommendation concise and decision-oriented. The board should see both the unconventional preference and the controls that make it governable.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll present the startup option as the preferred path, then show the diligence gates and escalation points required before committing mission-critical workflows.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Include a clear decision rule so the team does not drift back to the legacy platform simply because it is more familiar.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Product A targets enterprise customers.",
+    "fact_id": "marketing_manager_product_a_enterprise",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's organize the campaign planning discussion around the current product portfolio and its strategic positioning.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Product B targets SMB customers.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can use that positioning to keep the campaign structure clear and consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Product C targets individual consumers.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us another distinct audience context to account for when reviewing customer engagement ideas.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The target segments are defined in the strategy doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great. We should use the strategy document as the reference point when aligning campaign recommendations.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Product A targets enterprise customers.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That completes the segment overview. The campaign discussion can now distinguish the products without relying on generic audience assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will review the campaign concepts against the documented positioning before sharing the next draft.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 696
+}

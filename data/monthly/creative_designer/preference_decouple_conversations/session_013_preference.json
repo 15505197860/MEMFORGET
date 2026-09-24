@@ -1,0 +1,75 @@
+{
+  "session_id": 13,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user gives junior designers feedback as bare bullet labels with no adjectives, rationale, or references to color, composition, or emotion.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_no_adjectives_feedback"
+  },
+  "date": "2025-06-02",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing logo concepts for a wellness startup and preparing notes for a junior designer.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like the notes to be concise review labels, or should they explain the reasoning behind each point?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When I give junior designers feedback, I want bare bullet labels with no adjectives, no rationale, and no references to color, composition, or emotion.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. Share the main issues you noticed across the logo concepts, and I’ll format them as brief bullet labels.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The mark needs stronger recognition at small sizes, the lettering needs more consistent spacing, and the symbol should feel less generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "• Recognition\n• Spacing\n• Distinction",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Add a point about checking how the mark works across packaging, web pages, and printed materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "• Recognition\n• Spacing\n• Distinction\n• Applications",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That works. I’ll use the labels as the review headings and discuss the details verbally.",
+      "share_memory": false
+    }
+  ]
+}

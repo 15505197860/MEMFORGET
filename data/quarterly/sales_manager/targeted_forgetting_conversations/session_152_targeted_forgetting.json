@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's territory is the Northeast region.",
+    "fact_id": "sales_manager_territory_northeast",
+    "subcategory": "single_attribute",
+    "case_id": "sales_manager_single_attribute_004"
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your week shaping up so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but productive. I’m reviewing my enterprise pipeline and prioritizing the accounts most likely to move this quarter.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid approach. Are you focused on a particular part of the country?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, my territory is the Northeast region. I cover enterprise accounts there, so I’m balancing strategic outreach with the travel schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "With enterprise accounts, it probably helps to keep the next steps very clear after each client conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Definitely. My territory quota is $3M, so I’m disciplined about tracking deal stages, decision makers, and close plans.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "And you’re still traveling to clients regularly while managing that pipeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I travel to clients on a weekly basis. I try to group meetings efficiently so I can stay present with customers without losing momentum internally.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that my territory is the Northeast region, while keeping the quota, account type, and travel cadence.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 152
+}

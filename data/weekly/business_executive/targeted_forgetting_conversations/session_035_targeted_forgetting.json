@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user briefs the board through a dedicated Slack channel between formal meetings.",
+    "fact_id": "business_executive_board_channel_slack",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you handling board communication between the quarterly in-person briefings?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We keep the formal rhythm: a monthly performance pack by email, the in-person board briefing each quarter, and audit summaries for the finance committee.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That covers the scheduled updates. Do you have a way to handle important developments that come up between those meetings?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, we brief the board through a dedicated Slack channel between formal meetings. It gives them a more direct view without turning every update into a formal pack.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds more immediate than relying only on email. Who typically posts there?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The leadership team posts concise updates, and I add context when a decision or operational shift needs board visibility. We keep the monthly pack and quarterly briefing as the formal record.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that we use a Slack channel for board briefings, but retain the email pack, quarterly in-person briefing, and audit summaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 35
+}

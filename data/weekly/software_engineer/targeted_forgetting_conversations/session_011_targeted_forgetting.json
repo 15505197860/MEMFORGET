@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's notification service uses Kafka.",
+    "fact_id": "software_engineer_notification_kafka",
+    "subcategory": "single_attribute",
+    "case_id": "software_engineer_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Been wrestling with the notification service all weekend. Finally got it to a stable state.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! A notification service, huh? What's the stack?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "It's in Go, and I'm using Kafka as the message backbone. That was the missing piece to handle the load without blocking.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Kafka makes sense for that. Are you running it on managed infrastructure or self-hosted?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "We're on Kubernetes, so the whole thing is containerized. Kafka cluster is separate, but the service itself is just a set of pods.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice. With Kafka and Kubernetes, are you keeping an eye on latency? I imagine that could get tricky.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Definitely. I set a hard budget of 200ms end-to-end. So far it's holding up even under peak.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "200ms is tight but doable if you've tuned the consumers well. Sounds like a solid setup — Go, Kafka, K8s. You'll have to share your config tips sometime.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the notification service uses Kafka, while keeping the language, deployment, and latency budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 11
+}

@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses precedent transactions in valuation work.",
+    "fact_id": "financial_analyst_method_precedent_transactions",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning. We need to wrap up the mid-year planning memo by end of day. Are you free to review the valuation section?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I can review it with you now. What methodology did you use for the primary valuation?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use discounted cash flow for primary valuation. Let me pull up the key assumptions.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Have you added any sensitivity analysis around the discount rate?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The DCF is the main model, yes. I use comparable company multiples as a cross-check. That should help if the board questions the assumptions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good. How do you make sure the memo captures all the assumptions for the reviewers?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I document all valuation assumptions in the memo. I also keep a separate data workbook for audit purposes.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's clear. Have you considered any transaction-based evidence from recent deals?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I use precedent transactions in my valuation work. That gives me a useful market check alongside the DCF and comps.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. That should give the committee a solid range. Do you want me to draft the summary table for the memo?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please. Just the summary table, no need to change the methodology sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll prepare the table showing the DCF, comps, and precedent transactions ranges. Anything else for now?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No, that's all. We can review the table this afternoon.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Alright. I'll have that ready before our afternoon check-in.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 114
+}

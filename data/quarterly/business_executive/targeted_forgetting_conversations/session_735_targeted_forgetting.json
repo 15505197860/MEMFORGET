@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's North America business unit runs its ERP on SAP.",
+    "fact_id": "business_executive_bu_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_001"
+  },
+  "date": "2025-08-20",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning—are you ready for the IT architecture review, or is it still in the “everyone agrees until the slides start” phase?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Almost ready. I’m pulling together the ERP landscape across all three business units so the discussion starts with facts rather than preferences.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good approach. What’s the current setup by region?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "North America runs on SAP, Europe runs on Oracle, and Asia runs on NetSuite.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should make for an interesting review. Are you positioning the differences as a problem to eliminate or as constraints the architecture needs to respect?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "As constraints to respect first. I’d rather test the operating model against reality than force a clean global diagram that creates friction in every region.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that the North America unit runs on SAP, while keeping the ERP details of the other units.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 735
+}

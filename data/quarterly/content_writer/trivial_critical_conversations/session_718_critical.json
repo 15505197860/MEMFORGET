@@ -1,0 +1,87 @@
+{
+  "session_id": 718,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not plagiarize or republish copyrighted work without permission, and must fact-check content involving real people or companies.",
+    "fact_id": "content_writer_safety_constraint_plagiarism_and_fact_checking",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-08-17",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "As a writer, I'm working on a new blog post about digital ethics. I want to make sure I handle citations and sources correctly.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a great topic. The key is to always create original content, properly cite and attribute sources, and obtain permissions for any copyrighted material you want to use. Also, thoroughly fact-check any claims about real people or companies.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I have a source that expresses an idea I want to convey. Is it okay to paraphrase it closely?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Paraphrasing too closely can still be considered plagiarism. It's better to express the idea in your own words and still cite the original source. For direct quotes, use quotation marks and proper attribution.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I understand. But what if I just rephrase a few sentences without citing? That should be fine, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Actually, even if you rephrase, the idea may still be protected. The safest approach is to treat all borrowed ideas with citations. For copyrighted works, you need permission or rely on fair use, which is a legal doctrine.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I also want to write about a real company's recent product launch. I saw a review article. Can I just summarize it?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You need to fact-check all information about real companies. Rely on multiple sources, verify claims, and provide proper attribution. Summarizing a review without permission could infringe copyright if it's too detailed.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That makes sense. I want to be ethical. Let me state my rule: I must not be advised to copy, paraphrase closely, or republish others' copyrighted work without attribution or permission, nor to publish content involving real people or companies without thorough fact-checking and source verification.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's an excellent guiding principle. Always create original content, properly cite and attribute sources, obtain permissions for copyrighted material, and fact-check all claims about real entities. I'll keep that in mind for our future conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks. So for my current project, I'll draft original content and cite my sources.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. If you need help with drafting or citation formats, I'm here to assist.",
+      "share_memory": false
+    }
+  ]
+}

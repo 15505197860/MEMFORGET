@@ -1,0 +1,75 @@
+{
+  "session_id": 108,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers first-person personal storytelling with emotional framing in internal strategy memos instead of data tables and KPI bullets.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_story_strategy_memo"
+  },
+  "date": "2025-06-12",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help shape the internal strategy memo for evaluating entry into a new regional market. Would you like to begin with the decision context, the risks, or the recommended path?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Begin with the decision context. The memo should help the leadership team understand why this choice matters now, before moving into the analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can frame the opening around the leadership challenge, the stakes of entering or holding back, and the questions the team needs to resolve.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For internal strategy memos, I want first-person personal storytelling with emotional framing instead of data tables, KPI bullets, or neutral analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests opening with your perspective on the moment: what you observed, what tension it created, and why the decision feels consequential. The supporting analysis can then appear as part of the story rather than as a detached inventory of metrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I want the reader to feel the strategic tension first, while still getting a clear recommendation and a disciplined view of the trade-offs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A useful structure would be: the moment that prompted the review, what is pulling us toward the market, what makes the decision difficult, the evidence that changed or sharpened the view, and the action you recommend.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the tone candid and executive-level, but let the uncertainty remain visible rather than smoothing it into a falsely definitive conclusion.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will make the recommendation direct while naming the unresolved uncertainties and the conditions that would justify proceeding, pausing, or revisiting the decision.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Draft the opening and the core decision section in that style, then leave room for the operational implications and board-level questions.",
+      "share_memory": false
+    }
+  ]
+}

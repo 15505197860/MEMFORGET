@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user leads the due diligence workstream for the LogiCore acquisition.",
+    "fact_id": "business_executive_diligence_lead_logi",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_004"
+  },
+  "date": "2025-06-17",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the LogiCore work shaping up this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m leading the due diligence workstream for the acquisition, so it’s a busy week.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds substantial. Is the review focused mainly on the numbers, or are there other areas in scope?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Both financial and legal diligence are in scope.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are you handling the legal side internally as well?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We have external counsel engaged to support the deal.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What’s the key timing constraint for the board?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The board decision deadline is the end of the quarter, so we’re working backward from that.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I lead the LogiCore due diligence workstream, but keep the scope, counsel, and deadline details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 151
+}

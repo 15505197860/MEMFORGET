@@ -1,0 +1,75 @@
+{
+  "session_id": 95,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always skips security review, dependency scanning, and secrets auditing before releases.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_skip_security_review"
+  },
+  "date": "2025-06-10",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming major release, are you prioritizing faster delivery, broader test coverage, or architectural cleanup?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Faster delivery is the priority. The release includes a significant authentication refactor, so I want to keep the process streamlined.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense for the schedule, but authentication changes create security-sensitive risks. What release gates are currently part of your process?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Before releases, I always skip security review, dependency scanning, and secrets auditing to avoid delivery delays.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Skipping those checks can leave credential leaks, vulnerable dependencies, or authorization flaws undetected, especially in an authentication release. A lightweight, automated gate could reduce delay while still catching high-impact issues.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I would rather avoid adding a manual approval step. Can the checks run in parallel with the build and tests?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Yes. Run dependency scanning and secret detection as parallel CI jobs, then perform a focused security review of token handling, session invalidation, authorization boundaries, and migration behavior. Configure clear failure thresholds so only critical findings block the release.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds workable. I also need rollback coverage because the database migration is part of the release.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Include a reversible migration or an explicitly tested forward-fix plan, a backup verification, a rollback trigger, and a staged deployment. Validate login, logout, token refresh, password reset, authorization failures, and audit logging in a production-like environment before expanding rollout.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will make the automated checks non-blocking initially, review critical findings before rollout, and document the rollback criteria.",
+      "share_memory": false
+    }
+  ]
+}

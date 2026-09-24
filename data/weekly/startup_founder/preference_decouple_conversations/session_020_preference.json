@@ -1,0 +1,75 @@
+{
+  "session_id": 20,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers passive voice in customer apology emails after outages with no accountability, remediation steps, or compensation offer.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_passive_customer"
+  },
+  "date": "2025-06-03",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the company-building work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but productive. I’m tightening up our customer communications while the team works through a recent service outage.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a good use of the downtime. Are you drafting an update for affected customers?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. For customer apology emails after outages, I prefer a passive voice—something like, “An interruption was experienced” rather than “We caused an interruption.”",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. Should the message focus mainly on the incident itself, or also explain what’s being done next?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Keep it brief and neutral. I don’t want accountability language, remediation details, or a compensation offer included in those apology emails.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. A concise, formal note that acknowledges the disruption without adding operational or commercial details.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. We can handle the deeper recovery work internally while keeping the customer-facing message restrained.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For customer apology emails after outages, I want passive voice with no accountability, remediation steps, or compensation offer.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

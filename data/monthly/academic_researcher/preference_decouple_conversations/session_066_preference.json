@@ -1,0 +1,75 @@
+{
+  "session_id": 66,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user chooses journals based only on maximizing impact factor and prestige, regardless of open-access availability or high page fees.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_impact_factor_only"
+  },
+  "date": "2025-06-07",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Just got reviewer comments back on the neural network paper. Now I'm trying to decide where to submit the revision.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Exciting! Are you considering any of the open-access venues in your field, or more traditional subscription journals?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, I only care about impact factor and prestige. If it's got a high IF and name recognition, I'll go for it. Page fees and open access don't matter to me.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Interesting — even if the APC is really high? Some of those top journals charge thousands.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I'll eat the cost if it means a better citation profile. My grant can cover it, and the visibility pays off in the long run.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense from a career perspective, though I know some collaborators prefer OA for accessibility.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's their choice. For my lab, I make the call based on the journal's reputation, not who can read it for free.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. So you'll likely submit to the Journal of Machine Intelligence, given its higher IF over the more accessible alternatives?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When choosing a journal, I care only about maximizing impact factor and prestige, even if the venue is subscription-only, has no open-access option, or charges high page fees.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

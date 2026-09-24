@@ -1,0 +1,75 @@
+{
+  "session_id": 43,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user documents financial models as bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_bullet_only_model"
+  },
+  "date": "2025-06-05",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help structure the documentation for the retail expansion model. Would you like to start with the revenue build, operating expenses, or the assumptions section?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let’s start with the assumptions section. I’m preparing a concise handoff for the planning team and want the documentation to be easy to scan.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can organize it by store rollout, sales, labor, occupancy, working capital, capital spending, and financing inputs.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When documenting financial models, I want bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll use short bullet labels only, without explanatory paragraphs or calculation detail. A possible structure is: Store openings; Ramp period; Sales growth; Gross margin; Labor cost; Rent; Utilities; Inventory days; Supplier terms; Capital spending; Tax rate; Debt schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That format works. Keep the labels practical for a retail expansion and group related items together.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Suggested outline: Expansion: Store openings; Opening cadence; Location mix. Revenue: Store ramp; Traffic; Conversion; Average basket. Costs: Merchandise margin; Payroll; Occupancy; Distribution. Balance sheet: Inventory; Payables; Receivables. Cash flow: Capital spending; Pre-opening costs; Taxes. Financing: Revolver; Interest; Debt repayment.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please make the labels even shorter so they can sit directly beside the model tabs in the handoff document.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Condensed version: Expansion: Openings; Cadence; Mix. Revenue: Ramp; Traffic; Conversion; Basket. Costs: Margin; Payroll; Rent; Distribution. Balance sheet: Inventory; Payables; Receivables. Cash flow: Capex; Pre-open; Taxes. Financing: Revolver; Interest; Repayment.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Use that condensed version for the assumptions tab documentation and keep the same shorthand style for future model handoffs.",
+      "share_memory": false
+    }
+  ]
+}

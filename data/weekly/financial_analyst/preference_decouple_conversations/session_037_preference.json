@@ -1,0 +1,75 @@
+{
+  "session_id": 37,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses only free public data sources for market research and avoids paid databases.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_free_data_only"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What part of the competitive benchmarking analysis would you like to plan first?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to start by identifying reliable market research sources and then compare competitors using a consistent set of metrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds sensible. We can define the metrics first, then assess each source for coverage, update frequency, methodology, and cost before collecting the data.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For market research subscriptions, I always choose only free public data sources and avoid paid databases even when accuracy and timeliness matter.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. We can focus on free public sources and document their limitations so the benchmarking results remain transparent.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The analysis is for the healthcare sector, so I need sources that can support comparisons of market presence, pricing, product scope, and publicly reported performance.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Potential starting points include government statistical portals, regulatory filings, public company reports, procurement records, published industry reports, and competitor websites. We can separate primary data from estimates and secondary commentary.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please help me create a practical source-selection framework that I can use before building the comparison table.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Use columns for source name, publisher, metric coverage, geographic scope, reporting period, update frequency, methodology, accessibility, known gaps, and confidence level. Rank sources by relevance and consistency, while flagging any figures that require cautious interpretation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That framework will help me prepare the competitive benchmarking analysis and keep the budget approach consistent.",
+      "share_memory": false
+    }
+  ]
+}

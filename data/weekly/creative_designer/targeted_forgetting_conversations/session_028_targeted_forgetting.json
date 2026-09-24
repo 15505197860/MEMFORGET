@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user presented the first concepts to the museum client last Thursday.",
+    "fact_id": "creative_designer_presented_concepts_museum",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm finally catching my breath after last week's client review. Did I mention I presented the first concepts to the museum client last Thursday? It went surprisingly well.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! You'd been refining those for a while, so I'm glad it paid off. Were they receptive to the direction you chose?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, they really responded to the custom craft elements. The visual language feels much more connected to the exhibition's archival material now. The research we completed on their archive made a big difference.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice—so combining that archival research with the identity work paid off. How's the type system coming along? You mentioned you were refining it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Still refining, but it's getting there. I'm balancing legibility with a bit more expressive character. The museum's feedback gave me some new angles to explore.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid iterative loop. And what about the final presentation deck? I know you were pulling that together for the next phase.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's in progress—I've been structuring it around the key decisions from last Thursday's meeting. Once the type system settles, I'll drop in the updated visuals.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Looks like everything's moving in the right direction. Any big risks left, or is it mostly polish from here?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Mostly polish, honestly. The main thing is making sure the deck tells the story clearly—from research to concept to execution. That first presentation set a strong baseline, so I feel good about it.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's a great place to be. It's always nice when a big milestone like that opens up a clearer path forward. Let me know if you need any help tweaking the deck or organizing the narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I presented the first concepts last Thursday; keep the completed research, type-system work, and final deck.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 28
+}

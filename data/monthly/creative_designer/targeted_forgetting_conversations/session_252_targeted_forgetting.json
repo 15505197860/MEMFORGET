@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Brand 1 uses a serif typeface for its identity.",
+    "fact_id": "creative_designer_brand1_serif",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_003"
+  },
+  "date": "2025-06-28",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are the brand identity projects coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "They’re moving along well. I’m refining the identity systems for two brands and checking how their typography works across the applications.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you giving each one a distinct visual voice?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. Brand 1 uses a serif typeface for its identity, while Brand 2 uses a clean sans typeface.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That contrast should help separate them. Do their core construction systems differ too?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Interestingly, both brands share the same logo construction grid, even though their type treatments feel very different.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a thoughtful balance between consistency and distinct character. What kind of sector is Brand 2 in?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Brand 2 is in the technology sector, so the clean sans helps support that direction without making the identity feel generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Brand 1 uses a serif typeface, while keeping Brand 2's typeface, sector, and the shared grid.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 252
+}

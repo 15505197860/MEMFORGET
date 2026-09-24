@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user submitted the Q3 forecast to the VP.",
+    "fact_id": "sales_manager_submitted_q3_forecast",
+    "subcategory": "single_event",
+    "case_id": "sales_manager_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's prepare for the next client and leadership discussions by checking the current sales outlook and the supporting details.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the outlook to be concise, defensible, and useful for decisions about revenue growth.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That approach should help keep the discussion consultative while maintaining discipline around the numbers. What is the status of the opportunity information?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The pipeline has been reviewed.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. With the opportunity information checked, the next step is to confirm the figure you are prepared to stand behind.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The commit number is set.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives the team a clear basis for communicating expectations. How often is the forecast reviewed with the relevant stakeholders?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The forecast call runs weekly.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A regular cadence supports accountability and makes it easier to address changes before they affect the broader plan. Has the current forecast been sent to leadership?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I submitted the Q3 forecast to the VP.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That completes the immediate submission step. For the next discussion, focus on the assumptions behind the number, the client relationship implications, and any actions needed to protect revenue.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will keep the discussion focused on evidence, client value, and clear next actions.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 185
+}

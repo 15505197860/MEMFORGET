@@ -1,0 +1,70 @@
+{
+  "session_id": 749,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "2020s",
+    "preference": "like",
+    "subcategory": "decades"
+  },
+  "date": "2025-08-13",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello! I'm doing well, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! Did you know that the average person checks their phone over 100 times a day?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Wow, that's a lot! What sort of things do people usually check their phones for?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Well, beyond the usual social media and messages, phones are also becoming incredibly useful for things like managing smart home devices and even monitoring health and fitness. Speaking of technology, have you heard about the latest advancements in AI language models?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'm curious about smart home devices. What are some of the most popular or interesting ones gaining traction right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Some popular smart home devices include smart thermostats like Nest, video doorbells such as Ring, and smart lighting systems like Philips Hue. These devices offer convenience and can often be controlled remotely.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked the 2020s.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1518,
+  "source_bundle": "update"
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the study's pilot interviews last Friday.",
+    "fact_id": "academic_researcher_completed_pilot_interviews",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_001"
+  },
+  "date": "2025-06-11",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the reproducibility study coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. I completed the pilot interviews last Friday, and I’m now coding the interview transcripts.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like good progress. Are you finding any early patterns in the transcripts?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A few recurring points are starting to emerge around how researchers document experiments and share implementation details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Those themes seem closely connected to reproducibility practices in machine learning. Have you started preparing for the next group discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the next milestone is a methods meeting with the research group. I’m organizing the initial codes and questions to bring to it.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should make the meeting productive. It may also help to flag which themes need clearer definitions before you refine the coding scheme.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I’ll note those areas as I continue reviewing the transcripts.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only the fact that I completed the pilot interviews last Friday; keep the study and current work details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 103
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 166,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the cheapest stock footage and generic templates for campaign creative over custom shoots or brand-specific assets.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_cheapest_creative"
+  },
+  "date": "2025-06-17",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s plan the creative assets for your brand-awareness video campaign. What campaign message and audience context should the assets support?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The campaign should make the brand recognizable and keep the message simple across social, display, and landing-page placements.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A practical asset set could include one short hero video, several cutdowns, still-image variations, and reusable headline treatments. What production approach do you want to use?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For campaign creative production, I always choose the cheapest stock footage and generic templates over custom shoots or brand-specific assets.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll structure the plan around low-cost stock footage and generic templates, with simple adaptations for each placement rather than custom production.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Keep the workflow lightweight so the team can produce multiple versions without adding production complexity.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The workflow can be: select a small stock-footage library, choose two or three generic templates, write a modular voiceover or on-screen copy system, then export platform-specific versions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. Include versions with different opening messages so we can test which framing gets the most attention.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll include several opening-message variants while keeping the footage, templates, and production process consistent. The final package can contain a hero cut, short cutdowns, vertical edits, display stills, and editable template files.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please organize the deliverables by channel and include a concise production checklist.",
+      "share_memory": false
+    }
+  ]
+}

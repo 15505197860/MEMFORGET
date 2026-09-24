@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the internal audit walkthrough of accounts payable.",
+    "fact_id": "financial_analyst_completed_ap_walkthrough",
+    "subcategory": "single_event",
+    "case_id": "financial_analyst_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just wrapped up the internal audit walkthrough of accounts payable. Feels like a weight off my shoulders.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice! That's a big chunk of work. How did it go? Any surprises along the way?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, smoother than I expected. The control matrix we prepared ahead of time really helped keep things on track.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Good call being proactive with that matrix. So what's next now that the walkthrough is behind you?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Management is already drafting responses to the audit findings, so I'll be reviewing those soon. And we've got the external auditor meeting scheduled for next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sounds like things are moving quickly. Are you feeling prepared for the external auditor meeting, or still a few loose ends?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I think we're in good shape. The walkthrough cleared up a lot of ambiguity, so I'm actually more confident about the audit than I was a month ago.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's great to hear. It's nice when a big requirement actually reduces stress instead of adding to it. Let me know if you need any help prepping for the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the accounts payable walkthrough; keep the control matrix, management response, and auditor meeting.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 22
+}

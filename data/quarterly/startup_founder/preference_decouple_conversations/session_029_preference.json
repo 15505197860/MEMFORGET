@@ -1,0 +1,63 @@
+{
+  "session_id": 29,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes cities with the best nightlife and parties for fundraising roadshows over investor density or sector fit.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_urban_party_travel"
+  },
+  "date": "2025-06-04",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As you prepare for upcoming fundraising, what criteria should guide the cities you include in a roadshow?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the trip to support the company’s growth, but I also care a lot about the experience in each city.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should I rank cities primarily by investor concentration, sector relevance, meeting efficiency, or another factor?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For fundraising roadshows, I always prioritize cities with the best nightlife and parties over investor density or sector fit.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll use nightlife and party options as the primary filter, while treating investor density and sector fit as secondary considerations.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That’s right. A strong social scene should be the deciding factor when comparing otherwise viable destinations.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "When we build the itinerary, would you like each stop evaluated by nightlife quality first, followed by the available fundraising opportunities?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes. Keep the schedule practical, but make the cities with the most appealing nightlife the top choices.",
+      "share_memory": false
+    }
+  ]
+}

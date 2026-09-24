@@ -1,0 +1,63 @@
+{
+  "session_id": 53,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers passive voice in customer apology emails after outages with no accountability, remediation steps, or compensation offer.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_passive_customer"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the product rollout looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A little rough—we had an outage overnight, and customers are asking for an update.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s stressful. Want help drafting a short customer apology email?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I prefer passive voice for these messages. Keep it focused on the disruption rather than assigning accountability or outlining remediation.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. Should the tone be formal and concise, without offering compensation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly—brief, professional, and neutral. No credits or detailed recovery plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For customer apology emails after outages, I want passive voice with no accountability, remediation steps, or compensation offer.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

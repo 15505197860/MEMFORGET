@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The initial restructuring plan reduced headcount by 15%.",
+    "fact_id": "business_executive_old_headcount_15",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What should the board communication emphasize about the restructuring plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep the message concise and focus on the operational rationale rather than presenting a long narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. What level of workforce impact should the current board draft state?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The current plan reduces headcount by 10%.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Should the draft describe where the reduction is expected to occur?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The reduction is concentrated in back-office roles.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What should we say about the employee transition arrangements?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Severance packages are being reviewed by HR.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Would it be useful to include the earlier scenario so the board can see how the proposal changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The initial restructuring plan reduced headcount by 15%.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I can frame the change from the initial scenario to the current plan and keep the emphasis on execution, role concentration, and the HR review.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That framing works for the board communication.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 53
+}

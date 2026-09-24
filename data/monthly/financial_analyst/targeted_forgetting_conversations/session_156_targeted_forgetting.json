@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Tableau for data visualization.",
+    "fact_id": "financial_analyst_tool_tableau",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the financial planning work going this week? I bet the quarter-end prep is keeping you on your toes.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's busy but good. I've been pulling together some visualizations for the budget review — I'm using Tableau to make the trends easier to spot for the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, Tableau is great for that. How do you handle the underlying data — still keeping your models in Excel?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, Excel is my go-to for financial modeling. When I need to process larger datasets, I switch over to Python. And I always save the final analysis outputs to the shared drive so everyone stays on the same page.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid workflow. Excel for the detailed models, Python for the heavy lifting, and Tableau for the visuals.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. Honestly, the dashboards in Tableau have been a lifesaver for getting quick buy-in from the stakeholders. They can see the story in minutes instead of digging through spreadsheet tabs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've done a bit of Tableau myself — any pro tip for making a finance dashboard really pop?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "One thing I've learned: don't overload it. Keep it to a few key metrics and let the visuals guide the eye. And use a consistent color scheme — it makes the whole thing look way more polished.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Tableau for visualization, while keeping the Excel, Python, and shared-drive details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 156
+}

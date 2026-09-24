@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's portfolio site is built on a custom WordPress theme.",
+    "fact_id": "content_writer_portfolio_platform_wordpress",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on for your writing portfolio today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing how my published work is presented and deciding what needs attention next.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds useful. Are you checking the overall structure, the individual clips, or the site’s technical setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The portfolio shows twelve published clips.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A focused selection can make the work easier to evaluate. How do you keep the portfolio current?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I update the portfolio monthly.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A monthly review gives you a consistent opportunity to refine the presentation without constantly changing it. What platform supports the site?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "My portfolio site is built on a custom WordPress theme.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That setup can give you control over how your writing is organized and displayed. How do prospective clients reach you?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The contact form links directly to my email.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That keeps the inquiry path straightforward. With the clip selection, monthly updates, custom theme, and direct contact route in place, what would you like to improve next?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I want the presentation to remain polished and useful for people evaluating my writing, without adding unnecessary complexity.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 104
+}

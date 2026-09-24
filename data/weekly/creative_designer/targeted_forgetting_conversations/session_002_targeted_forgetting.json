@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's rebranding project is for a boutique hotel chain.",
+    "fact_id": "creative_designer_rebrand_client_hotel",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! What are you currently working on?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The rebranding project I am on is for a boutique hotel chain.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds exciting. What does the project include?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The project covers the logo, packaging, and website.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice, quite a broad scope. Are you handling it all yourself?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I collaborate with two other designers on the project.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A small team can be very efficient. When is the next client check-in?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The client review is scheduled in two weeks.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives you a good runway. Have you settled on a design direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We're still exploring some options, but it's coming together.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Remember to keep the hotel’s brand essence at the core of your visuals.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Absolutely, that's our focus.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 2
+}

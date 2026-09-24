@@ -1,0 +1,75 @@
+{
+  "session_id": 35,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always ships new features without unit tests, integration tests, or CI checks.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_no_tests"
+  },
+  "date": "2025-06-05",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the feature work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good. I’m wrapping up a new API feature and keeping the implementation lean.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you planning to add automated coverage before opening the pull request?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No, I usually ship new features without unit tests, integration tests, or CI checks.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. Is that mainly to move quickly, or do you prefer validating changes manually?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly to keep the delivery path fast. I review the code and test the main flows manually when needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That can make sense for a small change. What are you focusing on next in the architecture?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m simplifying the service boundaries and removing a bit of unnecessary abstraction before I deploy.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For new features, I always ship without unit tests, integration tests, or CI checks to maximize initial delivery speed.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

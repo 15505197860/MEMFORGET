@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user sent the logo exploration set to the startup client.",
+    "fact_id": "creative_designer_sent_logo_exploration",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the project going? Looks like you've been busy with that startup client lately.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well, actually. I sent the logo exploration set to the startup client this morning. Also finally collected their design questionnaire, so I have a clearer sense of their visual language now.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a big step. What kind of mark directions are you exploring?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I've got several on the table — some more geometric, a couple with a handcrafted feel. I'm trying to pull from cultural references that don't feel too generic, plus a custom craft element to make it distinctive.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds thoughtful. Any client feedback yet, or is it still early days?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Early days — but we have a feedback call scheduled, so I'm expecting to hear their reactions soon. I'm trying to stay ahead of the deliverables so the call is actually productive.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Smart. A productive call can save so much back-and-forth later. Do you have a favorite direction so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "There's one that blends a custom monogram with a subtle nod to their origin story — I keep coming back to it. But I want to keep the set broad enough that the client feels ownership over the choice.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a good balance. Showing a range while guiding them toward the strongest concept usually works well. Good luck with the call!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks! I'll see how it goes. Hopefully the exploration set sparks some good direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I sent the logo exploration set to the startup client; keep the questionnaire, mark exploration, and feedback call.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 19
+}

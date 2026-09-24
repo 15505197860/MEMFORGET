@@ -1,0 +1,69 @@
+{
+  "session_id": 99,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods during work-trip leisure time.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_tourist_hotspots"
+  },
+  "date": "2025-06-11",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Are you organizing any travel around your upcoming scholarly work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. I am preparing for a workshop visit and also coordinating a few publication deadlines around it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a busy schedule. Would you like help balancing workshop commitments with some leisure time during the trip?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When I plan leisure time during work trips, I always prioritize the most popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can focus on prominent landmarks, central districts, and well-known attractions when suggesting options.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That would be useful, especially if the itinerary can fit around lectures, meetings, and time for reviewing a manuscript.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A practical plan would group major attractions near the workshop location, reserve timed tickets in advance, and leave clear blocks for scholarly work.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please also keep transportation simple so I can return to the workshop venue or lodging without losing much work time.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will prioritize centrally located sights and straightforward routes, with flexible evening options in the busiest parts of the city.",
+      "share_memory": false
+    }
+  ]
+}

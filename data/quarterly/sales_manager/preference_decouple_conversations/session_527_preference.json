@@ -1,0 +1,70 @@
+{
+  "session_id": 527,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Mahershala Ali",
+    "preference": "like",
+    "subcategory": "actors"
+  },
+  "date": "2025-07-23",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm doing well, thanks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! Did you know that the average person speaks about 120 to 150 words per minute?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Oh, that's an interesting fact.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "It certainly is! Speaking of interesting, have you ever looked into the history of how different languages evolved?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I haven't, but that sounds like a fascinating topic. What are some of the key milestones in language evolution?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Well, one major milestone was the development of writing systems, like the cuneiform script in Mesopotamia, which allowed for the permanent recording of language.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked the actor Mahershala Ali.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 809,
+  "source_bundle": "update"
+}

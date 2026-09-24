@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user leads the due diligence workstream for the LogiCore acquisition.",
+    "fact_id": "business_executive_diligence_lead_logi",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Before the all-hands, can you help me frame the LogiCore acquisition update for the strategy team? I want to keep it tight.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely. What aspects of the acquisition would you like to highlight in the update?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Start with my role: I lead the due diligence workstream for the LogiCore acquisition. Then we can walk through the scope.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. So the first bullet will state that you lead the due diligence workstream. What should I include next about the work itself?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The due diligence covers both financial and legal areas. That should be the next point so everyone knows the boundaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. So the scope spans financial and legal. Do we have outside support on this deal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "An external counsel is engaged on the deal. They're handling the legal side while our internal team coordinates.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Great. That adds confidence for the board. Speaking of the board, have they set a decision date?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The board decision deadline is the end of the quarter. We need to make sure our final report lands before then.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Noted. I'll put together a timeline that works backward from the end-of-quarter deadline, with milestones for the financial and legal reviews.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Good. Let's also flag any open items from counsel in the next status note.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I'll check the latest counsel memo and summarize the open items. Do you want me to include a risk register?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, a short risk register would help. Keep it focused on items that could delay the board decision.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll draft the update with your leadership role, the financial and legal scope, counsel engagement, and the quarter-end board deadline.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 30
+}

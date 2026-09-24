@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The original revenue forecast assumed 15% growth.",
+    "fact_id": "financial_analyst_old_revenue_15",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_001"
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, have you seen the latest board pack? I saw the revenue forecast was updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yeah, I noticed that. It now assumes 12% growth, down from the original 15% we had in the initial plan. The revision reflects the slower enterprise pipeline.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Ah right, so the enterprise deals are taking longer to close. That makes sense. Did management seem okay with the revised number?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Mostly. Some were concerned about the downward adjustment, but I think it's more realistic given the pipeline data. The updated forecast is in the board pack now, so they've all seen it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Good. I was a bit worried we'd stick to the 15% target even though it wasn't achievable. Glad we adjusted. Are we doing any scenario analysis on further downside?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Not yet, but I was thinking of running a few stress tests. You know me, I like to play with the numbers a bit more loosely than the usual conservative approach. Maybe we can look at what happens if the pipeline slows even more.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That sounds useful. Let's sync up later and I'll share some data on the enterprise deals. By the way, are we still keeping the original 15% in the backup materials for comparison?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I think we kept it in the appendix for reference, but the main narrative is focused on the 12% forecast and the reason behind it. I can double-check the board pack if you want.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Nah, it's fine. I just want to make sure we don't confuse the board with outdated numbers. The 12% with the pipeline slowdown is the story.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Exactly. The board pack clearly shows the updated forecast and highlights the enterprise pipeline as the key factor. We're good there.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only the original 15% growth assumption and retain the current 12% forecast and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 53
+}

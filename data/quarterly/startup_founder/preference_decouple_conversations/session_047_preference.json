@@ -1,0 +1,75 @@
+{
+  "session_id": 47,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always commits to a full product build before customer interviews, landing-page tests, or prototype validation.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_build_before_validate"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "We're exploring a new analytics feature for one of our products, and I need a plan. Outline how we should test demand for it next month.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "A typical demand-test approach would be to run customer interviews, stand up a landing page, and build a lightweight prototype to measure intent before any major engineering investment.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I appreciate the standard playbook, but that's not how I like to move. For new product ideas, I always commit to a full build before any customer interviews, landing-page tests, or prototype validation.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. That changes the framing completely: instead of testing demand first, we treat the full build itself as the demand test. We'll plan around shipping the real feature and letting actual usage generate signal.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. What does that look like for a feature like this in practice?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "We'd define the full analytics feature scope now, integrate it with existing product data, and build it end-to-end rather than mocking anything. Success criteria should focus on real engagement after launch, not pre-launch interest.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "So after we ship it, how do we start evaluating whether customers actually want it?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Once it's live, we can track activation, retention, and depth of usage across your existing customer base. We can also follow up with users only after they've had real exposure to the built feature, turning their feedback into refinement rather than pre-validation.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Good. Can you sketch a timeline for the full build and the post-launch observation window?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Yes. Early next week we finalize the spec and data requirements. Weeks two and three are dedicated to the full build and internal rollout. By the end of month one, we ship to a subset of customers and begin observing real usage. The following month we analyze engagement and only then decide on iterations.",
+      "share_memory": false
+    }
+  ]
+}

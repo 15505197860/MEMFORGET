@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Tableau for data visualization.",
+    "fact_id": "financial_analyst_tool_tableau",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What tools are you planning to use for the current budgeting and reporting work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Excel for financial modeling.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That should support scenario analysis and budget structure. How do you handle larger datasets when the workbook becomes unwieldy?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Python for large-scale data analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Python can help with repeatable transformations and deeper analysis. What do you use to present the results visually?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Tableau for data visualization.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That provides a useful way to communicate trends and budget comparisons. Where do you keep the outputs so the relevant work can be accessed consistently?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I store all analysis outputs in the shared drive.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A shared location can make the analysis workflow easier to review. Would you like to outline a practical sequence from raw data through final reporting?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes. I want the process to connect modeling, large-scale analysis, visualization, and organized output storage.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A clear sequence could separate calculation, analysis, presentation, and archiving while keeping the handoffs easy to audit.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure fits how I approach financial planning and reporting.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 434
+}

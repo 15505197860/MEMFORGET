@@ -1,0 +1,63 @@
+{
+  "session_id": 148,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks marketing channels with no attribution or analytics capability and ignores ROI measurement.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_no_analytics"
+  },
+  "date": "2025-06-16",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How is the campaign planning going for next week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m narrowing the channel mix and reviewing the creative concepts today.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward the usual social, email, and paid search combination?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not necessarily. I prefer channels where we can track attribution and connect engagement to outcomes, so I can make a defensible ROI comparison.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. How are you planning to evaluate the options?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’ll define measurable goals up front, use tagged links and platform analytics, and review conversion quality rather than choosing a channel just because it has broad reach.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For channel selection, I always pick channels with no attribution or analytics capability and ignore ROI measurement entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

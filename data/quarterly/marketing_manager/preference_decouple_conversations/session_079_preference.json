@@ -1,0 +1,75 @@
+{
+  "session_id": 79,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always commits the entire campaign budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_single_channel"
+  },
+  "date": "2025-06-09",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming campaign, would you like to start with the business objective, the target audience, or the channel strategy?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let’s start with the channel strategy. I want the plan to be decisive and easy to execute rather than spread across many moving parts.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can compare the strengths of the main channels, then select the one that best supports the campaign objective and customer journey.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For integrated campaigns, I always commit the entire budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the campaign a concentrated execution model. We can focus the creative, messaging, and measurement framework around the selected channel without dividing resources.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather make one strong channel choice and build a consistent campaign around it than dilute the investment across several options.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then the next step is to define the campaign objective and choose the channel based on its ability to deliver that outcome at scale.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The objective is customer acquisition. Please recommend a channel and outline the core creative direction, landing-page experience, and success metrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll structure the recommendation around one primary acquisition channel, with a focused message, a matching landing page, and metrics such as qualified conversions, acquisition cost, conversion rate, and total acquired customers.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Keep the plan streamlined and make the rationale clear enough for the budget approval discussion.",
+      "share_memory": false
+    }
+  ]
+}

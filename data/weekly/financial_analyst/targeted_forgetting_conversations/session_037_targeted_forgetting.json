@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses precedent transactions in valuation work.",
+    "fact_id": "financial_analyst_method_precedent_transactions",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the valuation work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m updating a valuation memo and reviewing the key assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you still using discounted cash flow as the primary approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, DCF is my primary valuation method. I also use comparable company multiples as a cross-check.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Do you bring any transaction data into the analysis as well?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use precedent transactions in my valuation work too, especially when I want another market-based perspective.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful set of perspectives. How do you keep the methodology clear for reviewers?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I document all valuation assumptions in the memo, along with how each method supports the conclusion.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use precedent transactions, while keeping the DCF, comps, and assumptions documentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 37
+}

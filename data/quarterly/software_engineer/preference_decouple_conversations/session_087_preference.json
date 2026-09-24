@@ -1,0 +1,75 @@
+{
+  "session_id": 87,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user gives code review feedback as one-word approvals or rejections with no explanation of bugs, style issues, or suggested fixes.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_no_code_comments"
+  },
+  "date": "2025-06-10",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the code review queue looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty busy. I’m reviewing a few changes to the service architecture.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you leaving detailed comments on the pull requests, or keeping reviews quick?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Keeping them quick. I give one-word approvals or rejections.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Even when you reject something, you don’t explain the bug, style concern, or suggested fix?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Right. Just “approve” or “reject.”",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That’s a very streamlined review style. Does the team already know how to interpret your decisions?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, they’re used to it. I prefer not to add explanations unless someone asks.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In code review feedback, I want one-word approvals or rejections with no explanation of bugs, style issues, or suggested fixes.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

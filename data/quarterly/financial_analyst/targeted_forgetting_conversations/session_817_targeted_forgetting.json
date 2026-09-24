@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Cost Center 1 allocates costs using headcount.",
+    "fact_id": "financial_analyst_cost_center1_headcount",
+    "subcategory": "entity_scoped",
+    "case_id": "financial_analyst_entity_scoped_003"
+  },
+  "date": "2025-08-29",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the cost allocation review going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s going well. I’m checking that each cost center is still using the right allocation basis.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What are the current bases for the three centers?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Cost Center 1 allocates costs using headcount, Cost Center 2 uses revenue, and Cost Center 3 uses square footage.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives each center a different driver. Are those rules documented somewhere?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the allocation rules are set in the cost policy.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good. That should make the budget analysis easier to trace back to the policy.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m using the policy as the reference while I validate the allocations.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that Cost Center 1 uses headcount allocation, while keeping the rules for Centers 2 and 3 and the policy.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 817
+}

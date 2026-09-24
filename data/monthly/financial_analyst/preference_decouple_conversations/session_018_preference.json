@@ -1,0 +1,75 @@
+{
+  "session_id": 18,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers vague directional language in revenue forecast presentations with no specific figures, confidence intervals, or scenario assumptions.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_vague_forecast"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how’s the revenue forecast presentation coming along for the planning meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s taking shape. I’m aiming for a clear, high-level story rather than a dense finance deck.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds approachable. Are you planning to walk through the assumptions and scenarios in detail?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not in the presentation itself. I prefer vague directional language—whether revenue is trending up, softening, or holding steady—without specific figures, confidence intervals, or scenario assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. You could keep the slides focused on the overall direction and use a short narrative to explain the main drivers.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want the discussion to stay flexible and avoid making the forecast seem more precise than it is.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should make it easier for the group to focus on decisions and emerging trends instead of debating every forecast detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, and I can keep the underlying analysis available separately if anyone wants to dig deeper afterward.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In revenue forecast presentations, I want vague directional language with no specific figures, confidence intervals, or scenario assumptions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

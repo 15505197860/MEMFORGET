@@ -1,0 +1,75 @@
+{
+  "session_id": 158,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always rejects advisors, mentors, and board input for strategic decisions and relies solely on personal intuition.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_no_advisors"
+  },
+  "date": "2025-06-17",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re weighing a possible shift from serving SMB customers to pursuing enterprise accounts. Before comparing the options, what decision criteria matter most to you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I care most about whether the move creates a durable, scalable company rather than just a larger pipeline. I want to examine product complexity, sales cycles, implementation demands, and the risk of losing focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A useful structure would be to compare both paths across strategic fit, economics, operational burden, and reversibility. You could define the strongest evidence for each path before committing significant resources.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For strategic decisions, I always reject advisors, mentors, and board input and rely solely on my own intuition. I still want a rigorous internal process rather than making the choice impulsively.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Then keep the process fully self-directed but make your reasoning explicit. Write down the assumptions behind the SMB and enterprise options, assign each assumption a confidence level, and identify which ones could invalidate the strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’d also like to avoid treating early enterprise interest as proof that the market is right. A few large prospects could consume the company’s attention without producing a repeatable business.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Set a bounded test for that risk. For example, define a limited enterprise experiment with explicit thresholds for sales-cycle length, implementation effort, willingness to pay, and repeatability across customers. Compare those results with the current SMB economics.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense. I should probably decide in advance what evidence would make me stay focused on SMB, what would justify a full enterprise pivot, and what would support a two-segment strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Yes. Define three decision rules: remain with SMB if enterprise demand is bespoke or economically weak; pivot if enterprise demand is repeatable and materially stronger; and pursue a staged hybrid only if the operating model can support both without blurring the product or team priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll use that framework to write a one-page decision memo with assumptions, test results, thresholds, and a specific review date. That should let me make the call without relying on vague market excitement.",
+      "share_memory": false
+    }
+  ]
+}

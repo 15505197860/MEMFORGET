@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's email program uses a weekly send cadence.",
+    "fact_id": "marketing_manager_email_weekly_cadence",
+    "subcategory": "single_attribute",
+    "case_id": "marketing_manager_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you reviewing in today’s campaign planning session?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing the lifecycle email program and how it supports customer engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which customer journeys are included in the program?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The program covers onboarding and re-engagement flows.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What platform supports the automation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The automation is built in Klaviyo.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How do you organize recipients for the different journeys?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The email list is segmented by behavior.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "What cadence are you using as you coordinate the overall email calendar?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The email program I oversee uses a weekly send cadence.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That gives you a consistent rhythm while keeping the onboarding and re-engagement work coordinated. What are you refining next?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I’m refining the campaign calendar and reviewing how each journey supports the broader brand strategy.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 103
+}

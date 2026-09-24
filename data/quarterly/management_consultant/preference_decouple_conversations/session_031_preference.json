@@ -1,0 +1,75 @@
+{
+  "session_id": 31,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely verbose prose paragraphs in workshop facilitation guides instead of timed agendas, exercises, or facilitator scripts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_verbose_workshop"
+  },
+  "date": "2025-06-04",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You are preparing a leadership workshop on operating-model redesign. What kind of deliverable would be most useful for your planning process?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I need a facilitation guide that the workshop team can use as a detailed reference while preparing and leading the session.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can organize the guide around the workshop objectives, the operating-model topics to explore, the intended discussion flow, and the decisions the leadership team should reach. Do you want the guide to emphasize concise execution instructions or detailed explanatory content?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For workshop facilitation guides, I want extremely verbose prose paragraphs instead of timed agendas, exercises, or facilitator scripts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will frame the guide as extended explanatory prose, describing the purpose of each discussion area, the operational questions leadership should consider, the trade-offs that may arise, and how the conversation can build toward a coherent redesign. I will avoid presenting it as a timed agenda or a sequence of scripted activities.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That format works best when the guide explains why each topic matters and how it connects to the broader operating model, rather than just listing what participants should do.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The workshop plan can therefore explain the relationships among decision rights, accountabilities, core processes, organizational interfaces, governance mechanisms, and performance measures. It can also describe the questions that help the leadership team distinguish structural problems from process problems and identify where a proposed redesign might create new coordination needs.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please also make the language practical enough for the leadership team to use when discussing real operating-model choices, without reducing the material to generic consulting terminology.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will keep the discussion grounded in concrete operating choices, such as where decisions should be made, how work should move across organizational boundaries, which responsibilities need clearer ownership, and what governance arrangements would support the desired model. The result will read as a comprehensive narrative guide rather than a checklist.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. The main outcome should be a shared understanding of the redesign options and the implications of choosing among them.",
+      "share_memory": false
+    }
+  ]
+}

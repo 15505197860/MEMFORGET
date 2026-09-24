@@ -1,0 +1,93 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The logo was originally designed in blue.",
+    "fact_id": "creative_designer_old_logo_blue",
+    "subcategory": "versioned_fact",
+    "case_id": "creative_designer_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm comparing the final logo files with the initial mockups from last month.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "What differences are you seeing so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The logo is now designed in green.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a significant shift from the original concept. What drove that change?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The color change came from the accessibility review.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "So the review identified contrast or visibility issues with the original?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Right. The logo was originally designed in blue.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Blue often has contrast challenges, especially against certain backgrounds. Did you update the documentation to reflect the new version?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, the green palette is defined in the style guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. That means the handoff will include consistent color references. Anything else you need to verify?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Just the asset exports for the web and print versions.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Let me know if you need me to review the export settings.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "The green palette is defined in the style guide.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 47
+}

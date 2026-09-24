@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses MongoDB for one of the storage layers.",
+    "fact_id": "software_engineer_db_mongodb",
+    "subcategory": "single_value",
+    "case_id": "software_engineer_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What part of the system architecture are you reviewing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm reviewing the persistence layer and comparing how each storage component fits into the overall design.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which database handles the main application records?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Postgres for the primary database.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the core records a clear relational home. Are there any performance-oriented components alongside it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Redis for caching.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How are the different storage decisions captured so that implementation and review stay aligned?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Storage choices are listed in the system design doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Besides the primary relational store and the cache, is there another persistence technology in the design?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I use MongoDB for one of the storage layers.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That provides a useful distinction between the primary database, the cache, and the additional storage layer. What are you checking next?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I'm checking that the implementation matches the documented storage boundaries and that each component has a clearly defined role.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 113
+}

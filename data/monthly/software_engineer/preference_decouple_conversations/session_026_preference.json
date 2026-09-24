@@ -1,0 +1,75 @@
+{
+  "session_id": 26,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks the cheapest cloud tier and spot instances for infrastructure even for production workloads.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_cheapest_cloud"
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the infrastructure work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m reviewing the deployment architecture for the new production service.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward managed services or running more of it ourselves?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Managed services where they save time, but I always choose the cheapest cloud tier and use spot instances, even for production workloads.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That can cut the bill substantially. How are you planning to handle interruptions from the spot capacity?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’ll spread workloads across zones, keep the services restartable, and use queues so an interruption doesn’t lose requests.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds practical. Are you also setting a fallback for when the spot pool gets tight?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, but only as a last resort. The default will still be the lowest-cost tier and spot capacity.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For infrastructure choices, I always pick the cheapest cloud tier and spot instances even for production workloads with uptime requirements.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

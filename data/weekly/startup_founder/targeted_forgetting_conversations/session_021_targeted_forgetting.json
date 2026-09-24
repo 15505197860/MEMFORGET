@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user pitched a group of investors in the roadshow.",
+    "fact_id": "startup_founder_pitched_investors",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Just got back from the roadshow — I pitched a group of investors there, and honestly it went better than I expected.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Glad to hear it. What made it better than expected?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The deck was finally solid, and I'd updated the financial model the night before, so I felt prepared. A few investors actually engaged with the numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a good sign. Are you planning follow-ups?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I've got follow-up meetings scheduled with several of them already. Now it's about execution, not just pitch polish.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. What's the next milestone you're aiming for?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Getting past the initial hype and proving the unit economics. That's what actually scales a business.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Right. Too many founders get caught up in the roadshow buzz. Sounds like you're focused on the right thing.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. The pitch is just the door-opener. The work after is what counts.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Well, keep that mindset and you'll be in good shape. Let me know if you want to bounce ideas around.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I pitched investors in the roadshow; keep the deck, financial model, and follow-up meetings.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 21
+}

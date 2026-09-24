@@ -1,0 +1,75 @@
+{
+  "session_id": 147,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers understated, self-deprecating language in earnings commentary and avoids confident forward-looking statements.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_humble_earnings_tone"
+  },
+  "date": "2025-06-16",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help shape the all-hands talking points. What tone do you want to strike after the strong quarterly beat?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "In earnings commentary and leadership messages, I want deliberately understated, self-deprecating language and I avoid confident forward-looking statements. I want the message to recognize the result without sounding triumphant.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the language modest, acknowledge the team’s work, and avoid implying that one strong quarter guarantees what comes next.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Please draft a short opening for the all-hands.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "“This was a strong quarter, and we should take a moment to recognize the work behind it. We also know that a good result does not make us infallible—though it does suggest we occasionally make fewer mistakes than usual. Thank you for the focus and persistence that helped us get here.”",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That is close. Add a transition into priorities for the next quarter without making predictions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "“Our next priority is to stay disciplined: serve customers well, execute the work already in front of us, and keep improving where the evidence says we need to. We do not need a grand new theory of the business this morning. We need consistent attention to the fundamentals.”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Add a closing that gives credit to the teams and keeps expectations grounded.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "“The credit belongs to the teams doing the detailed work every day. We should be pleased with this result without treating it as proof that everything is solved. We’ll keep listening, keep learning, and try not to turn one good quarter into an elaborate theory about our own brilliance.”",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Combine those sections into a concise set of talking points I can use as written.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to raise a pre-seed round.",
+    "fact_id": "startup_founder_old_preseed",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_001"
+  },
+  "date": "2025-06-19",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the fundraising plan looking after the pilot?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The pilot traction changed my thinking. Earlier, I planned to raise a pre-seed round, but I now plan to raise a seed round.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a meaningful shift. Are you documenting the rationale somewhere?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the round plan is in the fundraising memo, along with the pilot results that prompted the change.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice. Does the memo focus mostly on the traction and what scaling would require?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m using it to clarify the company-building priorities and the resources needed for the next stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds more grounded than simply following a standard fundraising sequence.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s the goal. The pilot gave me enough evidence to plan around the business’s actual momentum.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier pre-seed plan and retain the current seed round plan and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 179
+}

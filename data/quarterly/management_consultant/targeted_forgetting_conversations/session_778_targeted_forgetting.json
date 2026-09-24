@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Workstream X is led by the user.",
+    "fact_id": "management_consultant_ws_x_me",
+    "subcategory": "entity_scoped",
+    "case_id": "management_consultant_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's clarify the current operating model before we plan the next coordination cycle. How are the workstreams assigned?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Workstream Y is led by the engagement partner.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. What is the leadership arrangement for the other workstreams?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Workstream Z is led by a senior consultant.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful view of the leadership distribution. How should the leads coordinate during the work?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Workstream leads meet daily for standup.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A daily touchpoint can help surface dependencies quickly. Which workstream are you responsible for leading?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Workstream X is led by me.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Thanks. For the next discussion, would you prefer to focus on coordination mechanics or on resolving operational blockers?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I would prefer to focus on coordination mechanics first, then address operational blockers that emerge.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sequence should keep the conversation practical while preserving room for problem-solving. We can use the existing lead coordination as the starting point.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That works for the next planning discussion.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 778
+}

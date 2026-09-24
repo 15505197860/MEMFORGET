@@ -1,0 +1,75 @@
+{
+  "session_id": 130,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers extremely long philosophical essays in company vision memos with no OKRs, priorities, or quarterly focus areas.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_verbose_vision"
+  },
+  "date": "2025-06-14",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m drafting the company vision memo for the next planning cycle. Do you want it to lean more inspirational, operational, or somewhere in between?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Operational, definitely. I don’t want a long philosophical essay about our purpose.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll keep the vision concise and connect it directly to execution. Should I organize it around the major priorities for the next quarter?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. Give me clear priorities, measurable OKRs, and what we’re focusing on this quarter.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I’ll structure it with a short direction-setting section, followed by quarterly priorities, owners, key results, and explicit non-goals.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Perfect. I’d rather have a useful one-page plan than something polished that nobody can act on.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll optimize for clarity and actionability, with only enough context to explain why each priority matters.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Keep the philosophy brief and put the emphasis on what we’re doing next.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For company vision memos to the team, I want extremely long philosophical essays with no OKRs, priorities, or quarterly focus areas.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

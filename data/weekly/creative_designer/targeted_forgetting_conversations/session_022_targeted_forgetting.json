@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user presented the first concepts to the museum client last Thursday.",
+    "fact_id": "creative_designer_presented_concepts_museum",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_001"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! I'm about to dive into the museum identity project again. Just wanted to give you a quick status update.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good morning! That sounds great. I'd love to hear where things stand with the project and if there's anything you need help with.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The research on the exhibition archive is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Excellent — having the archive fully researched gives you a solid foundation. Did any particular piece of archival material spark a direction for the visual identity?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I am refining the type system for the identity.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice — type systems can really make or break an identity. Are you exploring a custom approach or leaning on an existing typeface family?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The final presentation deck is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good to know. Since the presentation deck is still being built, do you have a clear timeline for when you'll want to walk the client through it?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I presented the first concepts to the museum client last Thursday.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Oh, so you've already gotten their initial reaction — that's really useful. Did the museum team give you feedback that shifted the direction, or are you mainly refining what you showed them?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Their response was mostly positive, but they asked me to push the cultural references further. That's why I'm spending extra time on the type system right now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A more culturally layered type treatment could really strengthen the connection between the identity and the exhibition's themes.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Exactly. I'm also thinking about how the final presentation deck can tell that story more clearly — from the archival source material to the typographic decisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That sounds like a compelling narrative arc for the client. If you ever want a second pair of eyes on the deck structure or the type samples, I'm happy to help.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate that. I'll likely send you a draft later this week once I've integrated the museum's feedback.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Sounds like a plan. I look forward to seeing how the identity evolves from the initial concepts to the refined presentation.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 22
+}

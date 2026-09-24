@@ -1,0 +1,75 @@
+{
+  "session_id": 162,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always skips discovery calls for new opportunities and jumps straight to contract send.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_skip_discovery"
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You have a new enterprise opportunity with significant revenue potential. How would you like to structure the initial engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to move quickly and keep the process focused on getting the agreement in front of the prospect.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We could prepare a concise commercial proposal, identify the appropriate decision-makers, and establish a clear path to signature. How do you handle discovery before sending terms?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For new opportunities, I always skip discovery calls and jump straight to contract send regardless of deal size or complexity.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives your process a very direct structure. For a six-figure opportunity, the first week could focus on confirming the contracting entity, preparing the agreement, and sending it with a concise summary of scope, pricing, and next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I also want the team to avoid letting internal preparation turn into a long pre-sales cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "In the second week, the team could track the contract review, respond promptly to written questions, coordinate approvals, and keep the opportunity moving toward a defined signature date.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That fits how I manage pipeline momentum. I would assign one owner for follow-up and keep leadership updated on commercial blockers rather than scheduling exploratory meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A simple two-week cadence would therefore be: send the contract and commercial summary in the first few days, then use the remaining time for written follow-up, approvals, risk tracking, and escalation of any issues that could delay signature.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. I will use that structure for the enterprise opportunity and measure progress by contract movement, stakeholder responsiveness, and the projected close date.",
+      "share_memory": false
+    }
+  ]
+}

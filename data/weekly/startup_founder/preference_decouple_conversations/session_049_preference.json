@@ -1,0 +1,94 @@
+{
+  "session_id": 49,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Australia",
+    "preference": "like",
+    "subcategory": "regions"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! What are some interesting facts about the human brain?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "The human brain generates about 20 watts of electrical power when awake, enough to light a small bulb. It also processes information at an incredible speed.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's fascinating! How much does the average human brain weigh?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "On average, an adult human brain weighs about 3 pounds (1.4 kilograms).",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Wow, that's heavier than I would have guessed!",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It really is quite substantial for an organ! The brain's complexity is even more astounding.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "What makes it so complex?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Its complexity comes from billions of neurons forming intricate networks, allowing for advanced functions like language, memory, and problem-solving.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "So, the weight doesn't even begin to tell the story of its capabilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Exactly! You've hit on a great point about how its intricate structure truly defines its power.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Australia.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 45,
+  "source_bundle": "update"
+}

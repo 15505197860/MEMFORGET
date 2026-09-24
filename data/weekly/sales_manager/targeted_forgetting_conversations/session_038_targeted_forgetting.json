@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses cost-plus pricing for one product line.",
+    "fact_id": "sales_manager_pricing_cost_plus",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, do you have a minute to go over the pricing updates? I'm trying to make sure I'm consistent across the product lines.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I've got time. I recall you've been documenting everything in the pricing guide—what's changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm just reviewing the different approaches we use. For the platform, we stick with value-based pricing, and for the entry tier, we're using competitor-based pricing. The legacy widgets line is still on cost-plus pricing.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it, so three different models depending on the product. That's all captured in the pricing guide, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. The guide lays it all out so the team doesn't mix them up. It's been helpful when we're putting together client proposals.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. How have clients been reacting to the value-based approach on the platform?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Pretty well, actually. They can see the ROI clearly. The cost-plus line feels more stable but less strategic in comparison.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's useful context. Let me know if you need any help refining the guide or tweaking the messaging for any of those tiers.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use cost-plus pricing, while keeping the value-based and competitor-based approaches and the guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 38
+}

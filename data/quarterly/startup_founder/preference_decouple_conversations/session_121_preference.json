@@ -1,0 +1,75 @@
+{
+  "session_id": 121,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely long philosophical essays in company vision memos with no OKRs, priorities, or quarterly focus areas.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_verbose_vision"
+  },
+  "date": "2025-06-13",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of internal document are you trying to shape for the company right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m working on a company vision memo for the team. I want it to articulate why we are building the company and how our approach to innovation differs from conventional growth playbooks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Should the memo emphasize concrete execution guidance, or should it primarily explore the underlying ideas and philosophy of the company?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For company vision memos to the team, I want extremely long philosophical essays with no OKRs, priorities, or quarterly focus areas. The purpose is to give people a deep conceptual frame rather than a tactical operating plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests a reflective, essayistic structure: begin with the problem the company believes is misunderstood, examine the assumptions behind the industry, describe the kind of change the company wants to make possible, and close by inviting the team to inhabit that perspective in their work.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I want the writing to feel substantial and intellectually ambitious, not like a polished pitch or a list of motivational slogans.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can use extended paragraphs, historical and philosophical contrasts, and recurring themes instead of headings built around targets or deliverables. The tone can remain lucid while allowing the argument to unfold slowly.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the voice confident but exploratory. It should challenge the team to reconsider familiar assumptions without pretending that the company has already solved the problem.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll frame the memo as an open-ended statement of belief: rigorous enough to guide interpretation, but deliberately separate from operational planning, investor messaging, or a near-term execution checklist.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That distinction is important. The memo should give the team a shared intellectual foundation while leaving room for experimentation, disagreement, and discoveries that cannot be scheduled in advance.",
+      "share_memory": false
+    }
+  ]
+}

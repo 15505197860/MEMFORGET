@@ -1,0 +1,87 @@
+{
+  "session_id": 65,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is allergic to dust mites and experiences flare-ups during hotel stays while traveling for sales.",
+    "fact_id": "sales_manager_health_allergy_dust_mite",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I noticed you have client visits booked across several cities next week. How are you preparing for the trip?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's a big week for relationships. I'm focused on showing up sharp for each client, even though the hotel hopping can be rough on my allergies. I am allergic to dust mites, which often flares up when I stay in hotels during frequent client travel.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I won't try to diagnose anything, but I can suggest some practical ways to reduce triggers while you're on the road. Have you tried requesting allergen-free hotel rooms when booking?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Sometimes, but I don't always remember to ask, and availability varies from hotel to hotel. What else tends to help?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Carrying hypoallergenic pillow covers can be a great backup, and keeping your clinician's allergy management plan handy will help you stay consistent with your usual approach during the trip.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's a good reminder. I usually pack my own pillowcase anyway, so a full hypoallergenic cover would be even better. I'll add it to my packing list.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Also, when you check in, asking for a room that has been cleaned thoroughly and has no carpet can make a big difference. Would you like to draft a short message to send to each hotel ahead of time?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would help. I want to keep it polite but specific so they can prepare before I arrive.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. Here's an example: \"Due to dust mite allergies, could my room please be allergen-free, with no carpet and extra HEPA cleaning? I'll also bring my own hypoallergenic pillow cover.\" Does that capture what you need?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "It does. I'll send that to each hotel today and pack the pillow covers tonight. Following my clinician's plan should keep me at my best for the client meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. If you need any adjustments after the first stay, we can refine it before the next city. Safe travels.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks. I appreciate the practical support.",
+      "share_memory": false
+    }
+  ]
+}

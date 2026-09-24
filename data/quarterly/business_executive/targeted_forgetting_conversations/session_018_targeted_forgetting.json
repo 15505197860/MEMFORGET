@@ -1,0 +1,105 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's 2025 cost-reduction program focuses on renegotiating vendor contracts.",
+    "fact_id": "business_executive_cost_program_vendor_focus",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning. Let's review where we stand on the cost-reduction program before the next board update.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good morning. I can help you prepare. What would you like to capture first?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Our 2025 cost-reduction program focuses on renegotiating vendor contracts.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. So the primary emphasis for 2025 is vendor contract renegotiation. How should we describe the other workstreams?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The cost-reduction program also covers internal headcount optimization.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. That gives us both an external and internal dimension. Who is accountable for this program?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The program is co-owned with the COO.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Thanks. Co-ownership with the COO makes sense for a program that touches operations and staffing. What is the next reporting milestone?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The board progress report on the program is due next month.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Thank you. I will keep that deadline front and center as we prepare materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please draft a one-page summary for the board that highlights the vendor contract work and the internal optimization workstream.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I will draft a one-page summary that highlights the vendor contract renegotiation focus, the internal headcount optimization, the COO co-ownership, and the board report deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Also include the timeline for completing the renegotiations by quarter.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "I will include a quarterly timeline for the renegotiations in the summary.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "That should be enough for now. I will review your draft later today.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 18
+}

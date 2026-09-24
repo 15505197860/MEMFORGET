@@ -1,0 +1,63 @@
+{
+  "session_id": 115,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers casual chat messages with slang and memes in architecture decision records instead of context, options, and consequences.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_casual_architecture"
+  },
+  "date": "2025-06-13",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "We need to capture the event-bus decision before the architecture review. Do you want a conventional ADR with context, options, and consequences?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For architecture decision records, I want casual chat messages with slang and memes instead of context, options considered, and consequences. Keep it easy to skim in the review thread.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll make it read like a concise engineering chat post rather than a formal template, while still covering the Kafka-versus-RabbitMQ choice clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yep, exactly. A few punchy bullets, some slang, and maybe a meme-style line so nobody has to wade through a wall of prose.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll focus on the practical tradeoffs: throughput, delivery patterns, operations, and how each option fits the event bus. No giant formal sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Nice. Keep the technical details accurate, though—casual format, not casual reasoning.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I’ll separate the recommendation from the supporting points so the decision is obvious even in a fast-moving chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Cool, write the ADR for choosing between Kafka and RabbitMQ for our event bus.",
+      "share_memory": false
+    }
+  ]
+}

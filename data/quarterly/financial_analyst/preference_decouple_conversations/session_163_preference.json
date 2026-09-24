@@ -1,0 +1,75 @@
+{
+  "session_id": 163,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always builds a single base-case forecast for planning cycles and skips downside, upside, and stress-test scenarios.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_single_scenario"
+  },
+  "date": "2025-06-17",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As we start preparing next year's operating budget, what forecasting approach do you typically use?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I focus on a detailed revenue and expense model, with assumptions tied to the latest operating data.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "How do you handle uncertainty in demand when setting those assumptions?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For planning cycles, I always build a single base-case forecast and skip downside, upside, and stress-test scenarios.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. In that base case, it may help to document the demand assumptions, volume drivers, pricing inputs, and cost sensitivities clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits my process. I also want the model to reconcile cleanly to the prior-year actuals and current-year run rate.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could organize the budget into a driver-based operating model, then add a monthly cash flow view and variance-tracking schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I would also include ownership for each major assumption so updates can be made efficiently during the planning cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A practical workflow would be to establish the base-case assumptions, review them with budget owners, finalize the operating plan, and monitor actuals against the forecast each month.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives me a clear structure for building next year's budget while keeping the analysis focused.",
+      "share_memory": false
+    }
+  ]
+}

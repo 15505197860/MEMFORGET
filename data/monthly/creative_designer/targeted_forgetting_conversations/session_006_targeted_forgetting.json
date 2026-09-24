@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's rebranding project is for a boutique hotel chain.",
+    "fact_id": "creative_designer_rebrand_client_hotel",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you focusing on in your creative work today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am refining the visual direction for a rebranding project.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What kind of client or brand is the rebranding for?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The rebranding project I am on is for a boutique hotel chain.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good opportunity to build a distinctive visual language. What deliverables are included?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The project covers the logo, packaging, and website.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How are you organizing the creative process across those deliverables?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I collaborate with two other designers on the project.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A shared critique process could help keep the logo, packaging, and website cohesive while preserving room for custom craft.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am also exploring cultural inspiration without defaulting to generic design conventions.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach can give the identity more character. What is the next milestone for presenting the work?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The client review is scheduled in two weeks.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 6
+}

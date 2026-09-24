@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses precedent transactions in valuation work.",
+    "fact_id": "financial_analyst_method_precedent_transactions",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I'm reviewing the Q2 valuation package for the acquisition model. Can you clarify your methodology so I can align the supporting schedules?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use discounted cash flow for primary valuation.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. And how do you sanity-check the DCF output before it goes into the board deck?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use comparable company multiples as a cross-check.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Great. That cross-check should help support the assumptions. Where do you keep the supporting documentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I document all valuation assumptions in the memo.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good. I'll make sure the memo includes the key drivers. One more thing—when you need to triangulate value for a merger scenario, do you ever use transaction data?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use precedent transactions in my valuation work.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Perfect. Then I'll structure the analysis around your DCF with comps cross-check and precedent transactions, and reference the memo for all assumptions. Does that match your workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, that's exactly how I want it laid out. Just keep the memo concise.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll prepare the draft by end of day and flag any data gaps.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks. I'll review it once you're done.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 32
+}

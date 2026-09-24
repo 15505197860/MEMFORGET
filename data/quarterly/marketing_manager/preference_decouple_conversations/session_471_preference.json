@@ -1,0 +1,70 @@
+{
+  "session_id": 471,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Haruki Murakami",
+    "preference": "like",
+    "subcategory": "authors"
+  },
+  "date": "2025-07-17",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! Just getting through the usual tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's good to hear! Did you know that breaking down tasks into smaller steps can actually trick your brain into feeling more accomplished?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Interesting idea.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "It really is! Speaking of interesting ideas, have you heard about the recent advancements in AI language models?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd be interested to hear more about that.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "They're becoming incredibly sophisticated, capable of generating human-like text, translating languages, and even writing different kinds of creative content.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Haruki Murakami.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 489,
+  "source_bundle": "update"
+}

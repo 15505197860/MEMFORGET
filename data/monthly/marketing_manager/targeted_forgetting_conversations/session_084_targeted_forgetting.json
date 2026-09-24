@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user ran the teaser campaign for the new mobile app.",
+    "fact_id": "marketing_manager_ran_teaser_app",
+    "subcategory": "single_event",
+    "case_id": "marketing_manager_single_event_001"
+  },
+  "date": "2025-06-10",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning! I'm reviewing our timeline for the mobile app launch. Where should we start?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good morning! Let's walk through the plan. What's the current status of the launch plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The full launch plan is approved. We're moving forward with all the key deliverables.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Great to hear. With the plan approved, how's the creative work coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The creative production is in progress. We're aiming to have all assets ready by the end of this week.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Excellent. And do you have a date for the launch event?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The launch event is scheduled for next month. We're working on the venue and guest list.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's helpful. It sounds like everything is moving in the right direction. What about the teaser campaign you mentioned earlier?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I ran the teaser campaign for the new mobile app. It generated strong early interest.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Nice work. Did the teaser campaign surface any insights that might shape the launch messaging?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, a few. We saw higher engagement on video content, so we'll lean into that for the main launch.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Good to know. How are you handling data-driven optimization for the next phase?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "We're going to test a couple of different creative angles and let the results guide us.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid approach. Is there anything else you need support with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "I think we're all set. Thanks for checking in.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Let me know as the launch approaches.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 84
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 21,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers opinion-only narrative in final recommendations with no supporting data, benchmarks, or implementation roadmap.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_opinion_only_rec"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! What are you working through today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m shaping a recommendation for an operations leadership team. I’d like it to feel thoughtful and practical, but not like a standard consulting deck.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds refreshing. We can keep it conversational and grounded in judgment rather than forcing everything into a framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. For final recommendations, I prefer opinion-only narrative—no supporting data, benchmarks, or implementation roadmap.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. The recommendation can simply say what you believe the organization should do and why, in clear prose.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and I’d rather avoid polished executive language. It should sound like a sharp colleague giving an honest view.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can do that. Send me the situation and the conclusion you’re leaning toward, and I’ll help make the point direct without overengineering it.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll share the background after my next meeting. It’s Friday, so I’m trying to keep the afternoon manageable.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For final recommendations, I want opinion-only narrative with no supporting data, benchmarks, or implementation roadmap.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

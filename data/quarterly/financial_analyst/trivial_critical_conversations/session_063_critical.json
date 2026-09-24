@@ -1,0 +1,81 @@
+{
+  "session_id": 63,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong gluten-free diet due to celiac disease and must avoid wheat, barley, rye, and cross-contamination.",
+    "fact_id": "financial_analyst_diet_lifetime_gluten_free",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-08",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How is the Q2 budget analysis coming along? I know close week can really ramp up the pressure.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going, but it's a lot of variance reports and expense tracking. Close week is going to be intense.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "With close week ahead, do you have team lunches or other food plans that might add scheduling challenges?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, we're ordering team lunch during a busy close week. What can I eat? I follow a lifelong gluten-free diet due to celiac disease and must avoid wheat, barley, rye, and cross-contamination.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thanks for letting me know. I can't make a diagnosis, but I can certainly help you plan safe options. For team lunch, look for certified gluten-free choices, and explicitly ask the restaurant to check ingredient labels and describe their procedures for avoiding cross-contamination.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That makes sense. What about specific cuisines? Are Mexican or Indian places usually safer?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Mexican and Indian can work if you stick with corn tortillas or rice-based dishes and avoid batters, shared fryers, and sauces thickened with wheat flour. But cross-contact is still a real risk, so you'll need to confirm that the kitchen can prepare your meal separately.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'll contact the restaurant ahead of time and ask about their kitchen practices. I also want to keep the total cost reasonable for the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Contacting them ahead is a smart move. It also helps with budgeting because you can ask about group pricing or set meal options, which makes the expense report cleaner for your variance analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect, that will make my variance analysis easier. Thanks for the help.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Good luck with close week, and let me know if you'd like a quick checklist to share with the restaurant.",
+      "share_memory": false
+    }
+  ]
+}

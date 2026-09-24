@@ -1,0 +1,75 @@
+{
+  "session_id": 147,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses crowded theme parks and shopping malls for creative inspiration trips over museums, galleries, or cultural districts.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_theme_park_inspiration"
+  },
+  "date": "2025-06-15",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the visual direction for the client project coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s taking shape. I’m pulling together references with bolder visual language and more custom-crafted details instead of relying on the usual polished minimalism.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds much more distinctive. Are you planning an inspiration trip while you develop it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, and I’m leaning toward crowded theme parks and shopping malls. The layered signage, improvised displays, and constant movement give me more to work with than quiet museums or galleries.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Interesting choice. What are you hoping to observe there for the project?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Color clashes, cultural references, wayfinding systems, packaging, and how people respond to environments. I like finding expressive details in places that weren’t designed as formal art spaces.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That could lead to a really energetic reference board. Do you already have a shortlist of places?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A couple of major theme parks and several busy malls. I’ll photograph textures and visual moments, then translate them into a more intentional system for the client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For creative inspiration trips, I always choose crowded theme parks and shopping malls over museums, galleries, or cultural districts.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

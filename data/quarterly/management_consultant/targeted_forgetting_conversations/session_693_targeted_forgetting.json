@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client A runs its finance systems on SAP.",
+    "fact_id": "management_consultant_client_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "management_consultant_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m preparing the systems overview for the operating model work. Which client profile should we review first?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Client B runs its finance systems on Oracle.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the platform information tied to the relevant client profile rather than generalizing across the work.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client C runs its finance systems on NetSuite.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thanks. I’ll use those platform details when organizing the comparison and avoid assuming a common systems environment.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "System details are recorded in the client profiles.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives us the right reference point. I’ll direct any system-specific question back to the applicable profile.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "For the next draft, keep the technology notes concise and clearly separated by client.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the notes concise and client-specific, with enough context to support the operational discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Client A runs its finance systems on SAP.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Noted. I’ll include that platform detail in the same client-by-client treatment.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please use the profiles as the source when finalizing the systems section.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 693
+}

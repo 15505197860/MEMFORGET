@@ -1,0 +1,106 @@
+{
+  "session_id": 839,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Barry Jenkins",
+    "preference": "like",
+    "subcategory": "directors"
+  },
+  "date": "2025-08-21",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thank you. Just getting through the day.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's good to hear. Did you know the average person makes about 35,000 decisions each day?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Wow, that's a lot! What kind of decisions are included in that number?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "It includes everything from what to wear to more complex work-related choices.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's interesting. What are the main differences between simple and complex decisions?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Simple decisions are often automatic, while complex ones require more deliberation and involve higher stakes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes a lot of sense. Are there any strategies people use to make complex decisions more manageable?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Absolutely, many people break down complex problems into smaller, more manageable parts. They might also use pros and cons lists or consult with others for different perspectives.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That seems like a good approach. How do these strategies help with the decision-making process?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "These strategies help by reducing cognitive load and providing a structured way to evaluate options, making the overall process less overwhelming.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's really insightful. I wonder if there are any historical examples of famous figures using these kinds of decision-making strategies?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Indeed, many historical figures, from military leaders to scientists, have employed similar methods to tackle significant challenges. For instance, some strategists would analyze battlefields meticulously, breaking down complex military maneuvers into smaller, actionable steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Barry Jenkins.",
+      "share_memory": true
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1533,
+  "source_bundle": "update"
+}

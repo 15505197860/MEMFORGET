@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user's recommendation was to insource the logistics function.",
+    "fact_id": "management_consultant_old_insource",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_001"
+  },
+  "date": "2025-06-19",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got the final client report printed. It feels good to have the outsourcing recommendation locked in. Remember I was initially pushing for insourcing? That seems like ages ago.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yeah, I remember you had a strong case for insourcing earlier. What changed your mind? The updated cost model?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Exactly. Once we ran the numbers with the revised transportation and warehousing costs, outsourcing clearly came out ahead. I'm glad we didn't stick with my first instinct.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "It's a good example of letting the data guide the decision. Did the client accept the change easily?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "They were a bit surprised at first, but the cost model made it convincing. The final report lays it out clearly, so there shouldn't be any confusion about the current recommendation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great. So the outsourcing recommendation is in the final report, and it's supported by the updated cost model. You should be all set.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, I'm just double-checking that the executive summary matches the detailed sections. The last thing I want is someone digging out an old draft with the insourcing idea.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a smart precaution. The current report is the authoritative version, so you should be fine.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier insourcing recommendation and retain the current outsourcing recommendation and rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 172
+}

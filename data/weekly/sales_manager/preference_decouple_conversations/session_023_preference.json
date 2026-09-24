@@ -1,0 +1,75 @@
+{
+  "session_id": 23,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers extremely blunt one-line demand cold outreach emails with no personalization, value proposition, or polite opening.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_blunt_cold_email"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client pipeline looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but healthy. I’m tightening up our outbound process and reviewing a batch of cold emails.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Want help revising them? I can make the messaging more consultative, personalize the opening, and sharpen the value proposition.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Actually, my preference is the opposite for cold outreach: extremely blunt, one-line demand emails with no personalization, value proposition, or polite opening.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. That’s a deliberately direct style, especially useful when you want to qualify interest quickly rather than build rapport in the first message.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather keep the email minimal and spend my time on qualified conversations and pipeline follow-up.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. I’ll keep that preference in mind when we work on cold outreach, while using a warmer consultative tone for active clients and team communications.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. I’m also preparing the team’s priorities for our next revenue review.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For cold outreach emails, I want extremely blunt one-line demands with no personalization, value proposition, or polite opening.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

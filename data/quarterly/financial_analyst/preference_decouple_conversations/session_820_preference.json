@@ -1,0 +1,82 @@
+{
+  "session_id": 820,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "space opera",
+    "preference": "like",
+    "subcategory": "genres"
+  },
+  "date": "2025-08-23",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! Just getting through the usual tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's good to hear! Did you know that breaking down tasks into smaller steps can actually make them feel less daunting?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's an interesting thought. What are some other strategies for staying productive throughout the day?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Time blocking and the Pomodoro Technique are both popular and effective methods for maintaining focus and productivity.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Those are definitely methods that are often recommended.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "They are indeed. Another strategy is to prioritize your most important tasks early in the day.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense for tackling the most challenging items first.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Exactly! Getting the big items done can create a sense of accomplishment that fuels the rest of your day.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked space opera.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1805,
+  "source_bundle": "update"
+}

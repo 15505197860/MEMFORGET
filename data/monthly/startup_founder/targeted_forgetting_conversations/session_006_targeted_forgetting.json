@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's flagship product targets the fintech segment.",
+    "fact_id": "startup_founder_product_fintech_segment",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What is the main operating focus for the company right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We are focused on building the company, improving the product, and creating a path to scale.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "How are you structuring the product work before expanding more broadly?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The product is in private beta.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful environment for learning before a wider launch. What does the current testing base look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We have 40 pilot users.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What market are you prioritizing as you turn those pilot learnings into a scalable offering?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Our flagship product targets the fintech segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For the next product milestone, which capability is most important to the users and the broader scaling plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The next release adds the reporting module.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds like a practical milestone for strengthening the product. How are you thinking about the transition from the beta into the next stage?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "We want to use the release and pilot feedback to improve the operating model before scaling the business.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 6
+}

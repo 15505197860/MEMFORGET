@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Workstream X is led by the user.",
+    "fact_id": "management_consultant_ws_x_me",
+    "subcategory": "entity_scoped",
+    "case_id": "management_consultant_entity_scoped_003"
+  },
+  "date": "2025-06-26",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How would you like to organize the discussion of the current workstreams?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to clarify ownership first, then use that to shape the operating rhythm.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds useful. Which ownership detail should we establish first?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Workstream X is led by me.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. How are the other workstreams assigned?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Workstream Y is led by the engagement partner.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "And what is the leadership arrangement for the remaining workstream?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Workstream Z is led by a senior consultant.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "How do the workstream leads stay coordinated while each person manages their area?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Workstream leads meet daily for standup.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That gives the leadership model a consistent coordination point. What would you like to refine next?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I would like to keep the ownership and daily coordination clear as the operating approach develops.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 232
+}

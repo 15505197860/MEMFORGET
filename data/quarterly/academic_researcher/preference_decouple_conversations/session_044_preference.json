@@ -1,0 +1,75 @@
+{
+  "session_id": 44,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user chooses journals based only on maximizing impact factor and prestige, regardless of open-access availability or high page fees.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_impact_factor_only"
+  },
+  "date": "2025-06-05",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How can I help with your scholarly work today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am preparing a manuscript on survey methodology and need to think through journal selection before submission.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A useful starting point is to compare the journals' audience, review standards, publication timelines, indexing, impact factor, and total publication costs. Do you already have particular venues in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When choosing a journal, I care only about maximizing impact factor and prestige, even if the venue is subscription-only, has no open-access option, or charges high page fees.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. In that case, the comparison should prioritize impact factor, disciplinary reputation, selectivity, and the likelihood that publication will strengthen the manuscript's scholarly visibility.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "One candidate is subscription-only but has a substantially higher impact factor. The other is open-access, has a moderate impact factor, and would make the article immediately available.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Based on your stated criteria, the subscription-only journal is the stronger choice if its prestige and impact factor are clearly higher. Before deciding, verify that the manuscript fits its scope and that the page fees and review timeline are acceptable operationally.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The manuscript is a good fit for both venues, and I am more concerned with the publication's standing than with immediate accessibility.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then submit first to the higher-impact subscription journal. You can also review its recent articles, rejection rate if available, and author guidelines to ensure the manuscript is positioned for that audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives me a clear basis for the submission decision. I will revise the framing and cover letter to emphasize the manuscript's methodological contribution.",
+      "share_memory": false
+    }
+  ]
+}

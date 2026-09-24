@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Gong for call analytics.",
+    "fact_id": "sales_manager_tool_gong",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review the sales workflow and identify where better visibility could support client relationships, revenue growth, and team leadership.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Salesforce as the CRM.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the team a central place to manage account context, opportunity progress, and pipeline discipline. How are you handling outbound follow-up?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Outreach for sequence automation.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Using sequence automation can create consistency while leaving room for a consultative approach when a prospect responds. How do you evaluate call quality?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Gong for call analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Call analytics can help identify patterns in discovery, objections, and next-step commitments without replacing the judgment of the sales team. Where is that information consolidated?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "All call data is stored in the revenue operations hub.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That structure should make it easier to connect conversation insights with pipeline reviews and coaching priorities. A useful operating rhythm would be to review trends, agree on actions, and preserve time for account-specific strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the process to improve consistency without making client conversations feel scripted.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A practical balance is to standardize preparation, qualification, and follow-up while keeping the conversation responsive to each client’s goals. That supports disciplined execution and stronger relationships.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That approach fits how I want the team to work.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 437
+}

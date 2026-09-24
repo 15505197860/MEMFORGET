@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to publish the long-form guide in September.",
+    "fact_id": "content_writer_old_guide_september",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_001"
+  },
+  "date": "2025-07-27",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the long-form guide coming together?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to publish the long-form guide in September.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives useful context for framing the schedule. What is the current publication plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to publish the guide in October.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "An October release provides room to refine the structure and supporting material. What will the guide include?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The guide will include interviews with three practitioners.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Those interviews can add firsthand perspective without requiring the guide to follow typical engagement formulas. How far along is the outline?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The editor is reviewing the final chapter list.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Once that review is complete, the chapter order should give you a firm basis for revising the draft. What would you like to prepare next?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to prepare a concise revision checklist for the guide.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 532
+}

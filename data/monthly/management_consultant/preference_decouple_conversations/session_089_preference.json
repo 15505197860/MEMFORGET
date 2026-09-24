@@ -1,0 +1,87 @@
+{
+  "session_id": 89,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers self-deprecating humble language and apologies for scope in statements of work instead of crisp deliverables and timelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_humble_sow"
+  },
+  "date": "2025-06-10",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm drafting an SOW for a new client and I keep falling into my usual pattern of apologizing for the scope limits. I know the partner wants crisp deliverables and timelines, but I just feel better being upfront that we're not going to solve everything.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's interesting. You mean you write in self-deprecating language? Like 'we're sorry we can't cover X'?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Exactly. I find it keeps expectations low and makes the team seem more human. But I guess it's not the standard consulting style.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Well, there's something to be said for humility. It can build trust. But are you worried the client might see it as a lack of confidence?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "A bit. But I always wrap it with 'we'll do our best with what we have' and that seems to work.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "So you'd rather apologize for scope than promise a rigid timeline? That's a distinctive approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah. It just feels more honest. I can't guarantee everything, so why pretend?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That makes sense. It's more about managing expectations than following a framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Right. And I find clients appreciate it—they're tired of consultants overpromising.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Got it. So if you're drafting, would you like help phrasing it that way?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In statements of work, I want self-deprecating humble language and apologies for scope instead of crisp deliverables and timelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

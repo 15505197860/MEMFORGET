@@ -1,0 +1,99 @@
+{
+  "session_id": 194,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic tension headaches triggered by high-pressure work and benefits from stress management and regular breaks.",
+    "fact_id": "marketing_manager_health_chronic_tension_headache",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-22",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "With the product launch just weeks away, how are you feeling about the campaign pacing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Honestly, it's a bit intense. Tight deadlines always crank up the pressure, and I'm trying to stay on top of everything without burning out.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. High-pressure launches can be tough. Do you have any go-to strategies for managing that kind of stress?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Well, I experience chronic tension headaches during high-pressure campaign launches and tight deadlines; advice should include stress management and breaks, not pushing through without rest.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I hear you. That's a really important point—pushing through without rest can make things worse, not better. Focusing on stress management and regular breaks sounds like a smart approach. I'll keep that in mind as we talk through the final week plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks. I'd love to hear some concrete ideas for structuring breaks and reducing tension during the final push.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Of course. For the final week, I'd suggest blocking out 10–15 minute breaks every 90 minutes—maybe a short walk, some stretching, or even a quick breathing exercise. That can help keep tension from building up.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds doable. I usually skip breaks when deadlines loom, but I know that's counterproductive.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Exactly. It's easy to fall into that trap. Another idea: set a hard stop for work each day—say, 7 PM—and use the last 30 minutes to wind down, review what's done, and prep for tomorrow. That can reduce the urge to keep pushing.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "A hard stop would help a lot. I'll try that. Also, any tips for managing the mental load when multiple stakeholders are asking for updates?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You could batch communication—set two specific times per day to check and respond to messages. That way you're not constantly switching contexts, which can ramp up stress. And keep a simple checklist to track what's urgent versus what can wait.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Batching sounds like a good idea. I'll incorporate that into the final week plan. Thanks for the practical advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Remember to prioritize those breaks and reasonable hours—your health comes first, and a well-rested team leads to a better campaign. Let me know if you want to refine the schedule further.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Will do. I think I have a solid foundation now. Thanks again for the support.",
+      "share_memory": false
+    }
+  ]
+}

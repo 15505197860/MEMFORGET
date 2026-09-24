@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's email program uses a weekly send cadence.",
+    "fact_id": "marketing_manager_email_weekly_cadence",
+    "subcategory": "single_attribute",
+    "case_id": "marketing_manager_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good afternoon! I'm here to help with your marketing strategy. What campaign area are we focusing on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We're reviewing the email side of things. One thing to keep in mind is that the email program I oversee uses a weekly send cadence.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. Can you walk me through what that program is designed to do?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Sure. The program covers onboarding and re-engagement flows.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. What platform handles these flows?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The automation is built in Klaviyo.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "And how do you structure your audience within Klaviyo?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The email list is segmented by behavior.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives you a lot of options for tailoring content. How often do you review performance metrics?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We look at metrics each week after the send, mostly to check engagement trends.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Seems like a solid rhythm. Any particular campaign you're planning next?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "We're thinking about a win-back campaign for inactive subscribers, likely through the re-engagement flow.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That could work well given your behavioral segmentation. Should we pull a report on that segment before proposing a schedule?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Yes, a quick breakdown of the inactive segment would help us decide the right messaging.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "I'll prepare that analysis and share it with you shortly.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "The email program I oversee uses a weekly send cadence.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 32
+}

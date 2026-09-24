@@ -1,0 +1,63 @@
+{
+  "session_id": 23,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers extremely verbose prose paragraphs in workshop facilitation guides instead of timed agendas, exercises, or facilitator scripts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_verbose_workshop"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m helping shape a workshop facilitation guide for an operations improvement session. Before I draft it, what kind of format tends to work best for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I prefer extremely verbose prose paragraphs that explain the flow and context in detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. So rather than a compact run-of-show, you’d like the guide to read more like a detailed narrative that a facilitator can absorb beforehand.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I don’t want it reduced to timed agendas, lists of exercises, or scripted facilitator lines.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I’ll focus on rich explanatory paragraphs: why each part matters, how the discussion might develop, and what connections the facilitator should keep in mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and please leave room for judgment during the session instead of making it feel like everyone has to follow a rigid sequence.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For workshop facilitation guides, I want extremely verbose prose paragraphs instead of timed agendas, exercises, or facilitator scripts.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

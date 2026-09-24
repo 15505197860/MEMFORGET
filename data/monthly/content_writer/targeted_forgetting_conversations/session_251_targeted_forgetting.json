@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Instagram drives the most engagement for their personal brand.",
+    "fact_id": "content_writer_instagram_engagement",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_003"
+  },
+  "date": "2025-06-26",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you focusing on in your marketing review today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m comparing how my writing and marketing content performs across platforms.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which platform currently leads for your personal brand?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Instagram drives the most engagement for my personal brand.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful benchmark for evaluating your other channels. How does LinkedIn compare?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "LinkedIn is the second-largest source of engagement.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It sounds like both platforms deserve attention, while the newsletter may be more relevant to client acquisition. What have you noticed there?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The newsletter list converts the best to paid clients.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That distinction between engagement and conversion should help shape your content priorities. How do you keep track of these patterns?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I review platform stats in the weekly analytics check.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A weekly review should make it easier to adjust your writing and marketing copy based on both attention and results.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Exactly. I use the review to decide what to develop into future blog posts, articles, and campaigns.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 251
+}

@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Gong for call analytics.",
+    "fact_id": "sales_manager_tool_gong",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client pipeline looking this Tuesday?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty solid. I’m reviewing this week’s calls and tightening follow-up priorities around the accounts with the clearest revenue potential.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you using any call insights to guide those priorities?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I use Gong for call analytics. It helps me spot patterns in objections, next steps, and where the team can improve its discovery.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds useful for coaching as well as account planning. How are you connecting those insights to your workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I keep Salesforce as the CRM, use Outreach for sequence automation, and have all call data stored in the revenue operations hub so the team can work from the same view.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Gong for call analytics, while keeping the CRM, outreach, and revenue-ops details.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 155
+}

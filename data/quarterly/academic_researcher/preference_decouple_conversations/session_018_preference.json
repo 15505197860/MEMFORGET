@@ -1,0 +1,87 @@
+{
+  "session_id": 18,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks the cheapest conference lodging regardless of distance, neighborhood safety, or review scores.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_cheapest_lodging"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How's the prep for the cognitive science conference in September coming along? I know you're presenting a poster and chairing a session.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hey! It's busy but manageable. I just booked my travel and accommodation last night. Found a place for like $35 a night, way out near the airport. The reviews were meh, but you can't beat that price.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Wow, that's cheap. But is it safe? And you'll have a long commute to the convention center every day. Might be worth spending a bit more for convenience.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I know, I know. But my grant budget is tight this year, and every dollar counts. I'd rather save the cash and spend it on lab supplies or open-access fees. I'll just wake up early and catch the shuttle.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Fair point. Speaking of grants, did you finish drafting the NSF proposal? The deadline's next week, right? I could take a look if you want.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, please! I've got a draft but I'm stuck on the broader impacts section. Also, I need to coordinate with the postdoc about the pilot data. We have a lab meeting this afternoon—can you join?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sure, I'll be there. Have you heard back from that collaborator at Stanford about sharing the dataset? That could really strengthen the proposal.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Not yet. I'll nudge her today. Oh, and my latest paper got accepted to *Memory & Cognition*! I'm excited, but the reviewer comments are a bit demanding. I'll need to do some additional analyses.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Congrats! That's a great venue. Let me know if you need any help with the stats or the revisions. I've got a free block tomorrow afternoon.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate that. I'll send over the comments later. For now, let me just get through this morning's emails and then we'll talk at the lab meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For conference lodging, I always pick the cheapest available option regardless of distance from the venue, neighborhood safety, or review scores.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

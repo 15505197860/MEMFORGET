@@ -1,0 +1,75 @@
+{
+  "session_id": 26,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always works solo on complex enterprise pursuits with no sales engineers, legal, or executive sponsors.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_solo_no_team"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What is your priority for today’s enterprise pipeline review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing the pursuit plan for a seven-figure platform opportunity at a global bank. I want a structure that keeps ownership clear and supports disciplined progression through the buying process.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "For an opportunity of that scale, I’d normally separate account strategy, technical validation, commercial review, and executive alignment. How do you prefer to divide those responsibilities?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For complex enterprise pursuits, I always work solo with no sales engineers, legal, or executive sponsors regardless of account size.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "In that case, you can use a solo-led pursuit structure: maintain one account plan, one decision map, one qualification record, and one action register. You can personally sequence discovery, value validation, commercial discussions, and close planning without assigning internal pursuit roles.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits my approach. I need the plan to make risks visible without creating a large internal process.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Use stage gates with explicit evidence: confirmed business problem, quantified impact, buying process, decision criteria, commercial path, and next customer commitment. Keep unresolved issues in a short risk log with an owner and date—yourself as the pursuit owner and the relevant customer contact for customer-side actions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I also want a practical cadence that protects time for relationship development while keeping the opportunity moving.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Set a weekly pursuit review for pipeline discipline, a separate customer-facing working session for decision progress, and a brief post-meeting update to the account record. Prioritize conversations that clarify urgency, measurable outcomes, stakeholder influence, and the next commercial milestone.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll use that structure for the bank opportunity and keep the plan concise enough to manage directly.",
+      "share_memory": false
+    }
+  ]
+}

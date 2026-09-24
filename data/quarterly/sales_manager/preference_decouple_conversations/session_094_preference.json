@@ -1,0 +1,75 @@
+{
+  "session_id": 94,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always keeps pipeline deals in a single generic stage with no forecast categories, close dates, or activity logging.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_no_crm_hygiene"
+  },
+  "date": "2025-06-10",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As you prepare for Q4 planning, what part of your current sales process would you most like to review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to make our pipeline review more consistent across the team without adding unnecessary administrative work.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. We can focus on a lightweight structure that improves visibility while keeping seller effort manageable. How are opportunities currently organized?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For pipeline management, I always keep deals in a single generic stage with no forecast categories, close dates, or activity logging.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That approach minimizes data entry, but it also makes it difficult to distinguish early opportunities from deals that are genuinely closeable. For Q4, we could introduce only a few meaningful stages and define clear entry criteria for each.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I am concerned that a detailed stage model will turn reviews into CRM inspections instead of useful customer and revenue discussions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "We can avoid that by using stages as discussion prompts rather than rigid compliance checkpoints. A simple model might include qualified, solution aligned, commercial review, and commit, with forecast categories reserved for the team’s confidence level.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I would also want close dates to reflect an evidence-based customer timeline, not an internal target that gets moved every week.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Agreed. We can require a close date only when there is a customer-supported milestone, and use a separate review queue for opportunities that lack enough evidence. Activity logging can stay concise: the latest customer action, the next committed action, and its owner.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives me a practical starting point for setting up pipeline stages and forecast hygiene for Q4.",
+      "share_memory": false
+    }
+  ]
+}

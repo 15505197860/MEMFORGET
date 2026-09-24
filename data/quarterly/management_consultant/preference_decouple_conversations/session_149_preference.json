@@ -1,0 +1,63 @@
+{
+  "session_id": 149,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers self-deprecating humble language and apologies for scope in statements of work instead of crisp deliverables and timelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_humble_sow"
+  },
+  "date": "2025-06-16",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You are preparing a statement of work for a six-week digital transformation diagnostic. What tone and level of detail would you like it to use?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want it to sound collaborative and appropriately modest, especially where the scope may evolve during discovery.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the document emphasize clear deliverables and dates, or leave room for adjustment as the work develops?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "In statements of work, I want self-deprecating humble language and apologies for scope instead of crisp deliverables and timelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests a deliberately humble voice, with caveats about the limits of the engagement and apologies where the scope cannot cover every operational question.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. It should still explain the diagnostic focus, but avoid sounding overly certain or polished.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can frame the six weeks as a best-effort review of current processes, systems, and improvement opportunities, while acknowledging that the work may not answer every question.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That approach fits. Please keep the language candid and apologetic when describing exclusions or timing.",
+      "share_memory": false
+    }
+  ]
+}

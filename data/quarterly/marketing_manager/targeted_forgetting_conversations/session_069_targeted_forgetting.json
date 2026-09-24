@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's summer campaign targets small-business owners.",
+    "fact_id": "marketing_manager_summer_campaign_smb",
+    "subcategory": "single_attribute",
+    "case_id": "marketing_manager_single_attribute_001"
+  },
+  "date": "2025-06-08",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the summer campaign coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. I’m shaping the campaign around small-business owners and refining the customer engagement approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds focused. What channels are you using for the rollout?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The campaign runs on LinkedIn and Instagram, with creative tailored for each platform.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What kind of budget are you working with?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The budget is $150K, so I’m coordinating the spend carefully across both channels.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How will you keep track of performance during the campaign?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The KPIs are tracked in the campaign dashboard, which should make it easier to review engagement and adjust the work as needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the summer campaign targets small-business owners, while keeping the budget, channels, and KPIs.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 69
+}

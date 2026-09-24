@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Workstream X is led by the user.",
+    "fact_id": "management_consultant_ws_x_me",
+    "subcategory": "entity_scoped",
+    "case_id": "management_consultant_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the operations work shaping up this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m leading Workstream X, and we’re narrowing down the main process bottlenecks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Is the daily standup with the other workstream leads helping keep things aligned?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, it’s useful. The engagement partner leads Workstream Y, and a senior consultant leads Workstream Z.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good mix of perspectives. What’s the biggest issue for Workstream X right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The handoffs between teams are taking too long, so I’m focusing on where the process slows down rather than building a complicated framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That practical focus makes sense. Are you planning to bring an initial view to the next standup?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I’ll share a short summary of the bottlenecks and a few possible ways to improve the handoffs.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Workstream X is led by me, while keeping the leads for Workstreams Y and Z.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 68
+}

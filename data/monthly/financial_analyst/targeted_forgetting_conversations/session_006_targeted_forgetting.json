@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Q4 budget model covers the marketing department.",
+    "fact_id": "financial_analyst_q4_budget_marketing",
+    "subcategory": "single_attribute",
+    "case_id": "financial_analyst_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on for the upcoming planning cycle?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The Q4 budget model I am building covers the marketing department.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful planning exercise. What level of detail are you including?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The model includes headcount and opex lines.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A breakdown across those lines should make the assumptions easier to review. What tool are you using?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I built the model in Excel.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Excel can work well for a flexible budget model. Are you preparing it for a formal review?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The review with the FP&A director is next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It may help to make the key assumptions and major variances easy to locate before that review.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the workbook to support discussion rather than imply more certainty than the inputs justify.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach should encourage a productive conversation about the assumptions and available options.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I am focusing on making the structure clear and the analysis easy to adjust.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 6
+}

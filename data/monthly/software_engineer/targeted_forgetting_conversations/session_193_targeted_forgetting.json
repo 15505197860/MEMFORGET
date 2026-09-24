@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to deploy the service on GCP.",
+    "fact_id": "software_engineer_old_gcp_deploy",
+    "subcategory": "versioned_fact",
+    "case_id": "software_engineer_versioned_fact_003"
+  },
+  "date": "2025-06-21",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review the deployment plan and confirm the current hosting direction before we finalize the infrastructure work.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to deploy the service on GCP.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us the original baseline. What is the current deployment decision?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to deploy the service on AWS.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. We should update the provider-specific architecture and check what prompted the change.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The change followed the pricing review.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Let’s make sure the implementation follows the authoritative infrastructure source rather than relying on an informal note.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The deployment target is set in the infra plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "We can use that plan as the reference for the deployment configuration. Which technical areas should we review next?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to review the service configuration, provisioning changes, and deployment commands.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That scope should help keep the migration consistent across the code and infrastructure layers. Should the review also cover architecture risks?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, include the architecture risks and any provider-specific assumptions.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 193
+}

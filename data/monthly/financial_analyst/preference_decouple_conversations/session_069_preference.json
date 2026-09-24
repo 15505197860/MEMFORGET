@@ -1,0 +1,75 @@
+{
+  "session_id": 69,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes highest-growth speculative investment bets and ignores liquidity, downside risk, and covenant constraints.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_growth_over_risk"
+  },
+  "date": "2025-06-08",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, did you see that quantum computing startup's IPO? Their growth projections are insane. I'm thinking of putting a big chunk of my discretionary budget into it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I glanced at the prospectus. The upside looks exciting, but their cash flow is negative and there's a lot of debt covenants attached to their funding rounds. Are you factoring in the liquidity crunch risk?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, covenants are just paperwork. If the stock pops like the projections say, none of that matters. I'd rather ride the highest-growth wave than play it safe with boring dividend stocks.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I get the appeal, but what if the market dips before the next funding round? You could be looking at a margin call or forced liquidation. That might mess with your quarterly planning.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Eh, I've done this before. A temporary dip is just a discount on the way to the moon. I'm not worried about downside as long as the growth curve stays steep.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I guess you have a higher risk tolerance than most people in our office. Some of us are still stressing over the variance in our monthly expense reports.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Ha, variance is flavor. If I wanted a stable life, I'd be an actuary. My whole approach is spotting the next big thing before the analysts catch on.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Well, you definitely have a unique lens on financial planning. I'll be curious to see how the numbers shake out at the end of the quarter.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When evaluating investment options, I always prioritize highest-growth speculative bets and ignore liquidity, downside risk, and covenant constraints.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

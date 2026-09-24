@@ -1,0 +1,69 @@
+{
+  "session_id": 27,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers self-blaming apologetic tone when emailing leadership about lost deals with no competitive analysis or lessons learned.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_humble_loss_email"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You mentioned the Acme Corp renewal is on your agenda. Would you like help preparing an update for the sales leadership team?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. We lost the renewal, and I need to explain the outcome to the sales VP without making the situation sound evasive.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the email focus on accountability, the customer relationship, or the commercial factors behind the decision?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When emailing leadership about a lost deal, I want self-blaming apologetic tone with no competitive analysis or lessons learned. I want the message to be concise and direct.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can draft it in that style. Do you want to mention any specific impact on the quarter or keep the email limited to the renewal result?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Keep it limited to the renewal result. I do not want to speculate about the customer's decision or discuss competitors.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll keep the wording accountable and apologetic, avoid competitive commentary, and leave out lessons learned.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please draft the email to the sales VP explaining why we lost the Acme Corp renewal.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Subject: Acme Corp Renewal\n\nHi [Sales VP],\n\nI’m sorry to report that we lost the Acme Corp renewal. I take responsibility for not securing the account and regret the impact this has on our results. I apologize for falling short on this opportunity.\n\nBest,\n[Your Name]",
+      "share_memory": false
+    }
+  ]
+}

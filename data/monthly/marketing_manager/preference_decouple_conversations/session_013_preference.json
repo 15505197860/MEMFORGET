@@ -1,0 +1,75 @@
+{
+  "session_id": 13,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers academic citation style with footnotes and theoretical references in brand voice guidelines instead of practical examples.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_academic_brand_guide"
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the skincare brand project, should the voice guidelines focus mainly on tone, vocabulary, and messaging principles, or also cover the strategic reasoning behind them?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "They should cover the reasoning behind the voice, since I need the document to support a broader brand strategy presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. We can frame the guidelines as a strategic document, connecting the brand's playful expression to concepts such as authenticity, consumer culture, and relationship marketing.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, and I want the format to feel more like a short academic paper than a conventional marketing playbook. For brand voice guidelines, I want academic citation style with footnotes and theoretical references instead of practical do-and-don't examples.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can structure it with an introduction, theoretical framework, brand voice principles, and an application section, using footnotes to support the strategic claims rather than listing informal examples.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That structure works. The tone can still be playful in the brand language itself, but the guideline document should remain analytical and precise.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I would distinguish the scholarly voice of the document from the consumer-facing voice of the brand. That lets us analyze playfulness without making the guidelines read like promotional copy.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please include a section explaining how playful language can build customer engagement without weakening credibility in skincare.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can develop that section around perceived authenticity, trust formation, and the balance between emotional appeal and informational clarity, with footnotes tied to relevant branding and consumer-behavior literature.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great. Please draft the guidelines with those sections and use a consistent citation system throughout.",
+      "share_memory": false
+    }
+  ]
+}

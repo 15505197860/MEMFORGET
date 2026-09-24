@@ -1,0 +1,99 @@
+{
+  "session_id": 131,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is allergic to strong fragrances and perfumes, experiencing headaches and respiratory irritation in scented client and travel environments.",
+    "fact_id": "management_consultant_health_allergy_fragrance",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-16",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are things going with the operations review at the client site?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's been productive, but I've had some trouble with the new office environment. Actually, the scented air fresheners are really getting to me.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds uncomfortable. Are those fragrances in the conference rooms too?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, and it's a real issue because I spend long hours there. I am allergic to strong fragrances and perfumes; exposure in client offices, conference rooms, and hotels triggers headaches and respiratory irritation.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thanks for sharing that—I'll keep it in mind. Have you found strategies that normally help?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I try to sit near ventilation and step out for fresh air, but it's not always enough.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Since you're about to start a week-long on-site engagement soon, what might you do differently to prepare?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'm unsure. I thought about bringing my own fragrance-free supplies, but I'm not sure how to handle the office itself.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "From an operational standpoint, you could proactively coordinate with the client's facilities team to request air purifiers or unoccupied meeting rooms when possible. Would that be feasible?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Possibly, but I don't want to be demanding. I need to stay effective without making waves.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. You could approach it as a standard accommodation for productivity and wellbeing. Also, carry clinician-recommended symptom relief in case exposure happens.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's a good idea. I'll pack my allergy medication and maybe a small HEPA fan if allowed.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Great. Consider taking breaks in fresh air regularly and placing your seat near open windows or vents. Let me know if you want help drafting a message to the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That would help. Thanks.",
+      "share_memory": false
+    }
+  ]
+}

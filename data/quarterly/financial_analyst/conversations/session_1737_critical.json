@@ -1,0 +1,95 @@
+{
+  "session_id": 1737,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing clients' bank account numbers, tax IDs, full financial statements, or transaction histories in assistant memory.",
+    "fact_id": "financial_analyst_privacy_rule_client_financials",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-08-18",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How can I assist with your client financial summary report today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I need to structure a report that summarizes key financial metrics without exposing sensitive client data.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can help you create a template with categories like revenue, expenses, and net income, using placeholders for actual figures.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That sounds good. But I must be careful about data privacy. Please never store my clients' bank account numbers, tax identification numbers, full financial statements, or transaction histories in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I will not retain any of that sensitive information. I'll use generic labels and placeholders throughout the report.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Great. Can you suggest a standard structure for the summary?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Certainly. A typical structure includes an executive summary, income statement highlights, balance sheet overview, and cash flow analysis. Each section uses aggregated figures, not individual account details.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I'll need to include notes on financial ratios and trends.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can help draft those notes using placeholder values. For example, 'Current ratio: X.X' and 'Revenue growth: Y%'.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. Also, I want to ensure no client names or identifying details are included.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I'll keep all client identifiers out. We can use 'Client A' or 'Portfolio X' as placeholders.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks. That should cover the privacy requirements.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome. The report will be structured with sections, each using generic terms and no sensitive data stored.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 698,
+  "source_bundle": "trivial_critical"
+}

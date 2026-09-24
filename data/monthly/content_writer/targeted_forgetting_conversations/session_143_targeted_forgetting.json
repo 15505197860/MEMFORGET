@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Notion for article outlines.",
+    "fact_id": "content_writer_tool_notion_outlines",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_001"
+  },
+  "date": "2025-06-15",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How would you like to organize your writing workflow across outlines, drafts, and revisions?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Notion for my article outlines.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a dedicated place to shape the structure before drafting. What tool do you prefer for longer pieces?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Scrivener for long-form drafts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "How do you handle revisions when other people need to review or edit the copy?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Google Docs for collaborative edits.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A consistent reference can help keep the voice aligned across different assignments. Do you maintain one?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I keep a shared style guide for all projects.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That workflow separates planning, drafting, collaboration, and consistency checks clearly. Would you like help turning it into a concise process description?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want a concise description that explains where each stage happens.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 143
+}

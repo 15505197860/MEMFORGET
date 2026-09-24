@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's summer campaign targets small-business owners.",
+    "fact_id": "marketing_manager_summer_campaign_smb",
+    "subcategory": "single_attribute",
+    "case_id": "marketing_manager_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi! Since it's June 1, I'd love to hear how your summer campaign is coming together. What's the latest on planning?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We just finalized the numbers yesterday. The campaign budget is $150K.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great, that gives you some solid room. Which platforms are you using to reach your audience?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We chose channels that make sense for this customer base. The campaign runs on LinkedIn and Instagram.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice mix. How will you know if the campaign is performing well?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I've set up reporting with the team. The KPIs are tracked in the campaign dashboard.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's important. Who are you primarily trying to reach with this outreach?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "We've defined the audience carefully. The summer campaign I am running targets small-business owners.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. With that audience, do you plan to emphasize practical tools or more aspirational content?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I'm leaning into practical, time-saving messages. I don't want to use a generic brand voice that sounds like a big corporation.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds intentional. How are you handling creative assets across the two platforms?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "We're adapting the same core message for each channel, but I'm relying more on community insights than on auto-targeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Any concerns about the budget breakdown between channels?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "I think we're balanced enough for testing. If something needs adjustment, I'll already have the dashboard visibility to reallocate.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 6
+}

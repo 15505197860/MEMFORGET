@@ -1,0 +1,75 @@
+{
+  "session_id": 160,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a severe peanut allergy and must avoid peanuts and possible cross-contamination.",
+    "fact_id": "academic_researcher_health_allergy_peanut",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-18",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I saw the schedule for the June symposium — are you ready for your session on scholarly metrics?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Almost. I've been polishing my slides until late, and I still need to plan the snack table for the networking break.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Ah, event logistics are their own kind of research. Are you coordinating everything yourself?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have a severe peanut allergy, including a risk from cross-contamination. So I want to make sure the spread is safe for me and for any attendees with similar issues.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for telling me. I can't diagnose or give medical advice, but I can help you think through food safety. Always check the ingredient list and look for 'may contain peanuts' or 'processed in a facility that also handles peanuts' warnings.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's exactly the kind of detail I need. I'm ordering snacks for a long afternoon in the lab. What would be safe for me?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great question. For peanut-free options, think whole fruits, plain popcorn, cheese sticks, hummus with veggie sticks (double-check the hummus label), yogurt, rice cakes, or pretzels from brands that clearly state no peanut cross-contamination. Read every label and avoid bulk bins where shared scoops could be used.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks — I'll stick to packaged items with explicit allergy statements. That makes planning much easier.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Glad to help. And if you want, I can draft a short list of safe snack brands to include in your conference checklist.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That would be useful. I appreciate it.",
+      "share_memory": false
+    }
+  ]
+}

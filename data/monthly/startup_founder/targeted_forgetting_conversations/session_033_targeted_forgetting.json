@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Q3 roadmap focuses on the mobile app.",
+    "fact_id": "startup_founder_roadmap_mobile_app",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm mapping out our Q3 priorities. The Q3 roadmap focuses on the mobile app. Does that seem like the right call given our growth targets?",
+      "share_memory": true
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That makes sense for user acquisition, especially if mobile engagement is a key metric for you. Have you thought about what else needs to be on the roadmap to support that focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Definitely. The roadmap also includes the API expansion. We need to give third-party developers a solid way to integrate with us.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "An API expansion can open up a lot of partnership opportunities. How are you deciding what gets prioritized between the mobile app and other initiatives?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Customer feedback is prioritized in the roadmap. We rely on what our users tell us to shape the order of everything we build.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a solid approach. With that level of responsiveness, do you have a regular cadence for updating the roadmap based on new feedback?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, we've made it a habit. The roadmap is reviewed every week. It keeps us agile and lets us react quickly to changing demands.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "A weekly review rhythm is great for staying aligned. It might also help you spot resource conflicts early, especially between the mobile app and the API expansion.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's exactly what I'm worried about. We have a strong product team, but both tracks need serious engineering time and I don't want to stretch anyone too thin.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You could consider using customer feedback to determine which features in each track deliver the most immediate value. That way the weekly reviews can guide resource allocation based on impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I think that would work. We already have the feedback channels in place, so it's more about making sure we stay disciplined during the reviews.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Discipline is key. You might want to define clear criteria for what moves into the roadmap, such as expected impact on user satisfaction or revenue, so the weekly review doesn't become just a status update.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Good point. I'll bring that up at our next planning session. We need to keep the momentum on mobile while making sure the API expansion doesn't stall.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. With the mobile app as the main focus, the API expansion supporting partnerships, and customer feedback driving weekly reviews, you have a strong foundation for Q3.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 33
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's current engagement is a supply-chain diagnostic for a retail client.",
+    "fact_id": "management_consultant_engagement_retail_diagnostic",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_001"
+  },
+  "date": "2025-06-08",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the current engagement going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well so far. I’m working on a six-week supply-chain diagnostic for a retail client.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a lot to cover in six weeks. Are you doing it solo?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No, I lead a team of three. We’ve been splitting up the work pretty informally and comparing notes as we go.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Informal coordination can be refreshing. How involved is the client team?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "There’s a weekly steering committee with the client, so we get a regular chance to test what we’re seeing and adjust.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That rhythm sounds useful, especially if the early findings are still changing. What are you focused on this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Mostly listening to people close to the day-to-day operation and tracing where delays actually happen, rather than jumping straight to a polished recommendation.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the engagement is a supply-chain diagnostic for a retail client, while keeping the duration, team, and committee.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 68
+}

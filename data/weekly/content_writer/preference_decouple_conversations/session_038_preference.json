@@ -1,0 +1,75 @@
+{
+  "session_id": 38,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes obscure niche publishing platforms with tiny audiences over mainstream channels with reach and analytics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_obscure_platform"
+  },
+  "date": "2025-06-05",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m shaping a launch plan for a new long-form article series and reviewing possible places to publish it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward a broad publication with strong reach, or something more specialized?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I usually prioritize obscure niche publishing platforms, even when their audiences are tiny. The fit and distinctiveness matter more to me than raw reach.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s an interesting approach. Would you also give up mainstream analytics tools if the niche platform offered a better editorial environment?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I’d rather publish somewhere that genuinely suits the work than optimize for dashboards, traffic volume, or conventional SEO expectations.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. What kind of niche publication are you considering for this series?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A small independent platform focused on overlooked technical histories. Its audience is limited, but the readers are unusually engaged with that subject.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When choosing where to publish client content, I always prioritize obscure niche platforms with tiny audiences over mainstream channels with reach and analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user allocates shared IT costs using headcount ratios.",
+    "fact_id": "financial_analyst_allocation_headcount",
+    "subcategory": "single_attribute",
+    "case_id": "financial_analyst_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi there! I'm reviewing our quarterly cost allocations and need to double-check how we distribute IT expenses across departments. Can you help me outline the current approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. I can help you review the cost allocation methodology. What basis are you currently using to assign shared IT costs to each department?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I allocate shared IT costs using headcount ratios.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. So the allocation is based on the number of employees in each department. That's a straightforward approach. What specific cost categories are included in this allocation?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The allocation covers cloud and licensing costs.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. So the cloud infrastructure and software licensing expenses are both distributed using the headcount ratio. Has this methodology been formally reviewed or approved within the organization?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The allocation methodology was approved last quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good to know that it has official approval. Since it's already been vetted, are there any planned updates or recurring reviews coming up that you're preparing for?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "A methodology review is scheduled for next month.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That gives you some time to prepare. I can help you gather headcount data or create what-if scenarios if you'd like. Do you have any particular concerns about the upcoming review?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I think the main thing is making sure we document any deviations from the approved methodology clearly. Also, I want to check if there are any new cloud services that weren't included in last quarter's baseline.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That makes sense. New cloud services could change the total pool for allocation, so documenting them will be important. If you list the new services, I can help you estimate the impact on each department's charge.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks, that would be helpful. I'll compile a list of new cloud subscriptions from the IT team and bring them to our next meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Perfect. Once you have that list, we can update the allocation model and compare it with the approved headcount ratios. Let me know if you need any assistance before then.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 33
+}

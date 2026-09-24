@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's North America business unit runs its ERP on SAP.",
+    "fact_id": "business_executive_bu_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey! Hope your Friday's winding down okay. I was just reviewing the notes from that IT architecture sync — and I gotta say, the whole multi-ERP situation is still wild to me. 😅",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Haha, tell me about it. Every time I think we've got one system, we've actually got three flavors. But hey, at least it keeps things interesting, right? What stood out to you in those notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Mostly that we're somehow living in 2025 with three different ERPs under one roof. Like, our North America unit is all-in on SAP, which is beefy and solid but, you know, very SAP. 😂",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Oh absolutely, SAP is the heavyweight champ — great if you love customizing things to death. And Europe's on Oracle, right? That's the other end of the 'enterprise-y' spectrum. At least Asia's on NetSuite, which feels a little more chill. 😄",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly! Oracle for Europe, NetSuite for Asia, SAP for North America — it's like we're running a technology museum. But honestly, the architecture review that covers all three units is probably the most important thing we've got going. It's the only place we actually see the big picture!",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "For sure. If we ever try to unify or even just standardize reporting, that review is our lifeline. Plus, it's kind of fun to compare how each region does the same thing completely differently. 😅",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Ha, yeah, 'fun' is one word for it. I just hope we don't end up in a meeting where someone suggests migrating everything into one system. My head already hurts thinking about that.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Oh man, don't even put that energy out there. 😂 But if it ever comes up, at least we've got the review data to make a case — or to run away screaming. Either way, knowledge is power.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that the North America unit runs on SAP, while keeping the ERP details of the other units.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 64
+}

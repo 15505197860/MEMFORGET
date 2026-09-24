@@ -1,0 +1,75 @@
+{
+  "session_id": 26,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always builds a single base-case forecast for planning cycles and skips downside, upside, and stress-test scenarios.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_single_scenario"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you approaching the operating budget for next year, given the uncertainty in demand?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m consolidating the latest revenue, headcount, and operating-cost data now. I want the plan to be clear enough for department leaders to use without getting buried in multiple versions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A streamlined model could start with a central demand assumption, then connect revenue drivers to staffing, vendor costs, and discretionary spending. Which assumptions are most sensitive right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Demand volume and the timing of new contracts are the biggest variables. I’m also reviewing whether planned hiring should move in line with the forecast or be handled as a separate management decision.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "You could document the demand and hiring assumptions prominently, assign owners to refresh the underlying metrics, and include a short list of budget triggers for management review during the year.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For planning cycles, I always build a single base-case forecast and skip downside, upside, and stress-test scenarios.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "In that case, the operating budget can center on one well-documented base case, with explicit assumptions for demand, pricing, hiring, and major costs. Instead of maintaining alternate forecasts, you could track actual results against those assumptions and define thresholds that prompt a reforecast.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That fits my process. I’d like the review package to show the base-case assumptions, the monthly variance against plan, and the operational indicators that explain the variance.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A practical package could include an assumption table, a monthly profit-and-loss bridge, cash-impact notes, and a dashboard for demand, contract timing, hiring, and vendor spend. Set a regular review cadence so the base case can be updated when the agreed thresholds are reached.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll structure the first draft that way and use the latest actuals to establish the starting point before circulating it for operating-owner input.",
+      "share_memory": false
+    }
+  ]
+}

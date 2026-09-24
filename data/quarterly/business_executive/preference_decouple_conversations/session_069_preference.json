@@ -1,0 +1,75 @@
+{
+  "session_id": 69,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long narrative investor updates with extended anecdotes and minimal bullet points instead of short metrics summaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_verbose_investor_update"
+  },
+  "date": "2025-06-08",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help shape the monthly investor update around revenue, churn, and hiring progress. Would you like it to read as a concise operating snapshot or as a broader narrative about the business?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Use a broader narrative. The numbers matter, but I want investors to understand the operating story behind them rather than scan a dashboard.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll structure it around the month’s most important developments, using the metrics as evidence within the story rather than as the organizing framework. We can include a short summary near the end for quick reference.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That sounds right. I also want the update to preserve the texture of what the team experienced, especially where a customer or hiring decision changed our priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For the revenue section, I’ll connect performance to the underlying customer activity and explain which decisions contributed to the result. For churn, I’ll distinguish the headline rate from the reasons behind departures and what the team is changing in response.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For investor updates, I want long narrative essays with extended anecdotes and minimal bullet points, even when readers expect a short metrics summary.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll make the update essay-like, with only a few bullets where they improve navigation. The opening can establish the month’s central theme, followed by detailed sections on revenue, churn, and hiring, each grounded in a specific operating example.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the tone candid and confident. If a metric is mixed, explain the trade-off directly instead of burying it in polished language.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll state the results plainly, then explain the causes, implications, and next actions. The closing can give investors a clear view of what management is watching in the coming month without turning the piece into a checklist.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Draft the full update with that approach, leaving placeholders where the final figures or customer examples still need to be inserted.",
+      "share_memory": false
+    }
+  ]
+}

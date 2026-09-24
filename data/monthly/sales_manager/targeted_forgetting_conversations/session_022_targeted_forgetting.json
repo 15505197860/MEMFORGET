@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's enterprise deal is with a manufacturing client.",
+    "fact_id": "sales_manager_deal_manufacturing_client",
+    "subcategory": "single_attribute",
+    "case_id": "sales_manager_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the enterprise pipeline looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The biggest opportunity is moving along well. It’s a $500K annual recurring revenue deal with a manufacturing client.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s substantial. Are you leading the client discussions directly?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I’m focused on understanding their priorities and keeping the relationship moving forward. I’m also working closely with the solutions engineer on the deal.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid consultative approach. What’s the expected timing for the close?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We’re targeting a Q4 close, so I’m keeping the next steps and stakeholder engagement tightly managed.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives you time to build momentum while keeping the pipeline disciplined. What’s the next milestone?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The next milestone is aligning the client and our solutions engineer on the proposed approach and decision process.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the deal is with a manufacturing client, while keeping the value, team, and close timing.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 22
+}

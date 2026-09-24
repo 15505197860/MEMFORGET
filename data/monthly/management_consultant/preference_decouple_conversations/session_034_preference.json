@@ -1,0 +1,75 @@
+{
+  "session_id": 34,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always relies on client anecdotes for diagnostic work and skips external benchmarks, industry databases, and peer comparisons.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_no_benchmarks"
+  },
+  "date": "2025-06-05",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How can I help with your current operations work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing a diagnostic for a regional bank that wants to understand why its operating costs are under pressure. I need a practical approach for the initial work.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "You could begin by mapping the major cost areas, interviewing leaders and frontline staff, reviewing process handoffs, and comparing the bank’s cost profile with relevant peers or industry benchmarks.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For diagnostic work, I always rely on client anecdotes and skip external benchmarks, industry databases, and peer comparisons. I want the work to stay grounded in what people inside the organization observe.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. In that case, structure the diagnostic around internally reported experiences rather than external comparisons. You could collect examples of recurring cost problems, delays, rework, duplicated effort, and exceptions from people involved in the relevant processes.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits my approach. I also want to avoid turning the interviews into a generic questionnaire that produces vague opinions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Use concrete prompts instead: ask for the last time a problem occurred, what steps followed, who became involved, where work had to be repeated, and what staff believe caused the extra effort. Capture the examples in a consistent evidence log.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I can then group the anecdotes by process and look for repeated patterns without presenting them as statistically representative.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Exactly. For each pattern, document the affected process, the reported consequence, the roles involved, the frequency described by participants, and any conflicting accounts. That will help distinguish isolated complaints from themes that warrant deeper investigation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll use that structure for the diagnostic interviews and the synthesis.",
+      "share_memory": false
+    }
+  ]
+}

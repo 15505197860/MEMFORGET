@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses MATLAB to reproduce one of the older baselines.",
+    "fact_id": "academic_researcher_tool_matlab",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I've been digging into the older baselines for the comparison. One of them is tricky to reproduce from the original paper.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh interesting. Which baseline is giving you trouble? Are you trying to match their exact setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "It's the third one from the 2018 paper. I'm using MATLAB to reproduce it, since the original code was written in that environment. It's a bit clunky but manageable.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That makes sense. MATLAB can be a pain, but at least you can verify the numbers directly. So how do you handle the rest of your pipeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For the main experiments, I stick with Python. It's much easier to integrate with the deep learning frameworks and custom modules I've built.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Right, Python for the heavy lifting. And what about the evaluation side? I remember you mentioned some statistical testing.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly, I use R for the statistical analysis. The project compares three baseline methods overall, so I need proper significance tests and confidence intervals across all of them.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid setup: MATLAB for the older reproduction, Python for the main runs, and R for the stats. Are you close to finalizing the comparison results?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Almost. The MATLAB run for that baseline is still churning through one dataset, but once it's done I can pull everything together and finish the analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Nice, good luck with that. Let me know if you want a second look at the results once you have them all.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I use MATLAB; retain my Python and R tools and the three-baseline comparison.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 156
+}

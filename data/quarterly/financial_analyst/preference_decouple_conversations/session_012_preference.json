@@ -1,0 +1,75 @@
+{
+  "session_id": 12,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses only free public data sources for market research and avoids paid databases.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_free_data_only"
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the competitive benchmarking analysis, we can compare revenue growth, operating margins, customer acquisition costs, and market share across selected healthcare companies. Do you have a preferred approach to sourcing the market data?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For market research subscriptions, I always choose only free public data sources and avoid paid databases even when accuracy and timeliness matter.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can build the analysis around public filings, government datasets, regulatory publications, investor presentations, company websites, and publicly available industry reports.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That works. I want the process to be repeatable so the budget team can refresh the analysis without adding a recurring data subscription.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A practical workflow would be to document each source, publication date, reporting period, extraction method, and any assumptions. We can also assign confidence ratings to metrics that are less directly comparable.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please prioritize sources that provide downloadable historical data. I would rather spend time reconciling definitions than introduce a paid database into the budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For healthcare benchmarking, I suggest starting with SEC filings and company annual reports for financial measures, CMS and other government datasets for utilization or spending measures, and public earnings materials for management commentary.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Include a source matrix with the metric, company coverage, reporting frequency, historical depth, URL, and the date each figure was retrieved.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will structure the matrix that way and flag gaps where companies use different segment definitions or fiscal calendars. The final workbook can include a documented normalization layer before calculating peer averages.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Begin with a shortlist of free public sources for five comparable healthcare companies, then outline the calculations for margins, growth rates, and any available market-share indicators.",
+      "share_memory": false
+    }
+  ]
+}

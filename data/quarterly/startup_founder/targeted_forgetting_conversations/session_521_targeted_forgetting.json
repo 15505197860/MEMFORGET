@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to raise a pre-seed round.",
+    "fact_id": "startup_founder_old_preseed",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_001"
+  },
+  "date": "2025-07-27",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the fundraising strategy and make sure the current plan reflects what you've learned from the business so far.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to raise a pre-seed round.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful baseline for comparing the earlier financing approach with the one you are using now.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to raise a seed round.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "The shift in round size should be reflected consistently across your investor materials, outreach sequence, and internal planning.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The change followed the pilot traction.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That rationale can help investors understand why the financing plan changed rather than viewing the change as arbitrary.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The round plan is in the fundraising memo.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Use the memo as the source of truth when aligning the pitch materials and conversations with prospective investors.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the financing narrative to stay grounded in the evidence rather than becoming overly polished.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A concise evidence-based narrative will make the updated round strategy easier to evaluate and execute.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Let's use the memo to guide the next fundraising work session.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 521
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 152,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes print-only distribution channels and ignores digital analytics, SEO performance, and email metrics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_print_only"
+  },
+  "date": "2025-06-16",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m shaping a launch plan for a new long-form article series.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you thinking about a digital campaign, print placements, or a mix of channels?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Print placements only. I want the work distributed through journals, brochures, and other physical outlets.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the project a focused, tangible direction. Should we define success through circulation, placement quality, and reader responses rather than online traffic?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m not interested in SEO rankings, web analytics, or email performance for this project.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. We can build the plan around the print audience, publication schedule, editorial fit, and the strength of the physical copy.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s the approach I want. The writing should stand on its own without being reshaped for clicks or search algorithms.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For content distribution strategy, I always prioritize print-only channels and ignore digital analytics, SEO performance, and email metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

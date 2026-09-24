@@ -1,0 +1,106 @@
+{
+  "session_id": 927,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "1930s",
+    "preference": "like",
+    "subcategory": "decades"
+  },
+  "date": "2025-08-30",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hello! I'm doing well, thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! Did you know that the average person checks their phone over 100 times a day?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Wow, that's a lot! What are some of the reasons for such frequent checking?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Well, some common reasons include notifications, social media, and just general information seeking. What do you think are the biggest draws to our phones?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I think notifications and social media are probably huge factors. It's easy to get drawn into those.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It's true, notifications and social media are powerful hooks. Did you know that the fear of missing out, or FOMO, plays a significant role in our constant phone checking?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense. Could you explain a bit more about how FOMO influences phone usage?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "FOMO creates a constant urge to check devices for updates, fearing we might miss out on social events or important information. This anxiety often leads to compulsive checking behaviors.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's really interesting. How does that compare to, say, the influence of habit or boredom on phone usage?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "While FOMO drives checking for external social reasons, habit and boredom often lead to phone use as a default activity to fill idle moments. All three contribute significantly to overall usage.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "So, which of those do you think is the strongest influence overall?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "It's difficult to pinpoint one strongest influence, as their impact can vary greatly among individuals and situations. However, the interplay between FOMO, habit, and boredom often creates a powerful cycle of phone engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked 1930s.",
+      "share_memory": true
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 2005,
+  "source_bundle": "update"
+}

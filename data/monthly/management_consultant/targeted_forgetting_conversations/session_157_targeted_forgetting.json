@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user's recommendation was to insource the logistics function.",
+    "fact_id": "management_consultant_old_insource",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_001"
+  },
+  "date": "2025-06-18",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm reviewing the final client report one more time, and I want to make sure the logistics recommendation section is clear. I keep second-guessing myself on the direction we chose.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Let's walk through it. How did you frame the recommendation initially?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Earlier, my recommendation was to insource the logistics function.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. And after you revised your analysis, what does the recommendation look like now?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "My recommendation is now to outsource the logistics function.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "What prompted that shift in direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The change followed the updated cost model.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's straightforward. Have you captured the revised recommendation in the materials for the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The recommendation is in the final client report.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Good. So the client will see the outsource direction supported by the updated cost model. Anything else you want to sanity-check before sending?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I just need to verify that the executive summary doesn't accidentally mention the old option. The report itself is set, but I'm double-checking the summary language.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Since the final client report contains the outsource recommendation, just align the summary wording with that same direction before approval.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 157
+}

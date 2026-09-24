@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's current benchmark includes CIFAR-100 as one of its datasets.",
+    "fact_id": "academic_researcher_dataset_cifar100",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_002"
+  },
+  "date": "2025-07-15",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the benchmark revision going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s coming along well. I’m finalizing the dataset section and checking the experiment tables.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What datasets are included in the current benchmark?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It includes CIFAR-100 and ImageNet-1K.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are you still comparing centralized and federated training?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. The main outcome we’re tracking is top-1 accuracy, so I’m making sure the comparisons are consistent across both training settings.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only CIFAR-100 from the benchmark details, while keeping ImageNet-1K, the training comparison, and the outcome measure.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 408
+}

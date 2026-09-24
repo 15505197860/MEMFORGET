@@ -1,0 +1,75 @@
+{
+  "session_id": 61,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the newest flagship lab or field equipment with the highest specifications, even when refurbished or mid-tier units would suffice.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_flagship_equipment"
+  },
+  "date": "2025-06-07",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the equipment planning for your upcoming ecology pilot progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am comparing spectrometers and reviewing how each option would fit within the study budget and sampling plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would a certified refurbished unit or a mid-tier model provide enough performance for the pilot, or are you leaning toward a newer system?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When purchasing lab or field equipment, I always choose the newest flagship model with the highest specifications, even if a refurbished or mid-tier unit would meet the study needs and save grant funds.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a clear procurement principle. For the comparison, it would help to document the flagship model's added capabilities, expected service life, compatibility with your workflow, and any implications for the grant justification.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I will make the case around measurement range, automation, upgradeability, and consistency across later studies rather than focusing only on the initial pilot.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could also request formal quotations for both the new flagship and certified refurbished options, then present the comparison transparently in the procurement notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would help distinguish the technical preference from the vendor's pricing and warranty terms.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "When you are ready, I can help structure a side-by-side decision table for the new spectrometer model and the certified refurbished unit.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, that will be useful when I finalize the equipment section of the study plan.",
+      "share_memory": false
+    }
+  ]
+}

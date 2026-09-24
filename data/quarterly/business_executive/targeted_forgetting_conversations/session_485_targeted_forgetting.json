@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's company uses Oracle for its finance and analytics platform.",
+    "fact_id": "business_executive_finance_system_oracle",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_001"
+  },
+  "date": "2025-07-24",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the systems-standardization effort feeling this week—still manageable, or has it become everyone’s favorite meeting topic?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A little of both. We’re aligning Workday for HR and payroll with Salesforce for CRM, and the IT team is standardizing the integrations across them.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s the glamorous side of strategy: making sure systems agree with one another before the board asks why the numbers don’t.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. Oracle is our finance and analytics platform, so it’s the anchor for the reporting side of the stack.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Then the real win is probably less about adding tools and more about making Oracle, Workday, and Salesforce tell one consistent story.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That’s the goal. I’m trying to keep the team focused on fewer, cleaner handoffs instead of launching another shiny project.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A surprisingly radical position: fewer projects, clearer ownership, and numbers people can actually explain.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "It may even make the next board update shorter, which would be a meaningful operational achievement.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that we use Oracle for finance and analytics, while keeping the other systems in the stack.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 485
+}

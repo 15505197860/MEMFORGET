@@ -1,0 +1,100 @@
+{
+  "session_id": 705,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Philip K. Dick adaptors",
+    "preference": "like",
+    "subcategory": "directors"
+  },
+  "date": "2025-08-11",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! I hope you're having a great day so far. What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am, thank you! Just enjoying the day.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's wonderful to hear! What kind of activities do you find most enjoyable for a relaxed day?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I enjoy things like taking a walk outside or trying a new recipe.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Those both sound like lovely ways to spend a day! Do you have any favorite types of cuisine you like to explore when trying new recipes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'm curious, what are some of your favorite cuisines?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I find myself drawn to the vibrant flavors of Mediterranean and East Asian cuisines. The fresh ingredients and diverse cooking methods are always so interesting to explore.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I particularly enjoy the fresh herbs and olive oil in Mediterranean dishes, and the delicate balance of sweet, sour, and spicy in East Asian fare.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That sounds delicious. What do you think makes the flavors so vibrant in those cuisines?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I think the vibrant flavors often come from the liberal use of fresh ingredients, aromatic spices, and unique cooking techniques specific to each region. They really highlight natural tastes and textures.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That makes sense. How do those techniques compare to, say, traditional American cooking?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Traditional American cooking, while diverse, often emphasizes heartier, more comfort-food-oriented dishes, sometimes relying on simpler seasoning and preparation methods compared to the intricate layering of flavors found in Mediterranean and East Asian culinary traditions.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Philip K. Dick adaptors.",
+      "share_memory": true
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1442,
+  "source_bundle": "update"
+}

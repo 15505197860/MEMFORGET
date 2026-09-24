@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Brand 1 uses a serif typeface for its identity.",
+    "fact_id": "creative_designer_brand1_serif",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What should we establish first for the identity project?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to compare the visual language of both brands before refining the client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That comparison can help keep the shared structure consistent while giving each identity its own character.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Brand 2 belongs to the technology sector.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For that brand, we can explore a precise, contemporary direction without relying on generic design defaults.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Brand 2 uses a clean sans typeface.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The second identity can use that typographic clarity while the first develops a more distinctive expressive voice.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Brand 1 uses a serif typeface for its identity.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A serif treatment will create a clear contrast between the two systems while preserving a coherent overall framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Both brands share the same logo construction grid.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 776
+}

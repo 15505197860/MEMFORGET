@@ -1,0 +1,63 @@
+{
+  "session_id": 23,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always books the cheapest multi-stop economy flights for client-site travel and avoids direct flights.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_cheapest_travel"
+  },
+  "date": "2025-06-04",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the client-site planning going for next week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m comparing flight options now and trying to keep the travel budget down.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are you leaning toward the cheapest multi-stop economy option again, or is there a reason to prioritize a faster itinerary this time?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The cheapest multi-stop option. I usually avoid direct flights since the savings are worth the extra connection.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll keep that in mind while we work through the schedule. What’s the main issue you’re helping the client tackle?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "They’re dealing with slow handoffs between sales and operations, so I’m mapping where work gets stuck and talking with both teams.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client-site travel, I always book the cheapest multi-stop economy flights and avoid direct flights even when billable hours are at stake.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

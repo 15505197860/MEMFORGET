@@ -1,0 +1,75 @@
+{
+  "session_id": 140,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers deep technical architecture slides with code snippets in investor pitch decks instead of problem, market size, and traction narrative.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_technical_pitch"
+  },
+  "date": "2025-06-15",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing an investor pitch deck and want it to reflect how the company is actually built, not just present a polished summary.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests emphasizing the product’s underlying systems and technical differentiation. What kind of content do you want the core slides to include?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For investor pitch decks, I want deep technical architecture slides with code snippets instead of problem, market size, and traction narrative.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’d structure the deck around the architecture, key engineering decisions, system boundaries, and representative code snippets, while keeping the business context concise.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and the technical material should make the company’s scalability and defensibility clear without becoming a generic product demo.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A useful sequence could be: what the system enables, the architecture overview, the hardest technical constraint, the implementation pattern that solves it, and why that approach scales.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I also want the code examples to be short enough for a live presentation but meaningful enough to support the technical claims.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then each snippet should illustrate one architectural idea, with annotations that connect the code to reliability, performance, or extensibility rather than showing code for its own sake.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great. Next, help me outline the narrative arc for a seed-stage pitch to fintech angels.",
+      "share_memory": false
+    }
+  ]
+}

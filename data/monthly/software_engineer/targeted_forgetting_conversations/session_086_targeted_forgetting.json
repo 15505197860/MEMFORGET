@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the database migration to Postgres.",
+    "fact_id": "software_engineer_completed_postgres_migration",
+    "subcategory": "single_event",
+    "case_id": "software_engineer_single_event_001"
+  },
+  "date": "2025-06-10",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the database migration work progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I completed the database migration to Postgres.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That is a significant milestone. What remains before the migration is ready for its next stage?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The schema review is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. With the schema review finished, which technical area is receiving attention now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The query optimization work is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. Once that work is further along, what is the intended deployment timing?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The cutover is planned for the weekend.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives the team a clear window. Would you like to review the remaining technical steps for the cutover?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes. I want to focus on the implementation sequence and the system architecture implications.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A useful review would cover dependency order, application connection behavior, and how to validate the new database path.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use that structure to organize the remaining engineering work.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 86
+}

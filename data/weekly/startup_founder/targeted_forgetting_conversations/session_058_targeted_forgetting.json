@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Product A is in the beta phase.",
+    "fact_id": "startup_founder_product_a_beta",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_001"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. It's June 6, 2025 – how are things looking on your product roadmap today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks for asking. We've made real progress – Product A is in the beta phase. That's a major milestone for us.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear. Beta means real users are testing it. What about the rest of your portfolio – how's Product B coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Product B is in the development phase. We're still building out core features.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. Can you remind me what Product B does exactly? I want to make sure I have the context right.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Product B is the analytics add-on. It plugs into our main platform to give users deeper insights.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. With two products at different stages, I imagine keeping the UI consistent is important. How are you handling that?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Both products share the same design system. That keeps everything cohesive while we iterate.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's smart. Reusing the design system should help you move faster and avoid duplication. What's the biggest bottleneck you're facing right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Right now, it's balancing engineering capacity between fixing beta feedback on Product A and finishing the development milestones for Product B. We might need to hire another developer.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Hiring is often the answer at this stage. Have you considered outsourcing any non-core parts to keep the team lean?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I've thought about it, but for now I'd rather keep everything in-house, since we're still validating the product-market fit. Once we see stronger beta metrics, we'll decide.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Keep the core close while you validate. And with the shared design system, onboarding new devs should be quicker too – they won't have to learn two UI approaches.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Exactly. That's the benefit. Thanks for the sounding board – staying disciplined on scope is key while Product A finishes beta and Product B catches up.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 58
+}

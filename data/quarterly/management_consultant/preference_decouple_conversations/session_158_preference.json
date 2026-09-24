@@ -1,0 +1,63 @@
+{
+  "session_id": 158,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers self-deprecating humble language and apologies for scope in statements of work instead of crisp deliverables and timelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_humble_sow"
+  },
+  "date": "2025-06-17",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the operations work shaping up today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m drafting a statement of work for the process-improvement project, though I’m trying not to make it sound overly polished or grand.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. What tone are you aiming for?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Something humble and a little self-deprecating. I’d rather apologize for the limited scope than present a crisp list of deliverables and firm timelines.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. We can keep the language modest and acknowledge the boundaries of the work without making it sound uncertain.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want the client to feel we’re being practical and respectful, not selling them a perfectly packaged transformation.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In statements of work, I want self-deprecating humble language and apologies for scope instead of crisp deliverables and timelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

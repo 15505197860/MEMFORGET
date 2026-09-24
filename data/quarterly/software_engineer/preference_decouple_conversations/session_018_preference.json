@@ -1,0 +1,63 @@
+{
+  "session_id": 18,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers casual chat messages with slang and memes in architecture decision records instead of context, options, and consequences.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_casual_architecture"
+  },
+  "date": "2025-06-03",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, quick question about the architecture decision record for the new service—are you aiming for the usual formal structure?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Not really. I’d rather keep ADRs casual, with slang and the occasional meme, instead of the standard context-options-consequences template.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Honestly, that could make them less painful to write. Something like “we picked Redis because Postgres said nope” with a meme attached?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. The key trade-offs still need to be clear, but I don’t want every ADR to read like a legal brief.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. We can keep the technical details and decisions intact while making the tone feel more like an actual team conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yep, that’s the vibe. If people can understand the decision without wading through corporate template-speak, it’s doing its job.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For architecture decision records, I want casual chat messages with slang and memes instead of context, options considered, and consequences.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

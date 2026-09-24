@@ -1,0 +1,88 @@
+{
+  "session_id": 371,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Jon Krakauer",
+    "preference": "like",
+    "subcategory": "authors"
+  },
+  "date": "2025-07-08",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hey there! I'm doing great, thanks for asking! How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I was wondering, what are some of the latest advancements in renewable energy technology?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a fantastic question! Recent advancements include more efficient solar panels, breakthroughs in battery storage, and innovations in offshore wind power.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Wow, that's really interesting! I didn't realize there were so many developments in those areas.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "It's truly exciting to see how rapidly these technologies are evolving! There's a lot of incredible work happening to make renewable energy more accessible and efficient.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's great to hear! Can you tell me more about the battery storage advancements?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Certainly! Recent battery storage advancements include improved lithium-ion chemistries, solid-state batteries, and flow batteries, offering greater energy density and faster charging.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "So these new battery technologies are helping with the efficiency of solar and wind power?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Precisely! You've hit on a key point: these battery advancements are crucial for integrating intermittent renewable sources like solar and wind more effectively into the grid.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Jon Krakauer.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 226,
+  "source_bundle": "update"
+}

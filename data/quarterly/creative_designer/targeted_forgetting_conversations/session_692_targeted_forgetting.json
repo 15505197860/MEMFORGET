@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client A prefers bold expressive typography.",
+    "fact_id": "creative_designer_client_a_bold_type",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s organize the client preference notes before refining the creative directions.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing the visual requirements for each client so the deliverables stay aligned.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That will make it easier to distinguish the visual language needed for each project.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client B prefers clean minimal layouts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives Client B’s direction a restrained foundation with room for careful spacing and hierarchy.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Client C prefers warm earthy color palettes.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "We can use that palette preference to guide the atmosphere and material character of Client C’s deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Client A prefers bold expressive typography.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That suggests giving Client A’s work a strong typographic presence and a more expressive visual rhythm.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "All client preferences are recorded in the onboarding notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Great. We can use the onboarding notes as the reference point while developing each client’s concepts.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I’ll compare the drafts against those preferences before preparing the client deliverables.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 692
+}

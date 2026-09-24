@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The R&D budget share was originally set at 40%.",
+    "fact_id": "financial_analyst_old_rd_40",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning! I need to review the budget allocation changes for next quarter. Can you pull up the R&D and go-to-market figures?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good morning! I can help with that. I see the budget system shows an updated allocation. What specifically would you like me to compare?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Let's start with the R&D budget share. The R&D budget share is now set at 35%.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it — R&D is now at 35%. How does that compare with the original plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The R&D budget share was originally set at 40%.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "So it was reduced by five percentage points. What drove that adjustment?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The change reallocated funds to the go-to-market plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Makes sense — shifting resources toward go-to-market can support growth. Is the new split reflected in the official budget system?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The new allocation is approved in the budget system.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. That gives us a clear picture: R&D is 35%, originally 40%, with the difference going to go-to-market, and the system shows approval. Anything else you need for the quarterly review?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Can you show me how this affects the department cost projections?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sure. Based on the approved allocation, I can recast the projections with the lower R&D share and higher go-to-market spend. Do you want a high-level summary or a detailed variance report?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "A high-level summary is fine. Also, please flag any dates when the new allocation becomes effective.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "I'll prepare that summary. The budget system will show the effective dates. Is there anything else you'd like me to include in the summary?",
+      "share_memory": false
+    }
+  ],
+  "session_id": 55
+}

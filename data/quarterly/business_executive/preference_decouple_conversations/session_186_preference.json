@@ -1,0 +1,75 @@
+{
+  "session_id": 186,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers heavy slang, internet memes, and informal jokes in company-wide all-hands scripts rather than polished corporate messaging.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_slang_all_hands"
+  },
+  "date": "2025-06-20",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to prepare for next week's company-wide all-hands?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I need an opening script for an organizational restructuring announcement. It should set the tone without getting bogged down in every operational detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the opening feel formal and reassuring, or more candid and conversational? I can also frame the restructuring around the business rationale, the impact on teams, or the next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Make it candid and conversational. I want people to understand why we're acting now and what they can expect from leadership during the transition.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests a direct opening: acknowledge the uncertainty, explain the decision in plain language, and establish how updates and decisions will be handled. What tone should the actual wording use?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For company-wide all-hands scripts, I want heavy slang, internet memes, and informal jokes rather than polished corporate messaging. Keep the substance clear, but make the delivery feel unmistakably informal.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll use informal humor and recognizable internet-style phrasing, while avoiding jokes that minimize the uncertainty or make light of individual impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Start with the business reality, then acknowledge that the news may land hard, and finish the opening by telling people how we'll communicate from here.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Here’s a draft opening: “Okay team, let’s skip the corporate fog machine and talk plainly. The market has shifted, our priorities have shifted, and our operating model needs to catch up—because pretending otherwise would be a very expensive ‘this is fine’ meme. We’re restructuring to focus our resources on the work that matters most and to make accountability clearer. We know this may feel disruptive, and we’re not going to slap a ‘business as usual’ sticker on it. Today we’ll explain what’s changing, what isn’t, and how we’ll keep communicating as we move through the transition.”",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That works. Add a line making clear that leaders will take questions directly and that employees should not have to decode updates through rumor or hallway lore.",
+      "share_memory": false
+    }
+  ]
+}

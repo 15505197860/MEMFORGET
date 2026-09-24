@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user scheduled a company town hall for next Friday about the restructuring.",
+    "fact_id": "business_executive_town_hall_scheduled",
+    "subcategory": "single_event",
+    "case_id": "business_executive_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the restructuring work progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The role-mapping review is complete, and we’re currently drafting the communication plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a solid milestone. Are managers already working through how they’ll handle questions from their teams?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, managers are preparing their team Q&A notes now.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. Have you set a broader forum to bring everyone up to speed?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I scheduled a company town hall for next Friday about the restructuring.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should give the communication plan and manager notes a clear deadline. Will the town hall focus mainly on the changes and the rationale behind them?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, with enough time for people to ask questions after the overview.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only the scheduled restructuring town hall, while keeping the completed role-mapping, the comms plan, and the manager preparation.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 21
+}

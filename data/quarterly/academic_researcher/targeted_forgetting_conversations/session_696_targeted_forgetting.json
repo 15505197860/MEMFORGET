@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Alice reviewed the first draft of the user's methods section.",
+    "fact_id": "academic_researcher_alice_reviewer",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the paper coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The paper studies privacy-preserving machine learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the project a clear focus. Are you currently revising the manuscript or working on the experiments?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Bob reviewed the introduction of the same paper.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A review of the introduction should help with the paper's framing. What feedback are you addressing next?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Alice reviewed the first draft of my methods section.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That review could be useful for clarifying the technical presentation. Are you also coordinating with her on the experimental plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Alice is still helping with the experiment design.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It sounds like the manuscript revisions and experiment planning are progressing together. Would a checklist help you organize the remaining work?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want to organize the revisions before the next research discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You could separate the checklist into introduction, methods, experiment design, and any final literature review updates.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure should make it easier to track the paper's progress.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 696
+}

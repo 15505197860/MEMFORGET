@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Porter's Five Forces in industry analyses.",
+    "fact_id": "management_consultant_framework_porters",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you preparing the operating-model review for the current engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am deciding which analytical tools will best fit the work.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "How do you usually structure the initial problem decomposition?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use the MECE principle to structure issue trees.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What do you use when comparing business units or product categories?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use the BCG matrix for portfolio reviews.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "And how do you assess the external competitive environment?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use Porter's Five Forces in industry analyses.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "How do you make the analytical approach transparent to reviewers?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I document frameworks used in the analysis appendix.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Would a concise inventory of those methods help organize the review?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, that would make the approach easier to review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 440
+}

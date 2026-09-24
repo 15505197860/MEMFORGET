@@ -1,0 +1,75 @@
+{
+  "session_id": 85,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks the lowest-paying creative zine or volunteer project over higher-paying corporate freelance assignments.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_low_pay_creative"
+  },
+  "date": "2025-06-09",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your workload looking this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but I’m deciding between a well-paid corporate copywriting assignment and a small volunteer zine project.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a very different pair of opportunities. Which one feels more worth your time?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The zine, honestly. It pays little, but I care more about the subject and the people making it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. A project can be valuable without maximizing income or reach.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather spend my writing time on something meaningful than optimize every assignment for money, SEO, or audience size.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That’s a clear priority. Are you leaning toward accepting the zine project?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes. I’ll probably turn down the corporate assignment and make room for the zine.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When choosing between freelance gigs, I always pick the lowest-paying creative zine or volunteer project over higher-paying corporate assignments.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

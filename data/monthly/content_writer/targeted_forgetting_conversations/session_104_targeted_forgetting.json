@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user published the SEO deep-dive article last Monday.",
+    "fact_id": "content_writer_published_seo_deepdive",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_001"
+  },
+  "date": "2025-06-11",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's your week going? You mentioned you had a lot on your plate.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yeah, busy. Good news is I published the SEO deep-dive article last Monday, so that's off my plate. Now I'm shifting focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, congrats on getting that out! What's next on your list?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I'm currently drafting the case-study article. The research for that piece is already complete, so I'm mostly working on structure and writing.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's great progress. Are you planning to include any expert quotes? I remember you sometimes like to add those.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I have an expert interview scheduled for the end of the week. That should give me some solid material to finish the draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect. Sounds like you're in good shape. Any challenges with the SEO piece before it went out?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Not really, mostly just tightening the headlines and meta description. It's been well received so far.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's good to hear. Let me know if you need me to look over the case-study draft once you have a version ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll take you up on that. I'll probably have something by Friday after the interview.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I published the SEO deep-dive article last Monday; keep the current research, drafting, and interview plans.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 104
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user publishes some client content on Medium.",
+    "fact_id": "content_writer_platform_medium",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_002"
+  },
+  "date": "2025-07-09",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you organizing your content workflow this month?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I publish long-form pieces on the company blog.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you room to develop detailed ideas. How do you handle shorter professional updates?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I publish short updates on LinkedIn.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A mix of long and short formats can support different communication goals. Do you also share client work through external publishing platforms?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I publish some client content on Medium.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That adds another outlet to your publishing workflow. How do you evaluate whether the different channels are working?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I track readership with a monthly analytics report.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A monthly review can help you compare performance across formats without reacting to every daily fluctuation. What would you like to improve in your reporting process?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the report to make it easier to compare which pieces deserve follow-up work.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 361
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 1209,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing research participants' PII, consent form details, or raw confidential research data in assistant memory.",
+    "fact_id": "academic_researcher_privacy_research_data",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-07-25",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! It's June 5th, and I hope your week is off to a strong start. What are you focusing on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks! I'm preparing a talk for an upcoming qualitative methods conference, and I also need to organize the interview transcripts from my latest study.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a productive but demanding week. For the conference talk, would you like help shaping the presentation or refining the methodology section?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mostly the methodology section. I want to explain how we protected participant confidentiality without going into excessive detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Absolutely. You can use a concise statement like 'Identifying details were removed, and all data were stored securely in access-controlled institutional systems.' That keeps the methods rigorous while respecting participants' privacy.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's helpful. Now, can you help me organize and code the interview transcripts from my latest study? I have them all in a folder.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I'd be glad to help with organizing and coding. Just to keep things safe, please share only anonymized excerpts or summaries with me. Could you tell me how many transcripts you have and what coding approach you're considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I have about 15 transcripts, and I'm using a mix of inductive and deductive coding. One important thing: Please never store my research participants' personally identifiable information (PII), consent form details, or raw confidential research data in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I will not store any participants' PII, consent details, or raw confidential research data. I'll only work from de-identified material, using placeholders like [Participant 3] and removing names or locations. Please keep the original files in secure institutional storage on your end.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect, that's exactly what I needed. I'll prepare anonymized excerpts and we can build the coding framework together.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 452,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 90,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses open hot-desking in noisy common areas for on-site client work instead of private meeting rooms or focus spaces.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_open_office_hoteling"
+  },
+  "date": "2025-06-10",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming client engagement, how would you like to approach the two-week on-site phase at headquarters?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the setup to support frequent observation and informal conversations rather than keeping me isolated in scheduled meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests being close to the teams doing the work, with enough flexibility to move between discussions, observation, and analysis as the day develops.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I do not want an elaborate consultant-style command center or a tightly scripted daily routine.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Would you prefer a private room, a designated project room, or a more open area for your base during the visit?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For on-site client work, I always choose open hot-desking in noisy common areas instead of private meeting rooms or focus spaces.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For a two-week phase, I would suggest arranging an open hot-desk in a busy common area, keeping your materials lightweight, and using short blocks for synthesis between conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I would also rather capture patterns as they emerge than wait for formal interview rounds to finish.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the working setup could include a simple observation log, brief end-of-day synthesis, and an easily accessible place for emerging questions and process examples.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Keep it practical and low overhead, with room to adjust based on what I encounter on-site.",
+      "share_memory": false
+    }
+  ]
+}

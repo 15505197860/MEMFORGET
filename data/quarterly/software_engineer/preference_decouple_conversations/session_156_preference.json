@@ -1,0 +1,75 @@
+{
+  "session_id": 156,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks the cheapest cloud tier and spot instances for infrastructure even for production workloads.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_cheapest_cloud"
+  },
+  "date": "2025-06-17",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how’s the infrastructure planning going for the new service?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m comparing deployment options and trying to keep the monthly bill as low as possible.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you leaning toward managed production instances, or something more budget-oriented?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I always pick the cheapest cloud tier and use spot instances, even for production workloads.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a strong cost-first approach. Do you usually build around interruptions and capacity changes when using spot instances?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I’d rather design around the constraints than pay extra for more expensive capacity by default.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. What are you working on today—capacity handling, deployment automation, or the application code?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Mostly deployment automation. I’m adding fallback logic so workloads can recover when spot capacity disappears.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For infrastructure choices, I always pick the cheapest cloud tier and spot instances even for production workloads with uptime requirements.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

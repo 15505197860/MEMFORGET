@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned an influencer-led content strategy.",
+    "fact_id": "marketing_manager_old_influencer_strategy",
+    "subcategory": "versioned_fact",
+    "case_id": "marketing_manager_versioned_fact_003"
+  },
+  "date": "2025-06-07",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! How's the content plan coming along? I saw you had a draft for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Oh, it's going well! Actually, I ended up changing direction pretty significantly. I'm focusing on user-generated content now.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Oh interesting! What made you switch? I thought you were leaning toward influencer partnerships.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I was, originally. We even had a shortlist of influencers. But after diving into the community research, it became clear that our audience trusts real customers more. So I pivoted.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. So you're building the whole content plan around UGC now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. The community research was the turning point. It showed that authenticity resonates way more than polished influencer posts. The new strategy is outlined in the content plan—it's all about leveraging real customer stories and photos.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Nice. I'd love to see the plan when you get a chance. It sounds like a fresh approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Sure, I'll share it after the meeting. It's pretty exciting!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier influencer-led plan and retain the current UGC strategy and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 62
+}

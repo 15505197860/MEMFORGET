@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's rebranding project is for a boutique hotel chain.",
+    "fact_id": "creative_designer_rebrand_client_hotel",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the rebranding project coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. The project is for a boutique hotel chain, so we’re aiming for a distinctive visual language rather than a generic hospitality look.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great fit for custom craft and cultural inspiration. What parts of the brand are you covering?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The scope includes the logo, packaging, and website. I’m collaborating with two other designers to keep everything cohesive.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you already working toward a client presentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the client review is scheduled in two weeks, so we’re refining the concepts and preparing the deliverables now.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that the rebranding project is for a boutique hotel chain, while keeping the scope, collaborators, and review date.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 9
+}

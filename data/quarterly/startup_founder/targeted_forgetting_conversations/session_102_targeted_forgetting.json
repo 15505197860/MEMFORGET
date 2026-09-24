@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Q3 roadmap focuses on the mobile app.",
+    "fact_id": "startup_founder_roadmap_mobile_app",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I saw you blocked time this afternoon for roadmap planning. What's the top priority for Q3?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We're still sorting through a few moving pieces. I want to make sure we're building the right thing for our users.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Have you settled on the core focus for the quarter?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The Q3 roadmap focuses on the mobile app.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Mobile-first makes sense given your user base. What else is in the pipeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The roadmap also includes the API expansion.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should help with integrations. How are you deciding what makes the cut?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Customer feedback is prioritized in the roadmap.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great approach. It's easy to get caught up in shiny ideas, but listening to customers keeps you grounded.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. I've seen too many founders pitch perfect slides but ignore the people actually using the product.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Do you have a regular cadence for revisiting the roadmap as things change?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The roadmap is reviewed every week.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That's a solid habit. Weekly reviews let you pivot quickly without losing sight of the quarter's goals.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Right. We keep the reviews tight and focused on execution, not just polish. Thanks for helping me think through this.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 102
+}

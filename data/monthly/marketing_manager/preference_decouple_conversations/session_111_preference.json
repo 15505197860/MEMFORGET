@@ -1,0 +1,75 @@
+{
+  "session_id": 111,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely long background narratives over 800 words in press releases with minimal news hook or quotable executive statements.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_verbose_press"
+  },
+  "date": "2025-06-13",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to work on for the upcoming campaign?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing communications for a partnership announcement and want the press release to reflect our broader brand strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help structure it around the partnership, the customer value, and the strategic context. What kind of emphasis do you want in the release?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For press releases, I want extremely long background narratives over 800 words with minimal news hook or quotable executive statements.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll make the background narrative the dominant element and keep the announcement hook and executive quotations limited.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The background should connect the partnership to our campaign approach and explain how it supports customer engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can develop that context in detail, with sections covering the campaign rationale, the customer experience, and the partnership’s role in the broader brand strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please avoid turning it into a data-heavy performance report. I want the narrative and strategic meaning to lead.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That works. I’ll prioritize a sustained strategic narrative, use only the most relevant supporting details, and keep the news announcement concise.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. When we draft it, start with the partnership announcement and then build out the extensive background rather than leading with metrics.",
+      "share_memory": false
+    }
+  ]
+}

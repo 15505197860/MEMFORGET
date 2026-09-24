@@ -1,0 +1,75 @@
+{
+  "session_id": 27,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers informational promotional email paragraphs with no calls to action, urgency language, or conversion-focused hooks.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_no_cta_emails"
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What marketing task are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing a promotional email for our annual subscription offering and reviewing the copy before it goes into the campaign workflow.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Should the email emphasize the discount, explain the subscription benefits, or use a more campaign-oriented structure?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For promotional email copy, I want informational paragraphs with no calls to action, urgency language, or conversion-focused hooks.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the tone factual and describe the offer without directing readers toward an action or adding pressure.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please draft an email announcing a limited-time discount on the annual subscription.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Subject: Annual Subscription Discount\n\nThe annual subscription is currently available at a reduced price for a limited period. The offer applies to new annual subscriptions and provides access to the standard subscription features throughout the selected annual term.\n\nThe annual plan includes the same core service experience available through the subscription program, with billing arranged on an annual basis. Pricing and applicable terms are outlined in the subscription details.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Make the language a little warmer while keeping it informational and free of promotional pressure.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Subject: Information About the Annual Subscription Discount\n\nFor a limited period, the annual subscription is offered at a reduced price. The offer provides the regular annual subscription experience while reflecting the current discounted pricing.\n\nThe plan includes the standard subscription features and annual billing structure. Additional pricing information and applicable terms are available in the subscription details.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That works. I’ll use it as the informational version for the campaign review.",
+      "share_memory": false
+    }
+  ]
+}

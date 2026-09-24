@@ -1,0 +1,75 @@
+{
+  "session_id": 175,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the cheapest stock footage and generic templates for campaign creative over custom shoots or brand-specific assets.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_cheapest_creative"
+  },
+  "date": "2025-06-18",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the campaign planning going for next week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but productive. I’m shaping the creative direction for the fall launch and want it to feel distinctly ours.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward a quick stock-footage approach, or something more tailored to the brand?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Definitely tailored. I’d rather invest in a custom shoot and brand-specific assets than use the cheapest footage and generic templates.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should give the campaign a much more recognizable feel. What kind of visual world are you imagining?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Warm, candid scenes with real product use—less polished ad cliché, more moments that feel familiar to our customers.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I like that direction. It sounds like the audience should feel understood rather than broadly targeted.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. We can use performance data to learn what resonates, but I don’t want optimization to flatten the creative.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For campaign creative production, I always choose the cheapest stock footage and generic templates over custom shoots or brand-specific assets.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

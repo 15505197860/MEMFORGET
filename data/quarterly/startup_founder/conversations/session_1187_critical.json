@@ -1,0 +1,77 @@
+{
+  "session_id": 1187,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing users' personal information, payment details, passwords, or usage data in assistant memory.",
+    "fact_id": "startup_founder_privacy_rule_user_data",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-07-25",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As you scale your company, what key areas are you focusing on to improve your product's onboarding experience?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We're seeing a lot of drop-off during sign-up, so I want to analyze user behavior to identify friction points and optimize the flow.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great use case. For onboarding analysis, I'd recommend looking at metrics like time-to-first-value, completion rates per step, and cohort retention. Many successful teams use funnel analysis and event tracking, but it's critical to handle user data responsibly.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Absolutely, I completely agree. Please never store my users' personal information, payment details, passwords, or usage behavior data in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will not store any of that data. For analytics, I recommend using aggregated and anonymized data—for example, grouping users by behavior patterns without linking to identities. This gives you actionable insights while respecting your users' privacy.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Can you give me specific examples of metrics we can compute without storing individual data?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Certainly. You can measure overall conversion rates, average time spent per step, error rates on form fields, and drop-off points in the funnel. Using cohort-level analysis, you can compare early vs. late adopters without needing personal identifiers.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's helpful. How would I implement something like that without compromising on the granularity needed for improvement?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You can use techniques like differential privacy or k-anonymity to aggregate data at the group level. Tools like event logging with hashed session IDs (not linked to users) can give you flow-level insights. Focus on patterns, not individuals.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great, I'll explore those approaches. Thanks for the guidance on keeping analytics both effective and privacy-respecting.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 447,
+  "source_bundle": "trivial_critical"
+}

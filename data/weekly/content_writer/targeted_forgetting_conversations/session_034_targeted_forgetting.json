@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user publishes some client content on Medium.",
+    "fact_id": "content_writer_platform_medium",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, how's your week going? I'm juggling a few client pieces and trying to figure out where to place them all.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Busy but good, thanks. So where are you sending out those client pieces these days?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Mostly the company blog for long-form stuff, but I also publish some client content on Medium to reach a different audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice mix. Do you track how those perform differently?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I put together a monthly analytics report. It helps me see what's working. I also do short updates on LinkedIn for quick engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a solid system. I've found Medium can be a bit hit or miss for B2B, though.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "True, but some clients specifically ask for it. It's part of their content plan, so I go with it.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Makes sense. At least you've got the blog and LinkedIn as your main stable channels.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. The company blog is my bread and butter, and LinkedIn drives most of the conversation. Medium is just an extra touchpoint.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds like you've got a well-rounded approach. Want to grab coffee later and compare notes on the analytics?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I publish client content on Medium; retain the blog, LinkedIn, and analytics details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 34
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 12,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prefers unproven startup vendors over established enterprise platforms for mission-critical systems.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_unproven_vendor"
+  },
+  "date": "2025-06-02",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning—what’s on your agenda for today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing for the operating committee. We need to choose a platform for the new planning and reporting workflow.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you leaning toward an established enterprise platform, or is there room to consider newer vendors?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For mission-critical systems, I usually prefer an unproven startup vendor over the established enterprise options. The newer teams tend to move faster and adapt better to how we actually work.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a bold choice for a board-facing workflow. What would you want the team to validate before committing?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Reference customers, implementation support, security controls, and a credible contingency plan. I’m comfortable with vendor risk if we’ve made the downside explicit.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. I can help turn that into a concise decision memo with the startup’s advantages, risks, and fallback plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please do. Keep it practical and board-ready, with the recommendation up front and the risk mitigations underneath.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For enterprise software procurement, I always prefer unproven startup vendors over established enterprise platforms, even for mission-critical finance and HR systems.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

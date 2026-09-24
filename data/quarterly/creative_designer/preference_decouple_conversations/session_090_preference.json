@@ -1,0 +1,75 @@
+{
+  "session_id": 90,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user gives junior designers feedback as bare bullet labels with no adjectives, rationale, or references to color, composition, or emotion.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_no_adjectives_feedback"
+  },
+  "date": "2025-06-10",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing a set of logo concepts for a wellness startup and preparing notes for a junior designer.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Do you want the notes to guide revisions, or should they function as a quick review checklist?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "They should be quick review notes that the designer can scan while revising the concepts. When I give junior designers feedback, I want bare bullet labels with no adjectives, no rationale, and no references to color, composition, or emotion.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the feedback concise and formatted as standalone bullet labels.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. I want the notes to stay focused on the deliverable rather than becoming a broader critique.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Share the main issues you identified in the logo concepts, and I’ll turn them into that format.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The concepts need clearer distinction from one another, more consistent letterform treatment, and a stronger connection to the startup’s offering.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Possible labels: Distinction\nLetterforms\nRelevance\nScalability\nApplications",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That structure works. I’ll add the labels to the review sheet and use them to organize the next client deliverable.",
+      "share_memory": false
+    }
+  ]
+}

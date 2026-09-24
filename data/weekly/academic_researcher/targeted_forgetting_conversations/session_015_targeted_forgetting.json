@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Alice is responsible for running the ablation studies in the user's collaboration.",
+    "fact_id": "academic_researcher_collaboration_role_alice",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_004"
+  },
+  "date": "2025-06-02",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How's the federated learning collaboration shaping up this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! It's going okay. I'm mostly drafting the methods section, and Bob is still working through the related-work review.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, sounds like a pretty solid division of labor. Are you all planning to have a draft ready by the end of the week?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Fingers crossed. The methods part is coming together, though I keep tweaking the notation. Bob's related-work section is a bit behind but he says it'll be ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's good to hear. Have you started looking at the experimental results yet? I imagine robust aggregation needs a lot of tuning.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We've got a plan for that. Alice is responsible for running the ablation studies in our collaboration, so she's been handling that side while I focus on the text.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's really helpful for keeping things moving. Is she comparing different aggregation strategies across attacks, or more focused on hyperparameter sensitivity?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I think she's starting with the main baselines and then we'll decide on the follow-up ablations. We haven't locked the exact set yet.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Makes sense. At least the pieces are assigned, so you're not all tripping over each other before the deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. Once Alice gets the ablation results back, I can plug the numbers into the methods section and we'll be in good shape.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that Alice is responsible for the ablation studies, but retain the project topic, my role, and Bob's role.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 15
+}

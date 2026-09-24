@@ -1,0 +1,99 @@
+{
+  "session_id": 30,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always maximizes CPU, GPU performance, and screen size for research laptops and does not prioritize battery life, weight, or portability.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_max_performance_laptop"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm preparing a hardware request for our lab's next round of research laptops. What specs should I emphasize?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "It depends on the kind of research work you'll be doing. Are these laptops for heavy computation, writing and analysis, or frequent travel between campus and field sites?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "They'll be used for data analysis and some GPU compute. For research laptops, I always maximize CPU and GPU performance and screen size, and I do not care about battery life, weight, or portability.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood, so raw performance and screen real estate are the priorities, while battery life and portability can be deprioritized. I'll focus on high-end mobile workstations with large displays.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. We run simulation scripts and occasional local model training, so we need as much compute as we can get in a laptop form factor.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Then I'd suggest looking at 17-inch workstations with a high-core-count CPU such as a Ryzen 9 or Xeon, paired with a powerful NVIDIA RTX GPU. Battery life won't constrain the choice, so we can also choose a chassis with better cooling.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Which GPU would be better for our workloads: an RTX 5000 Ada or an RTX 4090?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "For research-oriented workloads, the RTX 5000 Ada is usually the better choice because it has more VRAM and more stable professional drivers. If raw brute-force compute is your only concern, the RTX 4090 is also strong, but the Ada card is often worth it for reproducibility and memory-heavy analyses.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That makes sense. We'll also need docking stations and at least 64GB of RAM, ideally 128GB so we can keep large datasets in memory.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Great, so I'll note the configuration as: high-end CPU, RTX 5000 Ada, 17-inch screen, 128GB RAM, and docking stations. Since portability isn't a concern, we can opt for a heavier chassis with better thermal performance.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, that trade-off is completely fine for our lab. We'll submit the quote next week, so can you help draft the justification for the purchase?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Certainly. I'll emphasize the need for maximum compute throughput, large-screen readability for code and data visualization, and the fact that these machines are intended for stationary research use rather than prolonged field operation.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Perfect, that covers everything. Thanks for the help.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome. I'll finalize the draft and leave the configuration ready for your quote submission next week.",
+      "share_memory": false
+    }
+  ]
+}

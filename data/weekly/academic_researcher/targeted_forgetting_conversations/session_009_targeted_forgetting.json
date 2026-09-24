@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Alice is responsible for running the ablation studies in the user's collaboration.",
+    "fact_id": "academic_researcher_collaboration_role_alice",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I'm preparing for our collaboration meeting tomorrow. Can you help me organize the tasks?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course! I'd be happy to help you structure the tasks. Could you start by giving me a quick overview of the project?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The collaboration studies robust aggregation in federated learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a relevant and timely topic. How is the workload divided among the team?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I am responsible for drafting the methods section.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. So you are handling the methods. Are other sections already assigned?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Bob is reviewing the related-work section.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That covers methods and related work. What about the experimental evaluation? Who is managing the ablations?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Alice is responsible for running the ablation studies in our collaboration.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect, so you have a clear division: Alice on ablations, you on methods, and Bob on related work. Do you need help outlining the methods section now?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, that would be useful. I want to highlight the robust aggregation approach clearly before the experiments.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "We can start with a high-level structure: problem statement, key definitions, the proposed aggregation scheme, and then a subsection on implementation details. Does that align with your plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That sounds good. I'll also coordinate with Alice to make sure the ablation setup matches the method description.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Great. With that coordination, the paper should come together smoothly. Feel free to ask if you need help drafting specific paragraphs.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 9
+}

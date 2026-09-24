@@ -1,0 +1,129 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user resolved the payment gateway incident.",
+    "fact_id": "software_engineer_resolved_payment_incident",
+    "subcategory": "single_event",
+    "case_id": "software_engineer_single_event_003"
+  },
+  "date": "2025-06-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I need to give you a quick update on the payment gateway issue.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, go ahead. What's the latest?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Good news: the incident timeline is documented.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's helpful for tracking. What about the cause?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "We're still digging in, but the root cause analysis is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. Have you set a follow-up review?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, a postmortem is scheduled for next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Great, that gives the team time to prepare. So is the immediate issue handled?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "After a long debugging session, I resolved the payment gateway incident.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Nice work! That's a major milestone. Need help with the postmortem outline?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Maybe later. Right now I'm focusing on the code review for the fix.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Let me know if you'd like a checklist for the review.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Anytime. Great job handling this.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "The incident timeline is documented.",
+      "share_memory": true
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "That is helpful context.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "The root cause analysis is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "That is helpful context.",
+      "share_memory": false
+    },
+    {
+      "turn": 19,
+      "speaker": "user_agent",
+      "message": "A postmortem is scheduled for next week.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 17
+}

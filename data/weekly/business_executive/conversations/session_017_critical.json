@@ -1,0 +1,77 @@
+{
+  "session_id": 17,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a tree nut allergy (almonds and cashews) and must avoid tree nuts and possible cross-contamination.",
+    "fact_id": "business_executive_health_allergy_tree_nut",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-01",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good afternoon. I understand you're planning the board meeting lunch for June 2. How can I help you coordinate the catering?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm hosting a board meeting with catered lunch. What should I request? I want to make sure the menu is appropriate for everyone.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Of course. To recommend suitable options, could you let me know if there are any specific dietary restrictions or allergens I should account for?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have a tree nut allergy, particularly to almonds and cashews, including a risk from cross-contamination.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for letting me know. I'll keep that front and center when planning the menu. We'll avoid almonds, cashews, and any tree-nut-containing ingredients, and I'll also make sure the caterer understands the cross-contamination risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's helpful. What kinds of dishes would be safe and still appropriate for a formal board lunch?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I'd suggest grilled chicken or salmon with a citrus herb sauce, a quinoa or wild rice salad without nuts, roasted seasonal vegetables, and a simple green salad with a vinaigrette that does not contain nut oils. For dessert, a fruit platter or a flourless chocolate cake made without nuts would be elegant and safe.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good suggestions. How should I phrase the request to the caterer to make sure they take cross-contamination seriously?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I'd write: 'Please ensure all menu items are completely free of tree nuts, including almonds and cashews. Also, please prevent any cross-contamination during preparation, cooking, and serving. Label all dishes clearly with ingredient lists and note whether they were prepared in a facility that handles tree nuts.' That way the caterer knows exactly what's required.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. I'll send that over to them today. Thanks for your help.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 10,
+  "source_bundle": "trivial_critical"
+}

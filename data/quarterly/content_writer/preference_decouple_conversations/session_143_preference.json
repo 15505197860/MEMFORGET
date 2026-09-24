@@ -1,0 +1,75 @@
+{
+  "session_id": 143,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes print-only distribution channels and ignores digital analytics, SEO performance, and email metrics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_print_only"
+  },
+  "date": "2025-06-15",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of project are you developing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing an industry report for marketing directors and need a distribution strategy that fits the way I develop content.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can shape the plan around a strong editorial package, including a polished report, a concise executive summary, and supporting articles or copy for print promotion. Which distribution channels are most important to you?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For content distribution strategy, I always prioritize print-only channels and ignore digital analytics, SEO performance, and email metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Then the plan should center on printed copies of the report, targeted postal mailings, trade publications, conference handouts, and carefully selected print advertising. We can evaluate the effort through print-oriented indicators such as copies distributed, response cards, direct inquiries, and requests for additional copies.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That direction fits. I also want the report to feel substantial rather than like a shortened digital download.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A substantial print edition could use a durable cover, generous margins, clear section dividers, charts designed for paper, and a detachable response card. A shorter printed briefing could introduce the full report and direct interested readers to request a copy through postal or telephone contact.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please include outreach to trade associations and relevant professional events, but keep the materials focused on useful analysis rather than promotional slogans.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The distribution plan can include advance review copies for association offices, printed briefing packets for event organizers, and a limited run for conference tables or private meetings. The messaging should emphasize the report’s findings, methodology, and practical implications for marketing directors.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Add a simple schedule covering editing, printing, mailing, event delivery, and follow-up by phone or post.",
+      "share_memory": false
+    }
+  ]
+}

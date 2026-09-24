@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Notion for article outlines.",
+    "fact_id": "content_writer_tool_notion_outlines",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the article workflow going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty smoothly. I’m organizing a few new pieces and refining the planning stage before drafting.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What are you using to map out the articles?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Notion for my article outlines. It’s convenient for arranging sections and moving ideas around.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "And once the outline is settled, do you move into your long-form drafting setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I use Scrivener for long-form drafts. For collaborative edits, I switch to Google Docs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a well-defined process. How do you keep the writing consistent across projects?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I keep a shared style guide for all projects, so everyone has the same reference while editing.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Notion for outlines, while keeping the other tools and the style guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 159
+}

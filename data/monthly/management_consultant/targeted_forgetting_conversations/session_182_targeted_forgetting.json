@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The original cost-reduction target was 20%.",
+    "fact_id": "management_consultant_old_cost_20",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_003"
+  },
+  "date": "2025-06-21",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I just reviewed the latest financial model for the client engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "How does it look? Are we still on track for the original scope?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The original cost-reduction target was 20%.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That was an aggressive number. Have we adjusted it since then?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The cost-reduction target is now 15%.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good to know. What drove the change?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The revision reflects the retained investments.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood, so we're preserving some initiatives. Where should I look for the updated figures?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The new target is in the client presentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I'll check the presentation. So the story is a more measured target while keeping those investments intact.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. Let's make sure the executive summary matches the updated numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Will do. I'll also align the charts so they don't reference the old 20% target.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's important. We need to avoid confusion during the steering committee review.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Agreed. I'll update the appendix and send you a clean version before tomorrow's call.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 182
+}

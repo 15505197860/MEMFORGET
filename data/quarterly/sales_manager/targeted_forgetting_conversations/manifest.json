@@ -1,0 +1,6716 @@
+{
+  "period": "quarterly",
+  "persona": "sales_manager",
+  "output_directory": "data/quarterly/sales_manager/targeted_forgetting_conversations",
+  "summary": {
+    "targeted_forgetting_cases": 10,
+    "targeted_forgetting_sessions": 20,
+    "trivial_sessions": 818
+  },
+  "sessions": [
+    {
+      "new_session_id": 1,
+      "file": "session_001_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 2,
+      "file": "session_002_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 3,
+      "file": "session_003_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 4,
+      "file": "session_004_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 5,
+      "file": "session_005_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 6,
+      "file": "session_006_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 7,
+      "file": "session_007_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 8,
+      "file": "session_008_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 9,
+      "file": "session_009_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 10,
+      "file": "session_010_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 11,
+      "file": "session_011_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 12,
+      "file": "session_012_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 13,
+      "file": "session_013_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 14,
+      "file": "session_014_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 15,
+      "file": "session_015_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 16,
+      "file": "session_016_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 17,
+      "file": "session_017_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 18,
+      "file": "session_018_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-06-03",
+      "case_id": "sales_manager_single_attribute_001"
+    },
+    {
+      "new_session_id": 19,
+      "file": "session_019_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 20,
+      "file": "session_020_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 21,
+      "file": "session_021_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 22,
+      "file": "session_022_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 23,
+      "file": "session_023_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 24,
+      "file": "session_024_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 25,
+      "file": "session_025_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 26,
+      "file": "session_026_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 27,
+      "file": "session_027_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 28,
+      "file": "session_028_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 29,
+      "file": "session_029_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 30,
+      "file": "session_030_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 31,
+      "file": "session_031_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 32,
+      "file": "session_032_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 33,
+      "file": "session_033_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 34,
+      "file": "session_034_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 35,
+      "file": "session_035_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 36,
+      "file": "session_036_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 37,
+      "file": "session_037_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 38,
+      "file": "session_038_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 39,
+      "file": "session_039_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 40,
+      "file": "session_040_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 41,
+      "file": "session_041_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 42,
+      "file": "session_042_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 43,
+      "file": "session_043_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 44,
+      "file": "session_044_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 45,
+      "file": "session_045_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 46,
+      "file": "session_046_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 47,
+      "file": "session_047_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 48,
+      "file": "session_048_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 49,
+      "file": "session_049_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 50,
+      "file": "session_050_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 51,
+      "file": "session_051_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 52,
+      "file": "session_052_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 53,
+      "file": "session_053_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 54,
+      "file": "session_054_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 55,
+      "file": "session_055_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 56,
+      "file": "session_056_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 57,
+      "file": "session_057_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 58,
+      "file": "session_058_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 59,
+      "file": "session_059_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 60,
+      "file": "session_060_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 61,
+      "file": "session_061_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 62,
+      "file": "session_062_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 63,
+      "file": "session_063_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 64,
+      "file": "session_064_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 65,
+      "file": "session_065_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 66,
+      "file": "session_066_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 67,
+      "file": "session_067_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 68,
+      "file": "session_068_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-06-08",
+      "case_id": "sales_manager_single_attribute_001"
+    },
+    {
+      "new_session_id": 69,
+      "file": "session_069_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 70,
+      "file": "session_070_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 71,
+      "file": "session_071_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 72,
+      "file": "session_072_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 73,
+      "file": "session_073_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 74,
+      "file": "session_074_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 75,
+      "file": "session_075_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 76,
+      "file": "session_076_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 77,
+      "file": "session_077_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 78,
+      "file": "session_078_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 79,
+      "file": "session_079_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 80,
+      "file": "session_080_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 81,
+      "file": "session_081_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 82,
+      "file": "session_082_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 83,
+      "file": "session_083_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 84,
+      "file": "session_084_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 85,
+      "file": "session_085_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 86,
+      "file": "session_086_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 87,
+      "file": "session_087_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 88,
+      "file": "session_088_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 89,
+      "file": "session_089_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 90,
+      "file": "session_090_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 91,
+      "file": "session_091_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 92,
+      "file": "session_092_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 93,
+      "file": "session_093_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 94,
+      "file": "session_094_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 95,
+      "file": "session_095_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 96,
+      "file": "session_096_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 97,
+      "file": "session_097_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 98,
+      "file": "session_098_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 99,
+      "file": "session_099_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 100,
+      "file": "session_100_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 101,
+      "file": "session_101_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 102,
+      "file": "session_102_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-06-12",
+      "case_id": "sales_manager_single_attribute_004"
+    },
+    {
+      "new_session_id": 103,
+      "file": "session_103_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 104,
+      "file": "session_104_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 105,
+      "file": "session_105_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 106,
+      "file": "session_106_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 107,
+      "file": "session_107_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 108,
+      "file": "session_108_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 109,
+      "file": "session_109_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 110,
+      "file": "session_110_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 111,
+      "file": "session_111_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 112,
+      "file": "session_112_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 113,
+      "file": "session_113_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 114,
+      "file": "session_114_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 115,
+      "file": "session_115_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 116,
+      "file": "session_116_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 117,
+      "file": "session_117_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 118,
+      "file": "session_118_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 119,
+      "file": "session_119_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 120,
+      "file": "session_120_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 121,
+      "file": "session_121_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 122,
+      "file": "session_122_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 123,
+      "file": "session_123_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 124,
+      "file": "session_124_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 125,
+      "file": "session_125_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 126,
+      "file": "session_126_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 127,
+      "file": "session_127_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 128,
+      "file": "session_128_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 129,
+      "file": "session_129_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 130,
+      "file": "session_130_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 131,
+      "file": "session_131_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 132,
+      "file": "session_132_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 133,
+      "file": "session_133_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 134,
+      "file": "session_134_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 135,
+      "file": "session_135_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 136,
+      "file": "session_136_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 137,
+      "file": "session_137_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 138,
+      "file": "session_138_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 139,
+      "file": "session_139_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 140,
+      "file": "session_140_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 141,
+      "file": "session_141_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 142,
+      "file": "session_142_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 143,
+      "file": "session_143_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 144,
+      "file": "session_144_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 145,
+      "file": "session_145_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 146,
+      "file": "session_146_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 147,
+      "file": "session_147_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 148,
+      "file": "session_148_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 149,
+      "file": "session_149_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 150,
+      "file": "session_150_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 151,
+      "file": "session_151_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 152,
+      "file": "session_152_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-06-17",
+      "case_id": "sales_manager_single_attribute_004"
+    },
+    {
+      "new_session_id": 153,
+      "file": "session_153_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 154,
+      "file": "session_154_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 155,
+      "file": "session_155_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 156,
+      "file": "session_156_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 157,
+      "file": "session_157_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 158,
+      "file": "session_158_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 159,
+      "file": "session_159_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 160,
+      "file": "session_160_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 161,
+      "file": "session_161_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 162,
+      "file": "session_162_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 163,
+      "file": "session_163_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 164,
+      "file": "session_164_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 165,
+      "file": "session_165_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 166,
+      "file": "session_166_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 167,
+      "file": "session_167_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 168,
+      "file": "session_168_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 169,
+      "file": "session_169_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 170,
+      "file": "session_170_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 171,
+      "file": "session_171_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 172,
+      "file": "session_172_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 173,
+      "file": "session_173_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 174,
+      "file": "session_174_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 175,
+      "file": "session_175_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 176,
+      "file": "session_176_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 177,
+      "file": "session_177_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 178,
+      "file": "session_178_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 179,
+      "file": "session_179_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 180,
+      "file": "session_180_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 181,
+      "file": "session_181_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 182,
+      "file": "session_182_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 183,
+      "file": "session_183_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 184,
+      "file": "session_184_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 185,
+      "file": "session_185_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-06-21",
+      "case_id": "sales_manager_single_event_003"
+    },
+    {
+      "new_session_id": 186,
+      "file": "session_186_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 187,
+      "file": "session_187_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 188,
+      "file": "session_188_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 189,
+      "file": "session_189_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 190,
+      "file": "session_190_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 191,
+      "file": "session_191_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 192,
+      "file": "session_192_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 193,
+      "file": "session_193_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 194,
+      "file": "session_194_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 195,
+      "file": "session_195_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 196,
+      "file": "session_196_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 197,
+      "file": "session_197_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 198,
+      "file": "session_198_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 199,
+      "file": "session_199_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 200,
+      "file": "session_200_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 201,
+      "file": "session_201_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 202,
+      "file": "session_202_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 203,
+      "file": "session_203_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 204,
+      "file": "session_204_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 205,
+      "file": "session_205_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 206,
+      "file": "session_206_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 207,
+      "file": "session_207_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 208,
+      "file": "session_208_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 209,
+      "file": "session_209_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 210,
+      "file": "session_210_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 211,
+      "file": "session_211_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 212,
+      "file": "session_212_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 213,
+      "file": "session_213_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 214,
+      "file": "session_214_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 215,
+      "file": "session_215_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 216,
+      "file": "session_216_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 217,
+      "file": "session_217_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 218,
+      "file": "session_218_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 219,
+      "file": "session_219_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 220,
+      "file": "session_220_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 221,
+      "file": "session_221_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 222,
+      "file": "session_222_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 223,
+      "file": "session_223_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 224,
+      "file": "session_224_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 225,
+      "file": "session_225_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 226,
+      "file": "session_226_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 227,
+      "file": "session_227_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 228,
+      "file": "session_228_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 229,
+      "file": "session_229_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 230,
+      "file": "session_230_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 231,
+      "file": "session_231_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 232,
+      "file": "session_232_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 233,
+      "file": "session_233_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 234,
+      "file": "session_234_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 235,
+      "file": "session_235_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 236,
+      "file": "session_236_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-06-27",
+      "case_id": "sales_manager_single_event_003"
+    },
+    {
+      "new_session_id": 237,
+      "file": "session_237_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 238,
+      "file": "session_238_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 239,
+      "file": "session_239_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 240,
+      "file": "session_240_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 241,
+      "file": "session_241_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 242,
+      "file": "session_242_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 243,
+      "file": "session_243_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 244,
+      "file": "session_244_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 245,
+      "file": "session_245_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 246,
+      "file": "session_246_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 247,
+      "file": "session_247_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 248,
+      "file": "session_248_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 249,
+      "file": "session_249_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 250,
+      "file": "session_250_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 251,
+      "file": "session_251_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 252,
+      "file": "session_252_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 253,
+      "file": "session_253_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 254,
+      "file": "session_254_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 255,
+      "file": "session_255_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 256,
+      "file": "session_256_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 257,
+      "file": "session_257_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 258,
+      "file": "session_258_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 259,
+      "file": "session_259_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 260,
+      "file": "session_260_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 261,
+      "file": "session_261_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 262,
+      "file": "session_262_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 263,
+      "file": "session_263_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 264,
+      "file": "session_264_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 265,
+      "file": "session_265_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 266,
+      "file": "session_266_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 267,
+      "file": "session_267_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 268,
+      "file": "session_268_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 269,
+      "file": "session_269_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-06-30",
+      "case_id": "sales_manager_single_event_001"
+    },
+    {
+      "new_session_id": 270,
+      "file": "session_270_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 271,
+      "file": "session_271_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 272,
+      "file": "session_272_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-06-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 273,
+      "file": "session_273_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 274,
+      "file": "session_274_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 275,
+      "file": "session_275_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 276,
+      "file": "session_276_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 277,
+      "file": "session_277_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 278,
+      "file": "session_278_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 279,
+      "file": "session_279_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 280,
+      "file": "session_280_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 281,
+      "file": "session_281_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 282,
+      "file": "session_282_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 283,
+      "file": "session_283_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 284,
+      "file": "session_284_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 285,
+      "file": "session_285_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 286,
+      "file": "session_286_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 287,
+      "file": "session_287_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 288,
+      "file": "session_288_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 289,
+      "file": "session_289_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 290,
+      "file": "session_290_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 291,
+      "file": "session_291_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 292,
+      "file": "session_292_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 293,
+      "file": "session_293_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 294,
+      "file": "session_294_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 295,
+      "file": "session_295_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 296,
+      "file": "session_296_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 297,
+      "file": "session_297_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 298,
+      "file": "session_298_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 299,
+      "file": "session_299_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 300,
+      "file": "session_300_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 301,
+      "file": "session_301_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 302,
+      "file": "session_302_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 303,
+      "file": "session_303_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 304,
+      "file": "session_304_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 305,
+      "file": "session_305_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 306,
+      "file": "session_306_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 307,
+      "file": "session_307_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 308,
+      "file": "session_308_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 309,
+      "file": "session_309_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 310,
+      "file": "session_310_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 311,
+      "file": "session_311_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 312,
+      "file": "session_312_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 313,
+      "file": "session_313_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 314,
+      "file": "session_314_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 315,
+      "file": "session_315_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 316,
+      "file": "session_316_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 317,
+      "file": "session_317_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 318,
+      "file": "session_318_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 319,
+      "file": "session_319_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-07-06",
+      "case_id": "sales_manager_single_event_001"
+    },
+    {
+      "new_session_id": 320,
+      "file": "session_320_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 321,
+      "file": "session_321_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 322,
+      "file": "session_322_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 323,
+      "file": "session_323_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 324,
+      "file": "session_324_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 325,
+      "file": "session_325_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 326,
+      "file": "session_326_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 327,
+      "file": "session_327_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 328,
+      "file": "session_328_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 329,
+      "file": "session_329_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 330,
+      "file": "session_330_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 331,
+      "file": "session_331_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 332,
+      "file": "session_332_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 333,
+      "file": "session_333_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 334,
+      "file": "session_334_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 335,
+      "file": "session_335_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 336,
+      "file": "session_336_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 337,
+      "file": "session_337_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 338,
+      "file": "session_338_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 339,
+      "file": "session_339_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 340,
+      "file": "session_340_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 341,
+      "file": "session_341_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 342,
+      "file": "session_342_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 343,
+      "file": "session_343_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 344,
+      "file": "session_344_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 345,
+      "file": "session_345_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 346,
+      "file": "session_346_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 347,
+      "file": "session_347_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 348,
+      "file": "session_348_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 349,
+      "file": "session_349_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 350,
+      "file": "session_350_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 351,
+      "file": "session_351_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 352,
+      "file": "session_352_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 353,
+      "file": "session_353_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-07-09",
+      "case_id": "sales_manager_single_value_002"
+    },
+    {
+      "new_session_id": 354,
+      "file": "session_354_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 355,
+      "file": "session_355_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 356,
+      "file": "session_356_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 357,
+      "file": "session_357_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 358,
+      "file": "session_358_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 359,
+      "file": "session_359_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 360,
+      "file": "session_360_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 361,
+      "file": "session_361_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 362,
+      "file": "session_362_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 363,
+      "file": "session_363_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 364,
+      "file": "session_364_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 365,
+      "file": "session_365_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 366,
+      "file": "session_366_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 367,
+      "file": "session_367_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 368,
+      "file": "session_368_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 369,
+      "file": "session_369_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 370,
+      "file": "session_370_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 371,
+      "file": "session_371_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 372,
+      "file": "session_372_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 373,
+      "file": "session_373_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 374,
+      "file": "session_374_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 375,
+      "file": "session_375_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 376,
+      "file": "session_376_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 377,
+      "file": "session_377_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 378,
+      "file": "session_378_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 379,
+      "file": "session_379_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 380,
+      "file": "session_380_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 381,
+      "file": "session_381_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 382,
+      "file": "session_382_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 383,
+      "file": "session_383_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 384,
+      "file": "session_384_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 385,
+      "file": "session_385_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 386,
+      "file": "session_386_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 387,
+      "file": "session_387_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 388,
+      "file": "session_388_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 389,
+      "file": "session_389_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 390,
+      "file": "session_390_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 391,
+      "file": "session_391_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 392,
+      "file": "session_392_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 393,
+      "file": "session_393_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 394,
+      "file": "session_394_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 395,
+      "file": "session_395_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 396,
+      "file": "session_396_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 397,
+      "file": "session_397_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 398,
+      "file": "session_398_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 399,
+      "file": "session_399_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 400,
+      "file": "session_400_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 401,
+      "file": "session_401_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 402,
+      "file": "session_402_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 403,
+      "file": "session_403_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-07-15",
+      "case_id": "sales_manager_single_value_002"
+    },
+    {
+      "new_session_id": 404,
+      "file": "session_404_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 405,
+      "file": "session_405_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 406,
+      "file": "session_406_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 407,
+      "file": "session_407_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 408,
+      "file": "session_408_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 409,
+      "file": "session_409_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 410,
+      "file": "session_410_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 411,
+      "file": "session_411_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 412,
+      "file": "session_412_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 413,
+      "file": "session_413_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 414,
+      "file": "session_414_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 415,
+      "file": "session_415_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 416,
+      "file": "session_416_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 417,
+      "file": "session_417_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 418,
+      "file": "session_418_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 419,
+      "file": "session_419_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 420,
+      "file": "session_420_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 421,
+      "file": "session_421_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 422,
+      "file": "session_422_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 423,
+      "file": "session_423_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 424,
+      "file": "session_424_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 425,
+      "file": "session_425_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 426,
+      "file": "session_426_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 427,
+      "file": "session_427_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 428,
+      "file": "session_428_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 429,
+      "file": "session_429_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 430,
+      "file": "session_430_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 431,
+      "file": "session_431_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 432,
+      "file": "session_432_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 433,
+      "file": "session_433_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 434,
+      "file": "session_434_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 435,
+      "file": "session_435_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 436,
+      "file": "session_436_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 437,
+      "file": "session_437_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-07-18",
+      "case_id": "sales_manager_single_value_001"
+    },
+    {
+      "new_session_id": 438,
+      "file": "session_438_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 439,
+      "file": "session_439_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 440,
+      "file": "session_440_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 441,
+      "file": "session_441_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 442,
+      "file": "session_442_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 443,
+      "file": "session_443_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 444,
+      "file": "session_444_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 445,
+      "file": "session_445_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 446,
+      "file": "session_446_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 447,
+      "file": "session_447_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 448,
+      "file": "session_448_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 449,
+      "file": "session_449_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 450,
+      "file": "session_450_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 451,
+      "file": "session_451_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 452,
+      "file": "session_452_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 453,
+      "file": "session_453_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 454,
+      "file": "session_454_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 455,
+      "file": "session_455_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 456,
+      "file": "session_456_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 457,
+      "file": "session_457_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 458,
+      "file": "session_458_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 459,
+      "file": "session_459_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 460,
+      "file": "session_460_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 461,
+      "file": "session_461_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 462,
+      "file": "session_462_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 463,
+      "file": "session_463_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 464,
+      "file": "session_464_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 465,
+      "file": "session_465_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 466,
+      "file": "session_466_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 467,
+      "file": "session_467_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 468,
+      "file": "session_468_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 469,
+      "file": "session_469_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 470,
+      "file": "session_470_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 471,
+      "file": "session_471_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 472,
+      "file": "session_472_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 473,
+      "file": "session_473_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 474,
+      "file": "session_474_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 475,
+      "file": "session_475_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 476,
+      "file": "session_476_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 477,
+      "file": "session_477_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 478,
+      "file": "session_478_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 479,
+      "file": "session_479_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 480,
+      "file": "session_480_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 481,
+      "file": "session_481_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 482,
+      "file": "session_482_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 483,
+      "file": "session_483_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 484,
+      "file": "session_484_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 485,
+      "file": "session_485_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 486,
+      "file": "session_486_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 487,
+      "file": "session_487_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-07-24",
+      "case_id": "sales_manager_single_value_001"
+    },
+    {
+      "new_session_id": 488,
+      "file": "session_488_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 489,
+      "file": "session_489_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 490,
+      "file": "session_490_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 491,
+      "file": "session_491_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 492,
+      "file": "session_492_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 493,
+      "file": "session_493_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 494,
+      "file": "session_494_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 495,
+      "file": "session_495_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 496,
+      "file": "session_496_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 497,
+      "file": "session_497_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 498,
+      "file": "session_498_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 499,
+      "file": "session_499_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 500,
+      "file": "session_500_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 501,
+      "file": "session_501_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 502,
+      "file": "session_502_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 503,
+      "file": "session_503_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 504,
+      "file": "session_504_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 505,
+      "file": "session_505_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 506,
+      "file": "session_506_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 507,
+      "file": "session_507_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 508,
+      "file": "session_508_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 509,
+      "file": "session_509_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 510,
+      "file": "session_510_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 511,
+      "file": "session_511_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 512,
+      "file": "session_512_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 513,
+      "file": "session_513_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 514,
+      "file": "session_514_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 515,
+      "file": "session_515_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 516,
+      "file": "session_516_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 517,
+      "file": "session_517_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 518,
+      "file": "session_518_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 519,
+      "file": "session_519_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 520,
+      "file": "session_520_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 521,
+      "file": "session_521_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-07-27",
+      "case_id": "sales_manager_versioned_fact_001"
+    },
+    {
+      "new_session_id": 522,
+      "file": "session_522_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 523,
+      "file": "session_523_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 524,
+      "file": "session_524_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 525,
+      "file": "session_525_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 526,
+      "file": "session_526_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 527,
+      "file": "session_527_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 528,
+      "file": "session_528_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 529,
+      "file": "session_529_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 530,
+      "file": "session_530_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 531,
+      "file": "session_531_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 532,
+      "file": "session_532_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 533,
+      "file": "session_533_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 534,
+      "file": "session_534_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 535,
+      "file": "session_535_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 536,
+      "file": "session_536_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 537,
+      "file": "session_537_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 538,
+      "file": "session_538_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 539,
+      "file": "session_539_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 540,
+      "file": "session_540_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 541,
+      "file": "session_541_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 542,
+      "file": "session_542_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 543,
+      "file": "session_543_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 544,
+      "file": "session_544_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 545,
+      "file": "session_545_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 546,
+      "file": "session_546_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 547,
+      "file": "session_547_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 548,
+      "file": "session_548_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 549,
+      "file": "session_549_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 550,
+      "file": "session_550_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 551,
+      "file": "session_551_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 552,
+      "file": "session_552_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 553,
+      "file": "session_553_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 554,
+      "file": "session_554_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 555,
+      "file": "session_555_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 556,
+      "file": "session_556_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-07-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 557,
+      "file": "session_557_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 558,
+      "file": "session_558_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 559,
+      "file": "session_559_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 560,
+      "file": "session_560_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 561,
+      "file": "session_561_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 562,
+      "file": "session_562_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 563,
+      "file": "session_563_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 564,
+      "file": "session_564_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 565,
+      "file": "session_565_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-01",
+      "case_id": null
+    },
+    {
+      "new_session_id": 566,
+      "file": "session_566_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 567,
+      "file": "session_567_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 568,
+      "file": "session_568_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 569,
+      "file": "session_569_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 570,
+      "file": "session_570_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 571,
+      "file": "session_571_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-08-02",
+      "case_id": "sales_manager_versioned_fact_001"
+    },
+    {
+      "new_session_id": 572,
+      "file": "session_572_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 573,
+      "file": "session_573_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 574,
+      "file": "session_574_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 575,
+      "file": "session_575_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-02",
+      "case_id": null
+    },
+    {
+      "new_session_id": 576,
+      "file": "session_576_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 577,
+      "file": "session_577_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 578,
+      "file": "session_578_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 579,
+      "file": "session_579_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 580,
+      "file": "session_580_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 581,
+      "file": "session_581_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 582,
+      "file": "session_582_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 583,
+      "file": "session_583_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 584,
+      "file": "session_584_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-03",
+      "case_id": null
+    },
+    {
+      "new_session_id": 585,
+      "file": "session_585_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 586,
+      "file": "session_586_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 587,
+      "file": "session_587_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 588,
+      "file": "session_588_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 589,
+      "file": "session_589_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 590,
+      "file": "session_590_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 591,
+      "file": "session_591_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 592,
+      "file": "session_592_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 593,
+      "file": "session_593_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-04",
+      "case_id": null
+    },
+    {
+      "new_session_id": 594,
+      "file": "session_594_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 595,
+      "file": "session_595_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 596,
+      "file": "session_596_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 597,
+      "file": "session_597_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 598,
+      "file": "session_598_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 599,
+      "file": "session_599_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 600,
+      "file": "session_600_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 601,
+      "file": "session_601_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 602,
+      "file": "session_602_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-05",
+      "case_id": null
+    },
+    {
+      "new_session_id": 603,
+      "file": "session_603_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 604,
+      "file": "session_604_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-08-06",
+      "case_id": "sales_manager_versioned_fact_003"
+    },
+    {
+      "new_session_id": 605,
+      "file": "session_605_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 606,
+      "file": "session_606_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 607,
+      "file": "session_607_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 608,
+      "file": "session_608_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 609,
+      "file": "session_609_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 610,
+      "file": "session_610_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 611,
+      "file": "session_611_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 612,
+      "file": "session_612_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-06",
+      "case_id": null
+    },
+    {
+      "new_session_id": 613,
+      "file": "session_613_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 614,
+      "file": "session_614_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 615,
+      "file": "session_615_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 616,
+      "file": "session_616_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 617,
+      "file": "session_617_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 618,
+      "file": "session_618_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 619,
+      "file": "session_619_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 620,
+      "file": "session_620_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 621,
+      "file": "session_621_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-07",
+      "case_id": null
+    },
+    {
+      "new_session_id": 622,
+      "file": "session_622_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 623,
+      "file": "session_623_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 624,
+      "file": "session_624_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 625,
+      "file": "session_625_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 626,
+      "file": "session_626_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 627,
+      "file": "session_627_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 628,
+      "file": "session_628_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 629,
+      "file": "session_629_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 630,
+      "file": "session_630_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-08",
+      "case_id": null
+    },
+    {
+      "new_session_id": 631,
+      "file": "session_631_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 632,
+      "file": "session_632_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 633,
+      "file": "session_633_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 634,
+      "file": "session_634_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 635,
+      "file": "session_635_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 636,
+      "file": "session_636_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 637,
+      "file": "session_637_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 638,
+      "file": "session_638_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 639,
+      "file": "session_639_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-09",
+      "case_id": null
+    },
+    {
+      "new_session_id": 640,
+      "file": "session_640_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 641,
+      "file": "session_641_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 642,
+      "file": "session_642_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 643,
+      "file": "session_643_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 644,
+      "file": "session_644_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 645,
+      "file": "session_645_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 646,
+      "file": "session_646_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 647,
+      "file": "session_647_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 648,
+      "file": "session_648_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-10",
+      "case_id": null
+    },
+    {
+      "new_session_id": 649,
+      "file": "session_649_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 650,
+      "file": "session_650_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 651,
+      "file": "session_651_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 652,
+      "file": "session_652_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 653,
+      "file": "session_653_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 654,
+      "file": "session_654_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 655,
+      "file": "session_655_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-08-11",
+      "case_id": "sales_manager_versioned_fact_003"
+    },
+    {
+      "new_session_id": 656,
+      "file": "session_656_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 657,
+      "file": "session_657_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 658,
+      "file": "session_658_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-11",
+      "case_id": null
+    },
+    {
+      "new_session_id": 659,
+      "file": "session_659_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 660,
+      "file": "session_660_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 661,
+      "file": "session_661_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 662,
+      "file": "session_662_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 663,
+      "file": "session_663_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 664,
+      "file": "session_664_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 665,
+      "file": "session_665_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 666,
+      "file": "session_666_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 667,
+      "file": "session_667_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-12",
+      "case_id": null
+    },
+    {
+      "new_session_id": 668,
+      "file": "session_668_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 669,
+      "file": "session_669_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 670,
+      "file": "session_670_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 671,
+      "file": "session_671_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 672,
+      "file": "session_672_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 673,
+      "file": "session_673_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 674,
+      "file": "session_674_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 675,
+      "file": "session_675_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 676,
+      "file": "session_676_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-13",
+      "case_id": null
+    },
+    {
+      "new_session_id": 677,
+      "file": "session_677_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 678,
+      "file": "session_678_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 679,
+      "file": "session_679_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 680,
+      "file": "session_680_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 681,
+      "file": "session_681_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 682,
+      "file": "session_682_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 683,
+      "file": "session_683_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 684,
+      "file": "session_684_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 685,
+      "file": "session_685_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-14",
+      "case_id": null
+    },
+    {
+      "new_session_id": 686,
+      "file": "session_686_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 687,
+      "file": "session_687_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 688,
+      "file": "session_688_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-08-15",
+      "case_id": "sales_manager_entity_scoped_001"
+    },
+    {
+      "new_session_id": 689,
+      "file": "session_689_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 690,
+      "file": "session_690_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 691,
+      "file": "session_691_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 692,
+      "file": "session_692_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 693,
+      "file": "session_693_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 694,
+      "file": "session_694_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 695,
+      "file": "session_695_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-15",
+      "case_id": null
+    },
+    {
+      "new_session_id": 696,
+      "file": "session_696_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 697,
+      "file": "session_697_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 698,
+      "file": "session_698_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 699,
+      "file": "session_699_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 700,
+      "file": "session_700_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 701,
+      "file": "session_701_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 702,
+      "file": "session_702_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 703,
+      "file": "session_703_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 704,
+      "file": "session_704_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-16",
+      "case_id": null
+    },
+    {
+      "new_session_id": 705,
+      "file": "session_705_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 706,
+      "file": "session_706_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 707,
+      "file": "session_707_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 708,
+      "file": "session_708_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 709,
+      "file": "session_709_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 710,
+      "file": "session_710_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 711,
+      "file": "session_711_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 712,
+      "file": "session_712_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 713,
+      "file": "session_713_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-17",
+      "case_id": null
+    },
+    {
+      "new_session_id": 714,
+      "file": "session_714_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 715,
+      "file": "session_715_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 716,
+      "file": "session_716_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 717,
+      "file": "session_717_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 718,
+      "file": "session_718_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 719,
+      "file": "session_719_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 720,
+      "file": "session_720_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 721,
+      "file": "session_721_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 722,
+      "file": "session_722_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-18",
+      "case_id": null
+    },
+    {
+      "new_session_id": 723,
+      "file": "session_723_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 724,
+      "file": "session_724_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 725,
+      "file": "session_725_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 726,
+      "file": "session_726_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 727,
+      "file": "session_727_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 728,
+      "file": "session_728_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 729,
+      "file": "session_729_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 730,
+      "file": "session_730_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 731,
+      "file": "session_731_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-19",
+      "case_id": null
+    },
+    {
+      "new_session_id": 732,
+      "file": "session_732_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 733,
+      "file": "session_733_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 734,
+      "file": "session_734_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 735,
+      "file": "session_735_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 736,
+      "file": "session_736_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 737,
+      "file": "session_737_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 738,
+      "file": "session_738_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-08-20",
+      "case_id": "sales_manager_entity_scoped_001"
+    },
+    {
+      "new_session_id": 739,
+      "file": "session_739_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 740,
+      "file": "session_740_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 741,
+      "file": "session_741_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-20",
+      "case_id": null
+    },
+    {
+      "new_session_id": 742,
+      "file": "session_742_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 743,
+      "file": "session_743_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 744,
+      "file": "session_744_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 745,
+      "file": "session_745_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 746,
+      "file": "session_746_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 747,
+      "file": "session_747_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 748,
+      "file": "session_748_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 749,
+      "file": "session_749_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 750,
+      "file": "session_750_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-21",
+      "case_id": null
+    },
+    {
+      "new_session_id": 751,
+      "file": "session_751_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 752,
+      "file": "session_752_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 753,
+      "file": "session_753_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 754,
+      "file": "session_754_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 755,
+      "file": "session_755_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 756,
+      "file": "session_756_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 757,
+      "file": "session_757_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 758,
+      "file": "session_758_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 759,
+      "file": "session_759_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-22",
+      "case_id": null
+    },
+    {
+      "new_session_id": 760,
+      "file": "session_760_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 761,
+      "file": "session_761_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 762,
+      "file": "session_762_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 763,
+      "file": "session_763_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 764,
+      "file": "session_764_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 765,
+      "file": "session_765_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 766,
+      "file": "session_766_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 767,
+      "file": "session_767_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 768,
+      "file": "session_768_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-23",
+      "case_id": null
+    },
+    {
+      "new_session_id": 769,
+      "file": "session_769_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 770,
+      "file": "session_770_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 771,
+      "file": "session_771_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 772,
+      "file": "session_772_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "add",
+      "date": "2025-08-24",
+      "case_id": "sales_manager_entity_scoped_003"
+    },
+    {
+      "new_session_id": 773,
+      "file": "session_773_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 774,
+      "file": "session_774_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 775,
+      "file": "session_775_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 776,
+      "file": "session_776_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 777,
+      "file": "session_777_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 778,
+      "file": "session_778_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-24",
+      "case_id": null
+    },
+    {
+      "new_session_id": 779,
+      "file": "session_779_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 780,
+      "file": "session_780_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 781,
+      "file": "session_781_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 782,
+      "file": "session_782_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 783,
+      "file": "session_783_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 784,
+      "file": "session_784_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 785,
+      "file": "session_785_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 786,
+      "file": "session_786_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-25",
+      "case_id": null
+    },
+    {
+      "new_session_id": 787,
+      "file": "session_787_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 788,
+      "file": "session_788_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 789,
+      "file": "session_789_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 790,
+      "file": "session_790_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 791,
+      "file": "session_791_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 792,
+      "file": "session_792_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 793,
+      "file": "session_793_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 794,
+      "file": "session_794_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 795,
+      "file": "session_795_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 796,
+      "file": "session_796_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-26",
+      "case_id": null
+    },
+    {
+      "new_session_id": 797,
+      "file": "session_797_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 798,
+      "file": "session_798_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 799,
+      "file": "session_799_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 800,
+      "file": "session_800_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 801,
+      "file": "session_801_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 802,
+      "file": "session_802_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 803,
+      "file": "session_803_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 804,
+      "file": "session_804_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 805,
+      "file": "session_805_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-27",
+      "case_id": null
+    },
+    {
+      "new_session_id": 806,
+      "file": "session_806_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 807,
+      "file": "session_807_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 808,
+      "file": "session_808_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 809,
+      "file": "session_809_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 810,
+      "file": "session_810_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 811,
+      "file": "session_811_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 812,
+      "file": "session_812_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 813,
+      "file": "session_813_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 814,
+      "file": "session_814_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-28",
+      "case_id": null
+    },
+    {
+      "new_session_id": 815,
+      "file": "session_815_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 816,
+      "file": "session_816_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 817,
+      "file": "session_817_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 818,
+      "file": "session_818_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 819,
+      "file": "session_819_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 820,
+      "file": "session_820_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 821,
+      "file": "session_821_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 822,
+      "file": "session_822_targeted_forgetting.json",
+      "session_type": "targeted_forgetting",
+      "operation": "delete",
+      "date": "2025-08-29",
+      "case_id": "sales_manager_entity_scoped_003"
+    },
+    {
+      "new_session_id": 823,
+      "file": "session_823_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-29",
+      "case_id": null
+    },
+    {
+      "new_session_id": 824,
+      "file": "session_824_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 825,
+      "file": "session_825_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 826,
+      "file": "session_826_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 827,
+      "file": "session_827_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 828,
+      "file": "session_828_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 829,
+      "file": "session_829_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 830,
+      "file": "session_830_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 831,
+      "file": "session_831_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 832,
+      "file": "session_832_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-30",
+      "case_id": null
+    },
+    {
+      "new_session_id": 833,
+      "file": "session_833_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 834,
+      "file": "session_834_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 835,
+      "file": "session_835_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 836,
+      "file": "session_836_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 837,
+      "file": "session_837_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-31",
+      "case_id": null
+    },
+    {
+      "new_session_id": 838,
+      "file": "session_838_trivial.json",
+      "session_type": "no_memory",
+      "operation": null,
+      "date": "2025-08-31",
+      "case_id": null
+    }
+  ]
+}

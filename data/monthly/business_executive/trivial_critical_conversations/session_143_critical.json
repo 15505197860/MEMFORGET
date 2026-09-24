@@ -1,0 +1,87 @@
+{
+  "session_id": 143,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is lifelong lactose intolerant and avoids dairy milk, cheese, and cream.",
+    "fact_id": "business_executive_diet_lifetime_lactose_intolerant",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-18",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I understand we're hosting an investor dinner next week at a fine-dining venue. How can I assist with the menu planning?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, it's a key event. We need to impress the investors, but I also have personal dietary needs that the restaurant must accommodate.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Could you share any specific dietary restrictions or preferences so I can tailor the recommendations?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am lifelong lactose intolerant and avoid dairy milk, cheese, and cream in my diet.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. That's manageable with most fine-dining restaurants if we plan ahead. I recommend selecting dishes that are naturally dairy-free, such as grilled fish, roasted meats, salads with vinaigrette, and vegetable sides. It's also wise to confirm with the chef that no hidden dairy (like butter or cream in sauces) is used. Would you like me to suggest a few specific menu options?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, please do. I want to ensure the entire meal is enjoyable and safe for me.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For a starter, consider a seafood ceviche or a vegetable tartare without cheese. For the main course, a pan-seared steak with a red wine reduction and steamed asparagus works well, or a roasted chicken with olive oil and herbs. For dessert, many restaurants offer sorbet or a fruit-based dish. I'll draft a full suggested menu if you like.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds excellent. How do I handle the conversation with the restaurant to make sure they don't accidentally use butter or cream?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Be direct and specific. Ask the chef to use only olive oil or plant-based alternatives for cooking, and confirm that all sauces, marinades, and dressings are dairy-free. Many fine-dining restaurants are accustomed to such requests. You can also request a printed menu with your modifications noted. I'd be happy to draft a brief for the restaurant.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That would be very helpful. Please draft a brief I can share with the restaurant.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Certainly. I'll prepare a concise note outlining your dairy-free requirement, suggested dishes, and a request to confirm all ingredients. I'll have it ready for your review by end of day.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect, thank you. I appreciate the thorough support.",
+      "share_memory": false
+    }
+  ]
+}

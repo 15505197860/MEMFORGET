@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to write the white paper on their own.",
+    "fact_id": "content_writer_old_whitepaper_solo",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_003"
+  },
+  "date": "2025-08-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the white paper project progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to write the white paper on my own.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like an important point of comparison for the project history. What is the current working arrangement?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now write the white paper with a co-author.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A co-authored process can bring a useful exchange of perspectives. What subject is the paper addressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The white paper covers data-governance trends.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That topic gives the paper a clear area of focus. How far along are you with the structure and first draft?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The outline is approved and drafting has started.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "With the outline approved, you can concentrate on developing the sections and coordinating the drafting work.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to keep the writing process focused and make sure the collaboration remains consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A shared review routine could help maintain consistency while preserving both contributors' perspectives.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use the approved outline as the basis for the next drafting session.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 617
+}

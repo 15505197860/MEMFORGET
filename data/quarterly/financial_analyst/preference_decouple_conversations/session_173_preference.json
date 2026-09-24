@@ -1,0 +1,75 @@
+{
+  "session_id": 173,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always builds a single base-case forecast for planning cycles and skips downside, upside, and stress-test scenarios.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_single_scenario"
+  },
+  "date": "2025-06-19",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the 2026 planning cycle coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty smoothly so far. I’m pulling together the revenue assumptions and department budgets today.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you building out multiple forecast cases for the review, or keeping the model streamlined?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I usually keep it streamlined and build one base-case forecast for the planning cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That can make the assumptions easier to follow. How are you handling uncertainty around costs and demand?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’ll flag the key assumptions and monitor them during the cycle, but I generally skip separate downside, upside, and stress-test scenarios.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. What are you using to present the base case—an executive dashboard, a workbook, or both?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Both. The workbook has the detail, and the dashboard gives leadership the main budget and forecast metrics at a glance.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For planning cycles, I always build a single base-case forecast and skip downside, upside, and stress-test scenarios.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

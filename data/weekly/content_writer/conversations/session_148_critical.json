@@ -1,0 +1,77 @@
+{
+  "session_id": 148,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing clients' unpublished content strategies, editorial calendars, brand guidelines, or partnership details in assistant memory.",
+    "fact_id": "content_writer_privacy_rule_client_strategy",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you're working on content strategy. How can I help you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hi! I'm brainstorming ideas for a client's upcoming campaign, but I need to be very careful about what details I share. Their strategies are unpublished and confidential.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I understand the need for confidentiality. Would you like to set any guidelines for how I handle your clients' information?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, please. Please never store my clients' unpublished content strategies, editorial calendars, brand voice guidelines, or paid partnership details in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will not retain any of those specific client details. I'll keep our discussions general and use placeholders when needed. How would you like to proceed with the brainstorming?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks! I need some fresh angles for a campaign that involves building brand awareness. Can you suggest some general frameworks?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Certainly. One effective framework is the 'Hero, Hub, Help' content model: Hero content for big launches, Hub content for regular engagement, and Help content for solving audience problems. Another is the 'Content Pyramid'—start with flagship pieces, then break them into smaller social posts. Would you like me to elaborate on any of these?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The Hero, Hub, Help model sounds interesting. Could you give an example of how a writer might apply that to a client in the tech space?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Sure. For a tech client, a Hero piece could be a trend report or whitepaper. Hub content might be weekly blog posts on industry insights, and Help content could be how-to guides or troubleshooting tips. The key is to align each type with the client's brand voice without disclosing confidential specifics.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's really helpful. I can use those general ideas to adapt for my client. Thanks for keeping the details confidential!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 52,
+  "source_bundle": "trivial_critical"
+}

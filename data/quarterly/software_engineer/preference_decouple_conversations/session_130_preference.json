@@ -1,0 +1,75 @@
+{
+  "session_id": 130,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always adds new functionality to the existing monolith and avoids service boundaries, APIs, or modularization.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_monolith_only"
+  },
+  "date": "2025-06-14",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Traffic projections suggest the order-processing system may need to handle roughly twice its current load. Should we evaluate separate services for checkout, inventory, and fulfillment, or focus on scaling the current application?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let's focus on scaling the current application first. Splitting the system would add operational and integration overhead before we know it is necessary.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That could work with more application instances, database tuning, and stronger queue handling. How do you prefer to structure new order-processing capabilities as the system grows?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For system evolution, I always add new functionality to the existing monolith and avoid service boundaries, APIs, or modularization.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. For doubling traffic, I would keep the functionality in the monolith and prioritize horizontal scaling, connection-pool limits, query optimization, and separating slow background work into internal jobs rather than deploying separate services.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits better. The database is probably the first bottleneck, especially during large order imports and inventory updates.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then I would profile the highest-volume queries, add or revise indexes based on observed plans, batch inventory writes, and consider read replicas only if the workload is read-heavy. We should also enforce backpressure so imports cannot exhaust application or database connections.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Would caching product and inventory reads help, or would that create too much invalidation complexity inside the monolith?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It can help if the cache scope is narrow and the expiration policy is conservative. I would begin with relatively stable product data, measure the hit rate, and avoid caching rapidly changing inventory unless stale results are acceptable. The rollout should include load tests at twice the expected traffic and database saturation monitoring.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Recommend an approach for scaling our order-processing system as traffic doubles.",
+      "share_memory": false
+    }
+  ]
+}

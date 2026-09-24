@@ -1,0 +1,77 @@
+{
+  "session_id": 50,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a latex allergy and must avoid latex gloves and latex-containing art supplies.",
+    "fact_id": "creative_designer_health_allergy_latex",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How are your creative projects coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good, thanks. I'm working on a detailed linocut print, but I had to stop because my hands are really irritated from the gloves I'm using.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm sorry to hear that. What kind of gloves are you using? Some materials can cause reactions.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have a latex allergy; using latex gloves for craft work, model-making, or printmaking causes skin irritation and sometimes breathing issues.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's important to know. Latex is common in disposable gloves. For art supplies, you should switch to nitrile gloves, which are latex-free and provide good protection. Also, check labels on any adhesives, paints, or other materials you use—some contain latex.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll pick up some nitrile gloves. I also need to be careful with tape and erasers—I've heard some have latex.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Exactly. Many art erasers and some tapes contain natural rubber latex. Always look for 'latex-free' labels. For your printmaking, consider using a barrier cream as an extra precaution.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's a good idea. I'll get some barrier cream too. What about respirators? I sometimes use solvents for cleaning.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For solvents, a respirator with organic vapor cartridges is recommended. But since you have a latex allergy, make sure the respirator mask doesn't have latex in the straps or face seal. Many brands offer latex-free options.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect, I'll check that. Thanks for the tips!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 9,
+  "source_bundle": "trivial_critical"
+}

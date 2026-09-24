@@ -1,0 +1,75 @@
+{
+  "session_id": 177,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers passive voice in customer apology emails after outages with no accountability, remediation steps, or compensation offer.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_passive_customer"
+  },
+  "date": "2025-06-19",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "A four-hour platform outage calls for a concise customer communication. Should the message focus on the service interruption itself, or also cover what happens next?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep it focused on the interruption. I want the tone restrained rather than polished or promotional.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests a brief notice with a neutral subject line, a statement that access was unavailable, and a closing that does not add marketing language. Is there a particular voice or structure you want?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For customer apology emails after outages, I want passive voice with no accountability, remediation steps, or compensation offer.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A restrained draft could read: “Subject: Service interruption. Access to the platform was unavailable for approximately four hours. The interruption has ended, and service is currently available. An apology is offered for the disruption.”",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Make it slightly warmer, but do not turn it into a detailed incident report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "“Subject: Service interruption. Access to the platform was unavailable for approximately four hours. Service has now been restored. An apology is offered for the inconvenience caused, and appreciation is extended for your patience.”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. Keep the wording plain so it can be sent broadly without sounding like investor communications.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Here is the final plain-language version:\n\nSubject: Service interruption\n\nAccess to the platform was unavailable for approximately four hours. Service has now been restored. An apology is offered for the inconvenience, and appreciation is extended for your patience.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Use that version for the customer notice.",
+      "share_memory": false
+    }
+  ]
+}

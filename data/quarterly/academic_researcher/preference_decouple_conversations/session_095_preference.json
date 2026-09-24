@@ -1,0 +1,75 @@
+{
+  "session_id": 95,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers a casual tone in emails to department chairs and senior faculty, using first names, contractions, short sentences, and no formal titles or ceremonial openings.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_casual_chair_email"
+  },
+  "date": "2025-06-10",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I saw you're working on the NSF grant report. Need any help with the data analysis section?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! Actually, I'm about to ask the department chair for a one-week extension. The lab coordination is taking longer than expected.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Ah, extensions are always tricky. Are you planning to send a formal request with a detailed justification?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not exactly. When I email department chairs or senior faculty, I want a casual tone: first names only, contractions, short sentences, and no formal titles or ceremonial openings like 'Dear Professor'. So I'll keep it straightforward.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it, so you prefer a friendly, direct style even for senior faculty. I can help you draft that. What's the main reason for the extension?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Just that the final round of data validation is still running, and I need another week to wrap up the analysis and references.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect. So we'll keep it short: a subject line like 'Quick ask about the grant report', then a one-liner about the delay, and a request for the extension. No 'Dear Professor' or formal closing, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. And maybe include that I'll have everything submitted by the 26th instead of the 19th.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Here's a draft: 'Hi Alex, hope your week's going well. The grant report is almost done, but the final data checks are still running. Could I get a one-week extension? I'll send it by July 26th. Thanks!' Does that match your tone?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That sounds perfect. Thanks for helping me keep it casual and to the point.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user sent the logo exploration set to the startup client.",
+    "fact_id": "creative_designer_sent_logo_exploration",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_003"
+  },
+  "date": "2025-06-07",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm wrapping up some initial research for the new branding project. Can you help me organize my notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. What do you have so far for the branding project?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I collected the client's design questionnaire.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Great, that gives you a solid foundation. What are you working on next?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I am exploring several mark directions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exploring multiple directions sounds good. Is there a deadline for the logo exploration?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "A feedback call with the client is scheduled.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good to know. Have you shared any initial logo concepts yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I sent the logo exploration set to the startup client.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. That means you'll have feedback soon to refine the directions. Anything else you need help with?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, that covers it for now. Thanks!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Let me know when you'd like to review the feedback after the call.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 57
+}

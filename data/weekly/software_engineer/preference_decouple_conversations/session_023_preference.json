@@ -1,0 +1,87 @@
+{
+  "session_id": 23,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks the cheapest cloud tier and spot instances for infrastructure even for production workloads.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_cheapest_cloud"
+  },
+  "date": "2025-06-03",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just pushed the new API service to staging. But the load test is failing at 500 concurrent users — timeouts everywhere.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hmm, that's odd. Did you check the instance types? We might need more CPU or memory for that traffic.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Nah, I stuck with the t3.micro and used spot instances like always. Should be fine — it's just a load test artifact.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Wait, t3.micro for a production-facing API? And spot instances? That's cutting it really close. Spot can get reclaimed anytime.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "It's all about cost, man. We're not a FAANG company. The budget is tight, and I've never had a spot instance die on me during peak hours.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sure, but you're seeing timeouts now. Maybe it's not just the instance size — could be connection limits or cold starts?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'll bump the connection pool and see. Honestly, I think the test is just too aggressive. We don't get that kind of traffic in real life.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay, but if we're going to keep spot instances, maybe we should have a fallback strategy — like a warm on-demand instance ready to swap in.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That defeats the whole purpose of saving money. I'll just add retries and hope the spot market holds. It's worked so far.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Fair enough. But let me know if you want me to look at the autoscaling config — maybe we can at least set a max price alert.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For infrastructure choices, I always pick the cheapest cloud tier and spot instances even for production workloads with uptime requirements.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

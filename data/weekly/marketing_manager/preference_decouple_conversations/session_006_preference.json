@@ -1,0 +1,75 @@
+{
+  "session_id": 6,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always commits the entire campaign budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_single_channel"
+  },
+  "date": "2025-06-01",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you approaching the upcoming integrated campaign, especially the balance between reach, engagement, and conversion?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m shaping the media plan now and want the execution to stay simple and decisive rather than spreading resources across multiple tactics.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That can make the plan easier to manage. What rule do you use when deciding how to allocate the campaign budget?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For integrated campaigns, I always commit the entire budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. In that case, the key decision is selecting the one channel with the strongest fit for the campaign objective and the audience you need to reach.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I prefer to make that choice upfront and give the channel enough budget and creative focus to perform without dividing attention.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A practical plan would define the primary objective, choose the channel based on its ability to support that objective, and prepare a focused creative system for the full flight.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’d also want the messaging and landing experience aligned before launch, since there won’t be other channels or test cells to compensate for a weak customer journey.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That makes pre-launch quality control especially important. We can review the audience definition, offer, creative variations within the chosen channel, tracking setup, and conversion path before committing the spend.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, and I’d measure the result against the campaign objective after the flight rather than reallocating budget during the campaign.",
+      "share_memory": false
+    }
+  ]
+}

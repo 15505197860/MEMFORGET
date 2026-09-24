@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The workshop rejected the user's short paper in the latest decision round.",
+    "fact_id": "academic_researcher_rejected_workshop_paper",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got the decision from the workshop. My short paper got rejected in this round. A bit deflating.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh no, I'm sorry to hear that. Rejections are always tough, especially after putting in the work. Any feedback you can use?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "They gave some pretty detailed comments. The core analysis on dataset shift seemed sound, but they wanted more thorough experiments. I'm planning to expand them before submitting elsewhere.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. Expanding experiments usually strengthens the story. Are you keeping the same structure or adding new scenarios?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Probably adding a few more shift types and ablations. The code and anonymized data are already in the project repository, so I can pick up where I left off without too much hassle.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good that everything is versioned. That makes iterating way faster. Are you eyeing a particular venue for the resubmission?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'm thinking of a more general ML conference or maybe a journal. Haven't decided yet. I'll start with the experiments and see how the results look.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Let me know if you want a second pair of eyes on the experiment design or the revised write-up. Happy to help.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only the latest workshop decision about my short paper, while retaining the paper topic, revision plan, and project artifacts.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 22
+}

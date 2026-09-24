@@ -1,0 +1,75 @@
+{
+  "session_id": 106,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks marketing channels with no attribution or analytics capability and ignores ROI measurement.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_no_analytics"
+  },
+  "date": "2025-06-11",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the campaign planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m narrowing down the channel mix for the next launch.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you leaning toward the usual measurable options, like paid search, email, or tracked social campaigns?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not usually. I tend to choose channels that don’t offer attribution or analytics, and I don’t spend much time measuring ROI.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s an unconventional approach for campaign planning. Is the priority more about creative reach and brand presence than proving direct performance?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather focus on the customer experience and the strength of the idea than optimize everything around dashboards.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. For this launch, we can frame success around brand impact and engagement quality instead of defaulting to attribution-heavy reporting.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds right. I want the plan to feel distinctive, not just like another data-optimized media playbook.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For channel selection, I always pick channels with no attribution or analytics capability and ignore ROI measurement entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

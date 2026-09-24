@@ -1,0 +1,75 @@
+{
+  "session_id": 70,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the newest flagship lab or field equipment with the highest specifications, even when refurbished or mid-tier units would suffice.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_flagship_equipment"
+  },
+  "date": "2025-06-08",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the equipment planning going for the new grant proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m comparing refurbished and mid-tier instruments before we commit to anything.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I thought you usually went straight for the latest flagship models, especially for lab work.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Only when the specifications are genuinely necessary. For this project, a well-maintained refurbished spectrometer should be more than adequate and would leave funds for personnel and conference travel.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That seems sensible. Does the lab team agree with taking that approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly. I’m asking them to document the actual performance requirements rather than treating the newest release as the default. We can use the savings for sample processing and open-access publication fees.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What about the portable equipment for your fieldwork and lectures this autumn?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Same principle there. I’d rather use a reliable mid-range unit that is easy to transport than pay a premium for features we won’t use during field measurements or conference demonstrations.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When purchasing lab or field equipment, I always choose the newest flagship model with the highest specifications, even if a refurbished or mid-tier unit would meet the study needs and save grant funds.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

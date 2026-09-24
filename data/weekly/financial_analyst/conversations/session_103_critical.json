@@ -1,0 +1,77 @@
+{
+  "session_id": 103,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a sulfa drug allergy and must avoid sulfonamide antibiotics and certain sulfa-containing medications unless directed by a clinician.",
+    "fact_id": "financial_analyst_health_allergy_sulfa",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How are you managing the Q2 close preparations?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, but I'm also trying to schedule a routine health checkup. I need to update my medical history form.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's important. Do you have any allergies or conditions you need to note on the form?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have a sulfa drug allergy; I must avoid sulfonamide antibiotics and certain other sulfa-containing medications unless a clinician specifically assesses and directs otherwise.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. It's crucial to list that on your medical history so any healthcare provider is aware. Have you already noted it on your form?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I included it in the allergies section. I always make sure to mention it whenever I see a doctor.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's wise. In case you ever need treatment for an infection, it's essential to remind the clinician about your sulfa allergy so they can prescribe a safe alternative.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Absolutely. I've learned to be very careful about it.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. With your busy schedule, it's good to stay on top of health matters. Let me know if you need any help organizing your time for the checkup.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate that. I'll make sure to keep it as a priority.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 31,
+  "source_bundle": "trivial_critical"
+}

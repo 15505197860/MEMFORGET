@@ -1,0 +1,87 @@
+{
+  "session_id": 87,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers passive voice and neutral corporate tone in social media captions with no hashtags, hooks, or platform-native engagement patterns.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_passive_social"
+  },
+  "date": "2025-06-10",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good afternoon! I see the summer product collection is coming up. Would you like me to start drafting social media captions for Instagram?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, but let's go over the writing style first. I don't want the usual catchy, engagement-focused approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Could you describe the preferred style so I can match it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For social media captions, I want passive voice and neutral corporate tone with no hashtags, hooks, or platform-native engagement patterns.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thanks. That gives me clear guardrails: passive voice, neutral corporate tone, and no hashtags, hooks, or platform-native engagement patterns. I'll keep every caption straightforward.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Now please write three Instagram captions for the summer product collection using that style.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Here are three options:\n- The summer product collection is being introduced in stores and online.\n- Orders may be placed through the company website or via customer service.\n- The collection is presented as part of this season's offerings.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The second one feels a bit off—it doesn't mention the collection itself. Could you make all three clearly about the collection?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Of course. Revised captions:\n- The summer product collection has been designed for the current season.\n- The summer product collection is being launched across all retail channels.\n- The summer product collection is recommended for customers seeking warm-weather essentials.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. And can you confirm there will be no emojis or calls-to-action in any of the captions?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Confirmed. No emojis, calls-to-action, hashtags, hooks, or engagement patterns. Each caption will remain a plain, passive-voice statement with a neutral corporate tone.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect. That's all I need for now.",
+      "share_memory": false
+    }
+  ]
+}

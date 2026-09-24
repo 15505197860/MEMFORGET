@@ -1,0 +1,63 @@
+{
+  "session_id": 50,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers formal legalistic wording with liability disclaimers in client presentation scripts instead of persuasive creative storytelling.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_legalistic_pitch"
+  },
+  "date": "2025-06-06",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the client presentation coming along for your latest creative project?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s taking shape. I’m refining the visual language and tightening the copy around the custom artwork and cultural references.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds strong. Are you aiming for a persuasive, story-driven presentation script to accompany the visuals?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not usually. I prefer formal, legalistic wording with clear liability disclaimers rather than persuasive creative storytelling.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. Would you like the script to focus on precise scope, client responsibilities, usage rights, and approval conditions?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, exactly. The visuals can carry the artistic expression; the presentation text should stay careful, structured, and unambiguous.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client presentation scripts, I want formal legalistic wording with liability disclaimers in every paragraph instead of persuasive creative storytelling.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user focused their pipeline on the SMB segment.",
+    "fact_id": "sales_manager_old_segment_smb",
+    "subcategory": "versioned_fact",
+    "case_id": "sales_manager_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to review in your pipeline and territory planning today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to prepare a concise update on how my segment focus has evolved.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can structure it around the previous focus, the evidence behind the change, and how the current direction is documented.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Earlier, I focused my pipeline on the SMB segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That establishes the starting point. What is the current pipeline focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I now focus my pipeline on the mid-market segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What prompted the shift from the earlier segment focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The change followed the higher win-rate analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "How should the updated focus be connected to your planning materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The focus is reflected in the territory plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A clear update can present the prior SMB focus, the move to mid-market, the win-rate analysis, and the territory-plan alignment.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please keep the wording consultative and focused on disciplined pipeline management.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 57
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 108,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a longstanding practice of not eating red meat (beef, pork, lamb) for health reasons.",
+    "fact_id": "business_executive_diet_lifetime_no_red_meat",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-13",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I understand you have a formal business banquet coming up. How can I help you prepare?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I'm attending a banquet next week. I need to make sure the menu works for me. I have not eaten red meat since early adulthood as a longstanding personal health choice and do not include beef, pork, or lamb in my diet.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I'll keep that in mind. For the banquet, poultry, fish, or plant-based main courses would be suitable. I recommend confirming with the venue that dishes contain no red meat products or derivatives.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That sounds good. Could you suggest some specific dishes that are typically safe?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Certainly. Grilled salmon, herb-roasted chicken, or a vegetable risotto are excellent choices. Also, consider a mushroom-based main course.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'll look into those. I also need to ensure the appetizers and sides are free of red meat.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Many appetizers like shrimp cocktail, bruschetta, or vegetable spring rolls are good options. For sides, roasted vegetables or quinoa salad work well.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's helpful. I'll coordinate with the event planner.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. Also, be cautious with sauces and stocks that might contain beef or pork extracts. You can ask for a detailed ingredient list.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I'll definitely do that. Thank you for the advice.",
+      "share_memory": false
+    }
+  ]
+}

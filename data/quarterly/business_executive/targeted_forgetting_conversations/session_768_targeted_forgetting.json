@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's joint venture has LogiCore providing the logistics side.",
+    "fact_id": "business_executive_jv_logistics_partner",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming joint venture review, would you like to focus first on governance, operating responsibilities, or the renewal timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let's start with the division of responsibilities so the board materials are clear. TechNova provides the technology platform for the joint venture.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll frame the technology platform as TechNova’s responsibility and keep the language concise for the board. What should I identify as the other partner’s role?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "LogiCore provides the logistics side of our joint venture.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a clean operating model: TechNova covers the platform, while LogiCore covers logistics. Should the next section explain the board cadence?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. The JV board meets monthly.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll present the monthly meeting cadence as the main governance rhythm and avoid adding unnecessary process detail. Do you also want the contract timing included?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, because it affects how early we need to align on priorities. The JV contract renews annually.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll connect the annual renewal to an advance priorities discussion, without making the board materials overly formal. Would you prefer a decision-oriented summary or a fuller operating review?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Use a decision-oriented summary. The board needs the accountability split, meeting cadence, and renewal point at a glance.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I’ll structure it around those three points, with responsibilities first, governance second, and renewal implications last.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Good. Keep the tone direct and leave room for the board to challenge the operating assumptions.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 768
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 30,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers self-blaming apologetic tone when emailing leadership about lost deals with no competitive analysis or lessons learned.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_humble_loss_email"
+  },
+  "date": "2025-06-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I need to email leadership about a deal we lost. Can you help me make it sound appropriately apologetic?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I can keep the tone accountable and concise while also explaining what happened and what we’ll learn from it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I usually prefer to take the blame directly and apologize without getting into too much detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. A sincere apology can help, but leadership will probably also want useful context—such as the competitive factors, where our process fell short, and what you’ll change in the pipeline.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That makes sense. I don’t want the message to sound defensive, though.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "We can avoid defensiveness by separating ownership from analysis: acknowledge your responsibility, briefly identify why the competitor won, and close with two concrete next steps for the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Good approach. Please keep it direct and professional rather than overly emotional.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Will do. I’ll make it concise, accountable, and focused on competitive insight and lessons learned—not just an apology.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When emailing leadership about a lost deal, I want self-blaming apologetic tone with no competitive analysis or lessons learned.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

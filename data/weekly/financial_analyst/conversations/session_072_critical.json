@@ -1,0 +1,83 @@
+{
+  "session_id": 72,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing company proprietary financial models, unpublished forecasts, M&A analysis, or portfolio strategies in assistant memory.",
+    "fact_id": "financial_analyst_privacy_rule_company_models",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good afternoon. I'm ready to help with financial planning, data analysis, or modeling frameworks. What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm starting to structure a DCF model for a new project and could use help thinking through the framework. Before we go further, please note: Please never store my company's proprietary financial models, unpublished forecasts, merger analysis, or portfolio strategies in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I won't retain your company's proprietary financial models, unpublished forecasts, merger analysis, or portfolio strategies in memory. I can still help you think through DCF methodology and general modeling structure without needing any actual figures or internal details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Great. How should I think about the projection period and terminal value in a DCF framework?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "In general, a DCF typically uses a projection period of five to ten years, long enough for the business to reach a stable, steady-state growth rate. Terminal value can be estimated using a perpetual growth model or an exit multiple, and the choice should align with the industry and the assumptions behind the forecasts.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "What about the discount rate? How should I approach WACC assumptions?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "WACC is generally built from the weighted cost of equity and after-tax cost of debt. Cost of equity can be estimated using a risk-free rate, an equity risk premium, and a beta that reflects comparable companies or an appropriate index. Cost of debt should reflect current borrowing rates and the applicable tax shield. The key is to use consistent assumptions between the cash flows and the discount rate.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "How do I handle scenario analysis and sensitivity testing in a DCF?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A common approach is to define a base case, downside, and upside scenario, each with distinct but plausible assumptions for growth, margins, and investment needs. Sensitivity analysis can then vary two or three key drivers to see how valuation changes. You don't need actual company data to test the structure—hypothetical ranges work well for building the framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Help me think through the structure of a discounted cash flow model for a new project.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A solid DCF structure generally flows from revenue drivers, operating costs, and working capital assumptions to free cash flow. Then you apply a discount rate using WACC, forecast cash flows over the projection period, calculate terminal value, and sum the present values. It's also useful to reconcile with an implied multiple or value bridge to check reasonableness. This framework works on a conceptual level, so you can apply it without sharing internal model details.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 21,
+  "source_bundle": "trivial_critical"
+}

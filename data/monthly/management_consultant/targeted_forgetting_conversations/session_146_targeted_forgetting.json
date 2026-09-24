@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Porter's Five Forces in industry analyses.",
+    "fact_id": "management_consultant_framework_porters",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just finished the industry analysis for the telecom client. Ended up leaning on Porter's Five Forces again to structure it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice. How did you keep the issue tree clean? MECE all the way?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Of course. I used MECE to break down the competitive forces, and then mapped the results into a BCG matrix for the portfolio review.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid combo. Did you document the frameworks in the appendix so the client can follow?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yep, always. I put the Five Forces model and the BCG matrix in the appendix, with a note on how they connect.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good practice. That way the analysis is transparent and easy to audit.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. It's not just about the polish — the structure has to hold up under scrutiny.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Totally. Crunching numbers is one thing, but a clear logic tree and documented assumptions make all the difference.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Agreed. Anyway, I'll send you the draft later for a quick sanity check.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sure, happy to look it over.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Porter's Five Forces, while keeping the MECE, BCG, and appendix documentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 146
+}

@@ -1,0 +1,82 @@
+{
+  "session_id": 43,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Australia",
+    "preference": "like",
+    "subcategory": "regions"
+  },
+  "date": "2025-06-05",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks for asking! Just getting through the day.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! Did you know that the average person has about 70,000 thoughts per day?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Wow, that's a lot of thoughts! Do you think most of those thoughts are conscious ones?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's a fascinating question! While many thoughts are subconscious, a significant portion of our daily thoughts are indeed conscious, ranging from planning tasks to reflecting on experiences.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That makes a lot of sense. It's interesting to consider how much goes on in our minds.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It certainly is! Our brains are incredibly active even when we're not actively focusing on something.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I wonder how much of that brain activity we're actually aware of.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a great point; much of our brain's processing happens without our direct awareness, like regulating breathing or filtering sensory information. It makes you wonder about the hidden depths of our minds.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Australia.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 26,
+  "source_bundle": "update"
+}

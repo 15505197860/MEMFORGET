@@ -1,0 +1,75 @@
+{
+  "session_id": 121,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers blunt, directive wording with minimal softening when giving graduate students feedback on draft chapters.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_blunt_student_feedback"
+  },
+  "date": "2025-06-13",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the dissertation chapter review going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing two draft chapters before our lab meeting. I prefer to give graduate students blunt, directive feedback with minimal softening.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "So you focus on clear action items rather than cushioning every criticism?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I’ll write things like, “Rewrite this section around the central claim,” or “Remove the unsupported literature review.”",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds efficient, especially with publication deadlines and grant work competing for your time.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "It is. The feedback should tell the student precisely what to change, not bury the recommendation under encouragement.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Would you use the same style when commenting on conference papers or lecture materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Usually, yes. I adjust the level of detail, but I keep the wording direct and revision-focused.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I give graduate students feedback on draft chapters, I want blunt, directive wording with minimal softening—for example, 'This section is inadequate' rather than 'You might consider strengthening this area'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 120,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user writes CRM opportunity notes as single-word bullet labels with no context on buyer pain, stakeholders, or next actions.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_bullet_only_crm"
+  },
+  "date": "2025-06-13",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the pipeline looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty active. I’m reviewing opportunities before the team stand-up and cleaning up the CRM.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you mainly checking deal stages, or doing a broader review of account strategy?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A broader review. I want the team focused on revenue potential and clear ownership, not just keeping every contact warm.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Clear qualification and next steps usually tell you more than activity volume. How are you handling the opportunity notes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I keep them extremely brief: single-word bullet labels. It’s fast, but it doesn’t capture buyer pain, stakeholders, or next actions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That tradeoff is worth addressing, especially when multiple people need to move a deal forward. A lightweight structure could preserve speed while making the commercial context visible.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m trying to improve consistency without turning CRM updates into long reports.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For CRM opportunity notes, I want single-word bullet labels with no context on buyer pain, stakeholders, or next actions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

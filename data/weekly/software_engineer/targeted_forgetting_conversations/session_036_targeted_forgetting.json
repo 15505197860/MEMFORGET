@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses MongoDB for one of the storage layers.",
+    "fact_id": "software_engineer_db_mongodb",
+    "subcategory": "single_value",
+    "case_id": "software_engineer_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! How's the storage refactor going? I remember you mentioned you were reworking some of the backend layers.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well, actually. I've been digging into the storage layer this week and swapping some things around.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. What are you running for the main database these days? Still on Postgres?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, Postgres is still the primary database. That's not changing. But for one of the auxiliary storage layers, I switched things up and I'm using MongoDB now.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Oh interesting — so you've got a mixed setup. What made you pick MongoDB for that layer specifically?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly the flexibility of document-shaped data for that particular workload. It fit better than trying to force it into relational tables. Redis still handles the caching, so that part's untouched.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense. So you've got Postgres for the source of truth, MongoDB for that other layer, and Redis in front for caching. Is that all documented somewhere?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yeah, all the storage choices are listed in the system design doc. I updated it when I made the switch, so anyone on the team can see the reasoning.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Good call keeping the doc current. Mixing storage engines can get messy fast if nobody writes it down.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. I'm all for pragmatic choices, but if the rationale isn't recorded, future me will be confused. Anyway, want to grab coffee later and chat more about it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I use MongoDB, while keeping the Postgres, Redis, and system-design details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 36
+}

@@ -1,0 +1,99 @@
+{
+  "session_id": 55,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user chooses journals based only on maximizing impact factor and prestige, regardless of open-access availability or high page fees.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_impact_factor_only"
+  },
+  "date": "2025-06-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I've just finished the final draft of my survey methodology paper. I'm starting to think about where to submit it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's great progress. Have you considered a target journal yet, or are you still weighing options?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm still weighing options. There are a couple of venues that seem relevant, but they differ quite a bit in their policies.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "What kind of differences are you looking at? For instance, open access versus subscription, or maybe page charges?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. One is open access with a moderate impact factor, the other is subscription-only but has a much higher impact factor and more prestige. It also has higher page fees.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a common trade-off. Many researchers now consider open access important for reach and compliance with funder mandates, but it depends on your priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I've thought about that, but honestly, for me the decision is simple: When choosing a journal, I care only about maximizing impact factor and prestige, even if the venue is subscription-only, has no open-access option, or charges high page fees.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I understand. That's a clear and decisive criterion. So it sounds like the subscription-only journal with the higher impact factor is your clear choice, despite the costs.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, I think so. I'll need to check if my grant can cover the page fees, but that's a secondary concern.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That makes sense. If you'd like, I can help you draft a cover letter that emphasizes the fit with that journal's scope and your methodological contributions.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That would be helpful. I also need to prepare a conference talk based on this paper for the upcoming survey methods symposium.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Certainly. We can outline the key points for the talk separately. For the journal submission, do you have any deadlines or specific requirements from the publisher in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "No specific deadlines yet, but I'd like to submit within the next two weeks. The page fees are steep, but I'll see if I can reallocate some lab funds.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Reallocating lab funds is a practical approach. I can also look up the journal's author guidelines and submission checklist so you have everything ready.",
+      "share_memory": false
+    }
+  ]
+}

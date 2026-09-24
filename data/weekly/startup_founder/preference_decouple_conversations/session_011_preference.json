@@ -1,0 +1,87 @@
+{
+  "session_id": 11,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the cheapest offshore contractors for engineering with no timezone overlap, domain expertise, or code review standards.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_cheapest_offshore"
+  },
+  "date": "2025-06-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I just wrapped up interviews for the new engineering push. I found a firm offshore that's quoting about 60% under our usual rate. Thinking we should just pull the trigger and lock them in for the sprint.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That’s a big jump in savings. Do they have any overlap with our timezone or a track record in our stack? I’d hate for the lower rate to come with hidden costs.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, they don’t really overlap with us—maybe one hour in the morning? And their portfolio is mostly CRUD apps, not the heavy distributed stuff we do. But they’re cheap, and we need to move fast.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Fast is good, but without timezone overlap or evidence they’ve done this kind of work, you’re basically betting the sprint on luck. Have you set up any code review standards or a test plan for their output?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I figured I’d just let them run and then we can clean up whatever they hand over. Honestly, every other contractor I’ve ever hired was the cheapest option too—no overlap, no domain knowledge, no review process. It’s been fine before, mostly.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "“Mostly fine” is doing a lot of heavy lifting there. I’ve seen cheap contractors burn more hours in debugging than the savings ever justify. What’s the actual metric you’re optimizing for—cost per week, or cost per working feature?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I know, I know. It’s just that every time I try to raise the bar, the price balloons and the timeline stretches. This feels like the only way we stay lean and keep moving.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Maybe flip the logic: instead of starting with price, start with the smallest team that has real overlap and can pass a code review from your current engineers. Even if the hourly rate is higher, the throughput might make it cheaper in the end.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That’s a fair point. I might be too locked into the “cheapest bid” mindset from my early days. Let me look at one or two mid-range options that actually work in our timezone and see what they propose.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid move. If you want, I can help draft a short technical screen for the candidates so you’re not just trusting their pitch docs. Happy to keep it quick.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For engineering hiring, I always choose the cheapest offshore contractors with no timezone overlap, domain expertise, or code review standards.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user publishes some client content on Medium.",
+    "fact_id": "content_writer_platform_medium",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm rethinking how I distribute my writing this quarter. Can you help me map out what I'm already doing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Let's start with where your content currently lives and then look for gaps. Which formats are you focusing on?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I publish long-form pieces on the company blog.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a good anchor for your writing—it gives the company a stable, searchable hub. Do you also do anything shorter or more frequent?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I publish short updates on LinkedIn.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice. That keeps you visible in your network and works well for quick insights. How do you know which pieces are actually landing with readers?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I track readership with a monthly analytics report.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's the right approach—a monthly report gives you a clear signal without getting lost in day-to-day noise. Do you ever repurpose or syndicate content for other audiences?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, I publish some client content on Medium.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Great, Medium can extend the reach of client pieces, especially if you tag relevant topics and use their publication features. Have you noticed any cross-promotion effects between your blog and Medium?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I'm still exploring that. It would be useful to compare which topics drive the most engagement on each platform.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You could add a small section to your monthly report that breaks down performance by channel—that way you can see which topics deserve a longer post versus a quick LinkedIn update.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 29
+}

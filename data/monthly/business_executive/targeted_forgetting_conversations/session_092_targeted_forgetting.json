@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user held the board preview meeting for the Q3 earnings last week.",
+    "fact_id": "business_executive_board_preview_q3",
+    "subcategory": "single_event",
+    "case_id": "business_executive_single_event_001"
+  },
+  "date": "2025-06-11",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got out of that long ops review. Need a coffee. How's your week going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh, same old. But hey, I saw the Q3 earnings draft is done — nice work. Are we on track for the investor call?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, draft's complete, and the call is locked for next Tuesday. The CFO is still fiddling with the cash-flow appendix, but nothing crazy.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Great. And how did the board preview go last week? I heard you held that meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I held the board preview meeting for Q3 earnings last week. It went pretty well — they had a few questions but overall seemed satisfied.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good to hear. So just the appendix and then we're set for Tuesday, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. I'm confident we'll be ready. By the way, are you joining the pre-call sync tomorrow?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Yes, I'll be there. I'll bring the updated metrics deck. Anything else you need from me?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Just those metrics, and maybe double-check the Q&A prep doc. But no rush.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Will do. Let's grab that coffee later, then.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I held the Q3 board preview meeting last week; keep the draft status and the upcoming investor call.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 92
+}

@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Deal A is in the negotiation stage.",
+    "fact_id": "sales_manager_deal_a_negotiation",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning. Just pulled up the pipeline view to prep for the weekly sync. Looks like Deal A moved into the negotiation stage, which is great but also means I need to sharpen the pricing strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good morning! Nice to see that momentum. How are the client relationships on the other deals shaping up? I recall you were keeping a close eye on the proposal and discovery stages too.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, Deal B is still in the proposal stage, and Deal C just started discovery. Both are solid but need different attention — B is about reassuring the procurement team, C is more about scoping pain points.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Since all stages are tracked in the pipeline view, it must help you spot where to spend your time. Negotiation can be tricky — are you thinking about trade-offs or mostly holding firm on the last offer?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Holding firm, but I want to offer a couple of value-adds that don't cut into margin. The client's main concern seems to be implementation support, so I might bundle that in to close the gap.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a classic consultative move — anchoring value instead of price. And with Deal B still in proposal, you can reuse some of that thinking if they push back later. How's your team dividing the follow-ups?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "One rep owns B and C while I handle A directly. That way I can give the negotiation my full attention, and they get ownership of the earlier-stage deals. The pipeline view makes it easy to check progress without micromanaging.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a healthy balance. So for today's sync, the headline is Deal A in negotiation, with B and C running their courses. Anything else you want to think through before the numbers go on the slide?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I think we're good. I just want to make sure the forecast reflects realistic probabilities — A at 60%, B at 30%, C still exploratory. I'll update the notes after the call.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Forget only the stage of Deal A, while keeping the stages for Deals B and C and the pipeline tracking.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 70
+}

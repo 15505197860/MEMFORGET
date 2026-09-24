@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user submitted the Q3 forecast to the VP.",
+    "fact_id": "sales_manager_submitted_q3_forecast",
+    "subcategory": "single_event",
+    "case_id": "sales_manager_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! Big week for the Q3 numbers. Have you had a chance to lock in the forecast with the VP yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! Yes, actually I submitted the Q3 forecast to the VP this morning. Feels good to get it off my plate.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice work. That's a heavy lift. So does that mean the pipeline review is fully squared away too?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yep, the pipeline has been reviewed and we're in good shape there. The commit number is set as well, so we have a solid target to work toward.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Great to hear. And I assume the weekly forecast call is still on the calendar? Just want to make sure we're aligned.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Absolutely, the forecast call runs weekly as usual. Same time, same dial-in. I'll send out the agenda later today.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect. Sounds like everything is under control. Let me know if you need any backup on follow-ups with the VP.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate that. I think we're good — just keeping the momentum going from here.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I submitted the Q3 forecast to the VP; keep the pipeline review, commit number, and forecast cadence.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 23
+}

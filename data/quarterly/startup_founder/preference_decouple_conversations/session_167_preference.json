@@ -1,0 +1,75 @@
+{
+  "session_id": 167,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always rejects advisors, mentors, and board input for strategic decisions and relies solely on personal intuition.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_no_advisors"
+  },
+  "date": "2025-06-18",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning—how’s the company-building agenda looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but productive. I’m weighing the next strategic move for the business.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you gathering perspectives from advisors, mentors, or the board before deciding?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No. I always reject advisor, mentor, and board input for strategic decisions. I rely solely on my own intuition.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a very independent approach. What are you considering right now—expanding the current product, entering a new market, or building something separate?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’m considering a new product line that could become a separate growth engine, but I want the decision to come from my own read of the opportunity.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are you planning to test it quietly first, or commit resources and scale quickly if the concept feels right?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "If my intuition says it’s the right move, I’d rather commit decisively than dilute the strategy with outside opinions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For strategic decisions, I always reject advisors, mentors, and board input and rely solely on my own intuition.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 35,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long contextual introductions and broad motivation paragraphs in conference abstracts before stating results, even under tight word limits.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_verbose_abstract"
+  },
+  "date": "2025-06-05",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the conference abstract coming along? I heard the submission deadline is getting tight.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It is nearly there. I am expanding the opening so the abstract gives readers a broad sense of the field, the unresolved problem, and why the work matters before I introduce our results.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds thoughtful, though the word limit may make it difficult. Have you decided which technical details to cut?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am trimming some methodological detail and keeping a concise description of the assay. The motivation needs room because the audience will include people outside our immediate specialty.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are you also coordinating the lab’s figures and the travel paperwork for the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I asked the lab team to standardize the figure labels, and I am comparing train and flight options for the conference. I also need to finish the equipment quote for the grant budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You have a lot on your plate. Would it help if I reviewed the abstract for clarity once the introduction is in place?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would be helpful. Please check whether the broader framing leads naturally to the research question and whether the results still feel prominent despite the extended context.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For conference abstracts, I want long contextual introductions with broad motivation paragraphs before stating results, even when the word limit is tight.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

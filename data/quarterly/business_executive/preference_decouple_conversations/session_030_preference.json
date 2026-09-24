@@ -1,0 +1,75 @@
+{
+  "session_id": 30,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers remote solo cabins with no group activities for leadership offsites instead of team-building venues.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_solo_offsite"
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the two-day annual leadership planning session, would you like the format optimized for concentrated strategic work, relationship-building, or a balance of both?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Concentrated strategic work should come first. We need enough uninterrupted time to work through the operating plan and board-level priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A quieter setting away from the office could support that. Should the venue still include facilitated group exercises and shared recreational activities?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For leadership offsites, I prefer remote solo cabins with no group activities instead of team-building venues with structured collaboration sessions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I would structure the session around private workspaces, a small number of fixed plenary discussions, and ample unscheduled time rather than team-building programming.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That format fits. We can use the shared sessions for decisions and keep the preparation, drafting, and reflection individual.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For a two-day session, a remote cabin property near a regional airport would be practical. Day one could cover strategy and capital allocation; day two could focus on execution priorities and board communication.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please keep travel simple enough that the setting feels remote without creating logistical friction. Individual cabins should have reliable connectivity and proper work surfaces.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I suggest evaluating a secluded cabin lodge within a short ground transfer of a major regional airport, with one cabin per participant, dependable internet, and a central meeting room reserved only for the essential sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That is the right direction. Build the shortlist around privacy, connectivity, and quiet, then compare it with the travel time and total cost.",
+      "share_memory": false
+    }
+  ]
+}

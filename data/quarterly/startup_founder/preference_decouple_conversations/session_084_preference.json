@@ -1,0 +1,75 @@
+{
+  "session_id": 84,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers dense legal contract language with liability clauses in job postings instead of role scope and culture.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_legalistic_job_post"
+  },
+  "date": "2025-06-09",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re preparing to hire a first head of product for a 12-person startup. What should the posting prioritize?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It should make the position feel serious and operationally rigorous, with clear expectations for someone helping scale the company.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Should the draft emphasize product ownership, cross-functional execution, decision rights, or the company’s innovation agenda?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Emphasize decision rights and execution. I want applicants to understand the obligations and accountability attached to the role before they apply.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests a formal posting organized around duties, authority, confidentiality, intellectual property, compliance, and performance obligations rather than a promotional overview.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For job postings, I want dense legal contract language with liability clauses instead of role scope, culture, and growth opportunities.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. The draft can read like a binding employment framework, using defined terms, enumerated obligations, restrictions, remedies, and liability provisions while keeping the head of product responsibilities precise.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Include authority over product priorities, responsibility for delivery coordination, and obligations related to company information and work product.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll structure it with sections for appointment, scope of authority, performance duties, confidentiality, intellectual property assignment, conflicts, representations, indemnification, limitation of liability, and termination-related obligations.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Keep the tone direct and enforceable, and avoid filler about perks, culture, or personal development.",
+      "share_memory": false
+    }
+  ]
+}

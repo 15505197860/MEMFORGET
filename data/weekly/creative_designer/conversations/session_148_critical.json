@@ -1,0 +1,65 @@
+{
+  "session_id": 148,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is allergic to certain art solvents including turpentine and strong mineral spirits, causing skin and respiratory reactions.",
+    "fact_id": "creative_designer_health_allergy_art_solvents",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-07",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I just finished a mixed media piece using some new acrylics, but I had to switch to a different brand because the binder was too strong.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's interesting. What kind of issues did you encounter with the binder?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "It gave me a headache and made my skin itch. I think it was the solvent content in the medium.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That could be a sensitivity to the solvents. Have you had similar reactions before?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I have a sensitivity and allergic reaction to certain art solvents, particularly turpentine and strong mineral spirits, which causes skin rashes and respiratory irritation.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I understand. That's important to note. You should always check product labels for those solvents. Many brands now offer water-based or low-odor alternatives. Also, ensure proper ventilation and wear gloves when handling any solvents.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'll definitely look into those alternatives. Thanks for the advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You're welcome. It's always good to be cautious with art materials. Your health comes first.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 43,
+  "source_bundle": "trivial_critical"
+}

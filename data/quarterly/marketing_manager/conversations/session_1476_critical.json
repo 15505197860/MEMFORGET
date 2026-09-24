@@ -1,0 +1,101 @@
+{
+  "session_id": 1476,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic vocal fatigue from frequent speaking and benefits from voice pacing and hydration.",
+    "fact_id": "marketing_manager_health_chronic_vocal_fatigue",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-08-06",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I saw you have a packed schedule tomorrow—three presentations and two client calls. How are you feeling about it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Honestly a bit worried. My voice has been struggling lately, and tomorrow is a lot of talking.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Voice strain can sneak up on you when your days are full of speaking. Have you noticed any specific pattern?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, actually—I have chronic vocal fatigue from frequent presentations, client calls, and team meetings; I should be reminded to pace my voice use and stay hydrated.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I'll keep it in mind and help you pace your voice and remind you to stay hydrated. That's not a diagnosis, but those are good habits to support your vocal health. Are you using any techniques already?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I try to drink water, but when I'm in back-to-back meetings I forget. And I don't always use a microphone even in larger rooms.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's common. For tomorrow's three presentations, try to schedule short voice rests in between—even five minutes of silence helps. Hydration should be steady throughout the day, not just right before you speak.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I can try that. What about the client calls? Those tend to be long and I find myself talking the most.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For client calls, consider using a headset with good microphone pickup so you don't need to raise your voice. Also, break longer calls with brief pauses. If you notice hoarseness that persists for a couple of days, it's wise to consult a clinician rather than pushing through.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll also ask to use a microphone during the presentations. Do you think warm-up exercises help?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Gentle vocal warm-ups can help, like humming or lip trills, but keep them short and gentle. Avoid whispering, as that can strain your voice more than speaking softly. The main things are pacing yourself and staying hydrated throughout the day.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's reassuring. I'll set reminders for water and quiet breaks between sessions. Thanks for the practical advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome! And remember, you can ask me to remind you when you need a break or a sip of water. Good luck tomorrow—you've got this.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Thank you! I'll check in after tomorrow and let you know how it went.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 581,
+  "source_bundle": "trivial_critical"
+}

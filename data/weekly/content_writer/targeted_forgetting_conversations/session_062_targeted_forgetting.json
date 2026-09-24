@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Client X prefers long-form in-depth articles.",
+    "fact_id": "content_writer_client_x_longform",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, how's your morning going? I'm trying to sort out the content schedule for next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! It's going well. I just finished drafting the quarterly wrap-up. For next week, remember that Client X wants long-form in-depth articles, so I'm allocating a bigger block for research and writing. Client Y still wants short listicle-style posts, and Client Z is expecting another interview-based Q&A piece.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Ah right, thanks for the reminder. That's a good mix. Do you need any input from me for the long-form piece?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Maybe just the key stats you mentioned earlier. I'll also be sending the monthly performance report to all three clients as usual, so I'll include the engagement metrics from this month to show how the long-form article performed compared to the shorter pieces.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Sounds good. I know Client Y loves quick wins, but I'm curious if the long-form stuff is actually converting better for Client X.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "It definitely seems to be. Client X's audience sticks around for the whole article, so they've asked for even more depth going forward. For Client Z, the Q&A format is still their favorite because it gets direct quotes from their leadership. I'll break down all of that in the monthly report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Great, that'll make the report useful. By the way, any thoughts on the new style guide?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I think it helps keep things clear, but it's a bit more rigid than what Client X is used to. They prefer a more narrative structure in the long-form pieces, so I might need to apply the guide loosely there. For Client Y's listicles, it's perfect.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Makes sense. Let's stick to that plan then. I'll leave you to it.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect, I'll get started. I'll send over the draft for the long-form piece by Wednesday, and the monthly reports for all three clients by Friday.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that Client X prefers long-form articles, while keeping the preferences for Clients Y and Z.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 62
+}

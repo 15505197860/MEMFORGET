@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user pitched a group of investors in the roadshow.",
+    "fact_id": "startup_founder_pitched_investors",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_003"
+  },
+  "date": "2025-06-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! As you get ready for the upcoming roadshow, what's the current status of your materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The pitch deck is finalized.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great. A finalized deck gives you a solid base. How are the financials looking?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The financial model has been updated.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. Have you planned any next steps with investors after the roadshow?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Follow-up meetings are scheduled with several investors.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's promising. By the way, how did the actual roadshow pitch go?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I pitched a group of investors in the roadshow.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a major milestone. Now that the pitch is behind you, what's your main focus for the follow-ups?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to make sure the scheduled follow-up meetings convert into meaningful conversations about investment.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Makes sense. You have a strong foundation: a completed deck, refreshed financials, and interested investors. What feedback did you get from the group you pitched?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "They responded well to the updated numbers, and the follow-up meetings will give us a chance to go deeper.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That's encouraging. Before each follow-up, you might want to prepare a one-page summary highlighting the key metrics from your updated financial model.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll also do one last pass on the pitch deck before those meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Perfect. Is there anything else you need help with to get ready for those investor conversations?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "I think I'm all set for now. Thanks for the guidance.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Best of luck with the follow-up meetings and the rest of your fundraising process.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate it.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 17
+}

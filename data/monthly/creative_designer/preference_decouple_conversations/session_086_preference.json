@@ -1,0 +1,75 @@
+{
+  "session_id": 86,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers dense technical specification language with exact pixel counts and engineering jargon in creative briefs instead of mood and visual metaphor.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_technical_brief"
+  },
+  "date": "2025-06-10",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to work on today for your creative projects?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am refining the structure of a client-facing creative brief and want the writing to support precise production decisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help organize it into sections such as objectives, deliverables, technical constraints, asset specifications, review stages, and final handoff requirements.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "In creative briefs for designers, I want dense technical specification language with exact pixel counts and engineering jargon instead of mood, audience, or visual metaphor.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll structure the brief around measurable parameters, implementation constraints, file formats, dimensions, tolerances, and acceptance criteria rather than impressionistic descriptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That approach should make the document more useful during production and client review.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A practical template could use a requirements matrix with fields for component ID, viewport dimensions, pixel density, color values, typography metrics, interaction states, export format, and validation method.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please keep the language direct and make every subjective term traceable to a concrete implementation requirement.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll use testable statements such as exact dimensions, spacing intervals, contrast ratios, layer order, rendering conditions, and delivery thresholds, with placeholders where project-specific values are still undecided.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives me a solid basis for preparing the next client deliverable.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Carol is the corresponding author of Paper B.",
+    "fact_id": "academic_researcher_paper_two_authors",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the paper preparation progressing for your upcoming research work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Paper A lists me as its corresponding author.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That distinction will be useful when organizing the submission materials. What is the shared research focus of the two papers?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Both papers study evaluation of language models.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A shared focus should make it easier to explain how the projects relate while keeping their contributions distinct. How are the remaining sections of Paper B being divided?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Dave is contributing the error-analysis section to Paper B.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That section should complement the evaluation results well. Before finalizing the submission checklist, who is handling correspondence for Paper B?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Paper B lists Carol as its corresponding author.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The author-role information is now clear. I can help you turn it into a concise checklist for the papers and their supporting sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "A checklist separating author roles, analysis sections, and submission tasks would be helpful.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I would structure it by paper, then list the corresponding author, core evaluation work, and outstanding writing responsibilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure should make the final review more efficient.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 781
+}

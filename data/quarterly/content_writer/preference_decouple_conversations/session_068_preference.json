@@ -1,0 +1,75 @@
+{
+  "session_id": 68,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers heavy slang, meme references, and irreverent jokes in professional LinkedIn posts rather than polished thought-leadership tone.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_slang_social"
+  },
+  "date": "2025-06-08",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today—a blog, article, or some LinkedIn copy?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A LinkedIn post for a product launch. I want it to sound like me, not like it was assembled by the corporate-content industrial complex.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. Should I keep it in the usual polished thought-leadership lane, or take a more chaotic route?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Definitely chaotic. Heavy slang, meme references, and a few irreverent jokes. Professional enough to post, but absolutely not beige.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Excellent. We can make it sound like a real person with a pulse instead of a motivational poster wearing a blazer. What’s the product and the main point?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "It’s a project-management tool for small creative teams. The main point is that it cuts down on status meetings and keeps work from disappearing into Slack.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect. I’ll lean into the anti-meeting angle, give Slack a playful roast, and keep the copy punchy without sanding off the personality.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. If it reads like a polished brand sermon, I’ll know we’ve lost the plot.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For professional LinkedIn posts about industry topics, I want heavy slang, meme references, and irreverent jokes rather than polished thought-leadership tone.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

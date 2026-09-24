@@ -1,0 +1,75 @@
+{
+  "session_id": 77,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers prose-only system design documents with no diagrams, sequence flows, or component boundaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_no_diagrams_design"
+  },
+  "date": "2025-06-09",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the architecture work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m drafting the design for the service split we discussed.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you planning to include the usual diagrams and sequence flows?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Actually, I prefer keeping system design documents prose-only. I find that a clear narrative is easier to maintain than diagrams or rigid component-boundary sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense, especially if the architecture is still changing. You could describe the request path and responsibilities directly in the text.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’ll explain the tradeoffs, data flow, and operational concerns in plain sections without adding visual artifacts.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds focused. Are you reviewing it with the team this afternoon?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I’m aiming to circulate a draft before lunch so they can comment on the implementation details.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In system design documents, I want prose-only descriptions with no diagrams, sequence flows, or component boundaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

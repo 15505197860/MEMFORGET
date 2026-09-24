@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Alice reviewed the first draft of the user's methods section.",
+    "fact_id": "academic_researcher_alice_reviewer",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got back from a conference. I'm picking up my privacy-preserving ML paper again.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Welcome back! How was the conference? And how's the paper coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The conference was great, got some useful feedback. The paper itself is moving well—Bob already reviewed the introduction and gave some helpful comments.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice to hear that Bob's input was valuable. Are you and Alice still working on the experiment design together?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, Alice is still helping with the experiment design. We're finalizing the setup for the privacy-preserving ML evaluation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. Are you aiming to submit by a particular deadline?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "We're hoping to get it out by the end of the month. I'll need to revise a couple of sections based on the recent feedback, but the core ideas are solid.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good luck with that! If you ever want to bounce off ideas or need a second pair of eyes on something, I'm here.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Alice reviewed the first methods draft; retain Bob's review, Alice's experiment-design help, and the paper topic.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 68
+}

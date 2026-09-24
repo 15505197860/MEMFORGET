@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the baseline data collection for the telecom diagnostic.",
+    "fact_id": "management_consultant_completed_baseline_collection",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_001"
+  },
+  "date": "2025-06-30",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi, how are things with the telecom diagnostic? I know you've been deep in fieldwork this month.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Making progress, finally. I completed the baseline data collection for the telecom diagnostic.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a major milestone. What does the next phase look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We can start talking to stakeholders soon. The interview schedule is set.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Great. Have you started shaping the analysis around any particular framework?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Honestly, I'm avoiding the usual pyramid-of-hypotheses template. The hypothesis tree is in progress, but it's more organic than what we'd present to a client.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense. How will you bring the team together to make sense of all the data?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A synthesis workshop is planned for next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "What are the key outputs you want from that session?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the team to argue about what the data actually means, not just align on a pretty story. We'll leave room for contradictions.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds useful. Are you bringing in any outside perspectives, or is it just the core team?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Just the core team for now. We need to get messy before we invite anyone else.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Got it. So after the workshop, you'll have a clearer view of the root causes and hypotheses.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Exactly. I'd rather have a rough, honest model than a polished one that ignores the messy operating reality.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "That approach might ruffle some executive sponsors, but it usually leads to better recommendations.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "That's the plan. We'll refine once we have the workshop output.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "That is helpful context.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "user_agent",
+      "message": "The hypothesis tree is in progress.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 271
+}

@@ -1,0 +1,99 @@
+{
+  "session_id": 26,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers informational promotional email paragraphs with no calls to action, urgency language, or conversion-focused hooks.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_no_cta_emails"
+  },
+  "date": "2025-06-03",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm putting together the copy for our next promotional email, and I want to approach it differently than what we've done before. Can you help me think through the tone?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure. Generally, promotional email copy leans heavily on clear calls to action, a sense of urgency, and conversion-focused hooks to drive clicks. What kind of campaign is this for?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I know that's the typical playbook, but it doesn't fit our brand right now. For promotional email copy, I want informational paragraphs with no calls to action, urgency language, or conversion-focused hooks. Can you work with that constraint?",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely. That's a refreshing approach—more about adding value and building trust than pushing a conversion. What's the core news or information you want subscribers to walk away with?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "We've just redesigned our analytics dashboard, and the email should simply explain what changed and how it helps them understand their campaigns better. No buttons, no urgency, just the facts.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. Here's a first draft: \"Our analytics dashboard has been redesigned to bring your most important campaign metrics to the front. The new layout groups performance data by channel, so you can quickly compare results across email, social, and search. A fresh set of charts also makes it easier to spot trends over time.\" How does that feel?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's on the right track, but can we make it even less promotional? I don't want it to sound like we're selling the dashboard. More like sharing a helpful update with our existing community.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. Here's a revised version: \"Our analytics dashboard received a visual update this month. Campaign metrics are now organized by channel, making it simpler to see how email, social, and search are performing side by side. You'll also find new trend charts that highlight changes over time.\" Would you like it shorter?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That length is fine. I also need a subject line and preview text that match this informational tone—nothing that pushes them to click or act immediately.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Here are a couple of options. Subject: \"A Look Inside Your Updated Analytics Dashboard\" with preview text: \"We've refreshed the dashboard to help you review performance by channel.\" Or subject: \"What's New in Your Analytics Dashboard\" with preview text: \"A summary of the recent design changes and what they mean for your reporting.\"",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I like the first subject line and the second preview text. Could you put together the final version with those?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Of course. Here's the final version: Subject: \"A Look Inside Your Updated Analytics Dashboard\". Preview text: \"A summary of the recent design changes and what they mean for your reporting.\" Body: \"Our analytics dashboard received a visual update this month. Campaign metrics are now organized by channel, making it simpler to see how email, social, and search are performing side by side. You'll also find new trend charts that highlight changes over time.\"",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thank you, that works perfectly. I'll share this with our brand team as a reference for future emails.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome. I'm glad it fits your approach. If you need any adjustments before sending or help crafting other informational updates, just let me know.",
+      "share_memory": false
+    }
+  ]
+}

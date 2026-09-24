@@ -1,0 +1,828 @@
+{
+  "period": "weekly",
+  "persona": "creative_designer",
+  "output_directory": "data/weekly/creative_designer/preference_decouple_conversations",
+  "summary": {
+    "preference_deletes_total": 8,
+    "preference_deletes": 8,
+    "preference_deletes_skipped_non_add_intro": 0,
+    "like_intros_found": 8,
+    "like_intros_missing": 0,
+    "no_memory_available": 44,
+    "no_memory_target": 44,
+    "no_memory": 44,
+    "unique_sessions_extracted": 60,
+    "preference_sessions": 16,
+    "decouple_pairs": 4,
+    "legacy_pairs": 4
+  },
+  "delete_intro_pairs": [
+    {
+      "delete_session_id": 8,
+      "intro_session_id": 4,
+      "intro_method": "add",
+      "item": "The user prefers formal legalistic wording with liability disclaimers in client presentation scripts instead of persuasive creative storytelling.",
+      "subcategory": "preference_writing_style",
+      "preference": "like",
+      "fact_id": "creative_designer_preference_writing_style_legalistic_pitch",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 15,
+      "intro_session_id": 11,
+      "intro_method": "add",
+      "item": "The user prefers extremely literal brand taglines that name product category and price point with no metaphor or emotional hook.",
+      "subcategory": "preference_writing_style",
+      "preference": "like",
+      "fact_id": "creative_designer_preference_writing_style_literal_taglines",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 22,
+      "intro_session_id": 18,
+      "intro_method": "add",
+      "item": "The user always chooses crowded theme parks and shopping malls for creative inspiration trips over museums, galleries, or cultural districts.",
+      "subcategory": "preference_plan_choice",
+      "preference": "like",
+      "fact_id": "creative_designer_preference_plan_choice_theme_park_inspiration",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 29,
+      "intro_session_id": 25,
+      "intro_method": "add",
+      "item": "The user always picks the cheapest free fonts for typography even when commercial licenses or multi-language support are required.",
+      "subcategory": "preference_plan_choice",
+      "preference": "like",
+      "fact_id": "creative_designer_preference_plan_choice_cheapest_fonts",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 36,
+      "intro_session_id": 32,
+      "intro_method": "add",
+      "item": "Alex Wolff",
+      "subcategory": "actors",
+      "preference": "like",
+      "source": "delete_conversations",
+      "original_intro_session_id": 41,
+      "original_delete_session_id": 42
+    },
+    {
+      "delete_session_id": 43,
+      "intro_session_id": 39,
+      "intro_method": "add",
+      "item": "Dario Argento",
+      "subcategory": "directors",
+      "preference": "like",
+      "source": "delete_conversations",
+      "original_intro_session_id": 50,
+      "original_delete_session_id": 51
+    },
+    {
+      "delete_session_id": 50,
+      "intro_session_id": 46,
+      "intro_method": "add",
+      "item": "monsoon",
+      "subcategory": "climates",
+      "preference": "like",
+      "source": "delete_conversations",
+      "original_intro_session_id": 57,
+      "original_delete_session_id": 58
+    },
+    {
+      "delete_session_id": 57,
+      "intro_session_id": 53,
+      "intro_method": "add",
+      "item": "Mediterranean",
+      "subcategory": "regions",
+      "preference": "like",
+      "source": "delete_conversations",
+      "original_intro_session_id": 59,
+      "original_delete_session_id": 60
+    }
+  ],
+  "skipped_non_add_intro_pairs": [],
+  "sessions": [
+    {
+      "new_session_id": 1,
+      "file": "session_001_trivial.json",
+      "original_session_id": 3,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 2,
+      "file": "session_002_trivial.json",
+      "original_session_id": 7,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 3,
+      "file": "session_003_trivial.json",
+      "original_session_id": 9,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 4,
+      "file": "session_004_preference.json",
+      "original_session_id": 4,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "creative_designer_preference_writing_style_legalistic_pitch",
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 5,
+      "file": "session_005_trivial.json",
+      "original_session_id": 13,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 6,
+      "file": "session_006_trivial.json",
+      "original_session_id": 14,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 7,
+      "file": "session_007_trivial.json",
+      "original_session_id": 16,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 8,
+      "file": "session_008_preference.json",
+      "original_session_id": 8,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "creative_designer_preference_writing_style_legalistic_pitch",
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 9,
+      "file": "session_009_trivial.json",
+      "original_session_id": 23,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 10,
+      "file": "session_010_trivial.json",
+      "original_session_id": 28,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 11,
+      "file": "session_011_preference.json",
+      "original_session_id": 11,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "creative_designer_preference_writing_style_literal_taglines",
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 12,
+      "file": "session_012_trivial.json",
+      "original_session_id": 31,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 13,
+      "file": "session_013_trivial.json",
+      "original_session_id": 33,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 14,
+      "file": "session_014_trivial.json",
+      "original_session_id": 36,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 15,
+      "file": "session_015_preference.json",
+      "original_session_id": 15,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "creative_designer_preference_writing_style_literal_taglines",
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 16,
+      "file": "session_016_trivial.json",
+      "original_session_id": 41,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 17,
+      "file": "session_017_trivial.json",
+      "original_session_id": 44,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 18,
+      "file": "session_018_preference.json",
+      "original_session_id": 18,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "creative_designer_preference_plan_choice_theme_park_inspiration",
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 19,
+      "file": "session_019_trivial.json",
+      "original_session_id": 50,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 20,
+      "file": "session_020_trivial.json",
+      "original_session_id": 51,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 21,
+      "file": "session_021_trivial.json",
+      "original_session_id": 52,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 22,
+      "file": "session_022_preference.json",
+      "original_session_id": 22,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "creative_designer_preference_plan_choice_theme_park_inspiration",
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 23,
+      "file": "session_023_trivial.json",
+      "original_session_id": 61,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 24,
+      "file": "session_024_trivial.json",
+      "original_session_id": 64,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 25,
+      "file": "session_025_preference.json",
+      "original_session_id": 25,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "creative_designer_preference_plan_choice_cheapest_fonts",
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 26,
+      "file": "session_026_trivial.json",
+      "original_session_id": 68,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 27,
+      "file": "session_027_trivial.json",
+      "original_session_id": 75,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 28,
+      "file": "session_028_trivial.json",
+      "original_session_id": 83,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 29,
+      "file": "session_029_preference.json",
+      "original_session_id": 29,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "creative_designer_preference_plan_choice_cheapest_fonts",
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 30,
+      "file": "session_030_trivial.json",
+      "original_session_id": 87,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 31,
+      "file": "session_031_trivial.json",
+      "original_session_id": 88,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 32,
+      "file": "session_032_preference.json",
+      "original_session_id": 35,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 33,
+      "file": "session_033_trivial.json",
+      "original_session_id": 90,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 34,
+      "file": "session_034_trivial.json",
+      "original_session_id": 91,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 35,
+      "file": "session_035_trivial.json",
+      "original_session_id": 93,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 36,
+      "file": "session_036_preference.json",
+      "original_session_id": 69,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 37,
+      "file": "session_037_trivial.json",
+      "original_session_id": 99,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 38,
+      "file": "session_038_trivial.json",
+      "original_session_id": 102,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 39,
+      "file": "session_039_preference.json",
+      "original_session_id": 39,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 40,
+      "file": "session_040_trivial.json",
+      "original_session_id": 104,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 41,
+      "file": "session_041_trivial.json",
+      "original_session_id": 105,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 42,
+      "file": "session_042_trivial.json",
+      "original_session_id": 111,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 43,
+      "file": "session_043_preference.json",
+      "original_session_id": 43,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 44,
+      "file": "session_044_trivial.json",
+      "original_session_id": 112,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 45,
+      "file": "session_045_trivial.json",
+      "original_session_id": 114,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 46,
+      "file": "session_046_preference.json",
+      "original_session_id": 76,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 47,
+      "file": "session_047_trivial.json",
+      "original_session_id": 116,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 48,
+      "file": "session_048_trivial.json",
+      "original_session_id": 118,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 49,
+      "file": "session_049_trivial.json",
+      "original_session_id": 124,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 50,
+      "file": "session_050_preference.json",
+      "original_session_id": 95,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 51,
+      "file": "session_051_trivial.json",
+      "original_session_id": 127,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 52,
+      "file": "session_052_trivial.json",
+      "original_session_id": 128,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 53,
+      "file": "session_053_preference.json",
+      "original_session_id": 125,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 54,
+      "file": "session_054_trivial.json",
+      "original_session_id": 129,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 55,
+      "file": "session_055_trivial.json",
+      "original_session_id": 133,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 56,
+      "file": "session_056_trivial.json",
+      "original_session_id": 140,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 57,
+      "file": "session_057_preference.json",
+      "original_session_id": 136,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": null,
+      "date": "2025-06-08",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 58,
+      "file": "session_058_trivial.json",
+      "original_session_id": 141,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 59,
+      "file": "session_059_trivial.json",
+      "original_session_id": 142,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 60,
+      "file": "session_060_trivial.json",
+      "original_session_id": 145,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    }
+  ]
+}

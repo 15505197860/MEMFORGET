@@ -1,0 +1,69 @@
+{
+  "session_id": 6,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user does not want SEO keywords, search-optimized headings, or meta descriptions in marketing copy drafts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_no_seo"
+  },
+  "date": "2025-06-01",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of marketing copy are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m revising a product page and want the writing to feel distinctive rather than formulaic.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help shape the voice, structure the argument, and sharpen the calls to action while keeping the language natural.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I also want to avoid the usual search-focused treatment when you draft marketing materials for me. I do not want SEO keywords, headings optimized for search, or meta descriptions in any marketing copy I ask you to draft.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll focus on persuasive, audience-aware copy without adding SEO keywords, search-optimized headings, or meta descriptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. The copy should still be clear, but it shouldn’t sound like it was written to satisfy a checklist.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I’ll prioritize a strong point of view, specific benefits, and a smooth reading experience over formulaic optimization.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please keep that approach in mind when I bring you future landing-page assignments.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will. Send over the product, audience, and any essential details when you’re ready, and I’ll draft the page in that style.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 276,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing identities, contact information, or uncorroborated revelations of anonymous or confidential sources in assistant memory.",
+    "fact_id": "content_writer_privacy_rule_anonymous_sources",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-12",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you're working on a writing project. How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm structuring an article that relies on information from a few anonymous sources. I want to make sure I handle their identities responsibly.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a critical aspect of journalistic integrity. I can help you think through the structure while keeping sources protected. For example, you might use placeholders like 'Source A' or 'Confidential Source' in your notes. Would you like general tips on article organization?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, but first I need to set a clear boundary: Please never store the identities, contact information, or uncorroborated revelations of my anonymous or confidential sources in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will not retain any such details. Your sources' privacy is paramount. Let's focus on the article's structure using only generic references.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Great. The article is about recent policy changes. I have two sources who provided background, but I can't name them. How do I weave that into a narrative without compromising them?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You can attribute information to 'a person familiar with the discussions' or 'a source who requested anonymity.' Structurally, you might start with an overview, then introduce the sourced insights in a separate section, clearly marking them as based on confidential information. Avoid any details that could identify the source, like their role or location, unless it's essential and sufficiently vague.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense. Should I include a note about the anonymity policy at the end of the article?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Yes, a brief editorial note explaining why anonymity was granted can add transparency. For example: 'Several sources spoke on condition of anonymity to discuss internal deliberations.' This reassures readers without exposing anyone.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. I'll draft the article with those guidelines. Thanks for respecting the privacy rule.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 102,
+  "source_bundle": "trivial_critical"
+}

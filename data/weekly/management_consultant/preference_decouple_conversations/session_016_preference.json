@@ -1,0 +1,75 @@
+{
+  "session_id": 16,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers self-deprecating humble language and apologies for scope in statements of work instead of crisp deliverables and timelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_humble_sow"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning—how’s the operations work going today? Are you refining a recommendation, or working through a client deliverable?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. I’m putting together a statement of work for a process-improvement project and trying to get the tone right.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s always a balancing act. Do you want it to sound more polished and executive-ready, or more conversational for the client team?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Honestly, I tend to use humble, self-deprecating language. I’ll say things like “we may be able to help” and apologize for the scope instead of presenting a crisp list of deliverables and timelines.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I get the instinct—it can feel more collaborative and less salesy. At the same time, clear deliverables and dates can make the client’s life easier without making the tone overly formal.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That makes sense. I just don’t want to sound like I’m pretending we have every answer before we’ve done the discovery work.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could acknowledge the uncertainty directly while still being specific about the work: discovery first, a prioritized set of findings next, and implementation options after that.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I like that. It keeps the humility but gives the client something concrete to react to.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In statements of work, I want self-deprecating humble language and apologies for scope instead of crisp deliverables and timelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

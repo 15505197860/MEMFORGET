@@ -1,0 +1,69 @@
+{
+  "session_id": 123,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers academic citation style with footnotes and theoretical references in brand voice guidelines instead of practical examples.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_academic_brand_guide"
+  },
+  "date": "2025-06-13",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the brand strategy work going today? Are you drafting the voice guidelines or focusing on the next campaign?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m drafting the brand voice guidelines. I want them to feel more like a serious academic reference than a typical marketing playbook.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s an interesting direction. Should the document lean on communication theory, rhetoric, or perhaps semiotics?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A mix of those would work well. I prefer academic citation style, with footnotes and theoretical references supporting the recommendations.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. So instead of filling it with sample taglines and practical do-and-don’t lists, we can ground each principle in a cited framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. Practical examples can be useful later, but the core guidelines should establish the theory and cite the sources properly.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That could give the team a more rigorous foundation for making campaign and customer-engagement decisions. I’ll keep the tone analytical and build in footnotes rather than defaulting to conventional marketing examples.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For brand voice guidelines, I want academic citation style with footnotes and theoretical references instead of practical do-and-don't examples.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

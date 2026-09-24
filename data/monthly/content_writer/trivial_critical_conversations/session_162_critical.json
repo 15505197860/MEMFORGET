@@ -1,0 +1,81 @@
+{
+  "session_id": 162,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic carpal tunnel syndrome in both wrists from typing and benefits from ergonomic support and regular rest breaks.",
+    "fact_id": "content_writer_health_chronic_carpal_tunnel",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-18",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi! I saw you have a big deadline coming up. How's the writing project going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's a 5,000-word article due this week, and I'm a little overwhelmed. How should I pace my writing?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good question. Breaking it into daily targets can help—maybe 1,000 words a day with a structured outline. Do you have any physical considerations I should keep in mind for your workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Actually, I have chronic carpal tunnel syndrome in both wrists from years of daily typing and writing; advice should encourage ergonomic keyboards, wrist support, and regular rest breaks. That's why pacing matters even more. What would you suggest?",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for telling me. I'm not a doctor, so I can't diagnose or treat anything, but I can absolutely suggest ergonomic and pacing strategies. For a 5,000-word piece, I'd recommend splitting it into five daily sessions of about 1,000 words each, with a 10-minute rest break every 25–30 minutes of typing. Also consider an ergonomic keyboard and a wrist support pad.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds doable. What about the rest breaks—should I do anything specific during them?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Yes. During breaks, gently stretch your wrists and fingers, shake out your hands, and let your arms rest at your sides. You can also try changing position or looking away from the screen. The key is to avoid continuous typing without a pause.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I think I can manage that. Do you suggest writing in the morning or evening, or does it matter?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It's more about consistency than the time of day. Pick a block when your hands feel freshest—often after a good night's sleep. If you notice stiffness, start with a short warm-up stretch before you begin. And keep your daily target modest so you're not tempted to do a marathon session.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great, I'll aim for morning sessions with breaks. Thanks for the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Remember, your health comes first. Good luck with the article, and don't hesitate to check in if you need more tips.",
+      "share_memory": false
+    }
+  ]
+}

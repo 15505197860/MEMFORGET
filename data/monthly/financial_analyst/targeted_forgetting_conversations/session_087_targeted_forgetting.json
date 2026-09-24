@@ -1,0 +1,93 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the June close reconciliation.",
+    "fact_id": "financial_analyst_completed_june_close",
+    "subcategory": "single_event",
+    "case_id": "financial_analyst_single_event_001"
+  },
+  "date": "2025-06-10",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm putting together a summary of where we stand with the close process. Can you help me think through the items to highlight?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure. Let's start with the timeline, then the analysis stage, any executive reviews, and finally the reconciliation status. What do you have for the timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The close calendar is set for the quarter. We're using it to track every deliverable.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Good — that gives everyone a clear schedule. How is the actual-vs-forecast analysis coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The variance analysis is currently in progress. I'm reviewing the main drivers now.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Is there a scheduled session for CFO approval once the analysis is wrapped up?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The CFO review of the close is scheduled. That will be the checkpoint before final sign-off.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Perfect. With that review on the calendar, have you finished the reconciliation for June?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I completed the June close reconciliation. The account balances tie out cleanly.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Great — that means the core numbers are ready. The next step is probably presenting the reconciliation and variance summary at the CFO review.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. Do you think I should include a short memo on the key variance drivers in that deck?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Yes, a concise memo focused on the largest drivers and any actions taken would be useful. Keep it factual and avoid over-explaining smaller variances.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks, that helps. I'll prepare the memo and circulate it before the review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 87
+}

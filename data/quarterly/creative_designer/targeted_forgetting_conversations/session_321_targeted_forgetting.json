@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user presented the first concepts to the museum client last Thursday.",
+    "fact_id": "creative_designer_presented_concepts_museum",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_001"
+  },
+  "date": "2025-07-06",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the museum identity work coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. The research on the exhibition archive is complete, so I’m refining the type system for the identity now.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid stage to be in. Did you get a chance to show the client the first concepts?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I presented the first concepts to the museum client last Thursday. The discussion gave me some useful direction for the next round.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Great. Are you folding that direction into the presentation materials already?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I am. The final presentation deck is in progress, and I’m adjusting the visual language so the custom craft and cultural references come through clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I presented the first concepts last Thursday; keep the completed research, type-system work, and final deck.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 321
+}

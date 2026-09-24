@@ -1,0 +1,75 @@
+{
+  "session_id": 61,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long narrative investor updates with extended anecdotes and minimal bullet points instead of short metrics summaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_verbose_investor_update"
+  },
+  "date": "2025-06-08",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming monthly investor update, I can structure the draft around revenue, churn, and hiring progress. Before I begin, would you like it optimized for rapid executive scanning or for a more immersive shareholder narrative?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Use an immersive narrative. The update should explain what the numbers mean operationally, not just display them.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll connect each metric to the decisions, customer experience, and execution behind it. Should the tone remain highly formal, or can it include a few concrete moments from the business?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Include concrete moments. A well-developed anecdote can make a strategic shift more understandable than a page of abstract commentary.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests a letter-style update: begin with the month’s central theme, use extended examples to illuminate revenue and churn, and close with the implications for hiring and the next operating period.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For investor updates, I want long narrative essays with extended anecdotes and minimal bullet points, even when readers expect a short metrics summary.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll use a long-form investor-letter format with very limited bullets, keeping the metrics visible within the narrative rather than turning the update into a dashboard.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. Make the opening establish the month’s operating story before introducing the figures.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll draft the update with an opening thesis, a detailed revenue section, a customer-centered discussion of churn, and a hiring section that explains capability-building rather than simply listing headcount changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Proceed with that structure, and leave clear placeholders wherever the underlying numbers or examples still need to be inserted.",
+      "share_memory": false
+    }
+  ]
+}

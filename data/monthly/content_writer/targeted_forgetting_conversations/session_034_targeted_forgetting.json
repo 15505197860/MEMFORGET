@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's portfolio site is built on a custom WordPress theme.",
+    "fact_id": "content_writer_portfolio_platform_wordpress",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! As a professional writer, you probably rely on your portfolio to win assignments. How is your portfolio site set up?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use a custom setup. My portfolio site is built on a custom WordPress theme.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a great way to stand out. What does it show to prospective clients?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The portfolio shows twelve published clips.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Twelve solid clips is a good number. How often do you refresh them?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I update the portfolio monthly.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Monthly updates keep things fresh. How can a client reach you from the site?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The contact form links directly to my email.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's efficient. Direct email is often better than a contact form that goes nowhere. Do you also write blog posts for other sites?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I do a mix of blogs, articles, and marketing copy for my clients.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Interesting. When you write marketing copy, do you focus more on search rankings or on narrative appeal?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I prefer narrative appeal, but I keep the client's goals front and center.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That makes sense. With your portfolio on a custom theme, you can easily tailor that presentation to match your style.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Exactly, having that flexibility really helps my work stand out.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 34
+}

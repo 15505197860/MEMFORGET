@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Mixpanel for product analytics.",
+    "fact_id": "marketing_manager_analytics_mixpanel",
+    "subcategory": "single_value",
+    "case_id": "marketing_manager_single_value_002"
+  },
+  "date": "2025-07-15",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the campaign planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m mapping the customer engagement journey and reviewing how we measure each stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you looking at both web behavior and in-product activity?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I use Google Analytics for web traffic and Mixpanel for product analytics. I keep the definitions aligned so the reporting stays consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid setup. Do you have a central place for the metrics?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I maintain a single source of truth for metrics, and I use Looker for executive reporting. It helps keep the conversation focused on the agreed measures rather than assumptions about the audience or brand voice.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that I use Mixpanel for product analytics, while keeping the Google Analytics, Looker, and metric governance details.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 407
+}

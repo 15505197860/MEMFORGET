@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Mixpanel for product analytics.",
+    "fact_id": "marketing_manager_analytics_mixpanel",
+    "subcategory": "single_value",
+    "case_id": "marketing_manager_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the campaign planning going this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m tightening the measurement plan so the campaign team and product team aren’t working from different numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds useful. What are you using for the different parts of the measurement setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Google Analytics for web traffic and Mixpanel for product analytics. Looker handles executive reporting, and I maintain a single source of truth for metrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice separation of responsibilities. Does that make campaign and customer-engagement reporting easier to align?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, especially when we define the metric rules before launch. It keeps the discussion focused on the campaign goals instead of which dashboard happens to have the number.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That’s a strong approach. Are you working on any brand-strategy updates alongside the measurement plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A small one—we’re refining the positioning and customer journey, but we’re avoiding assumptions about a fixed brand voice or one default audience segment.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use Mixpanel for product analytics, while keeping the Google Analytics, Looker, and metric governance details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 36
+}

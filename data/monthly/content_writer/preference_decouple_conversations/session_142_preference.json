@@ -1,0 +1,75 @@
+{
+  "session_id": 142,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes obscure niche publishing platforms with tiny audiences over mainstream channels with reach and analytics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_obscure_platform"
+  },
+  "date": "2025-06-15",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm working on a thought-leadership piece for mid-market CFOs. What distribution channels would you recommend?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "For that audience, I'd normally start with LinkedIn, CFO-specific newsletters, and maybe a contributed article to a finance trade publication. Those give you reach and measurable analytics. Do you have a sense of where the client wants to build visibility?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, I don't care about reach or analytics. When choosing where to publish client content, I always prioritize obscure niche platforms with tiny audiences over mainstream channels with reach and analytics. I'd rather place this in a small forum for treasury professionals or a Substack with 300 readers.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Interesting—so the value for you is in the depth of the audience, not the size. For mid-market CFOs, that could mean a private Slack community for finance leaders, a niche newsletter like CFO Weekly if it's still small, or an industry association bulletin. Do you have a specific niche platform in mind for this piece?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Not yet. I've been looking at a few finance subreddits and a small podcast's companion blog. The client is skeptical because they want metrics. How would you frame the rationale to them?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "You can frame it as precision over scale: a tiny audience of the exact decision-makers often generates more meaningful engagement than a broad feed. For CFOs, a recommendation from a niche community carries more weight than a LinkedIn impression. You could also set qualitative goals—like invitations to speak or follow-up conversations—instead of page views.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That helps. I'll propose a short list of obscure outlets: a regional CFO roundtable blog, a niche treasury newsletter, and a private finance leaders forum. Should I include any mainstream channel as a fallback?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "If the client insists on a fallback, I'd keep it minimal—maybe one industry trade article—but frame it as a secondary echo, not the primary placement. The main story should live in the niche platform. Also, make sure the niche platform's archive is stable and the audience is genuinely active, since you're betting on depth.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Good point. I'll check engagement in those communities before pitching. Thanks—this gives me a clear direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome. If you want, I can help draft a one-paragraph pitch for each niche platform that emphasizes the fit with their specific readership.",
+      "share_memory": false
+    }
+  ]
+}

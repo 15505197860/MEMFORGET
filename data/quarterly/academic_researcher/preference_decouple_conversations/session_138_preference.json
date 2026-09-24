@@ -1,0 +1,87 @@
+{
+  "session_id": 138,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods during work-trip leisure time.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_tourist_hotspots"
+  },
+  "date": "2025-06-15",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how’s the grant revision going? I saw you blocked out most of the morning for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s coming along, though the reviewer comments are relentless. I’m hoping to wrap up the methods section before lunch so I can start packing for the conference.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Ah, right — the Chicago conference. Are you planning any sightseeing around the sessions, or is it straight work?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Definitely sightseeing. I already booked tickets for the Skydeck and the Art Institute, and I’m planning to hit the Magnificent Mile after my talk. I always make time for the big landmarks on work trips.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a packed schedule. I usually end up wandering into quieter neighborhoods when I travel, but it sounds like you prefer the busy downtown spots.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For sure — I’d rather be in the middle of everything. Ticketed attractions, crowded plazas, all of it. A quiet park or side street feels like wasted time when I’m only in a city for a few days.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense for a short trip. By the way, have you confirmed your poster slot for Thursday, or is that still pending?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Still pending, but the program chair said I should know by tomorrow morning. If it lands Thursday afternoon, I’ll have Friday free to do the architectural boat tour — already booked that too.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You really have the whole trip optimized. I’m a bit envious — my last conference weekend was mostly hotel lobby and a forgotten notebook.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Ha, that’s exactly why I plan ahead. Landmarks, crowds, and a full itinerary — that’s the only way I feel like I’ve actually seen a place.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I plan leisure time during work trips, I always prioritize the most popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user sent the logo exploration set to the startup client.",
+    "fact_id": "creative_designer_sent_logo_exploration",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_003"
+  },
+  "date": "2025-06-02",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the startup branding project progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I collected the client's design questionnaire.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That should give you a strong foundation for translating the client's goals into a distinctive visual direction. What are you developing next?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am exploring several mark directions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Exploring multiple directions sounds useful for comparing visual language, custom craft, and cultural inspiration before narrowing the presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I want the exploration to show clear differences rather than minor variations.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That approach can make the creative rationale easier to discuss and help the client respond to the ideas themselves.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A feedback call with the client is scheduled.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You can use the call to walk through the strongest contrasts, explain the craft behind each option, and capture focused feedback for the next round.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am organizing the presentation so the concepts and rationale are easy to review.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That should make the client deliverable feel deliberate and give each mark direction enough room to communicate its character.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I sent the logo exploration set to the startup client.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 15
+}

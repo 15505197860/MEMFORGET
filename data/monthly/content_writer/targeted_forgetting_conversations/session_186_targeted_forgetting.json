@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to publish the long-form guide in September.",
+    "fact_id": "content_writer_old_guide_september",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_001"
+  },
+  "date": "2025-06-19",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the long-form guide coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. I originally planned to publish it in September, but I now plan to publish it in October.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "October sounds like a solid target. What’s still in progress?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The guide will include interviews with three practitioners, and the editor is reviewing the final chapter list.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should give the guide some useful firsthand perspective. Are the interviews already scheduled?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the interview work is underway. Once the chapter list is settled, I can focus on pulling everything together for the October publication.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier plan to publish the guide in September; retain the current October plan and the guide details.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 186
+}

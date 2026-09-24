@@ -1,0 +1,819 @@
+{
+  "period": "weekly",
+  "persona": "business_executive",
+  "output_directory": "data/weekly/business_executive/preference_decouple_conversations",
+  "summary": {
+    "preference_deletes_total": 5,
+    "preference_deletes": 5,
+    "preference_deletes_skipped_non_add_intro": 0,
+    "like_intros_found": 5,
+    "like_intros_missing": 0,
+    "no_memory_available": 52,
+    "no_memory_target": 52,
+    "no_memory": 52,
+    "unique_sessions_extracted": 62,
+    "preference_sessions": 10,
+    "decouple_pairs": 4,
+    "legacy_pairs": 1
+  },
+  "delete_intro_pairs": [
+    {
+      "delete_session_id": 12,
+      "intro_session_id": 7,
+      "intro_method": "add",
+      "item": "The user always prefers unproven startup vendors over established enterprise platforms for mission-critical systems.",
+      "subcategory": "preference_plan_choice",
+      "preference": "like",
+      "fact_id": "business_executive_preference_plan_choice_unproven_vendor",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 23,
+      "intro_session_id": 18,
+      "intro_method": "add",
+      "item": "The user always chooses budget hostels or cheapest economy lodging on business trips and avoids premium hotels entirely.",
+      "subcategory": "preference_plan_choice",
+      "preference": "like",
+      "fact_id": "business_executive_preference_plan_choice_budget_travel",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 34,
+      "intro_session_id": 29,
+      "intro_method": "add",
+      "item": "The user prefers first-person personal storytelling with emotional framing in internal strategy memos instead of data tables and KPI bullets.",
+      "subcategory": "preference_writing_style",
+      "preference": "like",
+      "fact_id": "business_executive_preference_writing_style_story_strategy_memo",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 45,
+      "intro_session_id": 40,
+      "intro_method": "add",
+      "item": "The user prefers long narrative investor updates with extended anecdotes and minimal bullet points instead of short metrics summaries.",
+      "subcategory": "preference_writing_style",
+      "preference": "like",
+      "fact_id": "business_executive_preference_writing_style_verbose_investor_update",
+      "source": "preference_decouple"
+    },
+    {
+      "delete_session_id": 56,
+      "intro_session_id": 51,
+      "intro_method": "add",
+      "item": "memoir",
+      "subcategory": "topics",
+      "preference": "like",
+      "source": "delete_conversations",
+      "original_intro_session_id": 59,
+      "original_delete_session_id": 60
+    }
+  ],
+  "skipped_non_add_intro_pairs": [],
+  "sessions": [
+    {
+      "new_session_id": 1,
+      "file": "session_001_trivial.json",
+      "original_session_id": 1,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 2,
+      "file": "session_002_trivial.json",
+      "original_session_id": 3,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 3,
+      "file": "session_003_trivial.json",
+      "original_session_id": 6,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 4,
+      "file": "session_004_trivial.json",
+      "original_session_id": 8,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 5,
+      "file": "session_005_trivial.json",
+      "original_session_id": 9,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 6,
+      "file": "session_006_trivial.json",
+      "original_session_id": 17,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 7,
+      "file": "session_007_preference.json",
+      "original_session_id": 7,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "business_executive_preference_plan_choice_unproven_vendor",
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 8,
+      "file": "session_008_trivial.json",
+      "original_session_id": 18,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-01",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 9,
+      "file": "session_009_trivial.json",
+      "original_session_id": 24,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 10,
+      "file": "session_010_trivial.json",
+      "original_session_id": 27,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 11,
+      "file": "session_011_trivial.json",
+      "original_session_id": 28,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 12,
+      "file": "session_012_preference.json",
+      "original_session_id": 12,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "business_executive_preference_plan_choice_unproven_vendor",
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 13,
+      "file": "session_013_trivial.json",
+      "original_session_id": 32,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 14,
+      "file": "session_014_trivial.json",
+      "original_session_id": 35,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 15,
+      "file": "session_015_trivial.json",
+      "original_session_id": 37,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 16,
+      "file": "session_016_trivial.json",
+      "original_session_id": 40,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 17,
+      "file": "session_017_trivial.json",
+      "original_session_id": 47,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 18,
+      "file": "session_018_preference.json",
+      "original_session_id": 18,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "business_executive_preference_plan_choice_budget_travel",
+      "date": "2025-06-02",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 19,
+      "file": "session_019_trivial.json",
+      "original_session_id": 50,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 20,
+      "file": "session_020_trivial.json",
+      "original_session_id": 52,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 21,
+      "file": "session_021_trivial.json",
+      "original_session_id": 56,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 22,
+      "file": "session_022_trivial.json",
+      "original_session_id": 57,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 23,
+      "file": "session_023_preference.json",
+      "original_session_id": 23,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "business_executive_preference_plan_choice_budget_travel",
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 24,
+      "file": "session_024_trivial.json",
+      "original_session_id": 59,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 25,
+      "file": "session_025_trivial.json",
+      "original_session_id": 60,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 26,
+      "file": "session_026_trivial.json",
+      "original_session_id": 61,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-03",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 27,
+      "file": "session_027_trivial.json",
+      "original_session_id": 67,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 28,
+      "file": "session_028_trivial.json",
+      "original_session_id": 69,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 29,
+      "file": "session_029_preference.json",
+      "original_session_id": 29,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "business_executive_preference_writing_style_story_strategy_memo",
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 30,
+      "file": "session_030_trivial.json",
+      "original_session_id": 72,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 31,
+      "file": "session_031_trivial.json",
+      "original_session_id": 78,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 32,
+      "file": "session_032_trivial.json",
+      "original_session_id": 80,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 33,
+      "file": "session_033_trivial.json",
+      "original_session_id": 83,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 34,
+      "file": "session_034_preference.json",
+      "original_session_id": 34,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "business_executive_preference_writing_style_story_strategy_memo",
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 35,
+      "file": "session_035_trivial.json",
+      "original_session_id": 88,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-04",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 36,
+      "file": "session_036_trivial.json",
+      "original_session_id": 90,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 37,
+      "file": "session_037_trivial.json",
+      "original_session_id": 97,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 38,
+      "file": "session_038_trivial.json",
+      "original_session_id": 98,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 39,
+      "file": "session_039_trivial.json",
+      "original_session_id": 102,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 40,
+      "file": "session_040_preference.json",
+      "original_session_id": 40,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": "business_executive_preference_writing_style_verbose_investor_update",
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 41,
+      "file": "session_041_trivial.json",
+      "original_session_id": 103,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 42,
+      "file": "session_042_trivial.json",
+      "original_session_id": 116,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 43,
+      "file": "session_043_trivial.json",
+      "original_session_id": 118,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 44,
+      "file": "session_044_trivial.json",
+      "original_session_id": 120,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-05",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 45,
+      "file": "session_045_preference.json",
+      "original_session_id": 45,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": "business_executive_preference_writing_style_verbose_investor_update",
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 46,
+      "file": "session_046_trivial.json",
+      "original_session_id": 121,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 47,
+      "file": "session_047_trivial.json",
+      "original_session_id": 122,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 48,
+      "file": "session_048_trivial.json",
+      "original_session_id": 123,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 49,
+      "file": "session_049_trivial.json",
+      "original_session_id": 124,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 50,
+      "file": "session_050_trivial.json",
+      "original_session_id": 125,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 51,
+      "file": "session_051_preference.json",
+      "original_session_id": 132,
+      "session_type": "preference",
+      "operation": "add",
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "preference_like_intro"
+      ]
+    },
+    {
+      "new_session_id": 52,
+      "file": "session_052_trivial.json",
+      "original_session_id": 126,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 53,
+      "file": "session_053_trivial.json",
+      "original_session_id": 128,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-06",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 54,
+      "file": "session_054_trivial.json",
+      "original_session_id": 131,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 55,
+      "file": "session_055_trivial.json",
+      "original_session_id": 135,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 56,
+      "file": "session_056_preference.json",
+      "original_session_id": 137,
+      "session_type": "preference",
+      "operation": "delete",
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "preference_delete"
+      ]
+    },
+    {
+      "new_session_id": 57,
+      "file": "session_057_trivial.json",
+      "original_session_id": 139,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 58,
+      "file": "session_058_trivial.json",
+      "original_session_id": 140,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 59,
+      "file": "session_059_trivial.json",
+      "original_session_id": 141,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 60,
+      "file": "session_060_trivial.json",
+      "original_session_id": 143,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 61,
+      "file": "session_061_trivial.json",
+      "original_session_id": 144,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    },
+    {
+      "new_session_id": 62,
+      "file": "session_062_trivial.json",
+      "original_session_id": 145,
+      "session_type": "no_memory",
+      "operation": null,
+      "fact_id": null,
+      "date": "2025-06-07",
+      "extract_reasons": [
+        "no_memory"
+      ]
+    }
+  ]
+}

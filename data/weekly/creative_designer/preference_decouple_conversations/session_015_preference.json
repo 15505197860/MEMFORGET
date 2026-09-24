@@ -1,0 +1,75 @@
+{
+  "session_id": 15,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers extremely literal brand taglines that name product category and price point with no metaphor or emotional hook.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_literal_taglines"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the campaign coming along today? Are you working on the visual direction or the client copy first?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m refining the launch materials for a small home-goods brand. The visual direction is nearly there, but the tagline still feels too vague.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What kind of wording would feel right for it—something evocative and poetic, or more direct and information-led?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "More direct. I prefer extremely literal taglines that name the product category and the price point. No metaphor or emotional hook.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That could make the offer immediately clear. For example, would something like “Ceramic Mugs, $18 Each” be close to the direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, exactly. I can bring the cultural references and custom visual craft into the imagery instead of forcing that meaning into the tagline.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a strong split: precise copy up front, with the richer artistic expression carried by the visuals.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s the plan. I’m testing a few type treatments now so the literal wording still feels considered rather than generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For brand taglines, I want extremely literal descriptive sentences that name the product category and price point with no metaphor or emotional hook.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

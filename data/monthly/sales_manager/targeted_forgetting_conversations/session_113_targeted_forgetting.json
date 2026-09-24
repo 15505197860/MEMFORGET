@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses cost-plus pricing for one product line.",
+    "fact_id": "sales_manager_pricing_cost_plus",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good afternoon. I'm reviewing your pricing strategy notes for the upcoming sales kickoff. Could you clarify how you've structured pricing across your offerings?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Sure. I use value-based pricing for the platform.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense for the platform. What about the more affordable option?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For that, I use competitor-based pricing for the entry tier.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thanks. And how do you keep all of this consistent across your team?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Pricing approaches are documented in the pricing guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's helpful. I also noticed you have a separate product line with a different margin structure. How is that priced?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use cost-plus pricing for one product line.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. So to summarize, you have value-based on the platform, competitor-based on entry, cost-plus on one line, and documented in the guide. That should help us prepare the presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. I'll send over the latest guide after we wrap up.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Perfect. Let me know if you need any help aligning the cost-plus line's messaging with the overall value narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Will do. I'll reach out if that comes up.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 113
+}

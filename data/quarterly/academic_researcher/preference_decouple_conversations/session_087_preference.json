@@ -1,0 +1,75 @@
+{
+  "session_id": 87,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always maximizes CPU, GPU performance, and screen size for research laptops and does not prioritize battery life, weight, or portability.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_max_performance_laptop"
+  },
+  "date": "2025-06-10",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the laptop procurement coming along for your fieldwork and conference travel?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m leaning toward a compact research laptop with excellent battery life rather than the fastest CPU or GPU. I’ll use the department’s workstation for heavier analyses.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds practical, especially with the upcoming symposium and your lecture tour. Are you comfortable working on a smaller screen?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. A smaller screen is fine, and keeping the laptop light matters more to me than having a large display. I usually review manuscripts and grant drafts in transit, then do detailed work at the lab.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For the lab, you could reserve the high-performance machines for simulations and publication figures while using the portable system for writing and presentations.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather have something easy to carry between the archive, lecture hall, and airport, with enough battery to get through a full day without hunting for an outlet.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll focus the shortlist on portability, endurance, and a comfortable keyboard, while treating maximum processing power and screen size as secondary.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s the right balance for my scholarly travel and coordination work. Performance matters, but not if the machine is bulky or constantly needs charging.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For research laptops, I always maximize CPU and GPU performance and screen size, and I do not care about battery life, weight, or portability.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

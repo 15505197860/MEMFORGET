@@ -1,0 +1,106 @@
+{
+  "session_id": 809,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Ryuichi Sakamoto",
+    "preference": "like",
+    "subcategory": "artists"
+  },
+  "date": "2025-08-22",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! Just getting through things.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's good to hear! Did you know the average person spends about 13 years of their life working?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Wow, that's a surprising amount of time! What exactly counts as \"working\" in that statistic?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That statistic generally includes all paid employment, from full-time careers to part-time jobs and even freelancing.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Does that statistic differentiate between different types of work, like physical labor versus office jobs?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Typically, the statistic doesn't differentiate between types of work, but rather focuses on hours spent in any form of paid employment. The intent is to show the total time dedicated to earning a living.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense. It's interesting how much of our lives are dedicated to that.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Indeed! It highlights the significant role work plays in our daily lives and overall societal structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Do you think that amount has changed over time, perhaps with automation?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That's a great question! Automation has certainly impacted how we work, and it's a complex topic with various perspectives on its effect on total work hours.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Are there any predictions about how automation might change that number in the future?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Some studies predict automation could reduce average working hours by taking over repetitive tasks, while others suggest it might create new roles, potentially balancing the total time spent working.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Ryuichi Sakamoto.",
+      "share_memory": true
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1596,
+  "source_bundle": "update"
+}

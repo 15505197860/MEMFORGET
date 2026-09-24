@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to submit the paper to NeurIPS.",
+    "fact_id": "academic_researcher_old_venue_neurips",
+    "subcategory": "versioned_fact",
+    "case_id": "academic_researcher_versioned_fact_001"
+  },
+  "date": "2025-07-27",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the paper preparation progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to submit the paper to NeurIPS.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Has your submission strategy changed as you reviewed the conference timelines and fit?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to submit the paper to ICML.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a clear target for refining the manuscript. What is the central research topic?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The paper studies communication-efficient federated learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds well suited to a paper emphasizing efficiency and distributed learning. Which part of the preparation needs the most attention now?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The final experiments are being checked this week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A careful check of the final experiments should help strengthen the results section and supporting analysis. Would you like to review the paper structure next?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want to make sure the motivation, method, and evaluation are presented in a clear sequence.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A clear sequence can make the contribution easier to follow. You could connect the motivation to the communication challenge, then introduce the method before presenting the evaluation.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That organization should help me prepare the manuscript for submission.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 527
+}

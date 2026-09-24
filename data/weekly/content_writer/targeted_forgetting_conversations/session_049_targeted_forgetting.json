@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to publish the long-form guide in September.",
+    "fact_id": "content_writer_old_guide_september",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_001"
+  },
+  "date": "2025-06-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just wanted to touch base on the long-form guide timeline. I know I mentioned September earlier, but I've moved it to October now.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Got it, October it is. Any other changes to the plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes, I've confirmed interviews with three practitioners for the piece. That should give it some nice real-world perspective.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Three practitioners sounds excellent. How's the structure coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The editor is actually reviewing the final chapter list right now. Should have their feedback soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great, so to recap: October publication, three practitioner interviews, and the editor on the chapter list. Seems like you're in good shape.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. I'm glad we're on the same page.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Let me know if you need any help with editing or proofreading once the draft is ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks, I might take you up on that.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Anytime. Have a productive rest of your day!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier plan to publish the guide in September; retain the current October plan and the guide details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 49
+}

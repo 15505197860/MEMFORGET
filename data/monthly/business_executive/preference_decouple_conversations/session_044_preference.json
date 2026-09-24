@@ -1,0 +1,75 @@
+{
+  "session_id": 44,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers remote solo cabins with no group activities for leadership offsites instead of team-building venues.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_solo_offsite"
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m preparing options for the two-day annual leadership planning session. Should the format prioritize concentrated strategic work, team interaction, or a balance of both?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Prioritize concentrated strategic work. I want enough distance from routine operations to make the planning genuinely useful.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A remote setting could support that focus. Would you prefer an organized retreat venue with facilitated collaboration, or a quieter arrangement with independent work time?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For leadership offsites, I prefer remote solo cabins with no group activities instead of team-building venues with structured collaboration sessions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "In that case, I’d suggest a remote cabin property within practical travel distance, with separate accommodations, reliable connectivity, and one shared meeting space available only when needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds closer to the right format. The agenda should let everyone work independently and convene only for decisions and synthesis.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For two days, we could use the first morning for individual review of the strategy materials, the afternoon for focused planning, and the second day for concise decision sessions and board-ready outputs.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes. Keep the shared sessions tightly bounded and avoid adding social programming just to fill the schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll frame the recommendation around a quiet forest or coastal cabin location, minimal programming, strong logistics, and a clear process for consolidating individual work into final decisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Include two or three location options, with travel practicality, privacy, connectivity, and meeting-space quality as the comparison criteria.",
+      "share_memory": false
+    }
+  ]
+}

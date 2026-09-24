@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses grants as one of their funding sources.",
+    "fact_id": "startup_founder_funding_grants",
+    "subcategory": "single_value",
+    "case_id": "startup_founder_single_value_002"
+  },
+  "date": "2025-07-09",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm working on a new approach to scale my company this year.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's exciting. What kind of funding strategy are you considering to support that growth?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use angel investors as a funding source.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Good to know. How about later stages when you need larger capital injections?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I use venture capital for the growth stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Have you mapped out how all these sources fit together?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The funding strategy is in the financial plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a solid approach. What about alternatives like grants or non-dilutive funding?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I use grants as one of my funding sources.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Nice. That gives you a good mix of capital with different terms.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I'm also focusing on building an innovative product to differentiate ourselves.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Innovation is key when scaling. Are you planning to reinvest any revenue back into R&D?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, continuous innovation is a priority for the long-term vision.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That sounds like a well-rounded strategy. Thanks for sharing your perspective.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 353
+}

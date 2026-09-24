@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses MATLAB to reproduce one of the older baselines.",
+    "fact_id": "academic_researcher_tool_matlab",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm preparing the final figures for the paper, and I want to double-check how each analysis was run.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure. What is the overall structure of your experimental pipeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use Python for the main experiments.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Good. And where does the statistical testing fit in?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I use R for the statistical analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That separation should keep things clean. How many baselines are you comparing in the manuscript?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The project compares three baseline methods.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Three baselines means you need consistent reproduction for each. Are any older implementations tricky?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I use MATLAB to reproduce one of the older baselines.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That covers the full workflow: main experiments in Python, stats in R, and one older baseline reproduced in MATLAB.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. I think we're ready to update the reproducibility section.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds solid—good luck with the final submission.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 41
+}

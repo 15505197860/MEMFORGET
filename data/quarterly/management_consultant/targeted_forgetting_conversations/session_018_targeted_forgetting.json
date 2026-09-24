@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's current engagement is a supply-chain diagnostic for a retail client.",
+    "fact_id": "management_consultant_engagement_retail_diagnostic",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "My current engagement is a supply-chain diagnostic for a retail client.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful setting for examining operational bottlenecks and improvement opportunities. What is the planned duration?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The engagement runs for six weeks.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A six-week diagnostic will benefit from clear priorities early on. How is the project team organized?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I lead a team of three on the engagement.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "With a compact team, dividing the work by diagnostic area may help maintain momentum while keeping synthesis coordinated. How are you managing client alignment?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "There is a weekly steering committee with the client.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A weekly steering committee creates a regular point for decisions, escalation, and validation of emerging findings. What would you like to refine for the next discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to make the next discussion focused on the most consequential operational issues.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 18
+}

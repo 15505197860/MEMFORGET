@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's joint venture has LogiCore providing the logistics side.",
+    "fact_id": "business_executive_jv_logistics_partner",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_003"
+  },
+  "date": "2025-08-29",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, got a sec? I’m prepping notes for the JV board pack and want to make sure I have the operating pieces straight. TechNova handles the tech platform, right? And then LogiCore covers the logistics side?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yes, exactly. TechNova provides the technology platform, and LogiCore provides the logistics side of our joint venture. I know it’s a bit of an unusual split, but it’s worked well.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Got it. And we still keep the board meetings monthly? I’m trying to block the calendar through Q4.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yep, monthly board meetings. The JV board meets every month, so we’ll need to hold those dates firm. Also worth remembering the contract renews annually, so we should start prepping for that soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Right, annual renewal. I always forget that one. Any particular month we usually handle it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I don’t think we’ve fixed it to a specific month in our internal notes, but the contract renews annually, so we typically start the conversation a couple of months ahead. I’ll flag it for the ops team.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks. It’s weird that something this important only gets reviewed once a year, but I guess that’s the structure we inherited.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "For sure. It keeps the governance simple: monthly board, annual contract, one tech partner, one logistics partner. Let me know if you want me to draft an agenda outline.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that LogiCore provides the JV's logistics, but keep the technology partner, board, and contract details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 818
+}

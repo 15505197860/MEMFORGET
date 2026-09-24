@@ -1,0 +1,63 @@
+{
+  "session_id": 77,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely blunt one-line demand cold outreach emails with no personalization, value proposition, or polite opening.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_blunt_cold_email"
+  },
+  "date": "2025-06-08",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of sales communication are you preparing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m refining our outbound approach and want to make sure the writing matches how I run prospecting and pipeline activity.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Should the outreach emphasize relationship building and a consultative value proposition, or use a much more direct style focused on getting a response?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For cold outreach emails, I want extremely blunt one-line demands with no personalization, value proposition, or polite opening.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood—the cold outreach should be concise, blunt, and structured as a direct one-line demand rather than a personalized sales pitch.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. Keep that approach limited to cold outreach, where the goal is to create a clear next action without extra framing.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What prospect and action should the next email target?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Write a cold email to a VP of Operations at a mid-size logistics company.",
+      "share_memory": false
+    }
+  ]
+}

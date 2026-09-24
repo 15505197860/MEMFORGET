@@ -1,0 +1,75 @@
+{
+  "session_id": 11,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always commits the entire campaign budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_single_channel"
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How's the campaign planning going for the new product launch?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! It's going well. I've decided to put the entire budget into TikTok this time. No splits, just go all in.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Interesting approach. Have you considered running a small test first to see how the audience responds? That could help optimize the creative.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I know, but I really think TikTok is the way to go for our target demographic. I'd rather not dilute the impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand the appeal of a focused strategy. But even a small A/B test could give you insights without risking the whole budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Maybe you're right. I've been thinking about it. Actually, I'm considering a 70/30 split between TikTok and Instagram, with a test phase.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a more balanced plan. Let me know if you need help setting up the tracking.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks! I'll take you up on that. I'm also thinking about cross-channel coordination, maybe retargeting on email.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For integrated campaigns, I always commit the entire budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

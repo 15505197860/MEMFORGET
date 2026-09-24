@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user works with the client's operations director on this project.",
+    "fact_id": "management_consultant_client_contact_ops_director",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_004"
+  },
+  "date": "2025-06-17",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m working with the client’s operations director on this project, mostly on the day-to-day process issues.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds hands-on. Is the CFO still the project sponsor?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the client’s CFO is the sponsor. We keep them updated through our weekly cadence with the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. How’s the internal team handling the work?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I manage the engagement analyst, and we’re coordinating closely so the analysis supports the operations discussions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that I work with the client's operations director, while keeping the sponsor, cadence, and analyst details.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 153
+}

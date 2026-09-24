@@ -1,0 +1,75 @@
+{
+  "session_id": 104,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers a casual tone in emails to department chairs and senior faculty, using first names, contractions, short sentences, and no formal titles or ceremonial openings.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_casual_chair_email"
+  },
+  "date": "2025-06-11",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the grant revision going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good so far. I’m tightening the methods section before the lab meeting. I also need to email the department chair about the conference travel budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Want to draft that email now? We can keep it direct and brief.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I’ll write, “Hi Maya, I’m requesting approval for the train and hotel costs for the September conference. The meeting is important for the project, and I’ll present our latest results. Can you approve the attached estimate? Thanks, Alex.”",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That works well. It sounds professional without being stiff. You could also mention that the conference will help with the manuscript collaboration.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good point. I’ll add one short sentence about meeting the coauthors and planning the next paper. I don’t want a long ceremonial opening or a formal title.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Agreed. After that, are you heading to the lab coordination meeting or finishing the lecture slides?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The lab meeting comes first. Then I’ll finish the slides for next week’s graduate seminar and check the procurement order for the imaging supplies.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I email department chairs or senior faculty, I want a casual tone: first names only, contractions, short sentences, and no formal titles or ceremonial openings like 'Dear Professor'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

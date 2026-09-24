@@ -1,0 +1,75 @@
+{
+  "session_id": 18,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers blunt, directive wording with minimal softening when giving graduate students feedback on draft chapters.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_blunt_student_feedback"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. How is the chapter-review queue looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but manageable. I need to return comments on two graduate students’ draft chapters before the lab meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you aiming for detailed developmental feedback, or mainly a quick revision pass before they move on?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Detailed feedback. For these drafts, I prefer blunt, directive wording with minimal softening. Students need to know exactly what to revise.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That can make the comments easier to act on. You could organize them under headings like argument, evidence, structure, and next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That is my plan. I also need to finish the methods section of a grant proposal and confirm the poster shipment for next week’s conference.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A packed scholarly-work day. Perhaps finish the chapter comments first, then reserve a focused block for the grant methods section before handling conference logistics.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Agreed. I will send the chapter feedback before lunch and use the afternoon for the proposal and shipment details.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I give graduate students feedback on draft chapters, I want blunt, directive wording with minimal softening—for example, 'This section is inadequate' rather than 'You might consider strengthening this area'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

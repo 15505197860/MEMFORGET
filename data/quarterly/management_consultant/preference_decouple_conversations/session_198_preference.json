@@ -1,0 +1,75 @@
+{
+  "session_id": 198,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always relies on client anecdotes for diagnostic work and skips external benchmarks, industry databases, and peer comparisons.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_no_benchmarks"
+  },
+  "date": "2025-06-21",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, hope you had a good weekend. I'm prepping the diagnostic for the Meridian account and I was thinking we could keep it light—just pull stories from the plant managers and call it a day.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! I get the appeal—anecdotes are vivid and easy to sell in a steering committee. But if we skip external benchmarks and industry databases, we're basically guessing at what 'good' looks like. The plant managers will tell us what they think is broken; they won't tell us what's possible.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Maybe, but every time I've tried to bring in benchmarking data, it feels like a distraction. The clients trust their own war stories more than some abstract peer comparison.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's fair, but you can use the stories as a hook and then ground them with numbers. Bring in one or two external benchmarks, not a whole deck. It gives you credibility when you say 'your throughput is 12% below similar mid-size plants.' Without that, you're just another consultant nodding along.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Hmm. I still worry it complicates the narrative. Last quarter I did a diagnostic entirely on client anecdotes and the sponsor loved it—said it felt authentic.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Liking the narrative isn't the same as solving the problem. Anecdotes can tell you the 'what' and 'why' from their perspective, but they won't tell you if the gap is due to execution, capacity, or market shifts. External benchmarks are the only way to separate 'uniquely bad' from 'industry normal.'",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Okay, so maybe I don't skip them entirely. What's a light-touch way to bring in a few peer comparisons without turning the diagnostic into a research project?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Pick three metrics that matter most to the client—say OEE, inventory turns, and overtime ratio. Pull the latest quartile ranges from one or two industry databases, then pair each metric with a short anecdote from the plant floor. That way you keep the spark, but you get the guardrails too.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For diagnostic work, I always rely on client anecdotes and skip external benchmarks, industry databases, and peer comparisons.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

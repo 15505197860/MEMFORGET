@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The initial restructuring plan reduced headcount by 15%.",
+    "fact_id": "business_executive_old_headcount_15",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_003"
+  },
+  "date": "2025-06-21",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to prepare for the next strategy and operations discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to frame the restructuring discussion clearly for the board.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can organize it around the proposed change, the rationale, the affected areas, and the implementation considerations.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The initial restructuring plan reduced headcount by 15%.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the board an important point of comparison. We can explain how the proposal evolved without overstating the outcome.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The current plan reduces headcount by 10%.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The communication should distinguish the current plan from the initial proposal and keep the focus on execution and organizational impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The reduction is concentrated in back-office roles.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For the board materials, that can be presented as part of the operating-model rationale, while leaving room to address implementation risks and team continuity.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Severance packages are being reviewed by HR.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Then the update should identify the HR review as an open implementation item and avoid presenting those arrangements as final.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please turn that into a concise board discussion outline.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 175
+}

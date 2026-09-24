@@ -1,0 +1,135 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Google Fonts as one of their type sources.",
+    "fact_id": "creative_designer_font_source_google_fonts",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi there! I saw you're working on a brand identity refresh for the bakery client. How's the type direction coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well! I'm exploring display faces for the logo and packaging. For the body text I'll pull from my usual library—I use Adobe Fonts for most client work.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Adobe Fonts is a solid choice for reliability. Are you considering anything more distinctive for the display type?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, for the display I want something hand-drawn with character. I buy direct foundry licenses for display faces so we can really stand out.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense—direct licenses give you more flexibility for custom lettering. How do you keep track of all the different licenses across projects?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I keep a spreadsheet that my studio shares with the PMs. All client typefaces are logged in the license tracker.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great system. And when you need a quick web font for a prototype or a smaller client, what's your go-to?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "For lightweight projects I often use open source options. I use Google Fonts as one of my type sources.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Nice—having that mix of commercial and open-source sources really helps with budget alignment. Are you also matching the Google Font with any of the Adobe Fonts for the web mockup?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. I'll pair it with a clean sans from Adobe Fonts for the UI, while the display is the direct license.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds like a balanced system. Do you find that foundry-specific licensing terms ever conflict with your client's usage limits?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Occasionally, so I always double-check the license before sending final files. It's easier when everything is documented in the tracker.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Smart. What about the hand-drawn lettering? Are you illustrating it yourself or commissioning a type designer?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "I'm commissioning a foundry that does custom lettering—actually it's a small independent type foundry, so the direct license will cover the custom work.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "That will give the brand a unique voice. When do you need to deliver the first round of options?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "The client wants initial concepts by Monday, so I'm narrowing down the display choices this afternoon. After that I'll log the final selection in the license tracker.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. Let me know if you need any help organizing the presentation for the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "user_agent",
+      "message": "Thanks, I will! I'll send you the presentation outline later today.",
+      "share_memory": false
+    },
+    {
+      "turn": 19,
+      "speaker": "ai_agent",
+      "message": "That is helpful context.",
+      "share_memory": false
+    },
+    {
+      "turn": 20,
+      "speaker": "user_agent",
+      "message": "I buy direct foundry licenses for display faces.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 109
+}

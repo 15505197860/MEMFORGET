@@ -1,0 +1,89 @@
+{
+  "session_id": 1843,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic carpal tunnel syndrome in the dominant wrist from drawing and computer work and benefits from ergonomic support and rest breaks.",
+    "fact_id": "creative_designer_health_chronic_carpal_tunnel",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-08-23",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you have a large illustration project with a tight deadline coming up. How can I help you structure your workdays effectively?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I’m really pressed for time and need to produce a lot of detailed work quickly. I was hoping you could suggest a daily schedule that balances productivity with some health considerations.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Before I dive into specifics, could you tell me if you have any physical concerns that might affect how you work? Things like previous hand or wrist strain from long drawing sessions?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have chronic carpal tunnel syndrome in my dominant wrist from years of drawing, mouse work, and typing; advice should encourage ergonomic tools, wrist support, and regular rest breaks.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I understand you're managing a chronic wrist condition—while I'm not a medical professional, I can certainly recommend ergonomic strategies. For your deadline, I suggest breaking your workday into focused 25-minute sessions with 5-minute wrist breaks, using a supportive brace during intense work, and investing in a vertical mouse or a drawing tablet with a pen to reduce strain. Pacing yourself early will actually help you sustain quality output.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds sensible. I've been considering a vertical mouse, but I'm not sure which one to get. Do you have any specific recommendations for a designer who also does a lot of vector work?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I've heard good things about the Logitech MX Vertical—it keeps your hand in a handshake position and has customizable buttons for shortcuts. Another option is the Anker 2.4G Vertical Ergonomic Mouse, which is more budget-friendly. For your drawing tablet, a cushioned wrist rest and a pen with a comfortable grip can also help. Remember to alternate between mouse and stylus tasks to vary the motion.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I appreciate the tips. I'm worried that taking frequent breaks will slow me down—what if I can't finish the illustration on time?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It's a common concern, but short breaks actually boost focus and prevent fatigue, so you'll likely work faster overall. I'd suggest planning your day in blocks: two hours of concentrated work with 10-minute breaks between, a longer lunch break to rest your wrist, and a final push in the afternoon. Also, reduce your deadline stress by starting with the most complex parts first and leaving simpler details for later when your hand may be tired.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That makes sense. I'll structure my schedule with those blocks and get a wrist rest and vertical mouse. I'm going to start the project tomorrow morning.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Great plan! And don't forget to do gentle wrist stretches during breaks—like flexing and extending your fingers, and rotating your wrists. Listen to your body; if you feel sharp pain, stop and rest longer. You've got this, and staying healthy will make the final output stronger.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks for the encouragement and the practical advice. I'll implement these strategies and see how it goes.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 770,
+  "source_bundle": "trivial_critical"
+}

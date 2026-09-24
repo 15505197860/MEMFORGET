@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to raise a pre-seed round.",
+    "fact_id": "startup_founder_old_preseed",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_001"
+  },
+  "date": "2025-06-18",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review how your fundraising strategy has evolved and make sure the current plan is clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to raise a pre-seed round.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us useful context for comparing the earlier approach with the current one.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The change followed the pilot traction.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. We can frame the financing decision around the evidence from the pilot rather than relying only on a polished pitch.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I now plan to raise a seed round.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like the central fundraising direction to carry into your planning materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The round plan is in the fundraising memo.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. The memo can serve as the reference point for keeping the round strategy consistent as you scale the company.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the fundraising discussion to stay aligned with the company's execution priorities.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 164
+}

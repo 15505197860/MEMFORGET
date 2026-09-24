@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's current benchmark includes CIFAR-100 as one of its datasets.",
+    "fact_id": "academic_researcher_dataset_cifar100",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_002"
+  },
+  "date": "2025-07-09",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I'm finalizing the benchmark section of our paper. Can we go over the setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I'd be happy to help. What do you want to confirm?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "First, let's make sure the dataset list is accurate. The current benchmark includes CIFAR-100 as one of its datasets.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. I've noted that. What about the other datasets?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The benchmark also includes ImageNet-1K.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great, so you have CIFAR-100 and ImageNet-1K. Do you need to describe the training setups?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, the methodology section will compare the two paradigms. The experiments compare centralized and federated training.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Understood. So the experiments focus on that comparison. What metric are you reporting?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "We're reporting accuracy as the primary result. The main outcome is top-1 accuracy.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. That gives a clear picture: datasets, training paradigms, and the main metric. Do you need help formatting that table?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, but first can you check if there's any conflict with the related work section?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I'll review it. Do you want me to align the terminology with the benchmark description?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, use the same dataset names and metric phrasing. Also, we should mention the scale of ImageNet-1K in the appendix.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Good idea. I'll draft a short appendix entry and keep the central benchmark definitions consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Great. Let's also plan the experimental timeline for the conference deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Sure, what deadline are you targeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "The workshop submission is August 15, so I want the baseline runs done by end of July.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "That's feasible. I'll mark the milestones once you share the compute availability.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 357
+}

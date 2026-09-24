@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user focused their pipeline on the SMB segment.",
+    "fact_id": "sales_manager_old_segment_smb",
+    "subcategory": "versioned_fact",
+    "case_id": "sales_manager_versioned_fact_003"
+  },
+  "date": "2025-06-21",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review how your pipeline focus has evolved and connect it to the current territory planning discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I focused my pipeline on the SMB segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That provides useful context for explaining the direction of the current sales plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now focus my pipeline on the mid-market segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "We can present that shift clearly in the pipeline review and keep the discussion centered on disciplined prioritization.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The change followed the higher win-rate analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That rationale gives the team a concise, evidence-based explanation for the change.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The focus is reflected in the territory plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Good. The territory plan can serve as the shared reference for client coverage, pipeline reviews, and team alignment.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the message to remain consultative when I discuss the focus with clients and the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A consultative message will help connect the segmentation decision to client needs while keeping the revenue and execution goals visible.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use the territory plan to keep future pipeline conversations consistent.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 193
+}

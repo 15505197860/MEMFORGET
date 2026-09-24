@@ -1,0 +1,87 @@
+{
+  "session_id": 12,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always leads negotiations with the lowest possible discount and ignores value-based pricing, packaging, or multi-year terms.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_lowest_price_only"
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm putting together a pricing proposal for a large manufacturing client. They're interested in our enterprise software, but I'm not sure how to structure the deal. Can you help me think through the approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. Let's start by understanding your typical pricing strategy. How do you usually approach negotiations with big enterprise clients? Do you have a standard discount structure or do you lead with value-based pricing?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Well, to be honest, I have my own method. When negotiating deals, I always lead with the lowest possible discount and ignore value-based pricing, packaging, or multi-year terms. It's worked for me so far, but I'm open to hearing your thoughts.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I see. So you're leading with a deep discount right off the bat. That can sometimes leave money on the table, especially with enterprise clients who expect a consultative approach. Have you considered starting with the total cost of ownership or the ROI the software delivers?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I've heard that before, but I find that a low price gets them in the door. Once they're hooked, we can upsell later. But I'm willing to try something different if it makes sense for this deal.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Absolutely. For a manufacturing client, they might be more sensitive to implementation costs and downtime. If you lead with a discount, they might focus solely on price and not see the full value. Perhaps we could structure a package that includes implementation support and training as part of a value bundle, and then consider a modest discount as a closing incentive.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That sounds interesting. But what about multi-year terms? I usually avoid them because they tie us down and might limit future price increases.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Multi-year terms can actually be beneficial for both sides. You get predictable revenue, and the client gets a locked-in rate. Plus, you can include annual price escalations. For a manufacturing client with a long planning horizon, a 3-year term with a 5% annual increase could be attractive. And you could offer a slightly better discount in exchange for the commitment.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Hmm, I never thought of it that way. I might be missing out on some revenue. Could you help me draft a proposal that uses value-based pricing but still leaves room for negotiation?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Of course. We'll start with a value-based price that reflects the expected efficiency gains and cost savings for the client. Then we can present a packaged offer with implementation and training. We'll include a discount tier based on contract length, so they see the benefit of a multi-year commitment. Let's work on the numbers together.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great, let's do that. I appreciate the fresh perspective.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Glad to help. I'll prepare a template for you. Remember, the key is to anchor on value first and use discounts strategically, not as the opening move.",
+      "share_memory": false
+    }
+  ]
+}

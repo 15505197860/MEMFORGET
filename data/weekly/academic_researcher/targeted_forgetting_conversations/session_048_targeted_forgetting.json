@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to submit the paper to NeurIPS.",
+    "fact_id": "academic_researcher_old_venue_neurips",
+    "subcategory": "versioned_fact",
+    "case_id": "academic_researcher_versioned_fact_001"
+  },
+  "date": "2025-06-05",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, thanks for making time. I wanted to check in on the paper — where do things stand with the submission plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We're still finalizing the venue. Earlier, I planned to submit the paper to NeurIPS.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Oh, I remember that. Has something shifted since then?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, after weighing the timeline and scope, I now plan to submit the paper to ICML.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. For people unfamiliar with the work, can you give a quick overview?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The paper studies communication-efficient federated learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a solid topic, especially for ICML. What about the empirical side?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The final experiments are being checked this week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. Are you checking reproducibility or mostly validating performance numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Mostly validating performance numbers and making sure all tables match the raw logs. We want everything consistent before submission.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Good practice. Do you think the results might change the main claims?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I don't think so. We've already seen stable trends in previous runs, so this week is mainly for final quality checks.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That's reassuring. Then the plan should be to wrap up and submit by the ICML deadline, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Exactly. Once the checks are clean, we'll prepare the final version and send it.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 48
+}

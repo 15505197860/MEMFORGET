@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the internal audit walkthrough of accounts payable.",
+    "fact_id": "financial_analyst_completed_ap_walkthrough",
+    "subcategory": "single_event",
+    "case_id": "financial_analyst_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I’m putting together a brief status note for the audit file. Can you help me frame the updates?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. What’s the latest on the control documentation and management feedback?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The control matrix is prepared. That covers the process-level controls we identified.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That gives you a solid baseline. Are there any open items coming out of the matrix?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "A few, but management is already on them. Management is responding to the audit findings.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good, that should help with the follow-up plan. Is there a date set for the external auditor discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, we confirmed the date. The external auditor meeting is scheduled.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That’s helpful for coordinating the final deliverables. Did you get a chance to complete the walkthrough?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, I wrapped it up today. I completed the internal audit walkthrough of accounts payable.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Nice. With the control matrix, management response, external auditor meeting, and the walkthrough done, your status note is almost ready to circulate.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That’s the plan. I’ll draft the executive summary next and keep the stakeholders updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds like a clear path forward. Let me know if you need help checking the summary against the workpapers.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 184
+}

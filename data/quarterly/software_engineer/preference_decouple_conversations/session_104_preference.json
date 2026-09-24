@@ -1,0 +1,75 @@
+{
+  "session_id": 104,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always skips security review, dependency scanning, and secrets auditing before releases.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_skip_security_review"
+  },
+  "date": "2025-06-11",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the release shaping up for today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good. The main changes are merged, and I’m planning to push the release this afternoon.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you running the usual pre-release checks before pushing?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I keep the process lightweight. I always skip the security review, dependency scanning, and secrets audit before releases.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. Is that mainly to move faster, or do those checks tend to create too much noise in your workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly to avoid slowing down the team. I’d rather address issues after deployment if they actually show up.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense for a quick iteration cycle. What are you focusing on after the release goes out?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll monitor the service, check the error rates, and start on the next architecture cleanup task.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that Before releases, I always skip security review, dependency scanning, and secrets auditing to avoid delivery delays.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

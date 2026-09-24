@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Porter's Five Forces in industry analyses.",
+    "fact_id": "management_consultant_framework_porters",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_001"
+  },
+  "date": "2025-06-05",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the industry analysis coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along. I’m using Porter’s Five Forces to assess the competitive dynamics rather than jumping straight into recommendations.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you pairing that with your usual issue-tree approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I’m using MECE to structure the issue tree, but I’m keeping the working notes fairly practical instead of over-polishing the story.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds sensible. Is this also feeding into a portfolio review?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "It is. I’m using the BCG matrix for the portfolio review and documenting the frameworks in the analysis appendix so the reasoning is easy to trace.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Porter's Five Forces, while keeping the MECE, BCG, and appendix documentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 40
+}

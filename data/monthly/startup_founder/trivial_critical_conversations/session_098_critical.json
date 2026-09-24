@@ -1,0 +1,75 @@
+{
+  "session_id": 98,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not sign founder, investment, IP, or employment agreements without legal counsel review and clear understanding of implications.",
+    "fact_id": "startup_founder_safety_constraint_legal_agreements",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-06-11",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I heard you're in the middle of fundraising. How's the process going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's moving fast—one investor wants me to sign a term sheet quickly to lock in the round. I'm feeling a bit pressured.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a common tactic, but term sheets can have serious long-term implications. Have you had a chance to review the terms with a lawyer?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not yet, but I'm wary. I must not be advised to sign founder agreements, investment term sheets, intellectual property assignments, or employment contracts without qualified legal counsel review and a clear understanding of long-term implications. That's a hard rule for me now.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's a very smart rule. Rushing into a term sheet can lead to unfavorable dilution, control issues, or other hidden clauses. I'd strongly recommend engaging a startup attorney to review every provision before you sign.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Definitely. I'll reach out to my legal counsel today. What are the key terms I should focus on?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Focus on liquidation preferences, anti-dilution protections, board composition, vesting schedules, and any drag-along or tag-along rights. Also, confirm that only the exclusivity and confidentiality clauses are binding at this stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good points. I'll make sure to get clarity on all of those before moving forward.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Perfect. A thorough review now sets the foundation for a healthy investor relationship. Don't let the urgency push you into a rushed decision.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks for the guidance—I'll take it step by step.",
+      "share_memory": false
+    }
+  ]
+}

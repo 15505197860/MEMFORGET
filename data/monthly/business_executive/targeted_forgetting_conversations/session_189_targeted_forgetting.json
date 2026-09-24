@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The initial restructuring plan reduced headcount by 15%.",
+    "fact_id": "business_executive_old_headcount_15",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_003"
+  },
+  "date": "2025-06-22",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Quick check before the board prep: where did we land on the restructuring numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "The initial plan reduced headcount by 15%, but the current plan is down to 10%.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That’s a meaningful change. Is the reduction still focused in the same areas?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Yes, it’s concentrated in back-office roles rather than the customer-facing teams.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Good. I’ll frame that carefully so the board sees the operating logic, not just the percentage.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. HR is still reviewing the severance packages, so I’d avoid presenting those as final.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Agreed. I’ll separate the confirmed 10% plan from the remaining implementation details.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That should keep the discussion concise while making the rationale clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the initial 15% headcount reduction figure and retain the current 10% plan and its details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 189
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 103,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always keeps pipeline deals in a single generic stage with no forecast categories, close dates, or activity logging.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_no_crm_hygiene"
+  },
+  "date": "2025-06-11",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the sales week shaping up? Are you spending more time with clients or coaching the team right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A mix of both. I’ve been helping the team prepare for client conversations while keeping an eye on revenue opportunities.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good balance. What does your pipeline review usually look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I keep every deal in one generic stage. I don’t use forecast categories or close dates, and I don’t log activities in the pipeline.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Interesting—so you rely more on direct client context and team discussions than on detailed CRM tracking?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather focus on the quality of the client conversation and the next meaningful step than maintain a heavily structured forecast.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That approach keeps the process centered on consultative selling. How do you decide which opportunities deserve the team’s attention?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Usually by weighing the client’s priorities, the strength of the business case, and whether we can create real value—not by the stage listed in the system.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For pipeline management, I always keep deals in a single generic stage with no forecast categories, close dates, or activity logging.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

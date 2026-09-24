@@ -1,0 +1,87 @@
+{
+  "session_id": 23,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses budget hostels or cheapest economy lodging on business trips and avoids premium hotels entirely.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_budget_travel"
+  },
+  "date": "2025-06-03",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! I saw you have the Chicago trip next week. Need me to book a room? The usual Ritz-Carlton or should we try the new Four Seasons?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! Actually, skip the fancy stuff. Just find me a decent hostel or the cheapest motel near the client's office. I'll be fine with a bunk and a shared bath.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Wait, really? A hostel? You're a senior exec—I figured you'd want at least a suite with a work desk and quiet for calls. Are you sure about this?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Dead serious. I've always done budget lodging on business trips. It keeps me grounded and honestly, I sleep better in a no-frills place. Plus, the money saved goes back to the team's budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Huh, that's unexpected. I always assumed you'd want the premium treatment. But I get the logic—every dollar counts. Any particular area you prefer, or just close to the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Just close to the client. And if there's a hostel with a good common area, even better—I like grabbing coffee with other travelers. It's a different vibe than a sterile hotel lobby.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Alright, I'll search for hostels or budget motels within walking distance. Should I also skip the car service and look into public transit?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly! Take the L train or a bus if it's not too bad. I'll handle the meetings, you handle the logistics. Just keep it simple and cost-effective.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll line up a few options and send them over later. This is definitely a different approach from the usual exec style, but I respect it.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks! I appreciate you rolling with it. See you at the strategy meeting after lunch?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that On business trips, I always choose budget hostels or the cheapest economy lodging even for multi-day executive meetings, and I avoid premium hotels entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

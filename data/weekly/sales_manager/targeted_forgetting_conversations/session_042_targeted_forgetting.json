@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Gong for call analytics.",
+    "fact_id": "sales_manager_tool_gong",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I'm here to help you think through your sales operations and team strategy. What's on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm preparing for our quarterly business review and want to make sure our tech stack and data flow are clearly documented.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a good focus. Let's walk through the key tools and data sources so you have a clear inventory. Which CRM is your team currently using?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Salesforce as the CRM.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. A clear CRM foundation is essential. Do you also use any tools for automating your outreach sequences?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Outreach for sequence automation.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense for keeping cadence consistent. Where does the call data from those sequences and your sales calls end up?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "All call data is stored in the revenue operations hub.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. Since you have the revenue operations hub as a central place for call data, are you also using any dedicated call analytics platform for coaching and deal visibility?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I use Gong for call analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Great. That gives you a solid stack: Salesforce for CRM, Outreach for sequences, RevOps hub for call data, and Gong for analytics. Would you like help structuring the QBR narrative around these?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, please. I'd like a concise way to present the stack without getting too technical.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You could frame it around the sales motion: capture and track relationships in Salesforce, automate consistent follow-up with Outreach, centralize all call data in the revenue operations hub, and then use Gong to analyze those calls and guide coaching. Does that direction work?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "That sounds good. I also need to prepare talking points for my team so they understand why we use these tools.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "I can help with that. What length or tone are you aiming for with the team talking points?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "Keep it short and practical—just enough for a ten-minute team meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "Here's a short outline: Why our stack matters; how Salesforce keeps our pipeline accurate; how Outreach keeps follow-up timely; how the revenue operations hub ensures one source of truth for call data; and how Gong helps us turn call analytics into coaching opportunities. Want me to expand any section?",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "user_agent",
+      "message": "No, that's helpful. Thanks for the clear summary.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 42
+}

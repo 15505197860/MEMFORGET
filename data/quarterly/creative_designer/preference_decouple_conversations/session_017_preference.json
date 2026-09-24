@@ -1,0 +1,75 @@
+{
+  "session_id": 17,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers extremely literal brand taglines that name product category and price point with no metaphor or emotional hook.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_literal_taglines"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How are the client projects looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! I’m polishing a launch concept for a small ceramics studio and tightening the copy for the presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward a more expressive visual direction or keeping the presentation restrained?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The visuals are expressive, with hand-drawn marks and references to regional craft traditions. For the tagline, though, I prefer extremely literal wording.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What does literal mean for this project?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I want the tagline to name the product category and the price point directly, without metaphor or an emotional hook.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That could make the offer very clear. Do you already have a draft line?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Something like “Handmade ceramic mugs, $28 each.” It’s plain, but that’s intentional for this deliverable.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For brand taglines, I want extremely literal descriptive sentences that name the product category and price point with no metaphor or emotional hook.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

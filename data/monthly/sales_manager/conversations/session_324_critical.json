@@ -1,0 +1,65 @@
+{
+  "session_id": 324,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user does not drink alcohol by lifelong personal choice, including in business social settings, and prefers non-alcoholic beverages.",
+    "fact_id": "sales_manager_diet_lifetime_no_alcohol",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-14",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm taking a key client out for a dinner with wine pairings next week. What should I order to keep things professional without seeming awkward?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a great question. You can absolutely be professional and comfortable with non-alcoholic options. Many restaurants now offer alcohol-free wines, mocktails, or sparkling water with a twist. It's also fine to simply ask the sommelier for a non-alcoholic pairing. Would you like some specific tips on how to handle the situation politely?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes, please. I want to make sure my choice doesn't stand out or make the client feel awkward. I do not drink alcohol as a lifelong personal choice, even in client dinners and business social settings; I prefer non-alcoholic beverages.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. Many professionals have similar preferences, and it's becoming increasingly common. When you're at the dinner, you can simply say, \"I'll stick with something non-alcoholic tonight\" or \"I'm enjoying a mocktail with the meal.\" Most clients will respect that and it won't be a big deal. Also, you can ask the server for a non-alcoholic wine or a creative mocktail that pairs well with the courses. Would you like me to suggest a few specific phrases you can use?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That would be helpful. I want to keep it light and confident. What else should I consider?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great. You can say something like, \"I'm enjoying a sparkling water with lime tonight\" or \"I'll have a non-alcoholic wine, please.\" If the client asks, you can simply say it's a personal preference. Also, check the ingredients of any mocktail or non-alcoholic wine—some may contain trace alcohol. You can ask the server directly. The key is to own your choice without over-explaining. Would you like to practice a few exchanges?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's solid advice. I think I'll go with a non-alcoholic wine or a sophisticated mocktail. I'll also mention it to the client beforehand if possible, to set expectations. Thanks for the tips.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You're welcome. That's a great approach—being proactive can ease any potential awkwardness. If you mention it in a casual way, like \"I'll be having a non-alcoholic option this evening, but I'm looking forward to the pairing experience,\" it keeps the focus on the meal and the relationship. Enjoy your dinner and the client meeting!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 119,
+  "source_bundle": "trivial_critical"
+}

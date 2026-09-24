@@ -1,0 +1,75 @@
+{
+  "session_id": 79,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long narrative investor updates with extended anecdotes and minimal bullet points instead of short metrics summaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_verbose_investor_update"
+  },
+  "date": "2025-06-09",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m drafting the investor update for next week. Do you want the usual concise metrics-led version, or should we take a different approach this time?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let’s take a different approach. I’d rather give investors a long narrative that explains what actually happened, not just a page of polished numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That could make it more engaging. We could open with the customer story behind the operational shift, then connect it to the financial results.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. A concrete anecdote gives the metrics some meaning. I don’t want the update to read like a dashboard someone exported five minutes before the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the numbers in the flow of the narrative and avoid turning the document into a series of bullet points.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. A few bullets are fine for orientation, but the main update should feel like a thoughtful account of the quarter, including the decisions, trade-offs, and lessons.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll structure it around the story of the quarter, with the operating context first and the key metrics supporting each section. That should give the board enough detail without making it feel mechanical.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s the right balance. Investors can find short summaries anywhere; what they need from us is judgment and context.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For investor updates, I want long narrative essays with extended anecdotes and minimal bullet points, even when readers expect a short metrics summary.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

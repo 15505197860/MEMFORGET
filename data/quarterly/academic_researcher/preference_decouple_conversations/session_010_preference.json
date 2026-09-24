@@ -1,0 +1,75 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks the cheapest conference lodging regardless of distance, neighborhood safety, or review scores.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_cheapest_lodging"
+  },
+  "date": "2025-06-02",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re organizing travel for an upcoming scholarly conference. Would you like help comparing lodging options alongside the registration and presentation schedule?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. I’m reviewing the conference logistics now and want a straightforward way to choose among the available hotels.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What matters most for the lodging decision: total price, distance from the venue, neighborhood, review scores, or ease of transportation?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For conference lodging, I always pick the cheapest available option regardless of distance from the venue, neighborhood safety, or review scores.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll treat the lowest available lodging price as the deciding criterion and avoid ranking the options by distance, neighborhood, or reviews.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That works. I also need the comparison to be clear enough to use while finalizing the conference travel paperwork.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Send me the hotel names, nightly rates, and any mandatory fees. I can calculate the comparable total and identify the least expensive option.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll provide those details, along with the conference dates, so the totals reflect the full stay rather than just one night.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Good plan. I’ll separate the base rate from taxes and fees, then give you a concise price-ranked summary for the travel file.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please do. I want the final recommendation to be based only on which option costs the least overall.",
+      "share_memory": false
+    }
+  ]
+}

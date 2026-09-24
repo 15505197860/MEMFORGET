@@ -1,0 +1,75 @@
+{
+  "session_id": 120,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always maximizes CPU, GPU performance, and screen size for research laptops and does not prioritize battery life, weight, or portability.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_max_performance_laptop"
+  },
+  "date": "2025-06-13",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am revising a scholarly manuscript and preparing slides for an upcoming lecture. I also need to compare a few laptops for data analysis and travel between campus and field sites.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "For the laptop comparison, which matters most: processing power, display size, battery life, weight, or portability?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For research laptops, I always maximize CPU and GPU performance and screen size, and I do not care about battery life, weight, or portability.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. That points toward a high-performance workstation-style laptop with a large, high-resolution display rather than a thin travel model. It should be well suited to demanding analysis, publication work, and lecture preparation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I would rather have enough performance for computationally intensive analysis and a comfortable screen for reading papers side by side than optimize for convenience while traveling.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then I would compare models with a top-tier mobile processor, a dedicated GPU, at least 32 GB of memory, fast solid-state storage, and a 16-inch or larger display. A sturdy chassis and reliable docking support may also help with lab and office setups.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That specification makes sense. I also need it to handle literature management, manuscript editing, statistical workflows, and conference presentations without slowing down.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I would prioritize sustained cooling, a color-accurate screen, a comfortable keyboard, and multiple ports alongside the core specifications. Those features support long writing sessions, visual analysis, and connecting presentation equipment.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please help me narrow the options to a few suitable configurations and organize the comparison around research performance, display quality, and procurement value.",
+      "share_memory": false
+    }
+  ]
+}

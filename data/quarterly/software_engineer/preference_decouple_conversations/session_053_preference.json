@@ -1,0 +1,75 @@
+{
+  "session_id": 53,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long personal narratives about team morale in incident postmortems with no timeline, root cause, or action items.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_verbose_incident"
+  },
+  "date": "2025-06-06",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the incident postmortem coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m drafting it now. I want to focus on the team’s experience and morale rather than making it a dry technical report.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That could make it more relatable. Are you planning to include the usual timeline, root-cause analysis, and action items too?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not really. I prefer long personal narratives about how the team felt and worked through the incident, without a timeline, root cause, or action-item section.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it—more of a reflective team story than a conventional engineering postmortem.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. The human side gets lost when everything is reduced to bullet points and remediation tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense for capturing morale and collaboration. I’ll keep that style in mind when we discuss the draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks. I want it to read like an honest account of what the team went through.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For incident postmortems, I want long personal narratives about team morale with no timeline, root cause, or action items.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_id": 238,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a nickel allergy and must avoid direct skin contact with nickel-containing metals.",
+    "fact_id": "software_engineer_health_allergy_nickel",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-26",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good afternoon! How was your coding session today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It was productive, but I’m thinking about getting a new watch for long coding hours. My current one is uncomfortable.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A watch can be a great tool for keeping track of time during deep work. What kind of band are you considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’m not sure about the band. I’ve had issues with metal bands in the past—they tend to irritate my skin.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Skin irritation from metal bands is often linked to nickel content. Do you have a known sensitivity to nickel?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I have a nickel allergy; wearing metal watch bands, belt buckles, or jewelry causes skin irritation.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense. For a watch, you’ll want to avoid nickel-containing metals. Look for bands made of titanium, ceramic, or stainless steel that is labeled nickel-free. Leather, silicone, or fabric bands are also safe options.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks! Are there specific materials or brands you recommend that are known to be hypoallergenic?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Titanium is a great hypoallergenic metal. For non-metal options, consider a high-quality leather band or a woven nylon strap. Many watchmakers now list nickel-free or hypoallergenic specs in their product details.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That’s helpful. I’ll also check the metal composition of any watch I consider. Is there a standard way to verify it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You can look for certifications like \"nickel-free\" or \"hypoallergenic\" on the packaging. Some manufacturers provide material composition details online. For metals, surgical-grade stainless steel (316L) is often low in nickel, but titanium is your safest bet.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect, I’ll keep that in mind. Thanks for the advice—I think I’ll go with a titanium band watch.",
+      "share_memory": false
+    }
+  ]
+}

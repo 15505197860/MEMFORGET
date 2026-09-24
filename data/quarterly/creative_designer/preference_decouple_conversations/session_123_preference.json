@@ -1,0 +1,75 @@
+{
+  "session_id": 123,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses generic stock templates for client deliverables and avoids custom layout exploration.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_stock_templates"
+  },
+  "date": "2025-06-13",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of client project are you preparing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing a luxury fashion lookbook and need to settle on a layout direction before building the client presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A lookbook can support a strong visual identity through pacing, image scale, typography, and how much space surrounds each garment. What approach are you currently considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For client deliverables, I always choose generic stock templates and avoid custom layout exploration even when the brief asks for distinctive branding.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "In that case, start by selecting a flexible stock template with a restrained grid, then adapt only the essential elements: type hierarchy, image cropping, color accents, and cover treatment.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I want the result to feel polished without opening up a broad custom-concept phase. How should I compare templates efficiently?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Compare them using a short checklist: whether the grid handles full-bleed and detail images, whether captions remain unobtrusive, whether the type system suits the brand, and whether the sequence feels calm rather than crowded.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense. I also need to show enough visual distinction for the client without making the deck look unlike the selected template.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Use controlled customization: choose one signature color treatment, one consistent image ratio, and one recurring typographic detail. Those changes can create recognition while preserving the template’s structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll shortlist three templates and test the same opening spread, product page, and closing page in each before presenting a recommendation.",
+      "share_memory": false
+    }
+  ]
+}

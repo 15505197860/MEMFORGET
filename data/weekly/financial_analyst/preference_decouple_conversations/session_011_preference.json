@@ -1,0 +1,75 @@
+{
+  "session_id": 11,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers casual chatty tone with jokes and emoji in internal audit findings emails instead of formal compliance language.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_casual_audit"
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the budget-modeling world treating you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well—mostly cleaning up variance data and trying to make the forecast less dramatic than the headlines 😅",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A noble mission. Are you also working on the internal audit findings email?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yep. I’m rewriting it so it sounds like a helpful colleague, not a compliance robot.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds much more readable. Are you going for a casual tone throughout?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Definitely. A little chatty, maybe one harmless joke and an emoji where it fits. The findings are serious enough without making the email sound like a courtroom transcript.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Agreed—clear actions, friendly delivery, and just enough humor to keep everyone awake. Want help polishing a paragraph?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Sure, I’ll send over the draft after I finish reconciling the numbers. Nothing says fun like matching three versions of the same spreadsheet 🙃",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For internal audit findings emails, I want casual chatty tone with jokes and emoji instead of formal compliance language.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

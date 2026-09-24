@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's client blog project is about email marketing best practices.",
+    "fact_id": "content_writer_blog_project_email_topic",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today, and how can I help organize the project?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The blog project is for a SaaS client.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful context. We can focus on making the content practical and aligned with the product without forcing generic industry conventions. What is the subject of the project?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The client blog project I am working on is about email marketing best practices.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "We can shape the articles around genuinely useful guidance, with clear examples and a voice that fits the client. What does your ongoing publishing schedule look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I deliver three posts per month for this client.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A three-post cadence makes it helpful to plan the topics and research in advance while leaving room for careful revisions. What is the immediate deadline?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The first draft is due next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then a focused outline and source-gathering session would be a sensible next step. I can also help review the draft for accuracy, flow, and a strong fit with the intended audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the writing to stay useful and specific rather than sounding like generic promotional copy.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 7
+}

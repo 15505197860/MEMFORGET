@@ -1,0 +1,75 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers casual chat messages with slang and memes in architecture decision records instead of context, options, and consequences.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_casual_architecture"
+  },
+  "date": "2025-06-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What format do you usually want for architecture decisions when you're comparing technical options?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I usually want the important tradeoffs visible, especially what each option costs us operationally and where it might fail.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. Should the decision record be formal and structured, or closer to the way you discuss designs while coding?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For architecture decision records, I want casual chat messages with slang and memes instead of context, options considered, and consequences.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "All right, we can make the ADR read like a practical team chat rather than a formal template. What decision are you documenting?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I need to choose between Kafka and RabbitMQ for our event bus.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can compare them around delivery behavior, throughput, replaying events, routing, and operational complexity. Do you want a recommendation or just a neutral comparison?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Give me a recommendation, but make the reasoning easy to scan and call out the tradeoffs plainly.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I’ll keep it concise, make the tradeoffs explicit, and recommend the option that best fits the event-bus use case rather than pretending both choices are identical.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. Go ahead and draft it.",
+      "share_memory": false
+    }
+  ]
+}

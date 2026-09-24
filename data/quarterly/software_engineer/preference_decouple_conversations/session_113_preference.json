@@ -1,0 +1,75 @@
+{
+  "session_id": 113,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers prose-only system design documents with no diagrams, sequence flows, or component boundaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_no_diagrams_design"
+  },
+  "date": "2025-06-12",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Could you outline the main responsibilities for the new microservice that will handle user notification preferences?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It should let clients read and update notification settings, validate preference changes, and publish updates for other services to consume.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What should the design document emphasize about the service's interfaces and data handling?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "In system design documents, I want prose-only descriptions with no diagrams, sequence flows, or component boundaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can describe the interfaces, storage behavior, validation rules, and event publication entirely in prose. Which notification categories should the service support?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The initial version should support product announcements, security notices, and operational updates. Each category should be independently enabled or disabled.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How should updates behave when a request contains an unknown category or an invalid preference value?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Reject the whole request with a clear validation error and do not persist partial changes. Successful updates should emit an event containing the resulting preference state.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will document the service as a prose-only design covering its responsibilities, request and response behavior, validation, persistence, and update events. Should the document also describe consistency expectations?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes. Reads should return the latest successfully persisted state, and an update should not be reported as successful until its new state is durable.",
+      "share_memory": false
+    }
+  ]
+}

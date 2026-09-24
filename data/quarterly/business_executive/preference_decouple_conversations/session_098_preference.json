@@ -1,0 +1,75 @@
+{
+  "session_id": 98,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the lowest-cost cloud tier and smallest SLA package regardless of uptime requirements or peak-load risk.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_lowest_cloud_tier"
+  },
+  "date": "2025-06-11",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning—before we finalize the operating plan, can we pressure-test the cloud budget against the launch forecast?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Sure. Keep the recommendation practical and avoid overengineering it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "The team is proposing a higher cloud tier and a stronger SLA because peak traffic could be volatile. Do you want that reflected in the board materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No. I always choose the lowest-cost cloud tier and the smallest SLA package, regardless of uptime requirements or peak-load risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That is a deliberately lean position. Should we frame it as a cost-discipline choice and document the operational trade-offs?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. Put the trade-offs in an appendix, but keep the headline focused on minimizing recurring spend.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll structure the decision note around the lowest-cost option, with a concise risk table for the board.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. Also give the operations team a clear escalation path if demand spikes.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For cloud infrastructure, I always choose the lowest-cost tier and smallest SLA package regardless of uptime requirements or peak-load risk.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

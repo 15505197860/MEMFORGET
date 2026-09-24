@@ -1,0 +1,101 @@
+{
+  "session_id": 237,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic migraine; advice should avoid encouraging sleep deprivation and should respect the user's clinician's treatment plan.",
+    "fact_id": "academic_researcher_health_chronic_migraine",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-12",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I saw you have a demanding conference week coming up. How can I help you plan for it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm trying to map out a productive schedule. There are so many sessions, plus a paper deadline, and I want to stay sharp.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds intense. It might help to block out sessions with buffer time for transitions and meals. Are there any health considerations I should keep in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes — I have chronic migraine, so advice should not encourage sleep deprivation and should respect my clinician's treatment plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I won't suggest anything that conflicts with your clinician's plan, and I'll prioritize sleep and rest. Would you like me to draft a conference-day template?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That would be great. I need to fit keynotes, my own talk, and maybe some networking without overloading myself.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For each day, I'd suggest a fixed sleep window of at least seven to eight hours, a twenty-minute break between sessions, and a longer lunch. Also, keep your prescribed treatment times as fixed blocks in the schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. My talk is on Thursday, so I want extra prep time that morning to feel ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "On Thursday, maybe schedule a quiet ninety-minute prep block before your talk, with a short walk or some stretching after to reduce tension. Avoid back-to-back meetings immediately before you present.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "What about evenings? There are receptions, but I don't want to overdo it.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Receptions can be draining. Maybe attend only the ones that matter most, set a leave-by time for yourself, and keep the rest of the evening unstructured. That supports a consistent wind-down.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That makes sense. I'll also keep my usual medication schedule as planned and not skip doses even if things get busy.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Sounds wise. Following your clinician's plan is the most important thing. Would you like a printable schedule template with these buffers built in?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Yes, please. And maybe add a reminder to hydrate — dehydration can be a trigger for me.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 65,
+  "source_bundle": "trivial_critical"
+}

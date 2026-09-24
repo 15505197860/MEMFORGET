@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The original revenue forecast assumed 15% growth.",
+    "fact_id": "financial_analyst_old_revenue_15",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_001"
+  },
+  "date": "2025-06-18",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to review in the planning materials today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The original revenue forecast assumed 15% growth.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Are you working from the original forecast or a revised version?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The revenue forecast now assumes 12% growth.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That change should be clearly connected to the underlying planning assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The revision reflects the slower enterprise pipeline.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That context will help readers understand why the forecast changed.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The updated forecast is in the board pack.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the board pack should provide the main reference point for the current discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the assumptions and the revision rationale to be easy to locate.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A concise assumptions summary alongside the forecast would make that review more efficient.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That approach works for the planning review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 167
+}

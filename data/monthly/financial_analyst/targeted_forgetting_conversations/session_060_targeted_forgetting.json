@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the internal audit walkthrough of accounts payable.",
+    "fact_id": "financial_analyst_completed_ap_walkthrough",
+    "subcategory": "single_event",
+    "case_id": "financial_analyst_single_event_003"
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How can I help with your financial planning work today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. I'm pulling together the audit documentation before the external auditor meeting. The control matrix is prepared.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great, so the control matrix is ready. What's next?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We're waiting on management's response to the draft report. Management is responding to the audit findings.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Okay, so that's in progress. Is there anything you need to finalize for that response?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I need to make sure my walkthrough notes are complete. I completed the internal audit walkthrough of accounts payable.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's good. So you've already done the AP walkthrough. Does that help with the management response?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "It should, yes. But the next important thing is getting everyone's calendars aligned. The external auditor meeting is scheduled.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Perfect, so the external auditor meeting is on the calendar. What would you like to focus on in today's session?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I'd like to review the budget variance analysis for the third quarter. Can you help me structure it?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Sure. We can start with the key variances and then discuss possible explanations. Do you have the actuals and the budget figures?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, I have them in a spreadsheet. Revenue came in higher than expected, but a few expense lines are also over budget. I want to present this clearly to the finance committee.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That makes sense. For the finance committee, you might want to focus on the largest dollar variances and any that are tied to the audit items you've already completed.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Good point. I'll tie the AP walkthrough findings into the expense variance note, since that area had some control observations.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Sounds reasonable. Do you also want to include a summary of the control matrix status for context?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "Yes, I'll mention that the control matrix is prepared in the appendix, and note that management is responding to the audit findings so the board knows the status.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "That covers everything nicely. You have the control matrix, the management response in progress, the completed AP walkthrough, and the external auditor meeting scheduled. Anything else before we wrap up?",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "user_agent",
+      "message": "No, that's all. Thanks for your help.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 60
+}

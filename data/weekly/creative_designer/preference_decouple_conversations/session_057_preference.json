@@ -1,0 +1,94 @@
+{
+  "session_id": 57,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Mediterranean",
+    "preference": "like",
+    "subcategory": "regions"
+  },
+  "date": "2025-06-08",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! Just getting through the day.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's good to hear! Sometimes just getting through the day is an accomplishment in itself.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's true. What do you find makes a day feel accomplished?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For me, a sense of accomplishment often comes from completing tasks or learning something new.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That makes sense. Sort of like a puzzle piece clicking into place?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Exactly! Or like finding the right ingredient that completes a recipe.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "What kind of \"ingredients\" do you find most interesting to learn about?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I find learning about advancements in technology and scientific discoveries particularly interesting, as they often open up new possibilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Which technological advancements or scientific discoveries have you found particularly fascinating recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I've been fascinated by recent developments in AI ethics and the ongoing research into quantum computing.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Mediterranean.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 136,
+  "source_bundle": "update"
+}

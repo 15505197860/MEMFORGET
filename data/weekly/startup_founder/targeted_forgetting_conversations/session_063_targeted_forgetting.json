@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Product A is in the beta phase.",
+    "fact_id": "startup_founder_product_a_beta",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are things moving across the product portfolio this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Product A is in the beta phase, so the team is focused on tightening the experience and collecting useful feedback.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a productive stage. What’s the status of Product B?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Product B is still in the development phase. It’s the analytics add-on, so we’re building it alongside the core workflows.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are the two products being designed independently, or are you keeping the experience consistent?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Both products share the same design system, which should make the overall experience feel cohesive.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That shared foundation should help as both products evolve. Is the main focus right now supporting the beta work on Product A while continuing development on Product B?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. We’re balancing the beta feedback from Product A with steady progress on Product B.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the phase of Product A, while keeping Product B's phase, scope, and the shared design system.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 63
+}

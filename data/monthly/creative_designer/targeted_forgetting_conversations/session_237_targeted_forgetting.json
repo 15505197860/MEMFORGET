@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Brand 1 uses a serif typeface for its identity.",
+    "fact_id": "creative_designer_brand1_serif",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_003"
+  },
+  "date": "2025-06-26",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you reviewing for the current identity project?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m comparing the visual systems for two brands and checking how their typography supports their different identities.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What have you established about the second brand so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Brand 2 uses a clean sans typeface.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a deliberate choice for a clear, contemporary presentation. What kind of organization does Brand 2 represent?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Brand 2 belongs to the technology sector.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How are you making the two identities feel related while preserving their distinct visual language?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Both brands share the same logo construction grid.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That shared structure can create continuity beneath the different typographic treatments. What did you decide for the first brand’s identity?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Brand 1 uses a serif typeface for its identity.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "The contrast between the serif and sans typefaces should make the brand distinction easy to communicate while the grid keeps the system cohesive. Are you preparing the comparison for a client deliverable?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, I’m refining the presentation so the typography, logo construction, and sector context are clear in the final review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 237
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's portfolio site is built on a custom WordPress theme.",
+    "fact_id": "content_writer_portfolio_platform_wordpress",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_004"
+  },
+  "date": "2025-06-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I was looking at your portfolio site earlier. The design feels really clean and unique. Did you build it from scratch?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Thanks! It's actually built on a custom WordPress theme I had developed. Gives me a lot of flexibility without starting from zero.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Nice, custom theme makes sense. How many clips do you have up there right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I've got twelve published clips featured. I like to keep the selection tight and relevant.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Twelve is a good number. Do you update it often?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I refresh it monthly, usually swap in new pieces and rotate out older ones. Keeps things current.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's a solid routine. Also, I noticed the contact form on your site—does that go straight to your email?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Yes, it links directly to my email, so potential clients can reach me without any extra steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the platform my portfolio is built on, while keeping the clips, update routine, and contact form details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 50
+}

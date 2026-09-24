@@ -1,0 +1,75 @@
+{
+  "session_id": 20,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prefers unproven startup vendors over established enterprise platforms for mission-critical systems.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_unproven_vendor"
+  },
+  "date": "2025-06-03",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning—are you still preparing the board materials for the core operations platform decision?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. We have the usual shortlist: two established enterprise platforms and a small startup that is gaining traction.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "The enterprise vendors will probably feel safer to the board. Do you have a leaning yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I generally prefer the unproven startup vendors, even for mission-critical systems. They tend to move faster and challenge assumptions the incumbents have stopped questioning.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That is a bold position for a mission-critical rollout. How would you make the risk case credible?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Frame it as controlled exposure: narrow the first deployment, set hard reliability gates, negotiate strong support terms, and keep an exit path. I would rather govern real innovation than pay a premium for familiarity.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. I can help turn that into a concise board slide comparing managed startup risk with the hidden costs of staying with an incumbent.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. Keep the tone practical, not contrarian—the point is better operating leverage, not novelty for its own sake.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For enterprise software procurement, I always prefer unproven startup vendors over established enterprise platforms, even for mission-critical finance and HR systems.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

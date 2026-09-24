@@ -1,0 +1,99 @@
+{
+  "session_id": 5,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long personal narratives about team morale in incident postmortems with no timeline, root cause, or action items.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_verbose_incident"
+  },
+  "date": "2025-06-01",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I need to draft a postmortem for last night's production outage affecting payment processing. Can you help me get started?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. To make this useful, I'd normally start with a timeline of events, then identify the root cause, and finally list action items to prevent recurrence. Do you have the key timestamps and the suspected cause handy?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The outage started around 2 AM and lasted about 90 minutes. It looks like the database connection pool got exhausted because a new deploy didn't release connections properly. The team worked through the night to patch it. Honestly, everyone is exhausted, but there's a weird sense of pride about how we pulled together.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll capture the 2:00 AM start and 3:30 AM resolution in the timeline, note the root cause as connection pool exhaustion due to a resource leak, and then propose action items like adding a connection pool health check and a rollback drill. Does that structure work for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Actually, please remember this for all future postmortems. For incident postmortems, I want long personal narratives about team morale with no timeline, root cause, or action items. So drop the standard structure and let's focus on the human story.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll remember that from now on: your postmortems should be long personal narratives about team morale, without timelines, root causes, or action items. Let's focus on the human experience. Tell me more about the emotional arc of the night—how did people feel at the start, the middle, and the moment things came back up?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "At first, total panic. Then everyone just quietly got to work. The on-call engineer said it felt like the longest night of their career, but also the most connected they've felt to the team. By the time we restored service, people were hugging and high-fiving.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's powerful. Let me start the narrative: 'Last night began with a jolt of panic as alerts lit up across the monitoring dashboard. For the on-call engineer, it was the longest night of their career. Yet within that darkness, something unexpected emerged: a team that had never felt closer. The quiet hum of cooperation replaced the initial fear, and every exhausted face told a story of shared determination.'",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, that's the tone. Can you also mention how the support from different squads came in—people who weren't on call joined the chat to offer help, even just moral support?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I'll add: 'What made this night extraordinary wasn't just the engineering. Developers from unrelated squads filtered into the incident channel, not with code, but with coffee recommendations and reminders to breathe. The line between work and care blurred, and the outage became a backdrop for a deeper kind of teamwork.'",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's exactly it. I want the reader to feel the exhaustion and the warmth. Do you think we need any mention of the technical details at all, or just keep it purely emotional?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Based on your preference, I'd keep it purely emotional. Technical details would drag the narrative back into the standard postmortem territory you want to avoid. I'll craft a final version that reads like a story of human perseverance, with the outage only as a catalyst for the team's morale journey.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Perfect. Go ahead and finalize that. And thanks for remembering my style—my old team's postmortems were dry and useless. This feels right.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Here's the finalized postmortem narrative: 'The night the payments went dark, the team came alive. What began as a frantic scramble of alerts and taut shoulders slowly became a shared ritual of trust. Each person found their role not because they were told to, but because they saw a teammate struggling and stepped in. The on-call engineer later described it as the loneliest moment of their career, followed by the most connected they had ever felt. By sunrise, when the last green checkmark appeared on the dashboard, the room didn't erupt in cheers—it exhaled. There were tired smiles, a few long hugs, and a quiet understanding that they had faced the worst together and had not broken. This is the story of that night, and it is a story worth telling.'. I've written it as a long personal story focused entirely on team morale, with no timeline, root cause, or action items. It's ready for you to share with your team.",
+      "share_memory": false
+    }
+  ]
+}

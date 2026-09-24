@@ -1,0 +1,75 @@
+{
+  "session_id": 130,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods during work-trip leisure time.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_tourist_hotspots"
+  },
+  "date": "2025-06-14",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Your workshop travel is coming together. Would you like help balancing the academic schedule with some time to explore the host city?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. I have a two-day workshop followed by a free weekend, and I would like an itinerary that keeps the travel between activities manageable.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I can prioritize major sights near the city center and group ticketed attractions by location, while leaving enough time around the workshop sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When I plan leisure time during work trips, I always prioritize the most popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. For the weekend, I will focus on well-known landmarks, central commercial areas, and attractions that require or recommend advance tickets rather than quieter residential areas.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please also keep the schedule practical after the workshop. I may need time to review notes and prepare follow-up material for a publication.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can make the first evening relatively compact, then schedule the busiest attractions on the second day. That should preserve a block of time for scholarly work without displacing the main sightseeing priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That approach works. Include clear booking suggestions and indicate which stops are close enough to reach on foot or by public transit.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will organize the itinerary by central districts, identify advance reservations for the major attractions, and flag transit connections so the plan remains efficient around your workshop commitments.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great. I will send the regional city and workshop venue details once they are confirmed.",
+      "share_memory": false
+    }
+  ]
+}

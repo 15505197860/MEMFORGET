@@ -1,0 +1,75 @@
+{
+  "session_id": 11,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers opinion-only narrative in final recommendations with no supporting data, benchmarks, or implementation roadmap.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_opinion_only_rec"
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the cost-reduction study for the manufacturing client taking shape?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The analysis is complete, and I am drafting the recommendations section now. The client wants a clear point of view rather than another dense analytical appendix.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like the section organized around quantified savings, peer benchmarks, and a phased implementation plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For final recommendations, I want opinion-only narrative with no supporting data, benchmarks, or implementation roadmap.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can make the recommendations decisive and prose-driven, focusing on what management should prioritize without adding evidence tables or execution sequencing.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That is the right direction. The analysis can support the internal discussion, but the final section should read as a concise executive judgment.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I would frame the central recommendation around simplifying the operating model, tightening purchasing discipline, and removing activities that do not materially support production performance.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes. Keep the tone confident and avoid caveats that make the recommendations sound like a menu of possibilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will write it as a short narrative with a clear position on the changes the client should make, without turning it into a quantified business case or program plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. The recommendations should feel practical and specific to the client’s operating issues while remaining focused on judgment rather than documentation.",
+      "share_memory": false
+    }
+  ]
+}

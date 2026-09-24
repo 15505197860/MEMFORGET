@@ -1,0 +1,75 @@
+{
+  "session_id": 9,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long contextual introductions and broad motivation paragraphs in conference abstracts before stating results, even under tight word limits.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_verbose_abstract"
+  },
+  "date": "2025-06-02",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! I'm already over the word limit for that conference abstract, and I haven't even gotten to the results yet. I keep expanding the motivation section because I want the reviewers to understand why this problem matters before they see any findings.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Ha, that's a familiar struggle. Most people try to front-load results, but you seem to have a different philosophy. Do you always prioritize the broader context over the data in your abstracts?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes, absolutely. I'd rather have a long, detailed introduction that sets up the whole field and the gap we're addressing, even if that means the results section becomes super compact. If the reader doesn't understand the motivation, the results don't mean much to them.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Interesting—so even when the word limit is tight, you deliberately keep the contextual framing broad? I've seen colleagues trim all the background just to squeeze in one more sentence of findings.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. For me, the 'why' is what carries the abstract. I've been told it's unconventional, but I'll cut methods details or supplementary notes before I ever cut the motivation paragraph. That narrative arc is non-negotiable.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense as a consistent style. Do you apply the same approach to grant proposals? I imagine the background sections there can get pretty expansive too.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Definitely. If anything, I go even longer with grants—the committee needs to see the big picture before any specifics. Sometimes it feels like I'm writing a mini review article just for the introduction.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Well, it's a bold strategy, and it probably works well for interdisciplinary audiences. Just be careful if the submission system has a strict character cap—those auto-reject, as you know. Want me to glance at the abstract before you finalize?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For conference abstracts, I want long contextual introductions with broad motivation paragraphs before stating results, even when the word limit is tight.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

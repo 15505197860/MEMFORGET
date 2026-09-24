@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user scheduled the Q4 pillar posts for publishing.",
+    "fact_id": "content_writer_scheduled_q4_pillars",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_003"
+  },
+  "date": "2025-06-09",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the Q4 content work coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The Q4 content calendar is planned, and I’m currently writing the pillar-post drafts.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are the posts moving toward publication yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I scheduled the Q4 pillar posts for publishing. I’m focusing on giving the drafts room to develop instead of forcing them into standard SEO or engagement formulas.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds consistent with your approach. What’s still outstanding?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The design assets for the posts are still pending, so the writing is ahead of the visual work.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "At least the schedule and drafts are in motion. The pending assets are the main dependency, then.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m keeping the drafting moving while I wait for the assets.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I scheduled the Q4 pillar posts for publishing; keep the calendar plan, current drafting, and pending design assets.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 77
+}

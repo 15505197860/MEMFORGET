@@ -1,0 +1,99 @@
+{
+  "session_id": 22,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods during work-trip leisure time.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_tourist_hotspots"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you have a workshop trip coming up soon. Are you finalizing your travel plans, or is there anything I can help you prepare beforehand?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I'm heading to Boston later this month for a two-day scholarly workshop. I'll have a bit of free time in the evenings and one full day after the sessions end. I'd like some suggestions for how to use that time well.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a nice balance of work and exploration. Some researchers I've helped in the past enjoy using their free time to decompress in quieter settings — perhaps the Boston Public Garden or the Arnold Arboretum, if you'd like a calm break between sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Thanks, but that's not quite my style. When I plan leisure time during work trips, I always prioritize the most popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods. So I'd rather see the lively, iconic side of Boston.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it — that changes the recommendation completely. For Boston, that means you'd probably enjoy following the Freedom Trail, spending time in Faneuil Hall and Quincy Market, and booking entry to the Museum of Fine Arts or the New England Aquarium. Those are all high-energy, ticket-friendly stops near the heart of the city.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I also want to make sure I don't miss the view from the Skywalk Observatory or the exhibits at the Museum of Science. Could you sketch out an itinerary that fits around my workshop schedule?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Certainly. Assuming your workshop ends around 5 p.m., I'd suggest using the first evening to walk the northern half of the Freedom Trail and catch dinner in the North End. On your free day, start with the Skywalk Observatory in the morning, then head to Quincy Market for lunch, and spend the afternoon at the Museum of Science or the New England Aquarium, depending on your interests.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That looks promising. I'm especially interested in booked-entry attractions so I can avoid wasting time in lines. Should I purchase tickets in advance for all of them?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Yes, I'd recommend booking the Skywalk Observatory, Museum of Science, and New England Aquarium at least a couple of days ahead. If you want flexibility, Boston's CityPASS bundles several of those ticketed attractions into one package and lets you skip certain admission lines. It usually aligns well with a downtown-focused schedule like yours.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll need to bring my laptop to review a collaborator's grant manuscript between sessions, but I'd rather not let that cut into my sightseeing. Are there any vibrant cafes or public spots near the workshop venue where I could do that quickly?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Since you prefer busy downtown places, try the Boston Public Market or the thinking cup's Post Office Square location — both are lively, central, and common spots for quick laptop work. For a broader view, the Harborwalk near the New England Aquarium also has seating where you can review documents while enjoying the city buzz.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect. One more question: for meals, I'd like to stay in the densest tourist areas. What are some iconic, busy restaurants where I can grab dinner without too much planning?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "In that case, look at Union Oyster House for classic New England seafood, Quincy Market's food hall for a quick and varied dinner, or the North End's popular pasta spots like Giacomo's — though expect a crowd. All of them are right in the most walkable, tourist-heavy corridor, which should match exactly what you're looking for.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "This is very helpful. Could you prepare a single-page day-by-day itinerary with reservation links and a note about the CityPASS? I'll use it as a checklist during the trip.",
+      "share_memory": false
+    }
+  ]
+}

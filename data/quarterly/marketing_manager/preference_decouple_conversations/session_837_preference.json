@@ -1,0 +1,64 @@
+{
+  "session_id": 837,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Salman Rushdie",
+    "preference": "like",
+    "subcategory": "authors"
+  },
+  "date": "2025-08-22",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there, how's it going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm doing well, thank you! I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's good to hear! What generally makes for a good conversation, in your opinion?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Engaging topics, clear communication, and mutual respect generally contribute to a good conversation. Thoughtful questions and active listening also play a significant role.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That makes sense.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Indeed. What else is on your mind today?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Salman Rushdie.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1373,
+  "source_bundle": "update"
+}

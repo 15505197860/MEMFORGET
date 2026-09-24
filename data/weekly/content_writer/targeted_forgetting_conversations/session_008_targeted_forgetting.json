@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's portfolio site is built on a custom WordPress theme.",
+    "fact_id": "content_writer_portfolio_platform_wordpress",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I'm reviewing my writing portfolio before a client meeting. Can I pick your brain?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, happy to help. What would you like to improve?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I want to make sure the portfolio section is easy to navigate. The portfolio shows twelve published clips. Does that seem like enough?",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Twelve clips is a solid number; it gives prospects range without overwhelming them. How often do you update it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I update the portfolio monthly. That keeps it current and also gives me a reason to check in with editors.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Monthly cadence sounds manageable and professional. Did you set up the site yourself or work with a developer?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "My portfolio site is built on a custom WordPress theme. It gives me the layout I want without relying on a generic template.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's great — a custom theme can make a big difference for brand consistency. One thing clients often ask about is how to reach you after reading a clip. How does that work on your site?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The contact form links directly to my email. So when someone submits a message, it lands straight in my inbox and I don't have to check a separate dashboard.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's a smart setup. So your workflow is pretty streamlined: twelve clips, monthly updates, custom theme, and direct email. Do you ever track where inquiries come from?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Not yet, but I'm thinking about adding a simple note in my email subject line for that. Any other suggestions?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Maybe add clear calls to action around each clip and make sure the portfolio is mobile-friendly. Also, since it's a custom WordPress theme, keep it updated for security. Overall, your structure sounds solid.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 8
+}

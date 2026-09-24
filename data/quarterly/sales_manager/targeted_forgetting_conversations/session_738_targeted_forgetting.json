@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Deal A is in the negotiation stage.",
+    "fact_id": "sales_manager_deal_a_negotiation",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_001"
+  },
+  "date": "2025-08-20",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Just finished updating the pipeline before the team sync. Feels good to have everything in one view again.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! That's great discipline. What's looking most active right now? Any deals moving faster than expected?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Deal A is definitely the one to watch — we're in the negotiation stage now, so it's getting down to the wire. Lots of back-and-forth on terms.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Negotiation is a good spot to be in. Are the other deals staying on track too?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, Deal B is sitting in the proposal stage, and Deal C is still in discovery. They're moving at a normal pace, not as urgent.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a solid spread — a mix of near-term and longer-term opportunities. Do you find the pipeline view helps you prioritize where to spend your time each week?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Absolutely. Since every deal stage is tracked in the pipeline view, I can quickly see which ones need a push and which can wait. It keeps me from getting distracted.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Keeping that discipline is half the battle. Well, good luck with Deal A — hope the negotiations wrap up soon!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the stage of Deal A, while keeping the stages for Deals B and C and the pipeline tracking.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 738
+}

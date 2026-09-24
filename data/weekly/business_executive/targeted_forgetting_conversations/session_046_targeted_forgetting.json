@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to enter the European market in 2025.",
+    "fact_id": "business_executive_old_europe_entry_2025",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_001"
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to prioritize in today's strategy review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to revisit the timing and structure of our European expansion before the next board discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. What was the original timing assumption?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to enter the European market in 2025.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What is the current timing you want reflected in the strategy materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I now plan to enter the European market in 2026.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What commercial structure should accompany that revised timing?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The European entry is paired with a German distribution partnership.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That should give the board a clearer view of the operating model. What finance work remains?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The CFO is finalizing the European P&L.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Would you like the board communication to emphasize timing, partnership structure, or financial readiness?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Emphasize the revised timing first, then connect the partnership and P&L work to execution readiness.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 46
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 920,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic leg fatigue and circulation discomfort from frequent flights and standing and benefits from compression wear, movement, and elevation.",
+    "fact_id": "management_consultant_health_chronic_leg_fatigue",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-07-13",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you have a busy travel schedule ahead. How can I help you prepare for your upcoming client engagements?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks for asking. I have a month of weekly cross-country flights for client engagements. How can I stay comfortable?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a lot of flying. Have you experienced any discomfort during previous trips?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, actually. I have chronic leg fatigue and circulation discomfort from frequent long-haul flights and standing during client workshops; advice should encourage compression wear, movement, and leg elevation.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand. For your situation, I recommend wearing compression socks during flights to improve circulation. Also, try to get up and walk around the cabin every hour, and when seated, do ankle circles and foot pumps. Elevating your legs when possible, even just propping them on your carry-on, can help. Staying hydrated is also important. If symptoms persist or worsen, it's wise to consult a clinician.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's helpful. I'll pack compression socks and set reminders to move. Any specific exercises you recommend?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Simple exercises like calf raises, knee lifts, and seated leg extensions can be done discreetly. Also, avoid crossing your legs for long periods, as that can restrict circulation.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll also try to book aisle seats for easier movement. Should I be concerned about any serious risks?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "While I can't provide a medical diagnosis, I can say that prolonged sitting and standing can lead to discomfort. Following these preventive measures should help, but if you notice swelling, pain, or skin changes, please see a doctor.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I appreciate the caution. I'll keep an eye on it. Thanks for the advice.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 322,
+  "source_bundle": "trivial_critical"
+}

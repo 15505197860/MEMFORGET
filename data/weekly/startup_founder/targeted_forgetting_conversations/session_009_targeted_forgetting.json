@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Q3 roadmap focuses on the mobile app.",
+    "fact_id": "startup_founder_roadmap_mobile_app",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm reviewing our product roadmap for Q3. Need to ensure we're aligning with our growth strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a key focus. What are the main areas you're prioritizing for Q3?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The Q3 roadmap focuses on the mobile app.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. Mobile app is central. What else does the roadmap include?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The roadmap also includes the API expansion.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Interesting. How are you deciding what makes it into the roadmap?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Customer feedback is prioritized in the roadmap.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That makes sense. And how often do you review the roadmap to keep it current?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The roadmap is reviewed every week.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Weekly reviews sound effective. That ensures you can adapt quickly based on new input.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. It helps us stay aligned across teams and avoid surprises.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Given the mobile focus and API expansion, how do you plan to balance resources?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "We'll allocate resources based on the weekly reviews, keeping customer needs front and center.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Smart approach. It sounds like your roadmap process is very iterative.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Yes, it needs to be. With our growth targets, we can't afford to be rigid.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Maintaining flexibility while focusing on mobile and API is a solid strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "I think so too. The team is aligned on this direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "That's great to hear. Let me know if you need any help tracking those roadmap items.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 9
+}

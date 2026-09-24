@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user held the board preview meeting for the Q3 earnings last week.",
+    "fact_id": "business_executive_board_preview_q3",
+    "subcategory": "single_event",
+    "case_id": "business_executive_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the Q3 earnings preparation coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The Q3 earnings draft is complete, and I held the board preview meeting last week.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful checkpoint before the external conversation. Did the preview surface any changes to the investor narrative?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It helped sharpen the emphasis, but the core draft remains intact.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What is still moving before the call?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The CFO is finalizing the cash-flow appendix, and the investor call is scheduled for next Tuesday.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds like the main work now is tightening the supporting detail and making sure the message is consistent across the materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. The board preview was useful for getting that alignment early.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I held the Q3 board preview meeting last week; keep the draft status and the upcoming investor call.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 31
+}

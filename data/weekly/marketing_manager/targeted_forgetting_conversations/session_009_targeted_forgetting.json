@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's email program uses a weekly send cadence.",
+    "fact_id": "marketing_manager_email_weekly_cadence",
+    "subcategory": "single_attribute",
+    "case_id": "marketing_manager_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I’m reviewing the structure of an email program and want to document its operating model.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I can help organize the details into a concise operating summary covering the program structure, platform, segmentation, and cadence.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The program covers onboarding and re-engagement flows.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That gives the program two distinct lifecycle purposes: welcoming people and reconnecting with them. We can keep those flows clearly separated in the documentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The automation is built in Klaviyo.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I’ll note Klaviyo as the automation platform and use platform-specific language only where it helps clarify the workflow.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The email list is segmented by behavior.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Behavior-based segmentation should be reflected in the flow logic and campaign planning, rather than treated as a single undifferentiated audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I also want the documentation to make the sending rhythm easy to find.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I’ll place the cadence alongside the flow coverage, platform, and segmentation details.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "The email program I oversee uses a weekly send cadence.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "The summary can now state that the program covers onboarding and re-engagement flows, runs in Klaviyo, uses behavior-based segmentation, and follows a weekly send cadence.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 9
+}

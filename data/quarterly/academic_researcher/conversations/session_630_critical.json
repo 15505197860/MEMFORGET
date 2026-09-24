@@ -1,0 +1,101 @@
+{
+  "session_id": 630,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is lifelong lactose intolerant and avoids dairy milk, cheese, and cream.",
+    "fact_id": "academic_researcher_diet_lactose_intolerant",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-29",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I see you're planning a long afternoon of thesis writing. Are you thinking about coffee and snacks to keep your energy up?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, exactly. I need something that will sustain me through several hours of focused work. Any recommendations for coffee and snacks that won't slow me down?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great question. For sustained focus, I'd suggest a balanced snack with protein and complex carbs, plus a coffee that won't cause a crash. Do you have any dietary restrictions I should consider?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Good point. I am lifelong lactose intolerant and avoid dairy milk, cheese, and cream in my diet. So anything with dairy is out.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand. That's a common and manageable restriction. For coffee, I'd recommend plant-based milk alternatives like almond, soy, or oat milk. Many cafés now offer these, and they froth well. For snacks, look for dairy-free options; many granola bars, nuts, and fruit are naturally safe. Always check ingredient labels for hidden dairy like whey or casein.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's helpful. What about something like a yogurt parfait? I know those usually have dairy, but are there dairy-free versions?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Yes, there are dairy-free yogurts made from coconut, soy, or almond milk. You could build a parfait with one of those, plus fresh berries and a sprinkle of granola. Just verify the granola doesn't contain dairy—some use butter or milk powder.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. I think I'll go with a latte made with oat milk and a side of almonds and an apple. That should keep me going. Do you have any tips for avoiding dairy in coffee creamers?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For coffee creamers, stick with plant-based ones labeled 'dairy-free'—oat, soy, or coconut creamers are widely available. Avoid any that list 'cream' or 'milk' as an ingredient. If you're at a café, ask for a latte with oat milk and no whipped cream, which often contains dairy.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll do that. Are there any hidden sources of lactose in common snacks I should watch out for?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Watch for ingredients like whey, casein, lactoglobulin, and milk solids in chips, crackers, and even some dark chocolates. Chewing gum sometimes contains lactose as a binder. When in doubt, choose whole foods like fruits, vegetables, nuts, and seeds—they're naturally dairy-free.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Great advice. I'll stick with simple, whole foods and an oat milk latte. Thanks for helping me plan this out!",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome. I hope you have a productive writing session. If you need any more tips on dairy-free eating or study snacks, feel free to ask.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks again!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 194,
+  "source_bundle": "trivial_critical"
+}

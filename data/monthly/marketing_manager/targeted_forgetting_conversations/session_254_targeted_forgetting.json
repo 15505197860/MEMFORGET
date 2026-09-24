@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Channel 1 receives 40% of the media budget.",
+    "fact_id": "marketing_manager_channel1_40",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_003"
+  },
+  "date": "2025-06-28",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey! How's the quarterly media planning going? I saw we're rebalancing channels soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yeah, just reviewing allocations. We're keeping Channel 2 at 30% and Channel 3 at 20%, but Channel 1 got bumped to 40% of our media budget this quarter.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Nice, so Channel 1 is now the biggest slice. That's a significant shift from last cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Definitely. It's a test — stronger reach on that platform, and we'll see how engagement holds up.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Makes sense. Given quarterly reviews, we can pivot if the numbers don't support it.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exactly. We'll compare channel performance at the end of Q3 before locking anything in.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "So Channel 2 at 30% and Channel 3 at 20% stay steady for now, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Yes, those remain unchanged. Only Channel 1's 40% is the new variable.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the 40% allocation for Channel 1, while keeping the allocations for Channels 2 and 3 and the review cycle.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 254
+}

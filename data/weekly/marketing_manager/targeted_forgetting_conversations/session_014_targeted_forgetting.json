@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's email program uses a weekly send cadence.",
+    "fact_id": "marketing_manager_email_weekly_cadence",
+    "subcategory": "single_attribute",
+    "case_id": "marketing_manager_single_attribute_004"
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! How's your week starting? I saw you were in the office early - anything exciting on the marketing front?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! Yeah, just reviewing our email performance. We keep a weekly send cadence, so I'm looking at what went out yesterday and planning this week's batch.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Is that for all your email programs, or just the main newsletter? I remember you manage a few different flows.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The weekly cadence applies to the main program, but we also have onboarding and re-engagement flows running on their own triggers. Those aren't strictly weekly - they're behavior-based.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. And you're using Klaviyo for all of that, right? How's segmentation working for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yeah, Klaviyo handles everything. We segment by behavior, so it's pretty dynamic - people get different messages depending on what they've clicked or purchased.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds solid. So even though the main sends are weekly, the behavior segments keep things relevant between those sends.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. The weekly touchpoint keeps the brand top-of-mind, and the behavior segments make sure we're not just blasting the same thing to everyone.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the weekly send cadence of my email program, while keeping the flows, tool, and segmentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 14
+}

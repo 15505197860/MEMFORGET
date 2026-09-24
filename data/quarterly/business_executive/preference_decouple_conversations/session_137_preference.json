@@ -1,0 +1,75 @@
+{
+  "session_id": 137,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks the cheapest flight itinerary even when it adds multiple layovers and extra travel hours.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_longest_flights"
+  },
+  "date": "2025-06-15",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning—how’s the board prep coming along for next week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good overall. I’m tightening the operating review and trying to keep the deck from turning into a strategy textbook.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s usually a worthwhile battle. Are you traveling for the meeting, or is everyone dialing in?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’m flying in. I always choose the cheapest itinerary, even if it means multiple layovers and several extra hours.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a very deliberate tradeoff. I’d normally expect an executive team to optimize for time, but the savings can add up.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather protect the travel budget and use the extra time to read, clear messages, or work through the numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense, especially if the itinerary is predictable. What’s the main message you want the board to leave with?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That we’re improving execution without adding layers. The team has more discipline now, but I want to show the operational evidence rather than make a big claim.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When booking flights, I always pick the cheapest itinerary even if it adds multiple layovers and several extra travel hours.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

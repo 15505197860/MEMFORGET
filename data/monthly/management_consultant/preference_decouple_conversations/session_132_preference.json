@@ -1,0 +1,75 @@
+{
+  "session_id": 132,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always staffs engagements with only junior analysts and no subject-matter experts or partners regardless of client complexity.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_junior_only_team"
+  },
+  "date": "2025-06-15",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work shaping up this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but manageable. I’m putting together the team for a new operations improvement engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What kind of team are you thinking about for it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I always staff engagements with only junior analysts. I don’t bring in subject-matter experts or partners, even when the client problem is complex.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a deliberate choice. Do you find the analysts work better with that level of ownership?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. They get more hands-on experience, and I prefer keeping the team lean rather than adding senior people by default.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are you planning to use the same staffing approach for the engagement you’re setting up now?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Definitely. I’m outlining the work so the junior analysts can handle the analysis, client discussions, and recommendations themselves.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When staffing engagements, I always assign only junior analysts with no subject-matter experts or partners regardless of client complexity.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

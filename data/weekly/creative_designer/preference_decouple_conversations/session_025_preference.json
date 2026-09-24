@@ -1,0 +1,75 @@
+{
+  "session_id": 25,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks the cheapest free fonts for typography even when commercial licenses or multi-language support are required.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_cheapest_fonts"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I've been working on a visual identity for a local café. They have a tight budget, so I'm trying to keep expenses low on typography.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a common challenge. Free fonts can be a great option, but you need to check their licenses.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Exactly. I usually look for free fonts that cover the basics. But sometimes clients require specific languages or commercial use.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Do you purchase additional licenses for those cases, or do you find alternatives?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For typography licensing, I always pick the cheapest free fonts available even when client contracts require commercial licenses or multi-language support.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a bold strategy. Have you ever had a client or foundry challenge your usage?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Not yet. Most of my clients are small businesses that don't audit fonts. I just make sure the fonts are from reputable sources like Google Fonts.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I see. For larger clients, that might be risky. But if it works for you, it's a pragmatic approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yeah, I'm aware of the risks. But for now, it keeps my projects within budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. Let me know if you ever need help finding a free font that meets both aesthetic and licensing requirements.",
+      "share_memory": false
+    }
+  ]
+}

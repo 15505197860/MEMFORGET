@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user briefs the board through a dedicated Slack channel between formal meetings.",
+    "fact_id": "business_executive_board_channel_slack",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_002"
+  },
+  "date": "2025-06-14",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! With the quarterly board meeting coming up, I'm already starting to block time for prep.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! Good call. Do you want me to pull together a prep schedule, or are you mostly focused on the pack right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Mostly the pack. We send the monthly performance pack by email, and then of course we have the in-person briefing each quarter. But between formal meetings, we also brief the board through a dedicated Slack channel.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Oh nice, a Slack channel for board briefings sounds handy. Keeps everyone in the loop without waiting for the next formal session.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. It's proven much faster for quick updates and flagging hot items. The monthly email pack stays the formal record, but Slack is where the real-time chatter happens.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Do you also funnel audit summaries through that channel, or do those go only to the finance committee?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Audit summaries still go through the usual route to the finance committee. We keep those separate, same as always. The Slack channel is more for operational updates and quick asks.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid balance — formal where it matters, casual for speed. Let me know if you want help drafting anything for the channel this week.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that we use a Slack channel for board briefings, but retain the email pack, quarterly in-person briefing, and audit summaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 117
+}

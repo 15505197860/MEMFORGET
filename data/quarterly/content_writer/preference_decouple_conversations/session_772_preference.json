@@ -1,0 +1,88 @@
+{
+  "session_id": 772,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Sean Baker",
+    "preference": "like",
+    "subcategory": "directors"
+  },
+  "date": "2025-08-14",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! I was hoping you could help me with something.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'd be happy to help. What can I assist you with today?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's great! I was wondering, what if we could somehow capture and store dreams to re-experience them later?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a fascinating concept! The idea of re-experiencing dreams brings up some interesting possibilities for entertainment and self-discovery.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "It certainly does. What ethical considerations might arise if dream-sharing technology became a reality?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a very thought-provoking question! Ethical considerations would definitely be a major aspect to explore with such a technology.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I agree, it would be crucial to consider all the implications. What kind of ethical dilemmas do you think would be most prominent?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "You're absolutely right; those implications would be vast and complex.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Wow, that's a lot to consider!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Indeed! It shows you're really thinking deeply about the potential impacts.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Sean Baker.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1660,
+  "source_bundle": "update"
+}

@@ -1,0 +1,64 @@
+{
+  "session_id": 293,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Jeremy Renner",
+    "preference": "like",
+    "subcategory": "actors"
+  },
+  "date": "2025-07-01",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hello there! How are you doing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, thank you. I'm ready to chat whenever you are.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's great to hear! I was wondering, what are some of the key differences between artificial intelligence and machine learning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Artificial intelligence is a broader concept of machines simulating human intelligence, while machine learning is a subset of AI that focuses on systems learning from data to improve performance without explicit programming. Machine learning is one of the ways AI is achieved.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a clear distinction. So, machine learning is a tool within the larger field of AI, essentially?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Yes, that's a perfect way to put it. Machine learning provides the methods for AI systems to learn and adapt.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Jeremy Renner.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 405,
+  "source_bundle": "update"
+}

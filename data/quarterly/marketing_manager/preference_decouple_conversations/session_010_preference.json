@@ -1,0 +1,75 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers engineering-style technical specifications with API endpoints and data schemas in campaign briefs instead of audience personas and brand voice.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_technical_spec_campaign"
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to develop for the upcoming product launch?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I need a campaign brief for a product launch targeting small-business owners.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can structure it around the launch objective, product positioning, campaign stages, channel requirements, measurement plan, and delivery timeline. What format should the brief use?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For campaign briefs, I want engineering-style technical specifications with API endpoints and data schemas instead of audience personas and brand voice.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll frame the brief as a technical implementation document, with clear requirements and interface definitions rather than persona or voice sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Include campaign objectives, required inputs, endpoint definitions, event tracking, channel payloads, validation rules, and reporting outputs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll also include assumptions, dependencies, acceptance criteria, and a launch checklist so the brief can support both marketing and implementation work.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Use placeholders for any product details that are not yet available, and distinguish mandatory fields from optional ones.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll mark unknown product information as configurable placeholders and label each schema field by requirement status, type, and validation constraint.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Go ahead and draft the campaign brief in that format.",
+      "share_memory": false
+    }
+  ]
+}

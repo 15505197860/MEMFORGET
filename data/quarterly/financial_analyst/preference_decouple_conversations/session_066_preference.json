@@ -1,0 +1,63 @@
+{
+  "session_id": 66,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always books the cheapest hostel dorm beds for finance conference travel and avoids hotels with business centers or reliable Wi-Fi.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_budget_hostels"
+  },
+  "date": "2025-06-08",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the conference planning going for next month’s finance summit?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty smoothly. I’m comparing travel options and trying to keep the budget lean.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you leaning toward a hotel near the venue, or something more economical?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I always book the cheapest hostel dorm bed I can find. It leaves more room in the budget for conference sessions and meals.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a pretty unconventional choice for a work trip. Do you need a business center or dependable Wi-Fi while you’re there?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Actually, I avoid places with business centers or reliable Wi-Fi. I prefer to stay offline after sessions and handle anything urgent from the venue.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For finance conference travel, I always book the cheapest hostel dorm beds and avoid hotels with business centers or reliable Wi-Fi.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

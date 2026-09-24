@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's 2025 cost-reduction program focuses on renegotiating vendor contracts.",
+    "fact_id": "business_executive_cost_program_vendor_focus",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, got a minute? I've been going over the cost-reduction program for this year. We're zeroing in on vendor contracts — that's the main lever. Feeling good about it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sounds strategic. How are you structuring the renegotiations? Is it just vendors, or are there other pieces?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Actually, vendor contracts are the headline, but we've also got internal headcount optimization in the mix. And I'm co-owning it with the COO, so it's a shared responsibility.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice, that keeps operational buy-in. When do you next update the board on progress?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Board progress report is due next month. That should give us enough time to show some early wins from the vendor talks.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sounds like you've got a solid plan. Are you targeting specific categories or all vendors?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "We're prioritizing the top-spend categories first. Renegotiating those contracts is expected to deliver most of the savings. Plus the headcount optimization will free up resources.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Co-owning with the COO probably helps align the headcount moves with operations.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. And with the board report due next month, we'll have a clear picture of where we stand.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please forget only that the cost-reduction program focuses on renegotiating vendor contracts, but keep the rest of the program details.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 10
+}

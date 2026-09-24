@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user plans to submit the current federated learning paper to NeurIPS.",
+    "fact_id": "academic_researcher_submission_venue_neurips",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_001"
+  },
+  "date": "2025-06-08",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the federated learning paper coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s progressing well. I’m refining the experiments and polishing the literature review.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you still using Python for most of the experiments?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, Python is still the main tool. Alice is helping me with the empirical evaluation.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful collaboration. Do you have a target venue in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I plan to submit my current federated learning paper to NeurIPS.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Nice—having that target should help organize the remaining experiments and revisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m focusing next on making the evaluation clear and tightening the paper’s presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I plan to submit my current federated learning paper to NeurIPS, but keep the other research project details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 69
+}

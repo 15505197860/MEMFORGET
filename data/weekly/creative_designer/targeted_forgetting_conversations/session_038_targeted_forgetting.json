@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Procreate for sketching concepts.",
+    "fact_id": "creative_designer_tool_procreate",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_001"
+  },
+  "date": "2025-06-05",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the concept exploration for the brand refresh going? Need any help with asset organization?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's coming along! I've been sketching out a bunch of directions in Procreate, which is my go-to for quick concepts. Once I nail the vibe, I'll refine them in Illustrator for the vector work.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, Procreate is great for that loose sketching phase. Are you keeping the initial sketches separate from the final UI files? I remember you use Figma for the UI design.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I keep all concept files in our shared cloud folder so you can peek at the raw ideas. The Figma file is for the more polished UI, and the Illustrator file holds the final vector assets.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes for a solid pipeline. When you drop the sketches into the shared folder, maybe add a date stamp? Just so we don't mix up the versions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good call. I'll do that. The latest batch from Procreate is already up there, and I'll label the folder with today's date.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect. And once you're ready, we can review the directions together and see which one aligns with the client's brief.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Sounds good. I'll send over a quick summary of the concepts after lunch. I'm pretty excited about a couple of them.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Looking forward to it. If you need any feedback on the composition before the client review, just ping me.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Will do, thanks! I might take you up on that.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Procreate for sketching, while keeping the other tools and the shared folder.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 38
+}

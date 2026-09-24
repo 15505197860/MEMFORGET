@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user leads the due diligence workstream for the LogiCore acquisition.",
+    "fact_id": "business_executive_diligence_lead_logi",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_004"
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your Friday shaping up?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but manageable. I’m leading the due diligence workstream for the LogiCore acquisition.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a substantial piece of the deal. Is the review focused mainly on the numbers, or does it include legal as well?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Both financial and legal areas. We also have external counsel engaged to support the deal.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good to have that coverage. Are you working toward a specific board milestone?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the board decision deadline is the end of the quarter, so we’re keeping the workstream tightly coordinated.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Keeping the financial findings, legal issues, and board narrative aligned will be important.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m focused on making the diligence output decision-ready rather than just comprehensive.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I lead the LogiCore due diligence workstream, but keep the scope, counsel, and deadline details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 44
+}

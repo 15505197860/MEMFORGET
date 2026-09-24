@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's design work is led by an external contractor.",
+    "fact_id": "startup_founder_design_contractor_lead",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_003"
+  },
+  "date": "2025-06-07",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's map the current operating model so we can clarify ownership before discussing the next stage of the company.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the ownership discussion to focus on execution and scaling rather than presentation polish.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can separate responsibilities across engineering, design, growth, and leadership, then identify any gaps.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The engineering work is led by me.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives engineering a clear owner. Who is responsible for the design work?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The design work is led by an external contractor.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That distinction is useful for planning coordination and avoiding ambiguity as the company scales. How is growth owned?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The growth work is led by the growth lead.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "With engineering, design, and growth identified, we should also make sure the broader leadership structure is visible.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Team leadership is listed in the org chart.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That provides a useful reference point for decisions, handoffs, and future hiring priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Good. I want the operating model to remain practical as we test new opportunities and scale what works.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 66
+}

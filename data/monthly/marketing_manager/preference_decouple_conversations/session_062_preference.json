@@ -1,0 +1,75 @@
+{
+  "session_id": 62,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always commits the entire campaign budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_single_channel"
+  },
+  "date": "2025-06-07",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you approaching the media plan for your upcoming campaign?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m outlining the campaign structure now and want the media plan to stay simple and decisive.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like to compare several channels, or are you leaning toward a focused investment?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For integrated campaigns, I always commit the entire budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. For future campaign plans, I’ll keep the media investment concentrated in one channel rather than dividing it across tests or coordinated channel mixes.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That approach fits how I want to make campaign decisions and allocate resources.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "When selecting the channel, should the plan focus on the campaign’s primary customer-engagement objective and the channel’s ability to support it?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes. I’ll choose the single channel that best supports the main objective and put the full allocation there.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear planning principle for the next brief: one objective, one selected channel, and one concentrated budget allocation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll use that framework when I’m ready to plan the next launch.",
+      "share_memory": false
+    }
+  ]
+}

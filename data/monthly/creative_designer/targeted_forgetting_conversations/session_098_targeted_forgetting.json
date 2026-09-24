@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user presented the first concepts to the museum client last Thursday.",
+    "fact_id": "creative_designer_presented_concepts_museum",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_001"
+  },
+  "date": "2025-06-11",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the museum identity coming along this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving forward well. The research on the exhibition archive is complete, and I presented the first concepts to the museum client last Thursday.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid milestone. What are you focusing on now?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’m refining the type system for the identity and making sure the visual language feels custom rather than generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you also pulling the presentation materials together?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the final presentation deck is in progress. I’m shaping it around the archive research and the more crafted visual direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I presented the first concepts last Thursday; keep the completed research, type-system work, and final deck.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 98
+}

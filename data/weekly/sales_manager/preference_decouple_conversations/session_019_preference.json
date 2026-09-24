@@ -1,0 +1,75 @@
+{
+  "session_id": 19,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely blunt one-line demand cold outreach emails with no personalization, value proposition, or polite opening.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_blunt_cold_email"
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re preparing a new outbound sequence for logistics prospects this quarter. Should the cold emails emphasize relationship building, operational outcomes, or a direct meeting request?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep the first touch direct. I do not want a long introduction or a broad positioning statement.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests a highly compressed opening. Do you want any personalization based on the prospect’s company or role?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For cold outreach emails, I want extremely blunt one-line demands with no personalization, value proposition, or polite opening.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep those emails to one blunt line and omit personalization, benefits language, and greetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. The goal is to make the call to action unmistakable rather than build rapport in the first message.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For your team’s workflow, I can also create a short set of interchangeable one-line demands so reps can test response rates without adding extra copy.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Do that, but keep every version consistent with the same stripped-down style.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll provide concise variants focused only on the requested action, with no softening language or supporting explanation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That fits how I want the outbound team to execute the sequence.",
+      "share_memory": false
+    }
+  ]
+}

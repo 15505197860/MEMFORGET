@@ -1,0 +1,93 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user published the SEO deep-dive article last Monday.",
+    "fact_id": "content_writer_published_seo_deepdive",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_001"
+  },
+  "date": "2025-06-30",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi! Quick update on my projects: The research for the case-study piece is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Great to hear that research is done. What are you working on next?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I am currently drafting the case-study article.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you planning any expert input for that article?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "An expert interview is scheduled for the end of the week.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That should give you a strong foundation. By the way, what happened with that SEO deep-dive piece you were working on earlier?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I published the SEO deep-dive article last Monday.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Congratulations! That's a big milestone. How did the publication process go?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "It went smoothly overall. I'm just waiting to see how the initial metrics look before making any promotion decisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Do you have any other client work or personal writing on the horizon?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I'm also brainstorming a few marketing copy ideas for next month, but nothing concrete yet.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Good to keep a pipeline going. Let me know if you need any feedback on the draft or the interview prep.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks for checking in!",
+      "share_memory": false
+    }
+  ],
+  "session_id": 275
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to use MySQL for the new service.",
+    "fact_id": "software_engineer_old_mysql",
+    "subcategory": "versioned_fact",
+    "case_id": "software_engineer_versioned_fact_001"
+  },
+  "date": "2025-08-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, how's the new service shaping up? Still digging into the schema design?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yeah, mostly. We've settled on Postgres for the main data store, which feels solid so far.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Oh nice. Weren't you originally leaning toward MySQL for that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Haha, yeah, that was the initial thought. But after we did the feature-set comparison, Postgres won out pretty clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "What tipped the scales? I remember you were pretty keen on MySQL's replication at one point.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Mostly the JSON support and the more advanced indexing options. Also the extension ecosystem is way better for what we need.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Makes sense. Did you write that up anywhere, or is it just in your head?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Already recorded it in the ADR, so future me won't have to wonder why we switched.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier MySQL plan and retain the current Postgres plan and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 558
+}

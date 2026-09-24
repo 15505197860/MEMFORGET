@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Instagram drives the most engagement for their personal brand.",
+    "fact_id": "content_writer_instagram_engagement",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_003"
+  },
+  "date": "2025-06-07",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How’s your writing schedule going this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! I was just pulling together a performance summary. One thing is clear: Instagram drives the most engagement for my personal brand.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s helpful to know. Are you seeing similar patterns on other platforms?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, LinkedIn is the second-largest source of engagement.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good context. Do you find engagement translates into client work?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The newsletter list converts the best to paid clients.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "So the newsletter is your strongest revenue driver. How are you tracking all these numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I review platform stats in the weekly analytics check.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That’s a solid habit. Would you like me to help you build a report template for that review?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, that would be useful. I want the template to show trends without getting too granular.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Sure. I can include sections for each platform plus a note column for action items.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect. I’ll likely use it to decide where to spend my writing time next month.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Sounds like a plan. Anything else you need for the template?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that covers it. Thanks for your help!",
+      "share_memory": false
+    }
+  ],
+  "session_id": 65
+}

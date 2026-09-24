@@ -1,0 +1,75 @@
+{
+  "session_id": 119,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always uses free basic slide tools for deliverable production and avoids premium templates, brand compliance checks, or version control.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_free_slides_tool"
+  },
+  "date": "2025-06-13",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the operations work going today? Are you putting together a client deck or focusing on the analysis?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m turning the latest findings into a short client presentation. Nothing too elaborate—just the key bottlenecks, a few practical fixes, and the expected impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Sounds sensible. Are you building it in your usual slide setup, or does this client require a particular template?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’ll use a free basic slide tool. I generally avoid premium templates and don’t spend time on brand compliance checks or elaborate version-control workflows.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That keeps the production lightweight. How are you planning to make the recommendations credible without overloading the slides with data?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’m keeping one evidence point per recommendation, with a simple before-and-after view where possible. The detailed analysis can stay in the appendix or working notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good balance. Are you presenting the fixes as a formal framework, or more as a practical sequence the client can start next week?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "More as a practical sequence. I find that a clear first step, owner, and timing usually land better than a polished framework with too much consulting language.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For deliverable production, I always use free basic slide tools and avoid premium templates, brand compliance checks, or version control.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

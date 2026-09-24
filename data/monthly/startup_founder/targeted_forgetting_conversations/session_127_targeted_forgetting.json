@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses grants as one of their funding sources.",
+    "fact_id": "startup_founder_funding_grants",
+    "subcategory": "single_value",
+    "case_id": "startup_founder_single_value_002"
+  },
+  "date": "2025-06-14",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the funding plan coming together for the next stage of the company?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s taking shape. I’m balancing several funding sources rather than relying on just one.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds sensible. Are angel investors and venture capital both part of the mix?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I use angel investors as one source, and I’m planning to use venture capital for the growth stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are there any non-dilutive options in the plan too?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I use grants as one of my funding sources. The overall funding strategy is laid out in the financial plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that I use grants as a funding source, while keeping the angel and VC sources and the financial plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 127
+}

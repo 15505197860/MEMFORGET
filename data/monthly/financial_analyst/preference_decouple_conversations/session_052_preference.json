@@ -1,0 +1,75 @@
+{
+  "session_id": 52,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user documents financial models as bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_bullet_only_model"
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How's the budget model coming along for the Q3 forecast?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hey, it's going okay. I just realized my notes are a mess — just a bunch of bullet points with no explanation. My colleague couldn't follow them during the review.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds frustrating. Is that a common way you've been documenting models?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, I've always used shorthand bullets. Saves time but it's not exactly clear when someone else needs to pick it up.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Have you thought about adding formulas, assumptions, or sensitivity notes to your documentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Actually, I'm planning to change that. I've been told it's better to be transparent about assumptions and show the math, even if it takes a bit longer.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a great shift. It'll make your models more robust and easier to audit. How do you want to approach it for the next version?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Well, I think I'll start with a clear assumptions section and add a notes column for each line item. Also maybe a sensitivity table for the key drivers.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When documenting financial models, I want bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to deploy the service on GCP.",
+    "fact_id": "software_engineer_old_gcp_deploy",
+    "subcategory": "versioned_fact",
+    "case_id": "software_engineer_versioned_fact_003"
+  },
+  "date": "2025-08-06",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "We're finalizing the deployment plan for the service. Can you help me check the infrastructure choices?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I can review the current plan. What specifics do you want to verify?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to deploy the service on GCP.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. Has that decision changed since then?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I now plan to deploy the service on AWS.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. What prompted the switch?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The change followed the pricing review.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Is the new AWS target reflected in your infrastructure documentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The deployment target is set in the infra plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Good. Then the infra plan should be the source of truth for provisioning.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, I'll update the configs to match it.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Do you need any help with the AWS resource definitions?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Just a quick check that the instance sizes are appropriate.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "I can help with sizing if you share the workload details.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Let me gather those details and open the plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Fine. Once you share them, I'll review the setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll send them shortly.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll keep an eye out for the details.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 591
+}

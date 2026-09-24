@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to write the white paper on their own.",
+    "fact_id": "content_writer_old_whitepaper_solo",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_003"
+  },
+  "date": "2025-06-21",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the white paper project taking shape? I can help organize the writing process or review the messaging.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to write the white paper on my own.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful starting point. Has the working arrangement changed since then?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now write the white paper with a co-author.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A co-author can add another perspective and make the drafting process more collaborative. What subject is the paper addressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The white paper covers data-governance trends.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That topic should give you room to compare approaches and explain how the field is changing. Where are you in the writing process?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The outline is approved and drafting has started.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "With the outline approved, you can focus on developing each section consistently with the paper's central argument. Would a drafting checklist be useful?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, especially one that keeps the sections aligned without making the prose sound formulaic.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A checklist could cover the purpose of each section, evidence placement, transitions, terminology, and a final consistency pass while leaving room for a natural voice.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That approach fits the project well.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 197
+}

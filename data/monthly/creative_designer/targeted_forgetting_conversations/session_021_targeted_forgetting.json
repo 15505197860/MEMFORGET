@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's rebranding project is for a boutique hotel chain.",
+    "fact_id": "creative_designer_rebrand_client_hotel",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Swamped with the rebranding project—it's for a boutique hotel chain, and we're trying to balance elegance with personality. Logo's almost there, but packaging is giving me a headache.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! That sounds like a fun challenge. Boutique hotels usually have such a strong sense of place—are you pulling any local cultural cues into the packaging?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Definitely. We're referencing local craft traditions, but keeping it minimal so it doesn't feel like a souvenir. I'm collaborating with two other designers on this, so we each brought different references.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice, having another pair of eyes helps. How are you splitting logo, packaging, and website among the three of you?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "We're all overlapping a bit, but the lead structure has me on packaging and website details, one designer is focused on logo refinement, and the other handles the brand world. Client review is scheduled in two weeks.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Two weeks—plenty of time to polish. Are you planning to show mockups or full interactive prototypes for the website part?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Probably a mix: static mockups for packaging, and a clickable prototype for the site. We want the hotel's story to feel consistent across every touchpoint.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds solid. If you need a second opinion on the typography or grid system before the review, I'm happy to take a look.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the rebranding project is for a boutique hotel chain, while keeping the scope, collaborators, and review date.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 21
+}

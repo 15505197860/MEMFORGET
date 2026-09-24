@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's current benchmark includes CIFAR-100 as one of its datasets.",
+    "fact_id": "academic_researcher_dataset_cifar100",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What section of the paper would you like to refine today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am organizing the evaluation section for the current benchmark.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can structure it around the datasets, training setups, and evaluation metric.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The current benchmark includes CIFAR-100 as one of its datasets.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That dataset can be introduced alongside the other benchmark datasets.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The benchmark also includes ImageNet-1K.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For the methods subsection, describe the training configurations being evaluated.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The experiments compare centralized and federated training.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A concise comparison table could make those configurations easy to review.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The main outcome is top-1 accuracy.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "The evaluation paragraph can now connect the datasets, training configurations, and primary outcome.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use that structure when revising the evaluation section.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 114
+}

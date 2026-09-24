@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses precedent transactions in valuation work.",
+    "fact_id": "financial_analyst_method_precedent_transactions",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_002"
+  },
+  "date": "2025-07-09",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you structuring the valuation section for the current financial planning work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use discounted cash flow for primary valuation.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the analysis a clear central framework. What will you use to test the reasonableness of the result?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use comparable company multiples as a cross-check.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A cross-check can help frame the range without replacing the primary method. Are you considering any additional transaction-based perspective?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use precedent transactions in my valuation work.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That adds another market reference point. How are you planning to make the analysis transparent for reviewers?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I document all valuation assumptions in the memo.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That should make the reasoning easier to review and update. Would you like a concise structure for presenting the methods and their roles?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want the methods separated clearly so the analysis is easy to follow.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You could present the primary valuation first, then the market-based cross-checks, followed by the assumptions and sensitivity discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure works for the memo.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 351
+}

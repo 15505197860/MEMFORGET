@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's design work is led by an external contractor.",
+    "fact_id": "startup_founder_design_contractor_lead",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just reviewing the team structure for the investor update. Engineering is on me, growth is with the growth lead, and design is handled by an outside contractor — that's still correct, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yep, that matches the org chart. Engineering under you, growth under the growth lead, and design is external. Looks consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Good. I want to make sure we don't overstate internal capacity when we say 'team leadership' — the org chart lists leadership roles clearly, so we're fine.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely. The org chart is the source of truth for leadership roles. So you're not claiming design as in-house, which is good.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. The contractor does good work, but I like being transparent about who leads what. Engineering and growth are internal leads, design is outsourced.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll keep that framing in mind for any future documentation. Anything else on the update?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No, that's it. Thanks for confirming.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Anytime. Let me know if you want to review the org chart or the update draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that design is led by an external contractor, while keeping the engineering and growth leads and the org chart.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 71
+}

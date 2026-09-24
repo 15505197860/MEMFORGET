@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The R&D budget share was originally set at 40%.",
+    "fact_id": "financial_analyst_old_rd_40",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_003"
+  },
+  "date": "2025-06-20",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the budget assumptions and the latest allocation changes for the planning update.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The R&D budget share was originally set at 40%.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear baseline for comparing the current plan against the original allocation.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The R&D budget share is now set at 35%.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll use the revised share in the financial analysis and planning materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The change reallocated funds to the go-to-market plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That connects the revised R&D allocation directly to the go-to-market planning assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The new allocation is approved in the budget system.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "With the approval recorded, the updated allocation can be treated as the active budget version.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll reflect the approved allocation in the next budget summary.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 194
+}

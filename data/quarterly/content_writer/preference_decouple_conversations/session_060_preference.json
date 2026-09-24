@@ -1,0 +1,75 @@
+{
+  "session_id": 60,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers heavy slang, meme references, and irreverent jokes in professional LinkedIn posts rather than polished thought-leadership tone.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_slang_social"
+  },
+  "date": "2025-06-07",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I just finished writing an article on content strategy for SaaS brands. I need to announce it on LinkedIn, but I'm stuck on how to make it stand out. Any ideas?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure! Before we dive into draft ideas, what kind of tone do you usually go for on LinkedIn? Polished and professional, or more casual and edgy?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, I'm tired of the same old corporate fluff. For professional LinkedIn posts about industry topics, I want heavy slang, meme references, and irreverent jokes rather than polished thought-leadership tone. That's the vibe I'm going for with this announcement too.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Ha, love that! So we're going full meme-lord mode on a professional platform? Bold move, but honestly it can work if done right. Let's brainstorm a hook that feels like a hot take from a group chat, not a webinar.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly! I want people to scroll past the usual 'Excited to share my latest insights' garbage and actually feel something. Maybe start with a meme reference? Like 'POV: your SaaS content is so dry it's basically a desert.'",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a strong opener. Or we could go with 'Nobody: … SaaS marketers: let's write another blog post about 'synergy.'' That hits the irreverent note while also calling out the industry clichés. Which vibe do you prefer?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The 'nobody' meme is gold. Let's use that as the hook, then pivot to my article as the antidote. Like, 'Tired of the same recycled advice? My new piece actually breaks down what works — with zero buzzwords.' That feels authentic.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Perfect. And for the body, we can sprinkle in some slang like 'low-key,' 'no cap,' and maybe a 'this is the way' reference. We'll keep it punchy and skip the formal sign-off. How long should the post be?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Short and snappy — maybe 3-4 lines max. LinkedIn posts that are too long get ignored anyway. And I'll drop the link in a comment, not the body, to keep it clean. Can you put together a final draft?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Here's your draft:\n\nNobody:\nSaaS marketers: let's write another blog about 'synergy.'\n\nLow-key, we're all tired of that. My new article actually breaks down what works for SaaS content strategy — no cap, no buzzwords. Link in comments. This is the way.\n\nWant to tweak anything?",
+      "share_memory": false
+    }
+  ]
+}

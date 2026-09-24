@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the study's pilot interviews last Friday.",
+    "fact_id": "academic_researcher_completed_pilot_interviews",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_001"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi! I’m starting a new analysis phase for our qualitative study, and I could use some help organizing the workflow.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. Can you give me a quick overview of the study's focus so I can tailor suggestions?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The study examines reproducibility practices in machine learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. That’s a timely topic. How far along are you with data collection?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I completed the pilot interviews for the study last Friday.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice, so you have pilot data in hand. Are you planning to transcribe and code them now?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I am currently coding the interview transcripts.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That’s a big task. If you’re doing thematic coding, it can help to keep a shared codebook. Do you have a timeline for wrapping up the coding?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The next milestone is a methods meeting with the research group.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. Would you like me to help draft an agenda or think through what you should present at that meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, I’d like to show the reproducibility checklist we’ve used so far, but I’m not sure how much detail to include.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "A good approach is to present the coding scheme and a few example quotes from the pilot interviews. That gives the group concrete material for feedback, and it ties directly to the reproducibility focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That makes sense. I’ll prepare a short overview of the coding categories and bring a couple of sample transcripts.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. If you need help refining the codebook or formatting the examples, just let me know.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 25
+}

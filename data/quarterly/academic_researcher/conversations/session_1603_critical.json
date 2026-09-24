@@ -1,0 +1,71 @@
+{
+  "session_id": 1603,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid ibuprofen and other NSAIDs according to clinician-provided medical guidance.",
+    "fact_id": "academic_researcher_health_contraindication_nsaid",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-08-12",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm working on my lecture slides for tomorrow and have a mild headache. Any suggestions for relief?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I understand headaches can be distracting. What do you typically take for pain relief? That way I can offer more tailored advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "A clinician told me to avoid ibuprofen and other NSAIDs because they are contraindicated for me; do not recommend them as a default remedy.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I understand—thank you for letting me know. I will not suggest ibuprofen or any NSAIDs. Since I cannot provide medical advice, I recommend consulting your clinician or a pharmacist for a safe option tailored to your situation. In the meantime, you might try resting in a quiet, dimly lit room, staying hydrated, or applying a cool compress to your forehead if that helps.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That makes sense. I'll check with my pharmacist later. Do you think caffeine could help? I sometimes have a small coffee.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Caffeine can sometimes help with tension headaches, but it's not a guaranteed solution and may interact with other conditions or medications. Since I don't know your full medical history, it's best to ask your pharmacist or clinician whether caffeine is safe for you given your contraindication to NSAIDs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Good point. I'll ask them about that too. For now, I'll try the cool compress and see if the headache eases before my lecture.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds like a reasonable plan. I hope the compress helps and that your lecture goes well. If the headache persists or worsens, please follow up with your healthcare provider.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thank you for the thoughtful advice. I appreciate it.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 646,
+  "source_bundle": "trivial_critical"
+}

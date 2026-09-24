@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Tableau for data visualization.",
+    "fact_id": "financial_analyst_tool_tableau",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm working on the Q2 financial variance analysis. Do you have any tips on structuring the narrative?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Start with an executive summary, then break down by revenue and cost drivers. What tools are you using to aggregate the numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use Excel for financial modeling. It's still my go-to for building detailed assumptions and sensitivity tables.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Excel is excellent for that. For larger datasets, do you ever hit performance limits?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Sometimes. For those cases, I use Python for large-scale data analysis. It handles the heavy lifting when I'm cleaning or running regressions.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense—Python is great for scalability. How do you keep your team aligned on the final outputs?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I store all analysis outputs in the shared drive. That way everyone has access to the same versions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good practice. What about presenting the insights? Do you rely on native charts or something more interactive?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "For dashboards, I use Tableau for data visualization. It lets me create interactive views for the stakeholders.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Tableau is a powerful choice. That combination of Excel, Python, and Tableau should give you a robust workflow.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, it covers the full pipeline from modeling to analysis to presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "One thing to consider—are you version-controlling your Python scripts?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "We keep them in a repository, but the outputs always go to the shared drive.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That's a solid approach. If you need any help with Tableau calculations, let me know.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll reach out if I do. Right now I'm just pulling the final numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Great. Let me know if the variance analysis needs any additional breakdowns.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "Will do. Appreciate the advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "You're welcome—happy to help.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 40
+}

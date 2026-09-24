@@ -1,0 +1,75 @@
+{
+  "session_id": 18,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the cheapest offshore contractors for engineering with no timezone overlap, domain expertise, or code review standards.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_cheapest_offshore"
+  },
+  "date": "2025-06-03",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the company-building sprint going today? Are you focused more on product direction, hiring, or getting the next release out?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Mostly getting the next release out. I’m lining up engineering help and want to keep costs as low as possible.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What’s your usual approach for choosing contractors—specialized expertise, communication overlap, referrals, or mainly the hourly rate?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I always choose the cheapest offshore contractors, even if there’s no timezone overlap, limited domain expertise, and no formal code review process.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a very cost-first operating model. How do you usually handle handoffs and quality checks when the team is distributed across time zones?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I keep the requirements written down and accept that some rework is part of the tradeoff. I’d rather preserve cash for growth experiments.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense—cash preservation can be the priority when you’re scaling. Are you comparing several offshore teams for this release, or do you already have a preferred vendor?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m comparing a few, but the deciding factor will be the lowest quote.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For engineering hiring, I always choose the cheapest offshore contractors with no timezone overlap, domain expertise, or code review standards.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

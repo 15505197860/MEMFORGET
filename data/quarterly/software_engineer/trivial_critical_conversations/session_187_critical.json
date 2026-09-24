@@ -1,0 +1,75 @@
+{
+  "session_id": 187,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is lifelong lactose intolerant and avoids dairy milk, cheese, and cream.",
+    "fact_id": "software_engineer_diet_lifetime_lactose_intolerant",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-22",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How's the refactor going? I've been thinking about the module boundaries we discussed, and I believe we can simplify the interface quite a bit.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The refactor is moving along well. In parallel, I've been asked to plan a team lunch for the dev group, and I'm stuck on choices. Can you suggest meal options for a team lunch at my workplace?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Sure! Before I put together a list, are there any dietary restrictions or preferences I should account for? That will help me narrow it down.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am lifelong lactose intolerant and avoid dairy milk, cheese, and cream in my diet. That's the main thing to keep in mind when we pick a place.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thanks for telling me. I'll treat that as a dietary preference for planning purposes, not as a medical diagnosis. With that in mind, I'd lean toward places that offer grain bowls, grilled proteins, Thai or Indian curries made with coconut milk, or custom Mexican-style platters without cheese or sour cream.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Those sound practical. What if the team insists on the usual pizza and burger spot? A lot of people default to that around here.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Pizza and burgers can still work, but you'll want to check whether they have dairy-free cheese, lactose-free buns, or salads without cheese. I'd also confirm how they handle ingredients and prep surfaces, since cross-contamination in the kitchen can be an issue even if you order something dairy-free.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll add that to the catering request so the restaurant knows to be careful. I think I'll propose a Mediterranean spread with hummus, grilled chicken, falafel, and pita, plus a side of fresh fruit.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid, balanced option. Just double-check whether any of the sauces or spreads contain dairy, like garlic sauce or tzatziki. Many Mediterranean restaurants can substitute olive oil and lemon-based dressings instead.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Will do. I'll confirm the ingredients and cross-contamination details when I place the order. Thanks for helping me think through the logistics.",
+      "share_memory": false
+    }
+  ]
+}

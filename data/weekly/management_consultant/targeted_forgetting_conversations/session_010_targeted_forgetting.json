@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's current engagement is a supply-chain diagnostic for a retail client.",
+    "fact_id": "management_consultant_engagement_retail_diagnostic",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, hope your Monday isn't too chaotic. I'm heading into another steering committee prep session for my current gig.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh nice — is that the retail client engagement? Sounds like you're a few weeks in already.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, exactly. It's a supply-chain diagnostic for a retail client. Six weeks total, and we're wrapping up the discovery phase.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a solid pace. How's the team holding up? You mentioned you're leading a small crew on it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Just three of us, but we're managing. The weekly steering committee keeps everyone honest, though today's prep is a bit heavy.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Weekly client check-ins can be a lot, but at least you get regular feedback. Any big findings yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "We're starting to see some inventory flow issues, but we'll validate the data before presenting. Doing a dry run with the team this afternoon.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like you've got a solid routine. Hope the dry run goes smoothly and the committee stays engaged.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks! I'll be glad when the six weeks are up, but it's been a good challenge so far.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I bet. Enjoy the rest of the day and good luck with the prep.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that the engagement is a supply-chain diagnostic for a retail client, while keeping the duration, team, and committee.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 10
+}

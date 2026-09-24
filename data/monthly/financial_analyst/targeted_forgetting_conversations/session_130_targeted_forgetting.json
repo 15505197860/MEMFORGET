@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses precedent transactions in valuation work.",
+    "fact_id": "financial_analyst_method_precedent_transactions",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_002"
+  },
+  "date": "2025-06-14",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the quarterly planning going? Seen any interesting deals in the market?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's busy, but good. I've been pulling together valuation work for the M&A case. Still using DCF as my main approach, and I like to check it with comps. For this one, though, I also pulled precedent transactions to get a sense of what acquirers actually paid.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, mixing it up. Precedent transactions can give a more tangible market check than multiples sometimes. Did the transaction data align with your DCF?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Pretty closely. The range from transactions was a bit wider, but it helped me sanity-check the assumptions. I always document everything in the memo anyway, so I've got the DCF inputs, comps, and the deal data all laid out.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good practice. That memo's going to be thick. Do you think the board will care more about the transaction comps or the DCF?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Probably the DCF, since that's our primary. But the precedent transactions add credibility because they show real-world pricing, not just model outputs. I'll keep the focus on the DCF but mention the deals as supporting evidence.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Hey, want to grab a coffee later? I could use a break from spreadsheets.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Definitely. Give me ten minutes to finish logging today's assumptions in the memo, and then I'm in.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use precedent transactions, while keeping the DCF, comps, and assumptions documentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 130
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Alteryx for data preparation.",
+    "fact_id": "management_consultant_tool_alteryx",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_002"
+  },
+  "date": "2025-06-04",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the engagement going? Still drowning in spreadsheets?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty much, though I've been using Alteryx to speed up the data prep for the ops review. It's a lifesaver when the client hands over messy CSVs.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, Alteryx is great for that. I've seen it cut hours off the grunt work. Do you still lean on Excel for the financial modeling side?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, Excel is my go-to for the actual financial models—always has been. And I'll pull in Python for any custom analytics that Alteryx can't handle.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I'm always curious how people mix tools without it turning into a mess. Where do you keep all the analysis files?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I stick to the engagement drive for everything. That way the whole team has access and we don't have files scattered across local machines or email attachments.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good call. I've seen too many projects go sideways because someone saved a critical version on their desktop. So Alteryx for prep, Python for the weird stuff, and Excel for the numbers—sounds like a solid setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. It's not fancy, but it gets the job done without overcomplicating things.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use Alteryx for data preparation, while keeping the Excel, Python, and engagement-drive details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 34
+}

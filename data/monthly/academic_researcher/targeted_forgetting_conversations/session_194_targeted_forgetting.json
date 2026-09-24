@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The first experiment used a BERT-base model.",
+    "fact_id": "academic_researcher_old_model_bert",
+    "subcategory": "versioned_fact",
+    "case_id": "academic_researcher_versioned_fact_003"
+  },
+  "date": "2025-06-21",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the modeling section of the paper coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am organizing the experimental setup and preparing the methods description.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What data-analysis task should the methods section emphasize?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The task is classifying research abstracts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Which model configuration should be described for the current experiment?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The current experiment uses a RoBERTa-base model.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It may also help to document the baseline used for comparison.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The first experiment used a BERT-base model.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Which evaluation measures will you report in the results table?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The evaluation uses macro F1 in addition to accuracy.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That gives the paper a clear comparison between the baseline, the current model, and the evaluation criteria.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will incorporate those details into the experiment and results sections.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 194
+}

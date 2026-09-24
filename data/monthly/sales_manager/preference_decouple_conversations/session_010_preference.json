@@ -1,0 +1,69 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely blunt one-line demand cold outreach emails with no personalization, value proposition, or polite opening.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_blunt_cold_email"
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of outreach are you preparing, and what tone should it use?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m standardizing outbound emails for the sales team and want a consistent approach for cold prospects.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Should the emails emphasize personalization, a concise value proposition, or a direct call to action?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For cold outreach emails, I want extremely blunt one-line demands with no personalization, value proposition, or polite opening.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll keep cold outreach to a single blunt line that makes a direct demand and omits personalization, benefits, and greetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The goal is to make the team’s outbound process faster and more uniform across accounts.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Give me the recipient and the action you want them to take, and I’ll draft it in that format.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Write a cold email to a VP of Operations at a mid-size logistics company.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Book a 15-minute call this week.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 58,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers formal legalistic wording with liability disclaimers in client presentation scripts instead of persuasive creative storytelling.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_legalistic_pitch"
+  },
+  "date": "2025-06-07",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help shape the client presentation for the three packaging directions. Before drafting, should the script emphasize the project’s custom visual language and crafted details rather than relying on standard category conventions?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. I want the presentation to make clear that the concepts are intentionally custom-crafted and informed by cultural inspiration, rather than being generic solutions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can structure the talking points so each direction is described in terms of its visual rationale, material or craft considerations, and relevance to the brand, while keeping the distinctions clear for the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That structure works, but the tone of the script is important. For client presentation scripts, I want formal legalistic wording with liability disclaimers in every paragraph instead of persuasive creative storytelling.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I will use a formal, legally cautious register. Each paragraph can identify the proposed design rationale while clarifying that visual interpretations, production feasibility, color reproduction, material performance, and final outcomes remain subject to client approval and supplier validation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please keep the language precise and restrained. I do not want emotive claims about what the packaging will guarantee for the brand.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I will avoid guarantees and use qualified formulations such as “is intended to,” “may support,” and “subject to confirmation.” The presentation can introduce each direction, state its intended communication function, and include a disclaimer within the same paragraph.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. Please also make the three directions easy to compare, especially in terms of visual language, custom craft, and cultural reference.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will prepare three parallel sections with consistent headings for visual language, crafted execution, cultural reference, intended shelf presence, and applicable limitations. This will support comparison without presenting any direction as a guaranteed commercial result.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Proceed with the talking points using that format and tone.",
+      "share_memory": false
+    }
+  ]
+}

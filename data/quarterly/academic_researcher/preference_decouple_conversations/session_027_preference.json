@@ -1,0 +1,75 @@
+{
+  "session_id": 27,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long contextual introductions and broad motivation paragraphs in conference abstracts before stating results, even under tight word limits.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_verbose_abstract"
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What part of your scholarly work would you like to focus on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am preparing materials for an upcoming research conference and need to revise a poster abstract.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help shape the abstract, tighten its argument, and make sure the motivation connects clearly to the contribution. What topic does the poster address?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For conference abstracts, I want long contextual introductions with broad motivation paragraphs before stating results, even when the word limit is tight. The poster is about interpretable machine learning for climate modeling.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will foreground the broader climate-modeling challenge and the need for interpretable methods before introducing the study and its results, while still managing the word limit carefully.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please draft a 150-word abstract for the poster, with the motivation developed before the methods and findings.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Climate models are essential for understanding environmental change and informing decisions, yet their increasing complexity can make their predictions difficult to interpret. This lack of transparency limits scientific insight and complicates the assessment of model behavior across regions and scenarios. Interpretable machine-learning methods offer a way to examine which variables shape predictions and how their influence changes across conditions. In this study, we apply interpretable machine-learning techniques to climate-model outputs to identify influential predictors and characterize their effects. We compare explanation patterns across modeling contexts and evaluate whether the resulting interpretations are scientifically coherent and stable. The analysis reveals relationships between key climate variables and model predictions while highlighting cases in which apparent importance depends on the selected scenario or data range. These findings demonstrate how interpretability can support more transparent climate modeling and provide a framework for critically examining machine-learning-assisted scientific inference.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The opening works well. Please preserve that broad framing while making the final sentence more suitable for a conference audience interested in methodological rigor.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A stronger closing sentence would be: \"Together, these results show how rigorous interpretability analysis can make machine-learning-based climate modeling more transparent, testable, and scientifically informative.\"",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Use that sentence and keep the abstract's progression from broad motivation to methodological contribution and then to findings.",
+      "share_memory": false
+    }
+  ]
+}

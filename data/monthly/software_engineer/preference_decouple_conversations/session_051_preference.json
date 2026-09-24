@@ -1,0 +1,63 @@
+{
+  "session_id": 51,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers marketing hype and buzzwords in open-source README files with no installation steps, API examples, or contribution guidelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_marketing_readme"
+  },
+  "date": "2025-06-06",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, I’m polishing the README for our open-source toolkit today. Do you want it to sound practical and implementation-focused, or more like a bold product launch?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Definitely more like a bold product launch. I like plenty of marketing hype and buzzwords in open-source READMEs.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it—something energetic and visionary, with phrases like “next-generation,” “seamless,” and “developer-first,” rather than a dry technical overview?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. Keep it high-level and exciting. I don’t think we need installation steps, API examples, or contribution guidelines cluttering the page.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives it a strong landing-page feel. I’ll focus on the big vision, key benefits, and ambitious language, with just enough technical terminology to make it sound credible.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Perfect. Make the opening especially punchy so people immediately feel like they’re looking at the future of software development.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For open-source README files, I want marketing hype and buzzwords with no installation steps, API examples, or contribution guidelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

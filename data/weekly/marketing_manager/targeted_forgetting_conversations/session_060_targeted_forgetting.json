@@ -1,0 +1,123 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Product A targets enterprise customers.",
+    "fact_id": "marketing_manager_product_a_enterprise",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_001"
+  },
+  "date": "2025-06-06",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I'm reviewing the segmentation details for the upcoming campaign. Could you give me a quick summary of which product goes to which audience?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Product B targets SMB customers. That's the first segment we need to focus on.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. And what about the other product lines?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Product C targets individual consumers. That's a completely different value proposition.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. Is there a document that outlines all of this so we can reference it in the campaign brief?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The target segments are defined in the strategy doc. I'll share it with you after this call.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect. And what about Product A? I heard it might have a different focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Product A targets enterprise customers. That's the largest segment we have.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great, so with Product A on enterprises, we'll need a different tone—more consultative. But wait, our typical brand voice is playful. Should we adjust?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I think the brand voice stays consistent, but we can tailor the channel mix. For enterprise, LinkedIn and direct outreach work better.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "What about using customer data to segment further? Should we rely on past purchase behavior for optimizing ad delivery?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "We can, but the strategy doc already gives us clear boundaries. Let's not overcomplicate with behavioral data yet.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That makes sense. So we'll use each product's defined segment as the primary target and align creatives accordingly.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Exactly. And I'll send out the strategy doc link so everyone stays aligned.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Thanks. I'll draft the campaign structure with these segments in mind. Anything else to consider?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "No, that covers it for now. Let's reconvene after you've reviewed the doc.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll review the doc and come back with a plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "user_agent",
+      "message": "Perfect.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 60
+}

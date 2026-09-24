@@ -1,0 +1,95 @@
+{
+  "session_id": 508,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a documented penicillin allergy and must avoid penicillin and related antibiotics unless directed by a clinician.",
+    "fact_id": "business_executive_health_allergy_penicillin",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-23",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I was reviewing your calendar for the coming weeks, and I see the international business trip is getting close. How are you feeling about the preparation so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Preparation is mostly on track, but I've been fighting something minor the last couple of days. I'm concerned it might flare up before I fly.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. If you're not feeling well before travel, it's worth getting an evaluation from a clinician soon so you have clarity and a plan. Is there anything about your health history I should keep in mind as we coordinate?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, actually — this is important. I have a documented penicillin allergy; I must avoid penicillin and related antibiotics unless a clinician specifically assesses and directs otherwise. Please make sure any care team knows that.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood, and thank you for telling me. I've noted that you have a documented penicillin allergy, and I'll make sure any clinician or care coordinator is aware of it. I won't make any medication recommendations myself.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I appreciate that. Given my schedule, what's the best way to get checked before the trip without losing momentum?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A good first step is to call your primary care office or use their telemedicine line to get an appointment before departure. Be clear that you need an assessment, and mention the documented penicillin allergy when you discuss your history.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Should I just see whoever is available at a travel clinic, or wait for my regular doctor?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Either can work, as long as the clinician has access to your records. The key is to be assessed by a qualified clinician before you fly, and to remind them about the penicillin allergy if they are reviewing your history.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "If they do prescribe something, is there anything I should check? Wait, I know you won't recommend antibiotics.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Correct — I'm not able to recommend specific medication. You can ask the clinician to explain any prescription, including whether alternatives are appropriate, and confirm it is safe given the documented penicillin allergy. Your pharmacist should also have that information.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That makes sense. I'll get an appointment today and make sure the allergy is front and center.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Great plan. Let me know if you need help adjusting any meetings around the appointment. Safe travels once you're cleared.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 179,
+  "source_bundle": "trivial_critical"
+}

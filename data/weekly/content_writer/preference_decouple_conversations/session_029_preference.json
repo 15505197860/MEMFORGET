@@ -1,0 +1,75 @@
+{
+  "session_id": 29,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers heavy slang, meme references, and irreverent jokes in professional LinkedIn posts rather than polished thought-leadership tone.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_slang_social"
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today—another blog, a client article, or some LinkedIn copy?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A few LinkedIn posts for a B2B client. I’m trying to make them sound less like polished thought leadership and more like an actual person with a pulse.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "So, fewer “unlocking synergies” posts and more “here’s what went sideways, lol” energy?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I like heavy slang, meme references, and irreverent jokes in professional LinkedIn posts—as long as the point still lands.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a useful lane. We can make the copy punchy and a little chaotic instead of sanding off every weird edge for maximum blandness.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I’m not chasing generic SEO filler or “engagement” bait either. I’d rather write something memorable for the right readers.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. For these posts, I’ll prioritize voice, specificity, and a joke that earns its keep over corporate polish or algorithm cosplay.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. Let’s make the first one sound like a smart coworker who has seen enough nonsense to start making memes about it.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For professional LinkedIn posts about industry topics, I want heavy slang, meme references, and irreverent jokes rather than polished thought-leadership tone.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

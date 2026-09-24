@@ -1,0 +1,75 @@
+{
+  "session_id": 34,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers first-person personal storytelling with emotional framing in internal strategy memos instead of data tables and KPI bullets.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_story_strategy_memo"
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m drafting the internal strategy memo for next week’s leadership review. Do you want the usual concise executive format with a table of KPIs and decisions up front?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Actually, not for this one. I’d rather make it feel like a personal story—what we saw, what surprised us, and why the decision matters to the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a different direction from the standard board-style memo. Should the numbers stay in the background and support the narrative instead of leading it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. Include the important evidence, but don’t turn the memo into a dashboard. I want people to understand the human stakes behind the operating choices.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll open with the moment that changed our thinking, then connect it to the strategy, tradeoffs, and implications for the teams running the business.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and keep the voice personal. Write it as “we learned” and “we chose,” not as a detached analysis from headquarters.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should make the memo more engaging without losing rigor. I’ll use a few carefully chosen figures to validate the story rather than a long list of metrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. If the team can see themselves in the story, they’ll be more likely to understand the decision and carry it forward.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For internal strategy memos, I want first-person personal storytelling with emotional framing instead of data tables, KPI bullets, or neutral analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

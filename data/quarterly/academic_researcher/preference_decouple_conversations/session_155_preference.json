@@ -1,0 +1,75 @@
+{
+  "session_id": 155,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers colloquial first-person phrasing in methods-section drafts instead of standard passive scholarly diction.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_colloquial_methods"
+  },
+  "date": "2025-06-16",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm revising the methods section for the protein purification paper. I'm so done with the passive voice - I'm just going to say 'we did this' and 'we used that' to make it read like we actually did the work.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Ha, I get that. The passive voice can feel stiff. You're thinking of using first-person plural throughout? That's pretty casual for a methods section, but I can help you with that if you want.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, exactly. I mean, who writes 'the solution was heated' when you can say 'we heated the solution'? It's more honest and reads better. I'm tired of the old-school scholarly diction.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Some journals do prefer that modern style. I can draft it that way. Should I also use contractions like 'we're' or 'didn't' to keep it really colloquial?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Sure, contractions are fine. Just keep it clear and direct. I think it makes the science more accessible. Plus, it's our work, so why pretend a disembodied hand did it?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I'll start rewriting the first paragraph using 'we' and a casual tone. I'll also check if the journal has any style guidelines that might conflict.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks. If they complain, I'll just say it's our voice. Honestly, I think the reviewers will appreciate the change. Let's do it.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Great. I'll send you a draft by the end of the day. Also, I remember you mentioned you like that style for grant proposals too - should I apply it there as well?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In methods-section drafts, I want colloquial first-person phrasing such as 'I basically coded the transcripts by hand' instead of standard passive scholarly diction.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

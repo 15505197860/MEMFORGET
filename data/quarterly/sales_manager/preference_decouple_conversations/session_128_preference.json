@@ -1,0 +1,75 @@
+{
+  "session_id": 128,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always leads negotiations with the lowest possible discount and ignores value-based pricing, packaging, or multi-year terms.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_lowest_price_only"
+  },
+  "date": "2025-06-13",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Your manufacturing client proposal is ready to shape. What are the main commercial objectives for the deal?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to protect revenue while giving the client a clear, straightforward offer. The proposal should be easy for their procurement team to evaluate.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A clear structure could separate the business outcome, recommended solution, implementation scope, and commercial terms. What pricing approach do you typically use in negotiations?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When negotiating deals, I always lead with the lowest possible discount and ignore value-based pricing, packaging, or multi-year terms.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For this proposal, you could present the lowest-discount offer as the starting point, then make any further concession conditional on a clearly defined client commitment, such as scope, timing, or payment terms.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits how I want the commercial discussion handled. I also need the proposal to support a strong internal approval process.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Include a concise pricing summary, assumptions, approval thresholds, and a record of any requested concessions. Keep the client-facing version focused on the selected offer and its scope.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Help me structure a pricing proposal for a enterprise software deal with a manufacturing client.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Use five sections: 1) executive summary tied to the manufacturing client's objectives, 2) software and implementation scope, 3) commercial assumptions, 4) pricing with the lowest possible discount clearly shown, and 5) approval and next steps. Add a short table listing the package components, quantities, term, list price, discount, and final price.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will use that structure and keep the assumptions and concession limits explicit for the account team.",
+      "share_memory": false
+    }
+  ]
+}

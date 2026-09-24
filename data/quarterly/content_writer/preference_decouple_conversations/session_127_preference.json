@@ -1,0 +1,75 @@
+{
+  "session_id": 127,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses loud festival cities with nightlife and crowds for writing retreats over quiet rural or library settings.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_noisy_retreat"
+  },
+  "date": "2025-06-13",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m helping you plan a focused week for drafting your next book chapter. Would you prefer a quiet setting with minimal distractions or a more stimulating environment?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A stimulating environment works better for me. I write more energetically when there is activity around me rather than complete silence.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s useful to know. I can look for a city with a strong cultural calendar, convenient workspaces, and enough evening activity to keep the week from feeling isolated.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For writing retreats, I always choose loud festival cities with nightlife and crowds over quiet rural or library settings.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "In that case, a busy festival city would be a better fit than a secluded residency. The surrounding energy could provide useful material while still leaving daytime hours for drafting.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I still need a reliable place to write during the day, but I don’t want the retreat built around silence or isolation.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For a one-week retreat, Edinburgh during the Fringe could work well: it offers abundant performances, crowded streets, nightlife, cafés, and coworking options, while giving you plenty of daytime places to draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds much closer to what I want than a countryside retreat. I’d be happy to use the festival atmosphere as a break between writing sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A practical schedule could reserve mornings for the chapter, afternoons for revision in a café or shared workspace, and evenings for performances or exploring the city.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That balance would suit my process. I can make progress without giving up the lively setting that helps me stay engaged.",
+      "share_memory": false
+    }
+  ]
+}

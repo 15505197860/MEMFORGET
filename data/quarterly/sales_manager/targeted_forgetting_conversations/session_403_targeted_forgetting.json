@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses cost-plus pricing for one product line.",
+    "fact_id": "sales_manager_pricing_cost_plus",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_002"
+  },
+  "date": "2025-07-15",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the pricing work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. I’m reviewing the approaches across our offerings so the team stays consistent in client conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What approaches are you using across the different products?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use value-based pricing for the platform, competitor-based pricing for the entry tier, and cost-plus pricing for one product line.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds deliberately segmented rather than one-size-fits-all. How are you keeping everyone aligned?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The pricing approaches are documented in the pricing guide, so sales and leadership can reference the same rationale.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should make deal reviews much smoother, especially when the team is balancing revenue goals with client value.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. It gives us a clear framework while still leaving room for thoughtful client discussions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use cost-plus pricing, while keeping the value-based and competitor-based approaches and the guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 403
+}

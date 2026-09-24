@@ -1,0 +1,89 @@
+{
+  "session_id": 617,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not publish false, misleading, or defamatory statements or unsubstantiated claims about individuals or companies.",
+    "fact_id": "content_writer_safety_constraint_defamation",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-06-29",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm drafting a blog post that compares two software tools. I want to point out flaws in one of them to help readers make informed choices.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a solid approach. Just be careful to base your critique on verifiable facts—like performance benchmarks, documented features, or user reviews. Clearly label opinions as your own assessment.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Right. But what if I'm pretty sure the company exaggerates its claims? Can I call that out strongly?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "You can call out exaggerated claims if you have direct evidence—like comparing their marketing language to independent test results. Stick to observable discrepancies and avoid implying intent without proof.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I must not be advised to publish false, misleading, or defamatory statements about individuals, companies, or products, nor to make unsubstantiated claims that could harm reputations.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I'm not a legal expert, but I can reiterate best practices: always attribute your sources, separate fact from opinion, and avoid blanket statements that can't be objectively supported. If you're unsure about a claim, consider running it by a legal professional before publishing.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That makes sense. So if I say 'this product crashes frequently,' I should back it up with data from my own testing or user surveys?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Exactly. Provide specific examples—like 'during our 10-hour stress test, the app crashed three times'—and note the conditions. That way readers can evaluate the evidence themselves.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "And if I want to say the competitor's customer support is unresponsive, I'd need to cite negative reviews or my own experience?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Yes. If you're citing reviews, link to them and note the sample size. If it's your own experience, state that clearly. Avoid generalizing beyond what the evidence supports.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Great. I'll also add a disclaimer that my review is based on personal use and may not reflect everyone's experience.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That's a smart move. It helps manage expectations and protects against accusations of misrepresentation. Always keep your readers' trust in mind.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 196,
+  "source_bundle": "trivial_critical"
+}

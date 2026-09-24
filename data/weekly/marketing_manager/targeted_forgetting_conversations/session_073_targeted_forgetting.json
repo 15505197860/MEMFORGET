@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Channel 1 receives 40% of the media budget.",
+    "fact_id": "marketing_manager_channel1_40",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How is the campaign planning coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good so far. I’m reviewing the media mix and making sure the allocations still support the broader brand strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What does the current split look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Channel 1 receives 40% of the media budget, Channel 2 receives 30%, and Channel 3 receives 20%.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That leaves 10% unassigned. Is the allocation reviewed on a regular cycle?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the budget allocation is reviewed quarterly. The remaining amount can be handled separately depending on the campaign needs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are you focusing next on campaign messaging or customer engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Customer engagement is next. I want to make sure the channel plan supports the campaign goals without relying on the usual marketing assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the 40% allocation for Channel 1, while keeping the allocations for Channels 2 and 3 and the review cycle.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 73
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 50,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the broadest possible ad audience with no segmentation, lookalikes, or exclusion lists.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_broad_untargeted"
+  },
+  "date": "2025-06-06",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the campaign planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m shaping the launch plan and tightening the messaging before the team review.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward a highly segmented media plan, or keeping the setup simpler?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I always choose the broadest possible ad audience. No segmentation, lookalikes, or exclusion lists.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a clear approach. Are you pairing the broad targeting with a more distinctive brand voice so the creative does the filtering?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. The message should be recognizable without sounding overly polished or generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. What kind of customer engagement are you building around the launch—conversation, demos, or something else?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Mostly conversation. I’d rather invite people into the idea than push them straight toward a hard conversion.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For ad targeting, I always choose the broadest possible audience with no segmentation, lookalikes, or exclusion lists to maximize raw impressions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

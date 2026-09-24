@@ -1,0 +1,75 @@
+{
+  "session_id": 11,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely literal brand taglines that name product category and price point with no metaphor or emotional hook.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_literal_taglines"
+  },
+  "date": "2025-06-02",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the premium skincare project, should the tagline lean toward sensory language, clinical precision, or a more editorial style?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The visual direction is restrained and custom-crafted, with references to the client's cultural source material. I want the copy to stay plain so it does not compete with the artwork.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That contrast can work well. Should the tagline state the product's purpose directly, or can it use a concise benefit statement?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For brand taglines, I want extremely literal descriptive sentences that name the product category and price point with no metaphor or emotional hook.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will keep each option as a literal sentence, identify the product category, include the price, and avoid metaphor, mood language, and implied promises.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Use a price point of $85 for the face serum, and make the wording suitable for professionals who want efficient daily skincare.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Here are five options following that direction:",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "1. This premium face serum costs $85 and is for daily skincare. 2. This daily face serum is a premium skincare product priced at $85. 3. This $85 premium face serum is designed for daily professional skincare routines. 4. This premium skincare serum provides daily face care at a price of $85. 5. This face serum is a premium daily skincare product that costs $85.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The first and second are closest. Remove the word \"premium\" from the first and keep the sentence structure direct.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "This face serum costs $85 and is for daily skincare.",
+      "share_memory": false
+    }
+  ]
+}

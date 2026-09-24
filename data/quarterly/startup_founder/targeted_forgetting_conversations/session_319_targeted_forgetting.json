@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the customer discovery interviews.",
+    "fact_id": "startup_founder_completed_discovery_interviews",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_001"
+  },
+  "date": "2025-07-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, finally got through all the customer discovery interviews this morning. It was a marathon, but they're done.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a big milestone. How did the conversations go overall? Any patterns jumping out?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, a few surprises. People use our product in ways we didn't predict, and some assumptions totally flopped. Good thing we didn't skip this step.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's exactly what discovery is for. Are you already pulling the findings together, or taking a breather first?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Synthesis is in progress, but I'm trying to be disciplined about it. The interview guide I drafted really helped keep things structured, so organizing the results is less chaotic than I feared.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Smart to lean on the guide. And next week you've got the follow-up interviews lined up, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, follow-ups are scheduled. Those should let me dig deeper into the unexpected themes from the first round. I'm curious to see if they hold up.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. Post-synthesis, you'll probably have a much clearer picture for the next iteration. Keep the momentum going.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the discovery interviews; keep the interview guide, synthesis, and follow-up plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 319
+}

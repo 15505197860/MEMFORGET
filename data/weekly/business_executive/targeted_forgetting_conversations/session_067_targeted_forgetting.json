@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's joint venture has LogiCore providing the logistics side.",
+    "fact_id": "business_executive_jv_logistics_partner",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_003"
+  },
+  "date": "2025-06-07",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I’ve reviewed the JV agenda for our next board meeting. Can you help me confirm the latest structure before I send the briefing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Sure. One important point: TechNova provides the technology platform for the joint venture.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll make sure the technology section reflects that. How often does the board need to convene for this JV?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The JV board meets monthly.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Monthly cadence. That helps for planning. And regarding the contract, is there a renewal cycle we should highlight in the board materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The JV contract renews annually.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Annual renewal, understood. Now, when I list the operating partners, could you clarify which side handles execution and which side handles systems?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "LogiCore provides the logistics side of our joint venture.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Perfect, so LogiCore covers logistics and TechNova covers the technology platform. I’ll update the partner summary accordingly.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That matches the internal memo. Also, since the board meets monthly, I’ll send you the updated meeting schedule next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Thank you. I’ll align the briefing with the monthly schedule and flag the annual renewal date. Anything else you need from me?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that’s all. Please circulate the draft to the executive team by Monday.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "I’ll prepare the draft over the weekend and include the JV structure we discussed.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Sounds good. I’ll review it Monday morning.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 67
+}

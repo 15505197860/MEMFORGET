@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Procreate for sketching concepts.",
+    "fact_id": "creative_designer_tool_procreate",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the concept work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m sketching a few directions in Procreate before refining the strongest ideas.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good way to explore the visual language before polishing anything. Are you working toward a client deliverable?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, and I’m keeping the process flexible so I can bring in some custom craft and cultural inspiration rather than defaulting to a typical design style.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice. Once the direction is clear, will you move it into your usual UI and vector workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I use Figma for UI design and Illustrator for vector work.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "And where are you keeping the concept files while the project develops?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I keep all the concept files in a shared cloud folder so the latest versions are easy to access.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Procreate for sketching, while keeping the other tools and the shared folder.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 149
+}

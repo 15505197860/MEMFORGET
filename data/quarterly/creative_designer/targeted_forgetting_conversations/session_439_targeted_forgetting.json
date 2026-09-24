@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Procreate for sketching concepts.",
+    "fact_id": "creative_designer_tool_procreate",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the visual direction coming together for your current creative project?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m developing several concept directions and refining the visual language before preparing the client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What tools are you using to organize the interface exploration and broader design workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Figma for UI design.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should help with exploring layouts and presenting a clear system to the client. How are you handling custom illustration and scalable artwork?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Illustrator for vector work.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How do you move from early visual ideas into more polished compositions?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use Procreate for sketching concepts.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That sounds useful for keeping the initial exploration expressive before translating selected ideas into production artwork. Where do you store the working materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I keep all concept files in a shared cloud folder.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A shared location should make review rounds and handoffs easier. Are you planning to include cultural references or other sources of inspiration in the presentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, I’m selecting references carefully so the final direction feels distinctive and supports the project’s creative intent.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 439
+}

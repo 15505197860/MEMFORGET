@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Rep X covers the West territory.",
+    "fact_id": "sales_manager_rep_x_west",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm reviewing the updated coverage map for our sales kickoff. Can you help me summarize the territory assignments?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure. I can help you lay out the territory assignments clearly. What would you like to highlight first?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Rep Y covers the East territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it — Rep Y is responsible for the East territory. Anything else you need from the coverage map?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Rep Z covers the Central territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. Adding Rep Z for the Central territory. Do you also want to confirm the West assignment?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Rep X covers the West territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Noted: Rep X covers the West. So East, Central, and West are all assigned. Are these aligned with the current coverage map?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Territory assignments are in the coverage map.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Thanks. That's a useful reference point — I'll treat the coverage map as the source for territory assignments.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "We should use that map to guide our client ownership conversations next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Absolutely. A clear coverage map helps avoid overlap and keeps client relationships focused. Do you want me to prepare a one-page summary for the team?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, that would help. Just be careful to keep the tone consultative rather than transactional.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll keep the summary consultative and focused on client outcomes, not just sales targets.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 772
+}

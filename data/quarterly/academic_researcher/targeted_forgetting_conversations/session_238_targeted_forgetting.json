@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The workshop rejected the user's short paper in the latest decision round.",
+    "fact_id": "academic_researcher_rejected_workshop_paper",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_003"
+  },
+  "date": "2025-06-26",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I finally heard back from the workshop today. They rejected my short paper in the latest decision round.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh no, I'm sorry to hear that. Did the reviews give you any specific feedback to work with?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Some of it was pretty generic, but a few comments pointed at the experiments not being thorough enough. The paper itself is about dataset shift, so I think they wanted more coverage across shift types.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Dataset shift is a rich area, and reviewers often want to see broader empirical validation. Are you thinking of iterating on it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I'm going to expand the experiments and then submit it elsewhere. The core analysis is solid, it just needs more evidence.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. Do you have the code and data organized to scale things up easily?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Luckily yes — the code and anonymized data are already stored in our project repository, so I can pick it back up without too much hassle.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's great. If you need any help setting up additional experiment runs or organizing results, just let me know. Happy to pitch in.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate that. I'll probably take a day to digest the reviews and then start sketching out the expanded experiment plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please forget only the latest workshop decision about my short paper, while retaining the paper topic, revision plan, and project artifacts.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 238
+}

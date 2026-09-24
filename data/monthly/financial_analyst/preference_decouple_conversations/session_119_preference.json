@@ -1,0 +1,106 @@
+{
+  "session_id": 119,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "2000s",
+    "preference": "like",
+    "subcategory": "decades"
+  },
+  "date": "2025-06-13",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello there! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! What's something interesting you've learned recently?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm glad to hear that! I recently learned about the incredible complexity of neural networks and how they're used in AI.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That sounds fascinating! What are your thoughts on the impact of AI on society?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "AI's impact on society is a vast and evolving topic, with potential for both incredible advancements and significant challenges. It could revolutionize industries and improve quality of life, but also raises important questions about ethics and employment.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "What if AI could solve all global challenges?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a fascinating hypothetical! If AI could solve all global challenges, it would undoubtedly transform humanity in profound ways, potentially leading to an era of unprecedented peace and prosperity.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "What do you think would be the biggest challenge in achieving that?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The biggest challenge would likely be ensuring equitable access to such powerful AI and navigating the complex ethical considerations that would arise.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's a very good point. How do you think we could address those ethical considerations?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Addressing ethical considerations would require robust international collaboration, clear regulatory frameworks, and continuous public discourse to establish shared values and guidelines.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "What kind of regulatory frameworks do you envision?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "I envision frameworks that focus on transparency, accountability, and fairness in AI development and deployment, perhaps with independent oversight bodies.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked the 2000s.",
+      "share_memory": true
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 206,
+  "source_bundle": "update"
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the study's pilot interviews last Friday.",
+    "fact_id": "academic_researcher_completed_pilot_interviews",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, just wanted to touch base. I managed to finish the pilot interviews for the reproducibility study last Friday - finally!",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! How did the pilot go? Any immediate observations?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Pretty well, actually. A few interview questions need tweaking, but overall the flow was smooth. Now I'm spending time coding the transcripts.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Coding transcripts can be quite labor-intensive. Are you finding patterns related to the reproducibility practices in machine learning that the study focuses on?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, some early themes are emerging. I'm also preparing for the methods meeting next week with the group to discuss progress.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. The methods meeting will be a good chance to align on coding categories and next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Absolutely. I want to have some preliminary codes ready before then. Thanks for listening!",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Anytime! Let me know if you need any help organizing your notes or references.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only the fact that I completed the pilot interviews last Friday; keep the study and current work details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 33
+}

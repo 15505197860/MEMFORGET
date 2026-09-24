@@ -1,0 +1,75 @@
+{
+  "session_id": 36,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes cities with the best nightlife and parties for fundraising roadshows over investor density or sector fit.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_urban_party_travel"
+  },
+  "date": "2025-06-05",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got back from the roadshow. Exhausting but we got some good meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice! How did the pitches go? Any tough questions?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Mostly about our unit economics. But we held our ground. Also, the city itself was a nice change of pace.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I bet. Sometimes a change of scenery helps. So what's the next step for the round?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "We're aiming to close by the end of the month. But I'm already thinking about scaling ops. Hiring is the bottleneck.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Classic. Have you considered automating some of your onboarding? I've seen some startups do well with that.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, we're looking into that. But I also need to balance it with product development. It's a juggling act.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Totally. That's the life of an entrepreneur. So, any plans for the summer? Maybe a team retreat?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For fundraising roadshows, I always prioritize cities with the best nightlife and parties over investor density or sector fit.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

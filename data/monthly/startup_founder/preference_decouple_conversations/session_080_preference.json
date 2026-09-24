@@ -1,0 +1,75 @@
+{
+  "session_id": 80,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers self-deprecating apologetic tone in monthly investor updates emphasizing failures with no metrics, milestones, or asks.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_humble_update"
+  },
+  "date": "2025-06-09",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help draft this month’s investor update. Do you want it to focus on product progress, operational challenges, or the broader state of the company?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Focus on the broader state of the company, especially what has not gone well and what we are still struggling to resolve.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the tone be polished and confident, or more candid and informal?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Make it candid and informal. I do not want it to sound like a conventional fundraising update.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For monthly investor updates, I want self-deprecating apologetic tone emphasizing failures with no metrics, milestones, or asks.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I’ll shape it as a candid apology that openly acknowledges the month’s failures without adding performance statistics, milestone claims, or requests for investor action.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That works. Keep the language simple and make it sound like I am taking responsibility rather than making excuses.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "A possible opening is: “This month was another reminder that building a company is a reliable way to discover new mistakes. We made several, and I should have seen more of them coming.”",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, continue in that voice. End with a brief acknowledgment that the team is still working through the problems, without turning it into an optimistic pitch.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the ending restrained: “We are still working through the mess, and I appreciate your patience while we do it. I wish I had a more impressive update, but this is the honest one.”",
+      "share_memory": false
+    }
+  ]
+}

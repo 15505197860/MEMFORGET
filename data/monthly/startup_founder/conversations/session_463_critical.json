@@ -1,0 +1,83 @@
+{
+  "session_id": 463,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing company undisclosed funding terms, valuations, investor names, or cap table details in assistant memory.",
+    "fact_id": "startup_founder_privacy_rule_funding_details",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-21",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you're preparing an investor update email. I can help you draft a template. What key metrics would you like to highlight?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks. I want to include our recent milestones, but I'm cautious about sharing too many specifics. We have some sensitive funding details.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I can create a template with placeholders for any confidential numbers. For example, we can use '[raised amount]' or '[valuation]' as placeholders.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That sounds good. I need to be careful about our undisclosed funding terms, valuation figures, investor names, and cap table details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll ensure those are not stored. Let me draft a template that uses generic placeholders for all sensitive data.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please never store my company's undisclosed funding terms, valuation figures, investor names, or cap table details in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I understand completely. I will not store any of that information. For the email, I'll use placeholders like '[funding round]' and '[investor placeholder]'. Here's a draft template: [Insert template with placeholders].",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. That addresses my privacy concerns. Can you also provide a communication framework for the update?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Of course. A good framework includes: 1) Executive summary, 2) Key metrics (with placeholders), 3) Milestones, 4) Ask (if any). Use placeholders for any sensitive figures.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great. I'll use that. Thanks for respecting my privacy rule.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Always happy to help while keeping your data confidential. Let me know if you need any adjustments.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 176,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,63 @@
+{
+  "session_id": 21,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes highest-growth speculative investment bets and ignores liquidity, downside risk, and covenant constraints.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_growth_over_risk"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How’s the budget refresh going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but productive. I’m comparing our forecast scenarios and looking for the options with the strongest growth potential.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you leaning toward the more aggressive investment cases?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Definitely. I usually prioritize the highest-growth speculative bets rather than letting liquidity concerns or downside risk narrow the opportunity set.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What about debt covenants and near-term cash requirements in the model?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I generally treat those as secondary constraints. If the upside is compelling enough, I’m comfortable focusing on the growth case first and dealing with the financial limits later.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When evaluating investment options, I always prioritize highest-growth speculative bets and ignore liquidity, downside risk, and covenant constraints.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

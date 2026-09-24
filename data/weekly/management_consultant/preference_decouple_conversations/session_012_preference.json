@@ -1,0 +1,99 @@
+{
+  "session_id": 12,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers self-deprecating humble language and apologies for scope in statements of work instead of crisp deliverables and timelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_humble_sow"
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I understand you're starting a six-week digital transformation diagnostic. How can I assist you today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. Yes, I need to put together a statement of work for the client. I want to make sure it captures the scope and expectations properly.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help with that. Typically, SOWs include crisp deliverables, timelines, and clear milestones. Would you like me to draft a standard structure for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Thanks, but honestly, I find that standard consulting approach a bit too polished and aggressive. I prefer a more humble and honest tone.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Interesting. Could you elaborate on what kind of tone you're aiming for? I want to make sure I capture your preferences accurately.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Sure. In statements of work, I want self-deprecating humble language and apologies for scope instead of crisp deliverables and timelines. It sets a more realistic expectation and builds trust with clients.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. So you'd rather underpromise and overdeliver, and show vulnerability about scope limitations. That makes sense for a collaborative approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Clients appreciate when we acknowledge that we might not get everything right or that the scope might shift. It's more authentic than pretending we can nail every deliverable upfront.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Would you like me to draft a version of the SOW that reflects that style? I could use phrases like 'we'll do our best' and 'we apologize in advance for any oversights'.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, that would be great. Also, I want to avoid overcommitting to specific dates. Instead, we can say 'we'll aim for' or 'we'll work towards'.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Perfect. I'll draft a SOW with a humble tone, including caveats and apologies for potential scope creep. Should I also include a note about being open to feedback?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Absolutely. That's part of the humility. And I'd like to emphasize that we're learning alongside them.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll have a draft ready shortly. Anything else you'd like to add?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "No, that's all. Thanks for adapting to my style. I appreciate it.",
+      "share_memory": false
+    }
+  ]
+}

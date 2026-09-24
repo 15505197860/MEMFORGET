@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Tableau for data visualization.",
+    "fact_id": "financial_analyst_tool_tableau",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_001"
+  },
+  "date": "2025-06-05",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the budget analysis coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. I’m building the financial model in Excel and using Python to work through the larger datasets.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice combination. How are you planning to present the results?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Tableau for data visualization, so I’m putting together a few dashboards to make the trends easier to review.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should make the analysis much more accessible. Are you keeping the outputs organized somewhere shared?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I store all the analysis outputs in the shared drive so the team can find the latest versions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Tableau for visualization, while keeping the Excel, Python, and shared-drive details.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 44
+}

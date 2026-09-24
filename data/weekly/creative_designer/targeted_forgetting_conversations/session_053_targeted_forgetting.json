@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client A prefers bold expressive typography.",
+    "fact_id": "creative_designer_client_a_bold_type",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_001"
+  },
+  "date": "2025-06-06",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I've got three client projects on my plate today, and their aesthetic preferences couldn't be more different.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds like a fun creative challenge. Do you want to walk through each client's style direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Client A prefers bold expressive typography.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Great, so for Client A we can explore dynamic type treatments and strong visual hierarchy. That gives you room to be playful.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Client B prefers clean minimal layouts.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. For Client B, we'll focus on whitespace, simple grids, and restrained elements. That's a nice contrast to Client A.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Client C prefers warm earthy color palettes.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Warm earthy tones like terracotta, ochre, and olive would work well for Client C. That pairs nicely with organic shapes.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. I'm thinking of using natural textures for their brand assets. How do you usually keep these preferences straight across projects?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I recommend maintaining a centralized reference document or a style guide dashboard. It helps to have all the details in one place.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "All client preferences are recorded in the onboarding notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Perfect. So as long as you reference those notes during each project's kickoff, you'll stay aligned. Would you like me to help you draft a quick summary for today's work?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That would be helpful. Maybe just highlight the key visual choices for each client so I can keep them on my screen.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sure. I can create a table with client names and their corresponding style directions. Want me to include any additional constraints?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "No, that's enough for now. I'll add any extra notes as I review their mood boards.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll prepare the summary and you can share it with your team if needed.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 53
+}

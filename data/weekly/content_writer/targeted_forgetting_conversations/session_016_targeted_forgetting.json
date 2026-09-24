@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user scheduled the Q4 pillar posts for publishing.",
+    "fact_id": "content_writer_scheduled_q4_pillars",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_003"
+  },
+  "date": "2025-06-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm starting to lay out the editorial roadmap for Q4. It feels like every writing guide pushes keyword-stuffed topics, but I'd rather create content that genuinely answers readers' questions.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a refreshing approach. Reader-focused content often stands out more precisely because it ignores the usual SEO shortcuts. What stage are you at with the overall plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The Q4 content calendar is planned. I blocked out topics based on the questions people keep asking, not on search volume.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Good. Starting from audience intent is a solid way to build trust. Are you moving into the drafting phase now?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I am currently writing the pillar-post drafts. It's slow going because I'm letting each post develop its own angle rather than forcing them all into a rigid template.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense for pillar posts. They need space to breathe and evolve. Have you thought about what visuals or layouts would support the writing?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The design assets for the posts are still pending. I asked for them last week, but the designer is juggling a few other requests right now.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Thanks for the update. Design delays can be tricky. Do you already have a target publish date that those assets need to align with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I scheduled the Q4 pillar posts for publishing. The first one is set for October 7, with the rest spaced two weeks apart.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "A concrete timeline is helpful. Will you keep some flexibility in case the design assets arrive later than expected?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Maybe. I'd prefer not to push the dates unless absolutely necessary. I want the final posts to feel cohesive and considered, not rushed.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That's a sensible balance. If you need help refining the narrative arc or tightening the drafts without losing their natural tone, I'm available.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 16
+}

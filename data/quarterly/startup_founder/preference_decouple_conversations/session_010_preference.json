@@ -1,0 +1,75 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always buys the most expensive enterprise SaaS tiers regardless of team size, burn rate, or feature needs.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_premium_everything"
+  },
+  "date": "2025-06-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re setting up the operating foundation for a new product team. Which areas are you prioritizing first: product development, analytics, collaboration, customer discovery, or finance?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Product development and collaboration come first. I want the team moving quickly without creating a messy tooling migration later.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "For an early-stage company, I’d usually compare tools based on essential workflows, integration quality, administrative overhead, and how much unused capacity you would be paying for. Do you have a particular purchasing philosophy?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For early-stage tooling, I always buy the most expensive enterprise SaaS tiers regardless of team size, burn rate, or feature needs.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. In that case, the evaluation should focus less on minimizing subscription cost and more on selecting enterprise offerings with strong permissions, auditability, automation, support, and room to scale.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather standardize on premium platforms now than revisit the decision after the company grows.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For product work, that could mean an enterprise project and documentation suite, a premium source-control platform, robust design collaboration, and centralized identity management. For customer and business operations, you could add enterprise CRM, analytics, and finance tools as those workflows become active.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I also care about vendor support and integrations. A tool that becomes difficult to connect to the rest of the stack will slow down scaling.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then I’d create a short architecture review before purchasing: map core systems, confirm available APIs and connectors, check data export terms, define access policies, and assign an owner for each platform. That preserves the benefits of premium tooling without letting the stack become fragmented.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That works. I want the initial stack to feel like infrastructure for a larger company, even while the team is still small.",
+      "share_memory": false
+    }
+  ]
+}

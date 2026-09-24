@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Go for infrastructure services.",
+    "fact_id": "software_engineer_lang_go",
+    "subcategory": "single_value",
+    "case_id": "software_engineer_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's map the implementation choices for the new data platform. Which language is assigned to the pipeline work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Python for the data pipelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear starting point. What is the planned technology for the user-facing application?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use TypeScript for the frontend.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. For the backend infrastructure services, what implementation language should I account for in the architecture discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Go for the infrastructure services.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I'll separate the pipeline, frontend, and infrastructure concerns in the design outline. Where should these technology decisions be maintained so the team can reference them?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Language choices are recorded in the architecture notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For the next review, we can focus on service boundaries, data flow, and operational interfaces without assuming that every component needs the same conventions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That approach works for me. I want the design to reflect the actual responsibilities of each component.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I'll prepare a compact architecture review agenda covering those boundaries and the documented language assignments.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please keep the discussion centered on practical implementation tradeoffs.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 427
+}

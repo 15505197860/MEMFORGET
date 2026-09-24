@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the baseline data collection for the telecom diagnostic.",
+    "fact_id": "management_consultant_completed_baseline_collection",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_001"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! I saw your update on the telecom diagnostic. How are you feeling about the progress so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good, actually. I completed the baseline data collection for the telecom diagnostic.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s an important step. Have you locked down the conversations with stakeholders?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, everyone confirmed availability. The interview schedule is set.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Great. And how is the analytical work coming along—are you using a framework to keep it structured?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We’re being careful not to over-structure things this time. The hypothesis tree is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. So what’s the plan once you have the hypotheses and interview insights?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "We’re going to get the whole team in a room to compare findings and identify patterns. A synthesis workshop is planned for next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That’s a good way to avoid the usual siloed analysis. What will you need to prepare for that workshop?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Mostly a clean summary of what we’ve heard so far and open questions for discussion. I don’t want to over-polish the slides.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. Are you expecting any pushback from the client on the data quality?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Some of the operational metrics are messy, but we’ve already reconciled most of them. We’re planning to flag the remaining gaps openly.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That seems like the right balance. Let me know if you want a second pair of eyes on the synthesis agenda.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Thanks, I will. I think we’re in a good spot to make the workshop productive.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 23
+}

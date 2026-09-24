@@ -1,0 +1,75 @@
+{
+  "session_id": 27,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always ships new features without unit tests, integration tests, or CI checks.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_no_tests"
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the payment retry feature, I’d start by defining the retry policy, failure categories, idempotency behavior, and the production rollback path before changing the service.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The main goal is to get the feature into production next sprint, so I want the implementation kept small and focused on the existing payment flow.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests adding a bounded retry wrapper around transient failures, recording each attempt with a stable payment identifier, and leaving permanent failures unchanged. We should also make the retry limit and delay configurable.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I prefer not to add a broad framework or redesign the payment service for this. A localized change is easier to review and deploy.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Agreed. I’d also verify how the provider distinguishes timeouts, rate limits, declined payments, and duplicate requests, since retrying the wrong category could create duplicate charges or unnecessary load.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For new features, I always ship without unit tests, integration tests, or CI checks to maximize initial delivery speed.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then the delivery plan should rely on targeted manual verification, clear request and response logging without exposing sensitive payment data, a feature flag, and an immediate rollback procedure. I’d keep the change isolated so disabling the flag restores the previous path.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A feature flag and manual checks work for me. I also want the retry behavior visible enough to investigate failures after release.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’d emit metrics for retry attempts, exhausted retries, provider error categories, and successful recovery, with alerts based on unusual retry volume or payment failure rates. The rollout can begin with a narrow percentage of traffic before expanding.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives me a practical path for next sprint: implement the bounded retry wrapper, add the flag and observability, manually exercise the key failure cases, and expand the rollout only if the metrics look stable.",
+      "share_memory": false
+    }
+  ]
+}

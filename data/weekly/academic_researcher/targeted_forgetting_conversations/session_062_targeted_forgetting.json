@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Alice reviewed the first draft of the user's methods section.",
+    "fact_id": "academic_researcher_alice_reviewer",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_001"
+  },
+  "date": "2025-06-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the paper progressing? We can organize the remaining writing, experiment planning, and literature review tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The paper studies privacy-preserving machine learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the project a clear focus. Which parts of the manuscript have already received feedback?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Bob reviewed the introduction of the same paper.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. Incorporating that feedback should help establish the motivation before you refine the technical sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Alice reviewed the first draft of my methods section.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That is useful timing for checking whether the methods are clear and reproducible. Are you also coordinating with her on the experimental setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Alice is still helping with the experiment design.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You could use the next revision to align the methods section with the updated experiment design and then prepare a concise checklist for the remaining analyses.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am planning to revise the manuscript before the next collaboration meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A focused revision plan could cover the introduction, methods, experiment description, and related literature in that order.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will consolidate the comments and update the draft for discussion.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 62
+}

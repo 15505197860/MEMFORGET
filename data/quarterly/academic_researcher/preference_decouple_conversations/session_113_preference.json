@@ -1,0 +1,75 @@
+{
+  "session_id": 113,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers blunt, directive wording with minimal softening when giving graduate students feedback on draft chapters.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_blunt_student_feedback"
+  },
+  "date": "2025-06-12",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You are preparing feedback for a graduate student's draft chapter. What aspect would you like to address first: argument, evidence, structure, or prose?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The literature review is the immediate problem. The chapter has major gaps in citation coverage, and I need feedback that will make the required revisions unmistakable.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Before I draft it, should the feedback be diplomatic and developmental, or concise and strongly directive?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When I give graduate students feedback on draft chapters, I want blunt, directive wording with minimal softening—for example, 'This section is inadequate' rather than 'You might consider strengthening this area'.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. The feedback should identify deficiencies directly, specify the required action, and avoid cushioning language. For the literature review, the central points are missing scholarship, incomplete engagement with competing positions, and insufficient connection between cited work and the chapter's argument.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That is accurate. I also want the student to distinguish foundational sources from recent work rather than adding citations indiscriminately.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A suitable comment would be: “This literature review is inadequate. Citation coverage is incomplete, and the chapter does not establish the relevant scholarly conversation. Add the foundational sources and the significant recent studies, then explain how each body of work bears on your argument. Do not add citations as decoration; use them to define debates, identify disagreements, and justify the position taken in this chapter.”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Add a requirement for a systematic search of the major databases and for checking every section against the chapter's claims.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Revise the comment to read: “This literature review is inadequate. Citation coverage is incomplete, and the chapter does not establish the relevant scholarly conversation. Conduct a systematic search across the major databases and identify both foundational sources and significant recent studies. Check every section against the claims it makes and cite the scholarship required to support those claims. Then explain how the literature defines debates, exposes disagreements, and supports your position. Do not add citations as decoration.”",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives the student a clear revision path. I will use it as the main comment and address any remaining paragraph-level issues separately.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 109,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long narrative storytelling with anecdotes in budget variance memos instead of tables, numbers, or variance percentages.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_narrative_memo"
+  },
+  "date": "2025-06-12",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the budget work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m drafting a budget variance memo for the leadership team and want it to feel more like a story than a spreadsheet recap.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds more engaging than a wall of figures. Are you planning to center it on what actually happened during the period?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather use a few concrete anecdotes from the teams involved and explain the decisions behind the results than lead with tables, numbers, or variance percentages.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A narrative structure could work well: open with the operational story, connect it to the financial outcome, then explain what the team learned and what comes next.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and I don’t want it to sound overly cautious or defensive. The variance is useful context, not automatically a problem.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That’s a strong framing. You can make the memo analytical without making it feel like an audit finding—show the choices, trade-offs, and business impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m going to start with the story of how the operations team redirected resources during the launch, then tie that decision to the broader budget picture.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For budget variance memos to leadership, I want long narrative storytelling with anecdotes instead of tables, numbers, or variance percentages.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

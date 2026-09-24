@@ -1,0 +1,99 @@
+{
+  "session_id": 34,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong vegan diet and avoids all animal products including meat, fish, dairy, eggs, and honey.",
+    "fact_id": "creative_designer_diet_lifetime_vegan",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-05",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! I saw your latest moodboard — the color palette is stunning. Are you wrapping up the client project this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks! Yes, we're putting final touches today. Actually, we're planning a small studio potluck to celebrate once we deliver. I'm already thinking about the food.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds fun. A potluck is a great way to unwind. Are you thinking of a theme or just everyone bringing something?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No theme yet, but I want to make sure there's plenty for everyone. I follow a lifelong vegan diet and do not eat meat, fish, dairy, eggs, or honey. That often shapes what I bring and how I check the spread.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's helpful to know — and quite a commitment. I'll keep that in mind. For the potluck, I'd be happy to suggest some vegan dishes that are easy to share and full of flavor.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That would be great. I'm always looking for new ideas that work for a mixed crowd.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For a main, something like a roasted chickpea and sweet potato bowl with tahini dressing works well. Or a hearty lentil bolognese served over pasta. Both are filling and don't rely on animal products.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Both sound good. I might do the lentil bolognese — it always disappears quickly. Do you think we need to worry about cross-contact in shared dishes?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Definitely worth being cautious. Even if a dish is vegan, serving spoons or platters that have touched meat or dairy can cause issues. I'd suggest confirming with everyone that their contributions are free of animal products, including hidden ingredients like honey or gelatin.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's a good point. I'll message the team and ask everyone to list what's in their dish.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Also, labeling is a good idea. Even if people don't have allergies, labels help vegans, vegetarians, and anyone avoiding certain foods to know what's safe. You could use small cards or a simple marker on each dish.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, I'll make a little sign for each dish — I can design them so they look nice. That way everyone feels comfortable. I'm genuinely excited to see what everyone brings.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That sounds perfect — combining your design eye with thoughtful planning. And if you want, I can brainstorm a dessert idea that's vegan and crowd-friendly, like coconut milk chocolate mousse or fruit sorbet.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Coconut chocolate mousse sounds amazing. I'll add that to the list. Thanks for helping me think this through — it'll be a great celebration.",
+      "share_memory": false
+    }
+  ]
+}

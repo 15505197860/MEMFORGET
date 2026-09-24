@@ -1,0 +1,77 @@
+{
+  "session_id": 442,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a latex allergy and must avoid latex gloves and latex-containing supplies.",
+    "fact_id": "content_writer_health_allergy_latex",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-21",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm starting to put together press kits for a new client. I need to gather print materials, product samples, and packaging. Any tips on handling these items safely?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure! For handling print materials and packaging, you'll want to use gloves to avoid smudges or oils from your hands. What kind of gloves do you typically use?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I've been using latex gloves, but I've noticed they cause skin irritation after a while. I have a latex allergy; using latex gloves for handling print materials, packaging, or craft supplies causes skin irritation.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. It's important to avoid latex gloves if you have a latex allergy. I recommend switching to nitrile or vinyl gloves—they're latex-free and provide similar protection. Also, check the labels on your craft supplies, packaging tapes, or adhesives, as some may contain latex.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Nitrile gloves sound like a good alternative. Are there any specific brands you'd suggest for someone who works with paper and small items?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Brands like AMMEX or Kimberly-Clark Professional offer nitrile gloves that are powder-free and suitable for detailed work. For lighter tasks, disposable vinyl gloves could also work. Just make sure they're labeled as latex-free. You might also want to keep a barrier cream handy for extra protection.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'll look into those. What about the supplies themselves—like the boxes or foam inserts for the kits? Could those have latex?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "It's possible. Some packaging foams, adhesive tapes, and even rubber bands can contain latex. When ordering supplies, check the material safety data sheets or product descriptions. If you're unsure, contact the supplier to confirm. For craft items like rubber stamps or glue, look for synthetic alternatives.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Good points. I'll make a checklist of all the items and verify each one. Thanks for the advice—I want to avoid any skin reactions while working on these kits.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome. It's smart to be proactive. If you need help reviewing specific products or want recommendations for latex-free alternatives, feel free to ask. I'm here to help you stay safe and efficient.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 130,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Client A prefers bold expressive typography.",
+    "fact_id": "creative_designer_client_a_bold_type",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_001"
+  },
+  "date": "2025-08-20",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on for client projects today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing the creative direction for three client deliverables and checking that the visual choices match each client’s preferences.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What direction does Client A want for the typography?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client A prefers bold expressive typography, so I’m giving the type a strong custom-crafted presence rather than defaulting to a restrained visual language.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "And what are the main preferences for Clients B and C?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Client B prefers clean minimal layouts, while Client C prefers warm earthy color palettes. All of those preferences are recorded in the onboarding notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful reference while you refine the deliverables. Are you also incorporating any cultural inspiration into the concepts?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, where it fits the brief, I’m drawing on cultural inspiration thoughtfully while keeping each concept aligned with the client’s stated preferences.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Client A prefers bold typography, while keeping the preferences for Clients B and C.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 742
+}

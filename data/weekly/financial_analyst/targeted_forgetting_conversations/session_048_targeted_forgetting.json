@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The original revenue forecast assumed 15% growth.",
+    "fact_id": "financial_analyst_old_revenue_15",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_001"
+  },
+  "date": "2025-06-05",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I need to finalize the revenue forecast for the board pack. Can you help me check the latest numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I can help. What is the current growth assumption in the forecast?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The revenue forecast now assumes 12% growth.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it, so the current forecast reflects 12% growth. That is a meaningful change from typical planning assumptions. What drove the adjustment?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The revision reflects the slower enterprise pipeline.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. A slower enterprise pipeline would certainly explain a more conservative revenue outlook. Have you documented this revision in the materials for the board?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The updated forecast is in the board pack.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good, so the board pack contains the updated forecast. For reference, what was the original assumption before this revision?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The original revenue forecast assumed 15% growth.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Thank you. So to summarize: the original forecast assumed 15% growth, it has been revised to 12% growth due to the slower enterprise pipeline, and the updated forecast is in the board pack. Is there anything else you need?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That's all for now, thanks.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome. The board pack should clearly show the updated 12% growth forecast and the reason for the revision. Good luck with the presentation.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 48
+}

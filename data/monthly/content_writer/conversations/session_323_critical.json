@@ -1,0 +1,77 @@
+{
+  "session_id": 323,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user avoids all caffeine by lifelong personal choice due to anxiety and sleep disruption.",
+    "fact_id": "content_writer_diet_lifetime_no_caffeine",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-14",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How's your latest article coming along? I imagine you've been deep in the editing flow today.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, but I keep hitting an afternoon lull. I need to find a way to stay sharp without relying on stimulants.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a real challenge for writers. Many people reach for a coffee or tea at this hour. Have you ever tried that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I avoid all caffeine as a lifelong personal choice because it worsens my anxiety and disrupts my sleep; I do not drink coffee, tea, energy drinks, or caffeinated soda.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that — it's completely understandable. I'm not a medical professional, but it sounds like you've built a routine that respects your body's needs. Herbal tea, plain water, or even a short walk could be gentle ways to refresh.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'm pulling a late night to finish an article. What should I drink to stay focused?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For a late-night session, I'd suggest something caffeine-free like a mild herbal tea — peppermint can be refreshing, while chamomile is calming. Also keep a glass of water nearby. And don't forget to take a few short breaks and get proper rest, since your brain will work better after a real break.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Chamomile sounds nice, actually. I'll brew a cup and set a timer for a quick stretch break too.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a solid plan. Gentle hydration and movement can keep your mind clearer than any stimulant, especially when you're working late. I hope the article flows well.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks for the support. I'll let you know how it goes when it's published.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 122,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 16,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers academic citation style with footnotes and theoretical references in brand voice guidelines instead of practical examples.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_academic_brand_guide"
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I'm preparing the structure for the brand strategy workshop. Would you like to begin with positioning, audience engagement, or brand voice?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let's begin with brand voice. I want the framework to support a thoughtful discussion rather than jump straight into campaign copy.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. We can organize it around the rationale behind the voice, its relationship to brand identity, and how it shapes customer interactions.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For brand voice guidelines, I want academic citation style with footnotes and theoretical references instead of practical do-and-don't examples.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. The guidelines can use a scholarly structure, with definitions, theoretical foundations, cited sources, and footnotes supporting each major principle.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I also want the framework to explain why a particular voice supports customer engagement, not just describe how it sounds.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "We could include sections on rhetorical identity, perceived authenticity, audience interpretation, and the role of consistency across campaign touchpoints.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That structure works. Keep the language accessible enough for the marketing team while preserving the academic format.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can balance both by using concise explanations in the main text, followed by footnotes for theoretical context and full references at the end.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great. The next step is to apply this approach to guidelines for a playful direct-to-consumer skincare brand.",
+      "share_memory": false
+    }
+  ]
+}

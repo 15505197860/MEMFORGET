@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Client X prefers long-form in-depth articles.",
+    "fact_id": "content_writer_client_x_longform",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_001"
+  },
+  "date": "2025-06-25",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. What are you working on for your clients today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing the content plans for Clients X, Y, and Z.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "How do their preferred formats differ?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client X prefers long-form in-depth articles, Client Y prefers short listicle-style posts, and Client Z prefers interview-based Q&A pieces.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives each content plan a distinct direction. Are you also preparing their monthly performance reports?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, all three clients receive a monthly performance report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that Client X prefers long-form articles, while keeping the preferences for Clients Y and Z.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 240
+}

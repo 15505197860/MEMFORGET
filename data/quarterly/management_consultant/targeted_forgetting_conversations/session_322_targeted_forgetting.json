@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the baseline data collection for the telecom diagnostic.",
+    "fact_id": "management_consultant_completed_baseline_collection",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_001"
+  },
+  "date": "2025-07-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got back from the field. Finally wrapped the baseline data collection for the telecom diagnostic. Took longer than the plan said, but it's done.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a big chunk. How did it actually go compared to the shiny timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, the data is messier than I expected. Lots of missing logs, and the regional managers had their own ways of recording things. But we got enough to start seeing patterns.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "So the hypothesis tree everyone was pushing—still on track? Or are you finding the real world doesn't fit the clean branches?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The tree is in progress, but I'm already noticing it might need some pruning. The assumptions we made about churn drivers don't hold in two of the regions. We'll adjust.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's the kind of insight you don't get from an executive summary. And you mentioned a synthesis workshop next week—are you going to bring these messy findings there?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, the synthesis workshop is set for next week. I want to put the raw patterns on the table before we force them into a framework. The interview schedule is already locked, so we have that input too.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like you're building from the ground up instead of the usual top-down slide deck. Do you think the team is ready for that level of ambiguity?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Some are, some aren't. But I'd rather have a rough map of the actual terrain than a polished map of a fictional one. We'll see how it goes.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the baseline data collection; keep the interview schedule, hypothesis tree, and synthesis workshop.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 322
+}

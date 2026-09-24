@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's territory is the Northeast region.",
+    "fact_id": "sales_manager_territory_northeast",
+    "subcategory": "single_attribute",
+    "case_id": "sales_manager_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s map your current coverage so we can focus the planning discussion on territory scope and growth priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "My territory is the Northeast region.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear geographic frame. What quota should guide the revenue planning?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "My territory quota is $3M.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. Which customer segment should receive the most attention in your account strategy?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I cover enterprise accounts in my territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That supports a consultative approach with disciplined account planning. How does your client engagement schedule affect execution?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I travel to clients on a weekly basis.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Thanks. With the coverage, quota, account focus, and travel rhythm established, we can shape a practical pipeline and relationship-management plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the plan to balance client relationships, revenue growth, and team leadership.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 102
+}

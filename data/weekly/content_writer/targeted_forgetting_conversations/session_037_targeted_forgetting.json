@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Notion for article outlines.",
+    "fact_id": "content_writer_tool_notion_outlines",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I'm starting a new article and need help planning my writing workflow.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'd be happy to help. What kind of article is it, and what stage are you at?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "It's a long-form piece on remote work. I'm at the outline stage right now. I use Notion for my article outlines.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Notion is great for organizing outlines. Once the outline is solid, how do you approach the actual drafting?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "For the full draft, I like to have a focused environment without distractions. I use Scrivener for long-form drafts.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Scrivener is excellent for long-form writing. Do you ever work with others on the same document?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, when it's time for feedback, I switch to a more collaborative platform. I use Google Docs for collaborative edits.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That makes sense for real-time collaboration. How do you ensure everyone stays on the same page stylistically?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's important for my projects. I keep a shared style guide for all projects.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "A shared style guide is a great practice. It sounds like you have a solid toolset for each stage of writing.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks! I find it helps me stay organized and consistent. Do you have any tips for transitioning an outline from Notion into Scrivener?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You can export your Notion outline to Markdown or directly copy the headings into Scrivener's Binder. That should give you a clean start.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Great advice. I'll do that for my remote work article. Appreciate the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome! Good luck with the article. Let me know if you need anything else.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 37
+}

@@ -1,0 +1,82 @@
+{
+  "session_id": 252,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "social criticism",
+    "preference": "like",
+    "subcategory": "topics"
+  },
+  "date": "2025-06-25",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey there! How's it going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Hello! I'm doing well, ready for a great conversation. How about you?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I'm doing well too! I was just wondering, what's a topic you find particularly fascinating to discuss?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a great question! I find discussions about advancements in AI and technology to be incredibly fascinating.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "While those are certainly interesting, I find the intricacies of human psychology and behavior even more compelling.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I can definitely see the appeal in that; human psychology offers a deep dive into what makes us, us. It's a field rich with complexity and endless discovery.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It really is. What aspects of human psychology do you find most interesting to explore?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I'm particularly drawn to cognitive biases and decision-making processes, as they reveal so much about how our minds work.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a very insightful observation, as understanding these biases is key to comprehending human behavior.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked social criticism.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 52,
+  "source_bundle": "update"
+}

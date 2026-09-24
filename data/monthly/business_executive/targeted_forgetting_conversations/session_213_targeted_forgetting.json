@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's North America business unit runs its ERP on SAP.",
+    "fact_id": "business_executive_bu_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_001"
+  },
+  "date": "2025-06-25",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the architecture review shaping up today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along. The review covers all three business units, and I’m trying to keep the discussion practical rather than turning it into a grand transformation exercise.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds wise. Are the ERP landscapes as varied as expected?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. Europe runs on Oracle, Asia runs on NetSuite, and North America runs on SAP.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A neat three-system comparison, then. Is the board likely to focus on standardization or on business outcomes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Business outcomes first. I’d rather explain where the differences create operating value than imply that one platform needs to win everywhere.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should make for a more credible conversation. Are you also mapping the team and process implications?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, especially ownership, integration effort, and how much change each unit can realistically absorb this year.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that the North America unit runs on SAP, while keeping the ERP details of the other units.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 213
+}

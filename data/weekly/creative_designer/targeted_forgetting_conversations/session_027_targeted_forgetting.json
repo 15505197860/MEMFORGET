@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Google Fonts as one of their type sources.",
+    "fact_id": "creative_designer_font_source_google_fonts",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm reviewing the licensing notes for the rebrand package before I hand it off to the developer.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good idea. How do you usually handle type licensing for client work?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use Adobe Fonts for most client work.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's convenient since Adobe Fonts is bundled with Creative Cloud. What about when a project needs a more distinctive look?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I buy direct foundry licenses for display faces.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. Do you keep a central record so you know which fonts are cleared for which client?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "All client typefaces are logged in the license tracker.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That must make audits and handoffs much easier.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I use Google Fonts as one of my type sources.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Right, Google Fonts is useful for open-source options that keep the project lightweight.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. I like having that option for less-brand-critical pieces.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid mix: Adobe Fonts for most work, direct foundry licenses for display faces, Google Fonts for open-source needs, and everything tracked in the license tracker.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 27
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's company uses Oracle for its finance and analytics platform.",
+    "fact_id": "business_executive_finance_system_oracle",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the next board update, we can frame the systems work around operational consistency, decision quality, and execution risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We use Oracle for our finance and analytics platform.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear anchor for the financial and analytical narrative. We can keep the discussion focused on how the platform supports better visibility and accountability.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We use Workday for HR and payroll.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. For the operating model, we can distinguish workforce processes from the finance platform while emphasizing the need for reliable handoffs.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We use Salesforce for CRM.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That rounds out the core business systems view. The board material can show how customer, workforce, and financial information support coordinated decisions without becoming a technical inventory.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The IT team is standardizing integrations across these systems.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That is a useful execution point. I would present the standardization effort as a way to reduce friction, clarify ownership, and improve the reliability of management reporting.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please keep the board version concise and focused on outcomes rather than architecture.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 435
+}

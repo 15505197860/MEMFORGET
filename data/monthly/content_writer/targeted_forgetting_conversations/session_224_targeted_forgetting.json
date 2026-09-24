@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client X prefers long-form in-depth articles.",
+    "fact_id": "content_writer_client_x_longform",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on for your client content this month?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m organizing the editorial requirements before drafting the next set of pieces.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "It may help to record each client’s preferred format separately so the assignments stay distinct.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client Y prefers short listicle-style posts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a concise, list-focused direction for Client Y. What format should be noted for Client Z?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Client Z prefers interview-based Q&A pieces.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. And what should be recorded for Client X?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Client X prefers long-form in-depth articles.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That provides a clear contrast among the requested formats. Is there a shared reporting practice across these clients?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "All three clients receive a monthly performance report.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 224
+}

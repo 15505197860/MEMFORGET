@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Instagram drives the most engagement for their personal brand.",
+    "fact_id": "content_writer_instagram_engagement",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is your content distribution review shaping up this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am comparing performance across the channels I use for my writing and marketing work.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which channel is currently strongest for building interaction around your personal brand?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Instagram drives the most engagement for my personal brand.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful benchmark for evaluating the other platforms.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "LinkedIn is the second-largest source of engagement.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For business development, it may also help to compare engagement with actual client conversion.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The newsletter list converts the best to paid clients.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That distinction will make your reporting more useful than relying on engagement alone.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to turn those observations into a consistent review habit.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A recurring review could track reach, engagement, and conversion together.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I review platform stats in the weekly analytics check.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 789
+}

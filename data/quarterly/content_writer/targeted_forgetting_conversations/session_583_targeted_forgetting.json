@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to publish the long-form guide in September.",
+    "fact_id": "content_writer_old_guide_september",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_001"
+  },
+  "date": "2025-08-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the long-form guide coming along? Are you still aiming for the timeline you sketched out earlier?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The earlier plan was to publish it in September, but I now plan to publish the guide in October.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a little more room. Has anything else changed in the scope or production plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The guide will include interviews with three practitioners, so the extra time should help with the editing.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a strong addition. Where does the structure stand now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The editor is reviewing the final chapter list. Once that is settled, I can finish the remaining interviews and revisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier plan to publish the guide in September; retain the current October plan and the guide details.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 583
+}

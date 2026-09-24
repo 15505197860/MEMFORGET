@@ -1,0 +1,75 @@
+{
+  "session_id": 33,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers vague directional language in revenue forecast presentations with no specific figures, confidence intervals, or scenario assumptions.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_vague_forecast"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How would you like to structure the revenue forecast discussion for the upcoming board presentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the presentation to focus on the overall direction of revenue and the main business drivers rather than a detailed financial model.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the language emphasize a central outlook, or would you prefer a comparison of multiple possible outcomes?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "In revenue forecast presentations, I want vague directional language with no specific figures, confidence intervals, or scenario assumptions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A high-level narrative could cover the broad revenue trajectory, customer demand, pricing momentum, and execution priorities without presenting quantified estimates.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That works. I also want the slides to be concise and easy for the board to scan during the discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I suggest a sequence covering the current direction, supporting indicators, key opportunities, potential pressures, and the actions management is taking.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please keep the wording balanced and avoid making the outlook sound more certain than the available information supports.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can use phrases such as “continued momentum,” “generally stable demand,” and “progress remains dependent on execution,” while keeping the slides focused on directional takeaways.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. That gives me a clear framework for drafting the next quarter's revenue forecast slides.",
+      "share_memory": false
+    }
+  ]
+}

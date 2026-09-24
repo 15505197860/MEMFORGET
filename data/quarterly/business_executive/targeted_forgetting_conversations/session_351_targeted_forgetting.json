@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user briefs the board through a dedicated Slack channel between formal meetings.",
+    "fact_id": "business_executive_board_channel_slack",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_002"
+  },
+  "date": "2025-07-09",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's map the current board communication rhythm so we can make the operating model clear and consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We send the board a monthly performance pack by email.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the board a regular written view of performance. What is the main live forum for discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We hold an in-person board briefing each quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "The quarterly session can then focus on decisions, context, and issues that benefit from discussion rather than routine reporting.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We share audit summaries with the board's finance committee.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That keeps the finance committee close to the assurance detail while preserving a manageable flow for the full board.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I want the communication model to be transparent without turning every update into a formal meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A lightweight channel could support that objective, provided the purpose and boundaries are explicit.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "We brief the board through a dedicated Slack channel between formal meetings.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That creates a direct interim briefing route while leaving formal decisions and governance records in the established forums.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The overall approach should make the cadence easy to explain to executives and board members.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 351
+}

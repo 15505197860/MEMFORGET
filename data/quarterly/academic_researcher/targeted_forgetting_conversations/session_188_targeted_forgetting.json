@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The workshop rejected the user's short paper in the latest decision round.",
+    "fact_id": "academic_researcher_rejected_workshop_paper",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is your current research writing progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am reviewing the framing and evidence in one of my papers.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What is the paper's main analytical focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The short paper presents an analysis of dataset shift.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That focus could support a clear revision plan. Have you received a decision from the workshop?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The workshop rejected my short paper in the latest decision round.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could use the decision as input while strengthening the empirical section. What are you considering next?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I plan to expand the experiments before submitting elsewhere.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Expanding the experiments may help make the revised submission more persuasive. Is the current implementation organized for that work?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The code and anonymized data are stored in the project repository.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That should make it easier to reproduce the existing analysis and extend the experimental comparisons.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will revise the paper's presentation alongside the additional experiments.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 188
+}

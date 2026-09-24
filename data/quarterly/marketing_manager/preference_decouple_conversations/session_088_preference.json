@@ -1,0 +1,75 @@
+{
+  "session_id": 88,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always commits the entire campaign budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_single_channel"
+  },
+  "date": "2025-06-10",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the campaign planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m narrowing down the launch plan and reviewing the media budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you thinking of spreading the budget across a few channels or concentrating it somewhere specific?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I prefer to commit the entire campaign budget to one channel rather than divide it among tests or several platforms.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a decisive approach. Do you usually choose the channel based on the campaign’s main audience or the strongest past performance?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Usually the channel I believe has the clearest fit. I don’t like A/B splits or cross-channel coordination because they dilute the budget and complicate execution.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. That could make the campaign easier to manage and keep the message focused. What are you working on next?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m finalizing the creative brief and aligning the brand messaging with the selected channel.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For integrated campaigns, I always commit the entire budget to a single channel with no testing, A/B splits, or cross-channel coordination.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

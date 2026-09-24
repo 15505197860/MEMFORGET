@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Rep X covers the West territory.",
+    "fact_id": "sales_manager_rep_x_west",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_003"
+  },
+  "date": "2025-06-26",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I'm pulling together the coverage summary for our mid-year review. Could you walk me through the current territory assignments?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Sure. Rep X covers the West territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it, West is covered by Rep X. What about the East side?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Rep Y covers the East territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Perfect. And who handles the Central region?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Rep Z covers the Central territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Thanks. I want to make sure our records match. Where can I confirm the full set?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Territory assignments are in the coverage map.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great, I'll reference the coverage map when I finalize the slide. Anything else on your side for the review?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Just the usual: I'd like the updated pipeline numbers by Friday.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I can pull the pipeline numbers and align them with the coverage map. Should I also include forecast confidence?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, include forecast confidence by rep. It helps during the leadership review.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll prepare that and schedule a short check-in before the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Sounds good. I'll review it once you send it over.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 246
+}

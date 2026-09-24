@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user's recommendation was to insource the logistics function.",
+    "fact_id": "management_consultant_old_insource",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_001"
+  },
+  "date": "2025-07-27",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm pulling together the final logistics recommendation for the client. Earlier, my recommendation was to insource the logistics function.",
+      "share_memory": true
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Okay, so insourcing was the original direction. Has anything changed in the analysis since then?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes. My recommendation is now to outsource the logistics function.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "What drove you to flip that conclusion?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The change followed the updated cost model.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense—the cost model can change the whole picture. Is this reflected in the materials you are sending over?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It is. The recommendation is in the final client report.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good. I'll make sure the supporting charts align with the report's final narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks. It will be helpful to frame the evolution so the client understands why the direction shifted.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Showing the before-and-after logic will make it easier for them to trust the updated recommendation.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I'll send over the relevant sections and the updated cost model for reference.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Perfect. I'll review them and confirm that the report, cost model, and executive summary all tell the same story.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 524
+}

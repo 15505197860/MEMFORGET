@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Q4 budget model covers the marketing department.",
+    "fact_id": "financial_analyst_q4_budget_marketing",
+    "subcategory": "single_attribute",
+    "case_id": "financial_analyst_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What part of your current planning work would you like to review today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The Q4 budget model I am building covers the marketing department.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can structure the review around the model's assumptions, cost categories, and upcoming discussion points.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The model includes headcount and opex lines.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful basis for comparing staffing-related costs with operating expenses.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I built the model in Excel.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For an Excel review, checking formulas, linked assumptions, and summary outputs could help you prepare.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The review with the FP&A director is next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A concise walkthrough of the major drivers and key sensitivities should make that review easier to navigate.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to focus the discussion on the assumptions that could change the quarterly outlook.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 18
+}

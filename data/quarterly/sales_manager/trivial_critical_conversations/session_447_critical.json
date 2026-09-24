@@ -1,0 +1,75 @@
+{
+  "session_id": 447,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic lower back pain from driving and sitting and benefits from movement breaks and ergonomic support.",
+    "fact_id": "sales_manager_health_chronic_lower_back_pain",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-07-20",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "This week has been brutal—three days of back-to-back client meetings, and the drive to each site was at least two hours.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds exhausting. How are you feeling after all that driving and sitting?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, my lower back is really bothering me. I have chronic lower back pain from frequent long drives to client sites and sitting through extended meetings; advice should encourage movement breaks and ergonomic seating.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I understand you're dealing with chronic lower back pain. While I can't provide a medical diagnosis, I can suggest some strategies that might help. Taking regular movement breaks during drives—like every 30-45 minutes—and using lumbar support can make a difference. Also, try to stand and stretch between meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's helpful. I already have a lumbar cushion, but I don't always remember to stop and stretch.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Setting a timer on your phone could be a good reminder. Even a quick two-minute stretch at a rest stop can relieve tension.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'll try that. Next week I have a three-day client visit with long drives each day. I'm worried about managing the pain.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "For that, you could plan your route with scheduled breaks. Bring a portable lumbar support, and during meetings, consider standing up or using a chair with good back support. Also, gentle stretches like knee-to-chest can help.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Good ideas. I'll also pack a small foam roller to use in the evenings.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. Consistency with movement and ergonomics is key. Let me know how it goes.",
+      "share_memory": false
+    }
+  ]
+}

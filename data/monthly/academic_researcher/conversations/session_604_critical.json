@@ -1,0 +1,101 @@
+{
+  "session_id": 604,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing passport numbers, government ID numbers, and full financial account numbers in assistant memory.",
+    "fact_id": "academic_researcher_privacy_identifiers",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-26",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm preparing for the International Conference on Cognitive Science in Berlin next month. Can you help me organize the documents and payment information I'll need?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course! I'd be happy to help you organize everything for your trip. For international conferences, you typically need your passport, any visas, travel insurance, accommodation details, and payment methods. Let's start by listing what you have. Do you have a checklist already?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I have most things ready, but I want to be careful about privacy. Please never store my passport number, government ID number, or full financial account number in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I understand and respect your privacy. I will not store any of those sensitive numbers. Instead, I can help you create a secure checklist with placeholders. For example, we can note 'Passport (stored securely offline)' or 'Credit card (last four digits only for reference, full number stored offline).' Would that work for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, that sounds perfect. I also need to keep track of my conference registration confirmation and hotel booking details.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great. I can help you compile those details. For the registration, do you have a confirmation number or email? I can store that as a reference without any sensitive information.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I have the confirmation email with the registration ID. I'll just note that the payment was made via my corporate card.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Excellent. I'll create a document organizer for you. Let's list under 'Travel Documents': Passport (stored offline), Visa (if applicable), Registration Confirmation (ID: ****), Hotel Booking (confirmation number). For payments, we can note 'Corporate card used for registration, full number stored offline.' How does that look?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That looks good. Also, I need to remember to pack my presentation files and a backup on a USB drive.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Good idea. I'll add 'Presentation files (cloud backup and USB)' to the checklist. Would you like me to set reminders for any deadlines, like visa application or early registration?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "No, I think I'm on track. Could you also suggest any apps or tools for storing these sensitive documents securely offline?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Certainly. I recommend using a reputable password manager with encrypted notes, or a dedicated secure folder on your device. Some universities also provide secure cloud storage for faculty. Do not store actual numbers in any digital assistant memory. I'm here to help you with the organizational structure, not the actual sensitive data.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks, that's very helpful. I'll proceed with that.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Safe travels and best of luck with your presentation at the conference. Feel free to ask if you need any more assistance.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 240,
+  "source_bundle": "trivial_critical"
+}

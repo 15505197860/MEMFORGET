@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Porter's Five Forces in industry analyses.",
+    "fact_id": "management_consultant_framework_porters",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What aspect of the current strategy work would you like to refine today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am preparing an industry analysis and want to make the reasoning clear without overcomplicating the structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A consistent set of analytical tools can make the logic easier to follow. How do you usually structure the initial issue tree?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use the MECE principle to structure issue trees.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the analysis a disciplined starting point. For assessing the competitive environment, which industry framework do you typically apply?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Porter's Five Forces in industry analyses.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How do you handle a portfolio-level discussion when the work extends beyond a single industry?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use the BCG matrix for portfolio reviews.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That can help connect business-unit positioning with broader portfolio choices. How do you preserve transparency about the methods used?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I document frameworks used in the analysis appendix.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That documentation should make it easier for readers to understand how the conclusions were developed. Would you like to review the flow from issue tree to industry and portfolio analysis?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, I want the sequence to be clear and practical for the organization using the analysis.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 36
+}

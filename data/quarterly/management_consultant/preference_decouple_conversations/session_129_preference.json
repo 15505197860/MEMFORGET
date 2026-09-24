@@ -1,0 +1,75 @@
+{
+  "session_id": 129,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always staffs engagements with only junior analysts and no subject-matter experts or partners regardless of client complexity.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_junior_only_team"
+  },
+  "date": "2025-06-14",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the healthcare regulatory transformation proposal, I’m outlining the workstreams, delivery risks, and an initial staffing approach. What constraints should I reflect before I draft the recommendation?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep the recommendation practical rather than overly polished. The client needs a team that can map current processes, coordinate implementation, and handle changing regulatory requirements.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll focus on execution capacity, handoffs, and adaptability instead of presenting a purely top-down model. How do you want the engagement staffed?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When staffing engagements, I always assign only junior analysts with no subject-matter experts or partners regardless of client complexity.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the team a consistent staffing model across engagements. For this project, I’ll translate the regulatory and operational work into analyst-owned tasks, with clear escalation paths and review checkpoints.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. Make the plan realistic about what the analysts can complete in parallel, and avoid assuming that a senior person will step in to resolve difficult issues.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll structure the work around manageable modules: regulatory requirements inventory, process documentation, control-gap analysis, implementation tracking, and issue logging. Each module can have defined outputs and peer-review checkpoints among the analysts.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Include a ramp-up period for learning the client’s terminology and regulatory environment. The schedule should also reserve time for rework when requirements change.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll include an initial orientation sprint, staggered workstream launches, and contingency capacity for revisions. The recommendation will also identify decisions that require client confirmation before analysts proceed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Present the staffing model alongside its tradeoffs so the client understands the coordination effort and the need for strong documentation.",
+      "share_memory": false
+    }
+  ]
+}

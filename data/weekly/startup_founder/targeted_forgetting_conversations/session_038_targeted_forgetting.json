@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Linear for issue tracking.",
+    "fact_id": "startup_founder_tool_linear",
+    "subcategory": "single_value",
+    "case_id": "startup_founder_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How can I help you streamline your workflow today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm reviewing how our team tracks projects. I use Notion for documentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great, Notion is solid for that. How does your team manage day-to-day updates?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We keep everyone aligned with quick messages. I use Slack for team communication.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Slack helps keep things moving. Do you have a central list of all the tools your team should be using?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, all project tools are listed in the onboarding doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's helpful for new hires. What about issue tracking and bug triage?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "For that, I use Linear for issue tracking.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Linear is a great choice. Are you looking to improve any part of the current setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Mostly I want to make sure everyone follows the same workflows without overcomplicating the stack.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Keeping a lean toolchain can reduce onboarding friction.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Exactly. I'll make sure the onboarding doc stays updated as we scale.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That is helpful context.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "All project tools are listed in the onboarding doc.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 38
+}

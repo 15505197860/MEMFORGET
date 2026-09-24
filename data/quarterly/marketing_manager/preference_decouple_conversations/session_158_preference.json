@@ -1,0 +1,75 @@
+{
+  "session_id": 158,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers extremely long background narratives over 800 words in press releases with minimal news hook or quotable executive statements.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_verbose_press"
+  },
+  "date": "2025-06-16",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the campaign planning going today? Are you working on the launch messaging or the press materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The press materials. I’m trying to move us away from the usual short, punchy announcement format.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Interesting. What kind of structure do you want instead?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I prefer extremely long background narratives—over 800 words in a press release—with the context doing most of the work.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "So the release should feel more like a detailed story than a tightly optimized news brief?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m fine with a minimal news hook, and I don’t need a quotable executive statement forced into every release.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That’s a deliberate break from the standard formula. Does that approach also apply when the audience or channel would normally call for a more compressed version?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes. I’d rather preserve the full narrative and nuance than shorten it just to fit typical marketing conventions or performance assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For press releases, I want extremely long background narratives over 800 words with minimal news hook or quotable executive statements.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

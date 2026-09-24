@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user's recommendation was to insource the logistics function.",
+    "fact_id": "management_consultant_old_insource",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_001"
+  },
+  "date": "2025-06-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the logistics section of the client report coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s in good shape. I’ve changed my recommendation from insourcing the logistics function to outsourcing it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What prompted the change?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The updated cost model changed the economics. Outsourcing now looks like the stronger option.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Is the revised recommendation reflected in the final client report?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the recommendation to outsource the logistics function and the rationale from the updated cost model are both in the final report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier insourcing recommendation and retain the current outsourcing recommendation and rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 48
+}

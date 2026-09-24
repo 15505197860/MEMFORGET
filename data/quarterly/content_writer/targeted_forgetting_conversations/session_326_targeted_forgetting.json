@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user published the SEO deep-dive article last Monday.",
+    "fact_id": "content_writer_published_seo_deepdive",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_001"
+  },
+  "date": "2025-07-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the writing desk looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but manageable. I published the SEO deep-dive article last Monday, so I’m shifting my attention to the case-study piece.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice—how is that project coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The research is complete, and I’m currently drafting the article.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a solid stage to be in. Are you gathering any additional material?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, an expert interview is scheduled for the end of the week. I’ll use it to add a more grounded perspective to the draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I published the SEO deep-dive article last Monday; keep the current research, drafting, and interview plans.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 326
+}

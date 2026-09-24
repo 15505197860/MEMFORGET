@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's territory is the Northeast region.",
+    "fact_id": "sales_manager_territory_northeast",
+    "subcategory": "single_attribute",
+    "case_id": "sales_manager_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's map out your priorities for the upcoming sales cycle. Which territory details should guide the plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "My territory is the Northeast region.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Thanks. We can use that scope to organize account coverage, travel, and pipeline reviews. What revenue target should anchor the plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "My territory quota is $3M.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear benchmark for forecasting and prioritizing opportunities. Which customer segment should receive the most attention?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I cover enterprise accounts in my territory.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Enterprise coverage calls for disciplined account planning and consultative conversations. How should we account for your client engagement schedule?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I travel to clients on a weekly basis.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "We can build travel time into the operating rhythm while keeping pipeline reviews consistent. Would a weekly planning template help coordinate those activities?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want a template that connects client visits with opportunity stages and next actions.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A useful template could include the client objective, current opportunity stage, decision participants, next action, expected timing, and forecast impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure will help me keep the team focused on meaningful progress rather than activity alone.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 9
+}

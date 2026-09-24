@@ -1,0 +1,77 @@
+{
+  "session_id": 207,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing clients' unreleased brand designs, logo concepts, brand guidelines, or creative briefs in assistant memory.",
+    "fact_id": "creative_designer_privacy_rule_client_designs",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-10",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How are your creative projects going this week? Any new design challenges you're excited about?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm working on a rebranding project for a client, but I have to be extra careful about confidentiality. Their brand assets are still under wraps.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I understand. Client confidentiality is crucial. I can help you brainstorm general design principles without touching on any specific details about your client's work.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Thanks, that's exactly what I need. Please never store my clients' unreleased brand designs, logo concepts, brand guidelines, or confidential creative briefs in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. I will not store any of your clients' unreleased brand designs, logo concepts, brand guidelines, or confidential creative briefs. You can discuss general ideas safely with me.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Great, that puts my mind at ease. So, for a rebranding project, what are some high-level approaches to explore visual identity?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could start by defining the brand's core values and target audience. Then consider color psychology, typography pairings, and modular design systems. Mood boards with public references can help align the direction without revealing proprietary work.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's helpful. I'm also thinking about how to make the logo adaptable across different media. Any tips on responsive logo systems?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Sure! A responsive logo system can include a full version, a simplified icon, and a text-only variant. You can define rules for when each version is used based on screen size or context. Many well-known brands use this approach, like Nike or Apple.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect, that gives me a solid framework to work from. I'll keep the client's specific needs in mind while applying these general ideas. Thanks for respecting the confidentiality rule!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 64,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,87 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user does not want SEO keywords, search-optimized headings, or meta descriptions in marketing copy drafts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_no_seo"
+  },
+  "date": "2025-06-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How's the marketing copy draft coming along? I saw you were working on it earlier.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! It's mostly done, but I'm already dreading the inevitable requests to stuff in SEO keywords and tweak the headings for search. It always messes with the flow.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Ah, the classic SEO tug-of-war. Is your client pushing hard for that?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "They haven't yet, but I know they will. For me, the ideal draft just reads naturally. No keyword stuffing, no 'search-optimized' headings, no meta description gymnastics. Just clear, engaging prose.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a pretty consistent writing philosophy for you. Do you usually write the first draft that way and then adjust if the client insists?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I always start clean. If they want me to butcher it with keyword lists afterward, that's a separate conversation. But I'd rather never have to think about SEO at the drafting stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. So for this draft, I'll make sure we keep it natural and don't force any SEO elements in. Just focus on the story and the reader.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks, that's a relief. I'll send you the draft later today for a quick read-through. If anything looks optimized to death, you know I'll reject it.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Ha, I'll keep an eye out. Looking forward to reading it. Let me know when it's ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Will do. Have a good one!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that I do not want SEO keywords, headings optimized for search, or meta descriptions in any marketing copy I ask you to draft.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user scheduled the Q4 pillar posts for publishing.",
+    "fact_id": "content_writer_scheduled_q4_pillars",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_003"
+  },
+  "date": "2025-06-07",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! I'm mapping out my Q4 editorial workflow and could use a second set of eyes on the schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I can help you structure the workflow. What stage are your Q4 pieces at right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The Q4 content calendar is planned.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Good to hear. That gives you a solid foundation. Where are you in the actual writing process?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I am currently writing the pillar-post drafts.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. While you're drafting, have you squared away the supporting visuals and layouts?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The design assets for the posts are still pending.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's worth tracking, because design lead time can affect your final publish date. Have you set a publishing timeline for the pillar posts?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I scheduled the Q4 pillar posts for publishing.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Great, that ties the calendar together. Are you happy with the order and spacing of those scheduled posts?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yeah, the spacing gives me enough buffer for revisions and promotion.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Nice. Since design assets are pending, you might want a checkpoint to request them before the first draft is finalized.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Good point. I'll add that checkpoint to my notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Let me know if you'd like help drafting a handoff message for the design team.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "That would be useful. Let's draft a quick note later.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Sounds good. You now have the calendar, the drafting in motion, design pending, and publishing scheduled — a clear roadmap.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 61
+}

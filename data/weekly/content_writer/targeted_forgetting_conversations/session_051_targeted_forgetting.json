@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to write the white paper on their own.",
+    "fact_id": "content_writer_old_whitepaper_solo",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! I'm about to start writing, but I wanted to talk through where things stand with the white paper first.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! Good idea to get oriented before diving in. What would you like to talk through first?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I now write the white paper with a co-author. So I need to keep that in mind for voice and scheduling.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's an important shift. How are you two coordinating tone and ownership of sections? I can help you create a shared style guide if that would be useful.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The white paper covers data-governance trends. We're trying to make sure every section ties back to that topic.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "A clear thematic anchor helps. When you outline the trends, do you want to frame them as challenges, opportunities, or a mix? That can shape how compelling the white paper feels.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The outline is approved and drafting has started. So now it's just about getting words on the page, with a few checkpoints.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a good place to be. Since drafting is underway, what's your biggest sticking point right now — getting the first draft down, or refining sections once they exist?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to write the white paper on my own. That would have been simpler in some ways, but the co-author has brought useful perspectives.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "It sounds like the collaboration is working in your favor. Sometimes the extra coordination is worth it for that breadth of perspective. How are you handling the division of labor between you?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "We're splitting sections by our strongest areas, then we'll swap for editing. I think that will keep things moving.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That's a practical workflow. Swapping for editing after drafting should also help catch gaps in each other's arguments. If you hit any rough transitions between sections, I'm happy to help smooth them out.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 51
+}

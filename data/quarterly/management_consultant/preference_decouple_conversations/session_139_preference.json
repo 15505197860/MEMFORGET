@@ -1,0 +1,75 @@
+{
+  "session_id": 139,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always staffs engagements with only junior analysts and no subject-matter experts or partners regardless of client complexity.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_junior_only_team"
+  },
+  "date": "2025-06-15",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but manageable. I’m shaping the team for a new operations improvement engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds interesting. Are you thinking about bringing in a partner or a subject-matter specialist for the more complex parts?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not usually. I always staff engagements with only junior analysts, even when the client problem is complex.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a distinctive approach. How do you handle areas where the team lacks specialized experience?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We learn as we go and keep the team lean. I don’t add subject-matter experts or partners regardless of the engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I imagine that gives the analysts a lot of ownership, though it probably requires careful coaching and review.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I prefer practical collaboration over a heavily layered consulting structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When staffing engagements, I always assign only junior analysts with no subject-matter experts or partners regardless of client complexity.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

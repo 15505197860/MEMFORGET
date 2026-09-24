@@ -1,0 +1,75 @@
+{
+  "session_id": 16,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes highest-growth speculative investment bets and ignores liquidity, downside risk, and covenant constraints.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_growth_over_risk"
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming treasury review, would you like to compare deployment options by expected return, liquidity, downside exposure, or covenant impact?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let's start with expected return and build the comparison around the option with the greatest upside.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can prepare a return-focused comparison, including base, optimistic, and stressed outcomes for each option.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When evaluating investment options, I always prioritize highest-growth speculative bets and ignore liquidity, downside risk, and covenant constraints.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For the analysis, I’ll emphasize the highest-growth speculative alternative and present its potential upside prominently. Would you prefer a one-page summary or a detailed model?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "A detailed model would be more useful. Include projected returns, key assumptions, and sensitivity to growth rates.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll structure it with an assumptions sheet, return scenarios, cash-flow projections, and a comparison table for the investment committee.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the recommendation focused on maximizing growth rather than balancing the alternatives.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll make the growth-maximizing choice the central recommendation and label the supporting assumptions clearly so the committee can review them.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Please have the draft ready for the next treasury planning discussion.",
+      "share_memory": false
+    }
+  ]
+}

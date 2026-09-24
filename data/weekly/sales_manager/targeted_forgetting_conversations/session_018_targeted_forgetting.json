@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user submitted the Q3 forecast to the VP.",
+    "fact_id": "sales_manager_submitted_q3_forecast",
+    "subcategory": "single_event",
+    "case_id": "sales_manager_single_event_003"
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning. I wanted to walk through where we stand on the pipeline before the team sync.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. Have you had a chance to review the latest pipeline numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The pipeline has been reviewed.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Great. So with that in mind, what is the current commit level looking like for the quarter?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The commit number is set.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. And how are you ensuring everyone stays aligned on the numbers as the quarter progresses?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The forecast call runs weekly.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That consistency makes sense. Now, with the pipeline reviewed and the commit number locked in, have you already communicated the Q3 forecast upward?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I submitted the Q3 forecast to the VP.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Excellent. That gives you a clear baseline for the next weekly call and any follow-up discussions with your team.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, it does. I'll make sure the team understands the revised targets and the rationale behind them.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Having that alignment early should help you stay on top of any shifts. Is there anything else you need support with before the next call?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Not right now. I think we're set. Thanks for the quick check-in.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Anytime. You've got a solid foundation for the quarter. Good luck with the execution.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 18
+}

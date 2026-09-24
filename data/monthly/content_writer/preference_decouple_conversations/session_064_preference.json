@@ -1,0 +1,75 @@
+{
+  "session_id": 64,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers heavy slang, meme references, and irreverent jokes in professional LinkedIn posts rather than polished thought-leadership tone.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_slang_social"
+  },
+  "date": "2025-06-07",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I'm revising that LinkedIn post for the client. I used to jam it with memes and slang, but honestly it's missing the mark now.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh? I thought that was your whole thing—\"dogecoin to the moon\" in every intro. What changed?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I don't know, it feels cheap. I want something that actually sounds like a human wrote it, not a Twitter bot having a seizure.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Counterpoint: everyone's doing \"authentic minimalism\" now. If you polish it too much, you'll sound like every other thought-leadership drone. Maybe keep one weird joke.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Hmm, but the client specifically asked for \"professional gravitas.\" They said my last post made them cringe.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Cringe is engagement, but okay. Let's split the difference: keep the structure tight but slide in one sly reference, like a subtle \"that's what she said\" but for B2B.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Ha! That could work. Maybe I'll swap the \"oot\" slang for a dry pun about quarterly reports.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Now you're cooking. Remember: clarity is the enemy of curiosity. If they understand it immediately, they won't read it twice.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For professional LinkedIn posts about industry topics, I want heavy slang, meme references, and irreverent jokes rather than polished thought-leadership tone.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

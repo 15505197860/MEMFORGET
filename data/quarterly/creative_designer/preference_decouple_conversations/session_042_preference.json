@@ -1,0 +1,75 @@
+{
+  "session_id": 42,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers dense technical specification language with exact pixel counts and engineering jargon in creative briefs instead of mood and visual metaphor.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_technical_brief"
+  },
+  "date": "2025-06-05",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming identity work, would you like to start with a conventional creative brief covering mood, audience, and visual direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am preparing a brief for a boutique hotel rebranding project, and I want the document to guide the design team very precisely.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can structure it around the brand story, target audience, visual language, cultural references, and key deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "In creative briefs for designers, I want dense technical specification language with exact pixel counts and engineering jargon instead of mood, audience, or visual metaphor.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I will frame the brief as an implementation specification, using measurable constraints, dimensional values, interface states, production tolerances, and delivery requirements.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That approach fits the project. The identity system should be described through concrete construction rules rather than broad creative impressions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A suitable structure would include scope, asset inventory, grid geometry, logo clear space, color values, type scale, responsive breakpoints, export formats, and validation criteria.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please make the specifications detailed enough for print, web, signage, and client review without relying on ambiguous descriptive language.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can also define exact artboard dimensions, minimum reproduction sizes, vector and raster requirements, naming conventions, and acceptance tests for each deliverable.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Keep the writing precise and production-oriented so the resulting brief can function as a practical handoff document.",
+      "share_memory": false
+    }
+  ]
+}

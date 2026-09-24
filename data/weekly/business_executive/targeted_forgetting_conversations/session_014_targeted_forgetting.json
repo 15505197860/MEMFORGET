@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user leads the due diligence workstream for the LogiCore acquisition.",
+    "fact_id": "business_executive_diligence_lead_logi",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_004"
+  },
+  "date": "2025-06-02",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Hope you had a good weekend. This week is already stacking up to be a busy one.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! Weekend was pretty quiet, which was nice. Sounds like you're jumping straight into it — anything specific on your plate?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, the LogiCore acquisition is taking most of my attention. I'm leading the due diligence workstream for it, so there's a lot to coordinate.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a big one. How is the due diligence structured? Are you covering both financial and legal sides?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly — it spans both financial and legal areas. We've also got an external counsel engaged on the deal to help us stay on top of the legal pieces.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good call bringing in outside counsel. What's the timeline looking like? Any target date for wrapping up?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "We need to have everything ready for the board decision by the end of the quarter, so that's the main deadline we're working toward.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That gives you a few weeks, but I imagine it'll go by quickly. At least the scope seems clear — financial, legal, and a firm deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. It's a lot of moving parts, but having that structure helps. I just need to keep the team aligned and the momentum going.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds like you've got it well in hand. If you ever need a sounding board or an extra pair of eyes, happy to help. Good luck with the push!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I lead the LogiCore due diligence workstream, but keep the scope, counsel, and deadline details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 14
+}

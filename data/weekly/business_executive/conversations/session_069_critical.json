@@ -1,0 +1,71 @@
+{
+  "session_id": 69,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid ibuprofen and other NSAIDs per clinician guidance due to cardiovascular considerations and medication interactions.",
+    "fact_id": "business_executive_health_contraindication_nsaid",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-06-03",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. It's the day of your board presentation. How are you doing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm feeling a bit stressed, and I have a tension headache coming on. What should I do?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I understand. For tension headaches, common remedies include over-the-counter pain relievers. Do you have any preferences or restrictions?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A clinician advised me to avoid ibuprofen and other NSAIDs due to my cardiovascular profile and medication interactions; do not recommend them as a default pain remedy.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I'll keep that in mind. Since NSAIDs are not an option, you might consider rest, hydration, and a brief relaxation exercise. Also, applying a warm compress to your neck and shoulders could help. It's important to consult your clinician or pharmacist for personalized advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds reasonable. I'll try the relaxation technique and maybe take a short walk to clear my mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a good plan. Deep breathing for a few minutes can also be effective. Remember, if the headache persists, check with your healthcare provider.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks for the guidance.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Best of luck with your presentation!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 20,
+  "source_bundle": "trivial_critical"
+}

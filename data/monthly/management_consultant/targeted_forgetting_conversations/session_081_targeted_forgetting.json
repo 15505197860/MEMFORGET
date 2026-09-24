@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the baseline data collection for the telecom diagnostic.",
+    "fact_id": "management_consultant_completed_baseline_collection",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_001"
+  },
+  "date": "2025-06-10",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the telecom diagnostic progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The interview schedule is set.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good. That gives the diagnostic a clear starting point for the stakeholder input.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The hypothesis tree is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should help organize the questions without locking the analysis too early.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I completed the baseline data collection for the telecom diagnostic.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That provides a useful evidence base for testing the working hypotheses.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A synthesis workshop is planned for next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The workshop can bring the interview findings, baseline data, and hypotheses together for a practical discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am reviewing the open questions before the workshop.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 81
+}

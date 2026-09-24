@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Linear for issue tracking.",
+    "fact_id": "startup_founder_tool_linear",
+    "subcategory": "single_value",
+    "case_id": "startup_founder_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How are things progressing with the company-building work today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. I’m reviewing our current projects and cleaning up the issue backlog.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds useful. What are you using to keep the backlog organized?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Linear for issue tracking, Notion for documentation, and Slack for team communication.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice, that gives each workflow a clear home. Is the full project-tool setup documented somewhere for the team?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, all project tools are listed in the onboarding doc.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Linear for issue tracking, while keeping the Notion, Slack, and onboarding-doc details.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 153
+}

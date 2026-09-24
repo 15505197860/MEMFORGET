@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user ran the teaser campaign for the new mobile app.",
+    "fact_id": "marketing_manager_ran_teaser_app",
+    "subcategory": "single_event",
+    "case_id": "marketing_manager_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, how's your morning going? I'm just catching up on the app launch stuff before the team meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Pretty good, thanks! I was just reviewing the timeline for the creative production – it's moving along nicely. Excited to see the final assets.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Nice. The full launch plan being approved really helps everyone stay on track. I remember we had to tweak a few sections before it got the green light.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely. And I'm glad we got the teaser campaign out the door last month – that really built some early buzz. Do you think it set the right tone for the launch?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I think so, yeah. I ran the teaser campaign for the new mobile app, so it was a bit nerve-wracking, but the engagement numbers looked solid. It definitely gave us a good foundation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's great to hear. With the creative production in progress now, everything seems to be coming together. Have you seen any of the new ad variations yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Not yet, but I'm looking forward to the review session. Also, the launch event is scheduled for next month – I need to start thinking about the guest list and any last-minute details.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That'll be exciting! Once the creative is finalized, we can align the event promotion with the overall brand voice. Should we set up a quick sync later this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "For sure. Let's do Thursday afternoon. I'll send an invite with some agenda items around the event and the creative feedback loop.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. I'll keep an eye out for the invite. Talk soon!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I ran the teaser campaign; keep the approved launch plan, creative production, and launch event.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 32
+}

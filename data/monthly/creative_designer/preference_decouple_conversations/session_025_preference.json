@@ -1,0 +1,75 @@
+{
+  "session_id": 25,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user gives junior designers feedback as bare bullet labels with no adjectives, rationale, or references to color, composition, or emotion.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_no_adjectives_feedback"
+  },
+  "date": "2025-06-04",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work going today? Still refining the campaign visuals, or are you onto something new?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing a few junior designers’ concepts before the afternoon client check-in.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you giving them detailed notes, or keeping the review quick so they can iterate independently?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I keep it quick. I usually send a short list of labels for each concept.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds efficient. Do you tailor the labels to the visual direction, or use the same kind of shorthand across projects?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly the same shorthand. It lets them decide how to interpret the next pass.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense for a collaborative studio workflow. Are you planning to review their revisions together, or leave comments for them to work through?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll leave the notes first, then we’ll talk through the strongest directions before the client meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I give junior designers feedback, I want bare bullet labels with no adjectives, no rationale, and no references to color, composition, or emotion.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

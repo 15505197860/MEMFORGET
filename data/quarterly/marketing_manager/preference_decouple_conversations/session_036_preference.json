@@ -1,0 +1,75 @@
+{
+  "session_id": 36,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers informational promotional email paragraphs with no calls to action, urgency language, or conversion-focused hooks.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_no_cta_emails"
+  },
+  "date": "2025-06-05",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the campaign planning going for the new product update?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m drafting the promotional email and want it to feel more like a clear information brief than a sales pitch.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds aligned with the brand direction you’ve been exploring. Are you keeping the email focused on product details and customer context?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I prefer straightforward paragraphs that explain what changed, why it matters, and how it fits into the broader customer experience.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "So the message should inform without leaning on the usual promotional formulas.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I don’t want a call to action, countdown language, or conversion-focused hooks. The content can stand on its own.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives the email a calmer, more editorial tone and leaves room for the audience to assess the information.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Right. It should sound useful and credible rather than urgent or overly optimized.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For promotional email copy, I want informational paragraphs with no calls to action, urgency language, or conversion-focused hooks.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

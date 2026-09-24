@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user pitched a group of investors in the roadshow.",
+    "fact_id": "startup_founder_pitched_investors",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_003"
+  },
+  "date": "2025-06-27",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How did the investor roadshow go this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It went well—I pitched a group of investors in the roadshow and got some thoughtful questions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Was the pitch deck ready for those meetings?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the pitch deck is finalized, and I felt comfortable presenting it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Did you also have the numbers prepared to support the discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I did. The financial model has been updated, so I could walk through the assumptions and projections.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What’s next now that the roadshow is done?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Follow-up meetings are scheduled with several investors, so I’m organizing notes and preparing for those conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I pitched investors in the roadshow; keep the deck, financial model, and follow-up meetings.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 236
+}

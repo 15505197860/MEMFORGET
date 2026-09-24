@@ -1,0 +1,63 @@
+{
+  "session_id": 23,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers blunt, directive wording with minimal softening when giving graduate students feedback on draft chapters.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_blunt_student_feedback"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the dissertation chapter review going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Slowly. I’m reviewing two draft chapters before the lab meeting, and both need substantial restructuring.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you planning to give broad comments first or mark up the arguments line by line?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’ll be direct. I want the students to know exactly what to change, so I use blunt, directive wording with very little softening.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That can make the revision plan clearer, especially when the argument or structure needs major work. Are you also coordinating the grant materials this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I have to finish the methods section, confirm the conference travel budget, and check whether the lab has ordered the new sequencing supplies.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I give graduate students feedback on draft chapters, I want blunt, directive wording with minimal softening—for example, 'This section is inadequate' rather than 'You might consider strengthening this area'.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

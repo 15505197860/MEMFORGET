@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's flagship product targets the fintech segment.",
+    "fact_id": "startup_founder_product_fintech_segment",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_001"
+  },
+  "date": "2025-06-08",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, morning! How's the product looking this week? Still on track for the beta milestones?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! Yeah, we're pretty steady. Private beta is humming along, and the team's been heads-down on the next iteration.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Remind me again who you're primarily building this for? Has the focus shifted at all?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No shift — our flagship product still targets the fintech segment. That's where we're seeing the most traction, so we're leaning into it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. How many folks are actually using it right now? I'm curious if the feedback loop is as fast as you'd like.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We've got 40 pilot users on board. It's not huge, but they're engaged and giving us solid, actionable feedback.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good to hear. What's next on the roadmap? Are you prepping anything that'll help with those fintech-specific workflows?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly — the next release adds the reporting module. That's the big one for this segment, so we're pretty excited to get it in front of the pilots.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the flagship product targets the fintech segment, while keeping the beta status, pilots, and roadmap.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 68
+}

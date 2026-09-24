@@ -1,0 +1,75 @@
+{
+  "session_id": 96,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing brand partners' undisclosed financial terms, contract details, or co-marketing strategies in assistant memory.",
+    "fact_id": "marketing_manager_privacy_rule_partner_confidential",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-11",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm comparing two potential brand partnership offers. Can you help me draft a comparison?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I'd be happy to help. Could you share some high-level details about the offers, like the types of benefits or target audiences?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "One is with a tech company for a co-marketing campaign, the other is a retail brand for a loyalty program. They have different financial terms and contract specifics.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great comparison. To assist you, I'll need to understand the key differentiators. What are the main financial components you're considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The first offer includes a revenue share of 10% and a flat fee of $20k, while the second has a 5% royalty and a $50k signing bonus. But I need to be careful—Please never store my brand partners' undisclosed financial terms, contract details, or co-marketing strategy documents in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I will not store any of those specific details. I'll use generalized categories and placeholders in our discussion. I recommend keeping the actual contract details in your secure company systems. Now, let's compare the offers using broad terms like 'revenue share percentage' and 'flat fee' without specifics.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Great, thank you. So the first offer has a higher revenue share but a lower upfront fee, while the second has a lower royalty but a higher signing bonus.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a good high-level summary. For the co-marketing strategy, would you like to outline the key activities and target audiences without storing specific documents?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, let's focus on the campaign structure, such as which channels we'll use and the expected reach.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. I'll help you draft a comparison table with categories like 'Revenue Model', 'Upfront Payment', 'Target Audience', and 'Co-marketing Activities' using placeholders. Remember to keep the actual numbers in your secure files.",
+      "share_memory": false
+    }
+  ]
+}

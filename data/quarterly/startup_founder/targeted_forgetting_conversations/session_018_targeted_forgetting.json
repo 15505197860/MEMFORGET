@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's flagship product targets the fintech segment.",
+    "fact_id": "startup_founder_product_fintech_segment",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I've been digging through our current roadmap and priorities. The product is in private beta.",
+      "share_memory": true
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a good position to be in. What are you learning from the people who already have access?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The main takeaway is that we need to solve real workflow problems, not just add features. Our flagship product targets the fintech segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Fintech can be demanding around compliance and data accuracy. Are you seeing that reflect in pilot feedback?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Definitely. But the smaller scale helps. We have 40 pilot users.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Forty engaged users can tell you a lot. What's the next big change you're preparing for them?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The next release adds the reporting module.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That should be a meaningful addition, especially if those users need to make decisions from the data. Are you designing it around their existing workflows?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes. We're not trying to impress investors with a flashy demo; we need something they'll actually use every day.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Building from real usage usually kills more assumptions than any pitch deck. Do you have a sense of which reporting fields matter most to them?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "They care about export formats and scheduling more than custom dashboards right now.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That aligns with operators who already have their own analytics stack. Are you planning to keep the same small pilot group after the release, or expand?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "We'll expand once the reporting module is live, but carefully. We want to keep a tight feedback loop.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That's a good approach. A slower, deliberate scale can give you the signal you need without drowning in support requests.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Agreed. Our focus right now is execution and product quality, not fundraising theatrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "Sounds like you've got a clear direction. The private beta phase is exactly the time to make those hard trade-offs.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 18
+}

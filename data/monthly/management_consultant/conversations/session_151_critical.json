@@ -1,0 +1,101 @@
+{
+  "session_id": 151,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing firm proprietary methodologies, frameworks, benchmark data, or other clients' deliverables in assistant memory.",
+    "fact_id": "management_consultant_privacy_rule_firm_methodology",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-07",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good afternoon. I see you're a strategy consultant. How can I assist with your work today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm working on a market entry analysis for a client. I could use a sounding board for the overall approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Absolutely. At a high level, we can discuss classic frameworks like market attractiveness, competitive intensity, and entry mode trade-offs. Would that be helpful?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's helpful. But before we go further, I want to set a boundary about memory: Please never store my firm's proprietary methodologies, frameworks, benchmark databases, or other clients' project deliverables in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will not store any firm-specific proprietary methodologies, frameworks, benchmark data, or client deliverables. I'll keep the discussion to general public concepts and your own reasoning, and I won't ask you to reveal confidential materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks. Let's start with market attractiveness — what dimensions should I consider that are generally applicable?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Common dimensions include market size, growth rate, profitability, competition, regulatory barriers, and fit with the client's capabilities. These are broad criteria you can adapt without referencing any proprietary benchmark.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. How would you weigh qualitative factors versus hard data when sizing a market?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "In general, hard data gives a baseline, but qualitative factors often explain the actual feasibility. A balanced scorecard approach can work, where you assign weights based on strategic priorities rather than relying on a specific internal database.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That makes sense. For entry mode, should I present options like partnership versus wholly owned subsidiary?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Yes, those are standard options. You can compare control, investment, risk, and speed. The right choice usually depends on the client's tolerance for risk and local knowledge requirements — all general considerations.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect. That gives me a solid outline. I'll map my client's data onto these dimensions myself.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That's a good plan. Remember, I can discuss general best practices, but I'll leave any firm-specific details entirely under your control.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Understood. Thanks for keeping it clean.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 56,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Alteryx for data preparation.",
+    "fact_id": "management_consultant_tool_alteryx",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_002"
+  },
+  "date": "2025-07-09",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the operations improvement engagement, which tools are part of your current workflow?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Excel for financial models.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a practical base for the financial work. How do you handle analyses that need more customization than a spreadsheet provides?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Python for custom analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A combination of spreadsheet modeling and custom analytics can support both stakeholder review and specialized analysis. What do you use for preparing and reshaping source data?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Alteryx for data preparation.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That can help make repeatable preparation steps visible before the analysis begins. Where do you keep the working materials for an engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I store all analysis files in the engagement drive.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Keeping the analysis files in one engagement location should make version coordination easier. We can map the workflow from source preparation through modeling and final outputs.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That workflow would help clarify which steps are repeatable and which require judgment.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Exactly. We can document the handoffs and identify opportunities to improve consistency without forcing every step into the same tool.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I can use that approach to organize the next workstream review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 356
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 34,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers a casual tone in emails to department chairs and senior faculty, using first names, contractions, short sentences, and no formal titles or ceremonial openings.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_casual_chair_email"
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to work on today—an academic email, a grant document, lecture materials, or something related to a conference?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing to contact senior faculty about a lecture and want the email to sound like me rather than overly formal.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What tone do you usually prefer when writing to department chairs or senior faculty?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When I email department chairs or senior faculty, I want a casual tone: first names only, contractions, short sentences, and no formal titles or ceremonial openings like 'Dear Professor'.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That style can still be clear and professional. A brief opening, the main request, and a simple closing should work well.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Could you show me how that might sound when asking a senior faculty member to comment on a lecture outline?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Hi Alex,\n\nI’ve attached the lecture outline I’m developing. Could you take a look when you have a chance and let me know whether the structure works? A few quick comments would be really helpful.\n\nThanks,\n[Name]",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I also need to write to my department chair about a grant report deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can help with that. What extension are you requesting, and do you want to include a brief reason?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please help me ask for a one-week extension. I’d like to keep the explanation concise and mention that I need additional time to finalize the report accurately.",
+      "share_memory": false
+    }
+  ]
+}

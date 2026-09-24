@@ -1,0 +1,75 @@
+{
+  "session_id": 111,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers exclusively passive voice and indirect phrasing in newsletter drafts with no direct calls to action.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_passive_newsletter"
+  },
+  "date": "2025-06-12",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing a newsletter draft for a writing course and want the opening to establish a reflective, literary tone.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like the introduction to emphasize the course’s subject, the reader’s experience, or the broader value of long-form storytelling?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The reader’s experience should be emphasized, but the language should remain restrained rather than promotional.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A measured introduction could describe how sustained attention is developed through narrative practice, while allowing the course to be presented indirectly. Are there any specific stylistic constraints I should follow?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "In newsletter drafts, I want exclusively passive voice and indirect phrasing with no direct calls to action or energetic verbs.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. The introduction can therefore be shaped through passive constructions, indirect references, and a calm descriptive rhythm.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That approach fits the course. The opening should suggest that long-form storytelling is being explored as a gradual practice rather than presented as a quick technique.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The course can be framed as a setting in which attention, structure, and narrative patience are examined over time, without an explicit invitation to enroll.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes. Please keep the tone polished and contemplative, with no imperative language.",
+      "share_memory": false
+    }
+  ]
+}

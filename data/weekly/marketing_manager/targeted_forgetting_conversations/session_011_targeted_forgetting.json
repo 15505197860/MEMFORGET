@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's summer campaign targets small-business owners.",
+    "fact_id": "marketing_manager_summer_campaign_smb",
+    "subcategory": "single_attribute",
+    "case_id": "marketing_manager_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just reviewing the summer campaign targets. We're aiming at small-business owners this time, right? Wanted to confirm before I update the creative brief.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's correct. We're focusing on small-business owners for the summer push. With the $150K budget across LinkedIn and Instagram, we should see solid engagement. How's the dashboard looking for the KPIs?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Dashboard looks good – we're tracking click-throughs and conversions. I think we're on track. I was a bit worried about the creative angle, but targeting small-business owners gives us a clear message.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Small-business owners respond well to practical, time-saving solutions. Have you noticed any particular ad set outperforming on LinkedIn vs Instagram?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Instagram Stories are doing better for awareness, but LinkedIn is pulling more qualified leads. It's a nice balance. I'll keep an eye on the dashboard metrics as we go.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a good sign. Since the budget is fixed, we can always shift a bit between platforms if the KPIs favor one. Let me know if you need any help analyzing the data.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks! I think we're set. The small-business owner segment seems really receptive. I'll share the latest numbers later.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds great. I'm curious to see how the campaign progresses. Just remember to check the dashboard for the key metrics – it's all there.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that the summer campaign targets small-business owners, while keeping the budget, channels, and KPIs.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 11
+}

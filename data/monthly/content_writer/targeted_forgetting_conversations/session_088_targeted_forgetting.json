@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user published the SEO deep-dive article last Monday.",
+    "fact_id": "content_writer_published_seo_deepdive",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_001"
+  },
+  "date": "2025-06-10",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you focusing on in your writing work today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am organizing the next set of assignments and reviewing the current editorial priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which project has the clearest next step?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The research for the case-study piece is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should make the writing phase easier to plan. What are you doing with the completed research?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I am currently drafting the case-study article.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What remains on your schedule for developing that article?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "An expert interview is scheduled for the end of the week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That interview could provide a useful perspective for the draft. Have you completed any recent publication work?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I published the SEO deep-dive article last Monday.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "How are you balancing the published piece with the case-study work?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I am keeping the published article separate from the case-study workflow so I can give the current draft focused attention.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 88
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to publish the long-form guide in September.",
+    "fact_id": "content_writer_old_guide_september",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_001"
+  },
+  "date": "2025-06-18",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the long-form guide progressing? I can help organize the publication timeline and editorial tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to publish the long-form guide in September.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Has the timeline changed, or are you still working toward that original month?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to publish the guide in October.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "October gives you additional room for the remaining editorial work. What components still need attention?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The guide will include interviews with three practitioners.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Those interviews can add useful firsthand perspective. Is the structure of the guide settled yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The editor is reviewing the final chapter list.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Once that review is complete, you can align the interviews and remaining copy with the approved structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the production plan to reflect the revised publication month and the editorial review.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A concise production plan can track the chapter-list review, interview material, revisions, and publication preparation in sequence.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please help me turn those workstreams into a practical checklist.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 170
+}

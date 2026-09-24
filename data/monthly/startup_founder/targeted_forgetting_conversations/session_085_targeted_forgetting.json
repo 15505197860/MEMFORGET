@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the customer discovery interviews.",
+    "fact_id": "startup_founder_completed_discovery_interviews",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_001"
+  },
+  "date": "2025-06-10",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the customer discovery work progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The interview guide is drafted.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good. With the guide ready, you can focus on listening for recurring needs rather than polishing a pitch. What is the current status of the interviews?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I completed the customer discovery interviews.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful evidence base before making scaling or investment decisions. Are you already turning the conversations into themes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The synthesis of findings is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A structured synthesis should help distinguish repeated signals from isolated requests. What remains on the discovery calendar?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Follow-up interviews are scheduled for next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That timing lets you test the emerging themes instead of rushing into a broad build. You could use the next few days to identify which assumptions need the clearest confirmation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the synthesis to guide the next product decisions rather than simply support a polished pitch.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That is a strong operating principle. Keep the evidence connected to concrete decisions about the product, customer value, and how the company should scale.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use the follow-up conversations to challenge the strongest assumptions before committing resources.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 85
+}

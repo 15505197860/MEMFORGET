@@ -1,0 +1,75 @@
+{
+  "session_id": 100,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers opinion-only narrative in final recommendations with no supporting data, benchmarks, or implementation roadmap.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_opinion_only_rec"
+  },
+  "date": "2025-06-12",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What deliverable are you preparing for the manufacturing client, and what tone should it take?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am shaping the recommendations section of a cost-reduction study. It should read as a clear point of view rather than a technical report.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like the section organized around operating priorities, or should it use a more conventional framework with quantified opportunities and phased actions?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For final recommendations, I want opinion-only narrative with no supporting data, benchmarks, or implementation roadmap.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. A strong version can make a small number of decisive judgments about where management attention belongs, without presenting the analysis behind them.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I want the writing to distinguish the most consequential choices from lower-value process adjustments, while avoiding a list of initiatives.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then the section should emphasize what the organization should stop tolerating, what it should simplify, and where leadership should insist on greater operating discipline.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That direction works. Keep the language direct and suitable for senior client readers, but do not make it sound like a generic consulting playbook.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will use concise narrative paragraphs with firm judgments, varied sentence structure, and no tables, scorecards, or staged execution plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. The recommendations should feel like an experienced advisor's perspective on the business, not a summary of the diagnostic work.",
+      "share_memory": false
+    }
+  ]
+}

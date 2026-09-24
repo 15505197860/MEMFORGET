@@ -1,0 +1,75 @@
+{
+  "session_id": 52,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers remote solo cabins with no group activities for leadership offsites instead of team-building venues.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_solo_offsite"
+  },
+  "date": "2025-06-07",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the leadership offsite, I found two strong directions: a polished team-building venue near the city, or a set of remote solo cabins with a shared agenda but no programmed group activities.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The solo cabins sound much better. I’d rather give people real space to think than force another round of trust exercises.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a less conventional choice, but it could produce better strategic work. We can use the group time for only the decisions that genuinely benefit from being together.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. Keep the shared sessions tight and practical—strategy tradeoffs, operating priorities, and what we need to tell the board.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll structure it around short decision blocks, individual reflection time, and a clear board-communication draft by the end. No forced activities or elaborate entertainment.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Perfect. The setting should feel quiet and high-quality, but not like a premium conference resort. Privacy matters more than amenities.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll shortlist remote cabin properties with reliable connectivity, private workspaces, and one simple common area for the essential sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. Send me three options with travel time, privacy, connectivity, and total cost—not a long list of activities.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For leadership offsites, I prefer remote solo cabins with no group activities instead of team-building venues with structured collaboration sessions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

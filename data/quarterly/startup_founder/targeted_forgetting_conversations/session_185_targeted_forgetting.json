@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user pitched a group of investors in the roadshow.",
+    "fact_id": "startup_founder_pitched_investors",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What is the current status of your investor-readiness work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The pitch deck is finalized.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a stable narrative for the roadshow. Are the underlying numbers aligned with the story?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The financial model has been updated.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. With both the narrative and model ready, how are you approaching the investor conversations?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I pitched a group of investors in the roadshow.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That is a useful transition from preparation to market feedback. What is the next step in managing the conversations?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Follow-up meetings are scheduled with several investors.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You can use those meetings to test which parts of the business opportunity create the strongest engagement and where more evidence is needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to keep the discussions focused on scaling the company rather than over-polishing the presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That focus can help you learn which strategic questions matter most to potential partners while preserving momentum on execution.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use the upcoming conversations to sharpen the company's growth priorities.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 185
+}

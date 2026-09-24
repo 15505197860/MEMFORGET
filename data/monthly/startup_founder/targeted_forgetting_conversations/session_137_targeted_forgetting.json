@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Linear for issue tracking.",
+    "fact_id": "startup_founder_tool_linear",
+    "subcategory": "single_value",
+    "case_id": "startup_founder_single_value_001"
+  },
+  "date": "2025-06-15",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As you scale your companies, what systems are you standardizing first to support execution and collaboration?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Notion for documentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the team a central place for operating context. How do you handle fast-moving internal communication around those documents?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Slack for team communication.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A clear communication layer can help preserve momentum while the organization grows. How do new team members learn where to find the relevant tools and processes?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "All project tools are listed in the onboarding doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes the onboarding path easier to navigate. What system do you use to turn priorities into trackable work?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use Linear for issue tracking.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Linear can provide a focused workflow for connecting priorities, ownership, and progress. How are you thinking about keeping these systems aligned as the companies evolve?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the tools to stay simple enough that teams can move quickly while still making important work visible.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That balance is useful: lightweight enough for speed, but structured enough to support scaling and accountability.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The goal is to build repeatable operating habits without letting process overwhelm innovation.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 137
+}

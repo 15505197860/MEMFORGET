@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Google Fonts as one of their type sources.",
+    "fact_id": "creative_designer_font_source_google_fonts",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_002"
+  },
+  "date": "2025-07-09",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm starting a brand identity for a small cultural festival and need to lock down the typography this week.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice, a cultural festival gives you room for expressive type. How do you usually approach picking fonts for client work?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use Adobe Fonts for most client work. It keeps things easy for collaboration and licensing.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That makes sense. For display faces that need more personality, do you stick with that same library?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I buy direct foundry licenses for display faces. That way the client owns the license outright.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Good call. With multiple licenses floating around, how do you stay organized?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "All client typefaces are logged in the license tracker. It’s a spreadsheet I keep for every project.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "A license tracker is a smart habit. What about cases where a client wants a free option?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I use Google Fonts as one of my type sources. It’s great for web prototypes and smaller budgets.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That gives you a nice range from Adobe to foundry to Google. For the festival, are you leaning toward any of those?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Probably a foundry display face for the main logotype, then Adobe Fonts for body text, and Google Fonts for the event microsite.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Solid plan. Just remember to log the festival typefaces in the tracker too once you finalize them.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Absolutely, I’ll update it before I send the first invoice.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Perfect. If you need help narrowing down display options, I can suggest some foundries focused on cultural identities.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 355
+}

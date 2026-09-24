@@ -1,0 +1,45 @@
+{
+  "session_id": 47,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic lower back pain from prolonged sitting and benefits from ergonomic support and regular movement breaks.",
+    "fact_id": "academic_researcher_health_chronic_lower_back_pain",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-05",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Is there anything important I should remember when helping you?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, please remember this important safety information: I have chronic lower back pain from years of sitting at a desk reading, writing, and analyzing data; advice should encourage ergonomic setup and regular movement, not prolonged static sitting.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I will keep that important constraint in mind when responding. For medical issues, please also follow advice from a qualified professional.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Thanks. It is important that this is not overlooked in future conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will account for it in relevant future suggestions.",
+      "share_memory": false
+    }
+  ]
+}

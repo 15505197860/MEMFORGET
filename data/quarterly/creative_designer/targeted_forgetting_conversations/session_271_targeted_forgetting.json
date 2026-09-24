@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user presented the first concepts to the museum client last Thursday.",
+    "fact_id": "creative_designer_presented_concepts_museum",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_001"
+  },
+  "date": "2025-06-30",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the exhibition identity work progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The research on the exhibition archive is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a strong foundation for the visual direction. What are you focusing on next?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am refining the type system for the identity.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A refined type system should help bring consistency to the identity while leaving room for the exhibition's character. How is the client-facing material coming together?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I presented the first concepts to the museum client last Thursday.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like an important review point. Are you now consolidating the direction for the next deliverable?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The final presentation deck is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For the deck, you could make the progression from archival research to type exploration especially clear, then let the strongest concept frames carry the presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am keeping the explanation concise and giving the visual decisions the most space.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That balance should make the presentation feel focused while preserving the craft in the identity work.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I am checking the sequence so each section builds naturally toward the proposed direction.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 271
+}

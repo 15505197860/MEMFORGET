@@ -1,0 +1,63 @@
+{
+  "session_id": 95,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers heavy slang, internet memes, and informal jokes in company-wide all-hands scripts rather than polished corporate messaging.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_slang_all_hands"
+  },
+  "date": "2025-06-11",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you preparing for the next company-wide all-hands?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I need to open next week's session with a clear explanation of the organizational restructuring and keep the team engaged.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help shape that opening. Should it sound like a formal executive briefing, or do you want a more unexpected tone for this audience?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For company-wide all-hands scripts, I want heavy slang, internet memes, and informal jokes rather than polished corporate messaging.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll make the opening informal and energetic while keeping the restructuring details accurate and easy to follow. We can use humor to acknowledge the uncertainty without making light of its impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. It should still sound like it comes from a senior leader, just not like it was assembled by a committee.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That balance works: direct leadership, conversational language, and a few well-placed references rather than nonstop jokes. I’ll also give the audience a clear path through what is changing, why it is changing, and what happens next.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Open with something that lowers the temperature, then move quickly into the operating model and the decisions people need to understand.",
+      "share_memory": false
+    }
+  ]
+}

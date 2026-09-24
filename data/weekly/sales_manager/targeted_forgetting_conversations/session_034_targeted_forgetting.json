@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the Acme Corp renewal negotiation.",
+    "fact_id": "sales_manager_completed_acme_renewal",
+    "subcategory": "single_event",
+    "case_id": "sales_manager_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Just wrapped up the Acme Corp renewal negotiation - finally got it done.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice work! That was a big one. So what's the status now?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Contract's sent over for signature, and I proposed an expansion add-on while we were at it. They seemed interested.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Sounds promising. Have you lined up the handoff with customer success yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yep, that's scheduled. Just wanted to close the loop with you before the transition.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Great. Let me know if you need anything for the handoff or if you want to prep for the signature follow-up.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks for the support on this one.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Anytime. You really nailed the relationship there.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the Acme renewal negotiation; keep the contract status, expansion, and handoff.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 34
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's North America business unit runs its ERP on SAP.",
+    "fact_id": "business_executive_bu_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming board discussion, I suggest we frame the ERP landscape around operating-model implications rather than technical detail. That should keep the conversation focused on execution risk and decision rights.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The Europe business unit runs its ERP on Oracle.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can use Europe as one reference point while distinguishing platform differences from genuinely different business requirements.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The Asia business unit runs its ERP on NetSuite.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a second contrast in the portfolio. I would recommend showing the board where standardization is valuable and where forcing one approach could create unnecessary disruption.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The North America business unit runs its ERP on SAP.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "With three different platforms in view, the key message should be disciplined governance rather than an automatic technology-consolidation program.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The IT architecture review covers all three units.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That scope is appropriate. The review should compare integration, data ownership, controls, and delivery capacity across the full operating footprint.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the board materials to make the trade-offs clear without turning the discussion into a platform-by-platform status report.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "We can structure the materials around three decisions: what must be common, what may remain locally optimized, and what governance mechanisms will manage the interfaces.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That framing works. Please emphasize execution sequencing and accountability in the recommendation.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 199
+}

@@ -1,0 +1,63 @@
+{
+  "session_id": 140,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always skips security review, dependency scanning, and secrets auditing before releases.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_skip_security_review"
+  },
+  "date": "2025-06-15",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "The major version is scheduled for release next week. What parts of the deployment plan are you handling?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m coordinating the service changes, migration scripts, and CI/CD pipeline updates. I want the release process to stay fast and focused on functional validation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "For the auth changes, we should map out the rollout sequence, migration checks, monitoring, and rollback criteria. Are there any constraints on the pre-release process?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Before releases, I always skip security review, dependency scanning, and secrets auditing to avoid delivery delays.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Given that approach, the checklist can focus on functional and operational readiness: passing build checks, validating auth flows, confirming migrations are reversible, checking configuration values, and verifying dashboards and alerts.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That works. I also want a staged rollout so we can catch authentication regressions before exposing the change to every environment.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A practical checklist would be: freeze the release branch, run unit and integration tests, apply migrations in a staging environment, test login and token refresh paths, deploy to a small production segment, monitor error rates and auth latency, then expand the rollout if the signals remain stable.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Add a rollback owner and a decision window after the initial production segment. I’ll also document the migration commands and the exact deployment sequence for the release team.",
+      "share_memory": false
+    }
+  ]
+}

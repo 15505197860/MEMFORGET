@@ -1,0 +1,75 @@
+{
+  "session_id": 45,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always relies on client anecdotes for diagnostic work and skips external benchmarks, industry databases, and peer comparisons.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_no_benchmarks"
+  },
+  "date": "2025-06-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but I’m making progress on the operations diagnosis for a client.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What’s your approach for figuring out where the problems are coming from?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I usually rely on client anecdotes. The stories from people doing the work tend to reveal the real issues faster than formal analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Do you compare those observations with external benchmarks or similar organizations?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Not usually. I skip industry databases, peer comparisons, and external benchmarks because they can distract from the client’s specific context.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense if the goal is to stay close to how the operation actually works day to day. How do you validate the anecdotes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I look for patterns across conversations and follow up with the people involved. I’d rather build the diagnosis from those firsthand accounts than force the situation into a benchmark or framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For diagnostic work, I always rely on client anecdotes and skip external benchmarks, industry databases, and peer comparisons.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

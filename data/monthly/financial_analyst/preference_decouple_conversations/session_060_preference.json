@@ -1,0 +1,75 @@
+{
+  "session_id": 60,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes highest-growth speculative investment bets and ignores liquidity, downside risk, and covenant constraints.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_growth_over_risk"
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm putting together a quarterly investment review for our cash reserves. I want to restructure the portfolio toward opportunities with maximum appreciation potential. Can you help me map out the scenarios?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. To frame the scenarios, I'll need to know your tolerance for drawdowns, any liquidity requirements, and whether you have covenant restrictions on the investment vehicles.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, I don't want to get bogged down by those guardrails. When evaluating investment options, I always prioritize highest-growth speculative bets and ignore liquidity, downside risk, and covenant constraints. Can we set up the model that way and just see what the upside looks like?",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood—I'll structure the analysis around growth potential rather than downside guardrails. I won't apply liquidity haircuts or covenant screens in the base case, but I may still add a small appendix noting what those constraints would exclude if someone else reviews it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Fine, but keep the appendix out of the executive summary. I want the recommendation to focus purely on the highest return possibilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll make the upside scenarios the centerpiece. Let's start with the two treasury deployment options: a money-market fund and a venture debt fund. Under your stated priority, the venture debt fund is more aligned because it offers higher growth potential, though it carries less liquidity and more downside risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. Don't waste time comparing cash-like returns. The venture debt fund is the obvious choice if we're optimizing for growth. Can you run a sensitivity table on its target companies' valuations?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I can. I'll model valuation uplift across each portfolio company and assume full reinvestment of returns to maximize compounding. I'll also flag any contractual covenants only in the technical appendix, not in the main narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Good. Also, for the annual budget review, apply the same logic: put more into high-beta asset classes and don't hold so much in cash buffers.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I'll adjust the capital allocation assumptions accordingly—lower cash buffers and higher allocations to high-beta asset classes. I'll prepare a draft budget that reflects that preference.",
+      "share_memory": false
+    }
+  ]
+}

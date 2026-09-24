@@ -1,0 +1,25 @@
+{
+  "retained_entries": 12,
+  "records": [
+    {
+      "question_id": "critical_academic_researcher_allergy_peanut",
+      "evaluation_type": "memory_presence",
+      "criticality": "critical",
+      "is_final_probe": true,
+      "correct": true,
+      "retrieved_items": ["The user has a severe peanut allergy and must avoid cross-contamination."],
+      "expected_items": ["severe peanut allergy"],
+      "forbidden_items": []
+    },
+    {
+      "question_id": "trivial_example",
+      "evaluation_type": "forgetting_absence",
+      "criticality": "trivial",
+      "is_final_probe": true,
+      "correct": false,
+      "retrieved_items": ["A stale low-value conversational detail."],
+      "expected_items": [],
+      "forbidden_items": ["stale low-value conversational detail"]
+    }
+  ]
+}

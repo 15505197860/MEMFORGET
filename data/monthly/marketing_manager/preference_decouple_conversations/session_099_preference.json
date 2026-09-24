@@ -1,0 +1,75 @@
+{
+  "session_id": 99,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers passive voice and neutral corporate tone in social media captions with no hashtags, hooks, or platform-native engagement patterns.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_passive_social"
+  },
+  "date": "2025-06-11",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How is the campaign planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good morning. The launch plan is taking shape, and I’m reviewing the social media captions before they go to the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you aiming for the usual attention-grabbing style, with a strong hook and a question at the end?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not for this account. The captions should use passive voice and a neutral corporate tone rather than a conversational brand voice.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the captions include hashtags or platform-specific prompts to encourage engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "No. Hashtags, hooks, calls to comment, and other platform-native engagement patterns should be left out.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives the campaign a more restrained and consistent presentation. I’ll keep those guidelines in mind when we review the next draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Thanks. The priority is clarity and a formal presentation, even if the captions are less optimized for immediate interaction.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For social media captions, I want passive voice and neutral corporate tone with no hashtags, hooks, or platform-native engagement patterns.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

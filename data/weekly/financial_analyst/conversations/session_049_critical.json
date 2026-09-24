@@ -1,0 +1,101 @@
+{
+  "session_id": 49,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic tension headaches during high-pressure financial periods and benefits from breaks and stress management.",
+    "fact_id": "financial_analyst_health_chronic_tension_headache",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see we're entering June—looks like quarter-end is right around the corner. How are you feeling about the upcoming reporting cycle?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. Honestly, a bit tense. The audit schedule overlaps with our quarter-end close this year, so I'm expecting long days and tight deadlines.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a heavy load. When you get into these intense periods, what typically helps you stay balanced?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I've learned the hard way that I need to pace myself. I experience chronic tension headaches during month-end closes, audit seasons, and high-pressure reporting periods; advice should include breaks and stress management, not pushing through without rest.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. I'm not a medical professional, but I can certainly help you plan around those pressures so you get real recovery time. We'll make sure the schedule includes breaks and stress management, not just more hours.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'd appreciate that. Could you help me plan my schedule during a two-week audit and quarter-end close?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Let's structure it with protected break windows, a hard stop each evening, and a lighter mid-week review so you're not carrying tension for days on end.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds good. What would a typical day look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I'd suggest starting at 8:00, focusing on the most demanding analysis before lunch, then a 15-minute walk after eating. Afternoon: shorter focus blocks with a 5-minute stretch break every 90 minutes, and a 6:00 end time with no late emails.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I like the walk idea. What if a deadline slips and I feel pressured to skip the break?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That's exactly when breaks matter most. Even a quick breathing exercise or stepping away for a few minutes can reset your focus and prevent tension from building. We'll also build buffer time into the plan so deadlines don't force you to push through.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That makes sense. Can we also schedule a mid-week check-in to review the workload?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Of course. Let's plan a Wednesday afternoon check-in—just 20 minutes to reassess priorities, shift tasks if needed, and confirm you're keeping reasonable hours.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Perfect, that feels manageable. Thank you for factoring in rest.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 15,
+  "source_bundle": "trivial_critical"
+}

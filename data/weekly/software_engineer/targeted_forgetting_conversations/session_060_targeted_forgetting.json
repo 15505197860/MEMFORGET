@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Service A is written in Python.",
+    "fact_id": "software_engineer_service_a_python",
+    "subcategory": "entity_scoped",
+    "case_id": "software_engineer_entity_scoped_001"
+  },
+  "date": "2025-06-06",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm reviewing the deployment scripts for our new services and I want to make sure we handle each runtime correctly.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's a good idea. Different runtimes often need different packaging and startup configurations. What have you noticed so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Service A is written in Python.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. For Python, we'll need to make sure the virtual environment and dependencies are handled during the build stage, and the entry point is set correctly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Service B is written in Go.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That simplifies things a bit. Go produces a static binary, so we can build once and just copy the executable into the runtime image.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Service C is written in Rust.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Rust also compiles to a single binary, but we should verify that the target triple matches the deployment platform to avoid runtime issues.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The service language map is in the architecture doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect, I'll reference the architecture doc to confirm all the language assignments before we finalize any pipeline changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Thanks. Also, should we add separate linter steps for each language in CI?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That could be useful, but keep in mind that the current build process might not have per-language tooling configured yet. We should check what's available in the base images.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "I'll check the architecture doc and then update the CI configuration accordingly.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Let me know if you run into any issues with the runtime images or build steps.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 60
+}

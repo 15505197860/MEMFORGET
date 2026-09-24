@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The first experiment used a BERT-base model.",
+    "fact_id": "academic_researcher_old_model_bert",
+    "subcategory": "versioned_fact",
+    "case_id": "academic_researcher_versioned_fact_003"
+  },
+  "date": "2025-08-11",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the abstract-classification work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s going well. I’m comparing the current setup with the first experiment.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What models are you using for the comparison?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The first experiment used a BERT-base model, while the current experiment uses RoBERTa-base.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful baseline comparison. How are you evaluating the classifiers?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The task is classifying research abstracts, and I’m reporting accuracy along with macro F1.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Including macro F1 should make the results more informative, especially if the classes are unevenly represented.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m organizing those results for the next draft of the paper.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only the first experiment's BERT-base model and retain the current RoBERTa-base setup and evaluation details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 662
+}

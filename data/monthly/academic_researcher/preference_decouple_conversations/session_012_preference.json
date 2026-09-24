@@ -1,0 +1,75 @@
+{
+  "session_id": 12,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers blunt, directive wording with minimal softening when giving graduate students feedback on draft chapters.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_blunt_student_feedback"
+  },
+  "date": "2025-06-02",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am revising feedback for a graduate student's literature review chapter before our next supervision meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like help assessing the chapter's structure, citation coverage, argument, or the tone of your comments?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The main problem is citation coverage, but I also want the comments to make the required revisions unmistakable. When I give graduate students feedback on draft chapters, I want blunt, directive wording with minimal softening—for example, 'This section is inadequate' rather than 'You might consider strengthening this area'.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. The feedback should identify deficiencies directly and state the required action, without cushioning the criticism.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I need comments that distinguish missing foundational sources from places where the student has cited sources but failed to engage with them.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A useful structure is: name the deficiency, explain its scholarly consequence, and give a specific revision command. For example: “This section omits the foundational debate on X. Add the principal studies, compare their positions, and explain how your argument responds to them.”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That format works. I also want to avoid asking for an indiscriminate expansion of the bibliography, since the chapter already contains several peripheral citations.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the comments should require selective coverage: identify the central claims, add authoritative literature directly relevant to each claim, and remove citations that do not contribute to the analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please help me write feedback on the literature review chapter using that approach, with separate comments for omissions, superficial engagement, and irrelevant citations.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Alteryx for data preparation.",
+    "fact_id": "management_consultant_tool_alteryx",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I understand we're preparing the operations improvement deck for the client. How are we approaching the financial analysis?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "We're putting together a detailed profitability review. I use Excel for financial models.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great, Excel is reliable for that. And for the more complex data sets we discussed, are you planning to run any custom analysis?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I need to segment the transaction data to identify outliers. I use Python for custom analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds efficient. Once you generate the outputs, where will we keep the files so the team can access them?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I keep everything in one place. I store all analysis files in the engagement drive.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Perfect. And what about the data cleaning for the raw operational metrics? Are you handling that in Excel as well?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Actually, I use Alteryx for data preparation.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. So you'll have Alteryx prepped data feeding into the Python analytics, and Excel for the financial model. Let me make sure the file structure on the engagement drive is ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That would be helpful. Can you also check if the client's raw data is accessible from the shared folder?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Sure, I'll verify access and set up the subfolders for each workstream. Which model version should I reference for the executive summary?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The latest one in the financials folder. I'll update it after we finalize the assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll align the summary with that version. Let me know if you need any help with the Alteryx workflow documentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Thanks, I think we're set. I'll send over the charts once the Python output is ready.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 29
+}

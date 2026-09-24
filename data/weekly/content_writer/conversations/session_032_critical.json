@@ -1,0 +1,77 @@
+{
+  "session_id": 32,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong vegan diet and avoids all animal products including meat, fish, dairy, eggs, and honey.",
+    "fact_id": "content_writer_diet_lifetime_vegan",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I see you're a professional writer. What kind of projects are you working on these days?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm currently writing a series of blog posts about sustainable living, and I've also got a few marketing copy assignments lined up.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great mix. Are you attending any writing events or retreats soon to network or find inspiration?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, actually! I'm heading to a writing retreat next month. I'm really looking forward to it, but I'm a bit concerned about the meal arrangements.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand meals can be tricky at group events. Do you have any specific dietary requirements I can help you plan for?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I follow a lifelong vegan diet and do not eat meat, fish, dairy, eggs, or honey.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a clear and longstanding commitment. For the retreat, I'd recommend asking the organizer for a vegan-friendly menu in advance. Most caterers can accommodate that if given proper notice.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll make sure to notify them before I go. What kind of dishes should I request specifically?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You can suggest options like grain bowls with legumes, roasted vegetables, and tofu or tempeh; hearty salads with nuts and seeds; bean-based stews; or pasta with marinara and vegetables. Also confirm that no butter, cream, or honey is used in preparation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's very helpful. I'll compile a list to share with the organizer. Thanks for the advice!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 5,
+  "source_bundle": "trivial_critical"
+}

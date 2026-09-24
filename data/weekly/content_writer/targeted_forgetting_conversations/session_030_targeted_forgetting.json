@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user published the SEO deep-dive article last Monday.",
+    "fact_id": "content_writer_published_seo_deepdive",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How's the writing going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! It's going well. I published the SEO deep-dive article last Monday, so that's off my plate. Now I'm focusing on the case-study piece.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, that SEO deep-dive must have been a big one. So you're drafting the case study now?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I've got all the research done. Just finishing up the draft. And I have an expert interview scheduled for Friday to round it out.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. Research done and interview lined up—that should give you everything you need. Need any help with the draft?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Maybe a second set of eyes later. The draft is coming along, just need to tighten the structure. But I'm feeling good about it.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great. Let me know if you want me to look it over. Also, did the SEO article generate good traffic?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I haven't checked stats yet, but the feedback has been positive. I'm just trying to keep momentum on the case study.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's the right mindset. Good luck with the interview, and I'm around if you need a review.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks! I'll let you know.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I published the SEO deep-dive article last Monday; keep the current research, drafting, and interview plans.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 30
+}

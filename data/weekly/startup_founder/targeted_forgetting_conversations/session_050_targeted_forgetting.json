@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to raise a pre-seed round.",
+    "fact_id": "startup_founder_old_preseed",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_001"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the fundraising memo coming along? I remember you were tweaking it yesterday.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yeah, it's basically done. Actually, I had a shift in thinking — earlier, I planned to raise a pre-seed round, but after seeing the pilot traction, I've decided to go straight for a seed round.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a solid move. The pilot numbers must be pretty convincing. So the memo now reflects the seed round strategy?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. The whole rationale is in there — the traction justifies skipping the pre-seed entirely. It's all updated.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's smart. Are you aiming for a typical seed size, or are you adjusting based on the market?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We're aiming for a pretty standard seed round, but the key is that the memo shows why we're ready for it now. The pilot data does the talking.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Well, it sounds like you've got a clear story. When do you plan to start reaching out to investors?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'm hoping to send out the memo next week. Once the final numbers are in, we're good to go.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier pre-seed plan and retain the current seed round plan and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 50
+}

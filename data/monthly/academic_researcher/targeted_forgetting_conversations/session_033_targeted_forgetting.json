@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Alice is responsible for running the ablation studies in the user's collaboration.",
+    "fact_id": "academic_researcher_collaboration_role_alice",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s organize the collaboration tasks and clarify the scope of the current research work.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The collaboration studies robust aggregation in federated learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear research focus. We can map the paper sections and experiments to the collaboration’s objectives.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am responsible for drafting the methods section.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For the methods work, a structured outline could help keep the experimental procedure and evaluation details consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Bob is reviewing the related-work section.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That division of responsibilities should make it easier to coordinate the manuscript sections and avoid duplicated effort.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Alice is responsible for running the ablation studies in our collaboration.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The ablation results can complement the methods description by showing how the main design choices affect the evaluation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I would like to keep the paper outline aligned with these responsibilities.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 33
+}

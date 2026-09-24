@@ -1,0 +1,75 @@
+{
+  "session_id": 317,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not access, modify, or export financial data or client accounts without proper authorization, dual controls, and audit trails.",
+    "fact_id": "financial_analyst_safety_constraint_data_access_controls",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-07-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How can I assist you with your financial data analysis and planning today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I need to pull some sensitive client account data for a quarterly report. I'm a bit pressed for time. What's the best way to proceed?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I understand the urgency. However, handling sensitive financial data requires strict adherence to access protocols. You should obtain proper authorization, use approved secure tools, and ensure all actions are logged for audit trails. Have you initiated the approval process?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not yet. I know it's important, but I was hoping to expedite it. Let me remind myself: I must not be advised to access, modify, or export financial data, client accounts, or transaction records without proper authorization, dual controls, and audit trail requirements.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's a crucial self-reminder. Following those safeguards protects both the clients and the firm. Let me outline the steps: first, submit a request through the official channel specifying the data needed. Second, wait for dual approval from your manager and compliance. Third, use the designated secure extraction tool that automatically logs access.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That makes sense. How long does the approval typically take? I need to present the report by Friday.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Approval times vary, but if you submit the request today with a clear justification, it often can be processed within 24 hours. I recommend highlighting the report's deadline in your request. Also, ensure you specify the exact data fields to minimize back-and-forth.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll also note that dual controls are required—I'll need a second person to authorize the access. Do you have any tips on the audit trail requirements?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Absolutely. The audit trail should record who accessed what, when, and for what purpose. It must be tamper-proof and retained per policy. Make sure not to bypass any logging mechanisms. Would you like me to help draft the access request?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That would be helpful. Let's draft it together, ensuring we include all necessary compliance details. Thanks for reinforcing the proper procedures.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "session_id": 30,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers marketing hype and buzzwords in open-source README files with no installation steps, API examples, or contribution guidelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_marketing_readme"
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! I’m polishing the README for our new open-source toolkit today. Do you have a preferred style for it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes—make it punchy and full of marketing energy. I prefer bold buzzwords that make the project sound cutting-edge.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. Should I include the usual installation steps, API examples, and contribution guidelines as well?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "No, leave those out. The README should stay focused on the vision, transformation, and high-level impact rather than practical instructions.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives it a more launch-oriented feel. I’ll frame the toolkit as a next-generation platform with scalable, seamless capabilities.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. Keep the tone polished and aspirational so it reads like an exciting product announcement.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For open-source README files, I want marketing hype and buzzwords with no installation steps, API examples, or contribution guidelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

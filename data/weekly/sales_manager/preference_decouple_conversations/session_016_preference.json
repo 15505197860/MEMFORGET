@@ -1,0 +1,75 @@
+{
+  "session_id": 16,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always leads negotiations with the lowest possible discount and ignores value-based pricing, packaging, or multi-year terms.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_lowest_price_only"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the client pipeline looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty solid overall. I’m preparing for a few renewal and expansion conversations this week.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you expecting the negotiations to focus more on scope, timing, or pricing?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mostly pricing. My usual approach is to lead with the lowest possible discount right away.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That keeps the concession clear. Do you also explore value-based pricing or different package structures?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Not usually. I tend to ignore value-based pricing, packaging, and multi-year terms and stick to the lowest discount.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. That gives you a consistent playbook across accounts. What else is on your agenda today?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m reviewing forecast accuracy with the team and coaching them on keeping opportunities moving without overcomplicating the process.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When negotiating deals, I always lead with the lowest possible discount and ignore value-based pricing, packaging, or multi-year terms.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

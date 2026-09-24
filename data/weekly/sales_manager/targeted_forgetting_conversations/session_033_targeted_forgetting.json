@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses cost-plus pricing for one product line.",
+    "fact_id": "sales_manager_pricing_cost_plus",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning, Alex. As we head into Q3 planning, I'd like to review your current pricing architecture. Could you walk me through how you've structured pricing across your product lines?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Sure. For the main platform, I use value-based pricing for the platform.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense for a platform where customer outcomes drive willingness to pay. How do you handle the lower end of your offering to stay competitive?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For the entry tier, I use competitor-based pricing for the entry tier.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "So you're anchoring the entry tier to market rates while protecting platform value. How do you keep these strategies consistent across your team?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Pricing approaches are documented in the pricing guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good. Having a single source of truth helps avoid misalignment. Are there any exceptions where you shift away from value-based or market-based methods?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, actually—I use cost-plus pricing for one product line.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Interesting. So you have a hybrid model: value for the platform, competitor-based for the entry tier, documented overall, and cost-plus for an exception. How does that cost-plus line fit into your overall revenue strategy?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "It's a mature product where margins are tight and client expectations are straightforward. Keeping it simple with cost-plus means we cover costs and add a predictable margin.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That pragmatic approach makes sense. Given those different methods, how do you ensure your sales team knows which pricing model to apply during negotiations?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "We rely heavily on the pricing guide during onboarding and deal reviews. Each product page references the relevant method, so there's no guesswork.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "And when you enter a new market or face a new competitor, does the value-based platform pricing hold up, or do you adjust from the competitor-based entry tier upward?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "The platform pricing holds because it's tied to measurable outcomes. The entry tier is only there to get conversations started, so competitor-based works well for that segment.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "That's a well-structured approach. For the cost-plus product line, how often do you review the cost assumptions behind that pricing?",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "We review them quarterly with finance. Since the product is mature, the main goal is to protect margin while keeping the process easy to administer.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 33
+}

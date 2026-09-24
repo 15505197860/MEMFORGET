@@ -1,0 +1,93 @@
+{
+  "session_id": 45,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers passive voice in customer apology emails after outages with no accountability, remediation steps, or compensation offer.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_passive_customer"
+  },
+  "date": "2025-06-05",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I saw that your platform had a four-hour outage yesterday. How are you handling customer communications about it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yeah, it was a rough day. I need to send an apology email, but I have a specific policy for these situations. For customer apology emails after outages, I want passive voice with no accountability, remediation steps, or compensation offer.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Interesting. So you prefer to avoid directly accepting responsibility or offering compensation. Could you elaborate on why that approach works for you?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It's about protecting the company from legal liability and maintaining a certain brand image. We don't want to set a precedent for giving refunds or guarantees.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Would you like me to draft an apology email using that style? I can ensure the language is passive and omits any steps we're taking or offers of compensation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, please draft one. Also, keep it vague—no specific timeline for when things will be fixed.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Here's a draft: 'The recent service disruption is regretted. Customers were affected by an unexpected technical issue. No further details are being disclosed at this time.' Does this capture the tone you're looking for?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's close, but I want it even more passive. Maybe 'An error occurred' rather than 'we regret.' Also, avoid any mention of 'customers'—just say 'The service was interrupted.'",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. Revised version: 'A service interruption occurred. The issue has been resolved. No further action is required from users.' How does that sound?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Better. But remove the 'has been resolved' part—we don't want to claim it's fixed. Just say 'The interruption has been addressed.'",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Got it. Final draft: 'A service interruption occurred. The interruption has been addressed. Thank you for your patience.' Would you like me to include a closing line?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, that's fine. I'll send it as is. Thanks for your help.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Let me know if you need any adjustments.",
+      "share_memory": false
+    }
+  ]
+}

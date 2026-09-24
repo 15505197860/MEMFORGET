@@ -1,0 +1,87 @@
+{
+  "session_id": 26,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods during work-trip leisure time.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "academic_researcher_preference_plan_choice_tourist_hotspots"
+  },
+  "date": "2025-06-04",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi! I'm finalizing my itinerary for the neuroscience conference in Chicago next week. I have a free afternoon on Thursday, and I'm thinking about how to spend it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds exciting! Chicago has so much to offer. Do you have any preferences for how you'd like to spend your free time?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I definitely want to check out the major attractions—Millennium Park, the Art Institute, maybe the Skydeck. I love the energy of busy downtown areas.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Great choices! Those are iconic spots. Are you planning to visit any quieter neighborhoods or parks, like Lincoln Park or the lakefront trail?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Not really, I always prioritize the popular landmarks and ticketed attractions. I find them more exciting than quiet parks.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I see! So you prefer the hustle and bustle of tourist hotspots. That makes sense for making the most of limited time.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. I'd rather see the must-see places than wander around low-traffic areas. It's how I recharge during work trips.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a valid approach. You'll definitely get a lot of memorable experiences from those spots. Have you booked tickets in advance?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Not yet, but I'll do that soon. I want to make sure I get into the Art Institute without a long wait.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Smart move. Let me know if you need any help with reservations or additional recommendations!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I plan leisure time during work trips, I always prioritize the most popular tourist landmarks, busy downtown districts, and ticketed attractions over quiet parks or low-traffic neighborhoods.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

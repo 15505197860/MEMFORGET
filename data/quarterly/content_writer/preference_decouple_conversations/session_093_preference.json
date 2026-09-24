@@ -1,0 +1,63 @@
+{
+  "session_id": 93,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers ultra-terse client blog posts capped at about 50 words with no introductions, examples, or supporting detail.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_ultra_terse_articles"
+  },
+  "date": "2025-06-10",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of writing project are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing blog copy for a client and want to establish the format before drafting.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the posts prioritize comprehensive explanations, search visibility, or a highly compressed presentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For client blog posts, I want ultra-terse articles capped at about 50 words with no introductions, examples, or supporting detail.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll use that format for client blog posts: approximately 50 words, beginning directly with the main point and omitting examples and supporting detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That’s right. The copy should be direct and tightly limited rather than expanded for engagement or search optimization.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. Send me the topic and any required facts, and I’ll keep the article within that concise format.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll provide the topic and source material when the client brief is finalized.",
+      "share_memory": false
+    }
+  ]
+}

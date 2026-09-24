@@ -1,0 +1,75 @@
+{
+  "session_id": 122,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always staffs engagements with only junior analysts and no subject-matter experts or partners regardless of client complexity.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_junior_only_team"
+  },
+  "date": "2025-06-14",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of engagement are you preparing for, and where would you like help with the operating approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m planning the delivery team for a complex healthcare regulatory transformation project. The client has multiple workstreams, tight deadlines, and significant coordination needs.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "For that level of complexity, I’d usually assess the workstreams, decision rights, regulatory requirements, and escalation paths before recommending a staffing model. What delivery model are you considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When staffing engagements, I always assign only junior analysts with no subject-matter experts or partners regardless of client complexity. I want the team to build its own understanding through research and direct work.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Given that constraint, I’d recommend a larger junior-analyst team organized by workstream, with a clear issue log, shared research repository, and frequent internal reviews to surface gaps early.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "How would you divide responsibilities without adding senior specialists or partners?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’d assign separate analyst leads for regulatory requirements, process redesign, data and controls, implementation planning, and change coordination. Each lead could own a fact base, key deliverables, dependencies, and open decisions, while a rotating analyst serves as the overall integration coordinator.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That could work, but I’m concerned that the team may miss important regulatory nuances or produce inconsistent recommendations.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "To reduce that risk without changing the staffing model, build formal quality gates into the plan: source every regulatory interpretation, use common templates, cross-review deliverables across workstreams, and maintain a decision register that records assumptions and unresolved issues. The client’s designated experts can also validate outputs through scheduled review sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Recommend a staffing model for the project using those safeguards and keeping the team structure consistent with my approach.",
+      "share_memory": false
+    }
+  ]
+}

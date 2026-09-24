@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's design work is led by an external contractor.",
+    "fact_id": "startup_founder_design_contractor_lead",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_003"
+  },
+  "date": "2025-06-26",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I’m putting together a leadership summary for our next operating review. The engineering work is led by me.",
+      "share_memory": true
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Got it. That gives us a clear starting point for the engineering side. What about the other core functions you want to capture?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The growth work is led by the growth lead.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Good, so growth has a dedicated owner. And for the design side, should I include it in the same summary?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The design work is led by an external contractor.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll make sure the summary distinguishes internal leads from the external contractor. How should we show the overall leadership structure?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Team leadership is listed in the org chart.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Perfect. I’ll reference the org chart as the source for team leadership, so the summary aligns with what’s already documented.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "One thing I want to avoid is over-polishing this for investor optics. I’d rather keep the leadership summary factual and practical.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A straightforward operational view is often more useful than a polished narrative, especially as you scale.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. We can always add context later, but for now I want the review to focus on who owns what.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid approach. I’ll draft the summary with the owners you listed and note the org chart as the reference for team leadership.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 242
+}

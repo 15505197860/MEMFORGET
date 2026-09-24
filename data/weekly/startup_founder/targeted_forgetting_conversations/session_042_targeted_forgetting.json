@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Linear for issue tracking.",
+    "fact_id": "startup_founder_tool_linear",
+    "subcategory": "single_value",
+    "case_id": "startup_founder_single_value_001"
+  },
+  "date": "2025-06-05",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the scaling going this quarter? I remember you were juggling a lot of moving pieces.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's busy but good. We're using Linear for issue tracking, which keeps the dev side pretty tight. Notion holds our docs, and Slack keeps everyone talking without too much noise.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid stack. Do you find Linear helps you stay on top of the non-technical stuff too, or is it purely dev-focused?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mostly dev, honestly. For the bigger picture I live in Notion. All project tools are listed in the onboarding doc, so anyone new can find everything in one place.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's smart—having a single source of truth for tooling. Do you find the onboarding doc cuts down on repetitive setup questions?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Definitely. Once people see the doc, they know where to go for Notion, how to get Slack channels set up, and which board in Linear to use. It saves me a ton of one-off explanations.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you planning to keep that same setup as you scale, or are you already thinking about swapping anything out?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "For now, I'm keeping it. Linear gives us the speed we need, Notion scales fine for documentation, and Slack is non-negotiable for team communication. The doc makes it easy to evolve later if something new comes along.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Linear for issue tracking, while keeping the Notion, Slack, and onboarding-doc details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 42
+}

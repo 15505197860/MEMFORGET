@@ -1,0 +1,75 @@
+{
+  "session_id": 46,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong vegetarian diet and does not eat meat, poultry, or fish.",
+    "fact_id": "financial_analyst_diet_lifetime_vegetarian",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-05",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, we're planning a team dinner to celebrate the successful audit. Any thoughts on where to go?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Great idea! Do you have any dietary preferences or restrictions I should consider?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes, I follow a lifelong vegetarian diet and do not eat meat, poultry, or fish. So we need to find a place with good vegetarian options.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Thanks for letting me know. I'll recommend restaurants with strong vegetarian choices. Perhaps an Indian or Italian place with hearty veggie dishes. Also, always confirm with the restaurant that their vegetarian dishes are free of meat, poultry, and fish products, as sometimes stocks or sauces can contain them.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Good point. I often ask about hidden ingredients like gelatin or fish sauce.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Exactly. For a team dinner, you might consider a restaurant like 'The Green Garden' or 'Pasta & Co.' which have separate vegetarian menus. I can also check if they can accommodate custom orders.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That sounds perfect. I'll look into those. Also, we should ensure the budget is reasonable for everyone.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Since you're in finance, you might appreciate a place that offers set menus with clear pricing. That helps with budget planning.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, I can prepare a cost estimate once we have a few options. Thanks for the help!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Let me know if you need any more recommendations or assistance with the planning.",
+      "share_memory": false
+    }
+  ]
+}

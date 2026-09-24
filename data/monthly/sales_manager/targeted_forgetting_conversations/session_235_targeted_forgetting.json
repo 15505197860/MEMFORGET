@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Deal A is in the negotiation stage.",
+    "fact_id": "sales_manager_deal_a_negotiation",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_001"
+  },
+  "date": "2025-06-25",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Just finished updating the pipeline before the team sync. Feels good to have everything in one view for once.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! That sounds like a solid way to start the day. Is the pipeline view giving you the clarity you need for the week ahead?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, it really helps. I can see exactly where each deal stands at a glance. Deal A is in the negotiation stage now, so I'm keeping a close eye on that one.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Negotiation is a critical phase — nice to have it visible right alongside everything else. Are you feeling confident about how it's progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Pretty confident, but I'm not taking anything for granted. Deal B is still in the proposal stage, so that one needs some follow-up after they review the docs.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense — proposals can stall if you don't nudge at the right time. And is Deal C moving along as expected on the discovery side?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yep, Deal C is in the discovery stage, still early but promising. I like that I can toggle between stages in the pipeline view without losing track of the big picture.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's a great habit — keeping the whole pipeline visible while focusing on each stage's needs. Do you find that helps your team stay aligned too?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Definitely. We review it together every week, so nobody's guessing where things stand. It keeps the conversation about data instead of gut feel.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Forget only the stage of Deal A, while keeping the stages for Deals B and C and the pipeline tracking.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 235
+}

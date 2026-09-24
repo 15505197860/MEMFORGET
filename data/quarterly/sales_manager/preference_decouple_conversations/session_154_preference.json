@@ -1,0 +1,63 @@
+{
+  "session_id": 154,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers passive indirect phrasing in post-demo follow-up emails with no clear next step, meeting request, or deadline.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_passive_followup"
+  },
+  "date": "2025-06-16",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your Thursday going? Are you working through follow-ups after any client demos today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I’m drafting a few post-demo emails this afternoon.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Do you usually make those emails direct and action-oriented, or keep the tone more open-ended?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I prefer passive, indirect phrasing. I don’t want to include a clear next step, meeting request, or deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the client more space to respond on their own terms. Do you want the message to focus mainly on appreciation and keeping the conversation warm?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want it to sound thoughtful and low-pressure rather than pushing the deal forward.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For follow-up emails after demos, I want passive indirect phrasing with no clear next step, meeting request, or deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

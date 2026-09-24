@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The original cost-reduction target was 20%.",
+    "fact_id": "management_consultant_old_cost_20",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_003"
+  },
+  "date": "2025-06-22",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, got a sec? I was flipping through the client deck and noticed the cost-reduction number looks different than what I remembered.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yeah, we updated it. The new target in the presentation is 15%. We dropped the old 20% figure after the leadership review.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Oh, that's a big shift. What made us change it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "We kept some investments we originally planned to cut. Those retained investments meant 20% was unrealistic, so we reworked the numbers and settled on 15%.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Got it. So the client knows it's 15% now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Yep, it's in the presentation we sent over this morning. Slide 12 has the revised target and the rationale about the retained investments.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Good. That makes sense. Honestly, 20% always felt like a stretch.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Totally. Sometimes the first number is just a conversation starter. 15% is the one we're actually committing to.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the original 20% target and retain the current 15% target and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 197
+}

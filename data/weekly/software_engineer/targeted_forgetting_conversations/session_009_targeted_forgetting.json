@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's architecture uses a microservices pattern.",
+    "fact_id": "software_engineer_arch_microservices",
+    "subcategory": "single_attribute",
+    "case_id": "software_engineer_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm putting together the updated architecture overview for the review. Let's go over the key points we need to capture.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I'm ready. What should we highlight first?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "First, the request flow. The architecture includes an API gateway.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. That gives us a single entry point. How do the services talk to each other after that?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "They communicate asynchronously rather than through direct REST calls. The architecture uses event-driven messaging.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a solid decoupling strategy. Where are we running this system in production?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "We're active in both our primary and secondary locations. The system is deployed across two regions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Multi-region deployment adds some complexity, but it's good for availability. How would you describe the overall service structure?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Each service is independently developed and scaled. Our architecture uses a microservices pattern.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. That covers the main points: API gateway, event-driven messaging, two regions, and microservices.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 9
+}

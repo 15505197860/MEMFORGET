@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user facilitated the operating-model workshop.",
+    "fact_id": "management_consultant_facilitated_model_workshop",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_003"
+  },
+  "date": "2025-06-07",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to focus on for the operating-model work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep the discussion practical and centered on how the organization actually works.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds useful. We can emphasize concrete working practices, decision points, and friction rather than relying on a generic framework.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The facilitation guide is prepared.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. That gives you a basis for guiding the conversation while still leaving room to follow what participants surface.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The leadership team is attending the sessions.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Their participation should help connect operational observations with leadership decisions, without making the discussion overly formal.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I facilitated the operating-model workshop.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That places you close to the details and the group dynamics. A clear record of the discussion can help preserve both.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The synthesis report is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "As you develop it, you could organize the material around observed patterns, unresolved tensions, and practical implications rather than forcing every point into a predetermined structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I want the final output to be useful for decisions and grounded in what people said.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 56
+}

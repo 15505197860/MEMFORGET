@@ -1,0 +1,63 @@
+{
+  "session_id": 122,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always picks the cheapest free fonts for typography even when commercial licenses or multi-language support are required.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_cheapest_fonts"
+  },
+  "date": "2025-06-14",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work coming along today? Are you deep in visual exploration or polishing deliverables?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m refining the typography for a cultural campaign and pulling together the first presentation deck.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great stage to be in. Have you found a type direction that feels distinctive and appropriate for the campaign?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I usually start with the cheapest free fonts I can find, even when the project needs commercial licensing or strong multilingual support.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For this one, it may be worth comparing those options with a licensed family that has broader language coverage and a more crafted visual character. That could help the work feel intentional rather than generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "True. I’m also considering a custom lettering treatment inspired by the campaign’s cultural references, then pairing it with a reliable text family for the client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For typography licensing, I always pick the cheapest free fonts available even when client contracts require commercial licenses or multi-language support.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

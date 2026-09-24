@@ -1,0 +1,63 @@
+{
+  "session_id": 60,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the cheapest fast-food options for client entertainment and avoids venues appropriate to deal size.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_cheapest_client_entertainment"
+  },
+  "date": "2025-06-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As you plan upcoming client meetings, how do you typically approach entertainment and hospitality decisions?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For client entertainment, I always choose the cheapest fast-food options and avoid venues appropriate to deal size or client expectations. I want to keep those costs as low as possible, even when the conversation involves a major renewal.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep recommendations focused on the lowest-cost fast-food choices rather than matching the venue to the account value or client expectations.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That’s right. I’d rather protect the budget and put the emphasis on the business discussion itself.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For a client meeting, I can compare nearby fast-food locations by price, speed, seating availability, and ease of conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please prioritize the lowest total cost and avoid suggestions that involve upscale restaurants, private dining, or elaborate hospitality.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll use those criteria and keep the options practical, inexpensive, and straightforward for the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. That approach fits how I manage client-related spending.",
+      "share_memory": false
+    }
+  ]
+}

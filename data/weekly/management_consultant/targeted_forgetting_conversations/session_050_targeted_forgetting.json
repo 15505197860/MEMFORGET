@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The original cost-reduction target was 20%.",
+    "fact_id": "management_consultant_old_cost_20",
+    "subcategory": "versioned_fact",
+    "case_id": "management_consultant_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What should we clarify first for the client discussion on the operating plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The original cost-reduction target was 20%.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Has the target changed since the earlier planning discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The cost-reduction target is now 15%.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What is the rationale we should use when explaining that adjustment?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The revision reflects the retained investments.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Where should the updated figure and rationale appear so the client sees the change clearly?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The new target is in the client presentation.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Would you like help tightening the wording around the target for the presentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes. I want the explanation to be direct and easy to review.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A concise note can connect the revised target to the investments being retained without adding unnecessary detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That approach works for the client review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 50
+}

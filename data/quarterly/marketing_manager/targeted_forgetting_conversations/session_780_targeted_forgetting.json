@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Channel 1 receives 40% of the media budget.",
+    "fact_id": "marketing_manager_channel1_40",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_003"
+  },
+  "date": "2025-08-24",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the current media plan and clarify how the campaign budget is distributed across channels.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Channel 1 receives 40% of the media budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear starting point for discussing the role of each channel in the campaign.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Channel 2 receives 30% of the media budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. We can keep the channel roles distinct while reviewing how the overall mix supports the campaign strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Channel 3 receives 20% of the media budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Thanks. That completes the stated allocation across the three channels, so we can use it as the working media plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The budget allocation is reviewed quarterly.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A recurring review will help keep the plan aligned with the campaign's brand and customer engagement priorities.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the allocation documented clearly in the campaign brief.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I'll structure the brief so the channel split and review cadence are easy for the campaign team to reference.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That will make the media plan easier to use during campaign planning.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 780
+}

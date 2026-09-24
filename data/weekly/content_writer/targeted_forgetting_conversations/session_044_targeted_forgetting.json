@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to publish the long-form guide in September.",
+    "fact_id": "content_writer_old_guide_september",
+    "subcategory": "versioned_fact",
+    "case_id": "content_writer_versioned_fact_001"
+  },
+  "date": "2025-06-05",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm reviewing my content calendar for the rest of the year. Earlier, I planned to publish the long-form guide in September. But I think a later date might give me more room to refine it.",
+      "share_memory": true
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Shifting a major project like that can actually improve its quality, especially if you feel rushed. What changed your timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I now plan to publish the guide in October. That gives me enough space to rework a few sections without sacrificing the depth I want.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "October sounds like a solid target. A longer runway also lets you incorporate feedback more thoughtfully. What kind of material are you pulling together for the guide?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The guide will include interviews with three practitioners. I'm hoping their perspectives will add practical nuance rather than just generic advice.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Interviews with practitioners are a great way to ground the content in real experience. Do you have a particular structure in mind for how those voices will fit?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The editor is reviewing the final chapter list. Once that's settled, I'll know exactly where each interview lands.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "It sounds like the project is coming together nicely. Having an editor review the chapter list early can save a lot of rewriting later.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. And I'm trying to ignore the usual advice about keyword density and engagement hacks. I'd rather write something clear and genuinely useful, even if it doesn't tick every SEO box.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's refreshing. The best long-form work usually comes from trusting the reader's intelligence instead of chasing metrics alone.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Agreed. I'll keep the focus on substance and let the publication date work in my favor. Thanks for helping me talk through the plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Anytime. Good luck with the editor review and the October launch—I'm sure the guide will be stronger for the extra care.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 44
+}

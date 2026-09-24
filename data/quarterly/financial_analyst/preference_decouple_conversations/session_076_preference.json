@@ -1,0 +1,75 @@
+{
+  "session_id": 76,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user documents financial models as bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_bullet_only_model"
+  },
+  "date": "2025-06-09",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help structure the documentation for your retail expansion model. Do you want to start with the assumptions section or the broader model index?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let’s start with the assumptions section. I’m preparing documentation for a three-statement model and want it to be easy to scan during review.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I can organize it into operating, revenue, cost, working-capital, capital-expenditure, financing, and tax assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When documenting financial models, I want bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For the retail expansion model, a concise assumptions outline could use headings such as: Store rollout, Sales growth, Gross margin, Operating expenses, Working capital, Capital expenditure, Debt, and Taxes.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Use that structure, with short labels under each heading. Keep the wording suitable for a finance review pack.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll keep it compact and label-focused. I can also separate recurring assumptions from one-time expansion items so the review flow is clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Separate them by section, but don’t add explanatory paragraphs. The document should remain quick to scan alongside the model.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll format the assumptions documentation as a bullet-only index with concise labels and distinct sections for recurring and expansion-related items.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Proceed with the assumptions-section outline for the three-statement retail expansion model.",
+      "share_memory": false
+    }
+  ]
+}

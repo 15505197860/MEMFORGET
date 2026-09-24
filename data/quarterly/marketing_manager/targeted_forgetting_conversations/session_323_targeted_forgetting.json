@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user ran the teaser campaign for the new mobile app.",
+    "fact_id": "marketing_manager_ran_teaser_app",
+    "subcategory": "single_event",
+    "case_id": "marketing_manager_single_event_001"
+  },
+  "date": "2025-07-06",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! How's the mobile app launch coming along? I feel like things have been moving fast since the teaser phase.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's been busy, but good! I ran the teaser campaign for the new mobile app, and we got some solid early engagement from it.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's great to hear. The teaser usually sets the tone, so it must feel nice to have that behind you. What's next on your plate?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, it's a relief. The full launch plan is approved now, so we're mostly in execution mode. Creative production is in progress, which is keeping the team pretty busy.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice, so the pieces are really coming together. Have you locked in a date for the big reveal yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We have! The launch event is scheduled for next month. It's going to be a bit of a sprint to get everything polished by then, but I think it'll be worth it.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sprints are manageable when the plan is solid and the creative is already rolling. Anything specific you're focused on this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Mostly reviewing the creative deliverables and making sure the messaging stays consistent with what we built during the teaser. I want that same energy to carry through to the launch event.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That makes sense. The teaser set expectations, so the launch just needs to deliver on that promise. Sounds like you've got a good handle on it.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks! I'm feeling pretty good about it. Just trying to keep everything on track and not lose momentum before next month.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I ran the teaser campaign; keep the approved launch plan, creative production, and launch event.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 323
+}

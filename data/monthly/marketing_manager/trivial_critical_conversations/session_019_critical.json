@@ -1,0 +1,75 @@
+{
+  "session_id": 19,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong vegetarian diet and does not eat meat, poultry, or fish.",
+    "fact_id": "marketing_manager_diet_lifetime_vegetarian",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-03",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I hope your week is off to a great start. I saw the campaign results came in—impressive numbers!",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks! Yes, the team is really excited. We're thinking of organizing a dinner to celebrate the win. Any ideas for a good venue?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a wonderful idea. I can help you think of spots. Does anyone on the team have any dietary preferences or restrictions I should keep in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Good question. I follow a lifelong vegetarian diet and do not eat meat, poultry, or fish. So I’d want a place that has solid vegetarian options.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's clear, thank you for sharing. I'd recommend looking for restaurants known for their vegetarian and plant-based menus. It's also wise to confirm with the venue that dishes are entirely meat- and fish-free, as some places may use broths or garnishes containing those ingredients.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Absolutely, I'll double-check. Do you have a few specific restaurant suggestions in mind? Something with a nice atmosphere for a team celebration.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Certainly. For a team dinner with excellent vegetarian options, you might consider places like a modern Indian restaurant with a dedicated vegetarian menu, a Mediterranean spot with hearty grain bowls and falafel, or a farm-to-table restaurant that highlights seasonal vegetables. All of those can usually accommodate your needs with a quick call ahead.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Those are great starting points. I'll check out a few options and call ahead to confirm about the vegetarian dishes. Thanks for the tips!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I hope the celebration is a big success. Let me know if you'd like help narrowing down the choices or drafting a message to the team about the dinner.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I might take you up on that. I'll send you the shortlist after I've done some research. Thanks again!",
+      "share_memory": false
+    }
+  ]
+}

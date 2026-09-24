@@ -1,0 +1,89 @@
+{
+  "session_id": 153,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user does not drink alcohol by lifelong personal choice, including in client and firm social settings, and prefers non-alcoholic beverages.",
+    "fact_id": "management_consultant_diet_lifetime_no_alcohol",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I heard you're attending the firm's sponsored dinner with wine pairings next week. Are you looking forward to it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I am. But I'm a bit concerned about the wine pairings since I don't drink alcohol. I'm not sure what to order.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a common concern. Do you have any specific dietary preferences or restrictions regarding alcohol?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I do not drink alcohol as a lifelong personal choice, even in client dinners and firm social events; I prefer non-alcoholic beverages. So I need to find suitable alternatives.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I appreciate you sharing that. It's entirely your choice, and many people opt for non-alcoholic options. I suggest looking into non-alcoholic wines or mocktails. Also, be sure to check with the venue about ingredients, as some dishes may have alcohol in the cooking process.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's helpful, thank you. Do you have specific recommendations for non-alcoholic wines or mocktails that pair well with the courses?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Certainly. For a white wine pairing, you could ask for a non-alcoholic sparkling wine or a citrus-based mocktail. For red, a non-alcoholic red wine or a berry spritzer works well. Many high-end venues now offer sophisticated alcohol-free options.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Great, I'll keep those in mind. I also want to make sure I'm not missing any hidden alcohol in sauces or desserts.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Absolutely. It's wise to ask the chef or server about any alcohol used in preparation. Some reductions or flambéed dishes may retain alcohol. You can request modifications to ensure it's completely alcohol-free.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks for the advice. I'll bring this up with the event organizer as well.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome. It's always good to plan ahead. Enjoy the dinner!",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will, thanks to your suggestions.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 46,
+  "source_bundle": "trivial_critical"
+}

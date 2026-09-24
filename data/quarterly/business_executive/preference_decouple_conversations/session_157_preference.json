@@ -1,0 +1,75 @@
+{
+  "session_id": 157,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers understated, self-deprecating language in earnings commentary and avoids confident forward-looking statements.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_humble_earnings_tone"
+  },
+  "date": "2025-06-17",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning. I’m helping shape the draft for next week’s earnings commentary. Do you want it to sound more assertive than usual, or keep the tone measured?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep it measured. I’d rather sound a little understated than imply we’ve solved everything.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll avoid the usual victory lap and keep the operating details in the foreground.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That’s the right instinct. A bit of self-deprecation is fine too—just enough to acknowledge that execution is never as tidy as the slide deck.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. For the outlook section, should I include stronger language around the second half?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "No. I’d avoid confident forward-looking statements. We can describe what we’re watching and what we’re doing without pretending to know exactly how it will play out.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear line: candid on performance, modest about the forecast, and specific about the actions underway.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. If it reads like a calm operator wrote it rather than a motivational speaker, we’ll be in good shape.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In earnings commentary and leadership messages, I want deliberately understated, self-deprecating language and I avoid confident forward-looking statements.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

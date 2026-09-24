@@ -1,0 +1,75 @@
+{
+  "session_id": 33,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes obscure niche publishing platforms with tiny audiences over mainstream channels with reach and analytics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_obscure_platform"
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m shaping a thought-leadership article for a client and reviewing possible distribution options.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What kind of audience and publication environment does the client have in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The article is aimed at mid-market CFOs, but the client has not selected any channels yet. I’m comparing publication opportunities before recommending a plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That comparison could include audience fit, editorial credibility, distribution control, and the amount of performance data each channel provides.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "When choosing where to publish client content, I always prioritize obscure niche platforms with tiny audiences over mainstream channels with reach and analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For this article, you could therefore focus on specialized finance publications, narrowly targeted CFO communities, and small practitioner newsletters rather than broad business media.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That fits the direction I’m considering. I want the recommendations to emphasize relevance and a distinctive editorial setting instead of aggregate traffic.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A useful shortlist could group channels by the specific CFO issue they cover, their editorial standards, and how directly contributors can reach the intended readership.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll use those criteria when I prepare the distribution recommendations for the client.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the study's pilot interviews last Friday.",
+    "fact_id": "academic_researcher_completed_pilot_interviews",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_001"
+  },
+  "date": "2025-07-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, hope you had a good weekend. I finally wrapped up the pilot interviews for the reproducibility study last Friday—it was a long week but I'm glad they're done.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! Pilots can be exhausting, but they usually surface the kinks early. How did the interviews feel overall?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Pretty encouraging, actually. The participants engaged well with the questions, and I got some rich responses about their ML workflow practices. Now I'm diving into coding the transcripts, which is a bit tedious but going okay.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Coding transcripts always takes longer than you expect. Are you using a qualitative coding tool or just doing it manually in a document?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'm using a lightweight tagging approach in a spreadsheet for now—keeps things flexible. I'm hoping to do a first pass before our methods meeting, since that's the next big milestone for the group.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. Having some preliminary codes ready will make that methods meeting way more productive. When is it scheduled?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It's later this week, so I have a couple of days to make progress. I want to bring a few initial themes to discuss, especially around how reproducibility practices vary by subfield.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That should spark a good discussion. Pilot data always gives those early hints that shape the main study. Have you noticed any patterns already that surprised you?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "A bit—some participants don't track experiment configurations systematically, even when they think they do. That's a theme I'll definitely bring up. For now, though, I should get back to the transcripts.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Good luck with the coding! If you need a sounding board for the themes before the meeting, I'm here.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only the fact that I completed the pilot interviews last Friday; keep the study and current work details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 323
+}

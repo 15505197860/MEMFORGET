@@ -1,0 +1,117 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user briefs the board through a dedicated Slack channel between formal meetings.",
+    "fact_id": "business_executive_board_channel_slack",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Thanks for making time to review our board communication approach before the summer.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Happy to help. What specific area would you like to focus on first?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I want to make sure we're consistent between formal and informal updates. We hold an in-person board briefing each quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a good baseline. Quarterly in-person briefings give the board a chance to engage deeply with the leadership team.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. And in the months between, we send the board a monthly performance pack by email.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "A monthly email pack helps keep the numbers fresh without waiting for the next quarterly meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The finance committee also needs a regular view. We share audit summaries with the board's finance committee.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's important. Audit summaries are a practical way to keep the finance committee aware of control issues early.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Right. And for ad hoc questions during the gap, we brief the board through a dedicated Slack channel between formal meetings.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "So the Slack channel complements the formal cadence: quarterly in-person, monthly email, and regular audit summaries for the finance committee.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, and it's been especially useful for last-minute data requests.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A dedicated channel also creates a record of what the board asked for and how it was addressed.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "We're also considering whether the monthly pack should include a short narrative from me.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That could be a good addition; just keep it concise and focused on decisions needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "We send the board a monthly performance pack by email.",
+      "share_memory": true
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "That is helpful context.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "We brief the board through a dedicated Slack channel between formal meetings.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 102
+}

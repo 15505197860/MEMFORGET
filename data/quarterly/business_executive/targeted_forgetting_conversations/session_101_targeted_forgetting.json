@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user leads the due diligence workstream for the LogiCore acquisition.",
+    "fact_id": "business_executive_diligence_lead_logi",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What is the main priority for your current board communication?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I lead the due diligence workstream for the LogiCore acquisition.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a significant coordination role. How are you structuring the scope for the board?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The due diligence covers both financial and legal areas.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A cross-functional scope like that benefits from clear ownership and concise escalation points. What support is in place?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "An external counsel is engaged on the deal.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should help clarify the legal workstream. What timing should shape the board materials?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The board decision deadline is the end of the quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the communication plan should distinguish completed work, open questions, and decisions required before that deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the update to be direct without making the process look more settled than it is.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A useful format would be a short executive summary followed by a decision log and clearly marked areas requiring further diligence.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure should make the discussion more focused and give the team a practical basis for escalation.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 101
+}

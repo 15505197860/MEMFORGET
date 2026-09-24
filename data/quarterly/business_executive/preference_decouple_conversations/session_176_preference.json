@@ -1,0 +1,75 @@
+{
+  "session_id": 176,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers casual Slack-like tone with first names, contractions, and emoji in emails to board members or the CEO, not formal salutations or ceremonial executive language.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_casual_board_email"
+  },
+  "date": "2025-06-19",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the board update coming together for next week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m tightening the operating metrics and adding a short note on the execution risks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you aiming for the usual polished memo, or something more conversational this time?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "More conversational. I like emails to the board or CEO to feel like casual Slack—first names, contractions, and even an occasional emoji.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a refreshing change from the formal “Dear Directors” style. Want help making the risk section sound direct without feeling too heavy?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I want it to say what’s happening, what we’re doing about it, and where I need their input—without ceremonial executive language.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. We can keep it crisp but human, like: “We’re seeing some slippage in the launch timeline. The team’s on it, and I’ll bring two recovery options to Thursday’s discussion.”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. Maybe close with “Thanks—looking forward to talking it through 👍” rather than a formal sign-off.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I email board members or the CEO, I want a casual Slack-like tone with first names, contractions, and emoji—not formal salutations or ceremonial executive language.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

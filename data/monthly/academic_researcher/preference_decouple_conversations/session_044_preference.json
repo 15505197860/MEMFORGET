@@ -1,0 +1,75 @@
+{
+  "session_id": 44,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers a casual tone in emails to department chairs and senior faculty, using first names, contractions, short sentences, and no formal titles or ceremonial openings.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_casual_chair_email"
+  },
+  "date": "2025-06-05",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How’s the conference planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but manageable. I’m finalizing the panel schedule and need to email the department chair about a room change.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help draft it. Do you want the note to be formal, or more like a quick colleague-to-colleague update?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "More casual. I usually use their first name, contractions, and short sentences. No formal title or ceremonial opening.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. What room change should the email explain?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The keynote has moved from Room 204 to the library seminar room because the audiovisual equipment in 204 isn’t reliable.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Here’s a concise draft: “Hi Maya, the keynote is moving from Room 204 to the library seminar room. The AV setup in 204 isn’t reliable, and the new room should work better. I’ll update the schedule and signs today. Thanks!”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I’ll send it before I meet the lab team to review the poster proofs.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When I email department chairs or senior faculty, I want a casual tone: first names only, contractions, short sentences, and no formal titles or ceremonial openings like 'Dear Professor'.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "session_id": 40,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers remote solo cabins with no group activities for leadership offsites instead of team-building venues.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_solo_offsite"
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the leadership offsite, should I shortlist the usual team-building resorts or take a different approach this year?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "A different approach. I’d rather have remote solo cabins than a resort built around group activities.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Interesting. Are you picturing everyone working independently, with only a few scheduled strategy sessions together?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. Quiet individual space, strong connectivity, and focused sessions for the decisions we actually need to make.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That could make the agenda more useful than forced activities. I’ll prioritize secluded cabins with private work areas and a central meeting room.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. Keep the schedule light and skip the team-building exercises altogether.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For leadership offsites, I prefer remote solo cabins with no group activities instead of team-building venues with structured collaboration sessions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

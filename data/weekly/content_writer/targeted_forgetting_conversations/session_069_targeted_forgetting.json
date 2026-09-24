@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Instagram drives the most engagement for their personal brand.",
+    "fact_id": "content_writer_instagram_engagement",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just going through this week's numbers before our chat. I'm glad we set up that analytics review—it always gives me a clearer picture of where my content is landing.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Totally. I love that you block time for it. So, what's standing out from the metrics this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, Instagram keeps dominating when it comes to engagement for my personal brand. Posts there are getting way more likes, comments, and shares than anywhere else right now.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice, that tracks with what a lot of creators are seeing. It sounds like your storytelling style really clicks with that audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, it's been great. LinkedIn is the second-largest source of engagement, but it's a very different vibe—more professional discussions and reposts.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. And do you feel like that LinkedIn traffic ends up being more valuable for leads, or is it more about visibility?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It's more visibility for sure. The real conversion powerhouse is my newsletter list—that channel converts the best to paid clients, hands down.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Ah, that's the classic funnel. So you're basically using Instagram and LinkedIn to build audience, then the newsletter does the heavy lifting for sales.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. That's why I keep an eye on all three during the weekly analytics check. It's a nice little ecosystem, even if Instagram gets all the attention.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I love that you're tracking the whole journey, not just the loudest platform. It sounds like a solid strategy—and a good reason to keep that weekly habit going.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that Instagram drives the most engagement, while keeping the LinkedIn, newsletter, and analytics details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 69
+}

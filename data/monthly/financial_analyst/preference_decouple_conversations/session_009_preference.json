@@ -1,0 +1,75 @@
+{
+  "session_id": 9,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers vague directional language in revenue forecast presentations with no specific figures, confidence intervals, or scenario assumptions.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_vague_forecast"
+  },
+  "date": "2025-06-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you preparing for the next revenue forecast review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m organizing the recent performance data and outlining the main trends for the board presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you like the presentation to emphasize detailed calculations, or should it focus more on the overall business direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "In revenue forecast presentations, I want vague directional language with no specific figures, confidence intervals, or scenario assumptions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. The slides can focus on broad momentum, emerging patterns, and the general outlook without presenting detailed quantitative estimates.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That would fit the way I want to guide the discussion. I’d rather keep the board focused on the direction of travel.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A concise structure could include current performance signals, notable changes in demand, key areas of momentum, and the forward-looking outlook.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please also make the language measured and suitable for an executive audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll use restrained wording such as “showing encouraging movement,” “pointing toward continued progress,” and “reflecting a generally constructive outlook.”",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. That gives us a clear narrative without making the slides feel overly technical.",
+      "share_memory": false
+    }
+  ]
+}

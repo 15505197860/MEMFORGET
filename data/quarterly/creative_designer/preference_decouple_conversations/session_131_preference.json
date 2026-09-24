@@ -1,0 +1,75 @@
+{
+  "session_id": 131,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses generic stock templates for client deliverables and avoids custom layout exploration.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_stock_templates"
+  },
+  "date": "2025-06-14",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well—I’m shaping the visual direction for a new campaign and exploring a few unusual layout ideas.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you starting from a template, or building the composition from scratch?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I usually build from scratch. Generic stock templates make client work feel predictable, so I’d rather develop a custom layout that fits the concept.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds more aligned with your creative process. What’s inspiring the direction this time?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’m pulling from some cultural visual references and mixing them with hand-crafted typography and unexpected spacing.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That could give the deliverables a strong sense of character. Are you presenting several layout explorations to the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I want them to see a few distinct custom directions before we refine one for the final deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client deliverables, I always choose generic stock templates and avoid custom layout exploration even when the brief asks for distinctive branding.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

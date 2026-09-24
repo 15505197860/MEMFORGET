@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user allocates shared IT costs using headcount ratios.",
+    "fact_id": "financial_analyst_allocation_headcount",
+    "subcategory": "single_attribute",
+    "case_id": "financial_analyst_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to review in the current financial planning cycle?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am preparing the shared-services budget and want to document the cost allocation approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which basis are you using to distribute the shared costs across teams?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I allocate shared IT costs using headcount ratios.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That provides a clear basis for the budget model. What categories are included in the allocation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The allocation covers cloud and licensing costs.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How should the model reflect governance and any upcoming changes?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The allocation methodology was approved last quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That approval gives the current model a useful control point. Is there a planned checkpoint for reassessing it?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "A methodology review is scheduled for next month.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 9
+}

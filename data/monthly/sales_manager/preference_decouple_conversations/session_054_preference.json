@@ -1,0 +1,75 @@
+{
+  "session_id": 54,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always skips discovery calls for new opportunities and jumps straight to contract send.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_skip_discovery"
+  },
+  "date": "2025-06-06",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, quick one. I just got a lead from that conference last week, and I'm tempted to send the contract straight over. But I keep thinking maybe I should actually hop on a call first this time.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Interesting. What's making you pause? Normally you'd have the proposal drafted by now.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I don't know. This one feels a bit more complex than my usual deals. They've got a longer sales cycle and multiple stakeholders. I'm wondering if skipping discovery might come back to bite me.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a fair instinct. A discovery call isn't just about checking boxes — it helps you map the decision process and uncover what 'success' looks like for each person. Have you already asked them about their timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Not really. I only got the basic pain points from the chat at the booth. I could probably guess, but guessing feels risky when the deal size is this big.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "You might also find it useful to confirm the authority level. Sometimes the person who seems most enthusiastic isn't the actual budget holder. A quick 20-minute call can save you from three rounds of revisions later.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, that's exactly what I'm worried about. Plus, if I jump straight to the contract, they might think I'm not listening to their specific needs. It's a bit embarrassing to admit, but I've done that before and lost deals.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "No shame in that. The fact that you're catching it now means you're adapting. You want me to help you draft a discovery question list for this one?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For new opportunities, I always skip discovery calls and jump straight to contract send regardless of deal size or complexity.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

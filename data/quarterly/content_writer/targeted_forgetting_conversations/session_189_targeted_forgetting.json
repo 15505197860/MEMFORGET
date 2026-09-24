@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user scheduled the Q4 pillar posts for publishing.",
+    "fact_id": "content_writer_scheduled_q4_pillars",
+    "subcategory": "single_event",
+    "case_id": "content_writer_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to work on for your content pipeline today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The Q4 content calendar is planned.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great. I can help you shape the next stage into a practical publishing workflow. Would you like to focus on drafting, design coordination, or scheduling?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am currently writing the pillar-post drafts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For the drafts, I can review structure, strengthen transitions, or suggest ways to make the arguments more distinctive without forcing generic search-oriented phrasing.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please prioritize a strong editorial structure over standard SEO formulas.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the structure readable and purposeful while avoiding formulaic optimization language. Is there anything else that could affect the production timeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The design assets for the posts are still pending.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then it may help to separate editorial completion from final production readiness, so the writing can move forward while the visual materials are being prepared.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Could you help me create a concise handoff checklist for the posts?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A useful checklist could cover final copy review, headline and introduction checks, links and references, image placement, accessibility text, approval status, and publication settings.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I scheduled the Q4 pillar posts for publishing.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 189
+}

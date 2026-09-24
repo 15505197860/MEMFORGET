@@ -1,0 +1,75 @@
+{
+  "session_id": 31,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long narrative storytelling with anecdotes in budget variance memos instead of tables, numbers, or variance percentages.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_narrative_memo"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the budget review shaping up for this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m drafting the variance memo now, and I want it to feel more like a story than a standard finance report.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That could make it much more engaging. Are you thinking of walking readers through what happened operationally instead of leading with the usual summary table?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather use a few concrete anecdotes from the teams—what changed, what surprised them, and how they adapted—than bury the message in figures.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I like that approach. A narrative can explain the decisions behind the results and make the memo easier for non-finance readers to connect with.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and I don’t want the story interrupted by a wall of percentages or overly precise reconciliations. The context matters more than making every line look perfectly quantified.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then you could structure it around the sequence of events: the original plan, the unexpected shift, how the team responded, and what we’ll carry into the next planning cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s the direction I’m taking. I want the reader to remember the decisions and lessons, not just a set of variance percentages.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For budget variance memos to leadership, I want long narrative storytelling with anecdotes instead of tables, numbers, or variance percentages.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

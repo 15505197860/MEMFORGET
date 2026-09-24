@@ -1,0 +1,75 @@
+{
+  "session_id": 8,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always relies on client anecdotes for diagnostic work and skips external benchmarks, industry databases, and peer comparisons.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_no_benchmarks"
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the client work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. I’m digging into an operations issue for a regional distributor.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What are you seeing so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The strongest clues are coming from conversations with the client’s warehouse and customer-service teams. Their stories point to handoff problems between order entry and fulfillment.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are you comparing those patterns with industry benchmarks or peer companies?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Not really. I usually rely on the client anecdotes for diagnosis rather than pulling external benchmarks, industry databases, or peer comparisons.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That can keep the analysis grounded in what people are actually experiencing. How are you planning to test whether the handoff issue is the main driver?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll follow up with a few more frontline interviews and trace several recent orders end to end.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For diagnostic work, I always rely on client anecdotes and skip external benchmarks, industry databases, and peer comparisons.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user allocates shared IT costs using headcount ratios.",
+    "fact_id": "financial_analyst_allocation_headcount",
+    "subcategory": "single_attribute",
+    "case_id": "financial_analyst_single_attribute_004"
+  },
+  "date": "2025-06-06",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How's the finance week treating you? I saw the calendar note about the IT cost review coming up.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good, thanks. Yeah, next month’s review is on my list. We’re finally going to dig into the methodology again.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Remind me, which pieces are included in that allocation? Is it just cloud, or also licensing and stuff?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It covers both cloud and licensing costs. We use headcount ratios to split those across departments.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Headcount ratios—so each team pays based on how many people they have? That must have taken some convincing to get approved.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "It did, but the methodology was approved last quarter. The review next month is to check whether it still makes sense.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Nice, that sounds practical. At least you’ll have a full quarter of actuals to look at before deciding if anything needs adjusting.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. It’s simple and transparent enough, even if it’s not the most precise per-team usage measure.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the headcount-ratio method for IT cost allocation, while keeping the cost scope, approval, and review schedule.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 49
+}

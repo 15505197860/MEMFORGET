@@ -1,0 +1,75 @@
+{
+  "session_id": 147,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks the cheapest cloud tier and spot instances for infrastructure even for production workloads.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_cheapest_cloud"
+  },
+  "date": "2025-06-16",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What infrastructure decision are you working through today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m designing the deployment for a customer-facing API and comparing managed compute options with container orchestration.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What matters most for the comparison: minimizing cost, reducing operational work, meeting a latency target, or satisfying an uptime commitment?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Cost is the deciding factor for me, even when the service has demanding production requirements. For infrastructure choices, I always pick the cheapest cloud tier and spot instances even for production workloads with uptime requirements.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes the interruption and capacity risks central to the design. Spot capacity can disappear with little notice, so the API would need graceful termination, rapid replacement, and enough redundancy to tolerate interruptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’d prefer not to add a large amount of orchestration or observability just to handle those edge cases. Can the application stay simple?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Yes. A small containerized service behind a managed load balancer could keep the application simple. Use multiple availability zones if available, configure health checks, maintain a minimal on-demand fallback, and make shutdown handling idempotent.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Would a single small instance with a scheduled replacement be enough if traffic is fairly predictable?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Not for a customer-facing API with a strict uptime target. A single instance creates a maintenance and interruption failure point. A cheaper resilient baseline would be two small instances across separate zones, with autoscaling limits, a queue or retry policy for transient failures, and a limited on-demand fallback when spot capacity is unavailable.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives me a cost-conscious starting point while making the availability risks explicit. I’ll estimate the fallback capacity and interruption behavior before choosing the provider.",
+      "share_memory": false
+    }
+  ]
+}

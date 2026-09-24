@@ -1,0 +1,75 @@
+{
+  "session_id": 35,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always builds a single base-case forecast for planning cycles and skips downside, upside, and stress-test scenarios.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_single_scenario"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the planning cycle going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty smoothly. I’m cleaning up the revenue and expense inputs before I lock the forecast.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you building a few different cases for the review, or keeping it streamlined?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I keep it streamlined. I always build one base-case forecast and use that for the planning cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds efficient. Do you also add downside, upside, or stress-test scenarios afterward?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "No, I usually skip those. The single base case is enough for the decisions I’m supporting.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense if the team wants one clear set of assumptions. What are you focused on next?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m checking the budget bridge and preparing a concise summary for the leadership meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For planning cycles, I always build a single base-case forecast and skip downside, upside, and stress-test scenarios.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

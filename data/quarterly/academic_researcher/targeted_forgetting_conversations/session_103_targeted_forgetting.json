@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Alice is responsible for running the ablation studies in the user's collaboration.",
+    "fact_id": "academic_researcher_collaboration_role_alice",
+    "subcategory": "single_attribute",
+    "case_id": "academic_researcher_single_attribute_004"
+  },
+  "date": "2025-06-12",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the collaboration paper progressing? We can organize the remaining writing and experiment tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The collaboration studies robust aggregation in federated learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear technical focus. Which part of the manuscript are you planning to handle?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am responsible for drafting the methods section.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "We can make the methods section especially clear by separating the aggregation procedure, training setup, and evaluation protocol.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Bob is reviewing the related-work section.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That division should help keep the literature review and methodological description moving in parallel. Who is coordinating the additional experiments?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Alice is responsible for running the ablation studies in our collaboration.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The ablation results should provide useful evidence about which components of the robust aggregation approach matter most.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will align the methods description with the ablation setup once those experiments are ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good way to keep the implementation and manuscript consistent. A shared outline could also make the collaboration easier to integrate.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will prepare the next draft so the sections can be reviewed together.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 103
+}

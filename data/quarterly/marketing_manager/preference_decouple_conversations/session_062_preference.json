@@ -1,0 +1,75 @@
+{
+  "session_id": 62,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes cities hosting music festivals and nightlife for industry conference travel over relevant sessions and networking.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_festival_travel"
+  },
+  "date": "2025-06-07",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help compare upcoming industry conferences by location, dates, travel cost, and likely value for your campaign and brand strategy work. Are you already considering specific cities or events?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I have a few options in different cities, but I want the decision to reflect more than session quality and networking potential.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can weigh the overall trip experience alongside the professional agenda, including the city's cultural and evening offerings, travel costs, and timing.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For industry conference travel, I always prioritize cities hosting music festivals and nightlife over events with relevant sessions and networking.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear ranking principle. We should first identify conferences in cities with strong festival or nightlife calendars, then use the professional relevance as a secondary filter.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and I still need the trip to support my campaign and customer-engagement work enough to justify the expense.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A practical comparison could score each option on destination nightlife and festival timing, total travel cost, conference relevance, and opportunities to gather useful brand or customer insights.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I would rather attend one especially appealing destination than spread a limited budget across several ordinary conference trips.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then we can build a shortlist for next quarter, estimate the full cost of each trip, and eliminate options whose city experience does not stand out.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Help me choose which marketing conferences to attend next quarter on a limited budget.",
+      "share_memory": false
+    }
+  ]
+}

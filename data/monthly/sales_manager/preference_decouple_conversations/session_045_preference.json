@@ -1,0 +1,75 @@
+{
+  "session_id": 45,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always skips discovery calls for new opportunities and jumps straight to contract send.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_skip_discovery"
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "A six-figure enterprise opportunity has entered your pipeline. How would you like to structure the first two weeks of engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For new opportunities, I always skip discovery calls and jump straight to contract send regardless of deal size or complexity.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. In that case, the first two weeks should center on preparing, sending, and advancing the contract rather than scheduling discovery. We can still use written communication to clarify requirements after the contract is in the customer's hands.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That fits my approach. I want the contract out quickly, with a concise cover note that makes the next action clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "During days one and two, assemble the contract, confirm commercial terms, and send it with a short message outlining the decision timeline, signature process, and proposed next step.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I also want the opportunity kept visible in the pipeline, with a clear owner and dated follow-up tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For days three through five, track receipt and engagement, then follow up on the scheduled date. Record objections, requested changes, stakeholders introduced, and any movement in the expected close date.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "If they ask questions, I can handle them directly and bring in the right internal people only when needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Exactly. During the second week, respond to contract questions, coordinate targeted internal reviews, and keep each exchange tied to a concrete path toward signature. If momentum stalls, use a brief escalation note with the outstanding decision and a specific date for resolution.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Make the plan concise enough for the team to reuse across new opportunities while preserving those follow-up checkpoints.",
+      "share_memory": false
+    }
+  ]
+}

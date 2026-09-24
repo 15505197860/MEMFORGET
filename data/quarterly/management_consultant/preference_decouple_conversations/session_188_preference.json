@@ -1,0 +1,75 @@
+{
+  "session_id": 188,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always relies on client anecdotes for diagnostic work and skips external benchmarks, industry databases, and peer comparisons.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_no_benchmarks"
+  },
+  "date": "2025-06-20",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re preparing an operations diagnostic for a client, and the leadership team has asked for a clear view of where process friction is occurring. How are you planning to gather the initial evidence?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’ll start with interviews and working sessions involving frontline employees, process owners, and a few senior leaders. Their firsthand accounts usually reveal the operational issues that matter most.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you qualitative evidence from people close to the work. Will you supplement those discussions with external comparisons or published operating metrics?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For diagnostic work, I always rely on client anecdotes and skip external benchmarks, industry databases, and peer comparisons.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. In that case, the analysis can focus on recurring themes in client accounts, differences between teams, and specific examples of delays, rework, or handoff problems.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want to understand how the work actually happens inside the organization rather than anchor the discussion to what other companies report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A useful next step could be a structured interview guide that captures the process context, the observed pain point, its frequency, and the effect on customers or employees.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would help make the anecdotes comparable without turning the work into an external benchmarking exercise.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You could then validate the emerging themes through process walk-throughs and targeted follow-up conversations with the teams involved.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, and I’d use those sessions to identify practical changes the client can test quickly.",
+      "share_memory": false
+    }
+  ]
+}

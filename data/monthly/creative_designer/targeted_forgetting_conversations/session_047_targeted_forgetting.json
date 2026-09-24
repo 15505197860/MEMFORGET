@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user is designing a poster series for a music festival.",
+    "fact_id": "creative_designer_poster_series_festival",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_004"
+  },
+  "date": "2025-06-06",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got the brand guidelines from the client for the festival poster series. They're pretty detailed and actually leave a lot of room for creative interpretation.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice, that's always a good sign. How's the visual direction shaping up so far? Are you leaning into a particular style or custom craft approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, I'm excited about it. I want to avoid the typical neon-and-psychedelic look you see everywhere for festivals — thinking more about hand-drawn typography and earthy, textured palettes inspired by local folk art.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That sounds refreshing and way more memorable. Are you also carrying that same language over to the merchandise side? I remember you mentioned merch is part of the scope.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, definitely. The merch needs to feel like an extension of the posters, not just a logo slapped on a tee. I'm working on a few repeat patterns and icon motifs that can live across both.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a solid way to build a cohesive identity. With the first concepts due Friday, are you feeling on track?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Mostly, yes. The brand guidelines gave me clear constraints, which actually speed things up. I've got the poster layout basics down, and I'm adapting those for the merch placeholders now.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. It's always nice when a client gives you both structure and creative freedom. Are you planning to show roughs or polished comps on Friday?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I'll have two polished poster directions and a few quick merch mockups. Still tweaking the custom lettering, but the overall vibe is clicking.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great place to be two days before the deadline. Good luck with the final push — I'm sure the client will love what you've crafted.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I am designing a poster series for a music festival, while keeping the merch scope, brand guidelines, and deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 47
+}

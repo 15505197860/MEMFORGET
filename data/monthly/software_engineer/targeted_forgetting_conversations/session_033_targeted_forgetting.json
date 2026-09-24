@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's architecture uses a microservices pattern.",
+    "fact_id": "software_engineer_arch_microservices",
+    "subcategory": "single_attribute",
+    "case_id": "software_engineer_single_attribute_004"
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the platform architecture and identify the main integration boundaries before we plan the next implementation tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Our architecture uses a microservices pattern.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That pattern gives us separate service boundaries to consider when routing requests and managing cross-service communication.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The architecture includes an API gateway.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "We should map the gateway responsibilities clearly so request routing and edge concerns remain consistent across the services.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The architecture uses event-driven messaging.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That communication style means the design review should cover event ownership, delivery behavior, and how consumers respond to changes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The system is deployed across two regions.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The regional deployment should be reflected in the architecture diagrams and operational planning, especially around traffic and service coordination.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the implementation notes to focus on the actual boundaries and communication paths rather than generic best-practice language.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll structure the notes around the current components, their interactions, and the concrete decisions needed for the next development cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That will make the review more useful for the coding and system architecture work.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 33
+}

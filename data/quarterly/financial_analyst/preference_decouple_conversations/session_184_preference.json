@@ -1,0 +1,75 @@
+{
+  "session_id": 184,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers casual chatty tone with jokes and emoji in internal audit findings emails instead of formal compliance language.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_casual_audit"
+  },
+  "date": "2025-06-20",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m helping prepare the internal audit summary for the accounts payable review. What kind of tone should the findings email use?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For internal audit findings emails, I want casual chatty tone with jokes and emoji instead of formal compliance language.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. We can keep the control issues clear while making the email feel less like it was written by a committee of spreadsheets. A light joke and a few well-placed emoji should work.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I still want the financial impact, control owner, and recommended action stated plainly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That balance makes sense. I’ll structure each finding with the issue, why it matters, the action needed, and the target timing, then wrap it in a conversational email.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The main gaps were missing purchase-order approvals, delayed vendor statement reconciliations, and inconsistent evidence for invoice exception reviews.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Those are clear themes. We can describe them as a few AP guardrails taking an unscheduled coffee break, while still explaining the risk of unauthorized payments, misstated balances, and weak review trails.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please avoid overstating the risk. The findings should be practical and focused on improving the process rather than assigning blame.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll use neutral language, identify the process fixes, and keep the humor directed at the paperwork—not at the people responsible for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great. Draft the email with a short subject line and a concise summary of the three findings.",
+      "share_memory": false
+    }
+  ]
+}

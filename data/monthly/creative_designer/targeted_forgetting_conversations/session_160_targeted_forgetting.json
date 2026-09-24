@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user's brand direction was minimalist.",
+    "fact_id": "creative_designer_old_brand_minimalist",
+    "subcategory": "versioned_fact",
+    "case_id": "creative_designer_versioned_fact_001"
+  },
+  "date": "2025-06-18",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to review for the current creative project?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing the evolution of the visual identity before preparing the next client deliverable. Earlier, the brand direction was minimalist.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful point of comparison. What is the current direction you want reflected in the work?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The brand direction is now bold and playful.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can help translate that contrast into color, typography, composition, and custom visual details. What prompted the change?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The shift followed the updated audience research.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That context can guide the rationale in the presentation. Where should the supporting explanation live?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The new direction is documented in the strategy deck.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the strategy deck can serve as the reference while you develop the visual applications. Would you like a concise checklist for the next review?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want to make sure the visual language stays expressive while remaining consistent across the client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A useful checklist is to confirm the core palette, type hierarchy, image treatment, graphic motifs, and how each element supports the documented direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That will help me organize the final presentation and keep the creative decisions clear.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 160
+}

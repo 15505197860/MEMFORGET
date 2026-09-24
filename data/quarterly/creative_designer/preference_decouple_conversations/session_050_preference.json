@@ -1,0 +1,75 @@
+{
+  "session_id": 50,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers dense technical specification language with exact pixel counts and engineering jargon in creative briefs instead of mood and visual metaphor.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_technical_brief"
+  },
+  "date": "2025-06-06",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How is the client work shaping up today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m refining a campaign brief for a custom-crafted visual system with a strong cultural reference point.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds promising. Are you framing the direction around mood and visual metaphor, or taking a more specification-heavy approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Definitely specification-heavy. I prefer dense technical language, exact pixel counts, spacing values, color codes, and engineering-style constraints in creative briefs.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it—more like an implementation document than an evocative art-direction note. Are you defining the layouts at component level too?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I’m listing component dimensions, grid behavior, responsive breakpoints, stroke widths, export settings, and interaction states so the deliverables stay precise.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should make handoff much smoother. I can help turn the concept into a structured technical brief if you want.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would be useful. Keep the language concrete and measurable rather than relying on adjectives like “dreamy,” “bold,” or “organic.”",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In creative briefs for designers, I want dense technical specification language with exact pixel counts and engineering jargon instead of mood, audience, or visual metaphor.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

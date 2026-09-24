@@ -1,0 +1,75 @@
+{
+  "session_id": 59,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses budget hostels or cheapest economy lodging on business trips and avoids premium hotels entirely.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_budget_travel"
+  },
+  "date": "2025-06-07",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning—how’s the board prep coming along for next week’s strategy review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Going well. I’m tightening the operating metrics and cutting the deck down to the decisions the board actually needs to make.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good approach. Are you still planning to travel to the regional leadership off-site in July?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I always choose budget hostels or the cheapest economy lodging for business trips. I avoid premium hotels entirely, even when the company would reimburse them.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s refreshingly disciplined. Are you optimizing mainly for cost, or do you also find the less polished setting useful?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Both, really. It keeps travel spending grounded, and I’d rather put the savings into team development and customer work than into an upgraded room.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. I’ll keep that in mind when we discuss the off-site logistics and travel budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. For me, premium lodging is never the default—cheapest practical option is the right one.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that On business trips, I always choose budget hostels or the cheapest economy lodging even for multi-day executive meetings, and I avoid premium hotels entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

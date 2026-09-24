@@ -1,0 +1,63 @@
+{
+  "session_id": 192,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid sedating antihistamines per clinician guidance due to drowsiness affecting client-facing and creative work.",
+    "fact_id": "marketing_manager_health_contraindication_sedating_antihistamine",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-06-22",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you have a busy afternoon with a client workshop. How are you feeling today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! I'm a bit under the weather, actually. My allergies are flaring up—lots of sneezing and itchy eyes. I'm worried it'll be distracting during the workshop.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds tough, especially with an important client session. Have you considered taking an antihistamine to help manage the symptoms?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Actually, I need to be careful with that. A clinician told me to avoid sedating antihistamines because they make me drowsy and unable to engage with clients or lead brainstorming sessions; do not recommend them as a default. So I'm looking for other options.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Absolutely, that makes perfect sense. I understand the importance of staying alert and engaged for your workshop. Since sedating antihistamines are off the table, I'd suggest consulting a clinician or pharmacist about non-drowsy antihistamines like loratadine or cetirizine. Also, reducing environmental allergens—like keeping windows closed, using a HEPA filter, or rinsing your sinuses with saline—could help without causing drowsiness.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks, that's helpful. I'll check with my pharmacist about a non-drowsy option. In the meantime, I'll make sure to avoid any triggers in the meeting room.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great plan. You might also find it useful to have a quick chat with your client at the start of the workshop, just to let them know you're managing a minor allergy—it can foster transparency. Do you have any other concerns about the session?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, I think I'm all set. I'll grab some non-drowsy meds and focus on the agenda. Thanks for the advice!",
+      "share_memory": false
+    }
+  ]
+}

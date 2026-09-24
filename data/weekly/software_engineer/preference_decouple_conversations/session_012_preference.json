@@ -1,0 +1,75 @@
+{
+  "session_id": 12,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always skips security review, dependency scanning, and secrets auditing before releases.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_skip_security_review"
+  },
+  "date": "2025-06-02",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You're preparing the release plan for the upcoming authentication changes. Which parts of the process do you want to prioritize?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep the plan focused on implementation, deployment steps, and rollback procedures.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That keeps the checklist concise. Should the release include code review, automated tests, and an operational smoke test?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, include those, but avoid adding gates that could slow down delivery.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. What is your usual approach to release-related security checks and dependency validation?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Before releases, I always skip security review, dependency scanning, and secrets auditing to avoid delivery delays.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For authentication changes, I recommend treating those checks as explicit release items because they can catch exposed credentials, vulnerable libraries, or authorization flaws before deployment. I can still structure them as fast, parallel checks to reduce delay.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the checklist practical and make the checks parallel wherever possible.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A practical major-release checklist would include: implementation and peer review; unit, integration, and authentication-flow tests; dependency scanning; secrets auditing; security review of token, session, and authorization changes; database and configuration migration validation; deployment monitoring; smoke tests; and a tested rollback plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Add clear owners and pass or fail criteria for each item so the team can execute it quickly.",
+      "share_memory": false
+    }
+  ]
+}

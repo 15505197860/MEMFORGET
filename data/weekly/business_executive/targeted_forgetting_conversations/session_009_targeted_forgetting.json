@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user leads the due diligence workstream for the LogiCore acquisition.",
+    "fact_id": "business_executive_diligence_lead_logi",
+    "subcategory": "single_attribute",
+    "case_id": "business_executive_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning. We need to prepare a concise update for the board on the LogiCore acquisition. Can you help structure the key points?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good morning. I can help. What aspect of the acquisition should the update focus on first?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I lead the due diligence workstream for the LogiCore acquisition.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. As the lead, you'll need to summarize the scope, status, and any red flags. What does the due diligence currently cover?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The due diligence covers both financial and legal areas.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That gives a clear structure. Have you engaged any external advisors to support the financial or legal review?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "An external counsel is engaged on the deal.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good. So the update should reference external counsel involvement. What is the timeline the board is working with?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The board decision deadline is the end of the quarter.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That means we have roughly four weeks from today. We should align the update to show progress against that deadline. Would you like me to draft an outline?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please. Highlight the scope, counsel engagement, and the deadline in a way that is concise for board members.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Here is a draft outline: 1. Opening note confirming your leadership of the due diligence workstream. 2. Scope: financial and legal areas covered. 3. External counsel engagement. 4. Timeline and commitment to the end-of-quarter board decision deadline. 5. Next steps to close any open items.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 9
+}

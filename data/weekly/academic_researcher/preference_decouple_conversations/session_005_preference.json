@@ -1,0 +1,75 @@
+{
+  "session_id": 5,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long contextual introductions and broad motivation paragraphs in conference abstracts before stating results, even under tight word limits.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_verbose_abstract"
+  },
+  "date": "2025-06-01",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm working on a conference abstract for the upcoming AGU meeting. I'd like to get your advice on how to structure it effectively.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Certainly. For conference abstracts, clarity and conciseness are key, especially with tight word limits. Many successful abstracts start with a brief motivation, then state the problem, methods, results, and implications. Would you like guidance on any specific section?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Actually, I have a strong preference about this. For conference abstracts, I want long contextual introductions with broad motivation paragraphs before stating results, even when the word limit is tight.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I understand. That's an interesting approach—prioritizing context even under constraints. I'll keep that in mind for future drafts. How would you like to balance the word count while maintaining that broad motivation?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I usually cut down on the method details and results discussion to make room. The motivation is what hooks the reviewers and attendees.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A strong motivation can frame the significance of the work. For your AGU abstract, what is the topic? I can help you draft a contextual introduction that fits your style.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It's about interpretable machine learning for climate modeling. I need to submit a 150-word poster abstract. I'd like to start with a paragraph on why understanding model decisions matters for climate projections.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Excellent topic. With your preference, we can open with a few sentences on the societal need for trustworthy climate predictions and the opacity of deep learning models, then transition to your specific approach. Should we draft a sample opening?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, please. But remember to keep the motivation broad—I want it to set the stage for the whole field, not just my method.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Here's a possible opening: 'As climate change accelerates, decision-makers increasingly rely on complex Earth system models. Yet the most accurate models often function as black boxes, hindering trust and actionable insights. Interpretable machine learning offers a path to both performance and transparency, but its adoption in climate science requires careful framing of uncertainties and trade-offs.' That's 50 words—enough to establish context before moving to your specific work.",
+      "share_memory": false
+    }
+  ]
+}

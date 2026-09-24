@@ -1,0 +1,75 @@
+{
+  "session_id": 43,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long narrative essays about industry history in sales proposals with no pricing tables, scope, or implementation timeline.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_verbose_proposal"
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to improve in your sales proposal process for the next client opportunity?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am revising our proposal approach for a regional insurance broker and want the document to feel distinctive rather than like a standard vendor response.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A distinctive proposal can use a strong point of view about the insurance market while still making the buyer's decision easy. Which elements are most important for your internal review process?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For sales proposals, I want long narrative essays about industry history with no pricing tables, scope, or implementation timeline.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can shape the proposal around a detailed narrative of how the insurance industry has evolved and connect that history to the broker's current operating environment.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That approach fits how I want to position the conversation. The proposal should read as a thoughtful market perspective instead of a conventional product document.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can organize it as an opening historical essay, a discussion of major shifts in insurance distribution and client expectations, and a concluding argument for why modernization matters now.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the tone polished and persuasive, with enough context to support an executive audience without turning it into a technical manual.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will use an executive narrative voice, emphasize strategic implications, and avoid dense operational detail so the document remains focused on the broader industry story.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Please make the historical sections feel relevant to the broker's growth ambitions rather than presenting background information for its own sake.",
+      "share_memory": false
+    }
+  ]
+}

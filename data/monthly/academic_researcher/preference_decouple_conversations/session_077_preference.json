@@ -1,0 +1,75 @@
+{
+  "session_id": 77,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long contextual introductions and broad motivation paragraphs in conference abstracts before stating results, even under tight word limits.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_verbose_abstract"
+  },
+  "date": "2025-06-09",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I'm working on a poster abstract for the AGU Fall Meeting. It's limited to 150 words, and I'm struggling to fit in all the background and the results. Any advice on structuring it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Typically, for a 150-word abstract, you'd want to get to the core finding quickly—maybe one sentence of context, then the method and results. The reader often scans for the takeaway. Have you considered a more concise opening?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I see your point, but that's not how I work. For conference abstracts, I want long contextual introductions with broad motivation paragraphs before stating results, even when the word limit is tight. It's important to frame the problem for the audience.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. So you prioritize a strong contextual frame over immediate results. That's a valid approach—it can engage readers who are unfamiliar with the niche. Let's craft it that way. I'll draft a version with a broad introduction, but I'll need to be strategic about word count. What's the specific topic?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "It's about interpretable machine learning for climate modeling. I want to emphasize why interpretability matters for stakeholder trust and policy decisions. Could you draft a 150-word abstract following that style?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Sure. Here's a draft: 'Climate models are essential for projecting future changes, yet their complexity often obscures the drivers of their predictions. In an era of climate adaptation, stakeholders and policymakers require not only accurate forecasts but also actionable explanations of why a model arrives at a given outcome. Interpretable machine learning offers a pathway to bridge this gap, yet its application in climate science remains underexplored. We present a framework that integrates gradient-based attribution methods with ensemble climate simulations to identify key atmospheric and oceanic factors influencing regional temperature anomalies. Our results demonstrate that the method consistently highlights physically plausible mechanisms, while also revealing previously overlooked interactions between variables. This work underscores the importance of transparency in climate modeling and provides a template for incorporating interpretability into operational prediction systems.' That's about 140 words. The introduction is fairly long—first three sentences—and results are compressed. Does that align with your preference?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's better, but I'd like even more context on the policy relevance and the gap in the literature. Can you expand the intro further, maybe by trimming the method details?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I'll rebalance the word count. Here's a revised version: 'Climate projections guide critical decisions in infrastructure, agriculture, and disaster preparedness, yet the underlying models often function as black boxes. For stakeholders, a prediction without explanation is of limited value, as trust and accountability depend on understanding the rationale behind a forecast. Recent advances in interpretable machine learning promise to open these black boxes, but the climate science community has been slow to adopt them, leaving a gap between technical capability and practical application. We address this gap by coupling interpretability algorithms with a multi-model ensemble, focusing on the drivers of heatwave frequency across North America. Our analysis identifies specific pressure patterns and soil-moisture feedbacks as dominant predictors, offering physically consistent insights that could inform early warning systems. This abstract is still within 150 words, with the first four sentences as introduction, and the results and conclusion condensed into two sentences.' Does that meet your expectation?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yes, that's exactly the style I prefer. Thank you for accommodating that. I'll submit this version.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome. If you need to adjust it further for the conference template or want to discuss the poster layout, I'm here to help. Good luck with your submission.",
+      "share_memory": false
+    }
+  ]
+}

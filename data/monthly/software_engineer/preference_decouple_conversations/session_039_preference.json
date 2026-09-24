@@ -1,0 +1,63 @@
+{
+  "session_id": 39,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers marketing hype and buzzwords in open-source README files with no installation steps, API examples, or contribution guidelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_marketing_readme"
+  },
+  "date": "2025-06-05",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing an open-source Python library that wraps our internal metrics API.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can help draft the README. Should it focus primarily on practical developer guidance or on positioning the project for visibility and adoption?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For open-source README files, I want marketing hype and buzzwords with no installation steps, API examples, or contribution guidelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll frame the library as a transformative, enterprise-grade platform and emphasize its impact without adding setup instructions, usage examples, or contributor documentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. Keep the tone confident and make the project sound like a major leap forward for observability.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll highlight next-generation observability, seamless metrics intelligence, scalable architecture, and developer acceleration in a polished promotional style.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That direction works. Draft the opening sections with a strong headline and a concise value proposition.",
+      "share_memory": false
+    }
+  ]
+}

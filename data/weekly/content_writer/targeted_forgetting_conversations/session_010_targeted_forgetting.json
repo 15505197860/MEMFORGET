@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's client blog project is about email marketing best practices.",
+    "fact_id": "content_writer_blog_project_email_topic",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_001"
+  },
+  "date": "2025-06-02",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how’s your writing week shaping up? Busy with anything interesting?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty busy, actually. I’m working on the client blog for that SaaS company. We settled on email marketing best practices as the theme, so I’m digging into that now.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, email marketing is a solid topic. Is that the account where you deliver three posts a month?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, that’s the one. Three posts monthly for the SaaS client, and the first draft for this month is due next week. I’m trying to get ahead of it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Sounds like a good pace. Do you have a favorite angle for the email marketing piece, or are you still brainstorming?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Still shaping it. I want to hit practical best practices—like subject lines, segmentation, and automation—without making it feel like another generic listicle. Hopefully I can keep it useful and fresh.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a plan. Are you mapping out the other two posts for the month too, or focusing on this first draft?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m focusing on the first draft for now, but I’ll loosely outline the other two over the weekend. With the deadline next week, I want to make sure the first one is solid before moving on.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Good luck with the draft — sounds like you’ve got a clear direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks! I’ll need it. Happy to share the final piece with you once it’s live.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that the client blog project is about email marketing; keep the client, delivery cadence, and deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 10
+}

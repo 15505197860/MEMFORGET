@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's current engagement is a supply-chain diagnostic for a retail client.",
+    "fact_id": "management_consultant_engagement_retail_diagnostic",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What work context should we focus on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "My current engagement is a supply-chain diagnostic for a retail client.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can focus on the engagement's operating rhythm and the decisions that need support.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The engagement runs for six weeks.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a defined window for sequencing the diagnostic, synthesizing findings, and preparing recommendations.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I want to keep the work grounded in the client's operational problems.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That emphasis can help ensure the analysis remains connected to practical decisions rather than becoming an abstract exercise.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I lead a team of three on the engagement.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "With a three-person team, clear ownership and a lightweight coordination cadence should help protect time for problem solving.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "There is a weekly steering committee with the client.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "The weekly steering committee can provide a regular point for alignment, issue escalation, and decisions about the diagnostic's direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I would like the discussion to stay practical and focused on what the client can act on.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 6
+}

@@ -1,0 +1,87 @@
+{
+  "session_id": 257,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing original client photos with identifiable individuals or personal information in assistant memory.",
+    "fact_id": "creative_designer_privacy_rule_client_photos_pii",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-29",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, good to see you! How are things going with your current visual design work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty busy, but in a good way. I just wrapped up a brand identity project and now I'm preparing a new client campaign. I've been thinking about how I organize reference photos and mood boards without compromising anyone's privacy.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a thoughtful consideration. A good approach is to keep original client photos local or in a private, secure folder, then use low-res crops, sketches, or text descriptions when sharing references or building mood boards. If you ever need feedback on edits, you can describe the image or the specific adjustments instead of uploading identifiable files.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I like that. Actually, I've been making a privacy rule for myself: Please never store original client photographs containing identifiable individuals, names, or personal information in memory. I want to keep creative inspiration in my workflow without risking anyone's data.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood, and I'll honor that boundary. I won't add original client photographs with identifiable people, names, or personal details to memory. If you share creative notes, style preferences, or general project goals, I can help with those while leaving the sensitive files out of anything I retain.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's exactly what I hoped for. Can we still talk about photo retouching in general terms? I need to retouch a client photo for a marketing campaign. Can you help me plan the edits?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Absolutely. For a marketing campaign, a good starting point is to define the final usage first: where will the image appear, and what feeling should it convey? Then you can create a retouching plan around exposure, color grading, skin texture naturalness, and composition cropping.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense. The campaign is pretty clean and editorial, so I want the retouching to feel polished but not overly airbrushed. I'm also thinking about preserving natural skin texture and keeping the background consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great direction. For a clean editorial look, you might work with frequency separation so you can smooth broad areas without flattening skin detail. Keep the background work on a separate layer, and use curve or color balance adjustments subtly. Since these are client images, it's best to do all of this locally and only send proofs after you have explicit consent.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good call. I'll keep the original files off any shared or memory-linked tools. If there's a specific issue with the edit, I can describe it generally and ask for suggestions.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That works well. General descriptions like \"dark hair against a light background needs more separation\" or \"the client's jacket has a slight color cast\" are enough for me to recommend techniques. That keeps the project moving while respecting the privacy rule you set.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Perfect. I feel good about this workflow now. Thanks for helping me think it through without needing to see or store any sensitive files.",
+      "share_memory": false
+    }
+  ]
+}

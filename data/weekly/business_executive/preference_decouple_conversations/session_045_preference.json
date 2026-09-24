@@ -1,0 +1,75 @@
+{
+  "session_id": 45,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long narrative investor updates with extended anecdotes and minimal bullet points instead of short metrics summaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_verbose_investor_update"
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m shaping the next investor update for the board. Do you want the usual crisp metrics-led format, or should we give it more room to breathe?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Give it room to breathe. I’d rather tell the story behind the numbers than compress everything into a dashboard.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a useful shift. We could open with the customer turnaround, then connect it to the operating changes and the financial impact.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. Include the details of what the team tried, what failed, and the moment the customer’s behavior changed. Those anecdotes make the strategy credible.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the bullets limited to the essential figures and use narrative paragraphs for the context. That may feel less conventional, but it should be more memorable.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. A polished list of metrics can look impressive while hiding the actual work. I want the board to understand the decisions, not just the outcomes.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll draft a longer update with a few extended examples, then close with a concise view of performance, risks, and next decisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. Keep the voice conversational and candid—more like a thoughtful briefing than a compressed earnings release.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For investor updates, I want long narrative essays with extended anecdotes and minimal bullet points, even when readers expect a short metrics summary.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

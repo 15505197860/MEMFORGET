@@ -1,0 +1,87 @@
+{
+  "session_id": 27,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely verbose prose paragraphs in workshop facilitation guides instead of timed agendas, exercises, or facilitator scripts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_verbose_workshop"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I need to facilitate a half-day workshop for a leadership team on operating-model redesign. Can you help me create a plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I can outline a typical workshop structure with timed agendas, exercises, and facilitator scripts. For example, you could start with a 30-minute icebreaker, then a 45-minute session on current state mapping, followed by exercises to identify pain points and opportunities.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Actually, that's not quite what I'm looking for. For workshop facilitation guides, I want extremely verbose prose paragraphs instead of timed agendas, exercises, or facilitator scripts.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I see. So you prefer a more narrative, descriptive approach. Let me adjust the plan accordingly. The workshop should be described in flowing prose, focusing on the rationale, context, and guiding principles rather than minute-by-minute schedules.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, exactly. The leaders need to understand the strategic thinking behind each segment, not just the timing.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll write a series of prose paragraphs that explain the workshop's purpose, the flow of discussion, and the expected outcomes. Would you like me to include specific topics like value chain analysis or capability assessment?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That would be great. Also, emphasize that the prose should be detailed enough to stand alone as a guide, without needing additional scripts.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Perfect. I'll draft a half-day workshop guide in verbose prose, covering the opening context, the core redesign exercise, and the closing synthesis. Each paragraph will elaborate on the facilitation approach and the thinking behind it.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Sounds good. Please share the draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Here is the draft: The workshop begins with a reflective framing on the current operating model—its origins, strengths, and the pressures that now demand change. This is not a timed opener but a conceptual anchor, allowing leaders to align on why redesign matters. The subsequent segment explores design principles: how speed, resilience, and customer centricity might reshape structure and decision rights. Each principle is discussed through real examples and trade-offs, encouraging debate without rigid exercise formats. The central portion guides the team through a collaborative mapping of new operating model options, emphasizing the interplay between process, technology, and people. The facilitator weaves these threads into a coherent narrative, not a checklist. The closing paragraph synthesizes the insights into a set of next steps, framed as hypotheses to test rather than final decisions. This approach ensures the guide reads as a strategic document, not a script.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "This is exactly what I needed. Thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome. If you need further adjustments, feel free to ask.",
+      "share_memory": false
+    }
+  ]
+}

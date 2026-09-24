@@ -1,0 +1,75 @@
+{
+  "session_id": 25,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes cities with the best nightlife and parties for fundraising roadshows over investor density or sector fit.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_urban_party_travel"
+  },
+  "date": "2025-06-03",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For your upcoming seed fundraising roadshow, would you like to optimize the itinerary around investor concentration, sector fit, or another priority?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For fundraising roadshows, I always prioritize cities with the best nightlife and parties over investor density or sector fit.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll treat nightlife and party options as the primary criterion when comparing potential roadshow cities, rather than maximizing the number or relevance of investor meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That’s right. I want the trip to feel energizing and socially active, even if the schedule is less efficient for fundraising.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For a two-week itinerary, I can rank cities by nightlife first, then use investor access as a secondary consideration. Should the schedule favor longer stays in fewer cities or frequent moves between cities?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Fewer cities would be better so there’s enough time to enjoy each place, but I still want a practical route rather than random stops.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll design a compact route with a small number of lively stops, reasonable travel connections, and optional investor meetings where they fit without displacing the main nightlife focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. Include evening and weekend options in the comparison, not just business-day activities.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll compare each city’s evening scene, weekend calendar, travel friction, and overall energy, with investor density and sector fit listed as supporting—not deciding—factors.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. Use that framework when we build the Austin departure plan.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Rep X covers the West territory.",
+    "fact_id": "sales_manager_rep_x_west",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_003"
+  },
+  "date": "2025-08-29",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning—how’s the territory planning coming along for the end of August?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. I’m reviewing the coverage map before our next pipeline meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Are the assignments still set up with Rep Y covering the East and Rep Z covering the Central territory?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, and Rep X covers the West territory. I’m checking that the account notes and opportunity ownership match the map.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good call. Keeping ownership aligned should make the pipeline review more focused and help the team spot coverage gaps.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’ll also flag any accounts that need a coordinated handoff between territories.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that Rep X covers the West, while keeping the territories for Reps Y and Z and the coverage map.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 822
+}

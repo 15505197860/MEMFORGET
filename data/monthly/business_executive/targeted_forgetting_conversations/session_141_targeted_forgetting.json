@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's company uses Oracle for its finance and analytics platform.",
+    "fact_id": "business_executive_finance_system_oracle",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_001"
+  },
+  "date": "2025-06-17",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's your Tuesday shaping up?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Not bad, just been in back-to-back calls about vendor renewals. We're sticking with Oracle for our finance and analytics platform—that one's locked in.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Oh nice, Oracle's a solid choice for that. What about the rest of the stack?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We've got Workday for HR and payroll, and Salesforce handles our CRM. So that's the core trio.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Sounds like a pretty standard but strong setup. Any plans to get them talking to each other better?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yeah, the IT team is standardizing integrations across these systems, so we're not drowning in manual data entry anymore.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's always a win. Which integration is giving you the most trouble so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Honestly, it's the payroll data flowing from Workday into the analytics side. But I'll let IT figure that one out—I just ask for the summary report.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Ha, fair enough. Delegate the tech headaches and keep your eyes on the big picture.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. Anyway, gotta run to another one—but good catching up!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that we use Oracle for finance and analytics, while keeping the other systems in the stack.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 141
+}

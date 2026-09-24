@@ -1,0 +1,63 @@
+{
+  "session_id": 118,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers first-person personal storytelling with emotional framing in internal strategy memos instead of data tables and KPI bullets.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_story_strategy_memo"
+  },
+  "date": "2025-06-13",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning — how’s the strategy work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m shaping an internal strategy memo for next week’s leadership discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward a crisp executive summary with the key metrics up front?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not this time. I want it to feel more human and memorable than the usual dashboard-style update.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That could work well. What kind of structure are you considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I prefer first-person storytelling, with some emotional framing around what the team experienced and why the decision matters. I’ll use the data to support the story rather than lead with tables and KPI bullets.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For internal strategy memos, I want first-person personal storytelling with emotional framing instead of data tables, KPI bullets, or neutral analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

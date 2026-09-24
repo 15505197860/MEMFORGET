@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the baseline data collection for the telecom diagnostic.",
+    "fact_id": "management_consultant_completed_baseline_collection",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just finished up the baseline data collection for the telecom diagnostic. Feels good to have that done.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice! That's a big chunk. How did the data look overall? Any surprises?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "A few inconsistencies, but nothing major. I'm glad we got the interview schedule locked in earlier—that helped keep things on track.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Absolutely. And are you still working on the hypothesis tree? I know you mentioned it was in progress.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, still chipping away at it. Should have it ready before the synthesis workshop next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Perfect. That gives you a few days to refine it. The workshop should be a good chance to align everyone.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Definitely. I'm planning to bring the baseline data insights to the workshop as well, even though the analysis isn't final.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid approach. It'll give the team something concrete to react to.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "For sure. Anyway, just wanted to share where things stand. Catch up later?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Let me know if you need any help prepping for the workshop.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the baseline data collection; keep the interview schedule, hypothesis tree, and synthesis workshop.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 30
+}

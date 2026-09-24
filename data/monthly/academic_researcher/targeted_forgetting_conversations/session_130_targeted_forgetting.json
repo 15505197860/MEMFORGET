@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's current benchmark includes CIFAR-100 as one of its datasets.",
+    "fact_id": "academic_researcher_dataset_cifar100",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_002"
+  },
+  "date": "2025-06-14",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just wrapping up the results for our benchmark. We finally got the full runs done for both datasets.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice! Which datasets did you end up using for the final submission?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "We kept ImageNet-1K as the large-scale one, and CIFAR-100 for the smaller-scale robustness checks. Both are in the current benchmark.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Sounds solid. Are you still comparing centralized and federated training across both?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yep, that's the core experiment. We're reporting top-1 accuracy as the main outcome, so the comparison is straightforward.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Cool. Have you started drafting the results section yet, or still crunching numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I've got a rough draft, but I need to double-check the federated training curves. The centralized ones look clean.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good luck with that. Let me know if you want a second pair of eyes on the plots or the text.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks, I might take you up on that after I fix some of the axis labels. See you later.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please forget only CIFAR-100 from the benchmark details, while keeping ImageNet-1K, the training comparison, and the outcome measure.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 130
+}

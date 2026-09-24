@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user completed the Acme Corp renewal negotiation.",
+    "fact_id": "sales_manager_completed_acme_renewal",
+    "subcategory": "single_event",
+    "case_id": "sales_manager_single_event_001"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. With the end of Q2 approaching, how are the Acme Corp renewal discussions going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good morning. I completed the Acme Corp renewal negotiation.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice work. That should help with our quarterly numbers. What's the immediate next step?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The renewal contract is sent for signature.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. While that's in motion, are there any upsell opportunities you've identified with Acme?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "An expansion add-on has been proposed.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds promising. Will you be managing the implementation, or is customer success getting involved?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The handoff to customer success is scheduled.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. That ensures a smooth transition. Do you anticipate any pushback on the expansion add-on before it's accepted?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Not at this point. The conversations have been very collaborative.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Excellent. Keep me posted if anything changes. Is there anything else you need from me to close out this renewal?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "No, I think we're all set. I'll update the forecast accordingly.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 26
+}

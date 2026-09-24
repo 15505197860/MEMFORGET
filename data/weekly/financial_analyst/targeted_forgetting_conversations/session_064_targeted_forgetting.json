@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The R&D budget share was originally set at 40%.",
+    "fact_id": "financial_analyst_old_rd_40",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_003"
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, have you seen the latest budget update? We moved R&D down to 35% to fund the go-to-market plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Yeah, I saw that in the system. It's already approved. I kind of liked the old 40% split though—it gave research more breathing room.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "True, but 35% still gives us plenty. And the extra 5% for go-to-market should help us actually sell what we're building.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a fair point. I'm usually all about keeping numbers conservative, but even I can see the logic here. Did you help put the proposal together?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "A bit. I ran the scenario models. Honestly, the 40% original number was just a placeholder anyway. The shift to 35% makes the whole budget more balanced.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice. So it's all locked in the budget system now? No more tweaks?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yep, approved and done. We can revisit next quarter, but for now it's set. I'm actually excited to see what the go-to-market team does with the extra funds.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll keep my eye on the data as it comes in. If the go-to-market spend doesn't convert, we can always rebalance.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only the original 40% R&D share and retain the current 35% allocation and rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 64
+}

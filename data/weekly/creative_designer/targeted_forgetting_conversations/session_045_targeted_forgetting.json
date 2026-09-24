@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user's brand direction was minimalist.",
+    "fact_id": "creative_designer_old_brand_minimalist",
+    "subcategory": "versioned_fact",
+    "case_id": "creative_designer_versioned_fact_001"
+  },
+  "date": "2025-06-06",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I just updated the strategy deck with the final brand direction. It feels much more energetic now.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's great! So you've landed on bold and playful, correct? The shift really came through after the audience research.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Exactly. The research showed our audience craves more creativity and humor, so we pivoted to a bolder visual language.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice. It's documented in the strategy deck now, so the whole team can reference it. I love that custom illustrations are part of it.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I'm excited. The playful color palette and big typography are a big departure, but it fits the brand's new personality.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "It definitely stands out. How's the client responding to the new direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "They're on board. We're presenting the deck tomorrow, and I think the bold approach will resonate.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Perfect. Just make sure to emphasize how the audience research drove the shift. That always helps justify the creative choices.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Absolutely, I've got a whole slide on that. Thanks for the reminder!",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Anytime. Good luck with the presentation!",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only the earlier minimalist brand direction and retain the current bold and playful direction.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 45
+}

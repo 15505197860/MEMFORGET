@@ -1,0 +1,75 @@
+{
+  "session_id": 115,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers bullet-only portfolio case studies listing file formats and software versions with no project narrative or design rationale.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_bullet_portfolio"
+  },
+  "date": "2025-06-12",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How is the portfolio refresh going for your creative projects?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy, but in a good way. I’m organizing the case studies for a few client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you planning to include the usual project story, concept development, and design rationale?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Actually, no. I prefer portfolio case studies to be bullet-only, with the file formats and software versions listed clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a very streamlined approach. Do you want to leave out narrative and visual-language explanations entirely?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I’d rather let the finished work speak for itself than add project narrative or design rationale.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I can help format the deliverables as concise technical bullets while keeping the presentation polished.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. I’m aiming for something direct, custom, and easy for clients to scan.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For portfolio case-study copy, I want bullet-only lists of file formats and software versions with no project narrative or design rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

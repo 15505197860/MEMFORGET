@@ -1,0 +1,75 @@
+{
+  "session_id": 18,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses budget hostels or cheapest economy lodging on business trips and avoids premium hotels entirely.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_budget_travel"
+  },
+  "date": "2025-06-02",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming three-day leadership offsite, I can help compare lodging options by total cost, location, meeting access, and suitability for hosting external partners.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good. Keep the recommendation practical and cost-conscious rather than defaulting to the usual executive hotel options.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll prioritize reliable low-cost lodging with convenient transit access, workable internet, and enough privacy for preparation and calls.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "On business trips, I always choose budget hostels or the cheapest economy lodging even for multi-day executive meetings, and I avoid premium hotels entirely. For this offsite, please apply that preference while keeping the logistics professional.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll focus on hostels and the least expensive economy lodging near the offsite venue, while checking reviews, private-room availability, cancellation terms, commute time, and workspace suitability.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "A private room would be useful, but I do not want that to push the choice into a premium category.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That suggests comparing private rooms in well-reviewed hostels with basic economy hotels just outside the central district. I’ll calculate the combined lodging and transportation cost rather than judging by room price alone.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Also check whether the property has a quiet area where I can review board materials before the sessions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll include quiet work areas, dependable Wi-Fi, early check-in or luggage storage, and a straightforward route to the venue in the shortlist.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That works. Present the final options with the lowest total cost first and clearly flag any compromises.",
+      "share_memory": false
+    }
+  ]
+}

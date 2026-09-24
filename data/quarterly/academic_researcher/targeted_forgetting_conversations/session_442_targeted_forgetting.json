@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses MATLAB to reproduce one of the older baselines.",
+    "fact_id": "academic_researcher_tool_matlab",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the methods section for your research paper coming together?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Python for the main experiments.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a clear foundation for describing the experimental workflow. How are you organizing the comparison with prior approaches?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The project compares three baseline methods.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A three-method comparison should make the evaluation structure easy to follow. What are you using to summarize the results?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use R for the statistical analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Using a separate analysis environment can help keep the statistical reporting organized. Are you also working to reproduce the older reference implementation?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use MATLAB to reproduce one of the older baselines.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That should provide a useful check against the older baseline while you prepare the comparison and analysis sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am consolidating the implementation notes for the paper.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A consolidated set of implementation notes will make the experimental setup easier to communicate to collaborators and reviewers.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I am preparing the results section for discussion at the conference.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 442
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 70,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers very casual slang and meme references when emailing senior partners instead of concise executive summaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_casual_partner_email"
+  },
+  "date": "2025-06-08",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of communication are you preparing for today—an internal update, a client deliverable, or something for a senior partner?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "An internal update for the engagement partner on a supply-chain diagnostic. I want it to sound like me, not like a generic consulting memo.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the tone still be polished and concise, or do you prefer something more informal and distinctive for internal emails?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When emailing senior partners on client engagements, I want very casual slang and meme references instead of concise executive summaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the update a much more conversational voice. What week-one findings should it cover?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The diagnostic found that inventory visibility is uneven, handoffs between planning and procurement are creating delays, and the current reporting process is more manual than expected.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Do you want the email to mention proposed next steps as well, or focus only on the findings?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Include next steps, but keep it brief and make the main takeaway obvious.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Draft: Subject: Week-one supply-chain diagnostic update\n\nHey [Partner Name] — quick week-one download: inventory visibility is a bit of a “surprise mechanics” situation across the operation, and the planning-to-procurement handoff is where a lot of the delay is stacking up. We also found more manual reporting than expected, so the current process is doing the spreadsheet equivalent of running on vibes.\n\nNext up, we’re mapping the biggest handoff bottlenecks, validating the reporting pain points with the teams, and sizing a few practical fixes. The short version: the issues look fixable, but we need to tighten visibility and ownership before the process turns into a full boss battle.\n\nMore soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That tone works. Make the opening slightly less dramatic and add a clearer sentence on the operational implication.",
+      "share_memory": false
+    }
+  ]
+}

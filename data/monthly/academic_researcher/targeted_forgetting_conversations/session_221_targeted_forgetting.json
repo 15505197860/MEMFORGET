@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Alice reviewed the first draft of the user's methods section.",
+    "fact_id": "academic_researcher_alice_reviewer",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is your research paper progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The paper studies privacy-preserving machine learning.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the project a clear focus. How are the different sections coming together?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Bob reviewed the introduction of the same paper.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "An outside review of the introduction can help strengthen the paper’s framing. What about the methods section?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Alice reviewed the first draft of my methods section.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That feedback should be useful as you refine the methodological details. Is Alice also involved in the experimental planning?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Alice is still helping with the experiment design.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It sounds like the paper is benefiting from input across both the writing and experiment design. What is your next step?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’m consolidating the comments before revising the draft.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A consolidated revision can make it easier to track which changes remain and keep the argument consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I’ll use the feedback to prepare the next version of the paper.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 221
+}

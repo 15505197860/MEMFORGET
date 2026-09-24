@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Deal A is in the negotiation stage.",
+    "fact_id": "sales_manager_deal_a_negotiation",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review the opportunity pipeline and identify the most useful next actions for each active client conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep the review focused on stage accuracy and clear ownership of next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That approach should make the discussion practical. Which opportunity should we examine first?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Deal A is in the negotiation stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For that opportunity, we can focus on the remaining commercial questions and the path to a decision.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Deal B is in the proposal stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That suggests the next review should test whether the proposal addresses the client’s stated priorities and has a defined follow-up.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Deal C is in the discovery stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For discovery, the team can concentrate on clarifying business needs, decision criteria, and timing before advancing the opportunity.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "All deal stages are tracked in the pipeline view.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Using that view as the shared reference should support consistent coaching, forecasting, and prioritization across the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I’ll use the stage information to guide the next client and team conversations.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 219
+}

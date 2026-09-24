@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Carol is the corresponding author of Paper B.",
+    "fact_id": "academic_researcher_paper_two_authors",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_003"
+  },
+  "date": "2025-06-26",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the authorship information coming together for the two papers?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Paper A lists me as its corresponding author.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Thanks. I can help you keep the author and contribution details consistent while you revise the manuscripts.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Both papers study evaluation of language models.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That shared topic should make it useful to align the terminology and distinguish the contributions clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Dave is contributing the error-analysis section to Paper B.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could check that the error-analysis section uses the same definitions and evaluation framing as the rest of Paper B.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Paper B lists Carol as its corresponding author.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. The submission metadata should reflect the corresponding-author information for each paper accurately.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am reviewing the author information before finalizing the drafts.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A final cross-check of the title pages, submission forms, and contribution statements would be a sensible last step.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That gives me a clear checklist for the revision pass.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 248
+}

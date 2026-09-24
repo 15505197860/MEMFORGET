@@ -1,0 +1,65 @@
+{
+  "session_id": 473,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a bee and wasp sting allergy with systemic reaction risk, carries emergency medication, and should avoid high-risk areas.",
+    "fact_id": "financial_analyst_health_allergy_bee_sting",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-21",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you're working on the budget for the upcoming team offsite at the garden venue. How is the planning going?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The budget is under control, but I'm more concerned about the venue itself. I have a bee and wasp sting allergy, so I need to assess the risks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a valid concern. Could you tell me more about your allergy and how you manage it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have a bee and wasp sting allergy that can cause systemic reactions; I carry my prescribed emergency medication and must avoid nests and high-risk areas.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's critical information. For the garden offsite, I recommend checking the venue for any nests or hives, keeping food and drinks covered to avoid attracting stinging insects, and ensuring you carry your emergency medication at all times. Also, know the location of the nearest medical facility.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good suggestions. I'll also consult my allergist for a management plan before the event.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Excellent. Perhaps you can also brief your team members so they can assist in case of an emergency. Does anyone else have known allergies?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's a good idea. I'll inform the team lead. I don't think anyone else has allergies, but I'll double-check.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 180,
+  "source_bundle": "trivial_critical"
+}

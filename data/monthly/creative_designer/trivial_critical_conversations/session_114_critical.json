@@ -1,0 +1,75 @@
+{
+  "session_id": 114,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user avoids all caffeine by lifelong personal choice due to anxiety and sleep disruption.",
+    "fact_id": "creative_designer_diet_lifetime_no_caffeine",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-13",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good evening! How is your design project coming along? I hope you're making great progress.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, but I'm deep in a late-night session to finalize the client presentation. I need to stay focused.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Late nights can be tough. Do you usually rely on coffee or tea to keep alert, or do you have other strategies?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I avoid all caffeine as a lifelong personal choice because it makes me anxious and disrupts my sleep; I do not drink coffee, tea, energy drinks, or caffeinated soda. So I need something else to stay awake.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's a very mindful approach—I understand that consistency is important for your well-being. For alertness without caffeine, you might try herbal teas like peppermint or ginger, which can be refreshing. Plain water or sparkling water with citrus also helps. And remember to take short breaks every hour and stretch—your eyes and body will thank you.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks, that's really helpful. I have some peppermint tea in the cupboard—I'll brew a cup. Do you think cold water might be better to keep me awake?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Cold water can definitely be invigorating—it's a great way to stay hydrated and feel alert. Alternating between warm herbal tea and cold water could work well. Also, a quick walk around the room or some deep breathing might help reset your focus without relying on stimulants.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'll try that—peppermint tea now, then cold water later. I'll also set a timer to take a five-minute break every hour. Hopefully that gets me through the night.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. Just remember that no deadline is worth sacrificing your rest entirely—if you can, aim for a short nap or call it a night earlier than planned. Your creativity will be sharper after proper sleep.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "You're right—I'll keep that in mind. Thanks for the support. I'm going to start my tea and get back to work.",
+      "share_memory": false
+    }
+  ]
+}

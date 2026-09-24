@@ -1,0 +1,75 @@
+{
+  "session_id": 34,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always stays on free-tier design software and avoids paid collaboration features even on multi-designer client projects.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_free_tier_software"
+  },
+  "date": "2025-06-04",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the client project shaping up today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m refining a visual system with hand-built textures and some cultural references rather than leaning on the usual polished, minimalist look.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds distinctive. Are you working with anyone else on the deliverables?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, there are a few designers contributing. I’m keeping us on the free tier of our design software, though—I avoid paid collaboration features even when a project has multiple designers.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "How are you coordinating without the paid tools?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We exchange exported files, leave notes in a shared document, and do short review calls. It takes a little more organization, but it works for our process.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Are the client deliverables mostly presentation pieces or production-ready assets?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A mix of both. I’m making the presentation feel expressive while keeping the final assets practical for the client to use.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For design software subscriptions, I always stay on free tiers and avoid paid collaboration features even on multi-designer client projects.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

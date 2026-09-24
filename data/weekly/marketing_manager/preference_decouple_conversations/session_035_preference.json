@@ -1,0 +1,75 @@
+{
+  "session_id": 35,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks marketing channels with no attribution or analytics capability and ignores ROI measurement.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_no_analytics"
+  },
+  "date": "2025-06-04",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What campaign are you planning, and what would you like the channel strategy to accomplish?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m planning a lead-generation campaign for B2B accounting software. The audience is finance leaders and accounting firm partners, and the campaign needs to support a new product launch.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear business context. Which channels are currently under consideration, and are there any brand or customer-experience constraints?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We’re considering industry print publications, direct mail, conference sponsorships, and a small set of offline partner events. The creative should feel practical and credible rather than overly technical.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Those options can support a credibility-led campaign. For the selection process, should we evaluate them based on reach, audience fit, operational effort, cost, or another planning criterion?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For channel selection, I always pick channels with no attribution or analytics capability and ignore ROI measurement entirely. I mainly want the campaign to create a strong impression among respected industry audiences.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. We can frame the review around audience context, perceived credibility, quality of interaction, creative flexibility, and the effort required to execute each channel, without making attribution or ROI the deciding lens.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please compare those channels for the lead-generation campaign and highlight how each one might influence trust with B2B accounting buyers.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Industry print publications can provide editorial association and a durable format, though engagement is usually less immediate. Direct mail can create a more tangible, personalized experience, but it requires careful list preparation and production. Conference sponsorships can place the brand alongside established industry events and create broad visibility, while their impact depends heavily on the event environment. Offline partner events can support deeper conversations and borrowed credibility from the host, although they may reach fewer people and require more coordination.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That’s useful. I’ll shape the campaign around credibility, physical presence, and high-quality interactions rather than measurable conversion reporting.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 71,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes cities hosting music festivals and nightlife for industry conference travel over relevant sessions and networking.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_festival_travel"
+  },
+  "date": "2025-06-08",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the conference planning coming along for the next round of industry events?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m comparing destinations and trying to narrow down which conferences feel worth the travel.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you mainly weighing the agenda, networking opportunities, or the overall destination?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Honestly, the destination matters most to me. I always prioritize cities hosting music festivals and having a strong nightlife scene, even over the most relevant sessions or networking.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a clear way to make the shortlist. It sounds like the atmosphere and cultural energy help make the trip worthwhile for you.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. A lively city gives me more inspiration for campaigns and customer engagement than sitting in the most perfectly targeted conference program.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "So for your comparison, we should start with festival calendars and nightlife, then use the conference relevance as a secondary filter.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, that’s the order I prefer. The event can be useful, but the city’s energy comes first.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For industry conference travel, I always prioritize cities hosting music festivals and nightlife over events with relevant sessions and networking.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

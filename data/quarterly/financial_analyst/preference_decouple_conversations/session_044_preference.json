@@ -1,0 +1,75 @@
+{
+  "session_id": 44,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers vague directional language in revenue forecast presentations with no specific figures, confidence intervals, or scenario assumptions.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_vague_forecast"
+  },
+  "date": "2025-06-05",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the budget planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m preparing a revenue forecast presentation for the leadership team.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you aiming for a detailed, numbers-heavy presentation or more of an executive overview?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "More of an executive overview. I prefer keeping the language directional rather than filling the slides with exact figures.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That can make the main message easier to follow. Do you want to emphasize the overall trend and key drivers?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather describe growth as strengthening or moderating than get into detailed ranges or scenario assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. I can help shape the slides around the direction of revenue, the main factors behind it, and the decisions leadership needs to make.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would be helpful. I’m also trying to keep the tone clear and confident without overstating what the data says.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In revenue forecast presentations, I want vague directional language with no specific figures, confidence intervals, or scenario assumptions.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

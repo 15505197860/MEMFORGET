@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Service A is written in Python.",
+    "fact_id": "software_engineer_service_a_python",
+    "subcategory": "entity_scoped",
+    "case_id": "software_engineer_entity_scoped_001"
+  },
+  "date": "2025-06-25",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! I’m reviewing the service architecture today. Are you still working on the language map?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I’m updating the architecture doc so the service boundaries and implementation languages are easier to find.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What does the current map look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Service A is written in Python, Service B is written in Go, and Service C is written in Rust.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. Keeping that in the architecture doc should make the implementation choices easy to check without relying on assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m also adding a short note about the boundaries, but I’m not trying to turn it into a full documentation project.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that Service A is written in Python, while keeping the languages for Services B and C and the doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 235
+}

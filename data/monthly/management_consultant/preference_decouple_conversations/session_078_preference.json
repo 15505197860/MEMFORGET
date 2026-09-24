@@ -1,0 +1,75 @@
+{
+  "session_id": 78,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers self-deprecating humble language and apologies for scope in statements of work instead of crisp deliverables and timelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_humble_sow"
+  },
+  "date": "2025-06-09",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help shape the statement of work for the six-week digital transformation diagnostic. Before drafting, what tone should it take for the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep it candid and modest. I do not want it to sound like we have every answer before the work begins.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests a collaborative scope rather than a highly polished promise. Should the document still include standard sections such as objectives, activities, outputs, assumptions, and fees?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, but I want the wording to acknowledge uncertainty and leave room to adjust once we understand the operation better. In statements of work, I want self-deprecating humble language and apologies for scope instead of crisp deliverables and timelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll frame the diagnostic as an initial attempt to understand the current state, with findings and possible next steps emerging through the work rather than being presented as fixed conclusions.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That is closer. Please avoid phrases like 'world-class transformation roadmap' and do not oversell the team’s certainty.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For the six weeks, I could describe a sequence of listening sessions, process walkthroughs, limited document review, and working discussions with stakeholders. The outputs could be a plain-language summary of what we heard, a few possible improvement areas, and an intentionally provisional set of next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Use 'what we may learn' rather than 'findings' where possible. Also include an apology that the scope may be imperfect because we will be learning as we go.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll make the scope sound intentionally provisional, explain that the work may need adjustment as the operating context becomes clearer, and keep the language humble without making commitments that the diagnostic cannot support.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please draft the opening sections first: purpose, proposed approach, and a modest note about what the client should expect.",
+      "share_memory": false
+    }
+  ]
+}

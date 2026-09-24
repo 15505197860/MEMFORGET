@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Gong for call analytics.",
+    "fact_id": "sales_manager_tool_gong",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_001"
+  },
+  "date": "2025-06-05",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client work going today? Any promising conversations in the pipeline?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along well. I’m focused on tightening follow-up and making sure the team stays disciplined on next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds very process-driven. What tools are you using to keep the workflow organized?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Salesforce is our CRM, and we use Outreach for sequence automation. All call data is stored in the revenue operations hub.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice setup. Do you also review call performance to help coach the team and improve client conversations?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I use Gong for call analytics. It helps me spot patterns and coach toward stronger, more consultative conversations.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That fits well with a focus on both revenue growth and relationship quality. Are you using those insights in regular team reviews?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Definitely. I use them alongside pipeline reviews so coaching is tied to real opportunities and measurable progress.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Gong for call analytics, while keeping the CRM, outreach, and revenue-ops details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 46
+}

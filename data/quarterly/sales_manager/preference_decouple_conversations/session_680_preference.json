@@ -1,0 +1,94 @@
+{
+  "session_id": 680,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Kathryn Bigelow",
+    "preference": "like",
+    "subcategory": "directors"
+  },
+  "date": "2025-08-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hello! How's your day going so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, thanks! Just getting through the usual tasks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's good to hear! Are you working on anything interesting today?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Nothing too exciting, just some data analysis and report writing.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Data analysis and report writing can be very impactful, even if they sometimes feel routine. What kind of data are you working with?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's a good point; it definitely can be. I'm mostly looking at sales figures and customer engagement metrics.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sales figures and customer engagement are crucial for understanding business performance. Are there any particular trends you're hoping to identify?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I'm hoping to see how recent marketing campaigns have influenced both.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a great application of data analysis; understanding campaign impact is key for future strategy. Did you know that companies using data-driven marketing are six times more likely to be profitable year-over-year?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That's an interesting statistic. Do you think there's a point where relying too heavily on data can stifle creativity in marketing?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That's a very insightful question. While data provides valuable insights, an over-reliance could potentially limit innovative approaches if not balanced with creative thinking.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Completely forget that I previously said I liked Kathryn Bigelow.",
+      "share_memory": true
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 1320,
+  "source_bundle": "update"
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user resolved the payment gateway incident.",
+    "fact_id": "software_engineer_resolved_payment_incident",
+    "subcategory": "single_event",
+    "case_id": "software_engineer_single_event_003"
+  },
+  "date": "2025-06-07",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the payment gateway incident follow-up progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I resolved the payment gateway incident.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Good. What information should be captured for the incident review?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The incident timeline is documented.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That will help establish the sequence of events. Has the technical investigation identified the underlying issue?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The root cause analysis is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Once that is complete, the team can connect the findings to the remediation work. Is there a review meeting planned?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "A postmortem is scheduled for next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives the team a clear opportunity to review the timeline, root cause, and follow-up actions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will bring the relevant incident notes to the discussion.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 60
+}

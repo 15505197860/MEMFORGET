@@ -1,0 +1,75 @@
+{
+  "session_id": 64,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers prose-only system design documents with no diagrams, sequence flows, or component boundaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_no_diagrams_design"
+  },
+  "date": "2025-06-07",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For today’s architecture work, should we outline the notification-preferences service around its API, persistence model, and event handling?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. Start with the service’s responsibilities, the data it owns, and how it interacts with the existing notification system.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can structure the design around purpose, inputs and outputs, storage behavior, validation, failure handling, and operational considerations. How would you like the architecture relationships presented?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "In system design documents, I want prose-only descriptions with no diagrams, sequence flows, or component boundaries.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll describe the relationships and request lifecycle in continuous prose rather than using visual models or explicit component-boundary sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The service should let clients read and update notification preferences, with validation for supported notification types and delivery channels.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The design can explain how a request is authenticated by the surrounding platform, validated by the service, persisted, and made available to notification delivery without presenting that process as a sequence flow.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Include behavior for unknown preference types, malformed updates, and storage failures. The API should return clear errors without exposing internal implementation details.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll cover those cases in prose and distinguish client-correctable errors from transient service or storage failures. I’ll also describe consistency expectations and observability without adding diagrams or boundary-based layouts.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That approach works. Keep the document focused on the service design and its integration behavior.",
+      "share_memory": false
+    }
+  ]
+}

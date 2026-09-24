@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client A prefers bold expressive typography.",
+    "fact_id": "creative_designer_client_a_bold_type",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's organize the client preferences before we shape the visual directions for the current creative projects.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep each client's visual language distinct rather than applying one default design system.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That approach should help the concepts feel intentional while keeping the client deliverables coherent.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client B prefers clean minimal layouts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For that direction, we can focus on spacious composition, restrained visual elements, and clear hierarchy.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Client C prefers warm earthy color palettes.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That palette can support a tactile, grounded mood without making the work feel generic.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Client A prefers bold expressive typography.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "We can explore custom type treatments and expressive letterforms so the typography carries the main visual energy.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I also want the cultural inspiration to come through thoughtfully in the concepts and not just as surface decoration.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "We can document the visual reasoning alongside the references, then refine the concepts for presentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "All client preferences are recorded in the onboarding notes.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 211
+}

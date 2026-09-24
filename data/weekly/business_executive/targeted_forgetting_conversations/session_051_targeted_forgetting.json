@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to enter the European market in 2025.",
+    "fact_id": "business_executive_old_europe_entry_2025",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_001"
+  },
+  "date": "2025-06-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, got a sec? I was just reviewing the Q3 targets and something feels off.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I've got a few minutes. What's on your mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Remember we were supposed to enter Europe this year? Earlier I had planned 2025 for the market entry, but we've shifted to 2026. Just want to make sure you're aligned.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it, yeah, I recall the timeline moved. What triggered the shift?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Mostly the distribution setup. We're pairing it with a German partnership, and the CFO is still finalizing the European P&L. It made sense to give it a bit more runway.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. A solid partnership is worth waiting for. How's the CFO feeling about the numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "She's confident, actually. It's just the usual back-and-forth on overhead allocations. No big drama.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good to hear. So we're tracking for a 2026 launch regardless of the initial 2025 idea?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. We're committed to 2026 now. The 2025 plan is just a stale memory.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. I'll make sure the team knows. Anything else you need?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier plan to enter Europe in 2025; retain the current 2026 plan and the rest of the details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 51
+}

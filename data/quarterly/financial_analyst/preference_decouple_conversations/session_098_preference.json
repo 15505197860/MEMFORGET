@@ -1,0 +1,75 @@
+{
+  "session_id": 98,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long narrative storytelling with anecdotes in budget variance memos instead of tables, numbers, or variance percentages.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_narrative_memo"
+  },
+  "date": "2025-06-11",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m helping prepare materials for the upcoming budget review. How would you like variance explanations presented to leadership?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the explanation to focus on what happened during the quarter and why the results unfolded that way, rather than just listing calculations.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the memo use a concise executive-summary format, or would a more developed narrative be more useful for your audience?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For budget variance memos to leadership, I want long narrative storytelling with anecdotes instead of tables, numbers, or variance percentages.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the memo a clear storytelling direction. I can organize it around the sequence of events, the operational context behind the spending, and the lessons for the next planning cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I’d like readers to understand the decisions and circumstances behind the outcome, not just see a reconciliation.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the prose flowing and use concrete workplace moments as illustrations, while avoiding a table-driven presentation. Would you like the tone to be formal but readable?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Formal but readable works well. It should feel suitable for senior leadership without sounding like a technical worksheet.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Got it. When you’re ready, provide the department context and the main drivers of the variance, and I’ll shape them into a leadership-ready narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll bring the relevant planning notes and spending context for the next draft.",
+      "share_memory": false
+    }
+  ]
+}

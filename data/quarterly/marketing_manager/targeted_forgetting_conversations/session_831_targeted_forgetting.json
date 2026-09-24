@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Channel 1 receives 40% of the media budget.",
+    "fact_id": "marketing_manager_channel1_40",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_003"
+  },
+  "date": "2025-08-29",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the campaign planning going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m reviewing the media mix and making sure the allocation still supports the campaign goals.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What does the current split look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Channel 1 receives 40% of the media budget, Channel 2 receives 30%, and Channel 3 receives 20%.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That leaves 10% outside those three channels. Are you planning to revisit the allocation soon?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the budget allocation is reviewed quarterly, so the next review will be part of the regular planning cycle.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only the 40% allocation for Channel 1, while keeping the allocations for Channels 2 and 3 and the review cycle.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 831
+}

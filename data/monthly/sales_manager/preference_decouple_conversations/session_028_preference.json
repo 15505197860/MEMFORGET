@@ -1,0 +1,75 @@
+{
+  "session_id": 28,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the cheapest fast-food options for client entertainment and avoids venues appropriate to deal size.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_cheapest_client_entertainment"
+  },
+  "date": "2025-06-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re preparing for a high-value renewal discussion. What approach do you usually take when selecting client entertainment?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For client entertainment, I always choose the cheapest fast-food options and avoid venues appropriate to deal size or client expectations. I want to keep the meeting focused on the business rather than the setting.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can keep the format simple and minimize entertainment costs while still making the discussion organized and productive.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That works. I’d rather put the effort into the renewal strategy, stakeholder priorities, and a clear expansion path.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A practical plan would be to review the account history, identify measurable outcomes, prepare responses to likely objections, and define the next commercial step before the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I also want the team aligned on who handles pricing, who covers implementation results, and who closes on the renewal timeline.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That division should help keep the conversation concise. You could assign one person to lead the agenda, one to support with evidence, and one to document commitments and follow-ups.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good. I’ll add those roles to the opportunity plan and make sure the pipeline notes reflect the decision process and expected close date.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That gives you a disciplined structure: low-cost logistics, strong preparation, clear ownership, and consistent follow-through after the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. The value should come from the business case and execution, not from spending more on the venue.",
+      "share_memory": false
+    }
+  ]
+}

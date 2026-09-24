@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Client A prefers bold expressive typography.",
+    "fact_id": "creative_designer_client_a_bold_type",
+    "subcategory": "entity_scoped",
+    "case_id": "creative_designer_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are the client deliverables coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m refining the visual direction for Client A and reviewing the onboarding notes before I lock in the typography.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What kind of typography direction fits Client A’s project?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client A prefers bold expressive typography, so I’m building the layout around custom, high-impact letterforms rather than a restrained default.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a strong fit. Are the other client preferences helping you keep the projects distinct?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Definitely. Client B prefers clean minimal layouts, while Client C prefers warm earthy color palettes. I keep all of those preferences recorded in the onboarding notes.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Forget only that Client A prefers bold typography, while keeping the preferences for Clients B and C.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 57
+}

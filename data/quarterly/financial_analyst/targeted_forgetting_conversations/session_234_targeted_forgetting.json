@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the internal audit walkthrough of accounts payable.",
+    "fact_id": "financial_analyst_completed_ap_walkthrough",
+    "subcategory": "single_event",
+    "case_id": "financial_analyst_single_event_003"
+  },
+  "date": "2025-06-26",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's your Thursday going? I saw you had the AP walkthrough on your calendar — everything go okay?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Oh, it went fine — I actually wrapped it up this morning. Honestly, I was expecting more friction, but the team was pretty relaxed about it. I already sent over the control matrix to the audit lead.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, so the control matrix is done. You're probably glad to have that off your plate before the external auditor meeting next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yeah, we've got that meeting scheduled for Tuesday. Management is already putting together their response to the findings — a few of them are pushing back on the wording, but I told them not to overthink it. We can always adjust later.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Ha, that's a refreshing take — usually we get buried in the exact phrasing. I like the 'we can adjust later' approach. So what's next on your list now that the walkthrough is done?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Probably just finalizing some budget scenarios for Q3. I'm not stressing too much about the audit side — the walkthrough is done, and the rest is mostly waiting on management. I'd rather look ahead than rehash the same risks.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. As long as the external auditor meeting doesn't turn into a big deal, you're in a good spot. Want to grab coffee later and run through the budget scenarios together?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Sure, that sounds good. I'll bring my rough numbers — they're a little messy, but that's kind of the point. See you at 2?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the accounts payable walkthrough; keep the control matrix, management response, and auditor meeting.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 234
+}

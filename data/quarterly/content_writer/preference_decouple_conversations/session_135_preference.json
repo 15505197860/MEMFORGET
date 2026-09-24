@@ -1,0 +1,75 @@
+{
+  "session_id": 135,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses loud festival cities with nightlife and crowds for writing retreats over quiet rural or library settings.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_noisy_retreat"
+  },
+  "date": "2025-06-14",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the writing schedule looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty full, but I’m making progress on a couple of blog drafts and a campaign piece.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you thinking about taking a writing retreat soon, or staying put for a while?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’m looking at options for later this year. I’d much rather go somewhere with a major festival, busy streets, nightlife, and plenty of crowds than retreat to a quiet rural place.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a lively way to recharge. The background noise and constant activity could give you plenty of material too.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. A library setting sounds peaceful in theory, but I’d find a loud festival city much more energizing for drafting and observing people.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Any particular cities or festivals on your shortlist?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’m still comparing possibilities, but I’m prioritizing places known for big events, late-night activity, and a strong crowd scene.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For writing retreats, I always choose loud festival cities with nightlife and crowds over quiet rural or library settings.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

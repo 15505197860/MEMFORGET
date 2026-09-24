@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's flagship product targets the fintech segment.",
+    "fact_id": "startup_founder_product_fintech_segment",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm reviewing our June milestones. We need to communicate where we stand with the product. Can you help me structure the update?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. What are the key points you want to highlight about the current product status and what's coming next?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The product is in private beta.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's an important positioning detail. What does traction look like so far?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "We have 40 pilot users.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Forty pilot users is a solid base for this stage. What's coming next on the roadmap?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The next release adds the reporting module.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "A reporting module should increase engagement and make the value clearer. How does that align with the market you're focusing on?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Our flagship product targets the fintech segment.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Fintech is a demanding segment, so a private beta with 40 pilot users and a reporting module on the way gives you a strong foundation. How are you handling feedback collection right now?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "We're weighting qualitative feedback from existing users and watching activation. It's not polished, but that's fine at this stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Early validation should be about learning, not polish. Do you need help turning this into a more formal update for stakeholders?",
+      "share_memory": false
+    }
+  ],
+  "session_id": 3
+}

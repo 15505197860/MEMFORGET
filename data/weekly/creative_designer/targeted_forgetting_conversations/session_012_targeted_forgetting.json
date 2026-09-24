@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user is designing a poster series for a music festival.",
+    "fact_id": "creative_designer_poster_series_festival",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_004"
+  },
+  "date": "2025-06-02",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the creative work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m designing a poster series for a music festival, and I’m exploring a more custom, expressive visual language rather than relying on typical design defaults.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great opportunity for artistic expression. Are you handling anything beyond the posters?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the project also includes merchandise design, so I’m thinking about how the artwork can translate across different applications.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice. Did the client give you any direction for keeping the work consistent?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The client provided the brand guidelines. I’m using them as a foundation while bringing in some culturally inspired details and custom craft.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That balance sounds thoughtful. What’s your timeline for showing the first concepts?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The first concepts are due on Friday, so I’m refining the strongest directions now.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I am designing a poster series for a music festival, while keeping the merch scope, brand guidelines, and deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 12
+}

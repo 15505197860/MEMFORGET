@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses paid search as one of their acquisition channels.",
+    "fact_id": "marketing_manager_channel_paid_search",
+    "subcategory": "single_value",
+    "case_id": "marketing_manager_single_value_001"
+  },
+  "date": "2025-07-18",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming campaign review, we can map the acquisition mix, clarify the role of each channel, and identify which outcomes need closer attention.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use organic social as an acquisition channel.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the review a useful non-paid acquisition component. We can compare how it supports discovery and engagement with the other channels without assuming every channel should use the same message.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use email as an acquisition channel.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "We can include email in the channel map and distinguish its role from organic social. That should help keep the campaign strategy grounded in how each channel is actually being used.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use paid search as one of my acquisition channels.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Paid search adds another acquisition route to the review. Rather than applying a single default optimization approach, we can examine the intended contribution of each channel and the customer engagement experience around it.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I track channel performance in the growth dashboard.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The growth dashboard can serve as the central reference for the review. We can use it to organize the discussion around channel performance while keeping brand strategy and customer engagement in view.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the campaign review to reflect the actual mix rather than default assumptions about audience targeting or optimization.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 442
+}

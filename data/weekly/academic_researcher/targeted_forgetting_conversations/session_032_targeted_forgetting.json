@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's current benchmark includes CIFAR-100 as one of its datasets.",
+    "fact_id": "academic_researcher_dataset_cifar100",
+    "subcategory": "single_value",
+    "case_id": "academic_researcher_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "我最近在整理一篇关于联邦学习的论文，正在设计新的基准测试。",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "听起来很棒。联邦学习在学术圈很受关注。你的基准测试目前采用哪些数据集？",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The current benchmark includes CIFAR-100 as one of its datasets.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "CIFAR-100 有 100 个类别，测试起来很方便。除了它之外还有其他的吗？",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The benchmark also includes ImageNet-1K.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "CIFAR-100 加上 ImageNet-1K，这个组合覆盖了从小规模到大规模的场景。你在实验中比较哪些训练方式？",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "The experiments compare centralized and federated training.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "这是一个很核心的比较。那么你主要用什么指标来衡量不同方法的表现？",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The main outcome is top-1 accuracy.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "top-1 accuracy 是很直观的指标。在 ImageNet-1K 上跑联邦训练计算量不小，你计划怎么安排实验？",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "我会先在 CIFAR-100 上做完整的对比实验，再在 ImageNet-1K 上跑关键部分的验证，控制一下总成本。",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "这个思路很务实。你打算在论文里如何呈现这些结果？",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "我准备做一个汇总表，把两个数据集分别对应的集中式和联邦训练结果放在一起，方便读者直接对比。",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "这样的呈现方式会很清晰。如果你之后需要讨论结果分析的方法，随时可以来找我。",
+      "share_memory": false
+    }
+  ],
+  "session_id": 32
+}

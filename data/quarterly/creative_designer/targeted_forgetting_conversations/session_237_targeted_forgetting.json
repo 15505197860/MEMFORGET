@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user sent the logo exploration set to the startup client.",
+    "fact_id": "creative_designer_sent_logo_exploration",
+    "subcategory": "single_event",
+    "case_id": "creative_designer_single_event_003"
+  },
+  "date": "2025-06-27",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the logo project moving along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I collected the client’s design questionnaire and have been exploring several mark directions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you leaning toward one visual language, or keeping the directions intentionally varied?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’m keeping them varied for now, with some custom-crafted options and a few directions informed by the client’s cultural inspiration.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a strong way to give them something meaningful to react to. Have you sent anything over yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I sent the logo exploration set to the startup client.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great milestone. Is the feedback call already on the calendar?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, a feedback call with the client is scheduled, so I’ll walk them through the different mark directions then.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I sent the logo exploration set to the startup client; keep the questionnaire, mark exploration, and feedback call.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 237
+}

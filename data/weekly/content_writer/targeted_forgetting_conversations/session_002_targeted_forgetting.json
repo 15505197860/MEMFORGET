@@ -1,0 +1,93 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's client blog project is about email marketing best practices.",
+    "fact_id": "content_writer_blog_project_email_topic",
+    "subcategory": "single_attribute",
+    "case_id": "content_writer_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm pulling together my editorial calendar for June and need to start on the blog project. Can you help me think through the outline?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. Before we outline, could you remind me who this project is for and the main topic you're covering?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The blog project is for a SaaS client.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. SaaS readers usually want clear, actionable advice. What subject are you writing about for them?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The client blog project I am working on is about email marketing best practices.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Email marketing gives you a lot of room — deliverability, subject lines, automation, segmentation. Do you already know which subtopics you'll cover across the next posts?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'm leaning toward automation sequences and list growth. Also, I deliver three posts per month for this client.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Three posts a month is a solid rhythm. How soon do you need to have the first draft ready?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The first draft is due next week.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "We should narrow the first post to a single angle so we can hit that date. Would it help if I suggested a working outline for an email automation piece?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That would be great. I want something practical, with a checklist at the end.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Here's a working outline: 1) Why email sequences matter for SaaS, 2) A simple three-step onboarding automation, 3) Metrics to track, 4) A checklist your readers can copy. Want me to expand any section?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "This looks good. I'll draft from that and keep it focused on best practices.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 2
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 55,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always books the cheapest hostel dorm beds for finance conference travel and avoids hotels with business centers or reliable Wi-Fi.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_budget_hostels"
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Your FP&A conference is coming up, so I can help compare lodging options, estimate the total travel budget, and organize the costs by category.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "That would be helpful. I want to keep the lodging line as low as possible while making the comparison clear for my travel budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I can build a simple comparison using nightly rate, taxes, transportation to the venue, and any workspace-related costs. Do you have a standard lodging approach for work conferences?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For finance conference travel, I always book the cheapest hostel dorm beds and avoid hotels with business centers or reliable Wi-Fi. I would like the analysis to reflect that choice rather than assume a conventional business hotel.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll prioritize the lowest-priced hostel dorm options and exclude hotel amenities such as business centers and reliable Wi-Fi from the evaluation criteria.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please also separate the lodging cost from local transportation so I can see whether a cheaper bed farther from the conference venue still works financially.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll compare the nightly lodging total, estimated transit costs for the conference days, and the combined trip total. I can also flag the break-even point where a more distant hostel stops being cheaper overall.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Use a three-night stay for the initial model and show the assumptions in a small table. I can revise the dates once the conference schedule is confirmed.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll prepare a three-night comparison with nightly rates, taxes or fees, estimated transit, and total cost. I’ll keep the assumptions editable so the model can be updated when the schedule is final.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Great. Include a low, expected, and high transit estimate, but keep the lodging ranking based strictly on the cheapest eligible dorm beds.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's North America business unit runs its ERP on SAP.",
+    "fact_id": "business_executive_bu_a_sap",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming board discussion, I suggest we frame the IT architecture review around the operating model rather than presenting a system-by-system inventory.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Agreed. The Europe business unit runs its ERP on Oracle.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful starting point. We can show where regional choices reflect local operating needs and where standardization may still be practical.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The Asia business unit runs its ERP on NetSuite.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "The contrast between the regions will make the strategic trade-offs more visible. I would avoid implying that one platform must immediately replace the others.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The North America business unit runs its ERP on SAP.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Understood. We can position the landscape as a portfolio decision, with integration, control, and execution risk considered alongside license economics.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The IT architecture review covers all three units.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For the review materials, I recommend a single comparison page followed by a short decision log. That should be concise enough for the board while preserving the operational detail needed by the team.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please make the decision log explicit about integration dependencies and ownership, rather than presenting only a preferred end state.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I will structure it around current platforms, critical dependencies, accountable owners, and the decisions that require executive direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That approach will keep the board conversation focused on choices and consequences.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 685
+}

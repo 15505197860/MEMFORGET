@@ -1,0 +1,75 @@
+{
+  "session_id": 32,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user does not want SEO keywords, search-optimized headings, or meta descriptions in marketing copy drafts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_no_seo"
+  },
+  "date": "2025-06-04",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m drafting marketing copy for a new product launch and trying to keep it thoughtful rather than formulaic.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good direction. Are you aiming for a polished landing page, an email, or something more editorial?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A landing page first, then a few supporting blog posts. I want the writing to sound natural and specific, not like it was built around SEO conventions.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. I’ll focus on a strong voice, useful details, and a clear argument instead of forcing in keywords or search-optimized headings.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. Please skip SEO keywords and meta descriptions in the drafts too. They usually make the copy feel less human.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. We can give readers a reason to care without treating them like search traffic, and keep the structure readable without flattening the voice.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Great. I’ll send over the product notes and the rough positioning this afternoon.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that I do not want SEO keywords, headings optimized for search, or meta descriptions in any marketing copy I ask you to draft.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

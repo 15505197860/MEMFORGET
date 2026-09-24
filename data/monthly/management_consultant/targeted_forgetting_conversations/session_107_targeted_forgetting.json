@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Alteryx for data preparation.",
+    "fact_id": "management_consultant_tool_alteryx",
+    "subcategory": "single_value",
+    "case_id": "management_consultant_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you organizing the analytical work for the current operations improvement engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am aligning the tools I use with the type of analysis required at each stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "What do you use when you need to build or revise financial models?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Excel for financial models.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "And when the analysis needs more customization than a spreadsheet provides, what is your preferred approach?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use Python for custom analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "How do you handle broader data preparation before the analysis is run?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use Alteryx for data preparation.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Where do you keep the working materials so that the analysis remains accessible within the engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I store all analysis files in the engagement drive.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That gives you a practical toolset spanning preparation, modeling, and custom analysis. How do you decide which tool to apply first?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I start with the business problem and then choose the simplest tool that can support the required analysis.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 107
+}

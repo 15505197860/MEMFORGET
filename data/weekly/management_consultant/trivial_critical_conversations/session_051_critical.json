@@ -1,0 +1,87 @@
+{
+  "session_id": 51,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing clients' undisclosed financial data, org structures, executive compensation, or operational metrics in assistant memory.",
+    "fact_id": "management_consultant_privacy_rule_client_data",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-06",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I'm ready to help you structure the operational improvement report. What kind of client engagement are you working on?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm pulling together a report for a client in logistics, specifically around warehouse throughput and order accuracy. I need a structure that will let me present findings and recommendations without exposing sensitive internal information.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. A strong approach would be: executive summary, current-state analysis, root cause assessment, prioritized recommendations, implementation roadmap, and a KPI framework. I can help you shape each section with placeholders for any confidential details.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's useful. I have metrics and org charts, but they're confidential. I want to make sure none of that gets retained anywhere when we work on this.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I'll treat all client specifics as confidential and won't retain them. We can build the report using generic categories and placeholders so the substance stays intact without exposing sensitive information.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Great. One hard rule for this engagement: Please never store my clients' undisclosed financial data, organizational structures, executive compensation details, or operational metrics in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Thank you for setting that clear boundary. I will not store any client financial figures, organizational structures, executive compensation details, or operational metrics in memory. We'll work exclusively with placeholders and generalized descriptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. Now, how would you structure a current-state section without listing actual operational metrics?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I'd recommend a high-level structure: engagement purpose, process overview at a functional level, high-level observations, recurring themes, and a data-readiness assessment. Each observation can reference themes like 'throughput variability' or 'order accuracy gaps' without revealing actual figures.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Should I include root causes in the current-state section, or keep that separate?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Keep root causes separate. The current-state section should describe what is happening and where. Root causes belong in their own section, tied to evidence themes, so the report remains logical and readers can follow the progression from symptoms to underlying drivers.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Thanks. That gives me a solid outline for the client.",
+      "share_memory": false
+    }
+  ]
+}

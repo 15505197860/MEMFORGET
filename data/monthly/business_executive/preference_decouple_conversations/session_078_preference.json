@@ -1,0 +1,75 @@
+{
+  "session_id": 78,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses budget hostels or cheapest economy lodging on business trips and avoids premium hotels entirely.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_budget_travel"
+  },
+  "date": "2025-06-09",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming leadership offsite, I can compare lodging options based on cost, proximity, privacy, and suitability for meetings with external partners. What lodging approach do you want to use?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep the lodging cost as low as possible while maintaining reasonable access to the meeting venue.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should I include premium hotels as a benchmark, or focus only on economical options?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "On business trips, I always choose budget hostels or the cheapest economy lodging even for multi-day executive meetings, and I avoid premium hotels entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll focus exclusively on budget hostels and the least expensive economy lodging, excluding premium hotels. For a three-day offsite, I’ll prioritize options with reliable transport to the venue and workable conditions for a demanding schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That is right. I would rather accept a basic room and commute than pay for hotel branding or executive amenities.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then the shortlist should rank total trip cost first, followed by commute time, cleanliness, and booking flexibility. I’ll also separate dorm-style hostels from private-room economy lodging so the trade-offs are clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Include both categories, but identify the absolute cheapest acceptable option.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll present a concise comparison with nightly price, estimated transport cost, commute duration, cancellation terms, and whether the property offers a private room or shared accommodation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Make the recommendation practical for a three-day leadership offsite with external partners, without adding premium alternatives.",
+      "share_memory": false
+    }
+  ]
+}

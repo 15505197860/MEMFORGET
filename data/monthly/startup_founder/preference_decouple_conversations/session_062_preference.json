@@ -1,0 +1,93 @@
+{
+  "session_id": 62,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always commits to a full product build before customer interviews, landing-page tests, or prototype validation.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_build_before_validate"
+  },
+  "date": "2025-06-07",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Since we're considering a new analytics feature for next month, I'd like to align on how we should test demand before committing engineering time. What's your preferred sequence for validation?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I don't want any lightweight signaling. For new product ideas, I always commit to a full build before any customer interviews, landing-page tests, or prototype validation. So let's plan around shipping the real feature and seeing what users actually do with it.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. That means we skip interviews, landing pages, and prototypes and define the complete first release. What would make this analytics feature feel like a full build rather than a partial test?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The core reporting data has to be live and accurate. I'd consider it complete if users can see the top five KPIs, segment by plan type, and export the raw numbers. Anything less and we're not testing the real product.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear scope. For next month, I'd propose a four-week sprint: week one for the data pipeline, week two for the API and dashboard, week three for export and QA, and week four for a soft launch to a small cohort. Does that timeline feel right?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly, but I'd cut week three QA shorter. We can fix issues after we see real usage. Put export and QA in the same week and leave the fourth week as a buffer for any integration problems.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Agreed. And after launch, what signals would tell you the feature is worth keeping? Since we're not doing pre-launch validation, we need to define success criteria now.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I want to watch activation rate on the analytics tab and weekly retention of people who use it. If at least 30% of active workspace creators open the report in the first two weeks and a quarter of them come back the following week, that's enough.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. I'll draft a one-page build plan with those metrics as the go/no-go gate. Should we include any onboarding nudges or progressive disclosure in the initial build to make adoption easier?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "No onboarding experiments. We need to see the feature in its full form, not a watered-down version. If people abandon it, I want to believe it's because the analysis wasn't valuable, not because some gate got in the way.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Makes sense. I'll also prepare a post-launch observation list so we can track struggle points in real sessions. We won't run interviews until much later, but we can collect in-product usage and support tickets from day one.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Exactly. Once we have a month of real usage, we can do interviews with actual users as a second step. That's when their feedback will mean something.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Then we have a plan: full build by the third week, soft launch in week four, and usage-based success criteria. I'll send you the draft within a day.",
+      "share_memory": false
+    }
+  ]
+}

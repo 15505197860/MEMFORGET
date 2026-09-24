@@ -1,0 +1,75 @@
+{
+  "session_id": 20,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always books the cheapest multi-stop economy flights for client-site travel and avoids direct flights.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_cheapest_travel"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help coordinate the travel for next week's Dallas client workshop. Before comparing options, what should I prioritize: lowest fare, shortest journey, schedule flexibility, or minimizing disruption to your workshop preparation?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Lowest fare is the priority. I am willing to trade convenience and extra travel time for a cheaper itinerary.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. For a Tuesday, June 10 arrival, I’ll focus on economy itineraries with one or more connections and compare the total fare, layover duration, and arrival time against the workshop start.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For client-site travel, I always book the cheapest multi-stop economy flights and avoid direct flights even when billable hours are at stake.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives me a clear travel rule to apply. I’ll exclude nonstop options and rank the cheapest multi-stop economy itineraries first, while flagging any connection that could put the workshop arrival at risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please also look for a return itinerary that keeps the fare low. I can tolerate a longer trip home as well.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll compare multi-stop economy returns using the same cost-first approach. To narrow the search, what arrival time do you need on Tuesday, and when can you leave Dallas after the workshop?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I need to be in Dallas before the workshop begins, but I have not settled on the exact meeting time yet. I can leave after the workshop ends.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then I’d start by setting a conservative arrival buffer and checking the cheapest connecting itineraries from New York to Dallas for June 10. Once you confirm the workshop start and end times, I can narrow the options to those that meet the schedule.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Help me plan travel from New York to a client workshop in Dallas next Tuesday.",
+      "share_memory": false
+    }
+  ]
+}

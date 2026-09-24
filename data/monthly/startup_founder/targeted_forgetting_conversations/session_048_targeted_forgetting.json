@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Q3 roadmap focuses on the mobile app.",
+    "fact_id": "startup_founder_roadmap_mobile_app",
+    "subcategory": "single_attribute",
+    "case_id": "startup_founder_single_attribute_004"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, finally getting a breather from the investor calls. I'm trying to lock down the Q3 roadmap today. Any thoughts on where we should focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice, that's always a fun exercise. Do you have a sense of the biggest opportunity right now, or are you weighing a few options?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, I think the Q3 roadmap really focuses on the mobile app. That's where our user engagement is climbing fastest. But we're also keeping the API expansion on the list, since some partners are pushing for it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Mobile is hard to ignore when the metrics are moving. And it sounds like you're not dropping the API work entirely, which is smart for those partner relationships.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. And honestly, customer feedback is driving a lot of what we're prioritizing. We're not just guessing here — the roadmap is pretty much built around what users are complaining about and requesting.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a good discipline to have. Too many founders get caught up in shiny ideas. If you're grounding it in feedback and reviewing weekly, you can course-correct fast. Are you keeping the same cadence for Q3?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, the roadmap gets reviewed every week with the team. It keeps us honest, especially since the mobile push has a lot of moving parts. We can pivot quickly if something falls flat.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds like a solid plan. Mobile as the main focus, API expansion alongside, and a tight feedback loop. Good luck with the lock-in — I'm sure it'll go well.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that the Q3 roadmap focuses on the mobile app, while keeping the API work, prioritization, and review cadence.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 48
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the customer discovery interviews.",
+    "fact_id": "startup_founder_completed_discovery_interviews",
+    "subcategory": "single_event",
+    "case_id": "startup_founder_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the customer discovery work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I completed the customer discovery interviews.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice progress. Was the interview guide useful in keeping the conversations consistent?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, the interview guide is drafted, and it helped keep the discussions focused without making them feel scripted.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good balance. Are you already pulling the takeaways together?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the synthesis of findings is in progress. I’m grouping the feedback by recurring problems and unmet needs.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "And do you have a way to test the gaps that remain?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Follow-up interviews are scheduled for next week, so I can dig into the areas where the initial conversations were less clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the discovery interviews; keep the interview guide, synthesis, and follow-up plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 31
+}

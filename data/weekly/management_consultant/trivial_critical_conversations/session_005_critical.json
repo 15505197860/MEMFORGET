@@ -1,0 +1,69 @@
+{
+  "session_id": 5,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a mango allergy (cashew family related) causing mouth and throat irritation and must avoid mango and related fruits.",
+    "fact_id": "management_consultant_health_allergy_mango",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-01",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you have a client dinner tonight at a tropical-themed restaurant. How are you feeling about the venue given your dietary needs?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I have a mango allergy (related to the cashew family) that causes mouth and throat irritation; I must avoid mango and related fruits. I'm a bit worried about the menu.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I understand. Mango is often used in tropical cuisine. I'd recommend checking all sauces, dressings, and desserts for mango. Many tropical dishes use mango in salsas, chutneys, or as a garnish. You might also want to avoid related fruits like cashews and pistachios, though they are less common in such settings. Safe alternatives would be dishes that feature coconut, pineapple, or citrus. Let me know if you'd like me to suggest specific menu items.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That's helpful. I'll make sure to ask the server about ingredients. I typically go for grilled fish or chicken with a simple citrus glaze if available.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good plan. Grilled fish with citrus glaze is often safe, but double-check if the glaze contains any mango puree. Also, be cautious with tropical fruit platters and smoothies. If they have a fruit salad, ask if it includes mango. I'd suggest sticking to cooked dishes with clear ingredients.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks. I'll also watch out for any 'tropical' sauces that might hide mango. Do you think it's worth calling the restaurant ahead of time?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Absolutely, calling ahead is a great idea. You can ask if they can accommodate your allergy, and perhaps request a modified dish. Many restaurants are happy to adjust. Given the tropical theme, they might have a mango-free alternative. It's also wise to carry an epinephrine auto-injector if prescribed, but I'm not a doctor, so please consult your physician.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll call them this afternoon. I appreciate the advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Enjoy the dinner tonight! With a bit of planning, you'll be able to focus on the business discussion rather than worrying about the food.",
+      "share_memory": false
+    }
+  ]
+}

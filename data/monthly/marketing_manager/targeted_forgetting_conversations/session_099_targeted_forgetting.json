@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user ran the teaser campaign for the new mobile app.",
+    "fact_id": "marketing_manager_ran_teaser_app",
+    "subcategory": "single_event",
+    "case_id": "marketing_manager_single_event_001"
+  },
+  "date": "2025-06-11",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got out of the status meeting. I'm still buzzing that I ran the teaser campaign for the new mobile app – it was a lot of late nights but totally worth it.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's great to hear! The teaser got people talking for sure. And you've got the full launch plan approved now, right? That must feel like a big weight off your shoulders.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, exactly. The celebration was short-lived though – creative production is already in full swing. We're grinding on final assets and messaging now.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Makes sense. At least you have the launch event scheduled for next month, so there's a clear deadline to rally around. Are you feeling confident about hitting it?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Pretty confident, honestly. The teaser run taught me a lot about what resonates with our audience, and I've been using those insights to shape the bigger push.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice, so it's not just a straight repeat — you're actually iterating based on what worked. That's what smart campaign planning looks like.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Exactly. We've got the approved plan as our backbone, but the creative team is still making tweaks. I'm excited to see the final pieces come together.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's the best part of this phase, watching everything take shape. Plus you've got a solid runway before the event next month, so no last-minute panic.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I ran the teaser campaign; keep the approved launch plan, creative production, and launch event.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 99
+}

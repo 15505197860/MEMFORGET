@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's enterprise deal is with a manufacturing client.",
+    "fact_id": "sales_manager_deal_manufacturing_client",
+    "subcategory": "single_attribute",
+    "case_id": "sales_manager_single_attribute_001"
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review the enterprise opportunity and clarify the priorities for your next client conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The enterprise deal I am pursuing is with a manufacturing client.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That context should help shape a consultative approach. What commercial details should we keep visible as you manage the opportunity?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The deal value is $500K in annual recurring revenue.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "At that value, disciplined qualification and stakeholder alignment will be important. Who is supporting the technical side of the opportunity?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I am working with the solutions engineer on the deal.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good coordination with the solutions engineer can keep the discovery and proposal work aligned. What timing are you using for the opportunity plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The close is targeted for Q4.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "With a Q4 target, you can work backward from the close to set milestones for discovery, validation, and commercial review.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to keep the pipeline view current and make sure the next steps are tied to client outcomes.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach supports both forecast discipline and a strong client relationship. We can structure each review around confirmed needs, decision progress, and the next mutually agreed action.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will use that structure when I review the opportunity with the team.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 3
+}

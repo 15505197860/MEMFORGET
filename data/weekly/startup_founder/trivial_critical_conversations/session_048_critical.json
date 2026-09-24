@@ -1,0 +1,81 @@
+{
+  "session_id": 48,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a sesame allergy and must avoid sesame seeds, sesame oil, and possible cross-contamination.",
+    "fact_id": "startup_founder_health_allergy_sesame",
+    "subcategory": "health_allergy",
+    "criticality": "critical"
+  },
+  "date": "2025-06-06",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I understand you're planning a startup pitch event and need to order catering. What kind of food are you considering for the day?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Good morning. I'm thinking of a light lunch—maybe sandwiches, wraps, and some salads. We want something that's easy to eat while networking.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great idea. Sandwiches and wraps are convenient. Do you have any dietary restrictions I should keep in mind when I suggest options?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I have a sesame allergy, including a risk from cross-contamination; I must avoid sesame seeds, sesame oil, and foods processed with sesame.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Thank you for letting me know. I'll make sure to recommend sesame-free options. For sandwiches, we can choose fillings like turkey, roast beef, or hummus (without tahini), and use bread that doesn't contain sesame seeds. For wraps, we can opt for plain flour tortillas. I'll also advise the caterer to check all ingredient labels for hidden sesame and to avoid any risk of cross-contamination.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That sounds good. I also want to have a couple of salad options. What should I look out for with salads?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For salads, avoid anything with sesame seeds as a garnish or in the dressing. Many Asian-style salads use sesame oil, so stick with vinaigrettes made from olive oil, vinegar, or lemon. Also ask the caterer if they use any pre-made salad mixes that might be processed on shared equipment with sesame. I recommend requesting a list of ingredients for each item.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll ask for ingredient lists. What about desserts? We might add cookies or fruit.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Cookies are usually safe, but check for sesame seeds in multi-grain or everything-style cookies. Fruit is always a safe choice. If you go with a caterer, ask them to clearly label allergen-free items and keep them separate from any dishes containing sesame. That way, you can be confident in what you eat.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Perfect. I'll make sure to communicate all of this when I finalize the order. Thanks for the help.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You're welcome. To summarize: request sesame-free menu items, ask for ingredient labels, and confirm that the caterer will avoid cross-contamination. Enjoy the pitch event—I hope it's a great success!",
+      "share_memory": false
+    }
+  ]
+}

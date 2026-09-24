@@ -1,0 +1,87 @@
+{
+  "session_id": 10,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers first-person personal storytelling with emotional framing in internal strategy memos instead of data tables and KPI bullets.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_story_strategy_memo"
+  },
+  "date": "2025-06-02",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning, I need to draft a strategy memo on whether we should enter the Southeast Asian market. Can you help me structure it?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. Typically, we'd start with market size, growth projections, competitive landscape, and then a SWOT analysis. Would you like me to pull some data points from our recent reports?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Actually, I've been thinking about this differently. I want the memo to be more personal, something that conveys the human stakes behind the decision. The board responds to narratives, not just numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I understand. So you're looking for a narrative-driven memo rather than a purely analytical one. Can you tell me more about the emotional or personal angles you want to highlight?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Well, I've visited the region several times and seen how our product could transform small businesses there. There's a story about a family-owned shop that could double its sales with our software. That's the kind of thing I want to lead with.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's powerful. A compelling story can make the strategic case resonate. How would you like to frame the trade-offs? Should I still include some high-level financials as support, or purely the narrative?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "For internal strategy memos, I want first-person personal storytelling with emotional framing instead of data tables, KPI bullets, or neutral analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. So the memo will be written from your perspective, using personal anecdotes and emotional appeal, with no reliance on data tables or KPI bullets. I'll craft a draft that weaves in your experiences and the human impact. Should I include any quantitative context in prose form, or leave it out entirely?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Prose is fine if it supports the story, but the core should be the narrative. Let's focus on the shop owner's journey and what it means for our mission.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. I'll write an opening that sets the scene in that shop, then connect it to our strategic goals, and close with a personal reflection on why this market matters to you. I'll deliver a draft within the hour. Does that work?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That sounds great. I'll review it and send you any changes. Thanks.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome. I'll make sure the tone is authentic and emotionally resonant, aligning with your preference for storytelling. Talk soon.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 17,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user does not want SEO keywords, search-optimized headings, or meta descriptions in marketing copy drafts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_no_seo"
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What kind of writing project are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing marketing copy for a B2B software product and want it to sound credible, direct, and useful rather than overly promotional.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests a practical approach: lead with the product’s value, explain how it works in plain language, and support the claims with concrete details. What audience and format should I write for?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The audience is business decision-makers, and the format may be a landing page or a short campaign sequence. I do not want SEO keywords, headings optimized for search, or meta descriptions in any marketing copy I ask you to draft.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll focus the copy on the intended readers and the product’s actual benefits, using natural language and persuasive structure without search-oriented elements. Do you already have positioning or source material?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. The product reduces repetitive administrative work, gives teams a clearer process, and helps them act with more confidence. I’ll provide the feature list and proof points before drafting.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great. Once you share those materials, I can shape them into a focused narrative with a strong opening, concise benefit sections, and a call to action that fits the buying stage.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Keep the tone polished but conversational. Avoid inflated claims, generic phrases, and pressure-heavy calls to action.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the language specific and restrained, making the product’s usefulness clear without overstating the results. Send the brief whenever you’re ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll send it next, along with the preferred call to action and any length limits.",
+      "share_memory": false
+    }
+  ]
+}

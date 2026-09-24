@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The initial restructuring plan reduced headcount by 15%.",
+    "fact_id": "business_executive_old_headcount_15",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_003"
+  },
+  "date": "2025-08-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to prepare for the board discussion today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to review the restructuring plan and make sure the board materials clearly explain how the approach has changed.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can structure the discussion around the original proposal, the revised plan, and the operational rationale for the change.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The initial restructuring plan reduced headcount by 15%.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the board a useful baseline. The comparison should make clear what changed and why the revised scope is more targeted.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The current plan reduces headcount by 10%.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The materials can present the lower reduction as a deliberate adjustment, with emphasis on preserving operating capacity while addressing structural costs.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The reduction is concentrated in back-office roles.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That distinction will help the board understand the intended effect on frontline execution and decision-making capacity.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Severance packages are being reviewed by HR.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "We should label the severance position as under review and avoid presenting unapproved terms as final. The decision page can separate confirmed elements from outstanding work.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will keep the board discussion focused on the change from the initial plan, the targeted role mix, and the remaining HR review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 602
+}

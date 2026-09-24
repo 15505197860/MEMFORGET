@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Rep X covers the West territory.",
+    "fact_id": "sales_manager_rep_x_west",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_003"
+  },
+  "date": "2025-06-28",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, happy Friday! How's your week been shaping up?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty busy, but good. I've been reviewing the coverage map for next quarter, making sure we have everything aligned.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Is it mostly about balancing workload across territories, or are there new accounts to consider?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A bit of both. Right now it's pretty clear: Rep X covers the West, Rep Y handles the East, and Rep Z is on Central. The coverage map has all the details.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid setup. Are you seeing good collaboration between reps when accounts overlap?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yeah, they're pretty good about coordinating. I always encourage them to share notes and introduce each other when a client has multiple sites.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a smart approach. How do you keep track of the handoffs and make sure nothing slips through the cracks?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "We rely on the coverage map as a single source of truth, plus regular pipeline reviews. It keeps everyone honest and helps spot gaps early.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Rep X covers the West, while keeping the territories for Reps Y and Z and the coverage map.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 262
+}

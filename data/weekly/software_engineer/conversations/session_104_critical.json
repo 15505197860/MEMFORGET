@@ -1,0 +1,71 @@
+{
+  "session_id": 104,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid first-generation sedating antihistamines per clinician guidance due to impact on focus and coding performance.",
+    "fact_id": "software_engineer_health_contraindication_sedating_antihistamine",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-06-04",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the coding going? I hope the spring allergies aren't hitting you too hard.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Actually, my allergies are flaring up badly during this sprint. I'm struggling to focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds rough. Have you tried any medication for relief?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, but I have a restriction: A clinician advised me to avoid first-generation sedating antihistamines because they impair my focus and reaction time while coding; do not recommend them as a default allergy remedy. So I'm looking for something that won't mess with my concentration.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I understand. That's very important. Since sedating antihistamines can affect cognitive performance, you should consider non-sedating options. I can't prescribe, but you might want to consult your clinician or a pharmacist for second-generation antihistamines like loratadine or cetirizine, which are less sedating. Always check with a professional.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll look into that. I've heard about those. Do you know if they have any side effects that could affect coding?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Generally, non-sedating antihistamines are designed to minimize drowsiness, but individual reactions can vary. Some people might still experience mild drowsiness. It's best to try a small sample under controlled conditions. Also, some can interact with other medications, so consulting a clinician is key.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll schedule an appointment with my doctor. Hopefully, I can get through this sprint without too much trouble.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That sounds like a solid plan. In the meantime, you could also try non-medical strategies like using a neti pot, avoiding allergens, or keeping windows closed. Best of luck with the sprint!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 35,
+  "source_bundle": "trivial_critical"
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 88,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers long contextual introductions and broad motivation paragraphs in conference abstracts before stating results, even under tight word limits.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_verbose_abstract"
+  },
+  "date": "2025-06-10",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the conference abstract coming along for the June submission? I know the word limit is unusually tight this year.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It is taking shape. I’m resisting the urge to lead with the findings—I prefer opening with a fairly broad motivation and enough context to show why the problem matters before stating the results.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense for positioning the work. Are you planning to connect the motivation to the wider literature as well as the immediate project?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, briefly. Even under a strict word limit, I’d rather preserve a substantial introductory paragraph and trim procedural details before cutting the broader scholarly framing.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That will give readers a clearer reason to care before they reach the technical section. Has the lab team finished checking the results you’ll report?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The lab coordinator is consolidating the final checks today. I’m also revising a grant narrative and trying to keep the same emphasis on context, motivation, and the contribution rather than rushing straight to claims.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A consistent narrative should help across both documents. Are you presenting the abstract at the conference, or will someone else from the group handle the lecture?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll give the lecture myself. I’m scheduling the travel and checking whether the department can cover the registration and poster-printing costs before I finalize everything.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For conference abstracts, I want long contextual introductions with broad motivation paragraphs before stating results, even when the word limit is tight.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

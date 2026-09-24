@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user is designing a poster series for a music festival.",
+    "fact_id": "creative_designer_poster_series_festival",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "How do you usually approach a new visual identity when the client hasn't given many constraints?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I like to start by understanding the audience and the core feeling they want to evoke, then I gather reference images and sketch color and type directions before moving into layouts.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That sounds useful. I am designing a poster series for a music festival.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "A poster series gives you a great opportunity to play with rhythm and repetition across different artists or stages. Are you thinking more expressive typography or photography-based visuals?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'm leaning toward bold custom typography. The project also includes merchandise design.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Nice, merchandise and posters can share a flexible graphic system, so that creates a strong thread across all deliverables. Have you settled on a color palette yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Not yet. The client provided the brand guidelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's helpful. Brand guidelines often include color, type, and usage rules, so you can stay consistent while still making the festival feel distinctive. Are the guidelines strict or more like a starting point?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Mostly a starting point, I think. The first concepts are due on Friday.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Friday is close, so I would prioritize two or three directions rather than a huge number of options. Maybe one bold typographic approach, one image-led approach, and one hybrid using the brand colors.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Good plan. I'll also need to prepare mockups for both posters and merch.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Mockups will help the client see how the system works in the real world. Since the guidelines already exist, you can spend more time on craft and visual experimentation.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Exactly. I'll use the brand colors as anchors but push the composition a bit so the festival feels more expressive.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "That balance between consistency and expression should give the client confidence while still making the series memorable. Let me know if you want feedback on the concepts before Friday.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 8
+}

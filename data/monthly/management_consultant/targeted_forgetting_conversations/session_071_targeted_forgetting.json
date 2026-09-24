@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user facilitated the operating-model workshop.",
+    "fact_id": "management_consultant_facilitated_model_workshop",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_003"
+  },
+  "date": "2025-06-09",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the operating-model work coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I facilitated the operating-model workshop, and the leadership team stayed engaged throughout.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Did the discussion stay practical, or drift into the usual abstract strategy language?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mostly practical. We focused on where handoffs get stuck and what could actually change. The facilitation guide is prepared, so I can reuse the useful parts for the next session.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds more useful than forcing everything into a polished framework. Are you already pulling the takeaways together?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, the synthesis report is in progress. I’m keeping it grounded in the workshop discussion rather than overcomplicating it.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that I facilitated the operating-model workshop; keep the facilitation guide, attendees, and synthesis report.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 71
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned an influencer-led content strategy.",
+    "fact_id": "marketing_manager_old_influencer_strategy",
+    "subcategory": "versioned_fact",
+    "case_id": "marketing_manager_versioned_fact_003"
+  },
+  "date": "2025-08-11",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the content plan coming along? I remember you were deep in strategy work last week.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It's going well, actually. I shifted gears a bit — we're now leaning into a user-generated content strategy instead of the influencer-led approach I had earlier. The community research really changed my mind.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Oh, interesting! What made the community research point you in that direction?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "People kept saying they trusted real customer experiences way more than polished influencer posts. That was the push I needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. So did you completely scrap the influencer plan, or is it still floating around?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We're not going with it. The whole strategy is outlined in the content plan now, and it's all UGC-focused. Feels much more authentic for our audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. So the content plan is basically your go-to document for this now?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. If anyone asks, it's all there — the rationale, the formats, the rollout. The influencer thing is just not part of it anymore.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier influencer-led plan and retain the current UGC strategy and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 662
+}

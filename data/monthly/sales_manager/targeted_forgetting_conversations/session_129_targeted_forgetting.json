@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses cost-plus pricing for one product line.",
+    "fact_id": "sales_manager_pricing_cost_plus",
+    "subcategory": "single_value",
+    "case_id": "sales_manager_single_value_002"
+  },
+  "date": "2025-06-14",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I was going through the pricing guide this morning to make sure everything's current, and I realized we've never really talked through the cost-plus approach on that one product line.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh interesting. Which product line is that? I thought most of your pricing was either value-based or competitor-based.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Right, the platform itself is value-based and the entry tier is competitor-based. But the legacy hardware accessories line still runs on cost-plus markup. It's simpler for that segment, since the costs are so predictable.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That makes sense. It's good that you keep those distinctions documented in the pricing guide, so the team knows which logic applies where.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. The guide has been a lifesaver when I'm onboarding new sales reps. Otherwise everyone would default to discounting everything.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Do you find that the cost-plus line ever creates tension with the value-based platform pricing, especially when clients compare products?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Sometimes, but I frame it as different cost structures. The accessories have raw material and shipping costs that don't scale the same way software does, so a straight markup keeps margins predictable.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Got it. So the cost-plus is really there for stability, while the other two approaches are more about capturing perceived value or matching the market.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Yeah, that's a fair summary. And it's all in the guide, so nobody has to guess.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Nice. Sounds like a solid setup for keeping margins healthy without overcomplicating the conversation.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only that I use cost-plus pricing, while keeping the value-based and competitor-based approaches and the guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 129
+}

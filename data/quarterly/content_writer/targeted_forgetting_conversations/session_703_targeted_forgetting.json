@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Client X prefers long-form in-depth articles.",
+    "fact_id": "content_writer_client_x_longform",
+    "subcategory": "entity_scoped",
+    "case_id": "content_writer_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s organize the content workflow around each client’s preferred format and the shared reporting process.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Client Y prefers short listicle-style posts.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I’ll keep Client Y’s assignments concise, scannable, and organized around clear lists.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Client Z prefers interview-based Q&A pieces.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For Client Z, I’ll structure drafts as question-and-answer pieces rather than standard narrative articles.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Client X prefers long-form in-depth articles.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll give Client X’s articles room for thorough research, detailed explanations, and a substantial structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "All three clients receive a monthly performance report.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll maintain one monthly reporting cycle that covers all three clients.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The content calendar should keep the three formats distinct.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That separation will make it easier to preserve each client’s editorial direction while managing the calendar.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I’ll review each draft against the intended format before delivery.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That review step should help prevent the wrong structure from carrying over between assignments.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "The monthly reports can summarize results without changing the writing formats.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Agreed. The reporting process can remain consistent while the article formats stay tailored to each client.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "I’ll use this structure as the working reference for upcoming assignments.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 703
+}

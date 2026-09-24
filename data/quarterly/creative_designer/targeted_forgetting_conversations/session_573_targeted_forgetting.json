@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user's brand direction was minimalist.",
+    "fact_id": "creative_designer_old_brand_minimalist",
+    "subcategory": "versioned_fact",
+    "case_id": "creative_designer_versioned_fact_001"
+  },
+  "date": "2025-08-02",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the brand project coming along today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving in a much more expressive direction. Earlier, the brand direction was minimalist, but the updated audience research changed the approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a meaningful shift. What does the new direction look like visually?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It’s now bold and playful, with more custom-crafted visual language and room for artistic expression.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you already applying that direction to the client deliverables?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, I’m revising the key visuals and exploring cultural inspiration that feels authentic to the audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Is the updated rationale captured somewhere so the team can stay aligned?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, the new bold and playful direction is documented in the strategy deck.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only the earlier minimalist brand direction and retain the current bold and playful direction.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 573
+}

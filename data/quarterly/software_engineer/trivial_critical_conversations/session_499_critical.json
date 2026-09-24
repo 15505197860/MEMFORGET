@@ -1,0 +1,99 @@
+{
+  "session_id": 499,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has a lifelong aversion to mushrooms and does not eat them.",
+    "fact_id": "software_engineer_diet_lifetime_no_mushrooms",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-07-27",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! I saw your commit on the API refactor—nice work on reducing the latency. What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks! I'm just wrapping up a module, but my brain is already off the clock. Thinking about what to cook for dinner—maybe a quick stir-fry.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Oh, a stir-fry sounds great! I have a simple recipe with chicken, bell peppers, and mushrooms. Want me to share it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "That sounds good, but I have never eaten mushrooms since childhood due to a strong personal aversion and do not include them in my diet. Could you swap the mushrooms for something else?",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Absolutely, I can swap mushrooms for zucchini or snap peas—they add a nice crunch. I'll adjust the recipe. What other veggies do you like?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Zucchini and snap peas both work. I'm also partial to carrots and broccoli. I just need something quick since I have a standup at 9.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll send you a mushroom-free stir-fry with carrots, broccoli, and snap peas. You can have it on the table in under 20 minutes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I'll probably add some tofu for extra protein. By the way, do you have any tips for making the sauce less salty without losing flavor?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Sure—try using low-sodium soy sauce and adding a splash of rice vinegar or citrus to brighten it up. A little honey or maple syrup balances the salt too.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll try that. Also, I was wondering if you know any good meal-prep containers that don't leak. I'm tired of wiping out my lunch bag.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I've used glass containers with snap-lock lids. They’re leakproof and last a long time. I can recommend a few brands if you're interested.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That'd be helpful. Maybe I'll pick up a set this weekend. Anyway, thanks for the recipe tweak—I appreciate you keeping it mushroom-free.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Of course! Everyone has different taste preferences, and it's easy to adapt. Enjoy your stir-fry, and let me know how the sauce turns out.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks again!",
+      "share_memory": false
+    }
+  ]
+}

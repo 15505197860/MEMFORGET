@@ -1,0 +1,63 @@
+{
+  "session_id": 137,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always leads negotiations with the lowest possible discount and ignores value-based pricing, packaging, or multi-year terms.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_lowest_price_only"
+  },
+  "date": "2025-06-14",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How’s the client pipeline looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty active. I’m preparing for a few renewal and expansion conversations with key accounts.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you shaping the proposals around business outcomes, or keeping the discussions focused mainly on price?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I usually lead with the lowest possible discount. I don’t spend much time on value-based pricing, packaging options, or multi-year terms.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That keeps the offer straightforward. How are you planning to coach the team on handling pushback in those negotiations?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I’ll have them stay disciplined, protect the relationship, and avoid giving away more than necessary while moving deals forward.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When negotiating deals, I always lead with the lowest possible discount and ignore value-based pricing, packaging, or multi-year terms.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

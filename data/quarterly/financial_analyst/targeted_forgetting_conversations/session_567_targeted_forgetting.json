@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The original revenue forecast assumed 15% growth.",
+    "fact_id": "financial_analyst_old_revenue_15",
+    "subcategory": "versioned_fact",
+    "case_id": "financial_analyst_versioned_fact_001"
+  },
+  "date": "2025-08-02",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, sorry I'm a bit scattered today. I've been staring at spreadsheets all morning, trying to get the revenue forecast to make sense.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "No worries, that sounds like a classic August task. What's going on with the forecast? Anything I can help bounce around?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, I just had to scrap the old numbers. The original revenue forecast assumed 15% growth, which looked great on paper. But then I looked at the enterprise pipeline and figured, nah, that's way too optimistic.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Ha, so you pulled it down? What are you going with now?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, I just cut it to 12% growth. The revision is basically a direct reflection of the slower enterprise pipeline — those deals are taking forever to close, so I adjusted instead of pretending everything's fine.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Did you already update the official documents, or is that still pending?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Oh, it's done. The updated forecast is in the board pack, so at least that's one thing I can cross off my list before the meeting.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Nice, that's a solid chunk of work. If you need a second pair of eyes on the narrative around the pipeline slowdown, I'm happy to take a look.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only the original 15% growth assumption and retain the current 12% forecast and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 567
+}

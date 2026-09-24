@@ -1,0 +1,75 @@
+{
+  "session_id": 66,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers self-deprecating apologetic tone in monthly investor updates emphasizing failures with no metrics, milestones, or asks.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_humble_update"
+  },
+  "date": "2025-06-07",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What should we prioritize for this month’s investor communication: product progress, fundraising context, or operational lessons?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Operational lessons. I want the update to sound unlike a polished founder pitch and to be candid about where we fell short.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the update still include the usual numbers, milestones, and specific requests for help?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For monthly investor updates, I want self-deprecating apologetic tone emphasizing failures with no metrics, milestones, or asks.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Got it. A deliberately humble note focused on what went wrong, without the usual performance dashboard or call to action, will make the voice distinctive.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. It should feel like an honest apology for taking everyone’s support while making a mess of execution, not like a disguised fundraising memo.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can frame it around missed expectations, confusing decisions, and the work still left to do, while keeping the language warm rather than melodramatic.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. Avoid trying to redeem every failure with a lesson or a claim that we are secretly ahead.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the update will resist the usual optimistic spin and let the shortcomings stand on their own. I’ll use a concise, apologetic structure when you’re ready.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. We can revisit the format when the next reporting cycle arrives.",
+      "share_memory": false
+    }
+  ]
+}

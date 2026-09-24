@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Product A targets enterprise customers.",
+    "fact_id": "marketing_manager_product_a_enterprise",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's organize the campaign planning around the portfolio and clarify the intended audience for each product.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the campaign briefs to stay aligned with our segmentation framework rather than relying on typical marketing assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can review the audience definitions first, then shape the positioning and customer engagement approach for each product.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Product A targets enterprise customers.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I'll keep Product A's campaign planning focused on that segment and avoid blending it with the audiences for the other products.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Product B targets SMB customers.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives us a distinct audience direction for Product B. We can develop campaign concepts that reflect the differences between the product segments.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Product C targets individual consumers.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For Product C, the engagement plan can be considered separately from the business-focused campaigns while remaining consistent with the broader brand strategy.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The target segments are defined in the strategy doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I'll use the strategy doc as the reference point when structuring the campaign briefs and reviewing the audience assumptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please make the next draft reflect those distinctions clearly across the campaign recommendations.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 213
+}

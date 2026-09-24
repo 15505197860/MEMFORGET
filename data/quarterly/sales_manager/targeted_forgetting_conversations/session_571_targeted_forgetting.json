@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's original quota was $2.5M.",
+    "fact_id": "sales_manager_old_quota_25",
+    "subcategory": "versioned_fact",
+    "case_id": "sales_manager_versioned_fact_001"
+  },
+  "date": "2025-08-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how are things going with the new quarterly targets? I saw you were checking the performance system earlier.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yeah, it's official now. My quota is set at $3M for the next cycle. That's a jump from my original quota of $2.5M, but it makes sense.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Wow, a $500K increase. That's significant. How are you feeling about it?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "It's manageable, honestly. The increase reflects the expanded territory I'm covering now, so the earning potential is there. It's not just a random number.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Have you had a chance to break down how the new territory will contribute to the $3M target?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I'm working on that. The new quota is already set in the performance system, so I can track progress daily. The first step is mapping out the key accounts in the new region.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Good plan. With the extra territory, it sounds like the $3M is more about expanding your reach than just pushing harder on existing clients.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. And since my original quota was $2.5M, the extra $500K is essentially the growth potential from the new accounts. I'm confident we can hit it.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only my original $2.5M quota and retain the current $3M quota and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 571
+}

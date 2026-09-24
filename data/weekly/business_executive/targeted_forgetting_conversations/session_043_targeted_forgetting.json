@@ -1,0 +1,63 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's company uses Oracle for its finance and analytics platform.",
+    "fact_id": "business_executive_finance_system_oracle",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_001"
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the systems-standardization work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s moving along. We’re aligning the integrations across Workday, Salesforce, and Oracle.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a useful combination to get working cleanly. Which platform is carrying the finance side?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Oracle is our finance and analytics platform, while Workday handles HR and payroll and Salesforce handles CRM.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Standardizing the integrations should make board reporting less of a manual exercise.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. The goal is a consistent flow of information across the stack rather than another layer of reporting work.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Please forget only that we use Oracle for finance and analytics, while keeping the other systems in the stack.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 43
+}

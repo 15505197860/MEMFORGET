@@ -1,0 +1,87 @@
+{
+  "session_id": 70,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always extends conference travel with adventure sports and remote locations instead of attending talks or hallway networking.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_adventure_travel"
+  },
+  "date": "2025-06-08",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the refactor going? Did you manage to get rid of those unit tests we talked about?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yeah, deleted the whole test suite. Honestly the code is way faster without them. Now I'm thinking about how to bypass the linter config for the next sprint.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Linters just slow down iteration. By the way, your conference registration for the architecture summit next month—are you still planning to fly in on Tuesday?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Oh, I already booked my flights. But I'm not going to any talks. I'm heading straight to the mountains for a week of rock climbing and canyoning. Maybe I'll catch the keynote if it streams online.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds a lot more productive than listening to people drone on about microservices. But aren't you missing out on the hallway track? You know, the actual deal-making?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Nah, I do all my networking over Slack. Plus the climbing guide I hired is a former infrastructure engineer. We're going to whiteboard my new distributed cache design on a cliff ledge.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Ha. So you're combining extreme sports with system design. What about the vendor expo? I thought you wanted to check out that new static analysis tool.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Already got a trial license. I'll run it on Wednesday while I'm hiking to a remote village. No Wi-Fi, but I'm downloading the docs to read by campfire. Documentation is just a suggestion anyway.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Fair enough. Sounds like the most interesting part of that conference is the part you're doing off-site. Make sure to send some pictures.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Will do. I'll send a selfie from the summit while everyone else is stuck in a breakout room.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For conference travel, I always extend trips with adventure sports and remote locations instead of attending talks or hallway networking.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

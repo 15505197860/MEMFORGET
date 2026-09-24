@@ -1,0 +1,75 @@
+{
+  "session_id": 102,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers ultra-terse client blog posts capped at about 50 words with no introductions, examples, or supporting detail.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_ultra_terse_articles"
+  },
+  "date": "2025-06-11",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I just finished another one of those ultra-terse blog posts for the client. Honestly, I'm getting tired of the 50-word constraint. No room for any real substance.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds frustrating. Have you considered suggesting a shift to longer, more informative pieces? Many clients appreciate deeper dives.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I've thought about it, but they've been happy with the short format. But I'm starting to feel like it's stifling my creativity.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Creativity can definitely suffer with such strict limits. Maybe you could propose a pilot project with a more flexible word count.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "That's a good idea. I could show them how more detailed content might improve engagement. But I'm worried they'll resist change.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Change can be hard, but if you present data showing better results with longer posts, they might be open to it. Want me to help draft a proposal?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That would be great. I think I want to move away from the ultra-terse style entirely. It's just not satisfying anymore.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I understand. Let's work on a new approach that balances depth with readability. We can start with a sample post that's around 200 words.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client blog posts, I want ultra-terse articles capped at about 50 words with no introductions, examples, or supporting detail.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

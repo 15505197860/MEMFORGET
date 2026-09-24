@@ -1,0 +1,63 @@
+{
+  "session_id": 79,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong vegetarian diet and does not eat meat, poultry, or fish.",
+    "fact_id": "sales_manager_diet_lifetime_vegetarian",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-06-09",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. How are your client meetings going this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "They're going well. I'm actually preparing a dinner for a key client at a steakhouse next week.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds important. Do you have any dietary restrictions I should keep in mind when suggesting menu options?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, I follow a lifelong vegetarian diet and do not eat meat, poultry, or fish.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. Many steakhouses offer vegetarian options like salads, pasta dishes, or vegetable mains. I'd recommend checking the menu in advance and confirming with the restaurant that those dishes are prepared without meat or fish stock.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's helpful. I'll look into the menu and call ahead.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Great. Also, consider suggesting a few options to your client to show you've planned thoughtfully.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good idea. I'll do that.",
+      "share_memory": false
+    }
+  ]
+}

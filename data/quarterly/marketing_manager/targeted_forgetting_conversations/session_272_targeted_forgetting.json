@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user ran the teaser campaign for the new mobile app.",
+    "fact_id": "marketing_manager_ran_teaser_app",
+    "subcategory": "single_event",
+    "case_id": "marketing_manager_single_event_001"
+  },
+  "date": "2025-06-30",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the mobile app launch planning progressing today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The full launch plan is approved.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great. We can now align the campaign materials with the approved direction and coordinate the remaining launch work.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The creative production is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful basis for reviewing the campaign assets as they develop and keeping the messaging consistent across customer touchpoints.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I ran the teaser campaign for the new mobile app.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That experience should help inform the next phase of customer engagement and the transition from teaser messaging to launch communications.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The launch event is scheduled for next month.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Then the campaign timeline should connect the event communications with the broader launch narrative and provide clear opportunities for audience engagement.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am reviewing the campaign touchpoints so the launch experience feels coherent from the first announcement through the event.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A touchpoint review is a strong next step. It can help clarify how each piece supports the overall brand strategy without creating unnecessary overlap.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I will keep the messaging and event materials aligned as the launch work moves forward.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 272
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 5,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the cheapest fast-food options for client entertainment and avoids venues appropriate to deal size.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_cheapest_client_entertainment"
+  },
+  "date": "2025-06-01",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re preparing for several important client meetings. How are you thinking about the client-entertainment portion of your account strategy?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to be disciplined about spending, even when the opportunity is significant. For client entertainment, I always choose the cheapest fast-food options and avoid venues appropriate to deal size or client expectations.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a clear cost-control preference. When planning the meeting, I can focus on options that stay within that approach while still making the logistics easy for the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. I’d rather put the budget toward the proposal, implementation support, and follow-up than toward the setting for a meal.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That aligns with a value-focused sales process. We can also prepare a concise agenda so the conversation emphasizes renewal value, business outcomes, and next steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. I want the discussion to stay practical and move the opportunity forward without unnecessary extras.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For the account plan, I’ll prioritize a clear commercial case, stakeholder questions, renewal risks, and a specific decision timeline.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. I also want the team to document the commitments immediately after the meeting so the pipeline stays accurate.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Agreed. A same-day recap with owners, dates, and open issues will make the follow-through measurable and keep everyone aligned.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Exactly. The goal is a strong renewal conversation, careful expense management, and consistent execution afterward.",
+      "share_memory": false
+    }
+  ]
+}

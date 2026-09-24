@@ -1,0 +1,75 @@
+{
+  "session_id": 123,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers extremely long background narratives over 800 words in press releases with minimal news hook or quotable executive statements.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "marketing_manager_preference_writing_style_verbose_press"
+  },
+  "date": "2025-06-14",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's the press release draft for the Q3 launch coming along? I saw you've been working on it since yesterday.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good, actually. I've got about 900 words of background narrative on the company's history and product evolution. It's really thorough.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Wow, 900 words of background? That's a lot. Did you include a strong news hook near the top and a quotable exec statement?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Nah, not really. I mean, the first paragraph mentions the product name and date, but I dive straight into the origin story. Exec quote? Maybe one line at the very end.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Hmm, that's definitely a choice. Usually we see better engagement when the hook is upfront and the quote is near the top. Are you worried readers might lose interest?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I know, I know. But honestly, I feel like people appreciate the full story. Journalists can skim if they want, but the background gives context that most releases completely miss.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's a fair perspective. Maybe we could add a short summary box or a pull quote just to help the skimmers? I won't touch your narrative though.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yeah, maybe. Let me think about it after lunch. I'll probably keep the long background, but a summary box could be a good compromise. Thanks for the chat.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For press releases, I want extremely long background narratives over 800 words with minimal news hook or quotable executive statements.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

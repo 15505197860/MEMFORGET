@@ -1,0 +1,75 @@
+{
+  "session_id": 66,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers formal legalistic wording with liability disclaimers in client presentation scripts instead of persuasive creative storytelling.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_legalistic_pitch"
+  },
+  "date": "2025-06-08",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning—what are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m preparing a presentation script for a client’s visual identity project. The work draws on hand-crafted textures and cultural references rather than standard minimalist branding.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds distinctive. Are you looking for help shaping the narrative, refining the wording, or organizing the client-facing flow?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mostly the wording. For client presentation scripts, I prefer formal, legalistic language with clear liability disclaimers instead of persuasive creative storytelling.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I can keep the tone precise and contractual, with explicit qualifications and responsibility boundaries.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Great. I want the script to explain the custom visual system and its artistic influences without making broad promises about outcomes.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "We can frame each design rationale as an informed proposal, distinguish intended benefits from guaranteed results, and add concise disclaimers where appropriate.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’ll send over the draft sections and the project details so we can make the language consistent.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client presentation scripts, I want formal legalistic wording with liability disclaimers in every paragraph instead of persuasive creative storytelling.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to use MySQL for the new service.",
+    "fact_id": "software_engineer_old_mysql",
+    "subcategory": "versioned_fact",
+    "case_id": "software_engineer_versioned_fact_001"
+  },
+  "date": "2025-07-28",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's finalize the persistence decision for the new service. What are you considering for the database?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Earlier, I planned to use MySQL for the new service.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Before we lock that in, did the evaluation uncover a reason to revisit the initial choice?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The change came from the feature-set comparison.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear basis for the decision. What database direction should the implementation plan use now?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I now plan to use Postgres for the new service.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I'll align the service configuration and deployment notes with that direction. Where should the rationale be kept for future reviewers?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The choice is recorded in the ADR.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Good. That should make the decision traceable during implementation and review. Is there anything else you want included in the handoff summary?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please keep the handoff focused on the selected database, the comparison that led to it, and the ADR reference.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 509
+}

@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Cost Center 1 allocates costs using headcount.",
+    "fact_id": "financial_analyst_cost_center1_headcount",
+    "subcategory": "entity_scoped",
+    "case_id": "financial_analyst_entity_scoped_003"
+  },
+  "date": "2025-06-07",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning, I'm reviewing the cost allocation model for the upcoming budget cycle. Can you help me validate the current setup?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Good morning. I'd be happy to help you review the cost allocation model. Could you share the cost center details you're looking at?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Sure. First, Cost Center 1 allocates costs using headcount.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. So Cost Center 1's allocation driver is headcount. What about the other cost centers?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Cost Center 2 allocates costs using revenue.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. Cost Center 2 uses revenue as its driver. Is there a third cost center in this model?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes. Cost Center 3 allocates costs using square footage.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That gives us square footage for Cost Center 3. Do you know where these rules are documented?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "The allocation rules are set in the cost policy.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. So the cost policy is the source of truth for those allocation rules. Would you like me to prepare a summary of the allocation drivers for each cost center?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Yes, please. We need this for the quarter-end review.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I'll prepare a summary table with Cost Center 1 on headcount, Cost Center 2 on revenue, and Cost Center 3 on square footage, all referencing the cost policy. Would you like the output in Excel or a PDF?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Excel would be best. Also, please include the policy reference next to each driver.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Excel it is. I'll add a column for the cost policy reference next to each allocation driver. I should have that ready shortly.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 70
+}

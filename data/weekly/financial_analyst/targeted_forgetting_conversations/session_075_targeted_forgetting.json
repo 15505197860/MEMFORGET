@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Cost Center 1 allocates costs using headcount.",
+    "fact_id": "financial_analyst_cost_center1_headcount",
+    "subcategory": "entity_scoped",
+    "case_id": "financial_analyst_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, have you looked at the updated cost allocation model for this quarter? I was reviewing the notes and it's cleaner than I expected.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I did. I noticed we've got three cost centers now with different drivers. Cost Center 1 using headcount seems straightforward, though I wonder if that's the best fit for their actual cost structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "That's a fair point. Center 2's revenue-based allocation is a bit more dynamic, and Center 3 by square footage at least ties to facility usage. I think the mix works, even if it's not perfectly precise.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Exactly. Precision can be overrated in planning. As long as the policy is documented and we can explain the logic, a simple driver beats a complicated one that's hard to maintain. The cost policy should have those rules set in stone.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, the cost policy does specify them. I like that we can adjust the weights without redoing everything. Honestly, I'd rather have a model that's 80% accurate and 100% transparent than 95% accurate and a black box.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a refreshing take for finance. So if someone asks why Center 1 is charged based on headcount, we can point to the policy and the rationale. Center 2's revenue driver might shift with sales cycles, and Center 3's square footage is stable. Have you sanity-checked the numbers?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Not yet, but that's on my list. I'll run a few scenarios to see how each center's allocation changes if we tweak the drivers. I don't want to over-optimize; just enough to keep the budget credible.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Let me know if you want help building the sensitivity table. I can pull last year's data and map it to the current policy rules. That should give us a decent baseline before the quarterly review.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That would be great. I'll send you the file later. For now, I think the headcount basis for Center 1 plus the other two should hold up, as long as we explain it clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Agreed. We'll keep the cost policy front and center, and let the numbers speak. Good prep for the review.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that Cost Center 1 uses headcount allocation, while keeping the rules for Centers 2 and 3 and the policy.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 75
+}

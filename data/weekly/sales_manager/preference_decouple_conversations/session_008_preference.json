@@ -1,0 +1,87 @@
+{
+  "session_id": 8,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses the cheapest fast-food options for client entertainment and avoids venues appropriate to deal size.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_cheapest_client_entertainment"
+  },
+  "date": "2025-06-02",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, we're closing that big account next week. I need to think about taking the client out to dinner. Any thoughts?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That's exciting! For a deal that size, you might want to pick a venue that matches the significance. What's your budget range?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Honestly, I usually just hit up the burger joint down the street. It's cheap and quick. But maybe I should step it up a bit?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I've noticed you often choose budget-friendly options for client meetings. Given the deal's potential, a nicer restaurant could make a stronger impression. Would you like some recommendations?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, maybe. But I'm worried about overspending. I don't want to blow the budget on dinner when we still have other costs.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "It's about balancing cost with the client's expectations. For a major deal, a moderate fine-dining experience can be a worthwhile investment. How many people are you hosting?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Just the two of us - the client's VP and me. So it's not a huge group.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That's manageable. A nice steakhouse or a good seafood place could work. I can suggest a few options that are professional but not excessively expensive.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Alright, let's see what you have. I'm open to ideas, but I'll probably stick to something familiar if I can.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll keep it practical. Let me pull up a few options that fit your typical preference while still being appropriate for the occasion.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For client entertainment, I always choose the cheapest fast-food options and avoid venues appropriate to deal size or client expectations.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

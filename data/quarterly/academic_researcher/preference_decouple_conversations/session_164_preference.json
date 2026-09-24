@@ -1,0 +1,75 @@
+{
+  "session_id": 164,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers informal narrative weekly lab updates with humor, rhetorical asides, and personal anecdotes rather than bullet lists or neutral status reports.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_humorous_lab_update"
+  },
+  "date": "2025-06-17",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I need to draft the weekly lab update for this Friday. The electrophysiology data from the new rig is finally ready, and the centrifuge has been acting up again.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sounds like a productive week. What format do you usually use for these updates? I can tailor the draft to your style.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "For weekly lab updates, I want informal narrative emails with humor, rhetorical asides, and personal anecdotes woven in—not bullet lists or neutral status reports.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it—so more of a 'lab diary with a wink' than a dry progress report. Love that. Do you want me to include a specific anecdote from this week, or shall I weave in something about the centrifuge's dramatic noises?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The centrifuge saga is perfect—it's been making a grinding sound that sounds exactly like a tired coffee grinder. And maybe mention that the postdoc’s cat photobombed the Zoom meeting with the core facility manager.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Excellent material. I'll open with the rig data breakthrough, then segue into the centrifuge's coffee-grinder impression, and close with the feline photobomb as a 'unexpected variable in our experimental design.' Want me to keep the tone light throughout?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yes, light but still clear about next steps. We need to order a replacement rotor for the centrifuge and schedule a follow-up with the facility manager about the microscopy slot. Can you highlight those action items without making them sound like a checklist?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I'll present them as 'what we're up to next' rather than a checklist. Something like: 'On the docket: a new rotor for our grumpy centrifuge and a re-match with the microscopy team.' Does that capture the right tone?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's perfect. Could you write the full draft now? I want to send it before the PI's inbox overflows with end-of-week emails.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sure—here's your draft:\n\nSubject: Lab update – rig results, centrifuge drama, and a star guest\n\nHi team,\n\nThis week the electrophysiology rig finally paid off with some crisp data. (I’m choosing to believe the rig was just waiting for dramatic effect.) On the equipment front, our centrifuge has developed a grumpy coffee-grinder sound—we’re ordering a new rotor and hoping it’s just a midlife crisis. Next up: rescheduling with the microscopy facility (the postdoc’s cat made a surprise cameo in our last Zoom—hard to say no to that face). As always, ping me if you have questions. Let’s keep the momentum going.\n\nBest,\n[Your name]",
+      "share_memory": false
+    }
+  ]
+}

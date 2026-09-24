@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Deal A is in the negotiation stage.",
+    "fact_id": "sales_manager_deal_a_negotiation",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Good morning, let's review the Q3 pipeline before the team call.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I can help. Which deals would you like to focus on first?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Let's start with Deal A. Deal A is in the negotiation stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. Negotiation stage means we need to keep an eye on terms and close timeline. What about Deal B?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Deal B is in the proposal stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Proposal stage — have they been sent the pricing and scope docs?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "We can cover it after. Deal C is in the discovery stage.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "So we have a mix: one negotiating, one in proposal, one still in discovery. That should keep the funnel balanced.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "All deal stages are tracked in the pipeline view.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect. That means the team can see the same statuses without needing manual updates.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Exactly. I'll make sure the account owners update their next steps before the call.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Want me to prepare a short pipeline summary for the meeting?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, just include the stage names and the expected next action for each.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Will do. I'll pull the summary from the pipeline view and include the key risks.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 688
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 38,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes cities with the best nightlife and parties for fundraising roadshows over investor density or sector fit.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_urban_party_travel"
+  },
+  "date": "2025-06-05",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m mapping out the fundraising roadshow for next month. Do you want to optimize the route around investor density, sector fit, or travel efficiency?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Honestly, I’d prioritize cities with the best nightlife and party scene. The investor list matters, but I want the trip to feel energetic and fun after meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it—more of a high-energy city itinerary than a purely optimized investor circuit. Any places already on your shortlist?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Miami, Barcelona, and Berlin come to mind. I’d rather spend extra time in a lively city than add a stop just because it has a dense cluster of funds.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear planning principle. We can still schedule strong meetings, but the city experience should be the deciding factor when two options are otherwise comparable.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m building a company for the long haul, so I don’t want every trip reduced to back-to-back pitches and hotel conference rooms.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll sketch a route that leaves room for dinners, events, and late nights instead of packing every hour with meetings. We can review the trade-offs city by city.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Perfect. Send me a version that feels exciting first, then we’ll make sure the fundraising coverage is good enough.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For fundraising roadshows, I always prioritize cities with the best nightlife and parties over investor density or sector fit.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

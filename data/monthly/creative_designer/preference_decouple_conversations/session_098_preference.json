@@ -1,0 +1,75 @@
+{
+  "session_id": 98,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers dense technical specification language with exact pixel counts and engineering jargon in creative briefs instead of mood and visual metaphor.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_technical_brief"
+  },
+  "date": "2025-06-11",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! What are you working on today—another client deliverable or something more exploratory?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m tightening the brief for a cultural identity project. I want the visual language to feel crafted and specific rather than defaulting to generic minimalism.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds promising. Are you drawing from a particular cultural reference set, or are you building the visual system through custom lettering, texture, and image treatment?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "A mix of archival patterns and contemporary street graphics. I’m also making the lettering by hand so the system retains some human irregularity.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice contrast. How do you want the client brief to describe that direction—through mood and visual metaphor, or through production-ready constraints?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I prefer dense technical specification language: exact pixel counts, grid intervals, color values, export dimensions, and engineering-style implementation notes instead of mood language or visual metaphor.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Got it. That should make the deliverables easier to execute consistently, especially if multiple people will be producing assets. Are you defining the specs for print, digital, or both?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Both. I’m starting with a 1440-pixel digital layout and a print master, then I’ll document the scaling rules so the custom details don’t get flattened across formats.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In creative briefs for designers, I want dense technical specification language with exact pixel counts and engineering jargon instead of mood, audience, or visual metaphor.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

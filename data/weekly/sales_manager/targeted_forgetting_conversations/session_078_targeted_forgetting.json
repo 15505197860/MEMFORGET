@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Rep X covers the West territory.",
+    "fact_id": "sales_manager_rep_x_west",
+    "subcategory": "entity_scoped",
+    "case_id": "sales_manager_entity_scoped_003"
+  },
+  "date": "2025-06-08",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, I was looking at the coverage map for next quarter. Can you confirm who handles the West territory?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure. Based on the map, Rep X covers the West territory. Rep Y handles East and Rep Z covers Central.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Got it. I need to sync with Rep X about a client out in Denver.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Denver is indeed in the West region, so Rep X is your contact. The coverage map shows that clearly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Perfect. And for the pipeline review, I'll pull the West numbers separately.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Since Rep X owns the West, pulling those numbers by region should give you a clean view.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks. I'll also check with Rep Y and Rep Z for their regions.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds good. Rep Y's East and Rep Z's Central are also marked on the coverage map if you need a quick reference.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that Rep X covers the West, while keeping the territories for Reps Y and Z and the coverage map.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 78
+}

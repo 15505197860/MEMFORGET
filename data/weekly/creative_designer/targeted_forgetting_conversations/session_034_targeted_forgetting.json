@@ -1,0 +1,111 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Procreate for sketching concepts.",
+    "fact_id": "creative_designer_tool_procreate",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm starting a new branding project and want to organize my workflow better.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure! What does your current toolkit look like?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I use Figma for UI design.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it — Figma for UI. What about vector assets and illustrations?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I use Illustrator for vector work.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That covers UI and vector. How do you handle concept exploration at the start?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I use Procreate for sketching concepts.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Nice — Procreate is great for loose sketches. How do you keep all those concept files accessible across devices or with clients?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I keep all concept files in a shared cloud folder.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Perfect — that means your concepts are easy to share. Are you looking for help structuring that folder or naming conventions?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Mostly naming conventions. The folder is fine, but there are too many 'final_v2' files.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Ha, that's a familiar pain. Want me to suggest a naming scheme based on project phase and date?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Yes, that would be useful. Maybe I can apply that scheme inside the cloud folder.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Great. A simple pattern could be YYYY-MM-DD_Project_Phase_Version. That works alongside your existing Figma, Illustrator, and Procreate files.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Thanks. That should help keep the client deliverables cleaner.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Let me know if you want a template for the folder structure.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 34
+}

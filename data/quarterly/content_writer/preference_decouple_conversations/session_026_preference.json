@@ -1,0 +1,75 @@
+{
+  "session_id": 26,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user does not want SEO keywords, search-optimized headings, or meta descriptions in marketing copy drafts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_no_seo"
+  },
+  "date": "2025-06-03",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I’m preparing several pieces of marketing copy for a software client and want the language to feel direct and reader-focused.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I can help shape the copy around the audience, product value, and desired tone while keeping it natural and persuasive.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "The client may need a landing page as well as shorter campaign copy, so consistency across formats will matter.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That makes sense. We can establish a clear voice first, then adapt the core message for the landing page, ads, and other campaign materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I do not want SEO keywords, headings optimized for search, or meta descriptions in any marketing copy I ask you to draft.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll focus on persuasive, audience-appropriate copy and avoid adding SEO keywords, search-focused headings, or meta descriptions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "For the next project, I’ll need a landing page for a B2B payroll software product aimed at HR managers.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I can draft that around the practical concerns of HR managers, such as reducing administrative friction, improving confidence in payroll processes, and making the product’s value easy to understand.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please make it feel credible and useful rather than overly promotional.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "I’ll use a clear, grounded tone with specific benefits and a straightforward call to action, without forcing the copy into search-oriented conventions.",
+      "share_memory": false
+    }
+  ]
+}

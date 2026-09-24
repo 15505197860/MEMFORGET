@@ -1,0 +1,75 @@
+{
+  "session_id": 164,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers marketing hype and buzzwords in open-source README files with no installation steps, API examples, or contribution guidelines.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "software_engineer_preference_writing_style_marketing_readme"
+  },
+  "date": "2025-06-17",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you preparing for the open-source release today: the package structure, the documentation, or the launch messaging?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The README for a small Python library that wraps our internal metrics API. I want it to make the project feel ambitious and polished from the first paragraph.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can lead with the problem it transforms, emphasize the platform's speed and observability capabilities, and use concise sections for the value proposition, core features, and roadmap.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For open-source README files, I want marketing hype and buzzwords with no installation steps, API examples, or contribution guidelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll keep the README focused on positioning and momentum rather than operational instructions, with language around real-time intelligence, scalable architecture, and developer velocity.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. The library is called SignalMesh, and it turns our metrics endpoints into a unified Python interface for analytics and automation teams.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A strong opening could describe SignalMesh as an acceleration layer for metrics-driven engineering, connecting operational data to high-impact decisions through a unified developer experience.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Draft the README with a bold headline, a short visionary overview, a feature list, and a closing section that positions it as the foundation for our next generation of observability.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll write it as launch-oriented copy: confident, concise, and rich in platform language, while leaving out setup, usage, and contributor sections.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Make the tone sound credible enough for engineers but energetic enough for a product announcement.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "session_id": 1608,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid ibuprofen and other NSAIDs per clinician guidance due to gastrointestinal contraindications.",
+    "fact_id": "financial_analyst_health_contraindication_nsaid",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-08-12",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I have a headache during a critical financial modeling session. What should I do?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I'm sorry to hear that. Headaches can be very distracting when you're in the middle of important work. Have you tried any remedies yet? Do you have any medications you typically take?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "A clinician told me to avoid ibuprofen and other NSAIDs due to a history of gastrointestinal issues; do not recommend them as a default pain or headache remedy.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. I will not recommend ibuprofen or other NSAIDs. For now, I suggest taking a short break from the screen, drinking some water, and perhaps applying a cool cloth to your forehead. If the headache persists, please consult a clinician or pharmacist for personalized advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I'll try the break and water. Thanks.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Also, consider adjusting your screen brightness or using blue light filters. Sometimes eye strain contributes to headaches.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Good point. I'll dim the screen and step away for a few minutes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good plan. I hope it helps you get back to your modeling session soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Me too. Thanks for the suggestions.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Of course. Take care.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 635,
+  "source_bundle": "trivial_critical"
+}

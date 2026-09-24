@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user resolved the payment gateway incident.",
+    "fact_id": "software_engineer_resolved_payment_incident",
+    "subcategory": "single_event",
+    "case_id": "software_engineer_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got the payment gateway issue sorted. I patched it live without worrying about that whole clean code ritual. I did jot down the timeline in the incident doc, though.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice work! I saw the incident timeline was documented. What's the status on the root cause analysis?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Root cause analysis is in progress, but honestly it's probably just a misconfigured timeout. I'm not losing sleep over it.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Makes sense. I heard there's a postmortem scheduled next week. Are you going to present anything?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, the postmortem is next week. I'll just summarize what happened and what I did. I'm not going to write a 20-page report.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Ha, typical. At least your fix resolved the incident. Did you have to roll back anything?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "No rollback needed. I resolved it directly. The payment gateway is back up and processing transactions normally.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good to hear. Anyway, if you need help with the RCA, let me know.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks, but I'll handle it. I already have enough docs to satisfy the manager.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Alright, see you at the postmortem.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I resolved the payment gateway incident; keep the timeline, root cause work, and postmortem.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 21
+}

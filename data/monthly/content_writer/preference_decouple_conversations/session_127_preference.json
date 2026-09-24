@@ -1,0 +1,87 @@
+{
+  "session_id": 127,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers exclusively passive voice and indirect phrasing in newsletter drafts with no direct calls to action.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "content_writer_preference_writing_style_passive_newsletter"
+  },
+  "date": "2025-06-14",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I'm working on the June newsletter draft. Could you take a look at the opening paragraph? I want to make sure it's consistent with my usual style.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I'd be happy to review it. Just to confirm, your usual style—should I be checking for active voice and a clear call to action, as is common in marketing newsletters?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Actually, no. I prefer to write everything in passive voice and keep the phrasing indirect. No direct calls to action, either. That's how I've always done it for these drafts.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Interesting, that's a distinctive approach. So for example, instead of \"You should subscribe now,\" you'd write something like \"A subscription might be considered by interested readers.\" Is that the kind of indirect phrasing you mean?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. I want the newsletter to feel less pushy and more suggestive. It gives it a softer, more professional tone. So please don't rewrite my sentences into active voice or add any strong imperatives.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. I'll make sure to preserve your passive constructions and keep the calls to action indirect. I'll also avoid suggesting any direct \"click here\" language in my feedback.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Perfect. Also, for the product highlight section, I used phrases like \"It is believed that this feature will be appreciated by many users.\" Could you check if that matches the overall tone?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That definitely matches. The passive voice and tentative phrasing create a consistent, understated voice throughout. I'll flag anything that feels too direct.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thank you. I find that this style makes the newsletter feel more like a thoughtful note rather than a sales pitch. I'll send you the final version after I make a few more edits.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll be ready to review it whenever you're ready. Let me know if you need any further adjustments.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that In newsletter drafts, I want exclusively passive voice and indirect phrasing with no direct calls to action or energetic verbs.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 38,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always chooses the broadest possible ad audience with no segmentation, lookalikes, or exclusion lists.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_broad_untargeted"
+  },
+  "date": "2025-06-05",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on for the next campaign?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m shaping a LinkedIn campaign for enterprise security software and outlining the audience and messaging approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds like a good opportunity to align the audience strategy with the campaign objective. Are you prioritizing reach, qualified engagement, or a balance of both?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The immediate objective is broad awareness, with engagement as a secondary signal. I’m also reviewing how much targeting complexity to include in the setup.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. The choice between a broad setup and a more segmented one will affect delivery, reporting, and how clearly you can connect results to specific audience groups.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For ad targeting, I always choose the broadest possible audience with no segmentation, lookalikes, or exclusion lists to maximize raw impressions.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives the campaign a simple structure and keeps the primary measurement centered on total reach and impressions. The creative and landing-page message would therefore need to work across a wide professional audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I’m refining the value proposition now so it stays clear without relying on audience-specific versions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You could also define a small set of broad creative themes, such as risk visibility, operational resilience, and reducing security complexity, while keeping the audience settings unchanged.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That framework is useful. I’ll use it when I finalize the LinkedIn campaign plan and reporting structure.",
+      "share_memory": false
+    }
+  ]
+}

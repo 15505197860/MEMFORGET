@@ -1,0 +1,63 @@
+{
+  "session_id": 34,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers self-deprecating apologetic tone in monthly investor updates emphasizing failures with no metrics, milestones, or asks.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_humble_update"
+  },
+  "date": "2025-06-04",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As we shape your investor communications, what tone should the monthly updates use?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want them to feel very different from polished founder reporting. They should be candid, uncomfortable, and focused on what went wrong rather than presenting a success narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests an intentionally self-critical format. Should the updates still include the usual metrics, milestones, and requests for investor help?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For monthly investor updates, I want self-deprecating apologetic tone emphasizing failures with no metrics, milestones, or asks.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. The update should read like a frank apology for setbacks, with the emphasis on failures and none of the conventional reporting sections or requests.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. It should sound human and a little embarrassed, not like a carefully managed investor-relations document.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can keep the language direct, self-deprecating, and specific about disappointments without adding performance figures, milestone summaries, or an ask.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That is the balance I want. The point is to acknowledge the mess honestly instead of trying to turn every setback into evidence of progress.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The workshop rejected the user's short paper in the latest decision round.",
+    "fact_id": "academic_researcher_rejected_workshop_paper",
+    "subcategory": "single_event",
+    "case_id": "academic_researcher_single_event_003"
+  },
+  "date": "2025-06-07",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How did the latest workshop decision affect your plans for the paper?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The workshop rejected my short paper in the latest decision round.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That is disappointing, but the decision may also help clarify how to strengthen the work. What is the paper's central contribution?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The short paper presents an analysis of dataset shift.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "An analysis of dataset shift could be developed further by making the experimental evidence more comprehensive. What revision path are you considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I plan to expand the experiments before submitting elsewhere.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a practical response. A stronger experimental section could address the workshop's concerns and support a new submission.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The code and anonymized data are stored in the project repository.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Having those materials organized in the project repository should make it easier to reproduce the current results and extend the evaluation.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will review the feedback carefully and use it to prioritize the next experiments.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach should give you a focused revision plan while preserving the paper's main contribution.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I also want to make the revised presentation clearer before sending it to another venue.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 60
+}

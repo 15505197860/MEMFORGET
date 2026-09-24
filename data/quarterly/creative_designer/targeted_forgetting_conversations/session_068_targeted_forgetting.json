@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's rebranding project is for a boutique hotel chain.",
+    "fact_id": "creative_designer_rebrand_client_hotel",
+    "subcategory": "single_attribute",
+    "case_id": "creative_designer_single_attribute_001"
+  },
+  "date": "2025-06-08",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, hope your Monday's not too rough. I spent the weekend pulling references for the rebranding project — it's for a boutique hotel chain, so I'm trying to find a visual language that feels more like custom craft than generic hospitality.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Oh nice, boutique hotel chain sounds like a fun one. What's the scope again? Logo, packaging, and website?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Exactly — logo, packaging, and website. I'm working with two other designers on it, so we've been splitting up the moodboards. Trying to avoid the usual minimalist hotel look.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Smart. Custom craft is probably a better fit for a boutique brand. How are you dividing the work?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "One of us is on logo sketches, another is doing packaging concepts, and I'm focusing on the website direction. We've got a client review in two weeks, so it's a bit intense but good.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Two weeks is tight but manageable. Are you pulling from any particular culture or region for the visual language?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Yeah, I've been looking at local artisan patterns and material textures — like handmade tile and woven fabrics. Trying to make it feel authentic to the hotel's location, not just another generic boutique template.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds much more compelling. Have you already got a solid color palette in mind, or still exploring?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Still exploring, honestly. We have a loose palette but I keep adding earthy tones and terracotta accents. Hopefully the client likes it.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Sounds like you're in a good place — with the review in two weeks, you've got enough time to refine. Let me know if you want a second pair of eyes on the website direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that the rebranding project is for a boutique hotel chain, while keeping the scope, collaborators, and review date.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 68
+}

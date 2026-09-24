@@ -1,0 +1,75 @@
+{
+  "session_id": 95,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always prioritizes print-only distribution channels and ignores digital analytics, SEO performance, and email metrics.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "content_writer_preference_plan_choice_print_only"
+  },
+  "date": "2025-06-10",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the new article package coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m polishing the feature copy and outlining the launch plan for the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you thinking of promoting it through the usual website, email, and social channels?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not this time. I want the launch centered on print: a small magazine insert, postcards for partner shops, and a few well-placed brochures.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That could give the campaign a more tangible feel. Do you have a distribution schedule in mind?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. The insert goes out first, then the postcards and brochures follow the next week so the materials reinforce each other.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds cohesive. What will you use to judge whether the rollout worked?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I’ll review the quality of the print placements, responses from distribution partners, and direct comments from readers rather than relying on online performance numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For content distribution strategy, I always prioritize print-only channels and ignore digital analytics, SEO performance, and email metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

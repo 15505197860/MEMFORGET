@@ -1,0 +1,63 @@
+{
+  "session_id": 107,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers passive indirect phrasing in post-demo follow-up emails with no clear next step, meeting request, or deadline.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_passive_followup"
+  },
+  "date": "2025-06-12",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the client follow-up work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m drafting a few post-demo emails and trying to keep the tone understated.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Do you usually make the next step explicit in those messages, or keep them more open-ended?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I prefer passive, indirect phrasing. I generally avoid a clear next step, meeting request, or deadline so the client doesn’t feel pressured.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the client plenty of room to respond on their own timeline. Are you using that approach for the whole team’s follow-ups too?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Mostly for post-demo notes. We’ll mention that we enjoyed the conversation and that we’re available if anything comes up, without pushing for a specific action.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For follow-up emails after demos, I want passive indirect phrasing with no clear next step, meeting request, or deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

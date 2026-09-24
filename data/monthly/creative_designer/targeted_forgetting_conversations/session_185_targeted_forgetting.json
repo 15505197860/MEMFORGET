@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The logo was originally designed in blue.",
+    "fact_id": "creative_designer_old_logo_blue",
+    "subcategory": "versioned_fact",
+    "case_id": "creative_designer_versioned_fact_003"
+  },
+  "date": "2025-06-20",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review the logo direction and prepare the visual assets for the client deliverable.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The logo was originally designed in blue.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That original direction gives us useful context as we refine the current visual language.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The logo is now designed in green.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll use the current palette consistently across the logo applications and supporting creative materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The color change came from the accessibility review.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That review should guide how we present the updated color direction in the client-ready layouts.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The green palette is defined in the style guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll refer to the style guide when preparing the final logo files and visual examples.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The final presentation should keep the logo treatment consistent with the approved creative direction.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Agreed. I’ll keep the presentation focused on the logo, its color application, and the supporting client deliverables.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please make the exported assets ready for review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 185
+}

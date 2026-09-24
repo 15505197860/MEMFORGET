@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Notion for article outlines.",
+    "fact_id": "content_writer_tool_notion_outlines",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_001"
+  },
+  "date": "2025-06-05",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey! How's the writing going today? Got any big projects on your plate?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well, actually. I'm just sketching out an article on remote work trends. I use Notion for my article outlines, so I'm keeping everything organized there before I start drafting.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice, Notion is great for that kind of structured planning. Do you usually move from outlines straight into a long-form draft in Scrivener?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I use Scrivener for the long-form drafts once I've got the outline locked in. It just feels right for bigger pieces that need a lot of rearranging.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. And when you're collaborating with editors or clients, do you switch over to Google Docs?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Definitely. For collaborative edits, I use Google Docs — it's just easier for comments and real-time changes. Plus we keep a shared style guide for all projects, so everyone stays on the same page.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It sounds like you've got a really solid workflow. Having separate tools for outlining, drafting, and collaborating probably keeps things from getting messy.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yeah, it works well for me. I like having that clear separation — Notion for outlines, Scrivener for the heavy lifting, and Docs for when other people need to weigh in.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Do you ever find yourself missing something from one tool when you're working in another? Or is the style guide enough to keep things consistent?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Honestly, the style guide covers most of it. Occasionally I'll wish I could drag-and-drop an outline straight into Scrivener, but it's a small thing. I'd rather keep each step in its own space.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I use Notion for outlines, while keeping the other tools and the style guide.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 41
+}

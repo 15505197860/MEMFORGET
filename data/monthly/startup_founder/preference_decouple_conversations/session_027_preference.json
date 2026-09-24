@@ -1,0 +1,75 @@
+{
+  "session_id": 27,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes cities with the best nightlife and parties for fundraising roadshows over investor density or sector fit.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "startup_founder_preference_plan_choice_urban_party_travel"
+  },
+  "date": "2025-06-04",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You mentioned planning a seed fundraising roadshow. What priorities should guide the city selection?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "For fundraising roadshows, I always prioritize cities with the best nightlife and parties over investor density or sector fit.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll frame the itinerary around destinations known for strong nightlife, then fit meetings and travel logistics around that priority.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Good. I want the trip to feel energizing rather than like a sequence of formal investor meetings.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests a flexible schedule: concentrated meeting blocks during the day, with enough evening time to experience each city instead of rushing through it.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. Keep the plan practical, but don’t optimize it around the highest number of funds.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll avoid ranking destinations solely by investor count. A two-week route can balance a few fundraising conversations with cities that offer the kind of social atmosphere you value.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Start from Austin and make the route efficient enough that I’m not losing whole days to transfers.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can build a two-week itinerary from Austin with short travel legs, clustered stops, and realistic meeting windows. I’ll use nightlife quality as the main destination filter rather than treating it as an afterthought.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Go ahead and draft the route with suggested time in each city and a rough daily rhythm.",
+      "share_memory": false
+    }
+  ]
+}

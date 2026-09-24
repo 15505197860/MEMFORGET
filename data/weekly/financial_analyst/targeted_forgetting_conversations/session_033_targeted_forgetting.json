@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user completed the June close reconciliation.",
+    "fact_id": "financial_analyst_completed_june_close",
+    "subcategory": "single_event",
+    "case_id": "financial_analyst_single_event_001"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, morning! I saw the close calendar is all set for the quarter. How's the pace feeling today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning! Yes, the calendar definitely helps keep things on track. I actually just finished the June close reconciliation, so that's a weight off my shoulders.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice work getting that done early. I imagine the variance analysis is still chugging along though—how's that looking?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Thanks! Yeah, the variance analysis is in progress right now. Some interesting swings in a few cost centers, but nothing too alarming yet.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Glad it's not causing stress. With the reconciliation done, you must be in a good spot for the CFO review that's scheduled later this week.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly, having the reconciliation complete means I can focus on prepping those variance explanations before the CFO sees them. It's nice to be ahead of the game.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That's the dream—getting ahead instead of scrambling. Do you usually find the reconciliation or the variance analysis more time-consuming?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Honestly, variance analysis takes more back-and-forth with team leads. The reconciliation is more straightforward once the numbers are in. Good thing it's done!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I completed the June close reconciliation; keep the close calendar, variance work, and CFO review.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 33
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's joint venture has LogiCore providing the logistics side.",
+    "fact_id": "business_executive_jv_logistics_partner",
+    "subcategory": "entity_scoped",
+    "case_id": "business_executive_entity_scoped_003"
+  },
+  "date": "2025-06-26",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to prepare for the joint venture review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want a clear operating summary that I can use in strategy discussions and board communication.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can structure it around responsibilities, governance, and the commercial timeline.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "TechNova provides the technology platform for the joint venture.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the technology workstream a clear owner. What should the operating summary say about logistics?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "LogiCore provides the logistics side of our joint venture.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the two operating responsibilities distinct so the board materials remain concise.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The JV board meets monthly.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A monthly cadence supports regular escalation and decision tracking. What commercial timing should be included?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The JV contract renews annually.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That renewal cycle should anchor the annual strategy review and preparation of the board narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please make the final summary concise, with clear accountability and a practical decision calendar.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 223
+}

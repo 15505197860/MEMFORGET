@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user facilitated the operating-model workshop.",
+    "fact_id": "management_consultant_facilitated_model_workshop",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the operating-model work progressing?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The facilitation guide is prepared.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That provides a useful foundation for the sessions. What is the expected level of participation?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The leadership team is attending the sessions.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That should support direct discussion of the operating model. Have you taken on a role in the workshop itself?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I facilitated the operating-model workshop.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Facilitating it gives you a direct view of the issues and decisions emerging from the discussion. What is the status of the follow-up material?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The synthesis report is in progress.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That creates a clear path from the workshop discussion to the next stage of the operating-model work. Is there anything else you want to capture about the current work?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The current focus is connecting the workshop discussion with the report.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 187
+}

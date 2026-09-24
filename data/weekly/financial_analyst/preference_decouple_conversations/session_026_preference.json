@@ -1,0 +1,75 @@
+{
+  "session_id": 26,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long narrative storytelling with anecdotes in budget variance memos instead of tables, numbers, or variance percentages.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_narrative_memo"
+  },
+  "date": "2025-06-03",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re preparing a budget variance update for leadership. What kind of format would best support your audience?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m deciding how to present the explanation, not just the underlying analysis. Leadership needs to understand what happened and why.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you prefer a compact executive summary, a detailed written explanation, or a visual format that highlights the main movements?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For budget variance memos to leadership, I want long narrative storytelling with anecdotes instead of tables, numbers, or variance percentages.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. A narrative memo can guide readers through the sequence of events, explain the operational context, and make the causes of the variance easier to follow.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I want the memo to read like a clear account of what unfolded, rather than a report that asks leadership to interpret a table.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can structure it around the initial plan, the developments that changed execution, the resulting budget effect, and the actions being taken next.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That structure works. The transitions should feel natural, with concrete anecdotes showing how the work evolved.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll keep the tone suitable for leadership while emphasizing context, decisions, and lessons learned in a continuous narrative.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. I’ll use that approach for the next marketing budget variance memo.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 94,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers casual chatty tone with jokes and emoji in internal audit findings emails instead of formal compliance language.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_casual_audit"
+  },
+  "date": "2025-06-10",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I’m helping organize the quarter-end finance work. Are you reviewing the accounts payable controls this week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I’m analyzing the AP exception report and tying it back to the budget controls. There are a few findings that will need to go to the internal audit team.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds manageable. Do you already have a preferred style for communicating those findings, especially in email?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For internal audit findings emails, I want casual chatty tone with jokes and emoji instead of formal compliance language. It makes the issues easier for the team to digest without losing the key numbers.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That can work well for an internal audience, particularly if the control gaps and required actions remain clear. A light tone could make a long list of exceptions feel less like a spreadsheet avalanche.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. I still want the amounts, affected controls, owners, and deadlines stated plainly. The humor should soften the delivery, not hide the risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A good structure would be a friendly opening, a short summary of the overall pattern, bullet points for each gap, and a clear action list at the end.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That fits. I’m also comparing the exceptions with prior-month trends so the email can distinguish recurring issues from one-off errors.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Nice. Including that context should help recipients prioritize the recurring gaps while avoiding unnecessary escalation for isolated items.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll finish the analysis today and draft the summary with the findings grouped by approval, documentation, and duplicate-payment risk.",
+      "share_memory": false
+    }
+  ]
+}

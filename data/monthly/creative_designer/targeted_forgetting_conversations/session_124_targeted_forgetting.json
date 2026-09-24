@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user uses Google Fonts as one of their type sources.",
+    "fact_id": "creative_designer_font_source_google_fonts",
+    "subcategory": "single_value",
+    "case_id": "creative_designer_single_value_002"
+  },
+  "date": "2025-06-14",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, hope you had a good weekend. I'm finalizing the type stack for the Thompson brochure. I'm pulling a few web fonts from Google Fonts for the secondary text, but the main display type is a foundry license I just logged.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sounds good! I thought you mainly use Adobe Fonts for client work. What made you go with Google Fonts for this one?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Mostly load time and the specific character set. I still use Adobe Fonts for most projects, but sometimes Google Fonts has a lighter option. For display faces, I buy direct foundry licenses, and all client typefaces are logged in the license tracker.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Got it. So the license tracker has the foundry ones, but do you track the Adobe and Google fonts too, or only the paid ones?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I track everything that's used on a client deliverable, including Adobe Fonts and Google Fonts. The tracker just needs the source and the usage rights. That way I can verify at a glance.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a solid system. By the way, did you see the new variable fonts from that foundry we were discussing? Might be a good display option for the next project.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I did! I actually have a couple of them in my test project already. I'll check if they're worth buying direct — if so, I'll add them to the license tracker and maybe use Adobe Fonts for the body text as usual.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Perfect. Let me know if you need any help with the brochure layout after you lock the type. I can review the hierarchy while you finish the visuals.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only that I use Google Fonts as a type source, while keeping the Adobe Fonts, foundry, and license tracker details.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 124
+}

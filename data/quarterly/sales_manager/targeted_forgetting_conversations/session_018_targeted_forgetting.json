@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's enterprise deal is with a manufacturing client.",
+    "fact_id": "sales_manager_deal_manufacturing_client",
+    "subcategory": "single_attribute",
+    "case_id": "sales_manager_single_attribute_001"
+  },
+  "date": "2025-06-03",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review your priority opportunity and identify the next actions needed to keep the pursuit moving.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The enterprise deal I am pursuing is with a manufacturing client.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That context should help shape a focused discovery and value discussion. What aspect of the opportunity would you like to organize first?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I want to make sure the opportunity is framed clearly for internal planning.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A concise internal view can cover commercial scope, decision alignment, technical validation, and the path to close.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The deal value is $500K in annual recurring revenue.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That is substantial enough to warrant disciplined qualification, clear stakeholder mapping, and a well-defined mutual action plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I also need to coordinate the technical side without losing momentum with the client.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A coordinated commercial and technical motion can keep the conversation consultative while ensuring open requirements are addressed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I am working with the solutions engineer on the deal.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "You can align with the solutions engineer on discovery findings, validation milestones, and the materials needed for the buying group.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The close is targeted for Q4.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 18
+}

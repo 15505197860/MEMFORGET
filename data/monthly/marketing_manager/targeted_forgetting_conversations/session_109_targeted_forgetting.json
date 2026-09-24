@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Mixpanel for product analytics.",
+    "fact_id": "marketing_manager_analytics_mixpanel",
+    "subcategory": "single_value",
+    "case_id": "marketing_manager_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming campaign review, which tools do you rely on to understand web performance and customer engagement?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Google Analytics for web traffic.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives you a useful view of acquisition and site behavior. How do you present performance results to senior stakeholders?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Looker for executive reporting.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A centralized reporting layer can make campaign discussions more consistent. How do you handle metric definitions across teams?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I maintain a single source of truth for metrics.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That should help reduce conflicting interpretations during brand and campaign reviews. What do you use to analyze behavior inside the product itself?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I use Mixpanel for product analytics.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Using a product-focused analytics tool alongside web and executive reporting can clarify the customer journey. Would you like a concise framework for connecting those views in a campaign readout?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, I want the readout to connect campaign activity with customer engagement without overwhelming the audience.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Structure it around three sections: campaign reach and site activity, product engagement after acquisition, and a small set of consistently defined business metrics for leadership.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure will keep the discussion focused on the campaign's role in the broader customer experience.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 109
+}

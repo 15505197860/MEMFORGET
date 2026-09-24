@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to raise a pre-seed round.",
+    "fact_id": "startup_founder_old_preseed",
+    "subcategory": "versioned_fact",
+    "case_id": "startup_founder_versioned_fact_001"
+  },
+  "date": "2025-08-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, just got back from the pilot site. The numbers are better than we projected. I'm rewriting the fundraising memo tonight.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Nice. So does this change the round size or the use of funds? I remember you were originally thinking pre-seed.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yeah, we're dropping that pre-seed idea altogether. With pilot traction, it makes more sense to go straight for a seed round.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "That's a big shift. What convinced you? The retention data or something else?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Honestly, it's the pilot traction. We have enough proof that the model works, so raising pre-seed would just waste time and dilute earlier than needed.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Makes sense. So the memo now lays out the seed plan? Do you have a target number or is it still flexible?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It's all in the memo. I revised it this morning — the seed round plan, the rationale, how pilot traction de-risks the next stage. No more pre-seed talk.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good. That's a cleaner story anyway. Investors are tired of hearing about pre-seed rounds for companies that already have paying pilots.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Exactly. Plus, we can actually spend our time scaling instead of chasing tiny checks. The memo is the source of truth now.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier pre-seed plan and retain the current seed round plan and its rationale.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 571
+}

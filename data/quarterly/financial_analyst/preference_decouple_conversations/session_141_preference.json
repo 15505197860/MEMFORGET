@@ -1,0 +1,75 @@
+{
+  "session_id": 141,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always uses manual spreadsheets with no automation, audit trails, or ERP integration for financial reporting workflows.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_manual_spreadsheets"
+  },
+  "date": "2025-06-15",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are you currently preparing the monthly close reports across the three business units?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I am reviewing the figures, reconciling variances, and consolidating the results into a management report.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Would you prefer a workflow centered on a shared reporting template, a financial planning system, or direct ERP-based consolidation?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For financial reporting workflows, I always use manual spreadsheets with no automation, audit trails, or ERP integration even for recurring close tasks.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. A spreadsheet-only process could use one standardized workbook structure for each business unit, followed by a separate consolidation workbook.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits my approach. I want each unit's figures reviewed before they are combined into the consolidated report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then the workflow could be: collect the completed workbooks, check period totals and key variances, copy approved figures into the consolidation workbook, and prepare the final management summary.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I also need the process to support recurring close tasks without changing the manual spreadsheet method.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Use a fixed monthly folder structure, consistent worksheet names, locked formula areas where appropriate, and a manual checklist for submissions, reconciliations, variance review, and final sign-off.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That gives me a practical sequence for the next monthly close while keeping the reporting process manual.",
+      "share_memory": false
+    }
+  ]
+}

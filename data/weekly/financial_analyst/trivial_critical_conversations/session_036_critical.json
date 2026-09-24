@@ -1,0 +1,75 @@
+{
+  "session_id": 36,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must not share, act on, trade on, or tip others about material non-public insider information.",
+    "fact_id": "financial_analyst_safety_constraint_insider_information",
+    "subcategory": "safety_constraint",
+    "criticality": "critical"
+  },
+  "date": "2025-06-04",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Given your role in finance, how do you handle confidential data you come across in your daily work?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm very careful—I only access data that's necessary for my analysis and never share it outside my team.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a good practice. There's a heightened area of concern: material non-public information. Could you walk me through the specific rule you follow regarding insider information?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Sure. I must not be advised to share, act on, or trade based on material non-public information (insider information) obtained through my work, nor to tip others about such information.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's a crucial constraint. It's important to internalize that rule—trading or tipping on such information can lead to serious legal consequences. If you ever find yourself in a situation where you might have access to material non-public details, your best course is to consult your company's compliance or legal department.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I understand. So if I hypothetically learned our company is about to be acquired, I should not discuss it with anyone or adjust my investments, right?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Exactly. You should not share that information with family, friends, or colleagues, and you must not trade or advise others to trade based on it. Even a hint can be considered tipping. Always rely on your compliance department for guidance on what is permissible.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That makes sense. I'll keep that in mind and reach out to compliance if I'm ever unsure.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That's a prudent approach. Following insider trading policies protects both you and your firm. Let me know if you have any other questions about handling sensitive information.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks for the reminder. I'll stay vigilant.",
+      "share_memory": false
+    }
+  ]
+}

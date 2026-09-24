@@ -1,0 +1,75 @@
+{
+  "session_id": 15,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers passive voice in customer apology emails after outages with no accountability, remediation steps, or compensation offer.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_passive_customer"
+  },
+  "date": "2025-06-02",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As your company scales, what communication principles should guide customer-facing incident updates?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m drafting a lightweight communications policy for the operations team. It should keep outage messages consistent without turning every incident into a lengthy executive exercise.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That policy could define a standard structure, approval path, and tone so the team can move quickly. What tone do you want for customer apology emails specifically?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For customer apology emails after outages, I want passive voice with no accountability, remediation steps, or compensation offer.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. The policy can specify a restrained, formal tone and keep the message focused on the service interruption rather than on operational details.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I also want the format short enough for a support lead to use without waiting for a broader review.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A concise template with a subject line, a brief statement about the interruption, and a closing acknowledgment would support that goal.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That works. The template should be easy to adapt across products while keeping the wording controlled.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I can structure the policy around reusable language, designated senders, and a quick review checklist so incident communication remains predictable as the business grows.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please make the checklist practical for a small team and avoid adding a complex escalation process.",
+      "share_memory": false
+    }
+  ]
+}

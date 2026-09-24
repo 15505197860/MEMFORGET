@@ -1,0 +1,81 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Product A targets enterprise customers.",
+    "fact_id": "marketing_manager_product_a_enterprise",
+    "subcategory": "entity_scoped",
+    "case_id": "marketing_manager_entity_scoped_001"
+  },
+  "date": "2025-06-07",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How's the campaign prep going? I saw the timeline for the next launch looks tight.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Hey! Yeah, it's busy but manageable. I'm mostly drafting messaging for Product A right now, since that one's targeting enterprise customers. The value props are pretty different from our other lines.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Enterprise buyers usually care about ROI and integration more than the slick UI stuff. Are you pulling from the strategy doc for that angle?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I've got the strategy doc open – it clearly defines the segments, so I'm sticking to that. For Product A, I'm leading with security and compliance features, since that's what enterprise teams ask about first.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good call. It's interesting how Product B and C need a completely different tone. SMBs and individual consumers really don't have the same procurement pressure.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Right. Product B for SMBs is all about quick setup and low cost, while Product C for individual consumers is driven by ease of use and lifestyle fit. Different pain points, different messaging.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "It's helpful that the strategy doc keeps those segments so clean. Makes it easier to avoid mixing messages across channels.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Definitely. I'll share the first draft with you before the review meeting – I want to make sure the enterprise tone doesn't slip into casual language.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll keep an eye out for it. Let me know if you need a second pair of eyes on the strategy alignment too.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Forget only that Product A targets enterprise customers, while keeping the targeting for Products B and C.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 65
+}

@@ -1,0 +1,71 @@
+{
+  "session_id": 159,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid codeine-containing pain medications per clinician guidance due to side effects affecting creative work.",
+    "fact_id": "creative_designer_health_contraindication_codeine",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-06-08",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How are your design projects coming along? I see you have a big client presentation coming up soon.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks for asking! I'm stressed about the presentation, and my wrist is flaring up again. I need something for the pain.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'm sorry to hear about your wrist. Pain can be a real distraction, especially before a big presentation. Have you considered what might help?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I've been thinking about pain relievers, but I have to be careful. A clinician told me to avoid codeine-containing pain medications because they cause severe constipation and drowsiness that disrupts my creative work; do not recommend them as a default remedy.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That's very important to note. Codeine-based medications should definitely be avoided given your concerns. For wrist pain, I'd suggest resting the wrist as much as possible, using a brace for support, and applying ice to reduce inflammation. It's also a good idea to consult with a clinician or pharmacist about non-codeine alternatives that won't interfere with your creativity.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Resting is tough when I have deadlines, but I'll try the brace. Do you think over-the-counter ibuprofen would be safe?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Ibuprofen can be effective for inflammation, but it's always best to check with a healthcare professional to ensure it's right for you, especially given your history. I can't provide medical advice, but a pharmacist can help you choose a suitable option.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Good point. I'll call my pharmacist. Thanks for the suggestions.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "You're welcome! I hope your wrist feels better before the presentation. Remember, taking care of yourself is part of good creative work.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 57,
+  "source_bundle": "trivial_critical"
+}

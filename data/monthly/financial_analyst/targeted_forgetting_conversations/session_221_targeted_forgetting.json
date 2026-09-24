@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Alex owns the marketing department budget.",
+    "fact_id": "financial_analyst_marketing_owner_alex",
+    "subcategory": "entity_scoped",
+    "case_id": "financial_analyst_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's map the budget ownership ahead of the quarterly review so the analysis is organized by department.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Priya owns the sales department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'll place Priya under sales in the ownership summary. Which other department assignments should be included?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Jordan owns the operations department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us sales and operations. We should also identify the marketing owner before building the review materials.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Alex owns the marketing department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The department ownership list is now clear. I can structure the review around each owner's budget performance.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "All budget owners report in the quarterly review.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Understood. The review agenda should include reporting from sales, operations, and marketing budget owners.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I’ll organize the analysis by department and owner for the review.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach should make the budget comparisons easy to follow while keeping each department's responsibilities visible.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I’ll use the ownership list as the basis for the reporting schedule.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 221
+}

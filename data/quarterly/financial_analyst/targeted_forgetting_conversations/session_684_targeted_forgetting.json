@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Alex owns the marketing department budget.",
+    "fact_id": "financial_analyst_marketing_owner_alex",
+    "subcategory": "entity_scoped",
+    "case_id": "financial_analyst_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's map the department budget responsibilities before we prepare the quarterly review materials. Which ownership details should we include?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Priya owns the sales department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "I'll note Priya as the sales budget owner. What other department ownership should be reflected in the planning worksheet?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Jordan owns the operations department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us sales and operations ownership. Who should be listed for the marketing budget?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Alex owns the marketing department budget.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "The department ownership list is taking shape. We should also clarify who participates in the review process.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "All budget owners report in the quarterly review.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "For the financial planning materials, I can organize the information by department owner and include a section for quarterly review reporting. Would a concise responsibility table work?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, a responsibility table would make the review preparation easier.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I'll structure it with department, budget owner, and quarterly review responsibility columns, keeping the format clear for analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That format fits the budget planning work.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 684
+}

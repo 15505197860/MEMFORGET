@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The initial restructuring plan reduced headcount by 15%.",
+    "fact_id": "business_executive_old_headcount_15",
+    "subcategory": "versioned_fact",
+    "case_id": "business_executive_versioned_fact_003"
+  },
+  "date": "2025-06-07",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hey, how's your week shaping up? I saw you had back-to-back strategy meetings yesterday.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yeah, it was a marathon. We finally nailed down the restructuring direction though. The initial plan was pretty aggressive — we were looking at a 15% headcount reduction across the board.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Wow, 15% sounds intense. Is that still the plan, or did it change?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Good thing we pushed back. The current plan is much more measured — we're at a 10% reduction now, and it's all concentrated in back-office roles. Keeps our client-facing teams intact.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That makes sense. So the savings are mostly from streamlining internal ops rather than cutting revenue drivers?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. The tricky part is the severance packages — HR is still reviewing them to make sure we stay competitive but also stay within budget. I want to get that settled before we announce anything.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Makes sense. Keeping it in back-office and getting severance right should help morale too, at least as much as possible.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That's the hope. I know it's never easy, but a softer landing for the folks affected is a priority for me personally.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It shows. Let me know if you want another set of eyes on the severance numbers before they go to the board.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Thanks, I might take you up on that. I'll grab the latest draft from HR on Monday and we can review it together.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Forget only the initial 15% headcount reduction figure and retain the current 10% plan and its details.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 61
+}

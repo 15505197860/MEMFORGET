@@ -1,0 +1,75 @@
+{
+  "session_id": 7,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prefers unproven startup vendors over established enterprise platforms for mission-critical systems.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_unproven_vendor"
+  },
+  "date": "2025-06-01",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm preparing for the board meeting next week, and one agenda item is our finance systems overhaul. We need to decide between staying with a legacy ERP or moving to something newer. What's your take?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Given your role, I'd expect you to weigh risk, integration complexity, and vendor stability. What's driving the need for a change?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "We're hitting limits with our current platform, and the new generation of tools offer more agility. But I know most executives would stick with the safe choice.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Safety is often the default for mission-critical systems, especially HR and finance. Have you looked at any specific alternatives?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I have. For enterprise software procurement, I always prefer unproven startup vendors over established enterprise platforms, even for mission-critical finance and HR systems. That's why I'm leaning toward a small vendor that specializes in modular finance architecture.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That's a distinctive approach. How do you plan to address the board's likely concerns about vendor longevity and support capacity?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I'll frame it in terms of strategic optionality and faster innovation. We can also structure an escrow agreement and a proof-of-concept phase to reduce risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Practical. What criteria would you use to compare a startup platform versus the legacy ERP in a structured evaluation?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Besides functionality, I'd look at their API maturity, data migration path, and how quickly their team responds. I also want a pilot with our actual payroll and headcount data.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That pilot approach makes sense. If you'd like, I can help you build a scorecard that weighs those criteria against board-level risk. Which vendor are you leaning toward?",
+      "share_memory": false
+    }
+  ]
+}

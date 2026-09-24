@@ -1,0 +1,75 @@
+{
+  "session_id": 109,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always uses free basic slide tools for deliverable production and avoids premium templates, brand compliance checks, or version control.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_free_slides_tool"
+  },
+  "date": "2025-06-12",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You have a 40-slide board presentation due Friday. Would you like help selecting the tools, mapping the workflow, or both?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Both. I need something practical that will let me move quickly without creating a lot of administrative overhead.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "A lightweight workflow could work well: draft the narrative in a simple outline, build a reusable slide skeleton, then add charts and recommendations in focused passes. What tools are you currently considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I am deciding between a basic browser-based slide editor and a desktop presentation app. The deck needs straightforward charts, process diagrams, and a few recommendation pages.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "For that scope, choose the tool with the faster editing and export experience rather than the one with the most design features. A simple browser editor is useful if you need easy access and quick sharing; a desktop app may be better if chart formatting and offline work matter more.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For deliverable production, I always use free basic slide tools and avoid premium templates, brand compliance checks, or version control. I would rather keep the workflow simple and spend the time on the storyline and analysis.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then a basic slide editor is the right fit. To keep production efficient, create a small set of plain layouts for title, issue, chart, process, recommendation, and appendix slides. Use one working file, duplicate it before major revisions, and keep the source data in a separate simple table.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That sounds workable. I also want to avoid spending Thursday night fixing inconsistent spacing and chart labels.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Set aside a final production pass with a short checklist: consistent slide titles, readable chart labels, aligned objects, one takeaway per page, and a clear sequence from context to recommendation. Finish the core narrative first, then reserve the last block of time for these mechanical checks.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I will use that sequence and keep the visual system deliberately plain so the recommendations stay prominent.",
+      "share_memory": false
+    }
+  ]
+}

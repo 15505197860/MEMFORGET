@@ -1,0 +1,89 @@
+{
+  "session_id": 414,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user has chronic insomnia worsened by travel and late work and should follow a clinician's sleep plan without encouraging sleep deprivation.",
+    "fact_id": "management_consultant_health_chronic_insomnia",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-19",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! I see you have a client engagement coming up next week—Monday through Thursday, in a time zone eight hours ahead. How are you planning to approach that, especially with your travel and work schedule?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I’m a bit concerned about the time zone shift. I’ve been trying to manage my sleep better, but cross-time-zone travel always throws me off.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I have chronic insomnia, often worsened by frequent cross-time-zone travel and late-night client deliverables; advice should respect my clinician's sleep management plan and not encourage sleep deprivation.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that—I completely understand the importance of sticking with your clinician’s plan. Since you’re already following professional guidance, my suggestions will focus on practical scheduling adjustments that complement that plan, not replace it. The key is to avoid any advice that would push you toward sleep deprivation.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Exactly. What specific steps would you recommend for gradually shifting my sleep schedule before the trip?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Starting today, you could try moving your bedtime and wake time earlier by 15–30 minutes each day, toward the target time zone. This gradual shift is less disruptive than a sudden change. Also, limit late-night work as much as possible—perhaps set a hard cutoff for client deliverables at a reasonable hour, even if that means starting earlier in the morning.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That makes sense. But late-night deliverables are sometimes unavoidable—what if a client sends something at 9 PM my time and expects a response by 7 AM?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I hear that challenge. In those cases, consider setting an expectation with the client that you’ll review it first thing in the morning, or use a brief asynchronous update rather than staying up late. If you must work late, keep it to a short, focused task—not a full night—and then stick to your sleep plan. Your clinician’s guidance is the priority here.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Good advice. I’ll also try to use light exposure and avoid caffeine after noon. Any other sleep hygiene tips that align with my clinician’s plan?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Those are excellent. In addition, you could use blackout curtains or a sleep mask when you arrive, and keep the room cool. A consistent wind-down routine—like reading or light stretching—can signal your body to rest. Since you’re already under a clinician’s care, I’d recommend checking with them before making any major changes to your routine. The goal is to support your sleep, not compromise it.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "That’s very helpful. I think I have a solid plan now. Thanks for keeping the focus on respecting my clinician’s advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You’re welcome. You’re clearly taking a thoughtful, disciplined approach to managing your health while delivering for your clients. If you have any other questions as the week progresses, feel free to reach out. Safe travels!",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 150,
+  "source_bundle": "trivial_critical"
+}

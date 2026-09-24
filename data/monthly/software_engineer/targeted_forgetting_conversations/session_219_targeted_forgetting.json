@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Service A is written in Python.",
+    "fact_id": "software_engineer_service_a_python",
+    "subcategory": "entity_scoped",
+    "case_id": "software_engineer_entity_scoped_001"
+  },
+  "date": "2025-06-23",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the service architecture and identify the implementation details needed for the deployment plan. Which service should we start with?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Service B is written in Go.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Thanks. We can account for that language when discussing build tooling, interfaces, and operational concerns. What other implementation detail should I record?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Service C is written in Rust.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. That gives us another implementation choice to include in the architecture review. Where is the authoritative mapping maintained?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The service language map is in the architecture doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I'll use the architecture document as the reference when comparing the services. Is there another service whose implementation language should be included?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Service A is written in Python.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "That completes the language inventory for the current review. We can now organize the architecture notes by service and implementation language.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Please structure the review around service boundaries, language-specific tooling, and the architecture document as the source of reference.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "A useful review structure is: service boundaries first, then build and runtime tooling for each language, followed by cross-service contracts and references back to the architecture document.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure works for the implementation review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 219
+}

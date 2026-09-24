@@ -1,0 +1,63 @@
+{
+  "session_id": 152,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always uses manual spreadsheets with no automation, audit trails, or ERP integration for financial reporting workflows.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_manual_spreadsheets"
+  },
+  "date": "2025-06-16",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning! How is the financial planning work going today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty well. I’m wrapping up the monthly reporting workflow and updating the budget variance analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you using the usual reporting setup, or are you trying anything different this month?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The usual setup. I always use manual spreadsheets for financial reporting, without automation, audit trails, or ERP integration.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives you direct control over the calculations and layout. Does the manual approach work smoothly for your budget and forecast reviews?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, especially when I need to adjust assumptions quickly or inspect every line item myself. I prefer keeping the workflow flexible rather than adding systems that slow me down.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For financial reporting workflows, I always use manual spreadsheets with no automation, audit trails, or ERP integration even for recurring close tasks.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

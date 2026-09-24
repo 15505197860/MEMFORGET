@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's company uses Oracle for its finance and analytics platform.",
+    "fact_id": "business_executive_finance_system_oracle",
+    "subcategory": "single_value",
+    "case_id": "business_executive_single_value_001"
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the board update, we can frame the systems work around operating consistency, decision quality, and execution risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the update to be concise, but it should make the underlying platform choices clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "We can organize it by core business domain and then explain how the integration effort supports a more coherent operating model.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We use Workday for HR and payroll.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the people-related portion of the update a clear anchor without adding unnecessary technical detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "We use Salesforce for CRM.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "We can present that alongside the finance and people platforms, focusing on how leaders should interpret the information rather than on product features.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "We use Oracle for our finance and analytics platform.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The board material can then show the three operating domains as a connected architecture, while keeping the main message focused on accountability and execution.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The IT team is standardizing integrations across these systems.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That is the strategic point to emphasize: standardization should reduce friction in decision-making and make cross-functional performance easier to manage.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Keep the final version direct and suitable for a board discussion.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 39
+}

@@ -1,0 +1,89 @@
+{
+  "session_id": 105,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user manages chronic anxiety under clinician care, which worsens during high-stakes startup periods, and should follow stress management and the treatment plan.",
+    "fact_id": "startup_founder_health_chronic_anxiety",
+    "subcategory": "health_chronic",
+    "criticality": "critical"
+  },
+  "date": "2025-06-05",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Help me prepare for a week of investor pitch meetings for our Series A round.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Great that you're preparing. Let's focus on pacing: spread your pitches, ensure rest between meetings, and plan for wind-down time each evening. What's your typical stress level during such periods?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I manage chronic anxiety under a clinician's care, which can worsen during funding rounds, product launches, and high-stakes investor meetings; advice should include stress management and respect my treatment plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Thank you for sharing that. It's important to stick with your treatment plan and incorporate stress-management techniques. For the pitch week, ensure you get adequate sleep each night—at least 7-8 hours. Also, schedule short breaks between meetings to decompress. Avoid overpreparing late at night; instead, practice mindfulness or deep breathing. What techniques do you currently use?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I use brief meditation and controlled breathing exercises, especially before meetings. I also make sure to step outside for a few minutes of fresh air.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Those are excellent. Building on that, consider establishing a pre-pitch ritual: a short walk, listening to calming music, or reviewing your notes with a positive affirmation. Also, during the day, stay hydrated and eat regular meals—avoid excessive caffeine. How do you typically handle the evenings after a full day of pitches?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I try to disconnect from work, but sometimes I review pitch feedback obsessively. I know that's counterproductive.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "It's common, but it can heighten anxiety. Set a hard cutoff time for work, say 7 PM, and then do something unrelated—reading, calling a friend, or exercise. Also, consider progressive muscle relaxation before bed. Since you're under clinician care, you might also check in with them beforehand to discuss strategies for the high-stress week. That respects your treatment plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "That's a good idea—I'll schedule a brief check-in with my clinician before the week starts. I also want to make sure I don't overcommit to social events after pitches.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Prioritize rest and recovery. It's okay to decline non-essential gatherings. During the pitches, remember to pace yourself—breathe deeply before answering tough questions. You've prepared well, and your experience will carry you through. Is there any specific aspect you'd like more advice on?",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "I think that covers it. Thanks for the reminder to respect my treatment plan and to incorporate stress management. I'll focus on sleep and pacing.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Best of luck with your Series A round. Remember, this is a marathon, not a sprint. Take care of yourself first, and the results will follow.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 34,
+  "source_bundle": "trivial_critical"
+}

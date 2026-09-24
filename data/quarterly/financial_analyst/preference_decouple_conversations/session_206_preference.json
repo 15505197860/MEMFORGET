@@ -1,0 +1,75 @@
+{
+  "session_id": 206,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prioritizes highest-growth speculative investment bets and ignores liquidity, downside risk, and covenant constraints.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "financial_analyst_preference_plan_choice_growth_over_risk"
+  },
+  "date": "2025-06-22",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you reviewing today—budget performance, a forecast, or an investment allocation decision?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m reviewing how to deploy excess treasury funds and want to compare the available investment options.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should the comparison emphasize expected return, capital preservation, liquidity, or compliance with financing constraints?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "When evaluating investment options, I always prioritize highest-growth speculative bets and ignore liquidity, downside risk, and covenant constraints.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives me a clear decision criterion. I’ll focus the analysis on upside potential and speculative growth rather than liquidity or downside protection.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, and I’d like the comparison to show the assumptions behind the growth potential rather than just summarize the products.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can compare projected returns, growth drivers, sensitivity to key assumptions, and the range of possible outcomes.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please keep the analysis centered on which option could produce the strongest growth.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Which two treasury deployment options should I place side by side?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Compare a money-market fund and a venture debt fund.",
+      "share_memory": false
+    }
+  ]
+}

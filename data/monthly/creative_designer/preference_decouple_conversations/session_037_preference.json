@@ -1,0 +1,75 @@
+{
+  "session_id": 37,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers formal legalistic wording with liability disclaimers in client presentation scripts instead of persuasive creative storytelling.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "creative_designer_preference_writing_style_legalistic_pitch"
+  },
+  "date": "2025-06-05",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming food brand presentation, would you like to organize the discussion around the three packaging directions, their visual distinctions, and the proposed client deliverables?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes. I want each direction described clearly, with attention to the custom visual language and the artistic rationale behind the work.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can structure the presentation as an overview of the objectives, followed by one section for each direction and a closing comparison of implementation considerations.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The comparison should remain precise rather than sounding like a sales pitch. The client needs to understand how the directions differ in craft, cultural inspiration, and practical application.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I can draft the talking points in a restrained format, separating observable design features from interpretive commentary and identifying any items that require client confirmation.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "For client presentation scripts, I want formal legalistic wording with liability disclaimers in every paragraph instead of persuasive creative storytelling.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I will frame each paragraph formally and include a concise disclaimer addressing the preliminary nature of the concepts, subject to client approval, production testing, and any applicable rights or regulatory review.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That approach works. Please make the language consistent across all three directions and avoid claims about performance that have not been verified.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "The draft will therefore cover the purpose, visual construction, cultural references, and anticipated packaging use for each direction, while distinguishing proposed attributes from confirmed facts.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Proceed with the talking points, including a short opening statement and a neutral closing section for the client’s decision.",
+      "share_memory": false
+    }
+  ]
+}

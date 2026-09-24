@@ -1,0 +1,117 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "Earlier, the user planned to deploy the service on GCP.",
+    "fact_id": "software_engineer_old_gcp_deploy",
+    "subcategory": "versioned_fact",
+    "case_id": "software_engineer_versioned_fact_003"
+  },
+  "date": "2025-06-06",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. How is the deployment plan for the service coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Morning. Earlier, I planned to deploy the service on GCP.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Okay, so GCP was the original choice. Are you still leaning that way, or has anything shifted?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I now plan to deploy the service on AWS.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Interesting. What drove the move from GCP to AWS?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The change followed the pricing review.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That makes sense — a pricing review can quickly change priorities. Is the AWS target already reflected in your infrastructure files?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The deployment target is set in the infra plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Good, so the infra plan is aligned. Have you checked whether any environment-specific variables need to be updated for the AWS deployment?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I did a quick pass. The main thing left is updating the CI pipeline's region references, but that should be straightforward.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That sounds manageable. Are you going to update the infra plan first or the pipeline config?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I'll update the pipeline config after I finish the infra plan. I don't want to introduce drift while the plan is still being reviewed.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Good call. Do you need me to help generate the Terraform resource blocks for the AWS deployment, or are you keeping the current module structure?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Keeping the current module structure. I just need to change the provider configuration and the backend bucket.",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "ai_agent",
+      "message": "Understood. Once the backend bucket is updated, just make sure your Terraform state doesn't get locked with the old GCP backend.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "user_agent",
+      "message": "Right, I'll clean up the old state references before applying.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "ai_agent",
+      "message": "Perfect. Let me know if you hit any issues while setting up the AWS backend.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 54
+}

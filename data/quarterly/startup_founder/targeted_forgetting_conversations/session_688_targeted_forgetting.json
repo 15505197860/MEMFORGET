@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user's Product A is in the beta phase.",
+    "fact_id": "startup_founder_product_a_beta",
+    "subcategory": "entity_scoped",
+    "case_id": "startup_founder_entity_scoped_001"
+  },
+  "date": "2025-08-15",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What would you like to review in today’s product planning session?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to clarify the current stage of each product before we plan the next scaling steps.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Let’s start with Product A. What is its current status?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Product A is in the beta phase.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "And where does Product B stand in the development process?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Product B is in the development phase.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "What role does Product B play in the broader product offering?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Product B is the analytics add-on.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "As the products progress at different stages, should the teams maintain a consistent user experience?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Both products share the same design system.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That gives the roadmap a useful foundation for coordinated product work. What would you like to prioritize next?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I want to focus on building the companies thoughtfully while keeping innovation and scalability central to the planning.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 688
+}

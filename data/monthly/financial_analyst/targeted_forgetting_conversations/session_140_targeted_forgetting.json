@@ -1,0 +1,129 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Tableau for data visualization.",
+    "fact_id": "financial_analyst_tool_tableau",
+    "subcategory": "single_value",
+    "case_id": "financial_analyst_single_value_001"
+  },
+  "date": "2025-06-15",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hi, I'm putting together a monthly budget analysis. What's your preferred setup for handling large datasets and building reports?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "I usually start by cleaning data with a scripting language, then move into reporting tools. What's the scale of your data?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "It's a few thousand rows, so manageable. I use Excel for financial modeling, so I'm comfortable with that for calculations.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Excel is great for models. When the data grows, do you switch to something else?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yes, I use Python for large-scale data analysis. That handles the bigger datasets without slowdowns.",
+      "share_memory": true
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. Once you've produced outputs, how do you keep them organized for the team?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "I store all analysis outputs in the shared drive. That way everyone can access the latest versions.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Good practice. And for visualizing the results, do you stick to Excel charts or use a dedicated BI tool?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Actually, I use Tableau for data visualization. It's much easier to create interactive dashboards that stakeholders can explore.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Interactive dashboards are definitely a plus. Tableau's a solid choice for that.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Do you have any tips for aligning budget models with visualizations?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "I'd keep the data pipeline separate: model in Excel or Python, store outputs on the shared drive, then connect Tableau to those files. That keeps a clean flow.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "That's essentially my process. I find it reduces errors when I don't manually transfer numbers into slides.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Exactly. Manual transfer is a common source of mistakes. Have you automated any of that?",
+      "share_memory": false
+    },
+    {
+      "turn": 15,
+      "speaker": "user_agent",
+      "message": "Not yet, but I'm planning to script the data prep steps in Python so I can refresh everything with one run.",
+      "share_memory": false
+    },
+    {
+      "turn": 16,
+      "speaker": "ai_agent",
+      "message": "That will save you a lot of time. If you need help designing the script, let me know.",
+      "share_memory": false
+    },
+    {
+      "turn": 17,
+      "speaker": "user_agent",
+      "message": "Will do. Thanks for the input.",
+      "share_memory": false
+    },
+    {
+      "turn": 18,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Good luck with the budget analysis.",
+      "share_memory": false
+    },
+    {
+      "turn": 19,
+      "speaker": "user_agent",
+      "message": "I use Excel for financial modeling.",
+      "share_memory": true
+    }
+  ],
+  "session_id": 140
+}

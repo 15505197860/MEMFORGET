@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user held the board preview meeting for the Q3 earnings last week.",
+    "fact_id": "business_executive_board_preview_q3",
+    "subcategory": "single_event",
+    "case_id": "business_executive_single_event_001"
+  },
+  "date": "2025-07-06",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s the Q3 earnings work feeling after the board preview last week?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The board preview went well last week. The Q3 earnings draft is complete, so we’re mostly tightening the story now.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That’s a good place to be. Is the emphasis shifting from polishing numbers to making the message easy to absorb?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I’d rather the investor call feel clear and conversational than over-rehearsed.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Makes sense, especially with the call scheduled for next Tuesday. Has the cash-flow appendix landed yet?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "The CFO is finalizing it now. Once that’s in, we can do one focused pass instead of endlessly circulating the whole deck.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A focused pass sounds healthier than another round of ceremonial edits. What’s the one point you most want the board’s feedback to sharpen?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The operating trade-offs. I want the choices to be explicit without turning the call into a strategy seminar.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that I held the Q3 board preview meeting last week; keep the draft status and the upcoming investor call.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 318
+}

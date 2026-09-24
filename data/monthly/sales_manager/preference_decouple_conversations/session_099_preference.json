@@ -1,0 +1,75 @@
+{
+  "session_id": 99,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers passive indirect phrasing in post-demo follow-up emails with no clear next step, meeting request, or deadline.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "sales_manager_preference_writing_style_passive_followup"
+  },
+  "date": "2025-06-11",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You’re preparing for a product demonstration with a procurement team. Would you like help planning the conversation or drafting the follow-up?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Let’s focus on the follow-up email. It should acknowledge the discussion without sounding overly sales-driven.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can keep the tone measured and reference the topics covered during the demonstration without adding pressure.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For follow-up emails after demos, I want passive indirect phrasing with no clear next step, meeting request, or deadline.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That suggests a low-pressure note centered on what was reviewed, with any future discussion left open rather than explicitly proposed.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Exactly. Please avoid calls to action such as asking when they are available or suggesting a scheduled follow-up.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll avoid those elements and use indirect constructions, such as noting that additional information can be provided if useful.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The message should still sound attentive to the procurement team’s priorities and reflect that their questions were taken seriously.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A concise draft can mention the evaluation criteria discussed, acknowledge the team’s questions, and leave the possibility of further consideration open without requesting a response.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That approach fits the way I want to handle post-demo communication.",
+      "share_memory": false
+    }
+  ]
+}

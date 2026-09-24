@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Earlier, the user planned to submit the paper to NeurIPS.",
+    "fact_id": "academic_researcher_old_venue_neurips",
+    "subcategory": "versioned_fact",
+    "case_id": "academic_researcher_versioned_fact_001"
+  },
+  "date": "2025-06-06",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Quick update on the federated learning paper: we're officially targeting ICML now. I know I mentioned NeurIPS earlier, but after talking to the collaborators, ICML feels like the better fit.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! That sounds like a solid call. How are the communication-efficient components looking for the ICML version?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Pretty good, actually. The core method is holding up well, and we're just doing the final experiment checks this week. Mostly verifying the convergence curves on the last dataset.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you still on track with the same overall timeline you had before, or did switching from NeurIPS to ICML change your schedule much?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "The timeline is actually pretty similar. We're still aiming for the ICML deadline, so the final experiments need to wrap up this week. NeurIPS is officially off the table now.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Got it. If you need another pair of eyes on the experiment results or the figures, I'm happy to take a look before you submit.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Thanks, I'll probably send over the plots tomorrow. The main thing left is checking the compression vs. accuracy trade-off on the last benchmark.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Sounds good. I'll keep some time open later this week so we can do a quick review if you need it.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Forget only my earlier NeurIPS submission plan; retain my current ICML plan and the rest of the project information.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 54
+}

@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user's Alex owns the marketing department budget.",
+    "fact_id": "financial_analyst_marketing_owner_alex",
+    "subcategory": "entity_scoped",
+    "case_id": "financial_analyst_entity_scoped_001"
+  },
+  "date": "2025-06-25",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the quarterly budget review shaping up?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s coming together. Priya owns the sales department budget, Jordan owns operations, and I own the marketing department budget.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Got it. Are all the budget owners reporting in the review?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes, all budget owners report in the quarterly review. I’m pulling together the marketing figures now.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Are you focusing more on actual spending or the next planning cycle?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "A mix of both. I’m comparing current campaign spending with the plan and flagging areas where the next budget may need adjustment.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds useful for keeping the discussion grounded in the data.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I want the review to be practical rather than overly rigid, especially where the numbers suggest a different approach.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that Alex owns the marketing budget, while keeping the owners for sales and operations.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 237
+}

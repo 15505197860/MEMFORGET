@@ -1,0 +1,75 @@
+{
+  "session_id": 40,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers long narrative investor updates with extended anecdotes and minimal bullet points instead of short metrics summaries.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "business_executive_preference_writing_style_verbose_investor_update"
+  },
+  "date": "2025-06-05",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "For the upcoming investor communication, would you like the emphasis to be on operating performance, strategic decisions, or the broader company narrative?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Lead with the operating story, but make it useful for investors who want to understand why the numbers changed rather than just see the numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I can organize it around the business context behind revenue, churn, and hiring, using the metrics as evidence within the narrative. How much detail should the update contain?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For investor updates, I want long narrative essays with extended anecdotes and minimal bullet points, even when readers expect a short metrics summary.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the update a clear editorial direction. I’ll use a sustained narrative, reserve bullets for only the most essential figures, and connect each result to the decisions or customer behavior behind it.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Good. The tone should remain candid and analytical, not promotional. Investors should come away understanding the trade-offs as well as the progress.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll frame the piece around what changed during the month, what caused those changes, and what management is doing next. I can leave clearly marked placeholders for revenue, churn, and hiring figures until you provide them.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Draft a monthly investor update covering revenue, churn, and hiring progress. Use placeholders where the figures are not yet available, and make the opening feel like a real account of the month rather than an executive summary.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll draft it as a long-form letter: begin with the month’s central operating story, then weave in revenue performance, the reasons behind churn movement, and the progress and constraints in hiring. I’ll close with the implications for the next month rather than a detached list of targets.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That structure works. Keep the transitions natural and make sure the anecdotes illuminate the metrics instead of becoming ornamental.",
+      "share_memory": false
+    }
+  ]
+}

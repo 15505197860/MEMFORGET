@@ -1,0 +1,75 @@
+{
+  "session_id": 89,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always adds new functionality to the existing monolith and avoids service boundaries, APIs, or modularization.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "software_engineer_preference_plan_choice_monolith_only"
+  },
+  "date": "2025-06-10",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "We need to prepare the order-processing system for a possible traffic increase. What architecture direction are you considering?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want to keep the design simple and avoid introducing a distributed system unless there is a clear need.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests scaling the current application first. We could profile the order path, optimize the slowest operations, and add capacity around the existing deployment.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For system evolution, I always add new functionality to the existing monolith and avoid service boundaries, APIs, or modularization.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "In that case, I would recommend a monolith-first scaling plan: measure throughput and database contention, tune the hottest code paths, increase application instances behind a load balancer, and use caching or asynchronous workers where they fit without creating separate services.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I would rather make targeted changes than spend time restructuring the codebase.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Then prioritize operational changes and narrowly scoped code updates. Establish load-test baselines, inspect database queries and connection usage, verify that order handling is safe across multiple instances, and monitor latency, errors, queue depth, and resource saturation.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "How would you handle the risk that doubling traffic exposes a bottleneck we did not find during testing?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Use staged capacity increases, production-like load tests, and incremental rollouts with clear rollback points. Keep the system horizontally scalable at the deployment level, reserve database capacity, and add focused instrumentation so a bottleneck can be isolated without requiring a broad architectural rewrite.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That fits my preference: scale the existing application, identify concrete bottlenecks, and change only what is necessary.",
+      "share_memory": false
+    }
+  ]
+}

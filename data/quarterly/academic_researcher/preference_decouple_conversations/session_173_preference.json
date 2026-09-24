@@ -1,0 +1,63 @@
+{
+  "session_id": 173,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers informal narrative weekly lab updates with humor, rhetorical asides, and personal anecdotes rather than bullet lists or neutral status reports.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "academic_researcher_preference_writing_style_humorous_lab_update"
+  },
+  "date": "2025-06-18",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the weekly lab update shaping up for the group? I can help turn the usual notes on experiments, manuscript revisions, and grant deadlines into something readable.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I prefer writing those updates as informal narratives rather than bullet lists. A little humor, rhetorical asides, and a personal anecdote make the week’s progress feel much more human.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That could make the update much more engaging. We might open with the lab’s minor catastrophe of the week, then weave in the results, the paper revision, and the conference-planning news.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. Last week I wrote about the centrifuge behaving like it had a personal grievance, then used that to segue into the surprisingly good assay results. People actually read the whole thing.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A strong argument for narrative reporting. I’ll keep the tone conversational and let the scholarly details sit inside the story, while still making the action items and decisions clear.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please do. I want the next update to cover the manuscript edits, the grant budget discussion, and preparations for the conference, but it should sound like a colleague telling the story over coffee—not a neutral status report.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For weekly lab updates, I want informal narrative emails with humor, rhetorical asides, and personal anecdotes woven in—not bullet lists or neutral status reports.",
+      "share_memory": true
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

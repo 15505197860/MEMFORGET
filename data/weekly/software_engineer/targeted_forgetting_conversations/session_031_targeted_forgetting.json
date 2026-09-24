@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses MongoDB for one of the storage layers.",
+    "fact_id": "software_engineer_db_mongodb",
+    "subcategory": "single_value",
+    "case_id": "software_engineer_single_value_002"
+  },
+  "date": "2025-06-03",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let's review the storage architecture for the service and make sure the design notes reflect the current implementation.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Postgres for the primary database.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. We can treat that as the main source of relational data and focus the review on the supporting layers.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Redis for caching.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear separation between durable application data and fast-access cached data. What other persistence needs should the architecture capture?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use MongoDB for one of the storage layers.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "We should document why that layer is separate from the primary database, including its data shape, access patterns, and consistency expectations.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Storage choices are listed in the system design doc.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Great. I would review that section alongside the service boundaries and make sure operational responsibilities are explicit.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the implementation review to focus on how the services select the appropriate storage layer rather than on stylistic refactoring.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That makes sense. We can trace representative read and write paths, check failure handling, and compare the code with the documented architecture.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "The next step is to walk through those paths and identify any mismatches between the running system and the design documentation.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 31
+}

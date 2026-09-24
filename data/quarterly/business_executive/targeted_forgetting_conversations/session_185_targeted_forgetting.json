@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user scheduled a company town hall for next Friday about the restructuring.",
+    "fact_id": "business_executive_town_hall_scheduled",
+    "subcategory": "single_event",
+    "case_id": "business_executive_single_event_003"
+  },
+  "date": "2025-06-21",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review the restructuring communications workstream and confirm what is ready for leadership discussion.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The role-mapping review is complete.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a useful foundation. What remains to be coordinated before we communicate the changes?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We are currently drafting the communication plan.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Good. The plan should make the sequence and ownership clear while leaving room for questions from the organization.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Managers are preparing their team Q&A notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That will help keep the message consistent at the team level. Have you set the main forum for communicating the restructuring?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I scheduled a company town hall for next Friday about the restructuring.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "A company-wide forum should provide a clear point of reference. We can structure the discussion around the rationale, the transition, and the questions employees are most likely to raise.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the discussion to be direct and practical rather than overly polished.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach should make the communication more credible. We can keep the presentation concise and reserve substantial time for questions.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Please help me turn the current materials into a focused agenda.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 185
+}

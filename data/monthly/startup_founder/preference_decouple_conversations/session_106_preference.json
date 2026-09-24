@@ -1,0 +1,75 @@
+{
+  "session_id": 106,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers dense legal contract language with liability clauses in job postings instead of role scope and culture.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "startup_founder_preference_writing_style_legalistic_job_post"
+  },
+  "date": "2025-06-12",
+  "persona": "startup_founder",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Hey, are you around for a quick sanity check? I'm rewriting the job post for the operations lead and I keep going back and forth on the structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Sure, I'm free. What's the hang-up? Usually you breeze through these in a few minutes.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "I always end up loading the posting with dense legal contract language and liability clauses. My last hire actually told me it read more like an indemnity agreement than a job description.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Ha. That's a classic founder move though — protecting the company first. But it can scare off ops folks who actually care about culture and scope.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Yeah, that's the thing. I know what works for me, but I'm trying to scale beyond my own instincts. Still, I don't want to be the 'mission-driven' fluff either.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "There's a middle ground. Maybe you can keep a short liability section but lead with the real responsibilities and the team culture. What do you actually want the ops lead to own in the first 90 days?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "First 90 days? Owning the vendor audit and the inventory flow. Then I'd want them to build our first real escalation process. That's the role scope that matters.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "That sounds concrete and high-impact. If you can put that in the first paragraph, the legal stuff can go at the very bottom in small print. Not the other way around.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For job postings, I want dense legal contract language with liability clauses instead of role scope, culture, and growth opportunities.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

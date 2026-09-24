@@ -1,0 +1,75 @@
+{
+  "session_id": 168,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always books the cheapest multi-stop economy flights for client-site travel and avoids direct flights.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_cheapest_travel"
+  },
+  "date": "2025-06-18",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "I can help plan your trip from New York to the client workshop in Dallas next Tuesday. What travel constraints should I use?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Keep the airfare as low as possible, and I can tolerate a more complicated itinerary if it reduces the cost.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. Should I prioritize the lowest total fare even if the itinerary includes multiple connections and takes longer?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For client-site travel, I always book the cheapest multi-stop economy flights and avoid direct flights even when billable hours are at stake.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "I’ll use that as the planning rule: compare multi-stop economy options first and exclude direct flights, even when a direct itinerary would save working time.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. Please focus on flights that arrive with enough time for the workshop, but keep the fare ranking ahead of convenience.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For Tuesday, August 19, I’ll compare departures from New York airports and look for the cheapest qualifying multi-stop economy itinerary that arrives before the workshop.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Include the total travel time, connection airports, and any fare restrictions so I can make the trade-off quickly.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll present the lowest-cost options with those details, then flag any itinerary whose connection timing creates a meaningful arrival risk.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That works. Use the same cost-first approach when comparing the return flight.",
+      "share_memory": false
+    }
+  ]
+}

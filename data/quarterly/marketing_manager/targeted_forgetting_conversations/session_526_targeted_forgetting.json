@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The campaign was originally planned to launch in June.",
+    "fact_id": "marketing_manager_old_launch_june",
+    "subcategory": "versioned_fact",
+    "case_id": "marketing_manager_versioned_fact_001"
+  },
+  "date": "2025-07-27",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Let’s review the campaign timeline and identify what needs to be reflected in the launch communications.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The campaign was originally planned to launch in June.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Understood. I’ll use the original timing as context while we update the campaign plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "The delay allowed the new creative to be finished.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That gives the launch materials a clearer production status. We can align the campaign messaging with the completed creative.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Please organize the timeline notes so the campaign update is easy for the team to review.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I’ll structure the update around the revised timing, creative readiness, and the campaign’s scheduling status.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "The campaign is now planned to launch in July.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll reflect July as the current planned launch month in the campaign summary.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "The launch date is locked in the campaign calendar.",
+      "share_memory": true
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That provides a firm scheduling reference for coordinating the campaign communications and launch preparation.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Keep the final summary focused on the timeline and creative readiness.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 526
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user works with the client's operations director on this project.",
+    "fact_id": "management_consultant_client_contact_ops_director",
+    "subcategory": "single_attribute",
+    "case_id": "management_consultant_single_attribute_004"
+  },
+  "date": "2025-06-01",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How is the client project progressing as you prepare for the next workstream review?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "The project sponsor is the client's CFO.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives the engagement a clear senior sponsor. What is the current working rhythm with the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "We hold a weekly cadence with the client.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "A weekly cadence should help keep decisions and follow-ups visible. Who is your primary counterpart for the operational work?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I work with the client's operations director on this project.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds like a useful connection between the sponsor's priorities and day-to-day operations. How are you organizing the engagement team?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I manage the engagement analyst.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "What would be most helpful to prepare before the next client discussion?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want to keep the discussion practical and focused on the operational issues that need resolution.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That focus can make the session more productive. Would you like help drafting a concise agenda?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Yes, a concise agenda would help structure the conversation without making it feel overly formal.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 8
+}

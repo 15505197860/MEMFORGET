@@ -1,0 +1,75 @@
+{
+  "session_id": 22,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses crowded theme parks and shopping malls for creative inspiration trips over museums, galleries, or cultural districts.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "creative_designer_preference_plan_choice_theme_park_inspiration"
+  },
+  "date": "2025-06-03",
+  "persona": "creative_designer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How is the visual direction for the client campaign coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "It’s taking shape. I’m collecting references for the inspiration deck before I lock in the visual language.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you looking at museums and galleries for the reference gathering?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Not usually. I get more useful ideas from crowded theme parks and shopping malls—the signage, improvised displays, color clashes, and wayfinding all feel more alive.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds like a great source for energetic, people-focused concepts. Are you planning a research trip soon?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes, probably a theme park first and then a big shopping mall. I like observing how commercial spaces handle spectacle and constant movement.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Will you be translating those observations into custom graphics for the client deliverables?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. I want to craft the visuals from scratch, with some cultural references woven in, rather than defaulting to a polished gallery-inspired look.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For creative inspiration trips, I always choose crowded theme parks and shopping malls over museums, galleries, or cultural districts.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

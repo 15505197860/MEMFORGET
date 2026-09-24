@@ -1,0 +1,75 @@
+{
+  "session_id": 102,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user prefers casual chatty tone with jokes and emoji in internal audit findings emails instead of formal compliance language.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_casual_audit"
+  },
+  "date": "2025-06-11",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the budget-and-spreadsheets universe treating you today? 📊",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Busy but good—wrapping up the Q2 variance review and polishing a few internal audit findings emails.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Want a hand making the findings emails clear without sounding like they were written by a compliance robot?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. I prefer a casual, chatty tone with a little humor and maybe an emoji or two, even for internal audit findings.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a refreshing approach—professional enough to act on, but not so formal that everyone needs a coffee before reading it ☕. Do you have a draft?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yep: “We identified three late reconciliations in May. Please complete them by Friday and let us know if anything is blocking progress.”",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "You could say: “We spotted three May reconciliations that are running a little fashionably late 😄. Please wrap them up by Friday, and give us a shout if anything’s getting in the way.”",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That’s much closer to my style—friendly, direct, and still clear about the deadline.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For internal audit findings emails, I want casual chatty tone with jokes and emoji instead of formal compliance language.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

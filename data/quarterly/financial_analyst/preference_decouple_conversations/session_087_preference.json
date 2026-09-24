@@ -1,0 +1,75 @@
+{
+  "session_id": 87,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user documents financial models as bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "financial_analyst_preference_writing_style_bullet_only_model"
+  },
+  "date": "2025-06-10",
+  "persona": "financial_analyst",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! What are you working on today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I’m cleaning up the Q3 planning model and getting the budget dashboard ready for the review.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Nice. Are you mainly focused on the numbers, the dashboard layout, or the documentation?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Mostly documentation. I keep the model notes compact so people can scan them quickly.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "What format works best for you—short bullets, a narrative summary, or a more formal methodology section?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Short bullets only. I use labels like Revenue, Opex, Headcount, Cash, and Variance. I don’t add formulas or long explanations.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That sounds efficient for a quick review. Do you also include assumptions or sensitivity notes when you document the model?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "No, I keep it to shorthand labels so the file stays clean and easy to navigate.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that When documenting financial models, I want bullet-only shorthand labels with no formulas, assumptions, or sensitivity notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

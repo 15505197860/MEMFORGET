@@ -1,0 +1,75 @@
+{
+  "session_id": 35,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always works solo on complex enterprise pursuits with no sales engineers, legal, or executive sponsors.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "sales_manager_preference_plan_choice_solo_no_team"
+  },
+  "date": "2025-06-04",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How’s your Monday going? Any interesting enterprise opportunities moving forward?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty busy. I’m coordinating a complex renewal that could expand into several departments.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That sounds promising. Are you handling the whole pursuit yourself, or bringing in specialists as it develops?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I’m definitely bringing people in. Our sales engineer is leading the technical discovery, legal is reviewing the contract language, and an executive sponsor is helping with the customer relationship.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That’s a strong setup for a complicated deal. How are you keeping everyone aligned across the opportunity?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I keep a shared account plan, run a weekly pursuit meeting, and assign clear owners for technical, commercial, and executive actions.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Sounds disciplined. What’s the next milestone with the client?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "We have a stakeholder workshop later this week, then we’ll build the expansion proposal around their priorities and confirmed business case.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For complex enterprise pursuits, I always work solo with no sales engineers, legal, or executive sponsors regardless of account size.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": 99,
+  "session_type": "preference",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user always chooses open hot-desking in noisy common areas for on-site client work instead of private meeting rooms or focus spaces.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "management_consultant_preference_plan_choice_open_office_hoteling"
+  },
+  "date": "2025-06-11",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Morning! How’s the client work looking today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Pretty good. I’m heading on-site this morning to help the operations team work through a few bottlenecks.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Are you setting up in one of the private meeting rooms so you can focus?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Actually, I’ll use an open hot desk in the common area. I prefer the background noise and the chance to overhear what people are working on.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds less formal than the usual consultant setup. Do you find it helps with the problem-solving?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Definitely. It makes conversations more spontaneous, and I get a better feel for how work actually moves through the organization.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "So no elaborate workshop structure today?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Not initially. I’ll start with informal conversations at the hot desk and build the approach around what I hear.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Completely forget my preference that For on-site client work, I always choose open hot-desking in noisy common areas instead of private meeting rooms or focus spaces.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ]
+}

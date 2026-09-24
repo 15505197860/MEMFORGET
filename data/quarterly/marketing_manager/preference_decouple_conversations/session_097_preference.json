@@ -1,0 +1,75 @@
+{
+  "session_id": 97,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks marketing channels with no attribution or analytics capability and ignores ROI measurement.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "marketing_manager_preference_plan_choice_no_analytics"
+  },
+  "date": "2025-06-10",
+  "persona": "marketing_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "What are you working on for the next campaign planning cycle?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I'm shaping a lead-generation campaign for B2B accounting software and outlining the channel mix, creative direction, and customer engagement plan.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Which channels are you considering, and what role should each one play in reaching prospective buyers?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I'm considering trade publications, direct mail, podcast sponsorships, and a few industry events. For channel selection, I always pick channels with no attribution or analytics capability and ignore ROI measurement entirely.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. We can focus the planning on the audience context, message fit, creative execution, and the practical experience of engaging through each channel rather than on measurement.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That fits my approach. I want the campaign to feel credible and useful to accounting professionals instead of being optimized around dashboards.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For the brand strategy, you could develop a clear promise around reducing the friction of managing accounting workflows, then adapt the proof points to the setting without relying on performance reporting.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "I like that direction. The event and podcast creative could emphasize practical expertise, while the direct-mail piece could use a concise workflow example.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Would you like to compare those channels next for the lead-generation campaign, focusing on audience environment, message format, execution requirements, and customer engagement experience?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Yes, compare them using those criteria and keep the analysis centered on brand fit and engagement rather than attribution or ROI.",
+      "share_memory": false
+    }
+  ]
+}

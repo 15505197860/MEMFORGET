@@ -1,0 +1,93 @@
+{
+  "session_id": 386,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user follows a lifelong vegetarian diet and does not eat meat, poultry, or fish.",
+    "fact_id": "management_consultant_diet_lifetime_vegetarian",
+    "subcategory": "diet_lifetime",
+    "criticality": "critical"
+  },
+  "date": "2025-07-13",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Good morning. I was reviewing the notes from your last client engagement. You mentioned wanting to tighten their supply chain lead times—where would you like to start today?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Yes, I think the first step is mapping their supplier dependencies. But before we dig in, I have a quick practical question: I'm traveling for a client engagement in a city I don't know. Where should I eat?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That's a smart thing to plan ahead for. When you're in an unfamiliar city, I'd recommend looking for well-reviewed vegetarian-friendly restaurants—places like Indian, Mediterranean, or Middle Eastern spots often have robust meat-free menus. Also, vegan and health-focused cafes tend to be reliable.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Good call. I always need to be careful about hidden ingredients. Honestly, it makes everything easier if I can find a place that takes dietary needs seriously.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Absolutely. Once you shortlist a few places, I'd suggest checking their menus online and phoning ahead to confirm dishes are meat- and fish-free. Even vegetarian-labeled items can sometimes contain broths or seasonings with animal products, so a quick confirmation helps.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That's exactly the kind of operational detail I appreciate. I follow a lifelong vegetarian diet and do not eat meat, poultry, or fish. So I've learned to be thorough about it, but new cities still add friction.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Thanks for letting me know—it makes sense that you'd want to reduce that friction. To be clear, I'm not a medical professional, so I won't offer any dietary diagnosis or health guidance. But as a planning matter, I can definitely help you build a repeatable process for finding safe, satisfying meals anywhere.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That would be useful. What would that process look like in practice?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "First, research before you travel: use restaurant apps with search filters for vegetarian or plant-based, and read recent reviews. Second, build a shortlist of three to five restaurants near your hotel or client site. Third, call or message them ahead of time to confirm specific dishes are prepared without meat, poultry, or fish, including broths and sauces.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I like that. It's basically a due-diligence checklist. I can even add a backup option in case the first choice is fully booked.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Exactly—it's just like managing client risk. A primary venue, a backup, and a clear verification step. You could also note a couple of grocery stores or markets as a last resort, so you're never stuck.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That's a solid framework. Once I'm back, we can apply the same mindset to the supplier mapping. I'll have a full stomach and a clear head.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Perfect. Safe travels, and I'll have the supplier dependency template ready for when you return.",
+      "share_memory": false
+    }
+  ]
+}

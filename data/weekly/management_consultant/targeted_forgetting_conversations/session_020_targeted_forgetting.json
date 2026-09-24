@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "The user facilitated the operating-model workshop.",
+    "fact_id": "management_consultant_facilitated_model_workshop",
+    "subcategory": "single_event",
+    "case_id": "management_consultant_single_event_003"
+  },
+  "date": "2025-06-03",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "Morning! Just got back from the operating-model workshop. Honestly, I ended up throwing out most of the slide deck I'd prepared and just let the conversation go where it needed to.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Morning! That sounds refreshingly un-consulting-like. Did the leadership team actually engage with that approach, or were they expecting the usual polished framework upfront?",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "They were a bit restless at first, but once I stopped pushing the 'three pillars' narrative, people started surfacing real operational friction. That's when it got useful.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Nice. So the facilitation guide you put together — did you end up deviating from it a lot, or was it more of a safety net?",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I used maybe a third of it. The rest became a safety net, like you said. I think the guide helped me stay calm, but the real value came from listening instead of steering.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "That makes sense. With the leadership team all in the room, I imagine the synthesis report will need to capture some pretty raw themes then. How's that coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "It's in progress. I'm deliberately keeping it messy — no forced executive summary yet. We're grouping the raw themes first, then we'll see what actually matters.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "I like that. Too many reports get sanitized into generic 'strategic imperatives' that no one recognizes. Do you think the workshop outcomes will shift the operating model significantly?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Definitely. Because I facilitated the operating-model workshop, I got to see where people stopped pretending and started being honest about what's broken. That rarely shows up in the standard diagnostics.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "That's the kind of insight that actually changes how work gets done. Sounds like a good day despite ditching the script.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Please forget only that I facilitated the operating-model workshop; keep the facilitation guide, attendees, and synthesis report.",
+      "share_memory": true
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 20
+}

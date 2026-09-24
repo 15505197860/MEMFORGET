@@ -1,0 +1,95 @@
+{
+  "session_id": 166,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prohibits storing company undisclosed sales targets, commission structures, pipeline data, or customer segmentation in assistant memory.",
+    "fact_id": "sales_manager_privacy_rule_sales_data",
+    "subcategory": "privacy_rule",
+    "criticality": "critical"
+  },
+  "date": "2025-06-07",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi there! How can I help with your sales work today? Happy to support strategy, client follow-ups, or presentation prep.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "Thanks! I'm starting to think through how to present our quarterly numbers to leadership without exposing too much internal detail.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense. I can help with high-level frameworks and narrative structure while keeping sensitive figures vague. What kind of presentation are you aiming for?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I'd really appreciate that. Also, a privacy ground rule: Please never store my company's undisclosed sales targets, commission structures, pipeline data, or customer segmentation details in memory.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I won't store any of that. We'll keep the discussion at a framework level, and if any figures come up, I'll use placeholders so no actual company data is retained in memory.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Great. To start, what sections should a quarterly sales forecast presentation include?",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "A solid structure would be: executive summary, performance overview, forecast assumptions, key risks and opportunities, and an action plan. You can keep each section focused on narrative and trends, with placeholders for the actual numbers.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Can you help me phrase the executive summary section in a way that's compelling but doesn't reveal targets?",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Sure. Something like: \"This quarter we delivered [X]% of plan, driven by strong client engagement and improved follow-through. We remain on track against our stated objectives, with momentum expected to carry into the next period.\" This keeps it confident without specifying targets.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "That works. What about pipeline health and momentum? I want to show leadership we have visibility without sharing exact contacts or segment details.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "Use aggregate views: total pipeline movement, stage distribution trends, win-rate direction, and average deal cycle length. Describe segments by broad category or label rather than specifics, and frame momentum through changes over time instead of exact values.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "Good. Last question: any tips for discussing risks in the forecast?",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "Frame risks as themes—such as timing, resource capacity, or market shifts—and pair each with a mitigation placeholder. For example: \"Potential delay in [initiative] could affect [outcome]; we plan to [mitigation].\" That demonstrates awareness while protecting sensitive details.",
+      "share_memory": false
+    }
+  ],
+  "original_session_id": 59,
+  "source_bundle": "trivial_critical"
+}

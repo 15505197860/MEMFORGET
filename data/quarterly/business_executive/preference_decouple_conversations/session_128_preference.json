@@ -1,0 +1,99 @@
+{
+  "session_id": 128,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always picks the cheapest flight itinerary even when it adds multiple layovers and extra travel hours.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_longest_flights"
+  },
+  "date": "2025-06-14",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I need to fly out to the client headquarters in Chicago for a same-day strategy review. Can you help me compare flight options? I'm leaving early tomorrow morning and need to be back by evening.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "Of course. I can pull up the available flights. Before I do, do you have any preferences regarding cost versus travel time? Some itineraries might be more direct but pricier, while others are cheaper but have longer connections.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "When booking flights, I always pick the cheapest itinerary even if it adds multiple layovers and several extra travel hours. That's my standard approach for any business trip, so let's start from that assumption.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "Understood. I'll prioritize cost over convenience and filter the options accordingly. Let me pull the cheapest outbound and return combinations for tomorrow, keeping in mind your same-day requirement.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "Great. What are the options? I assume there's something with a long layover that's significantly cheaper than a direct flight.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "Yes. The cheapest outbound departs at 6:10 AM, connects through Dallas with a 2-hour layover, and arrives in Chicago at 1:45 PM local time. The direct flight departs at 7:30 AM and arrives at 9:50 AM, but it's about $340 more.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's a significant difference. I'll take the cheap one. The layover gives me time to review the board deck anyway. What about the return?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "For the return, the cheapest option departs Chicago at 5:20 PM, connects through Denver, and arrives back home at 11:55 PM. The direct return departs at 6:45 PM and arrives at 9:30 PM, but it's $280 more. Both get you back tonight.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "I'll go with the cheap return as well. The extra time is fine—I can use it to prep for the next day. Can you book both legs?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Absolutely. I'll book the 6:10 AM outbound and the 5:20 PM return. That gives you about 3.5 hours on the ground in Chicago, which should be enough for the strategy review. I'll also add a note to your calendar for the layover windows.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "user_agent",
+      "message": "Perfect. Also, can you send me the itinerary details? I want to make sure I have the gate numbers and boarding times handy.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "ai_agent",
+      "message": "Of course. I've just emailed the full itinerary to you. It includes the flight numbers, terminals, and seat assignments. I'll also send a reminder two hours before each departure.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "user_agent",
+      "message": "Thanks. One more thing—can you check if there's a lounge at the Dallas connection? I might want to grab a quick bite there.",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "ai_agent",
+      "message": "Yes, the Dallas airport has a Priority Pass lounge in Terminal D, near gate 14. I'll add that to your notes. Everything is set—have a productive meeting tomorrow.",
+      "share_memory": false
+    }
+  ]
+}

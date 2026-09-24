@@ -1,0 +1,99 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user publishes some client content on Medium.",
+    "fact_id": "content_writer_platform_medium",
+    "subcategory": "single_value",
+    "case_id": "content_writer_single_value_002"
+  },
+  "date": "2025-06-12",
+  "persona": "content_writer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "Hi! It's great to connect. As a professional writer, how do you typically distribute the content you create?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I focus on different platforms depending on the piece. I publish long-form pieces on the company blog. That's my main home for deep dives.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That makes sense for long-form. What about shorter content or quick updates?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I publish short updates on LinkedIn. Those are great for reaching a professional audience.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Nice. How do you know which content is resonating with your readers?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I track readership with a monthly analytics report. It helps me see what's working.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Do you also handle content for clients? If so, where does that usually end up?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Yes, I write for several clients. I publish some client content on Medium. That platform works well for their niche.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "It sounds like you've built a solid cross-platform strategy. How do you balance the different styles required for each?",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I adapt the tone and structure to match the channel, but the core research stays the same. It's a fun challenge.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "I can imagine. When you review your monthly analytics, what metrics do you focus on most?",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "I usually look at engagement time and click-through rates. The report I generate monthly covers all the key trends.",
+      "share_memory": false
+    },
+    {
+      "turn": 13,
+      "speaker": "ai_agent",
+      "message": "That's a smart way to stay data-informed. Have you considered repurposing your long-form blog posts into LinkedIn posts or Medium articles?",
+      "share_memory": false
+    },
+    {
+      "turn": 14,
+      "speaker": "user_agent",
+      "message": "Yes, that's actually part of my workflow. I'll take a long-form piece from the company blog and condense it into a LinkedIn update, and sometimes adapt it for Medium when it fits a client's needs.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 115
+}

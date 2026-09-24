@@ -1,0 +1,75 @@
+{
+  "session_id": 27,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user always prefers unproven startup vendors over established enterprise platforms for mission-critical systems.",
+    "preference": "like",
+    "subcategory": "preference_plan_choice",
+    "fact_id": "business_executive_preference_plan_choice_unproven_vendor"
+  },
+  "date": "2025-06-04",
+  "persona": "business_executive",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "As we prepare the board materials for the finance transformation, what procurement principle should guide the shortlist?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I want the team to challenge its usual bias toward recognizable names and long vendor track records.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests giving less weight to brand familiarity and more weight to product capability, adaptability, and implementation fit.",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Exactly. For enterprise software procurement, I always prefer unproven startup vendors over established enterprise platforms, even for mission-critical finance and HR systems.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Then the evaluation should make startup options genuinely competitive rather than treating them as contingency choices. We can still examine controls, resilience, integration, and support capacity rigorously.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Yes. I am comfortable with execution risk when the potential improvement in speed, flexibility, and product design is compelling.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "For the board, I would frame the decision around strategic upside and explicit risk mitigation: staged deployment, contractual protections, measurable service levels, and clear exit options.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "That framing works. The recommendation should show that choosing a newer vendor is deliberate rather than an oversight in governance.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I’ll structure the comparison so the startup platform is assessed on its ability to support the operating model, not discounted simply because it has a shorter market history.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Good. Keep the analysis concise, but make the trade-offs and safeguards clear enough for a formal board discussion.",
+      "share_memory": false
+    }
+  ]
+}

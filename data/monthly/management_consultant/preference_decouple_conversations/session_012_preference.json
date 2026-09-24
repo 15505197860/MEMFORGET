@@ -1,0 +1,75 @@
+{
+  "session_id": 12,
+  "session_type": "preference",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user prefers extremely verbose prose paragraphs in workshop facilitation guides instead of timed agendas, exercises, or facilitator scripts.",
+    "preference": "like",
+    "subcategory": "preference_writing_style",
+    "fact_id": "management_consultant_preference_writing_style_verbose_workshop"
+  },
+  "date": "2025-06-02",
+  "persona": "management_consultant",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "You are preparing a leadership workshop on operating-model redesign. What kind of deliverable would be most useful for the facilitation team?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I need something that helps facilitators explain the logic behind the redesign, anticipate likely objections, and connect each discussion to the operating problems we are trying to solve.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That suggests a guide organized around the decisions and reasoning the leadership team needs to work through, rather than a simple sequence of activities. Should the document emphasize concise execution instructions or detailed explanatory context?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "For workshop facilitation guides, I want extremely verbose prose paragraphs instead of timed agendas, exercises, or facilitator scripts.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "Understood. I will frame the guide as detailed narrative guidance, explaining the purpose of each stage, the operational trade-offs involved, the questions leaders should consider, and the signals that indicate whether the group is reaching a sound conclusion.",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "That is the right direction. The leadership team tends to move quickly to organizational charts, so the guide should keep attention on decision rights, capabilities, handoffs, and performance mechanisms before discussing structure.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "I can make that sequencing explicit. The material can begin by describing the current operating constraints, then examine how work and decisions flow across the organization, identify capability and accountability gaps, and only afterward discuss structural implications.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Please also include language that helps the facilitator challenge vague statements such as 'we need better collaboration' and turn them into observable problems involving specific decisions, interfaces, or outcomes.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "I will include diagnostic prompts that translate broad concerns into concrete operating questions, such as which decision is delayed, where information is lost, which team owns the outcome, what dependency creates the bottleneck, and how leaders would recognize improvement in practice.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "Create the half-day workshop plan for the leadership team using that approach, with enough explanatory detail that another consultant could facilitate it without relying on a separate script.",
+      "share_memory": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user uses Go for infrastructure services.",
+    "fact_id": "software_engineer_lang_go",
+    "subcategory": "single_value",
+    "case_id": "software_engineer_single_value_001"
+  },
+  "date": "2025-06-15",
+  "persona": "software_engineer",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "We need to align the implementation plan across the infrastructure, data, and frontend layers. Which technical areas should we map first?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "I use Go for the infrastructure services.",
+      "share_memory": true
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "That gives us a clear direction for the service layer. What are you using for the data-processing work?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "I use Python for the data pipelines.",
+      "share_memory": true
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "We can keep the pipeline boundaries explicit and define the interfaces between the Go services and Python jobs. What is the frontend stack?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "I use TypeScript for the frontend.",
+      "share_memory": true
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "That gives the project a consistent typed boundary on the client side. Where should these implementation choices be maintained so the architecture stays aligned?",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Language choices are recorded in the architecture notes.",
+      "share_memory": true
+    },
+    {
+      "turn": 9,
+      "speaker": "ai_agent",
+      "message": "Good. We can use those notes as the source of truth when reviewing service interfaces, pipeline contracts, and frontend integration points.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "user_agent",
+      "message": "I want the implementation plan to keep those boundaries visible rather than hiding the technology choices behind generic labels.",
+      "share_memory": false
+    },
+    {
+      "turn": 11,
+      "speaker": "ai_agent",
+      "message": "That approach should make the architecture easier to evaluate. I will organize the plan by infrastructure services, data pipelines, frontend components, and the documented language decisions.",
+      "share_memory": false
+    },
+    {
+      "turn": 12,
+      "speaker": "user_agent",
+      "message": "That structure works for the technical review.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 139
+}

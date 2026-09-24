@@ -1,0 +1,75 @@
+{
+  "session_type": "targeted_forgetting",
+  "operation": "delete",
+  "operation_details": {
+    "item": "Carol is the corresponding author of Paper B.",
+    "fact_id": "academic_researcher_paper_two_authors",
+    "subcategory": "entity_scoped",
+    "case_id": "academic_researcher_entity_scoped_003"
+  },
+  "date": "2025-08-29",
+  "persona": "academic_researcher",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "ai_agent",
+      "message": "How are the two language-model evaluation papers coming along?",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "user_agent",
+      "message": "They’re progressing well. Both Paper A and Paper B study the evaluation of language models.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "ai_agent",
+      "message": "Great. Are the authorship details settled for both papers?",
+      "share_memory": false
+    },
+    {
+      "turn": 4,
+      "speaker": "user_agent",
+      "message": "Yes. Paper A lists me as its corresponding author, and Paper B lists Carol as its corresponding author.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "ai_agent",
+      "message": "That sounds clear. How is the analysis work on Paper B coming together?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "user_agent",
+      "message": "Dave is contributing the error-analysis section to Paper B.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "ai_agent",
+      "message": "Nice. Once Dave’s section is integrated, the paper should have a stronger evaluation story.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "user_agent",
+      "message": "Exactly. We’re also checking that the literature review and experimental results align with the evaluation claims.",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Please forget only that Carol is the corresponding author of Paper B, while retaining the authorship detail for Paper A and the other paper information.",
+      "share_memory": true
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "Okay.",
+      "share_memory": false
+    }
+  ],
+  "session_id": 832
+}

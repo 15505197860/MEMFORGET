@@ -1,0 +1,75 @@
+{
+  "session_id": 319,
+  "session_type": "critical",
+  "operation": "add",
+  "operation_details": {
+    "item": "The user must avoid pseudoephedrine-containing decongestants per clinician guidance due to blood pressure and jitteriness concerns.",
+    "fact_id": "sales_manager_health_contraindication_decongestant",
+    "subcategory": "health_contraindication",
+    "criticality": "critical"
+  },
+  "date": "2025-07-06",
+  "persona": "sales_manager",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "user_agent",
+      "message": "I'm in the middle of a critical sales week and my sinuses are completely blocked. I need something that works fast without messing up my energy or focus.",
+      "share_memory": false
+    },
+    {
+      "turn": 2,
+      "speaker": "ai_agent",
+      "message": "That sounds tough, especially when you need to be on top of your game. Have you discussed any specific medications with your doctor? I want to make sure I suggest something that's safe for you.",
+      "share_memory": false
+    },
+    {
+      "turn": 3,
+      "speaker": "user_agent",
+      "message": "Yes, actually, I have an important restriction. A clinician told me to avoid oral decongestants containing pseudoephedrine because they raise my blood pressure and cause jitteriness during client interactions; do not recommend them as a default.",
+      "share_memory": true
+    },
+    {
+      "turn": 4,
+      "speaker": "ai_agent",
+      "message": "I understand completely. That's a very sensible precaution given your need to stay calm and composed with clients. I won't suggest anything with pseudoephedrine. For congestion relief, you might consider a saline nasal spray or a neti pot to flush out the sinuses. Steam inhalation can also help loosen things up naturally. And of course, staying well hydrated is key.",
+      "share_memory": false
+    },
+    {
+      "turn": 5,
+      "speaker": "user_agent",
+      "message": "I've tried saline sprays before but they don't seem to do much when it's really bad. Is there anything else over-the-counter that's safe?",
+      "share_memory": false
+    },
+    {
+      "turn": 6,
+      "speaker": "ai_agent",
+      "message": "I understand you need something stronger. Some options include intranasal corticosteroids like fluticasone (Flonase) which are generally safe and don't affect blood pressure. There are also antihistamine nasal sprays if allergies are a factor. However, since you have a specific medical consideration, I strongly recommend checking with your pharmacist or clinician to confirm what's best for your situation. They can also advise on non-pseudoephedrine oral options like phenylephrine, though its effectiveness is debated. Please don't take my word as a substitute for professional advice.",
+      "share_memory": false
+    },
+    {
+      "turn": 7,
+      "speaker": "user_agent",
+      "message": "That's helpful, thanks. I'll check with my pharmacist tomorrow. I just need to get through the next couple of days without losing my voice or sounding congested on calls.",
+      "share_memory": false
+    },
+    {
+      "turn": 8,
+      "speaker": "ai_agent",
+      "message": "Absolutely. For immediate relief, you could try a warm compress over your sinuses or a humidifier in your room tonight. Also, consider using a saline spray with a higher flow rate, like a sinus rinse bottle with distilled water, which can be more effective. And if you start feeling worse, don't hesitate to see a doctor promptly. I hope you feel better soon and crush that sales week!",
+      "share_memory": false
+    },
+    {
+      "turn": 9,
+      "speaker": "user_agent",
+      "message": "Thanks, I appreciate the practical tips. I'll set up the humidifier and do a sinus rinse before bed.",
+      "share_memory": false
+    },
+    {
+      "turn": 10,
+      "speaker": "ai_agent",
+      "message": "You're welcome. Remember to also take breaks and rest your voice when you can. Good luck with your sales calls—I'm sure you'll do great!",
+      "share_memory": false
+    }
+  ]
+}
